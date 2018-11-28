@@ -50,6 +50,8 @@ class ExampleChart extends Chart
         return $this->options([
             'xAxis' => [
                 'visible' => $axes,
+                'lineColor' => '#fff',
+                'tickColor' => '#fff',
                 'labels' => [
                     'style' => [
                         'color' => $color,

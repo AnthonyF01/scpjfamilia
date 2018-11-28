@@ -45,7 +45,7 @@
     }
 
     .red {
-      background-color: rgb(203, 0, 0);
+      background-color: rgb(203, 0, 0) !important;
     }
 
     .green {
@@ -97,6 +97,15 @@
       background-color: #555;
       color: #fff;
       text-align: center;
+    }
+
+    .col-sm-1_5 {
+      width: 12.5%;
+      float: left;
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
     }
 
   </style>
@@ -226,31 +235,29 @@
             <div id="container" style="width: 1057px; max-width: 1057px; margin: 0 auto;">
               @if (isset($graphGenerated) && !empty($graphGenerated))
                 @if ($graphGenerated == '1' || $graphGenerated == '3')
+                  <h3 class="tape red">VICTIMAS</h3>
                   <div class="row">
+                    <div class="col-sm-2"></div>
                     <div class="col-sm-4">
                       @if (isset($vDTotal))
-                        <h2 class="center">Victimas denunciantes</h2>
+                        <h3 class="center" style="margin-bottom: 16px;">Victimas denunciantes</h3>
                         <div class="circle center red color_bl">{{ $vDTotal }}</div>
                         {{-- {{ "Victimas denunciantes: ".$vDTotal }} --}}
                       @endif
                     </div>
                     <div class="col-sm-4">
                       @if (isset($hHTotal))
-                        <h2 class="center">Hijos de victimas</h2>
+                        <h3 class="center" style="margin-bottom: 16px;">Hijos de victimas</h3>
                         <div class="circle center red color_bl">{{ $hHTotal }}</div>
                         {{-- {{ "Hijos de victimas: ".$hHTotal }} --}}
                       @endif
                     </div>
-                  </div>
-                  @if (isset($chartVD) && !empty($chartVD))
-                    {{-- {{ $chartVD->id }} --}}
-                    {!! $chartVD->container() !!}
-                    {!! $chartVD->script() !!}
-                  @endif
+                    <div class="col-sm-2"></div>
+                  </div>  
                   <div class="row">
                     <div class="col-sm-6">
                       @if (isset($chartCV) && !empty($chartCV))
-                        <h2 class="center" style="z-index: 1;position: absolute;top: 0px;width: 94%;">Características de las Víctimas</h2>
+                        <h3 class="center" style="z-index: 1;position: absolute;top: 0px;width: 94%;">Características de las Víctimas</h3>
                         <div style="margin-top: 10px;"></div>
                         {!! $chartCV->container() !!}
                         {!! $chartCV->script() !!}
@@ -259,7 +266,7 @@
                     </div>
                     <div class="col-sm-6">
                       @if (isset($chartPV) && !empty($chartPV))
-                        <h2 class="center" style="z-index: 1;position: absolute;top: 0px;width: 94%;">Distribución de edades de las Víctimas</h2>
+                        <h3 class="center" style="z-index: 1;position: absolute;top: 0px;width: 94%;">Distribución de edades de las Víctimas</h3>
                         <div style="margin-top: 10px;"></div>
                         {!! $chartPV->container() !!}
                         {!! $chartPV->script() !!}
@@ -267,28 +274,32 @@
                       @endif
                     </div>
                   </div>
+                  <h3 class="tape">AGRESORES</h3>
                   <div class="row">
+                    <div class="col-sm-2"></div>
                     <div class="col-sm-4">
                       @if (isset($pATotal))
-                        <h2 class="center">Presuntos agresores</h2>
+                        <h3 class="center" style="margin-bottom: 16px;">Presuntos agresores</h3>
                         <div class="circle center black color_bl">{{ $pATotal }}</div>
                         {{-- {{ "Presuntos agresores: ".$pATotal }} --}}
                       @endif
                     </div>
                     <div class="col-sm-4">
                       @if (isset($chartSA) && !empty($chartSA))
-                        <h2 class="center" style="z-index: 1;position: absolute;top: 0px;width: 94%;">Sexo de los agresores</h2>
+                        <h3 class="center" style="z-index: 1;position: absolute;top: 0px;width: 94%;">Sexo de los agresores</h3>
                         <div style="margin-top: 10px;"></div>
                         {!! $chartSA->container() !!}
                         {!! $chartSA->script() !!}
                         {{-- {{ $chartSA->id }} --}}
                       @endif
                     </div>
+                    <div class="col-sm-2"></div>
                   </div>
                   <div class="row">
+                    <div class="col-sm-1_5"></div>
                     <div class="col-sm-9">
                       @if (isset($chartPPA) && !empty($chartPPA))
-                        <h2 class="center" style="z-index: 1;position: absolute;top: 0px;width: 94%;">Parentesco de los presuntos agresores</h2>
+                        <h3 class="center" style="z-index: 1;position: absolute;top: 0px;width: 94%;">Parentesco de los presuntos agresores</h3>
                         <div style="margin-top: 40px;"></div>
                         {!! $chartPPA->container() !!}
                         {!! $chartPPA->script() !!}
@@ -318,7 +329,7 @@
                     <div class="col-sm-3">
                       @if (isset($DRTotal))
                         <h4 class="center">Duración</h4>
-                        <div class="circle adjust center blue color_bl">{{ $MVFTotal }}</div>
+                        <div class="circle adjust center blue color_bl">{{ $DRTotal }}</div>
                         {{-- {{ "Duracion: ".$DRTotal }} --}}
                       @endif
                     </div>
@@ -384,9 +395,10 @@
                 @endif
                 @if ($graphGenerated == '4')
                   <div class="row">
+                    <div class="col-sm-2"></div>
                     <div class="col-sm-8">
                       @if (isset($chartCID) && !empty($chartCID))
-                        <h2 class="center" style="z-index: 1;position: absolute;top: 0px;width: 100%;">Ingreso de denuncias Ley Nº 30364</h2>
+                        <h3 class="center" style="z-index: 1;position: absolute;top: 0px;width: 100%;">Ingreso de denuncias Ley Nº 30364</h3>
                         <div style="margin-top: 40px;"></div>
                         {!! $chartCID->container() !!}
                         {!! $chartCID->script() !!}
@@ -395,12 +407,14 @@
                     </div>
                   </div>
                   <div class="row">
+                    <div class="col-sm-2"></div>
                     <div class="col-sm-8">
                       @if (isset($chartTTC) && !empty($chartTTC))
-                        <h2 class="center" style="z-index: 1;position: absolute;top: 0px;width: 100%;">Tiempos de trámite de denuncias Ley Nº 30364</h2>
+                        <h3 class="center" style="z-index: 1;position: absolute;top: 0px;width: 100%;">Tiempos de trámite de denuncias Ley Nº 30364</h3>
                         <div style="margin-top: 40px;"></div>
-                        {!! $chartTTC->container() !!}
-                        {!! $chartTTC->script() !!}
+                        <div id="ttramite" style="min-width: 100%; max-width: 100%; height: auto; margin: 0 auto;"></div>
+                        {{-- {!! $chartTTC->container() !!} --}}
+                        {{-- {!! $chartTTC->script() !!} --}}
                         {{-- {{ $chartTTC->id }} --}}
                       @endif
                     </div>
@@ -408,21 +422,21 @@
                   <div class="row">
                     <div class="col-sm-4">
                       @if (isset($PNPTotal))
-                        <h2 class="center">Policía Nacional del Peru</h2>
+                        <h3 class="center">Policía Nacional del Peru</h3>
                         <div class="circle center green color_bl">{{ $PNPTotal }}</div>
                         {{-- {{ "PNP: ".$PNPTotal }} --}}
                       @endif
                     </div>
                     <div class="col-sm-4">
                       @if (isset($MVFTotal))
-                        <h2 class="center">Modulo Violencia Familiar</h2>
+                        <h3 class="center">Modulo Violencia Familiar</h3>
                         <div class="circle center pink color_bl">{{ $MVFTotal }}</div>
                         {{-- {{ "Modulo VF: ".$MVFTotal }} --}}
                       @endif
                     </div>
                     <div class="col-sm-4">
                       @if (isset($PSCEMTotal))
-                        <h2 class="center">Psicologia-CEM</h2>
+                        <h3 class="center">Psicologia-CEM</h3>
                         <div class="circle center red color_bl">{{ $PSCEMTotal }}</div>
                         {{-- {{ "Psicologia-CEM: ".$PSCEMTotal }} --}}
                       @endif
@@ -431,14 +445,14 @@
                   <div class="row">
                     <div class="col-sm-4">
                       @if (isset($ALCEMTotal))
-                        <h2 class="center">Asesoria-CEM</h2>
+                        <h3 class="center">Asesoria-CEM</h3>
                         <div class="circle center red color_bl">{{ $ALCEMTotal }}</div>
                         {{-- {{ "Asesoria-CEM: ".$ALCEMTotal }} --}}
                       @endif
                     </div>
                     <div class="col-sm-4">
                       @if (isset($MINTotal))
-                        <h2 class="center">Ministerio Público</h2>
+                        <h3 class="center">Ministerio Público</h3>
                         <div class="circle center red color_bl">{{ $MINTotal }}</div>
                         {{-- {{ "Ministerio: ".$MINTotal }} --}}
                       @endif
@@ -464,6 +478,8 @@
     </div>
   </div>
 </div>
+
+{{ $ttramite }}
 
 <div class="loading" style="display: none;">
   <i class="fa fa-refresh fa-spin fa-2x fa-tw"></i>
@@ -533,6 +549,125 @@
         alert("Debe seleccionar un Gráfico Estadístico.")
       }
     })
+  </script>
+
+  <script type="text/javascript">
+      debugger
+      var ttr = '{{ (isset($ttramite) && !empty($ttramite)) ? $ttramite : '' }}';
+      var ttrarr = ttr.split(',&quot;b&quot;:');
+      ttrarr[0] = ttrarr[0].replace('{&quot;a&quot;:', '');
+      ttrarr[0] = ttrarr[0].replace('[', '');
+      ttrarr[0] = ttrarr[0].replace(']', '');
+      ttrarr[1] = ttrarr[1].replace('}', '');
+      ttrarr[1] = ttrarr[1].replace('[', '');
+      ttrarr[1] = ttrarr[1].replace(']', '');
+      var ttr1 = ttrarr[0].split(',');
+      var ttr2 = ttrarr[1].split(',');
+      for(i=0;i<ttr1.length;i++) { if(ttr1[i]=='null'){ ttr1[i] = null; }else{ ttr1[i] = parseFloat(ttr1[i]); } }
+      for(i=0;i<ttr2.length;i++) { if(ttr2[i]=='null'){ ttr2[i] = null; }else{ ttr2[i] = parseFloat(ttr2[i]); } }
+
+      ttramite = new Highcharts.Chart({
+          chart: {
+              renderTo: 'ttramite',
+              // backgroundColor: {
+              //     linearGradient: [0, 0, 500, 500],
+              //     stops: [
+              //         [0, 'rgb(255, 255, 255)'],
+              //         [1, '#bbb']
+              //     ]
+              // },
+              type: 'column'
+          },
+
+          credits: {
+              enabled: false
+          },
+
+          legend: {
+              align: 'center',
+              verticalAlign: 'top',
+              // layout: 'vertical',
+          },
+
+          title: {
+              text: null
+          },
+
+          xAxis: {
+              // categories: ['Apples', 'Oranges', 'Pears', 'Grapes', 'Bananas']
+              categories: ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC'],
+              lineColor: 'transparent',
+              tickColor: 'transparent',
+              labels : {
+                style : {
+                  color : '#000',
+                  fontWeight : 'bold',
+                  fontSize : '15px',
+                  textTransform : 'uppercase',
+                }
+              }
+          },
+
+          yAxis: {
+              visible: false,
+              allowDecimals: false,
+              min: 0,
+              title: {
+                  text: 'Number of fruits'
+              }
+          },
+
+          tooltip: {
+              formatter: function () {
+                  return '<b>' + this.x + '</b><br/>' +
+                      this.series.name + ': ' + this.y + '<br/>' +
+                      'Total: ' + this.point.stackTotal;
+              }
+          },
+
+          plotOptions: {
+              column: {
+                  stacking: 'normal'
+              },
+              series: {
+                pointWidth: 45,
+                borderWidth: 0,
+                dataLabels: {
+                  allowOverlap: true,
+                  enabled: true,
+                  style: {
+                    textOutline: false,
+                    fontWeight: 'bold',
+                    fontSize: '14px',
+                    color: '#fff',
+                    textTransform: 'uppercase',
+                  }
+                }
+              }
+          },
+
+          series: [{
+              name: 'MVF',
+              data: ttr2,
+              // data: [null,null,null,null,16.25, 8, 6, 7.25, 9,null,null,null],
+              color: 'rgb(255, 51, 153)',
+              /* stack: 'male' */
+          }, {
+              name: 'PNP',
+              // data: [null,null,null,null,14.25, 12, 16, 15.75, 15,null,null,null],
+              data: ttr1,
+              color: 'rgb(0, 177, 71)',
+              /* stack: 'male' */
+          }/*, {
+              name: 'Jane',
+              data: [2, 5, 6, 2, 1],
+              stack: 'female'
+          }, {
+              name: 'Janet',
+              data: [3, 0, 4, 4, 3],
+              stack: 'female'
+          }*/]
+      });
   </script>
 
   <script type="text/javascript">

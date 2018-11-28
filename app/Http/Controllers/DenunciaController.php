@@ -1355,6 +1355,95 @@ class DenunciaController extends Controller
                             'fontSize' => '20px',
                          ]);
 
+                // Reemplazo de tiempos de tramite
+                $ttramite = [];
+                $sqlTT1 = " SELECT distinct a.mes, sum(a.dias_pnp_den) as suma, avg(a.dias_pnp_den) as promedio, count(*) as total from (
+                                select extract(month FROM d.fformalizacion) as mes, (case 
+                                    when d.fdenuncia is not NULL then 
+                                        case 
+                                            when d.fformalizacion is not NULL then DATEDIFF(d.fformalizacion,d.fdenuncia) 
+                                            else 0
+                                        end
+                                    when d.fdenuncia is NULL then 0 end 
+                                ) as dias_pnp_den  from denuncia d 
+                                where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                                AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
+                if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
+                    $sqlPSCEM .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
+                }
+                if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
+                    $sqlPSCEM .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
+                }
+                $sqlTT1 .= " ) as a
+                            group by a.mes ";
+
+                $queryTT1 = DB::select(DB::raw($sqlTT1));
+
+                for ($i=0; $i < count($meses); $i++) { 
+                    if (count($queryTT1)>0) {
+                        $_aux = 0;
+                        for ($j=0; $j < count($queryTT1); $j++) { 
+                            if ($meses[$i] == $queryTT1[$j]->mes) {
+                                $_total = $queryTT1[$j]->promedio;
+                                $_aux = 1;
+                                $j = count($queryTT1);
+                            }
+                        }
+                        if ($_aux == 1) {
+                            $ttramite['a'][] = (double)$_total;
+                        }else{
+                            $ttramite['a'][] = null;
+                        }
+                    }else{
+                        $ttramite['a'][] = null;
+                    }
+                }
+
+                $sqlTT2 = " SELECT distinct a.mes, sum(a.dias_modulo) as suma, avg(a.dias_modulo) as promedio, count(*) as total from (
+                                select extract(month FROM d.fformalizacion) as mes, (case 
+                                    when d.fformalizacion is not NULL then 
+                                        case 
+                                            when d.faudiencia is not NULL then DATEDIFF(d.faudiencia,d.fformalizacion)
+                                            else 0
+                                        end
+                                    when d.fformalizacion is NULL then '0' end 
+                                ) as dias_modulo from denuncia d
+                                where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                                AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
+                if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
+                    $sqlPSCEM .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
+                }
+                if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
+                    $sqlPSCEM .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
+                }
+                $sqlTT2 .= " ) as a
+                            group by a.mes ";
+
+                $queryTT2 = DB::select(DB::raw($sqlTT2));
+
+                for ($i=0; $i < count($meses); $i++) { 
+                    if (count($queryTT2)>0) {
+                        $_aux = 0;
+                        for ($j=0; $j < count($queryTT2); $j++) { 
+                            if ($meses[$i] == $queryTT2[$j]->mes) {
+                                $_total = $queryTT2[$j]->promedio;
+                                $_aux = 1;
+                                $j = count($queryTT2);
+                            }
+                        }
+                        if ($_aux == 1) {
+                            $ttramite['b'][] = (double)$_total;
+                        }else{
+                            $ttramite['b'][] = null;
+                        }
+                    }else{
+                        $ttramite['b'][] = null;
+                    }
+                }
+
+                $ttramite = json_encode($ttramite);
+
+
                 // PS-CEM
                 $sqlPSCEM = "SELECT sum(d.psicologia) as total from denuncia d 
                         where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
@@ -1503,9 +1592,10 @@ class DenunciaController extends Controller
                     $graphGenerated = '4';
                     // array de ids de las graficas
                     $idChartArr[] = $chartCID->id;
-                    $idChartArr[] = $chartTTC->id;
+                    // $idChartArr[] = $chartTTC->id;
+                    $idChartArr[] = "ttramite";         // id del grafico generado manualmente
                     $idChartArr = json_encode($idChartArr);
-                    return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','DPTotal','chartCID','PNPTotal','MVFTotal','chartTTC','PSCEMTotal','ALCEMTotal','MINTotal','idChartArr','request','graphGenerated'));
+                    return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','DPTotal','chartCID','PNPTotal','MVFTotal','chartTTC','PSCEMTotal','ALCEMTotal','MINTotal','ttramite','idChartArr','request','graphGenerated'));
                 }
 
 

@@ -6,7 +6,7 @@
     body {
       font-size: 12px;
       /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
-      font-family: serif;
+      font-family: 'Source Sans Pro',sans-serif;
     }
 
     /* table-cell */
@@ -344,7 +344,20 @@
     }
 
     .bcont {
-      height: 125px;
+      height: 100px;
+    }
+
+    .cadjust {
+      margin: 30px auto 0 auto;
+      font-size: 15px;
+      font-weight: bold;
+      width: 120px;
+      height: 120px;
+      line-height: 140px;
+      vertical-align: middle;
+      -webkit-border-radius: 60px;
+      -moz-border-radius: 60px;
+      border-radius: 60px;
     }
 
   </style>
@@ -436,36 +449,43 @@
     @endif
 
     @if ($request['graph'] == '2')
+      <br>
       <div class="div-table" style="margin-bottom: 20px;">
-        <div class="div-cell cell-2_4 nplr">
+        <div class="div-cell cell-2 nplr">
           <div class="box ">
-            <center><h3 class="headBox min ">ATENCION PSICOLOGICA</h3></center>
-            <div class="boxBody "><div class="circle red color_bl">{{ $request['ApTotal'] }}</div></div>
+            <center><h4 class="headBox min ">ATENCION PSICOLOGICA</h4></center>
+            <div class="boxBody "><div class="cadjust red color_bl">{{ $request['ApTotal'] }}</div></div>
           </div>
         </div>
-        <div class="div-cell cell-2_4 nplr">
+        <div class="div-cell cell-2 nplr">
           <div class="box  ">
-            <center><h3 class="headBox min  blank">ASISTENCIA LEGAL</h3></center>
-            <div class="boxBody "><div class="circle red color_bl">{{ $request['AlTotal'] }}</div></div>
+            <center><h4 class="headBox min  blank">ASISTENCIA LEGAL</h4></center>
+            <div class="boxBody "><div class="cadjust red color_bl">{{ $request['AlTotal'] }}</div></div>
           </div>
         </div>
-        <div class="div-cell cell-2_4 nplr">
+        <div class="div-cell cell-2 nplr">
           <div class="box ">
-            <center><h3 class="headBox min ">DENUNCIA POLICIAL</h3></center>
-            <div class="boxBody "><div class="circle green color_bl">{{ $request['DPTotal'] }}</div></div>
+            <center><h4 class="headBox min ">DENUNCIA POLICIAL</h4></center>
+            <div class="boxBody "><div class="cadjust green color_bl">{{ $request['DPTotal'] }}</div></div>
           </div>
         </div>
-        <div class="div-cell cell-2_4 nplr">
+        <div class="div-cell cell-2 nplr">
           <div class="box  ">
-            <center><h3 class="headBox min  blank">CALIFICACION DENUNCIAS</h3></center>
+            <center><h4 class="headBox min  blank">CALIFICACION {{-- DENUNCIAS --}}</h4></center>
             {{-- <div class="boxBody color_bl"><h2 style="margin-top: 80px">{{ $request['AJTotal'] }}</h2></div> --}}
-            <div class="bodyGraph" ><img class="img2" src="{{ $splitImg[0] }}" height="auto" width="100%" style="margin-top: -20px"></div>
+            <div class="bodyGraph" ><img class="img2" src="{{ $splitImg[0] }}" height="auto" width="100%" style="margin-top: 5px"></div>
           </div>
         </div>
-        <div class="div-cell cell-2_4 nplr">
+        <div class="div-cell cell-2 nplr">
           <div class="box ">
-            <center><h3 class="headBox min ">AUDIENCIAS JUDICIALES</h3></center>
-            <div class="boxBody "><div class="circle pink color_bl">{{ $request['AJTotal'] }}</div></div>
+            <center><h4 class="headBox min ">AUDIENCIAS JUDICIALES</h4></center>
+            <div class="boxBody "><div class="cadjust pink color_bl">{{ $request['AJTotal'] }}</div></div>
+          </div>
+        </div>
+        <div class="div-cell cell-2 nplr">
+          <div class="box  ">
+            <center><h4 class="headBox min  blank">V-A REINCIDENTES</h4></center>
+            <div class="bodyGraph" ><img class="img2" src="{{ $splitImg[1] }}" height="auto" width="100%" style="margin-top: 5px"></div>
           </div>
         </div>
       </div>
@@ -477,35 +497,32 @@
       <hr style="margin-bottom:20px">
       
       <div class="div-table" >
-        <div class="div-cell cell-2_4 nplr">
-          <div class="box  ">
-            <center><h3 class="headBox min  blank">V-A REINCIDENTES</h3></center>
-            <div class="bodyGraph" ><img class="img2" src="{{ $splitImg[1] }}" height="auto" width="100%" style="margin-top: -20px"></div>
-          </div>
-        </div>
-
-        <div class="div-cell cell-2_4 nplr">
+        <div class="div-cell cell-2 nplr">
           <div class="box ">
-            <center><h3 class="headBox min ">PNP</h3></center>
-            <div class=" center"><div class="circle green color_bl">{{ $request['PNPTotal'] }}</div></div>
+            <center><h4 class="headBox min ">PNP</h4></center>
+            <div class=" center"><div class="cadjust green color_bl">{{ $request['PNPTotal'] }}</div></div>
           </div>
         </div>
-        <div class="div-cell cell-2_4 nplr">
+        <div style="margin-left: 155px; font-weight: bold; font-size: 50px; float: left; position: absolute; top: 565px;">+</div>
+        <div class="div-cell cell-2 nplr">
           <div class="box  ">
-            <center><h3 class="headBox min  blank">MODULO VF</h3></center>
-            <div class=" center"><div class="circle pink color_bl">{{ $request['MVFTotal'] }}</div></div>
+            <center><h4 class="headBox min  blank">MODULO VF</h4></center>
+            <div class=" center"><div class="cadjust pink color_bl">{{ $request['MVFTotal'] }}</div></div>
           </div>
         </div>
-        <div class="div-cell cell-2_4 nplr">
+        <div style="margin-left: 325px; font-weight: bold; font-size: 50px; float: left; position: absolute; top: 565px;">=</div>
+        <div class="div-cell cell-2 nplr">
           <div class="box ">
-            <center><h3 class="headBox min ">DURACION</h3></center>
-            <div class=" center"><div class="circle blue color_bl">{{ $request['DRTotal'] }}</div></div>
+            <center><h4 class="headBox min ">DURACION</h4></center>
+            <div class=" center"><div class="cadjust blue color_bl">{{ $request['DRTotal'] }}</div></div>
           </div>
         </div>
-        <div class="div-cell cell-2_4 nplr">
+        <div class="div-cell cell-2 nplr"></div>
+        <div class="div-cell cell-2 nplr"></div>
+        <div class="div-cell cell-2 nplr">
           <div class="box  ">
-            <center><h3 class="headBox min  blank">REMISION</h3></center>
-            <div class=" center"><div class="circle blue color_bl">{{ $request['REMTotal'] }}</div></div>
+            <center><h4 class="headBox min  blank">REMISION</h4></center>
+            <div class=" center"><div class="cadjust blue color_bl">{{ $request['REMTotal'] }}</div></div>
           </div>
         </div>
       </div>
@@ -536,10 +553,10 @@
           <h4 class="center">Centro de Emergencia Mujer<br>CEM</h4>
           <div class="bcont">
             <div class="div-table">
-              <div class="div-cell cell-6 nplr" style="height: 125px; ">
+              <div class="div-cell cell-6 nplr" style="height: 100px; ">
                 <h2 class="center color_bl red" style="padding: 10px; margin: 0px 20px; ">{{ $request['PSCEMTotal'] }}</h2>
               </div>
-              <div class="div-cell cell-6 nplr" style="height: 125px; ">
+              <div class="div-cell cell-6 nplr" style="height: 100px; ">
                 <h2 class="center color_bl red" style="padding: 10px; margin: 0px 20px;">{{ $request['ALCEMTotal'] }}</h2>
               </div>
             </div>
@@ -549,7 +566,7 @@
           <h4 class="center">Policía Nacional del Peru<br>PNP</h4>
           <div class="bcont">
             <div class="div-table">
-              <div class="div-cell cell-12 nplr" style="height: 125px; ">
+              <div class="div-cell cell-12 nplr" style="height: 100px; ">
                 <h2 class="center color_bl green" style="padding: 10px; margin: 0px 20px;">{{ $request['PNPTotal'] }}</h2>
               </div>
             </div>
@@ -559,7 +576,7 @@
           <h4 class="center">Módulo Violencia Familiar<br>MVF</h4>
           <div class="bcont">
             <div class="div-table">
-              <div class="div-cell cell-12 nplr" style="height: 125px; ">
+              <div class="div-cell cell-12 nplr" style="height: 100px; ">
                 <h2 class="center color_bl pink" style="padding: 10px; margin: 0px 20px;">{{ $request['MVFTotal'] }}</h2>
               </div>
             </div>
@@ -569,7 +586,7 @@
           <h4 class="center">Ministerio Público<br>MP</h4>
           <div class="bcont">
             <div class="div-table">
-              <div class="div-cell cell-12 nplr" style="height: 125px; ">
+              <div class="div-cell cell-12 nplr" style="height: 100px; ">
                 <h2 class="center color_bl blue" style="padding: 10px; margin: 0px 20px;">{{ $request['MINTotal'] }}</h2>
               </div>
             </div>
@@ -579,7 +596,7 @@
           <h4 class="center">Módulo Penal<br>NCPP</h4>
           <div class="bcont">
             <div class="div-table">
-              <div class="div-cell cell-12 nplr" style="height: 125px; ">
+              <div class="div-cell cell-12 nplr" style="height: 100px; ">
                 <h2 class="center color_bl red" style="padding: 10px; margin: 0px 20px;">324</h2>
               </div>
             </div>
