@@ -268,8 +268,12 @@ class DenunciaController extends Controller
         $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
         $tdenuncias = Tbldenuncia::orderBy('nombre')->pluck('nombre', 'id');
         $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
 
-        return view('denuncia.denuncia.partials.form', compact('comisarias','instancias','parentescos','tdenuncias'));
+        return view('denuncia.denuncia.partials.form', compact('comisarias','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tdenuncias'));
 
     }
 
@@ -1595,7 +1599,7 @@ class DenunciaController extends Controller
                     // $idChartArr[] = $chartTTC->id;
                     $idChartArr[] = "ttramite";         // id del grafico generado manualmente
                     $idChartArr = json_encode($idChartArr);
-                    return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','DPTotal','chartCID','PNPTotal','MVFTotal','chartTTC','PSCEMTotal','ALCEMTotal','MINTotal','ttramite','idChartArr','request','graphGenerated'));
+                    return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','DPTotal','chartCID','PNPTotal','MVFTotal','PSCEMTotal','ALCEMTotal','MINTotal','idChartArr','request','graphGenerated'));
                 }
 
 
@@ -1702,10 +1706,14 @@ class DenunciaController extends Controller
         $denuncia = Denuncia::findOrFail($id);
         $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
         $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
-        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','FA')->orwhere('tipo','JM')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
         $tdenuncias = Tbldenuncia::orderBy('nombre')->pluck('nombre', 'id');
 
-        return view('denuncia.denuncia.partials.form', compact('denuncia','comisarias','instancias','parentescos','tdenuncias'));
+        return view('denuncia.denuncia.partials.form', compact('denuncia','comisarias','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tdenuncias'));
     }
 
     /**
@@ -2115,18 +2123,24 @@ class DenunciaController extends Controller
                 );
 
                 $attributes = array(
+                    'dependenciad' => 'J. Paz Letrado',
+                    'expediented' => 'Car / Exp',
                     'remitidod' => 'Remitir a',
                     'oficioremitidod' => 'Oficio',
                     'fremisiond' => 'Fecha de Remisión',
                 );
 
                 $rules = [
+                    'dependenciad' => 'required|exists:tblinstancia,id',
+                    'expediented' => 'required|string|unique:denuncia,expediented,'.$denuncia->expediented.',expediented',
                     'remitidod' => 'required',
                     'oficioremitidod' => 'required|string|unique:denuncia,oficioremitidod,'.$denuncia->oficioremitidod.',oficioremitidod',
                     'fremisiond' => 'required|date',
                 ];
                 
                 $input = [
+                    'dependenciad' => $request['dependenciad'],
+                    'expediented' => $request['expediented'],
                     'remitidod' => $request['remitidod'],
                     'oficioremitidod' => $request['oficioremitidod'],
                     'fremisiond' => $request['fremisiond'],
@@ -2172,18 +2186,24 @@ class DenunciaController extends Controller
                 );
 
                 $attributes = array(
+                    'jip' => 'J. Inv. Preparatoria',
+                    'juzgamiento' => 'Juzgamiento',
                     'remitidoj' => 'Remitir a',
                     'oficioremitidoj' => 'Oficio',
                     'fremisionj' => 'Fecha de Remisión',
                 );
 
                 $rules = [
+                    'jip' => 'required|exists:tblinstancia,id',
+                    'juzgamiento' => 'required|exists:tblinstancia,id',
                     'remitidoj' => 'required',
                     'oficioremitidoj' => 'required|string|unique:denuncia,oficioremitidoj,'.$denuncia->oficioremitidoj.',oficioremitidoj',
                     'fremisionj' => 'required|date',
                 ];
                 
                 $input = [
+                    'jip' => $request['jip'],
+                    'juzgamiento' => $request['juzgamiento'],
                     'remitidoj' => $request['remitidoj'],
                     'oficioremitidoj' => $request['oficioremitidoj'],
                     'fremisionj' => $request['fremisionj'],

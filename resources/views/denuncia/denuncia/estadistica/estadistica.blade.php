@@ -479,8 +479,6 @@
   </div>
 </div>
 
-{{ $ttramite }}
-
 <div class="loading" style="display: none;">
   <i class="fa fa-refresh fa-spin fa-2x fa-tw"></i>
   <br>

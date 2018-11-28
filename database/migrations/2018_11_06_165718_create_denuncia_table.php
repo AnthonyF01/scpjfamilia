@@ -31,10 +31,14 @@ class CreateDenunciaTable extends Migration
             $table->boolean('asistencialegal')->nullable()->default(0);     // cem
             $table->boolean('psicologia')->nullable()->default(0);          // cem
 
+            $table->integer('dependenciad')->unsigned()->nullable();
+            $table->string('expediented',50)->nullable();       // fase 3   
             $table->string('remitidod',150)->nullable();         // fase 3
             $table->string('oficioremitidod',50)->nullable();    // fase 3   
             $table->date('fremisiond')->nullable();              // fase 3
 
+            $table->integer('jip')->unsigned()->nullable();
+            $table->integer('juzgamiento')->unsigned()->nullable();
             $table->string('remitidoj',150)->nullable();         // fase 4
             $table->string('oficioremitidoj',50)->nullable();    // fase 4   
             $table->date('fremisionj')->nullable();              // fase 4
@@ -51,6 +55,9 @@ class CreateDenunciaTable extends Migration
             $table->foreign('tblcomisaria_id')->references('id')->on('tblcomisaria');
             $table->foreign('tblmodulo_id')->references('id')->on('tblmodulo');
             $table->foreign('tblinstancia_id')->references('id')->on('tblinstancia');
+            $table->foreign('dependenciad')->references('id')->on('tblinstancia');
+            $table->foreign('jip')->references('id')->on('tblinstancia');
+            $table->foreign('juzgamiento')->references('id')->on('tblinstancia');
         });
     }
 
