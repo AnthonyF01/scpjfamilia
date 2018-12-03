@@ -251,47 +251,47 @@ Route::middleware(['auth'])->group(function () {
         ->middleware('permission:tdenuncia.edit');
 
     // Victimas
-    Route::post('victima/store', 'victimaController@store')->name('victima.store')
+    Route::post('victima/store', 'VictimaController@store')->name('victima.store')
         ->middleware('permission:victima.create');
 
-    Route::get('victima', 'victimaController@index')->name('victima.index')
+    Route::get('victima', 'VictimaController@index')->name('victima.index')
         ->middleware('permission:victima.index');
 
-    Route::get('victima/create', 'victimaController@create')->name('victima.create')
+    Route::get('victima/create', 'VictimaController@create')->name('victima.create')
         ->middleware('permission:victima.create');
 
-    Route::put('victima/{victima}', 'victimaController@update')->name('victima.update')
+    Route::put('victima/{victima}', 'VictimaController@update')->name('victima.update')
         ->middleware('permission:victima.edit');
 
-    Route::get('victima/{victima}', 'victimaController@show')->name('victima.show')
+    Route::get('victima/{victima}', 'VictimaController@show')->name('victima.show')
         ->middleware('permission:victima.show');
 
-    Route::delete('victima/{victima}', 'victimaController@destroy')->name('victima.destroy')
+    Route::delete('victima/{victima}', 'VictimaController@destroy')->name('victima.destroy')
         ->middleware('permission:victima.destroy');
 
-    Route::get('victima/{victima}/edit', 'victimaController@edit')->name('victima.edit')
+    Route::get('victima/{victima}/edit', 'VictimaController@edit')->name('victima.edit')
         ->middleware('permission:victima.edit');
 
     // Agresores
-    Route::post('agresor/store', 'agresorController@store')->name('agresor.store')
+    Route::post('agresor/store', 'AgresorController@store')->name('agresor.store')
         ->middleware('permission:agresor.create');
 
-    Route::get('agresor', 'agresorController@index')->name('agresor.index')
+    Route::get('agresor', 'AgresorController@index')->name('agresor.index')
         ->middleware('permission:agresor.index');
 
-    Route::get('agresor/create', 'agresorController@create')->name('agresor.create')
+    Route::get('agresor/create', 'AgresorController@create')->name('agresor.create')
         ->middleware('permission:agresor.create');
 
-    Route::put('agresor/{agresor}', 'agresorController@update')->name('agresor.update')
+    Route::put('agresor/{agresor}', 'AgresorController@update')->name('agresor.update')
         ->middleware('permission:agresor.edit');
 
-    Route::get('agresor/{agresor}', 'agresorController@show')->name('agresor.show')
+    Route::get('agresor/{agresor}', 'AgresorController@show')->name('agresor.show')
         ->middleware('permission:agresor.show');
 
-    Route::delete('agresor/{agresor}', 'agresorController@destroy')->name('agresor.destroy')
+    Route::delete('agresor/{agresor}', 'AgresorController@destroy')->name('agresor.destroy')
         ->middleware('permission:agresor.destroy');
 
-    Route::get('agresor/{agresor}/edit', 'agresorController@edit')->name('agresor.edit')
+    Route::get('agresor/{agresor}/edit', 'AgresorController@edit')->name('agresor.edit')
         ->middleware('permission:agresor.edit');
 
     // Denuncias
