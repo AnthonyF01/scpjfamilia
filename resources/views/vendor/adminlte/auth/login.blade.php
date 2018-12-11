@@ -25,7 +25,8 @@
         @endif
 
         <div class="login-box-body">
-        <p class="login-box-msg" style="font-weight: 500"> {{ trans('adminlte_lang::message.siginsession') }} </p>
+        {{-- <p class="login-box-msg" style="font-weight: 500"> {{ trans('adminlte_lang::message.siginsession') }} </p> --}}
+        <p class="login-box-msg" style="font-weight: 500"> Ingrese sus credenciales para iniciar sesión </p>
 
         <!-- <login-form name="{{ config('auth.providers.users.field','email') }}"
                     domain="{{ config('auth.defaults.domain','') }}"></login-form> -->
@@ -44,7 +45,7 @@
                 @endif
             </div> 
             <div class="form-group has-feedback">
-                <input type="password" placeholder="Password" name="password" class="form-control"> <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                <input type="password" placeholder="Contraseña" name="password" class="form-control"> <span class="glyphicon glyphicon-lock form-control-feedback"></span>
                 @if ($errors->has('password'))
                     <span class="help-block">
                         <strong>{{ $errors->first('password') }}</strong>
@@ -69,8 +70,10 @@
 
         {{-- @include('adminlte::auth.partials.social_login') --}}
 
-        <a class="btn btn-link" href="{{ url('/password/reset') }}">{{ trans('adminlte_lang::message.forgotpassword') }}</a><br>
-        <a class="btn btn-link" href="{{ url('/register') }}" class="text-center">{{ trans('adminlte_lang::message.registermember') }}</a>
+        {{-- <a class="btn btn-link" href="{{ url('/password/reset') }}">{{ trans('adminlte_lang::message.forgotpassword') }}</a><br> --}}
+        {{-- <a class="btn btn-link" href="{{ url('/password/reset') }}">Olvidé mi contraseña</a><br> --}}
+        {{-- <a class="btn btn-link" href="{{ url('/register') }}" class="text-center">{{ trans('adminlte_lang::message.registermember') }}</a> --}}
+        {{-- <a class="btn btn-link" href="{{ url('/register') }}" class="text-center">Registrarse</a> --}}
 
         </div>
 

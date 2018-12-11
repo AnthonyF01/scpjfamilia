@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // return view('welcome');
+    return redirect()->to('/login');
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
