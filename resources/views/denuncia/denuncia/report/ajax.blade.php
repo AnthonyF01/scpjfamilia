@@ -41,6 +41,20 @@
     @else
       <?php $counter=1; ?>
       @foreach($denuncias as $denuncia)
+        @if ($tdias == '-1')
+          <?php echo "@continue1"; ?>
+          @continue;
+        @else
+          @if ($tdias != '-1') 
+            @if ($denuncia->total <= $tdias)
+              <?php echo "@continue2"; ?>
+              @continue;
+            @else
+              <?php echo "@break"; ?>
+              @break;
+            @endif
+          @endif
+        @endif
         <tr>
           {{-- <td class="middle details-control" data-toggle="1" onclick="showDetalis(this)" style="padding-left: 15px; padding-right: 15px"></td> --}}
           <td class="middle">{{ $counter++ + ( $denuncias->perPage() * ( $denuncias->currentPage() - 1 ) ) }}</td>
@@ -267,6 +281,7 @@
     @endif
   </tbody>
 </table>
+{{$tdias}}
 <div class="row">
   <div class="col-md-6">
     @if ($denuncias->total() == 0)

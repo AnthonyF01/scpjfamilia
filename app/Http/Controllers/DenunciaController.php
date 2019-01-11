@@ -474,7 +474,7 @@ class DenunciaController extends Controller
                     end
                 when fformalizacion is NULL then 0 end ) + (case 
                 when faudiencia is not NULL then 
-                    case 
+                     case 
                         when fremision is not NULL then DATEDIFF(fremision,faudiencia) 
                         else DATEDIFF(now(),faudiencia) 
                     end
@@ -497,6 +497,10 @@ class DenunciaController extends Controller
             $denuncias = $denuncias
             ->where('expediente', 'like', '%' . $request['search'] . '%')
             ->where('tblmodulo_id', Auth::user()->tblmodulo_id);
+
+            // if ($request['tdias'] != '') {
+            //     $denuncias = $denuncias->having('total', '<=', $request['tdias']);
+            // }
 
             if ($request['tblinstancia_id'] != '') {
                 $denuncias = $denuncias->where('tblinstancia_id', $request['tblinstancia_id']);
@@ -601,10 +605,12 @@ class DenunciaController extends Controller
 
             if (isset($request['type']) && $request['type'] == 'list') {
                 $denuncias = $denuncias
-                    ->orderBy('expediente', 'asc')
+                    // ->orderBy('expediente', 'asc')
+                    ->orderBy('fformalizacion', 'asc')
                     ->paginate(10);
+                $tdias = ( isset($request['tdias']) && $request['tdias'] != '' ) ? $request['tdias'] : '-1' ;
 
-                return view('denuncia.denuncia.report.ajax', compact('denuncias'));
+                return view('denuncia.denuncia.report.ajax', compact('denuncias','tdias'));
             }else{
                 if (isset($request['type']) && $request['type'] == 'report') {
                     

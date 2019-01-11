@@ -54,11 +54,15 @@ class UserController extends Controller
               $request->session()->get('show') : '10' ) : '10'));
 
 
+        // listara solo los usuarios con acceso al sistema web
         $users = $users
-            ->where('nombre', 'like', '%' . $request->session()->get('search') . '%')
-            ->orwhere('name', 'like', '%' . $request->session()->get('search') . '%')
-            ->orwhere('email', 'like', '%' . $request->session()->get('search') . '%')
-            ->orwhere('fono', 'like', '%' . $request->session()->get('search') . '%')
+            ->where('acceso', '=', 1)
+            ->where(function ($query) use ($request) {
+                $query->where('nombre', 'like', '%' . $request->session()->get('search') . '%')
+                      ->orwhere('name', 'like', '%' . $request->session()->get('search') . '%')
+                      ->orwhere('email', 'like', '%' . $request->session()->get('search') . '%')
+                      ->orwhere('fono', 'like', '%' . $request->session()->get('search') . '%');
+            })
             ->orderBy($request->session()->get('field'), $request->session()->get('sort'))
             // ->orderBy('nombre', $request->session()->get('sort'))
             // ->orderBy('email', $request->session()->get('sort'))

@@ -326,4 +326,26 @@ Route::middleware(['auth'])->group(function () {
     Route::get('denuncia/{denuncia}/edit', 'DenunciaController@edit')->name('denuncia.edit')
         ->middleware('permission:denuncia.edit');
 
+    // Notificaciones
+    Route::post('notification/store', 'NotificationController@store')->name('notification.store')
+        ->middleware('permission:notification.create');
+
+    Route::get('notification', 'NotificationController@index')->name('notification.index')
+        ->middleware('permission:notification.index');
+
+    Route::get('notification/create', 'NotificationController@create')->name('notification.create')
+        ->middleware('permission:notification.create');
+
+    Route::put('notification/{notification}', 'NotificationController@update')->name('notification.update')
+        ->middleware('permission:notification.edit');
+
+    Route::get('notification/{notification}', 'NotificationController@show')->name('notification.show')
+        ->middleware('permission:notification.show');
+
+    Route::delete('notification/{notification}', 'NotificationController@destroy')->name('notification.destroy')
+        ->middleware('permission:notification.destroy');
+
+    Route::get('notification/{notification}/edit', 'NotificationController@edit')->name('notification.edit')
+        ->middleware('permission:notification.edit');
+
 });
