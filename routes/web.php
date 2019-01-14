@@ -299,6 +299,12 @@ Route::middleware(['auth'])->group(function () {
     Route::get('denuncia/report', 'DenunciaController@report')->name('denuncia.report')
         ->middleware('permission:denuncia.report');
 
+    Route::get('denuncia/import', 'DenunciaController@import')->name('denuncia.import')
+        ->middleware('permission:denuncia.import');
+
+    Route::post('denuncia/importCSV', 'DenunciaController@importCSV')->name('denuncia.importcsv')
+        ->middleware('permission:denuncia.importcsv');
+
     Route::get('denuncia/estadistica', 'DenunciaController@estadistica')->name('denuncia.estadistica')
         ->middleware('permission:denuncia.estadistica');
 

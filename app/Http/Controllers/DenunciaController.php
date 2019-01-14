@@ -665,6 +665,295 @@ class DenunciaController extends Controller
     }
 
     /**
+     * Display the import view.
+     *
+     * @param  \App\Models\Denuncia  $denuncia
+     * @return \Illuminate\Http\Response
+     */
+    public function import(Request $request)
+    {
+        if ($request->ajax()) {
+        }else {
+            return view('denuncia.denuncia.import.import');
+        }
+
+    }
+
+    public function importCSV(Request $request)
+    {
+      
+        if ( ($request->file('file_denuncia') && $request->hasFile('file_denuncia')) && ($request->file('file_agresor') && $request->hasFile('file_agresor')) && ($request->file('file_victima') && $request->hasFile('file_victima')) ) {
+
+            // Denuncia
+            $filename = $request->file('file_denuncia')->getClientOriginalName();
+            $filetype = $request->file('file_denuncia')->getClientOriginalExtension();
+            $public_path = public_path();
+            $public_path = str_replace("\\", "/", $public_path);
+            $path = $public_path.'/img/import/';
+            if (!file_exists($path)) { // crea el directorio si no existe
+                mkdir($path, 0777, true); // todos los permisos
+            }
+            $file_named = $filename.'.'.$filetype;
+            $request->file('file_denuncia')->move($path,$file_named);
+
+            // Agresor
+            $filename = $request->file('file_agresor')->getClientOriginalName();
+            $filetype = $request->file('file_agresor')->getClientOriginalExtension();
+            $public_path = public_path();
+            $public_path = str_replace("\\", "/", $public_path);
+            $path = $public_path.'/img/import/';
+            if (!file_exists($path)) { // crea el directorio si no existe
+                mkdir($path, 0777, true); // todos los permisos
+            }
+            $file_namea = $filename.'.'.$filetype;
+            $request->file('file_agresor')->move($path,$file_namea);
+
+            // Victima
+            $filename = $request->file('file_victima')->getClientOriginalName();
+            $filetype = $request->file('file_victima')->getClientOriginalExtension();
+            $public_path = public_path();
+            $public_path = str_replace("\\", "/", $public_path);
+            $path = $public_path.'/img/import/';
+            if (!file_exists($path)) { // crea el directorio si no existe
+                mkdir($path, 0777, true); // todos los permisos
+            }
+            $file_namev = $filename.'.'.$filetype;
+            $request->file('file_victima')->move($path,$file_namev);
+
+            $fdenuncia = $path.$file_named;
+            $fagresor = $path.$file_namea;
+            $fvictima = $path.$file_namev;
+
+            if (file_exists($fdenuncia) && file_exists($fagresor) && file_exists($fvictima)) {
+                $messages = '<br>';
+                $row = 1;
+                if (($handle = fopen($fdenuncia, "r")) !== FALSE) {
+                  while (($data = fgetcsv($handle, 0, ";")) !== FALSE) {
+                    $num = count($data);
+                    if ($row > 1) {
+                      // $messages .= "Linea: ".$row;
+                      // $fila = "('1',";
+                      // for ($c=0; $c < $num; $c++) {
+                      //   if ($c == ($num - 1)) {
+                      //     if ($data[$c] == 'null') {
+                      //       $fila .= $data[$c];
+                      //     }else{
+                      //       $fila .= "'".str_replace("'", '', $data[$c])."'";
+                      //     }
+                      //   }else{
+                      //     if ($data[$c] == 'null') {
+                      //       $fila .= $data[$c].",";
+                      //     }else{
+                      //       $fila .= "'".str_replace("'", '', $data[$c])."',";
+                      //     }
+                      //   }
+                      // }
+                      // $fila .= ",'20')";
+
+                      $input = [
+                          'tblcomisaria_id' => $data[0],
+                          'oficio' => $data[1],
+                          'fdenuncia' => $data[2],
+                          'fformalizacion' => $data[3],
+                          'expediente' => $data[4],
+                          'calificacion' => $data[5],
+                          'hora' => $data[6],
+                          'faudiencia' => $data[7],
+                          'remitido' => $data[8],
+                          'oficioremitido' => $data[9],
+                          'fremision' => $data[10],
+                          'tblinstancia_id' => $data[12],
+                          'tblmodulo_id' => $data[16],
+                      ];
+
+                      // Si en caso de error de subida del excel o al haber registros repetidos de denuncia (por expediente)
+                      // se verifica si el expediente ha sido registrado
+
+                      $bdenuncia = Denuncia::where('expediente','=',str_replace("'", '', $data[0]))->get();
+                      
+                      // si no existe denuncia en la bd ( search(expediente) == 0 )
+                      if(count($bdenuncia) == 0){
+
+                        $denuncia = Denuncia::create($input);
+
+                        // VICTIMAS
+                        $rowv = 1;  
+                        if (($handlev = fopen($fvictima, "r")) !== FALSE) {
+                          while (($datav = fgetcsv($handlev, 0, ";")) !== FALSE) {
+                            $datav = array_map("utf8_encode", $datav);
+                            $numv = count($datav);
+                            if ($rowv > 1) {
+                              if ($data[0] == $datav[0]) {
+                                // $messages .= "D-".$row." => Linea: ".$rowv." => Victima: ";
+                                // $filav = "('1',";
+                                // for ($cv=0; $cv < $numv; $cv++) {
+                                //   if ($cv > 0) {
+                                //     if ($cv == ($numv - 1)) {
+                                //       $filav .= "'".str_replace("'", '', $datav[$cv])."'";
+                                //     }else{
+                                //       $filav .= "'".str_replace("'", '', $datav[$cv])."',";
+                                //     }
+                                //   }
+                                // }
+                                // $filav .= ")";
+
+                                $input = [
+                                    'tbldocumento_id' => 2,
+                                    'nro_doc' => $data[1],
+                                    'nombre' => $data[2],
+                                    'apellido' => $data[3],
+                                    'edad' => $data[4],
+                                    'hijos' => $data[5],
+                                    'tbltipo_id' => $data[6],
+                                    'tbldepartamento_id' => 15,
+                                    'tblprovincia_id' => 127,
+                                    'tbldistrito_id' => 1251,
+                                ];
+
+
+
+
+
+
+
+
+                                // ******************************
+
+                                // verificar si la victima es una institucion (solo DNI) || ver SUNAT::Tipo de Documento
+
+                                // Es complicado hacer esto, habria que agregar un tipo a las victimas: [ persona, institucion ]
+                                // en el excel (CSV)
+
+                                // if (is_numeric($datav[3])) {
+                                //   # code...
+                                // }
+
+                                // ******************************
+
+
+
+
+
+
+
+                                // verificar si la victima esta registrada (por dni)
+                                $victima = Victima::where('dni','=',$datav[1])->get();
+                                
+                                if(count($victima) <> 0){
+                                  // existe victima
+                                  // $victima = $_oControl->obtener_cursor($bresultv);
+                                  // $victima = $victima['id_victima'];
+                                }else{
+                                  // insertar victima
+
+                                  $victima = Victima::create($input);
+
+                                }
+
+                                // insertar victima_denuncia
+
+                                $input = [
+                                    'denuncia_id' => $denuncia->id,
+                                    'victima_id' => $victima->id,
+                                ];
+
+                                $denuncia_victima = DenunciaVictima::create($input);
+
+                              }
+                              
+                            }
+                            $rowv++;
+                          }
+                          fclose($handlev);
+
+                        }
+
+                        // AGRESORES
+                        $rowa = 1;
+                        if (($handlea = fopen($fagresor, "r")) !== FALSE) {
+                          while (($dataa = fgetcsv($handlea, 0, ";")) !== FALSE) {
+                            $dataa = array_map("utf8_encode", $dataa);
+                            $numa = count($dataa);
+                            if ($rowa > 1) {
+                              if ($data[0] == $dataa[0]) {
+                                // $messages .= "D-".$row." => Linea: ".$rowa." => Agresor: ";
+                                // $filaa = "('1',";
+                                // for ($ca=0; $ca < $numa; $ca++) {
+                                //   if ($ca > 0) {
+                                //     if ($ca == ($numa - 1)) {
+                                //       $filaa .= "'".str_replace("'", '', $dataa[$ca])."'";
+                                //     }else{
+                                //       $filaa .= "'".str_replace("'", '', $dataa[$ca])."',";
+                                //     }
+                                //   }
+                                // }
+                                // $filaa .= ")";
+
+                                $input = [
+                                    'tbldocumento_id' => 2,
+                                    'nro_doc' => $data[1],
+                                    'nombre' => $data[2],
+                                    'apellido' => $data[3],
+                                    'sexo' => $data[4],
+                                    'tbldepartamento_id' => 15,
+                                    'tblprovincia_id' => 127,
+                                    'tbldistrito_id' => 1251,
+                                ]; 
+
+                                // verificar si la agresor esta registrada (por dni)
+                                $agresor = Agresor::where('dni','=',$dataa[1])->get();
+
+                                if(count($agresor) <> 0){
+                                  // existe agresor
+                                  // $agresor = $_oControl->obtener_cursor($bresultv);
+                                  // $agresor = $agresor['id_agresor'];
+                                }else{
+                                  // insertar agresor
+                                  $agresor = Agresor::create($input);
+                                }
+
+                                // insertar agresor_denuncia
+                                $input = [
+                                    'denuncia_id' => $denuncia->id,
+                                    'agresor_id' => $agresor->id,
+                                ];
+                                $denuncia_agresor = DenunciaAgresor::create($input);
+
+                              }
+                              
+                            }
+                            $rowa++;
+                          }
+                          fclose($handlea);
+
+                        }
+
+                        $messages .= "</div>";
+                        
+                      }
+
+                    }
+                    $row++;
+                  }
+                  fclose($handle);
+                }
+                echo $messages."<br>OK";
+            }
+
+        }else{
+            if ( ($request->file('file_audiencia') && $request->hasFile('file_audiencia')) ) {
+            }else{
+                if ( ($request->file('file_audiencia') && $request->hasFile('file_audiencia')) ) {
+                }else{
+                    echo json_encode("Error: Fallo de carga en los archivos.");
+                }
+            }
+
+        }
+
+    }
+
+    /**
      * Display the estadistica view.
      *
      * @param  \App\Models\Denuncia  $denuncia

@@ -406,6 +406,18 @@ class PermissionsTableSeeder extends Seeder
         ]);
 
         Permission::create([
+            'name'          => 'Importar denuncias',
+            'slug'          => 'denuncia.import',
+            'description'   => 'Importar denuncias',            
+        ]);
+
+        Permission::create([
+            'name'          => 'Importar CSV denuncias',
+            'slug'          => 'denuncia.importcsv',
+            'description'   => 'Importar CSV denuncias',            
+        ]);
+
+        Permission::create([
             'name'          => 'Generar reportes estadisticos de denuncia',
             'slug'          => 'denuncia.estadistica',
             'description'   => 'Generar reportes estadisticos de denuncia',            

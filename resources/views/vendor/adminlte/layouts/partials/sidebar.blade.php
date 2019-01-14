@@ -38,7 +38,7 @@
             <!-- Optionally, you can add icons to the links -->
             <li class="@yield('home')"><a href="{{ url('home') }}"><i class='fa fa-home'></i> <span>{{ trans('adminlte_lang::message.home') }}</span></a></li>
 
-            <li class="treeview @yield('denuncia') @yield('victima') @yield('agresor') @yield('report') @yield('estadistica')">
+            <li class="treeview @yield('denuncia') @yield('victima') @yield('agresor') @yield('report') @yield('import') @yield('estadistica')">
                 <a href="javascript:;">
                     <i class="fa fa-angle-left pull-right"></i>
                     <i class="fa fa-balance-scale"></i>
@@ -67,10 +67,14 @@
                     @can ('denuncia.report')
                         <li class="@yield('report')"><a href="{{ route('denuncia.report') }}"><i class="fa fa-clipboard"></i> Reportes</a></li>
                     @endcan
+                    @can ('denuncia.import')
+                        <li class="@yield('import')"><a href="{{ route('denuncia.import') }}"><i class='fa fa-bell'></i> <span>Importar</span></a></li>
+                    @endcan
                 </ul>
             </li>
 
             <li class="@yield('notification')"><a href="{{ route('notification.index') }}"><i class='fa fa-bell'></i> <span>Notificaciones</span></a></li>
+            
 
             <li class="header">MANTENIMIENTO</li>
 

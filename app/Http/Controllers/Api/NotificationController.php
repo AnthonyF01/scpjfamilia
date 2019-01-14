@@ -143,8 +143,6 @@ class NotificationController extends Controller
             ]);
         }
 
-
-
     }
 
     public function getNotification(Request $request)
