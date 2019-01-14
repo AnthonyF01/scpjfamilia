@@ -132,7 +132,7 @@
                 </div>
                 <div class="row">
                   <div class="col-sm-8 col-sm-offset-4">
-                    <button class="btn btn-outline-success sm" onclick="ajaxLoad('{{url('denuncia/report')}}?type=list&search='+$('input#search').val()+'&tblinstancia_id='+$('#tblinstancia_id').val()+'&tblcomisaria_id='+$('#tblcomisaria_id').val()+'&anio='+$('#anio').val()+'&mes='+$('#mes').val()+'&formalizacion='+$('input[name=formalizacion]:checked').length+'&audiencia='+$('input[name=audiencia]:checked').length+'&remision='+$('input[name=remision]:checked').length+'&denuncia='+$('input[name=denuncia]:checked').length+'&juzgado='+$('input[name=juzgado]:checked').length+'&victima='+$('input[name=victima]:checked').length+'&agresor='+$('input[name=agresor]:checked').length+(($('input[name=intfech]:checked').length)? '&fecha1='+$('#dateRange').val().split(' - ')[0].split('/')[2]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[1]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[0]+'&fecha2='+$('#dateRange').val().split(' - ')[1].split('/')[2]+'-'+$('#dateRange').val().split(' - ')[1].split('/')[1]+'-'+$('#dateRange').val().split(' - ')[1].split('/')[0] : '' ))" type="button">Consultar</button>
+                    <button class="btn btn-outline-success sm" onclick="ajaxLoad('{{url('denuncia/report')}}?type=list&search='+$('input#search').val()+'&tblinstancia_id='+$('#tblinstancia_id').val()+'&tdias='+$('#tdias').val()+'&tblcomisaria_id='+$('#tblcomisaria_id').val()+'&anio='+$('#anio').val()+'&mes='+$('#mes').val()+'&formalizacion='+$('input[name=formalizacion]:checked').length+'&audiencia='+$('input[name=audiencia]:checked').length+'&remision='+$('input[name=remision]:checked').length+'&denuncia='+$('input[name=denuncia]:checked').length+'&juzgado='+$('input[name=juzgado]:checked').length+'&victima='+$('input[name=victima]:checked').length+'&agresor='+$('input[name=agresor]:checked').length+(($('input[name=intfech]:checked').length)? '&fecha1='+$('#dateRange').val().split(' - ')[0].split('/')[2]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[1]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[0]+'&fecha2='+$('#dateRange').val().split(' - ')[1].split('/')[2]+'-'+$('#dateRange').val().split(' - ')[1].split('/')[1]+'-'+$('#dateRange').val().split(' - ')[1].split('/')[0] : '' ))" type="button">Consultar</button>
                     <button class="btn btn-outline-danger sm" type="button" onclick="ajaxLoadPDF('{{url('denuncia/report')}}?type=report&search='+$('input#search').val()+'&tblinstancia_id='+$('#tblinstancia_id').val()+'&tblcomisaria_id='+$('#tblcomisaria_id').val()+'&anio='+$('#anio').val()+'&mes='+$('#mes').val()+'&formalizacion='+$('input[name=formalizacion]:checked').length+'&audiencia='+$('input[name=audiencia]:checked').length+'&remision='+$('input[name=remision]:checked').length+'&denuncia='+$('input[name=denuncia]:checked').length+'&juzgado='+$('input[name=juzgado]:checked').length+'&victima='+$('input[name=victima]:checked').length+'&agresor='+$('input[name=agresor]:checked').length+(($('input[name=intfech]:checked').length)? '&fecha1='+$('#dateRange').val().split(' - ')[0].split('/')[2]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[1]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[0]+'&fecha2='+$('#dateRange').val().split(' - ')[1].split('/')[2]+'-'+$('#dateRange').val().split(' - ')[1].split('/')[1]+'-'+$('#dateRange').val().split(' - ')[1].split('/')[0] : '' ))">Generar Reporte</button>
                   </div>
                 </div>
@@ -174,6 +174,14 @@
                         </div>
                         <input type="text" class="form-control pull-right" id="dateRange">
                       </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="row">
+                    <label for="tdias" class="col-sm-4 control-label" style="line-height:30px">Total de dias, menor a:</label>
+                    <div class="col-sm-8">
+                      <input class="form-control input-sm" autofocus="autofocus" id="tdias" placeholder="0" name="tdias" type="number" min="0" max="100" />
                     </div>
                   </div>
                 </div>

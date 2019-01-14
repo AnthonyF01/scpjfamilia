@@ -430,5 +430,36 @@ class PermissionsTableSeeder extends Seeder
         ]);
 
         
+        // Notificaciones
+        Permission::create([
+            'name'          => 'Navegar notificaciones',
+            'slug'          => 'notification.index',
+            'description'   => 'Lista y navega todos los notificaciones del sistema',
+        ]);
+
+        Permission::create([
+            'name'          => 'Ver detalle de un notificacion',
+            'slug'          => 'notification.show',
+            'description'   => 'Ve en detalle cada notificacion del sistema',            
+        ]);
+        
+        Permission::create([
+            'name'          => 'Creación de notificaciones',
+            'slug'          => 'notification.create',
+            'description'   => 'Podría crear nuevos notificaciones en el sistema',
+        ]);
+        
+        Permission::create([
+            'name'          => 'Edición de notificaciones',
+            'slug'          => 'notification.edit',
+            'description'   => 'Podría editar cualquier dato de un notificacion del sistema',
+        ]);
+        
+        Permission::create([
+            'name'          => 'Eliminar notificaciones',
+            'slug'          => 'notification.destroy',
+            'description'   => 'Podría eliminar cualquier notificacion del sistema',      
+        ]);
+
     }
 }

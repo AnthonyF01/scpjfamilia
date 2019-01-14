@@ -22,11 +22,12 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('nombre');
-            $table->string('dni');
-            $table->date('fchnac');
-            $table->string('direccion');
-            $table->string('fono');
+            $table->string('dni')->nullable(); // nullable por la api
+            $table->date('fchnac')->nullable();
+            $table->string('direccion')->nullable();
+            $table->string('fono')->nullable();
             $table->string('imagen')->nullable();
+            $table->boolean('acceso')->default(1); // usuario web(1) o movil(0)
             $table->rememberToken();
             $table->timestamps();
             $table->softDeletes();

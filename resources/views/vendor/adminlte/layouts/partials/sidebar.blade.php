@@ -70,6 +70,8 @@
                 </ul>
             </li>
 
+            <li class="@yield('notification')"><a href="{{ route('notification.index') }}"><i class='fa fa-bell'></i> <span>Notificaciones</span></a></li>
+
             <li class="header">MANTENIMIENTO</li>
 
             <li class="treeview @yield('users') @yield('roles')">

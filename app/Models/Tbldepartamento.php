@@ -38,4 +38,9 @@ class Tbldepartamento extends Model
     {
         return $this->hasMany(Tblprovincia::class);  // !importante - Para los modelos  =>  Category::class
     }
+
+    public function tblmodulo ()
+    {
+        return $this->hasMany(Tblmodulo::class);  // !importante - Para los modelos  =>  Category::class
+    }
 }

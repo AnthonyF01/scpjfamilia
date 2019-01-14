@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Laravel\Passport\HasApiTokens;
 use Caffeinated\Shinobi\Traits\ShinobiTrait;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -9,7 +10,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
-    use Notifiable, ShinobiTrait;
+    use HasApiTokens, Notifiable, ShinobiTrait;
 
     /**
      * The table associated with the model.
@@ -24,7 +25,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'nombre', 'direccion', 'fono', 'imagen', 'dni', 'fchnac', 'tbldepartamento_id', 'tblmodulo_id'
+        'name', 'email', 'password', 'nombre', 'direccion', 'fono', 'imagen', 'dni', 'fchnac', 'tbldepartamento_id', 'tblmodulo_id', 'acceso'
     ];
 
     /**

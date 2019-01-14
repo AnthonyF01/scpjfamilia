@@ -62,7 +62,7 @@
                         <input type="password" placeholder="Retype password" id="password-confirm" name="password_confirmation" class="form-control" required>
                     </div> 
                     <div class="row">
-                        <!--<div class="col-xs-6">
+                        <div class="col-xs-6">
                              <label>
                                 <div class="checkbox_register icheck">
                                     <label data-toggle="modal" data-target="#termsModal" class="">
@@ -73,7 +73,7 @@
                                     </label>
                                 </div>
                             </label> 
-                        </div> -->
+                        </div> 
                         <div class="col-xs-6">
                             <button type="submit" class="btn btn-primary btn-block btn-flat">Registrarse</button>
                         </div>
