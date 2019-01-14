@@ -762,8 +762,8 @@ class DenunciaController extends Controller
                           'remitido' => $data[8],
                           'oficioremitido' => $data[9],
                           'fremision' => $data[10],
-                          'tblinstancia_id' => $data[12],
-                          'tblmodulo_id' => $data[16],
+                          'tblinstancia_id' => $data[11],
+                          'tblmodulo_id' => $data[12],
                       ];
 
                       // Si en caso de error de subida del excel o al haber registros repetidos de denuncia (por expediente)
@@ -937,7 +937,8 @@ class DenunciaController extends Controller
                   }
                   fclose($handle);
                 }
-                echo $messages."<br>OK";
+                echo json_encode("OK.");
+
             }
 
         }else{
