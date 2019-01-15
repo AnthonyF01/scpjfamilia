@@ -109,7 +109,7 @@ class RegisterController extends Controller
     public function registerDeviceToken(Request $request)
     {
         $devices = Device::where('user_id','=',$request->user()->id)->where('token_device','=',$request->token)->first();
-        if (count($devices)>0) {
+        if (!empty($devices) && count($devices)>0) {
             Device::where('id',$devices->id)->update(['sesion' => 1]);
             return 1;
         }else{
