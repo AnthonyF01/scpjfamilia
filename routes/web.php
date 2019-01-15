@@ -14,6 +14,8 @@
 /*****************************************/
 
     // Remover luego:
+
+    // Si el server tiene >= v7.20 Php (Pe. Heroku)
     if (version_compare(PHP_VERSION, '7.2.0', '>=')) {
         // Ignores notices and reports all other kinds... and warnings
         error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
