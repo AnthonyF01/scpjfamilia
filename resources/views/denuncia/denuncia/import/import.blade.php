@@ -119,6 +119,8 @@
 
     function loadDFilesDAV() {
 
+      $('.loading').show();
+
       $("#importDAV").attr('disabled','disabled');
 
       var file_denuncia = $('input[name=denuncia]').prop('files')[0];
@@ -146,11 +148,13 @@
             debugger
             alert(data);
             // $("#data").html(data);
-            // $("#importDAV").removeAttr('disabled');
+            $("#importDAV").removeAttr('disabled');
+            $('.loading').hide();
           },
           error: function(xhr,error,status){
             debugger
             $("#importDAV").removeAttr('disabled');
+            $('.loading').hide();
           }
         });
         

@@ -725,7 +725,11 @@ class DenunciaController extends Controller
             $fvictima = $path.$file_namev;
 
             if (file_exists($fdenuncia) && file_exists($fagresor) && file_exists($fvictima)) {
-                $messages = '<br>';
+                
+                // max execution time (mysql)
+                // ini_set('max_execution_time', 0);
+                set_time_limit(0);
+
                 $row = 1;
                 if (($handle = fopen($fdenuncia, "r")) !== FALSE) {
                   while (($data = fgetcsv($handle, 0, ";")) !== FALSE) {
@@ -751,19 +755,19 @@ class DenunciaController extends Controller
                       // $fila .= ",'20')";
 
                       $input = [
-                          'tblcomisaria_id' => $data[0],
-                          'oficio' => $data[1],
-                          'fdenuncia' => $data[2],
-                          'fformalizacion' => $data[3],
-                          'expediente' => $data[4],
-                          'calificacion' => $data[5],
-                          'hora' => $data[6],
-                          'faudiencia' => $data[7],
-                          'remitido' => $data[8],
-                          'oficioremitido' => $data[9],
-                          'fremision' => $data[10],
-                          'tblinstancia_id' => $data[11],
-                          'tblmodulo_id' => $data[12],
+                          'tblcomisaria_id' => (!empty($data[0]) && isset($data[0]) && ($data[0]))? $data[0] : null,
+                          'oficio' => (!empty($data[1]) && isset($data[1]) && ($data[1]))? $data[1] : null,
+                          'fdenuncia' => (!empty($data[2]) && isset($data[2]) && ($data[2]))? $data[2] : null,
+                          'fformalizacion' => (!empty($data[3]) && isset($data[3]) && ($data[3]))? $data[3] : null,
+                          'expediente' => (!empty($data[4]) && isset($data[4]) && ($data[4]))? $data[4] : null,
+                          'calificacion' => (!empty($data[5]) && isset($data[5]) && ($data[5]))? $data[5] : null,
+                          'hora' => (!empty($data[6]) && isset($data[6]) && ($data[6]))? $data[6] : null,
+                          'faudiencia' => (!empty($data[7]) && isset($data[7]) && ($data[7]))? $data[7] : null,
+                          'remitido' => (!empty($data[8]) && isset($data[8]) && ($data[8]))? $data[8] : null,
+                          'oficioremitido' => (!empty($data[9]) && isset($data[9]) && ($data[9]))? $data[9] : null,
+                          'fremision' => (!empty($data[10] && isset($data[10]) && ($data[10])))? $data[10] : null,
+                          'tblinstancia_id' => (!empty($data[11]) && isset($data[11]) && ($data[11]))? $data[11] : null,
+                          'tblmodulo_id' => (!empty($data[12]) && isset($data[12]) && ($data[12]))? $data[12] : null,
                       ];
 
                       // Si en caso de error de subida del excel o al haber registros repetidos de denuncia (por expediente)
@@ -928,7 +932,7 @@ class DenunciaController extends Controller
 
                         }
 
-                        $messages .= "</div>";
+                        // $messages .= "</div>";
                         
                       }
 
