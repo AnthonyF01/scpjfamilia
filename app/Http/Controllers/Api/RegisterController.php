@@ -275,7 +275,7 @@ class RegisterController extends Controller
                         ->where('token_device','=',$request->tokenDevice)
                         ->where('sesion','=','1')
                         ->first();
-                        
+
         if (!empty($deviceSesion) && count($deviceSesion)>0) {
             Device::where('id',$deviceSesion->id)->update(['sesion' => 0]);
             return 1;
@@ -297,7 +297,7 @@ class RegisterController extends Controller
 
         // si el usuario buscado puede acceder a la aplicacion web, entonces puede ver el menu notificaciones
         $user = User::where('id','=',$request->user()->id)->where('acceso','=','1')->first();
-        if (count($user)>0) {
+        if (!empty($user) && count($user)>0) {
             return 1;
         }else{
             return 0;
