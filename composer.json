@@ -17,6 +17,7 @@
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.4.0",
         "orangehill/iseed": "dev-master",
+        "laravel/dusk": "^4.0",
         "fzaninotto/faker": "^1.4"
     },
     "require-dev": {
