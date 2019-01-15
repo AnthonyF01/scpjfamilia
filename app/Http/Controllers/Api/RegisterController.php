@@ -275,6 +275,7 @@ class RegisterController extends Controller
                         ->where('token_device','=',$request->tokenDevice)
                         ->where('sesion','=','1')
                         ->first();
+                        
         if (!empty($deviceSesion) && count($deviceSesion)>0) {
             Device::where('id',$deviceSesion->id)->update(['sesion' => 0]);
             return 1;
