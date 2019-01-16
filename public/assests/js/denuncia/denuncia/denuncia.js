@@ -415,7 +415,7 @@ $("#mes").on("change",function () {
 
 function loadGraph(url,order){
     $('.loading').show();
-    alert(url);
+    // alert(url);
     $.ajax({
         type: "GET",
         url: url,

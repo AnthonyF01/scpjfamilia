@@ -808,8 +808,12 @@ class DenunciaController extends Controller
                           'remitido' => (!empty($data[8]) && isset($data[8]) && ($data[8]))? $data[8] : null,
                           'oficioremitido' => (!empty($data[9]) && isset($data[9]) && ($data[9]))? $data[9] : null,
                           'fremision' => (!empty($data[10] && isset($data[10]) && ($data[10])))? $data[10] : null,
-                          'tblinstancia_id' => (!empty($data[11]) && isset($data[11]) && ($data[11]))? $data[11] : null,
-                          'tblmodulo_id' => (!empty($data[12]) && isset($data[12]) && ($data[12]))? $data[12] : null,
+                          'ministerio' => (!empty($data[11] && isset($data[11]) && ($data[11])))? $data[11] : null,
+                          'tblinstancia_id' => (!empty($data[12]) && isset($data[12]) && ($data[12]))? $data[12] : null,
+                          'asistencialegal' => (!empty($data[13]) && isset($data[13]) && ($data[13]))? $data[13] : null,
+                          'psicologia' => (!empty($data[14]) && isset($data[14]) && ($data[14]))? $data[14] : null,
+                          'tblmodulo_id' => (!empty($data[15]) && isset($data[15]) && ($data[15]))? $data[15] : null,
+                          'medida_file' => (!empty($data[16]) && isset($data[16]) && ($data[16]))? $data[16] : null,
                       ];
 
                       // Si en caso de error de subida del excel o al haber registros repetidos de denuncia (por expediente)
@@ -883,7 +887,7 @@ class DenunciaController extends Controller
 
 
                                 // verificar si la victima esta registrada (por dni)
-                                $victima = Victima::where('nro_doc','=',$datav[1])->get();
+                                $victima = Victima::where('nro_doc','=',$datav[1])->first();
                                 
                                 if(count($victima) <> 0){
                                   // existe victima
@@ -941,13 +945,13 @@ class DenunciaController extends Controller
                                     'nombre' => $dataa[2],
                                     'apellido' => $dataa[3],
                                     'sexo' => $dataa[4],
-                                    'tbldepartamento_id' => 15,
-                                    'tblprovincia_id' => 127,
-                                    'tbldistrito_id' => 1251,
+                                    'tbldepartamento_id' => $dataa[5],
+                                    'tblprovincia_id' => $dataa[6],
+                                    'tbldistrito_id' => $dataa[7],
                                 ]; 
 
                                 // verificar si la agresor esta registrada (por dni)
-                                $agresor = Agresor::where('nro_doc','=',$dataa[1])->get();
+                                $agresor = Agresor::where('nro_doc','=',$dataa[1])->first();
 
                                 if(count($agresor) <> 0){
                                   // existe agresor
@@ -962,6 +966,7 @@ class DenunciaController extends Controller
                                 $input = [
                                     'denuncia_id' => $denuncia->id,
                                     'agresor_id' => $agresor->id,
+                                    'tblparentesco_id' => $dataa[9],
                                 ];
                                 $denuncia_agresor = DenunciaAgresor::create($input);
 
