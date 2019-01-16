@@ -2247,11 +2247,11 @@ class DenunciaController extends Controller
 
                 if (!isset($denuncia->registro_file) && empty($denuncia->registro_file)) {
                     // no existe registro de archivo: se valida el archivo
-                    $rules['registro_file'] = 'required|mimes:pdf|max:2048';
+                    // $rules['registro_file'] = 'required|mimes:pdf|max:2048';
                     $input['registro_file'] = $request['registro_file'];
                 }else{
                     if ($request->file('registro_file') && $request->hasFile('registro_file')) {
-                        $rules['registro_file'] = 'required|mimes:pdf|max:2048';
+                        // $rules['registro_file'] = 'required|mimes:pdf|max:2048';
                         $input['registro_file'] = $request['registro_file'];
                     }
                 }
