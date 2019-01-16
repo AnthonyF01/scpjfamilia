@@ -11,20 +11,20 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(TbldepartamentoTableSeeder::class);
-        // $this->call(TblmoduloTableSeeder::class);
-        // $this->call(TblprovinciaTableSeeder::class);
-        // $this->call(TbldistritoTableSeeder::class);
-        // $this->call(TblcentrosaludTableSeeder::class);
-        // $this->call(TblcomisariaTableSeeder::class);
-        // $this->call(TblinstanciaTableSeeder::class);
-        // $this->call(TblmotivoTableSeeder::class);
-        // $this->call(TbldocumentoTableSeeder::class);
-        // $this->call(TbltipoTableSeeder::class);
-        // $this->call(TblparentescoTableSeeder::class);
-        // $this->call(TbldenunciaTableSeeder::class);
-        // $this->call(UsersTableSeeder::class);
-        // $this->call(PermissionsTableSeeder::class);
+        $this->call(TbldepartamentoTableSeeder::class);
+        $this->call(TblmoduloTableSeeder::class);
+        $this->call(TblprovinciaTableSeeder::class);
+        $this->call(TbldistritoTableSeeder::class);
+        $this->call(TblcentrosaludTableSeeder::class);
+        $this->call(TblcomisariaTableSeeder::class);
+        $this->call(TblinstanciaTableSeeder::class);
+        $this->call(TblmotivoTableSeeder::class);
+        $this->call(TbldocumentoTableSeeder::class);
+        $this->call(TbltipoTableSeeder::class);
+        $this->call(TblparentescoTableSeeder::class);
+        $this->call(TbldenunciaTableSeeder::class);
+        $this->call(UsersTableSeeder::class);
+        $this->call(PermissionsTableSeeder::class);
 
         // datos reales
         $this->call(VictimaTableSeeder::class);
