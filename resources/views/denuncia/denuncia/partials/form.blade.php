@@ -292,7 +292,7 @@
                       </div>
                       <div class="form-group">
                         <div class="row">
-                          {{ Form::label('tbldenuncia_id', 'Tipo Denuncia:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
+                          {{ Form::label('tbldenuncia_id', 'Grado de valoracion:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
                             @if(isset($denuncia) && !empty($denuncia['id']))
                               {{Form::select('tbldenuncia_id',$tdenuncias,$denuncia->tbldenuncias()->pluck('tbldenuncia.id','tbldenuncia.nombre')->toArray(),array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tbldenuncia_id[]','id'=>'tbldenuncia_id'))}}
@@ -562,7 +562,7 @@
                       </div>
                       <div class="form-group has-feedback {{ $errors->has('expediented')? 'has-error':'' }}">
                         <div class="row">
-                          {{ Form::label('expediented', 'Car / Exp:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
+                          {{ Form::label('expediented', 'Carpeta Fiscal', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
                             {{ Form::text('expediented', null, ['class' => 'form-control input-sm'.($errors->has('expediented')?" is-invalid":""), "autofocus", 'id' => 'expediented', 'autocomplete' => 'off']) }}
                             <span id="error-expediented" class="invalid-feedback"></span>
