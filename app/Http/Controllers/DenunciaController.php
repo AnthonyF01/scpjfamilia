@@ -2229,7 +2229,8 @@ class DenunciaController extends Controller
 
                 $rules = [
                     'oficio' => 'required|string',
-                    'tbldenuncia_id' => 'required|array|min:1',
+                    // 'tbldenuncia_id' => 'required|array|min:1',
+                    'tbldenuncia_id' => 'array|min:1',
                     'fdenuncia' => 'required|date',
                     'fformalizacion' => 'required|date',
                     'tblcomisaria_id' => 'required|exists:tblcomisaria,id',
@@ -2294,7 +2295,9 @@ class DenunciaController extends Controller
                     Denuncia::where('id', $id)->update($input);
 
                     // el metodo sync solo sirve para tablas relacionadas muchos a muchos
-                    $denuncia->tbldenuncias()->sync($request->get('tbldenuncia_id'));
+                    if (!empty($request->get('tbldenuncia_id'))) {
+                      $denuncia->tbldenuncias()->sync($request->get('tbldenuncia_id'));
+                    }
 
                     return response()->json([
                         'tab' => 'denuncia',
