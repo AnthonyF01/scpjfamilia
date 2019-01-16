@@ -32,7 +32,7 @@ class DenunciaController extends Controller
     public function detailsExpediente(Request $request, $expediente = '')
     {
         
-        $denuncia = Denuncia::where('expediente', 'like', '%'.$expediente.'%')->first();
+        $denuncia = Denuncia::where('expediente', '=', $expediente)->first();
         $element = [
             'instancia' => $denuncia->tblinstancia->sigla,
             'institucion' => $denuncia->tblcomisaria->nombre,
