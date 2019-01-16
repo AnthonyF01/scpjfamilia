@@ -26,7 +26,14 @@ class DatabaseSeeder extends Seeder
         $this->call(UsersTableSeeder::class);
         $this->call(PermissionsTableSeeder::class);
 
-        // fake data
+        // datos reales
+        $this->call(VictimaTableSeeder::class);
+        $this->call(AgresorTableSeeder::class);
+        $this->call(DenunciaTableSeeder::class);
+        $this->call(DenunciaVictimaTableSeeder::class);
+        $this->call(DenunciaAgresorTableSeeder::class);
+
+        // fake data (Factory Faker)
         // $this->call(VictimaTableSeeder::class);
         // $this->call(AgresorTableSeeder::class);
         // $this->call(DenunciaTableSeeder::class);
