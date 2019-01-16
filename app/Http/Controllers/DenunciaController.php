@@ -773,7 +773,7 @@ class DenunciaController extends Controller
                       // Si en caso de error de subida del excel o al haber registros repetidos de denuncia (por expediente)
                       // se verifica si el expediente ha sido registrado
 
-                      $bdenuncia = Denuncia::where('expediente','=',str_replace("'", '', $data[0]))->get();
+                      $bdenuncia = Denuncia::where('expediente','=',str_replace("'", '', $data[4]))->get();
                       
                       // si no existe denuncia en la bd ( search(expediente) == 0 )
                       if(count($bdenuncia) == 0){
@@ -787,7 +787,7 @@ class DenunciaController extends Controller
                             $datav = array_map("utf8_encode", $datav);
                             $numv = count($datav);
                             if ($rowv > 1) {
-                              if ($data[0] == $datav[0]) {
+                              if ($data[4] == $datav[0]) {
                                 // $messages .= "D-".$row." => Linea: ".$rowv." => Victima: ";
                                 // $filav = "('1',";
                                 // for ($cv=0; $cv < $numv; $cv++) {
@@ -803,12 +803,12 @@ class DenunciaController extends Controller
 
                                 $input = [
                                     'tbldocumento_id' => 2,
-                                    'nro_doc' => $data[1],
-                                    'nombre' => $data[2],
-                                    'apellido' => $data[3],
-                                    'edad' => $data[4],
-                                    'hijos' => $data[5],
-                                    'tbltipo_id' => $data[6],
+                                    'nro_doc' => $datav[1],
+                                    'nombre' => $datav[2],
+                                    'apellido' => $datav[3],
+                                    'edad' => $datav[4],
+                                    'hijos' => $datav[5],
+                                    'tbltipo_id' => $datav[6],
                                     'tbldepartamento_id' => 15,
                                     'tblprovincia_id' => 127,
                                     'tbldistrito_id' => 1251,
@@ -841,7 +841,7 @@ class DenunciaController extends Controller
 
 
                                 // verificar si la victima esta registrada (por dni)
-                                $victima = Victima::where('dni','=',$datav[1])->get();
+                                $victima = Victima::where('nro_doc','=',$datav[1])->get();
                                 
                                 if(count($victima) <> 0){
                                   // existe victima
@@ -879,7 +879,7 @@ class DenunciaController extends Controller
                             $dataa = array_map("utf8_encode", $dataa);
                             $numa = count($dataa);
                             if ($rowa > 1) {
-                              if ($data[0] == $dataa[0]) {
+                              if ($data[4] == $dataa[0]) {
                                 // $messages .= "D-".$row." => Linea: ".$rowa." => Agresor: ";
                                 // $filaa = "('1',";
                                 // for ($ca=0; $ca < $numa; $ca++) {
@@ -895,17 +895,17 @@ class DenunciaController extends Controller
 
                                 $input = [
                                     'tbldocumento_id' => 2,
-                                    'nro_doc' => $data[1],
-                                    'nombre' => $data[2],
-                                    'apellido' => $data[3],
-                                    'sexo' => $data[4],
+                                    'nro_doc' => $dataa[1],
+                                    'nombre' => $dataa[2],
+                                    'apellido' => $dataa[3],
+                                    'sexo' => $dataa[4],
                                     'tbldepartamento_id' => 15,
                                     'tblprovincia_id' => 127,
                                     'tbldistrito_id' => 1251,
                                 ]; 
 
                                 // verificar si la agresor esta registrada (por dni)
-                                $agresor = Agresor::where('dni','=',$dataa[1])->get();
+                                $agresor = Agresor::where('nro_doc','=',$dataa[1])->get();
 
                                 if(count($agresor) <> 0){
                                   // existe agresor

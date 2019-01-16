@@ -17,7 +17,7 @@ class CreateDenunciaAgresorTable extends Migration
             $table->increments('id');
             $table->integer('denuncia_id')->unsigned();
             $table->integer('agresor_id')->unsigned();
-            $table->integer('tblparentesco_id')->unsigned();
+            $table->integer('tblparentesco_id')->unsigned()->default(9);
             $table->timestamps();
             $table->softDeletes();
         });

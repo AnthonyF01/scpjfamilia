@@ -60,7 +60,7 @@ class TblparentescoTableSeeder extends Seeder
             5 => 
             array (
                 'id' => 6,
-            'nombre' => 'Hijo(a)',
+                'nombre' => 'Hijo(a)',
                 'created_at' => '2018-11-10 20:34:40',
                 'updated_at' => '2018-11-10 20:34:40',
                 'deleted_at' => NULL,
@@ -68,7 +68,7 @@ class TblparentescoTableSeeder extends Seeder
             6 => 
             array (
                 'id' => 7,
-            'nombre' => 'Padastro(Ma)',
+                'nombre' => 'Padastro(Ma)',
                 'created_at' => '2018-11-10 20:34:54',
                 'updated_at' => '2018-11-10 20:34:54',
                 'deleted_at' => NULL,
@@ -76,7 +76,15 @@ class TblparentescoTableSeeder extends Seeder
             7 => 
             array (
                 'id' => 8,
-            'nombre' => 'Progenitor(a)',
+                'nombre' => 'Progenitor(a)',
+                'created_at' => '2018-11-10 20:35:00',
+                'updated_at' => '2018-11-10 20:35:00',
+                'deleted_at' => NULL,
+            ),
+            8 => 
+            array (
+                'id' => 9,
+                'nombre' => 'Otros',
                 'created_at' => '2018-11-10 20:35:00',
                 'updated_at' => '2018-11-10 20:35:00',
                 'deleted_at' => NULL,
