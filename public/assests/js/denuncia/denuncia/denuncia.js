@@ -79,6 +79,14 @@ $(document).ready(function() {
         $("div#message").text(data.info);
         sessionStorage.removeItem('fase4');
     }
+
+    // Autoload Graphics
+    var d = new Date(),
+        n = d.getMonth() + 1,
+        y = d.getFullYear();
+    $("#anio").val(y).trigger('change');
+    $("#mes").val(n).trigger('change');
+
 });
 
 // paginadores
@@ -298,7 +306,7 @@ function showDetalis(elm) {
         $(this).parent('tr').next('tr.details').css({ display: 'table-row' });
     }else{
         if ($(this).attr('data-toggle') == '0') {
-            $(this).css({ background: 'url("/assests/img/details_open.png") no-repeat center center' });
+            $(this).css({ background: 'url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAACjElEQVR4Aa2V30uTURjHnVBUgglCaXVTJJVLMdhQm7+1JEvJiKAggmgSQiKJl0V0E13UVf0HQZmBLcvlpqa55tqV0YoMzIhY6js0yDH11X17vuO8Sq5Zgl/48DznPD/G63nOMSmBkoUNwhYhTUgn9NUeY8z5p0wqOVXYKRwQLMJhhYV7Kpaqck2rNdskbBPMdrv9osfjcQaDwW/RaHSR0OceY8xhrqox/a3ZZmGHkO9wOB7ouj6PBGKMOcxlzcqmdDYKGZmZmSWjo6PvIYosRuDWXGj50IwTb4+hxleN5sAVvJh4jvBCGBRzWSO121UPk3EAaUKuz+d7ycTp+Wnc/nwL1d4qHBVidmjZv/npBkJzGiiv19vFWmGrcVDsvKupqeky/056VMf1j9dQOViBKo9Aa/ixdbnYcrQGWsBc1jQ2NtrZQ/VKShHM8kvdEPVN9qJsoBRl/aUoHyiJ+UpcCxJTtmfCDYoHJT2yYyOlPtcaCoUmGGwdbkVRbxGK+2y0gg2GisUvNmJCy/BVUJqm/eBIxXqpgbUtiBise12HQlc+ClwFSKRCiZH6wXpQs7OzETWn6XENa/trYemywuK0IpGsTotgRU3fcVBzouWG6pOnpqY0BhuGGpDXeUjIW7JKcfuX3tjjP9k4FBkZN4PtY+042JGzzNMcGDJ35C7tmcU++tJmjE63OpSUuLEJ62GcfXUO+59kr8rJnlOY0WfAGtYaY/PHYPv9fhdEY7++4nz/BWS17UPWY0Es2avWp3vOYOTnCCheBtaqHskJr95kZBL3AvdR2XkEex5mYbdQ+qwCd97dRTAcXHn1Moyrt16PA2tN//V8jY+Pf4cS/VWerzU9sDay1gd2Xf4F/AZqlpeB9836LwAAAABJRU5ErkJggg==") no-repeat center center' });
             $(this).removeAttr('data-toggle');
             $(this).attr('data-toggle','1');
             $(this).parent('tr').next('tr.details').css({ display: 'none' });
@@ -391,6 +399,192 @@ $(document).on('click', 'table.table-cell>tbody>tr', function () {
         var fecha2 = $('#dateRange').val().split(' - ')[1].split('/')[2]+'-'+$('#dateRange').val().split(' - ')[1].split('/')[1]+'-'+$('#dateRange').val().split(' - ')[1].split('/')[0];
         showIntFech(fecha1,fecha2,$('input[name="intfech"]:checked').length);
     });
+
+
+
+$("#anio").on("change",function () {
+    // alert($("#anio").val());
+    // url => denuncia/denuncia/index.blade.php
+    loadGraph(url+"?anio="+$('#anio').val(),0);
+});
+
+$("#mes").on("change",function () {
+    // alert($("#mes").val());
+    loadGraph(url+"?anio="+$('#anio').val()+"&mes="+$('#mes').val(),1);
+});
+
+function loadGraph(url,order){
+    $('.loading').show();
+    alert(url);
+    $.ajax({
+        type: "GET",
+        url: url,
+        dataType: "json",
+        success: function (data) {
+            $('.loading').hide();
+            debugger;
+            if ( (order) && ($('#mes').val() != '' && $('#mes').val() != '0') && ($('#anio').val() != '' && $('#anio').val() != '0') ) {
+                try { 
+                    graficoMensual.destroy();
+                    makeChartMensual(data);
+                } catch(err) {  
+                    makeChartMensual(data);
+                }
+            }else{
+                if ( ($('#anio').val() != '' && $('#anio').val() != '0') ) {
+                    try { 
+                        graficoAnual.destroy();
+                        makeChartAnual(data);
+                    } catch(err) {  
+                        makeChartAnual(data);
+                    }
+                }
+            }
+        },
+        error: function (xhr, status, error) {
+            alert(xhr.responseText);
+        }
+    });
+}
+
+// Graficos
+
+function makeChartAnual(json) {
+    var objectJSON = json;
+    var maxHeight = Math.max.apply(Math,objectJSON.maxHeight);
+    graficoAnual = new Highcharts.Chart({
+        chart: {
+            renderTo: 'graficoAnual',
+            type: 'column'
+        },
+        title: {
+            text: 'Carga por Juzgados Año ' + objectJSON.anio
+        },
+        xAxis: {
+            type: 'category'
+        },
+        credits: {
+            enabled: false
+        },
+        yAxis: {
+            min: 0,
+            max: maxHeight*1.3,
+            title: {
+                text: 'DENUNCIAS'
+            },
+            visible: false
+
+        },
+        legend: {
+            enabled: false
+        },
+        scrollbar: {
+            enabled: false
+        },
+        plotOptions: {
+            series: {
+                borderWidth: 0,
+                dataLabels: {
+                    enabled: true,
+                    format: '{point.y}'
+                }
+            }
+        },
+
+        tooltip: {
+            headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+            pointFormat: '<span style="color:{point.color}">{point.nombre}</span>: <b>{point.y}</b><br/>'
+        },
+
+        "series": [
+            {
+                "name": "Juzgado",
+                "colorByPoint": true,
+                "data": objectJSON.json,
+            },
+        ],
+    });
+}
+
+var meses = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
+
+function makeChartMensual(json) {
+    var objectJSON = json;
+    // alert(Math.max.apply(Math,objectJSON.maxHeight));
+    var maxHeight = Math.max.apply(Math,objectJSON.maxHeight);
+    graficoMensual = new Highcharts.Chart({
+        chart: {
+            renderTo: 'graficoMensual',
+            type: 'column'
+        },
+        title: {
+            text: 'Carga por Juzgados Mes ' + meses[objectJSON.mes-1]
+        },
+        // subtitle: {
+        //     text: 'Click para ver Especialistas'
+        // },
+        xAxis: {
+            type: 'category'
+        },
+        credits: {
+            enabled: false
+        },
+        yAxis: {
+            min: 0,
+            max: maxHeight*1.3,
+            title: {
+                text: 'DENUNCIAS'
+            },
+            visible: false
+        },
+        legend: {
+            enabled: false
+        },
+        scrollbar: {
+            enabled: false
+        },
+        plotOptions: {
+            series: {
+                borderWidth: 0,
+                dataLabels: {
+                    enabled: true,
+                    format: '{point.y}'
+                }
+            }
+        },
+
+        tooltip: {
+            headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+            pointFormat: '<span style="color:{point.color}">{point.nombre}</span>: <b>{point.y}</b><br/>'
+        },
+
+        "series": [
+        {
+            "name": "Juzgado",
+            "colorByPoint": true,
+            "data": objectJSON.json
+        },
+        //  grafico circular mensual        
+        // {
+        //     type: 'pie',
+        //     name: 'Atendidos',
+        //     colorByPoint: true,
+        //     data: objectJSON.jsonAT,
+        //     center: [725, -25],
+        //     size: 100,
+        //     dataLabels: {
+        //       enabled: false
+        //     }
+
+        // }
+        ],
+        // "drilldown": {
+        //     "series": objectJSON.jsonDCL
+        // }
+    });
+}
+
+
 
 
 

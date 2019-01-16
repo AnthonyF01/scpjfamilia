@@ -309,6 +309,9 @@ Route::middleware(['auth'])->group(function () {
         ->middleware('permission:agresor.edit');
 
     // Denuncias
+    Route::get('denuncia/getGData', 'DenunciaController@getGData')->name('denuncia.getGData')
+        ->middleware('permission:denuncia.getGData');
+
     Route::get('denuncia/report', 'DenunciaController@report')->name('denuncia.report')
         ->middleware('permission:denuncia.report');
 

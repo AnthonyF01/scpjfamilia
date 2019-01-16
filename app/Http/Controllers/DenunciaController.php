@@ -249,10 +249,15 @@ class DenunciaController extends Controller
 
         $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
 
+        $anios = new Denuncia();
+
+        $anios = $anios->select(DB::raw("year(fformalizacion) as id, year(fformalizacion) as anio"))
+                     ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->orderBy('id','desc')->pluck('anio', 'id');
+
         if ($request->ajax()) {
-          return view('denuncia.denuncia.ajax', compact('denuncias','comisarias','instancias'));
+          return view('denuncia.denuncia.ajax', compact('denuncias','comisarias','instancias','anios'));
         } else {
-          return view('denuncia.denuncia.index', compact('denuncias','comisarias','instancias'));
+          return view('denuncia.denuncia.index', compact('denuncias','comisarias','instancias','anios'));
         }
     }
 
@@ -403,6 +408,43 @@ class DenunciaController extends Controller
     public function show($id)
     {
 
+    }
+
+    public function getGData(Request $request)
+    {
+
+      if (isset(Auth::user()->tblmodulo_id) && !empty(Auth::user()->tblmodulo_id)) {
+        $sql = " SELECT distinct ti.nombre,ti.sigla,ti.tipo,IFNULL(count(d.id),0) as total FROM `tblinstancia` ti left join ( select * from denuncia d where d.tblmodulo_id = ".Auth::user()->tblmodulo_id." and year(d.fformalizacion) = ".$request['anio'];
+        if (isset($request['mes']) && !empty($request['mes'])) {
+          $sql .= " AND month(d.fformalizacion) = ".$request['mes']." ";    
+        }
+        $sql .= " ) as d on d.tblinstancia_id=ti.id where ti.tbldepartamento_id = ".Auth::user()->tbldepartamento_id." and (ti.tipo = 'FA' or ti.tipo = 'JM') group by ti.nombre order by ti.nombre ";
+        $instancia = DB::select(DB::raw($sql));
+
+        $data = array();
+        $json = [];
+
+        foreach ($instancia as $r) {
+          $json[] = [
+            'nombre'=>$r->nombre, 
+            'name'=>$r->sigla, 
+            'y'=>(int)$r->total,
+          ];
+          $maxHeight[] = (int)$r->total;
+        }
+
+        $data['json'] = $json;
+        $data['maxHeight'] = $maxHeight;
+        $data['anio'] = $request['anio'];
+        if (isset($request['mes']) && !empty($request['mes'])) {
+            $data['mes'] = $request['mes'];
+        }
+
+      }else {
+        $data = [];
+      }
+
+      echo json_encode($data);
     }
 
     /**

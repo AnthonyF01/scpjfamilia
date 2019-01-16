@@ -57,6 +57,52 @@
             <div class="col-md-6">
               <div class="form-group">
                 <div class="row">
+                  <label for="showing" class="col-sm-4 control-label" style="line-height:30px">Mes: </label>
+                  <div class="col-sm-8">
+                    <select name="mes" class="form-control input-sm" id="mes">
+                       <option value="0">Elegir Mes</option>
+                       <option value="1" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '1') ? 'selected="selected"' : '' ) }}>Enero</option>
+                       <option value="2" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '2') ? 'selected="selected"' : '' ) }}>Febrero</option>  
+                       <option value="3" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '3') ? 'selected="selected"' : '' ) }}>Marzo</option>           
+                       <option value="4" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '4') ? 'selected="selected"' : '' ) }}>Abril</option>
+                       <option value="5" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '5') ? 'selected="selected"' : '' ) }}>Mayo</option>
+                       <option value="6" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '6') ? 'selected="selected"' : '' ) }}>Junio</option>
+                       <option value="7" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '7') ? 'selected="selected"' : '' ) }}>Julio</option>  
+                       <option value="8" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '8') ? 'selected="selected"' : '' ) }}>Agosto</option>  
+                       <option value="9" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '9') ? 'selected="selected"' : '' ) }}>Septiembre</option>  
+                       <option value="10" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '10') ? 'selected="selected"' : '' ) }}>Octubre</option>  
+                       <option value="11" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '11') ? 'selected="selected"' : '' ) }}>Noviembre</option> 
+                       <option value="12" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '12') ? 'selected="selected"' : '' ) }}>Diciembre</option>                                                            
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <div class="row">
+                  {{ Form::label('anio', 'Año:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
+                  <div class="col-sm-8">
+                    {{ Form::select('anio', $anios, ( (isset($request['anio']) && !empty($request['anio'])) ? $request['anio'] : null ), array('class'=>'form-control input-sm', 'placeholder'=>'Seleccione Año', 'style'=>'width: 100%')) }}
+                    <span id="error-anio" class="invalid-feedback"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6" style="border-right: 1px solid #ccc">
+              <div id="graficoMensual" style="min-width: 100%; max-width: 100%; height: auto; margin: 0 auto;"></div>
+            </div>
+            <div class="col-sm-6">
+              <div id="graficoAnual" style="min-width: 100%; max-width: 100%; height: auto; margin: 0 auto;"></div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <div class="row">
                   {{ Form::label('tblinstancia_id', 'Juzgado:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                   <div class="col-sm-8">
                     {{ Form::select('tblinstancia_id', $instancias, Session::get('tblinstancia_id'), array('class'=>'form-control input-sm'.($errors->has('tblinstancia_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Juzgado', 'style'=>'width: 100%', 'onChange'=>'showRowJ(this)')) }}
@@ -163,5 +209,8 @@
 @endsection
 
 @section('js')
+  <script type="text/javascript">
+    var url = "{{url('denuncia/getGData')}}";
+  </script>
   <script src="{{ asset('assests/js/denuncia/denuncia/denuncia.js') }}"></script>
 @endsection
