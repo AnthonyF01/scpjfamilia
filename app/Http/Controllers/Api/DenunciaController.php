@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Log;
 use App\Models\Denuncia;
 use App\Models\Tbldepartamento;
 use App\Models\Api\Device;
+use Auth;
 
 class DenunciaController extends Controller
 {
@@ -16,7 +17,8 @@ class DenunciaController extends Controller
     {
         
         if ($expediente != '') {
-            $denuncia = Denuncia::where('expediente', 'like', '%'.$expediente.'%')->take(10)->get();
+            $denuncia = Denuncia::where('expediente', 'like', '%'.$expediente.'%')
+                        ->where('tblmodulo_id','=',Auth::user()->tblmodulo_id)->take(10)->get();
         }else {
             $denuncia = [];
         }

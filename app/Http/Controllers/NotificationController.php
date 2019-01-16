@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Auth;
 
 class NotificationController extends Controller
 {
@@ -24,7 +25,8 @@ class NotificationController extends Controller
                          // ->where('state','=',0)
                          ->orderBy('created_at','desc') 
                          ->get();
-        return view('notification.index',compact('notifications'));
+        $ubicacion = Auth::user()->tbldepartamento_id;
+        return view('notification.index',compact('notifications','ubicacion'));
         
     }
 

@@ -132,54 +132,60 @@
 
                 {{-- get array natifications --}}
                 <input id="notificationsArr" type="hidden" value="{{ $notifications->toJson() }}">
-
-                @foreach($notifications as $notification)
-                  <div class="thumbnail">
-                    <div class="caption">
-                      <div class="row">
-                        <span style="float: left; margin:-4px 15px 4px 15px;" class="btn btn-outline-primary btn-xs">Mostrar</span>
-                        <span style="float: right; margin:0px 15px 9px 15px;">
-                          {{date('d/m/Y h:i',strtotime($notification->created_at))}} hrs</span>
-                      </div>
-                      <div class="row">
-                        <div class='col-lg-12 col-md-12 col-ms-12 well-add-card' style="border-top: 1px solid #ccc">
-                          <h4 style="font-weight: bold">{{$notification->title}}</h4>
+                <input id="ubicacion" type="hidden" value="{{ $ubicacion }}">
+                
+                @if(!$notifications->isEmpty())
+                  @foreach($notifications as $notification)
+                    <div class="thumbnail">
+                      <div class="caption">
+                        <div class="row">
+                          <span style="float: left; margin:-4px 15px 4px 15px;" class="btn btn-outline-primary btn-xs">Mostrar</span>
+                          <span style="float: right; margin:0px 15px 9px 15px;">
+                            {{date('d/m/Y h:i',strtotime($notification->created_at))}} hrs</span>
                         </div>
-                      </div>
-                      <div class="row">
-                        <div class='col-lg-12 col-md-12 col-ms-12'>
-                          <p style="color: #777">{{$notification->body}}.</p>
+                        <div class="row">
+                          <div class='col-lg-12 col-md-12 col-ms-12 well-add-card' style="border-top: 1px solid #ccc">
+                            <h4 style="font-weight: bold">{{$notification->title}}</h4>
+                          </div>
                         </div>
-                      </div>
-                      <div class="row">
-                        <div class='col-lg-6 col-md-6 col-ms-6' style="border-bottom: 1px solid #ccc">
-                          <p style="margin-bottom: 5px">Latitud: {{$notification->lat}}</p>
-                          <p style="margin-bottom: 5px">Nombre: {{$notification->nombre}}</p>
+                        <div class="row">
+                          <div class='col-lg-12 col-md-12 col-ms-12'>
+                            <p style="color: #777">{{$notification->body}}.</p>
+                          </div>
                         </div>
-                        <div class='col-lg-6 col-md-6 col-ms-6' style="border-bottom: 1px solid #ccc; margin-bottom: 15px">
-                          <p style="margin-bottom: 5px">Longitud: {{$notification->lng}}</p>
-                          <p style="margin-bottom: 5px">Telefono: {{$notification->fono}}</p>
+                        <div class="row">
+                          <div class='col-lg-6 col-md-6 col-ms-6' style="border-bottom: 1px solid #ccc">
+                            <p style="margin-bottom: 5px">Latitud: {{$notification->lat}}</p>
+                            <p style="margin-bottom: 5px">Nombre: {{$notification->nombre}}</p>
+                          </div>
+                          <div class='col-lg-6 col-md-6 col-ms-6' style="border-bottom: 1px solid #ccc; margin-bottom: 15px">
+                            <p style="margin-bottom: 5px">Longitud: {{$notification->lng}}</p>
+                            <p style="margin-bottom: 5px">Telefono: {{$notification->fono}}</p>
+                          </div>
                         </div>
-                      </div>
-                      <div class="row">
-                        <div class='col-lg-12 col-md-12 col-ms-12'>
-                          @if ($notification->state == 1)
-                            <span style="border-radius: 5px; padding: 5px 10px;" class="bg-green">Atendido</span>
-                          @endif
-                          @if ($notification->state == 0)
-                            <span style="border-radius: 5px; padding: 5px 10px;" class="bg-red">Pendiente</span>
-                          @endif
-                          @if ($notification->state == 2)
-                            <span style="border-radius: 5px; padding: 5px 10px;" class="bg-blue">En atención</span>
-                          @endif
-                          @if (isset($notification->name))
-                            <span style="border-radius: 5px; padding: 5px 10px;" class="bg-blue">{{$notification->name}}</span>
-                          @endif
+                        <div class="row">
+                          <div class='col-lg-12 col-md-12 col-ms-12'>
+                            @if ($notification->state == 1)
+                              <span style="border-radius: 5px; padding: 5px 10px;" class="bg-green">Atendido</span>
+                            @endif
+                            @if ($notification->state == 0)
+                              <span style="border-radius: 5px; padding: 5px 10px;" class="bg-red">Pendiente</span>
+                            @endif
+                            @if ($notification->state == 2)
+                              <span style="border-radius: 5px; padding: 5px 10px;" class="bg-blue">En atención</span>
+                            @endif
+                            @if (isset($notification->name))
+                              <span style="border-radius: 5px; padding: 5px 10px;" class="bg-blue">{{$notification->name}}</span>
+                            @endif
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                @endforeach
+                  @endforeach
+                @else
+                  No hay notificaciones
+                @endif
+
               </div>
               <div class="col-md-8">
                 <!-- MAP -->
@@ -211,10 +217,22 @@
   <script type="text/javascript">
 
     function loadMap(jsonMAP) {
-      var map = new google.maps.Map(document.getElementById('mapa'), {
-          center: new google.maps.LatLng(-18.013164, -70.250465),
-          zoom: 13
-      });
+
+      // lima: -12.043974, -77.043270
+      // tacna: -18.013164, -70.250465
+
+      var ubicacion = $("#ubicacion").val();
+      if (ubicacion == '23') {
+        var map = new google.maps.Map(document.getElementById('mapa'), {
+            center: new google.maps.LatLng(-18.013164, -70.250465),
+            zoom: 13
+        });
+      }else{
+        var map = new google.maps.Map(document.getElementById('mapa'), {
+            center: new google.maps.LatLng(-12.043974, -77.043270),
+            zoom: 13
+        });
+      }
 
       var infoWindow = new google.maps.InfoWindow;
 
