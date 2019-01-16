@@ -2230,7 +2230,7 @@ class DenunciaController extends Controller
                 $rules = [
                     'oficio' => 'required|string',
                     // 'tbldenuncia_id' => 'required|array|min:1',
-                    'tbldenuncia_id' => 'array|min:1',
+                    // 'tbldenuncia_id' => 'min:1',
                     'fdenuncia' => 'required|date',
                     'fformalizacion' => 'required|date',
                     'tblcomisaria_id' => 'required|exists:tblcomisaria,id',
