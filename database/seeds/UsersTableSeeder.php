@@ -47,7 +47,7 @@ class UsersTableSeeder extends Seeder
             'name' => 'Admin General',
             'slug' => 'admin',
             'special' => 'all-access',
-            'description' => 'Admin General'
+            'description' => 'Administrador General'
         ]);
 
         DB::table('role_user')->insert([

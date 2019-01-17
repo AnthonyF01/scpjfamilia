@@ -119,7 +119,7 @@ class RoleController extends Controller
     
             return response()->json([
                 'type' => 'store',
-                'info' => 'Categoría guardada con éxito.',
+                'info' => 'Rol guardado con éxito.',
             ]);
         }
 
@@ -203,7 +203,7 @@ class RoleController extends Controller
             
             return response()->json([
                 'type' => 'update',
-                'info' => 'Categoría actualizada con éxito.',
+                'info' => 'Rol actualizado con éxito.',
             ]);
         }
     }
@@ -222,7 +222,7 @@ class RoleController extends Controller
 
         return response()->json([
             'type' => 'destroy',
-            'info' => 'Categoría eliminada correctamente.',
+            'info' => 'Rol eliminado correctamente.',
         ]);
     }
 }

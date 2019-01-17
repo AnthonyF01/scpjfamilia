@@ -2379,7 +2379,8 @@ class DenunciaController extends Controller
                             unlink($public_path.$denuncia->medida_file);
                         }
 
-                        $file_name = 'file_denuncia_'.$this->generarCodigo(8).time().'.'.$filetype;
+                        // $file_name = 'file_medida_'.$this->generarCodigo(8).time().'.'.$filetype;
+                        $file_name = 'file_medida_'.$filename.time().'.'.$filetype;
 
                         $request->file('medida_file')->move($path,$file_name);
 
