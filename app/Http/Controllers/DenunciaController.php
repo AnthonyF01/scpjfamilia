@@ -2283,7 +2283,8 @@ class DenunciaController extends Controller
                             unlink($public_path.$denuncia->registro_file);
                         }
 
-                        $file_name = 'file_registro_'.$this->generarCodigo(8).time().'.'.$filetype;
+                        // $file_name = 'file_registro_'.$this->generarCodigo(8).time().'.'.$filetype;
+                        $file_name = 'file_registro_'.$denuncia->expediente.'_'.time().'.'.$filetype;
 
                         $request->file('registro_file')->move($path,$file_name);
 
@@ -2380,7 +2381,7 @@ class DenunciaController extends Controller
                         }
 
                         // $file_name = 'file_medida_'.$this->generarCodigo(8).time().'.'.$filetype;
-                        $file_name = 'file_medida_'.$filename.time().'.'.$filetype;
+                        $file_name = 'file_medida_'.$denuncia->expediente.'_'.time().'.'.$filetype;
 
                         $request->file('medida_file')->move($path,$file_name);
 
