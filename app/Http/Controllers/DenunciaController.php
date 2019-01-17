@@ -2229,7 +2229,8 @@ class DenunciaController extends Controller
 
                 $rules = [
                     'oficio' => 'required|string',
-                    'tbldenuncia_id' => 'required|array|min:1',
+                    // 'tbldenuncia_id' => 'required|array|min:1',
+                    // 'tbldenuncia_id' => 'min:1',
                     'fdenuncia' => 'required|date',
                     'fformalizacion' => 'required|date',
                     'tblcomisaria_id' => 'required|exists:tblcomisaria,id',
@@ -2247,11 +2248,11 @@ class DenunciaController extends Controller
 
                 if (!isset($denuncia->registro_file) && empty($denuncia->registro_file)) {
                     // no existe registro de archivo: se valida el archivo
-                    $rules['registro_file'] = 'required|mimes:pdf|max:2048';
+                    // $rules['registro_file'] = 'required|mimes:pdf|max:2048';
                     $input['registro_file'] = $request['registro_file'];
                 }else{
                     if ($request->file('registro_file') && $request->hasFile('registro_file')) {
-                        $rules['registro_file'] = 'required|mimes:pdf|max:2048';
+                        // $rules['registro_file'] = 'required|mimes:pdf|max:2048';
                         $input['registro_file'] = $request['registro_file'];
                     }
                 }
@@ -2294,7 +2295,9 @@ class DenunciaController extends Controller
                     Denuncia::where('id', $id)->update($input);
 
                     // el metodo sync solo sirve para tablas relacionadas muchos a muchos
-                    $denuncia->tbldenuncias()->sync($request->get('tbldenuncia_id'));
+                    if (!empty($request->get('tbldenuncia_id'))) {
+                      $denuncia->tbldenuncias()->sync($request->get('tbldenuncia_id'));
+                    }
 
                     return response()->json([
                         'tab' => 'denuncia',
