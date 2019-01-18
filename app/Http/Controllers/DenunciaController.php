@@ -2623,6 +2623,17 @@ class DenunciaController extends Controller
                 ]);
 
             }
+        }else {
+
+            $denuncia->denunciavictimas()->where('denuncia_id',$id)->delete();
+
+            $denuncia->denunciaagresores()->where('denuncia_id',$id)->delete();
+
+            $denuncia->tbldenuncias()->where('denuncia_id',$id)->delete();
+
+            $denuncia->delete();
+
+            // echo json_encode("OK.");
         }
 
     }
