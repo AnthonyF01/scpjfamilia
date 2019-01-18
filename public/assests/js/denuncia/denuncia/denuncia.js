@@ -241,6 +241,82 @@ function ajaxDelete(filename, token, content) {
     });
 }
 
+/* registrar victima */
+function storeVictima() {
+    event.preventDefault();
+    var form = $('form#form_victima_modal');
+    var data = new FormData($('form#form_victima_modal')[0]);
+    var url = form.attr("action");
+    debugger;
+    $.ajax({
+        type: form.attr('method'),
+        url: url,
+        data: data,
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function (data) {
+            debugger;
+            $('.is-invalid').removeClass('is-invalid');
+            if (data.fail) {
+                for (control in data.errors) {
+                    $('#' + control).addClass('is-invalid');
+                    $('#error-' + control).html(data.errors[control]);
+                }
+            } else {
+                // ajaxLoad(data.redirect_url, content='content_ajax', data.type, data.info);
+                // guarda en el localStorage los mensajes de registro de victima en la denuncia. 
+                switch(data.tab){
+                    case 'victima_modal':
+                        sessionStorage.setItem('victima_modal', JSON.stringify(data));
+                        break;
+                    case 'agresor_modal':
+                        sessionStorage.setItem('agresor_modal', JSON.stringify(data));
+                        break;
+                }
+                if (typeof sessionStorage.victima_modal !== 'undefined' && sessionStorage.victima_modal != '') {
+                    var data = JSON.parse(sessionStorage.victima_modal);
+                    if (data.status == 'success') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-success"); }
+                    if (data.status == 'error') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-error"); }
+                    $("div#box_message").removeClass('hide');
+                    $("div#box_message").addClass('show');
+                    $("div#message").text(data.info);
+                    sessionStorage.removeItem('victima_modal');
+                }
+                if (typeof sessionStorage.agresor_modal !== 'undefined' && sessionStorage.agresor_modal != '') {
+                    var data = JSON.parse(sessionStorage.agresor_modal);
+                    if (data.status == 'success') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-success"); }
+                    if (data.status == 'error') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-error"); }
+                    $("div#box_message").removeClass('hide');
+                    $("div#box_message").addClass('show');
+                    $("div#message").text(data.info);
+                    sessionStorage.removeItem('agresor_modal');
+                }
+                $('#myModal1').modal('toggle');
+                resetVictima();
+            }
+        },
+        error: function (xhr, textStatus, errorThrown) {
+            alert("Error: " + errorThrown);
+        }
+    });
+    return false;
+}
+
+/* limpiar formulario victima */
+function resetVictima() {
+    $('form#form_victima_modal').find('span.invalid-feedback').empty();
+    $('form#form_victima_modal').find('select,input').css({"color":"#555"});
+
+    $('form#form_victima_modal').trigger("reset");
+    $("#tblprovincia_id, .tblprovincia_id").empty();
+    $("#tblprovincia_id, .tblprovincia_id").append("<option value=''>Seleccione una Provincia</option>");
+    $("#tbldistrito_id, .tbldistrito_id").empty();
+    $("#tbldistrito_id, .tbldistrito_id").append("<option value=''>Seleccione un Distrito</option>");
+    $("#tblprovincia_id").attr('disabled', 'disabled');
+    $("#tbldistrito_id").attr('disabled', 'disabled');
+}
+
 /* cantidad de filas de la tabla */
 function showRow(elm) {
     var value = $(elm).val();

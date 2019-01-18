@@ -139,6 +139,7 @@ class VictimaController extends Controller
         // No se pueden usar accessors o mutators en query builders, solo en elquent
 
         $messages = array(
+            'unique'   => ':attribute ya ha sido registrado.',
             'required' => ':attribute es obligatorio.',
             'email'    => ':attribute debe ser un e-mail válido.',
             'min'      => ':attribute debe tener :min caracteres como mínimo.',
@@ -201,6 +202,7 @@ class VictimaController extends Controller
             $victima = Victima::create($input);
 
             return response()->json([
+                'tab' => 'victima_modal',        
                 'type' => 'store',
                 'info' => 'Victima registrada.',
             ]);

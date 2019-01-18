@@ -19,6 +19,8 @@ use App\Models\Tblcomisaria;
 use App\Models\Tblinstancia;
 use App\Models\Tblparentesco;
 use App\Models\Tbldenuncia;
+use App\Models\Tbldocumento;
+use App\Models\Tbltipo;
 
 use App\Charts\ExampleChart;
 
@@ -279,7 +281,11 @@ class DenunciaController extends Controller
         $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
 
-        return view('denuncia.denuncia.partials.form', compact('comisarias','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tdenuncias'));
+        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
+        $documentos = Tbldocumento::orderBy('nombre','asc')->pluck('nombre', 'id');
+        $tipos = Tbltipo::all()->pluck('nombre', 'id');
+
+        return view('denuncia.denuncia.partials.form', compact('comisarias','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tdenuncias','departamentos','documentos','tipos'));
 
     }
 
@@ -2061,7 +2067,11 @@ class DenunciaController extends Controller
         $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
         $tdenuncias = Tbldenuncia::orderBy('nombre')->pluck('nombre', 'id');
 
-        return view('denuncia.denuncia.partials.form', compact('denuncia','comisarias','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tdenuncias'));
+        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
+        $documentos = Tbldocumento::orderBy('nombre','asc')->pluck('nombre', 'id');
+        $tipos = Tbltipo::all()->pluck('nombre', 'id');
+
+        return view('denuncia.denuncia.partials.form', compact('denuncia','comisarias','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tdenuncias','departamentos','documentos','tipos'));
     }
 
     /**
