@@ -458,7 +458,7 @@
                             <div class="file-loading">
                               <input id="medida_file" name="medida_file" type="file">
                             </div>
-                            @if (isset($denuncia->medida_file) && !empty($denuncia->medida_file))
+                            @if (isset($denuncia->medida_file) && !empty($denuncia->medida_file) && isset(explode("denuncia/",$denuncia->medida_file)[1]))
                               <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> {{ explode("denuncia/",$denuncia->medida_file)[1] }}</span>
                             @endif
                             <span id="error-medida_file" class="invalid-feedback"></span>

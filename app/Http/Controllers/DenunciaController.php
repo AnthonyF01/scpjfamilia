@@ -11,6 +11,7 @@ use App\Models\Denuncia;
 use App\Models\Agresor;
 use App\Models\Victima;
 use App\Models\DenunciaVictima;
+use App\Models\DenunciaTbldenuncia;
 use App\Models\DenunciaAgresor;
 use App\Models\Tbldepartamento;
 use App\Models\Tblmodulo;
@@ -2629,7 +2630,9 @@ class DenunciaController extends Controller
 
             $denuncia->denunciaagresores()->where('denuncia_id',$id)->delete();
 
-            $denuncia->tbldenuncias()->where('denuncia_id',$id)->delete();
+            // $denuncia->tbldenuncias()->where('denuncia_id',$id)->delete();
+
+            DenunciaTbldenuncia::where('denuncia_id','=',$denuncia->id)->delete();
 
             $denuncia->delete();
 

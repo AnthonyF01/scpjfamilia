@@ -231,6 +231,7 @@ function ajaxDelete(filename, token, content) {
         type: 'POST',
         data: {_method: 'DELETE', _token: token},
         url: filename,
+        cache: false,
         success: function (data) {
             ajaxLoad(data.redirect_url, content='content_ajax', data.type, data.info);
         },
@@ -419,6 +420,7 @@ function loadGraph(url,order){
     $.ajax({
         type: "GET",
         url: url,
+        cache: false,
         dataType: "json",
         success: function (data) {
             $('.loading').hide();
