@@ -12,6 +12,7 @@ use App\Models\Tblmodulo;
 use App\Models\Tbldepartamento;
 use App\Models\Api\OauthClients;
 use App\Models\Api\Device;
+use App\Models\Victima;
 
 class RegisterController extends Controller
 {
