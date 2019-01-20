@@ -31,6 +31,7 @@ class RegisterController extends Controller
         );
 
         $attributes = array(
+            'nro_doc' => 'Nro. Documento',
             'nombre' => 'Nombre',
             'tbldepartamento_id' => 'Departamento',
             'tblmodulo_id' => 'Modulo',
@@ -43,6 +44,7 @@ class RegisterController extends Controller
 
         // se asume que solo un usuario podra usar un dispositivo
         $rules = [
+            'nro_doc' => 'required|numeric|unique:users',
             'nombre' => 'required|string|max:255',
             'tbldepartamento_id' => 'required|exists:tbldepartamento,id',
             'name' => 'required|string|max:255',
@@ -53,6 +55,7 @@ class RegisterController extends Controller
         ];
 
         $input = [
+            'nro_doc' => $request->nro_doc,
             'nombre' => $request->nombre,
             'tbldepartamento_id' => $request->tbldepartamento_id,
             'name' => $request->name,
@@ -77,30 +80,42 @@ class RegisterController extends Controller
 
         }else{
 
-            // get modulo
-            $departamento = Tbldepartamento::where('id','=',$request->tbldepartamento_id)->first();
-            $modulo = Tblmodulo::where('tbldepartamento_id','=',$request->tbldepartamento_id)
-                                ->where('nombre','=',$departamento->nombre)->first();
+            $sVictima = Victima::where('nro_doc','=',$request->nro_doc)->first();
 
-            $user = User::create([
-                'nombre' => $request->nombre,
-                'tbldepartamento_id' => $request->tbldepartamento_id,
-                'tblmodulo_id' => $modulo->id,
-                'name' => $request->name,
-                'email' => $request->email,
-                'password' => bcrypt($request->password),
-                'acceso' => 0,      // accede solo a la app movil
-            ]);
+            // victima registrada en la denuncia
+            // solo una victima tendra acceso a la aplicacion (por exediente)
+            if (!empty($sVictima) && count($sVictima)>0) {
+                // actualizar denuncias (device activo)
+                foreach ($sVictima->denuncias as $denuncia) {
+                    Denuncia::where('expediente','=',$denuncia->expediente)->update(['device' => 1]);
+                }
+                
+                // get modulo
+                $departamento = Tbldepartamento::where('id','=',$request->tbldepartamento_id)->first();
+                $modulo = Tblmodulo::where('tbldepartamento_id','=',$request->tbldepartamento_id)
+                                    ->where('nombre','=',$departamento->nombre)->first();
 
-            $device = Device::create([
-                'user_id' => $user->id,
-                'client_id' => $request->client_id,
-                'token_device' => $request->token,
-            ]);
+                $user = User::create([
+                    'nombre' => $request->nombre,
+                    'tbldepartamento_id' => $request->tbldepartamento_id,
+                    'tblmodulo_id' => $modulo->id,
+                    'name' => $request->name,
+                    'email' => $request->email,
+                    'password' => bcrypt($request->password),
+                    'acceso' => 0,      // accede solo a la app movil
+                ]);
 
-            return response()->json([
-                'success' => 'User registrado'
-            ]);
+                $device = Device::create([
+                    'user_id' => $user->id,
+                    'client_id' => $request->client_id,
+                    'token_device' => $request->token,
+                ]);
+
+                return response()->json([
+                    'success' => 'User registrado'
+                ]);
+            }
+
             
         }
 

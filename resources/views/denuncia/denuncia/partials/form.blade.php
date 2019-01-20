@@ -79,7 +79,7 @@
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
               <li class="active"><a class="menu_tab" href="#tab_1" data-toggle="tab"><i class="fa fa-user"></i> <span>VICTIMAS</span></a></li>
-              <li><a class="menu_tab" href="#tab_2" data-toggle="tab"><img style="height: 25px;" src="http://localhost:8000/assests/img/icons/human-skull-o.png"> AGRESORES</a></li>
+              <li><a class="menu_tab" href="#tab_2" data-toggle="tab"><img style="height: 25px;" src="{{ asset('/assests/img/icons/human-skull-o.png') }}"> AGRESORES</a></li>
               <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_3" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>CEM</span></a></li>
               <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_4" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-user-secret"></i> <span>DENUNCIA</span></a></li>
               <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_5" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>M. FAMILIA</span></a></li>

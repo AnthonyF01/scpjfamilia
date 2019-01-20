@@ -47,6 +47,7 @@ class CreateDenunciaTable extends Migration
             $table->integer('tblmodulo_id')->unsigned();
             $table->string('medida_file',50)->nullable();
             $table->string('registro_file',50)->nullable();
+            $table->integer('device')->nullable()->default(0);
             $table->timestamps();
             $table->softDeletes();
         });
