@@ -31,7 +31,7 @@ class RegisterController extends Controller
         );
 
         $attributes = array(
-            'nro_doc' => 'Nro. Documento',
+            'dni' => 'Nro. Documento',
             'nombre' => 'Nombre',
             'tbldepartamento_id' => 'Departamento',
             'tblmodulo_id' => 'Modulo',
@@ -44,7 +44,7 @@ class RegisterController extends Controller
 
         // se asume que solo un usuario podra usar un dispositivo
         $rules = [
-            'nro_doc' => 'required|numeric|unique:users',
+            'dni' => 'required|numeric|unique:users',
             'nombre' => 'required|string|max:255',
             'tbldepartamento_id' => 'required|exists:tbldepartamento,id',
             'name' => 'required|string|max:255',
@@ -55,7 +55,7 @@ class RegisterController extends Controller
         ];
 
         $input = [
-            'nro_doc' => $request->nro_doc,
+            'dni' => $request->dni,
             'nombre' => $request->nombre,
             'tbldepartamento_id' => $request->tbldepartamento_id,
             'name' => $request->name,
@@ -80,7 +80,7 @@ class RegisterController extends Controller
 
         }else{
 
-            $sVictima = Victima::where('nro_doc','=',$request->nro_doc)->first();
+            $sVictima = Victima::where('nro_doc','=',$request->dni)->first();
 
             // victima registrada en la denuncia
             // solo una victima tendra acceso a la aplicacion (por exediente)
