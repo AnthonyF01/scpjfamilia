@@ -13,6 +13,7 @@ use App\Models\Tbldepartamento;
 use App\Models\Api\OauthClients;
 use App\Models\Api\Device;
 use App\Models\Victima;
+use App\Models\Denuncia;
 
 class RegisterController extends Controller
 {
