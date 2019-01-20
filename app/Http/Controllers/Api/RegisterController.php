@@ -86,7 +86,7 @@ class RegisterController extends Controller
             // solo una victima tendra acceso a la aplicacion (por exediente)
             if (!empty($sVictima) && count($sVictima)>0) {
                 // actualizar denuncias (device activo)
-                foreach ($sVictima->denuncias as $denuncia) {
+                foreach ($sVictima->denuncias as $denuncia) { 
                     Denuncia::where('expediente','=',$denuncia->expediente)->update(['device' => 1]);
                 }
                 
