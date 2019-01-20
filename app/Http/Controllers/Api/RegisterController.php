@@ -51,7 +51,8 @@ class RegisterController extends Controller
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
             'client_id' => 'required|exists:oauth_clients,id',
-            'token_device' => 'required|max:255|unique:device',
+            // 'token_device' => 'required|string|max:255|unique:device',
+            'token_device' => 'required|max:255',
         ];
 
         $input = [
