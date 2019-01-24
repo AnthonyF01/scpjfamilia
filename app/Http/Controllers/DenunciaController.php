@@ -420,7 +420,7 @@ class DenunciaController extends Controller
     public function getGData(Request $request)
     {
 
-      if (isset(Auth::user()->tblmodulo_id) && !empty(Auth::user()->tblmodulo_id)) {
+      if ((isset($request['anio']) && !empty($request['anio'])) && (isset(Auth::user()->tblmodulo_id) && !empty(Auth::user()->tblmodulo_id))) {
         $sql = " SELECT distinct ti.nombre,ti.sigla,ti.tipo,IFNULL(count(d.id),0) as total FROM `tblinstancia` ti left join ( select * from denuncia d where d.tblmodulo_id = ".Auth::user()->tblmodulo_id." and year(d.fformalizacion) = ".$request['anio'];
         if (isset($request['mes']) && !empty($request['mes'])) {
           $sql .= " AND month(d.fformalizacion) = ".$request['mes']." ";    
@@ -440,12 +440,15 @@ class DenunciaController extends Controller
           $maxHeight[] = (int)$r->total;
         }
 
-        $data['json'] = $json;
-        $data['maxHeight'] = $maxHeight;
-        $data['anio'] = $request['anio'];
-        if (isset($request['mes']) && !empty($request['mes'])) {
-            $data['mes'] = $request['mes'];
+        if (isset($maxHeight) && !empty($maxHeight)) {
+          $data['json'] = $json;
+          $data['maxHeight'] = $maxHeight;
+          $data['anio'] = $request['anio'];
+          if (isset($request['mes']) && !empty($request['mes'])) {
+              $data['mes'] = $request['mes'];
+          }
         }
+
 
       }else {
         $data = [];

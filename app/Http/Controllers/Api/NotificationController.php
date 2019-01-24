@@ -123,6 +123,16 @@ class NotificationController extends Controller
                     'tblmodulo_id' => $request->user()->tblmodulo_id,
                 ]);
 
+                // actualizar la denuncia (cell estado)
+                $sVictima = Victima::where('nro_doc','=',$request->user()->dni)->first();
+                if (!empty($sVictima) && count($sVictima)>0) {
+                    // actualizar denuncias (device activo)
+                    foreach ($sVictima->denuncias as $denuncia) { 
+                        Denuncia::where('expediente','=',$denuncia->expediente)->update(['device' => 2]);
+                    }
+                }
+
+
                 return response()->json([
                     'status' => 'success',
                     'info' => "La notificación ha sido enviada, en breves minutos un operador se pondrá en contacto con usted.",
@@ -166,6 +176,15 @@ class NotificationController extends Controller
             'state' => $request->check,
             'worker_id' => $request->user()->id,
         ]);
+
+        // actualizar la denuncia (cell estado)
+        $sVictima = Victima::where('nro_doc','=',$request->user()->dni)->first();
+        if (!empty($sVictima) && count($sVictima)>0) {
+            // actualizar denuncias (device activo)
+            foreach ($sVictima->denuncias as $denuncia) { 
+                Denuncia::where('expediente','=',$denuncia->expediente)->update(['device' => 3]);
+            }
+        }
 
         return response()->json([
             'status' => 'success',

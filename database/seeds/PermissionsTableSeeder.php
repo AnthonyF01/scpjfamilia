@@ -400,6 +400,12 @@ class PermissionsTableSeeder extends Seeder
         ]);
 
         Permission::create([
+            'name'          => 'Obtener informacion de las denuncias',
+            'slug'          => 'denuncia.getGData',
+            'description'   => 'Obtener informacion de las denuncias',
+        ]);
+
+        Permission::create([
             'name'          => 'Generar reportes de denuncia',
             'slug'          => 'denuncia.report',
             'description'   => 'Generar reportes de denuncia',            

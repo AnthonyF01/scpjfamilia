@@ -501,7 +501,7 @@ function loadGraph(url,order){
         success: function (data) {
             $('.loading').hide();
             debugger;
-            if ( (order) && ($('#mes').val() != '' && $('#mes').val() != '0') && ($('#anio').val() != '' && $('#anio').val() != '0') ) {
+            if ( (order) && ($('#mes').val() != null && $('#mes').val() != '' && $('#mes').val() != '0') && ( $('#anio').val() != null && $('#anio').val() != '' && $('#anio').val() != '0') ) {
                 try { 
                     graficoMensual.destroy();
                     makeChartMensual(data);
@@ -509,13 +509,15 @@ function loadGraph(url,order){
                     makeChartMensual(data);
                 }
             }else{
-                if ( ($('#anio').val() != '' && $('#anio').val() != '0') ) {
+                if ( ( $('#anio').val() != null && $('#anio').val() != '' && $('#anio').val() != '0' ) ) {
                     try { 
                         graficoAnual.destroy();
                         makeChartAnual(data);
                     } catch(err) {  
                         makeChartAnual(data);
                     }
+                }else{
+                    $("#anio").val('')
                 }
             }
         },
@@ -528,60 +530,64 @@ function loadGraph(url,order){
 // Graficos
 
 function makeChartAnual(json) {
-    var objectJSON = json;
-    var maxHeight = Math.max.apply(Math,objectJSON.maxHeight);
-    graficoAnual = new Highcharts.Chart({
-        chart: {
-            renderTo: 'graficoAnual',
-            type: 'column'
-        },
-        title: {
-            text: 'Carga por Juzgados Año ' + objectJSON.anio
-        },
-        xAxis: {
-            type: 'category'
-        },
-        credits: {
-            enabled: false
-        },
-        yAxis: {
-            min: 0,
-            max: maxHeight*1.3,
+    if (typeof json.anio !== 'undefined') {
+        var objectJSON = json;
+        var maxHeight = Math.max.apply(Math,objectJSON.maxHeight);
+        graficoAnual = new Highcharts.Chart({
+            chart: {
+                renderTo: 'graficoAnual',
+                type: 'column'
+            },
             title: {
-                text: 'DENUNCIAS'
+                text: 'Carga por Juzgados Año ' + objectJSON.anio
             },
-            visible: false
+            xAxis: {
+                type: 'category'
+            },
+            credits: {
+                enabled: false
+            },
+            yAxis: {
+                min: 0,
+                max: maxHeight*1.3,
+                title: {
+                    text: 'DENUNCIAS'
+                },
+                visible: false
 
-        },
-        legend: {
-            enabled: false
-        },
-        scrollbar: {
-            enabled: false
-        },
-        plotOptions: {
-            series: {
-                borderWidth: 0,
-                dataLabels: {
-                    enabled: true,
-                    format: '{point.y}'
+            },
+            legend: {
+                enabled: false
+            },
+            scrollbar: {
+                enabled: false
+            },
+            plotOptions: {
+                series: {
+                    borderWidth: 0,
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.y}'
+                    }
                 }
-            }
-        },
-
-        tooltip: {
-            headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-            pointFormat: '<span style="color:{point.color}">{point.nombre}</span>: <b>{point.y}</b><br/>'
-        },
-
-        "series": [
-            {
-                "name": "Juzgado",
-                "colorByPoint": true,
-                "data": objectJSON.json,
             },
-        ],
-    });
+
+            tooltip: {
+                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+                pointFormat: '<span style="color:{point.color}">{point.nombre}</span>: <b>{point.y}</b><br/>'
+            },
+
+            "series": [
+                {
+                    "name": "Juzgado",
+                    "colorByPoint": true,
+                    "data": objectJSON.json,
+                },
+            ],
+        });
+    }else{
+        alert('undefined');
+    }
 }
 
 var meses = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
