@@ -13,7 +13,6 @@ class VictimaTableSeeder extends Seeder
     public function run()
     {
         
-
         \DB::table('victima')->delete();
         
         \DB::table('victima')->insert(array (
@@ -357,6 +356,7 @@ class VictimaTableSeeder extends Seeder
                 'updated_at' => '2019-01-16 05:22:01',
                 'deleted_at' => NULL,
             ),
+
             20 => 
             array (
                 'id' => 21,
@@ -21646,7 +21646,6 @@ class VictimaTableSeeder extends Seeder
                 'deleted_at' => NULL,
             ),
         ));
-        
         
     }
 }

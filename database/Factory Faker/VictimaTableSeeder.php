@@ -11,6 +11,6 @@ class VictimaTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Models\Victima::class, 20)->create();
+        // factory(App\Models\Victima::class, 20)->create();
     }
 }
