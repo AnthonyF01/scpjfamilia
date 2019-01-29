@@ -103,6 +103,7 @@ class RegisterController extends Controller
                     'nombre' => $request->nombre,
                     'tbldepartamento_id' => $request->tbldepartamento_id,
                     'tblmodulo_id' => $modulo->id,
+                    'dni' => $request->dni,
                     'name' => $request->name,
                     'email' => $request->email,
                     'password' => bcrypt($request->password),

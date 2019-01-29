@@ -43,6 +43,7 @@ Route::middleware('auth:api')->get('/sendNotification', 'Api\NotificationControl
 Route::middleware('auth:api')->get('/checkNotification', 'Api\NotificationController@checkNotification');
 Route::middleware('auth:api')->get('/denuncia/search/{expediente?}', 'Api\DenunciaController@findExpediente');
 Route::middleware('auth:api')->get('/denuncia/details/{expediente}', 'Api\DenunciaController@detailsExpediente');
+Route::middleware('auth:api')->get('/denuncia/victima/details', 'Api\DenunciaController@detailsVictimaExp');
 Route::middleware('auth:api')->post('/register/registerDeviceToken', 'Api\RegisterController@registerDeviceToken');
 Route::middleware('auth:api')->post('/logout', 'Api\RegisterController@logout');
 
