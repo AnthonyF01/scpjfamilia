@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Log;
 
 use App\Models\Denuncia;
+use App\Models\Victima;
 use App\Models\Tbldepartamento;
 use App\Models\Api\Device;
 use Auth;
@@ -27,6 +28,21 @@ class DenunciaController extends Controller
             'denuncia' => $denuncia,
         ]);
 
+    }
+
+    public function findVictima(Request $request, $dni = '')
+    {
+
+        if ($dni != '') {
+            Log::info('notification sended: ', ['request' => $request->all(),'dni' => $dni]);
+            $victima = Victima::where('nro_doc', '=', $dni)->first();
+        }else {
+            $victima = [];
+        }
+
+        return response()->json([
+            'victima' => $victima,
+        ]);
     }
 
     public function detailsExpediente(Request $request, $expediente = '')

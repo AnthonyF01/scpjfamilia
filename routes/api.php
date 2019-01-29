@@ -35,6 +35,7 @@ Route::post('register', 'Api\RegisterController@register');
 Route::middleware('auth:api')->post('update', 'Api\RegisterController@update');
 Route::middleware('auth:api')->post('resetPassword', 'Api\RegisterController@resetPassword');
 Route::get('/denuncia/department', 'Api\DenunciaController@getDepartment');
+Route::get('/denuncia/victima/search/{dni?}', 'Api\DenunciaController@findVictima');
 
 Route::middleware('auth:api')->get('/checkAccess', 'Api\RegisterController@checkAccess');
 Route::middleware('auth:api')->get('/getNotification', 'Api\NotificationController@getNotification');

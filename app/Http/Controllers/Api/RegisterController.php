@@ -25,6 +25,7 @@ class RegisterController extends Controller
             'required' => ':attribute es obligatorio.',
             'email'    => ':attribute debe ser un e-mail válido.',
             'min'      => ':attribute debe tener :min caracteres como mínimo.',
+            'unique'   => ':attribute ya ha sido registrado.',
             'max'      => ':attribute debe tener :max caracteres como máximo.',
             'numeric'  => ':attribute debe ser numérico.',
             'image'    => ':attribute debe ser un archivo imagen.',

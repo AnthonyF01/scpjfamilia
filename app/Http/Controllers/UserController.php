@@ -138,6 +138,7 @@ class UserController extends Controller
             'email'    => ':attribute debe ser un e-mail válido.',
             'min'      => ':attribute debe tener :min caracteres como mínimo.',
             'max'      => ':attribute debe tener :max caracteres como máximo.',
+            'unique'   => ':attribute ya ha sido registrado.',
             'numeric'  => ':attribute debe ser numérico.',
             'image'    => ':attribute debe ser un archivo imagen.',
             'mimes'    => ':attribute debe ser un archivo de tipo: valores.',
