@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\DB;
 
+use App\User;
 use App\Models\Denuncia;
 use App\Models\Victima;
 use App\Models\Tbldepartamento;
@@ -35,14 +36,21 @@ class DenunciaController extends Controller
     {
 
         if ($dni != '') {
-            // Log::info('notification sended: ', ['request' => $request->all(),'dni' => $dni]);
             $sql = " SELECT d.* from denuncia d join denuncia_victima dv on d.id=dv.denuncia_id join victima v on v.id=dv.victima_id where v.nro_doc = '".$dni."' and ( d.medida_file != '' or d.medida_file is not null) ";
             $filtro = DB::select(DB::raw($sql));
 
             if (count($filtro)>0) {
-                $victima = Victima::where('nro_doc', '=', $dni)->first();
-                $status = 'success';
-                $msg = '';
+                $usuario = User::where('dni', '=', $dni)->first();
+                if (count($usuario)<=0) {
+                    $victima = Victima::where('nro_doc', '=', $dni)->first();
+                    Log::info('victima: ', ['vc' => $victima]);
+                    $status = 'success';
+                    $msg = 'success';
+                }else{
+                    $victima = [];
+                    $status = 'error';
+                    $msg = 'El usuario ya ha sido registrado.';
+                }
             }else{
                 $victima = [];
                 $status = 'error';

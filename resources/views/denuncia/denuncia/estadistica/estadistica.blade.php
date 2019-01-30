@@ -315,28 +315,28 @@
                     <div class="col-sm-3">
                       @if (isset($PNPTotal))
                         <h4 class="center">PNP</h4>
-                        <div class="circle adjust center green color_bl">{{ $PNPTotal }}</div>
+                        <div class="circle adjust center green color_bl">{{ round($PNPTotal,3) }}</div>
                         {{-- {{ "PNP: ".$PNPTotal }} --}}
                       @endif
                     </div>
                     <div class="col-sm-3">
                       @if (isset($MVFTotal))
                         <h4 class="center">Módulo VF</h4>
-                        <div class="circle adjust center pink color_bl">{{ $MVFTotal }}</div>
+                        <div class="circle adjust center pink color_bl">{{ round($MVFTotal,3) }}</div>
                         {{-- {{ "Modulo VF: ".$MVFTotal }} --}}
                       @endif
                     </div>
                     <div class="col-sm-3">
                       @if (isset($DRTotal))
                         <h4 class="center">Duración</h4>
-                        <div class="circle adjust center blue color_bl">{{ $DRTotal }}</div>
+                        <div class="circle adjust center blue color_bl">{{ round($DRTotal,3) }}</div>
                         {{-- {{ "Duracion: ".$DRTotal }} --}}
                       @endif
                     </div>
                     <div class="col-sm-3">
                       @if (isset($REMTotal))
                         <h4 class="center">Remisión</h4>
-                        <div class="circle adjust center blue color_bl">{{ $REMTotal }}</div>
+                        <div class="circle adjust center blue color_bl">{{ round($REMTotal,3) }}</div>
                         {{-- {{ "Remision: ".$REMTotal }} --}}
                       @endif
                     </div>

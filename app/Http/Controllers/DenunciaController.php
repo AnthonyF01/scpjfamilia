@@ -865,9 +865,9 @@ class DenunciaController extends Controller
                                     'edad' => $datav[4],
                                     'hijos' => $datav[5],
                                     'tbltipo_id' => $datav[6],
-                                    'tbldepartamento_id' => 15,
-                                    'tblprovincia_id' => 127,
-                                    'tbldistrito_id' => 1251,
+                                    'tbldepartamento_id' => $datav[7],
+                                    'tblprovincia_id' => $datav[8],
+                                    'tbldistrito_id' => $datav[9],
                                 ];
 
 
