@@ -341,8 +341,56 @@
                         <div class="row">
                           {{ Form::label('tblcomisaria_id', 'Institución:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
-                            {{ Form::select('tblcomisaria_id', $comisarias, null, array('class'=>'form-control input-sm'.($errors->has('tblcomisaria_id')?" is-invalid":""), 'placeholder'=>'Seleccione una Institución', 'style'=>'width: 100%')) }}
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="checkbox icheck" style="margin-top: 5px">
+                                  <label class="">
+                                    <div class="icheckbox_square-blue" style="position: relative;">
+                                      @if(isset($denuncia) && !empty($denuncia['id']))
+                                        {!! Form::checkbox('_institucion', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '1') ? ['class'=>'chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
+                                      @else
+                                        {!! Form::checkbox('_institucion', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '1') ? ['class'=>'chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
+                                      @endif
+                                    </div> Comisaria
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="checkbox icheck" style="margin-top: 5px">
+                                  <label class="">
+                                    <div class="icheckbox_square-blue" style="position: relative;">
+                                      @if(isset($denuncia) && !empty($denuncia['id']))
+                                        {!! Form::checkbox('_modulo', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '2') ? ['class'=>'chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
+                                      @else
+                                        {!! Form::checkbox('_modulo', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '2') ? ['class'=>'chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
+                                      @endif
+                                    </div> Modulo
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="checkbox icheck" style="margin-top: 5px">
+                                  <label class="">
+                                    <div class="icheckbox_square-blue" style="position: relative;">
+                                      @if(isset($denuncia) && !empty($denuncia['id']))
+                                        {!! Form::checkbox('_fiscalia', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? ['class'=>'chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
+                                      @else
+                                        {!! Form::checkbox('_fiscalia', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? ['class'=>'chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
+                                      @endif
+                                    </div> Fiscalia
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="comisaria" {{ (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '1') ? "style=display:initial" : "style=display:none" }} >
+                              {{ Form::select('tblcomisaria_id', $comisarias, null, array('class'=>'form-control input-sm'.($errors->has('tblcomisaria_id')?" is-invalid":""), 'placeholder'=>'Seleccione una Comisaria', 'style'=>'width: 100%')) }}
+                            </div>
+                            <div class="fiscalia" {{ (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? "style=display:initial" : "style=display:none" }} >
+                              {{ Form::select('tblfiscalia_id', $comisarias, null, array('class'=>'form-control input-sm'.($errors->has('tblfiscalia_id')?" is-invalid":""), 'placeholder'=>'Seleccione una Fiscalia', 'style'=>'width: 100%')) }}
+                            </div>
+                            <span id="error-institucion" class="invalid-feedback"></span>
                             <span id="error-tblcomisaria_id" class="invalid-feedback"></span>
+                            <span id="error-tblfiscalia_id" class="invalid-feedback"></span>
                           </div>
                         </div>
                       </div>
@@ -816,6 +864,28 @@
       radioClass: 'iradio_square-blue',
       increaseArea: '20%' // optional
     });
+    // seleccionar solo un checkbox
+    $('input.chkICheck').on('ifChecked', function() {
+      console.log("checked");
+      $('input.chkICheck').not(this).iCheck('uncheck');
+    });
+
+    $('input').on('ifChecked', function() {
+      console.log("checked!!");
+      if ($('input[name=_institucion]:checked').length) {
+        $(".comisaria").show();
+        $(".fiscalia").hide();
+      }
+      if ($('input[name=_modulo]:checked').length) {
+        $(".comisaria").hide();
+        $(".fiscalia").hide(); 
+      }
+      if ($('input[name=_fiscalia]:checked').length) {
+        $(".comisaria").hide();
+        $(".fiscalia").show();
+      }
+    });
+
     $('.datepicker').datepicker({
       autoclose: true,
       format: 'dd/mm/yyyy',

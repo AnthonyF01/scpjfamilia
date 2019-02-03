@@ -158,6 +158,7 @@ $(document).on('submit', 'form', function (event) {
     debugger
     var form = $(this);
     var data = new FormData($(this)[0]);
+    
     // cem 
     if (data.has('asistencialegal')) {
         data.set('asistencialegal', $('input[name="asistencialegal"]:checked').length);
@@ -165,9 +166,22 @@ $(document).on('submit', 'form', function (event) {
     if (data.has('psicologia')) {
         data.set('psicologia', $('input[name="psicologia"]:checked').length);
     }
+    
     if (data.has('ministerio')) {
         data.set('ministerio', $('input[name="ministerio"]:checked').length);
     }
+
+    // denuncia 
+    if (data.has('_institucion')) {
+        data.set('institucion', 1);
+    }
+    if (data.has('_modulo')) {
+        data.set('institucion', 2);
+    }
+    if (data.has('_fiscalia')) {
+        data.set('institucion', 3);
+    }
+
     var url = form.attr("action");
     debugger;
     $.ajax({

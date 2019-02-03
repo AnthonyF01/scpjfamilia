@@ -2243,6 +2243,7 @@ class DenunciaController extends Controller
 
                 $rules = [
                     'oficio' => 'required|string',
+                    'institucion' => 'required',
                     // 'tbldenuncia_id' => 'required|array|min:1',
                     // 'tbldenuncia_id' => 'min:1',
                     'fdenuncia' => 'required|date',
@@ -2253,6 +2254,7 @@ class DenunciaController extends Controller
                 
                 $input = [
                     'oficio' => $request['oficio'],
+                    'institucion' => $request['institucion'],
                     'tbldenuncia_id' => $request['tbldenuncia_id'],
                     'fdenuncia' => $request['fdenuncia'],
                     'fformalizacion' => $request['fformalizacion'],

@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\DB;
 use App\Models\Api\Device;
+use App\Models\Victima;
+use App\Models\Denuncia;
 use App\User;
 use App\Models\Api\Notification;
 

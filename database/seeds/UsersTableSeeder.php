@@ -43,11 +43,32 @@ class UsersTableSeeder extends Seeder
             'remember_token' => str_random(10),
         ]);
 
+        App\User::create([
+            'tblmodulo_id' => '30',
+            'tbldepartamento_id' => '23',
+            'name' => 'pnptacna',
+            'email' => 'pnptacna@gmail.com',
+            'password' => '$2y$10$TKh8H1.PfQx37YgCzwiKb.KjNyWgaHb9cbcoQgdIVFlYg7B77UdFm', // secret
+            'nombre' => 'PNP Tacna',
+            'dni' => '32216554',
+            'fchnac' => '1990-01-01',
+            'direccion' => 'Direccion',
+            'fono' => '965542132',
+            'remember_token' => str_random(10),
+        ]);
+
         Role::create([
             'name' => 'Admin General',
             'slug' => 'admin',
             'special' => 'all-access',
             'description' => 'Administrador General'
+        ]);
+
+        Role::create([
+            'name' => 'Admin Modulo',
+            'slug' => 'adminmodulo',
+            'special' => null,
+            'description' => 'Administrador de Modulo'
         ]);
 
         DB::table('role_user')->insert([
@@ -58,6 +79,11 @@ class UsersTableSeeder extends Seeder
         DB::table('role_user')->insert([
             'role_id' => 1,
             'user_id' => 2,
+        ]);
+
+        DB::table('role_user')->insert([
+            'role_id' => 2,
+            'user_id' => 3,
         ]);
 
 
