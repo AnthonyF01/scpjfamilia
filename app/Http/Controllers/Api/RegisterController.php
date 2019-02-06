@@ -51,8 +51,9 @@ class RegisterController extends Controller
             'nombre' => 'required|string|max:255',
             'tbldepartamento_id' => 'required|exists:tbldepartamento,id',
             'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:6|confirmed',
+            // 'email' => 'required|string|email|max:255|unique:users',
+            // 'password' => 'required|string|min:6|confirmed',
+            'password' => 'required|string|min:6',
             'client_id' => 'required|exists:oauth_clients,id',
             // 'token_device' => 'required|string|max:255|unique:device',
             'token_device' => 'required|max:255',
@@ -63,9 +64,9 @@ class RegisterController extends Controller
             'nombre' => $request->nombre,
             'tbldepartamento_id' => $request->tbldepartamento_id,
             'name' => $request->name,
-            'email' => $request->email,
+            // 'email' => $request->email,
             'password' => $request->password,
-            'password_confirmation' => $request->password_confirmation,
+            // 'password_confirmation' => $request->password_confirmation,
             'client_id' => $request->client_id,
             'token_device' => $request->token,
         ];
@@ -105,7 +106,7 @@ class RegisterController extends Controller
                     'tblmodulo_id' => $modulo->id,
                     'dni' => $request->dni,
                     'name' => $request->name,
-                    'email' => $request->email,
+                    // 'email' => $request->email,
                     'password' => bcrypt($request->password),
                     'acceso' => 0,      // accede solo a la app movil
                 ]);
@@ -128,6 +129,9 @@ class RegisterController extends Controller
 
     public function registerDeviceToken(Request $request)
     {
+
+        Log::info('notification sended: ', ['request' => $request->all(),'request_user' => $request->user()]);
+
         $devices = Device::where('user_id','=',$request->user()->id)->where('token_device','=',$request->token)->first();
         if (!empty($devices) && count($devices)>0) {
             Device::where('id',$devices->id)->update(['sesion' => 1]);

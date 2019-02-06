@@ -31,6 +31,18 @@ Route::get('/checkConnection', function (){
     ],200);
 });
 
+/*******************/ /* no se usa el controlador por defecto de laravel passport */
+
+// se comento "Passport::routes();" de AuthServiceProvider.php
+
+// realizar login "/oauth/token/@issueToken" con << name - password >>
+// enviando << email - password >> a "/oauth/token/@issueToken" sin agregar nada funciona solo para email
+// se debe agregar esta ruta y el controlador para que funcione con name
+// revisar el modelo App\User "findForPassport()"
+Route::post('oauth/token', 'Api\AccessTokenController@issueToken');
+
+/*******************/
+
 Route::post('register', 'Api\RegisterController@register');
 Route::middleware('auth:api')->post('update', 'Api\RegisterController@update');
 Route::middleware('auth:api')->post('resetPassword', 'Api\RegisterController@resetPassword');

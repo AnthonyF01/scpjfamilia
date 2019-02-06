@@ -62,4 +62,12 @@ class User extends Authenticatable
         return $this->belongsTo(Models\Tblmodulo::class);  // !importante - Para los modelos  =>  Category::class
     }
 
+
+    // agregado para que passport no pida "email" sino "username"
+    // https://github.com/laravel/passport/issues/102
+    public function findForPassport($username)
+    {
+        return $this->where('name', $username)->first();
+    }
+
 }
