@@ -1730,10 +1730,10 @@ class DenunciaController extends Controller
                                 where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
                                 AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
-                    $sqlPSCEM .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
+                    $sqlTT1 .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
                 }
                 if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
-                    $sqlPSCEM .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
+                    $sqlTT1 .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
                 }
                 $sqlTT1 .= " ) as a
                             group by a.mes ";
@@ -1772,10 +1772,10 @@ class DenunciaController extends Controller
                                 where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
                                 AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
-                    $sqlPSCEM .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
+                    $sqlTT2 .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
                 }
                 if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
-                    $sqlPSCEM .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
+                    $sqlTT2 .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
                 }
                 $sqlTT2 .= " ) as a
                             group by a.mes ";
