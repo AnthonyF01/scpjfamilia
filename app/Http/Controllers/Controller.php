@@ -10,4 +10,10 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    public function array_push_assoc($array, $key, $value){
+        $array[$key] = $value;
+        return $array;
+    }
+    
 }
