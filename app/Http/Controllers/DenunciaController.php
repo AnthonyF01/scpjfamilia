@@ -35,75 +35,106 @@ class DenunciaController extends Controller
      */
     public function index(Request $request)
     {
-        
+
         // $denuncias = DB::table('vdenuncia')->get();
         $denuncias = new Denuncia();
-        
+
         $fillable = $denuncias->getFields();
 
-        $denuncias = $denuncias->select('denuncia.*',DB::raw("(case 
-            when fdenuncia is not NULL then 
-                case 
-                    when fformalizacion is not NULL then DATEDIFF(fformalizacion,fdenuncia) 
-                    else DATEDIFF(now(),fdenuncia) 
-                end
-            when fdenuncia is NULL then -1 end ) dform, (case 
-            when fformalizacion is not NULL then 
-                case 
-                    when faudiencia is not NULL then DATEDIFF(faudiencia,fformalizacion) 
-                    else DATEDIFF(now(),fformalizacion) 
-                end
-            when fformalizacion is NULL then -1 end ) daud, (case 
-            when faudiencia is not NULL then 
-                case 
-                    when fremision is not NULL then DATEDIFF(fremision,faudiencia) 
-                    else DATEDIFF(now(),faudiencia) 
-                end
-            when faudiencia is NULL then -1 end ) drem, (case 
-            when fremision is not NULL then 
-                case 
-                    when fremisiond is not NULL then DATEDIFF(fremisiond,fremision) 
-                    else DATEDIFF(now(),fremision) 
-                end
-            when fremision is NULL then -1 end ) dden, (case 
-            when fremisiond is not NULL then 
-                case 
-                    when fremisionj is not NULL then DATEDIFF(fremisionj,fremisiond) 
-                    else DATEDIFF(now(),fremisiond) 
-                end
-            when fremisiond is NULL then -1 end ) djuz, ((case 
-            when fdenuncia is not NULL then 
-                case 
-                    when fformalizacion is not NULL then DATEDIFF(fformalizacion,fdenuncia) 
-                    else DATEDIFF(now(),fdenuncia) 
-                end
-            when fdenuncia is NULL then 0 end ) + (case 
-            when fformalizacion is not NULL then 
-                case 
-                    when faudiencia is not NULL then DATEDIFF(faudiencia,fformalizacion) 
-                    else DATEDIFF(now(),fformalizacion) 
-                end
-            when fformalizacion is NULL then 0 end ) + (case 
-            when faudiencia is not NULL then 
-                case 
-                    when fremision is not NULL then DATEDIFF(fremision,faudiencia) 
-                    else DATEDIFF(now(),faudiencia) 
-                end
-            when faudiencia is NULL then 0 end ) + (case 
-            when fremision is not NULL then 
-                case 
-                    when fremisiond is not NULL then DATEDIFF(fremisiond,fremision) 
-                    else DATEDIFF(now(),fremision) 
-                end
-            when fremision is NULL then 0 end ) + (case 
-            when fremisiond is not NULL then 
-                case 
-                    when fremisionj is not NULL then DATEDIFF(fremisionj,fremisiond) 
-                    else DATEDIFF(now(),fremisiond) 
-                end
-            when fremisiond is NULL then 0 end )) total, (case 
-            when registro_file is not NULL then 1
-            when registro_file is NULL then 0 end ) registro"));
+        $denuncias = $denuncias->select('denuncia.*',DB::raw(
+            "(case
+                when fdenuncia is not NULL then
+                    case
+                        when fformalizacion is not NULL then DATEDIFF(fformalizacion,fdenuncia)
+                        else DATEDIFF(now(),fdenuncia)
+                    end
+                when fdenuncia is NULL then -1
+            end) dform,
+
+            (case
+                when fformalizacion is not NULL then
+                    case
+                        when faudiencia is not NULL then DATEDIFF(faudiencia,fformalizacion)
+                        else DATEDIFF(now(),fformalizacion)
+                    end
+                when fformalizacion is NULL then -1
+            end) daud,
+
+            (case
+                when faudiencia is not NULL then
+                    case
+                        when fremision is not NULL then DATEDIFF(fremision,faudiencia)
+                        else DATEDIFF(now(),faudiencia)
+                    end
+                when faudiencia is NULL then -1
+            end) drem,
+
+            (case
+                when fremision is not NULL then
+                    case
+                        when fremisiond is not NULL then DATEDIFF(fremisiond,fremision)
+                        else DATEDIFF(now(),fremision)
+                    end
+                when fremision is NULL then -1
+            end) dden,
+
+            (case
+                when fremisiond is not NULL then
+                    case
+                        when fremisionj is not NULL then DATEDIFF(fremisionj,fremisiond)
+                        else DATEDIFF(now(),fremisiond)
+                    end
+                when fremisiond is NULL then -1
+            end) djuz,
+
+            (
+                (case
+                    when fdenuncia is not NULL then
+                        case
+                            when fformalizacion is not NULL then DATEDIFF(fformalizacion,fdenuncia)
+                            else DATEDIFF(now(),fdenuncia)
+                        end
+                    when fdenuncia is NULL then 0
+                end) +
+                (case
+                    when fformalizacion is not NULL then
+                        case
+                            when faudiencia is not NULL then DATEDIFF(faudiencia,fformalizacion)
+                            else DATEDIFF(now(),fformalizacion)
+                        end
+                    when fformalizacion is NULL then 0
+                end) +
+                (case
+                    when faudiencia is not NULL then
+                        case
+                            when fremision is not NULL then DATEDIFF(fremision,faudiencia)
+                            else DATEDIFF(now(),faudiencia)
+                        end
+                    when faudiencia is NULL then 0
+                end) +
+                (case
+                    when fremision is not NULL then
+                        case
+                            when fremisiond is not NULL then DATEDIFF(fremisiond,fremision)
+                            else DATEDIFF(now(),fremision)
+                        end
+                    when fremision is NULL then 0
+                end) +
+                (case
+                    when fremisiond is not NULL then
+                        case
+                            when fremisionj is not NULL then DATEDIFF(fremisionj,fremisiond)
+                            else DATEDIFF(now(),fremisiond)
+                        end
+                    when fremisiond is NULL then 0
+                end)
+            ) total,
+
+            (case
+                when registro_file is not NULL then 1
+                when registro_file is NULL then 0
+            end) registro"
+        ));
         // $denuncias = $denuncias->paginate(10);
         // dd($denuncias);
 
@@ -113,7 +144,7 @@ class DenunciaController extends Controller
 
         $request->session()->put('field', $request
             ->has('field') ? $request->get('field') : ( $request->session()
-            ->has('field') ? ( array_search($request->session()->get('field'), $fillable) ? 
+            ->has('field') ? ( array_search($request->session()->get('field'), $fillable) ?
                 $request->session()->get('field') : 'expediente' ) : 'expediente') );
 
         $request->session()->put('sort', $request
@@ -122,43 +153,43 @@ class DenunciaController extends Controller
 
         $request->session()->put('show', $request
             ->has('show') ? $request->get('show') : ($request->session()
-            ->has('show') ? ( is_numeric($request->session()->get('show')) ? 
+            ->has('show') ? ( is_numeric($request->session()->get('show')) ?
               $request->session()->get('show') : '10' ) : '10'));
 
         $request->session()->put('estado', $request
             ->has('estado') ? $request->get('estado') : ($request->session()
-            ->has('estado') ? ( is_numeric($request->session()->get('estado')) ? 
+            ->has('estado') ? ( is_numeric($request->session()->get('estado')) ?
               $request->session()->get('estado') : '0' ) : '0'));
 
         $request->session()->put('tblinstancia_id', $request
             ->has('tblinstancia_id') ? $request->get('tblinstancia_id') : ($request->session()
-            ->has('tblinstancia_id') ? ( is_numeric($request->session()->get('tblinstancia_id')) ? 
+            ->has('tblinstancia_id') ? ( is_numeric($request->session()->get('tblinstancia_id')) ?
               $request->session()->get('tblinstancia_id') : '' ) : ''));
 
         $request->session()->put('tblcomisaria_id', $request
             ->has('tblcomisaria_id') ? $request->get('tblcomisaria_id') : ($request->session()
-            ->has('tblcomisaria_id') ? ( is_numeric($request->session()->get('tblcomisaria_id')) ? 
+            ->has('tblcomisaria_id') ? ( is_numeric($request->session()->get('tblcomisaria_id')) ?
               $request->session()->get('tblcomisaria_id') : '' ) : ''));
 
         $request->session()->put('checked', $request
             ->has('checked') ? $request->get('checked') : ($request->session()
-            ->has('checked') ? ( is_numeric($request->session()->get('checked')) ? 
+            ->has('checked') ? ( is_numeric($request->session()->get('checked')) ?
               $request->session()->get('checked') : '0' ) : '0'));
 
         $request->session()->put('fecha1', $request
             ->has('fecha1') ? $request->get('fecha1') : ($request->session()
-            ->has('fecha1') ? ( is_numeric($request->session()->get('fecha1')) ? 
+            ->has('fecha1') ? ( is_numeric($request->session()->get('fecha1')) ?
               $request->session()->get('fecha1') : date('Y-m-d') ) : date('Y-m-d')));
 
         $request->session()->put('fecha2', $request
             ->has('fecha2') ? $request->get('fecha2') : ($request->session()
-            ->has('fecha2') ? ( is_numeric($request->session()->get('fecha2')) ? 
+            ->has('fecha2') ? ( is_numeric($request->session()->get('fecha2')) ?
               $request->session()->get('fecha2') : date('Y-m-d') ) : date('Y-m-d')));
-
 
         $denuncias = $denuncias
             ->where('expediente', 'like', '%' . $request->session()->get('search') . '%')
             ->where('tblmodulo_id', Auth::user()->tblmodulo_id);
+            // dd($denuncias->get());
 
         if ($request->session()->get('tblinstancia_id') != '') {
             $denuncias = $denuncias->where('tblinstancia_id', $request->session()->get('tblinstancia_id'));
@@ -234,7 +265,7 @@ class DenunciaController extends Controller
             $denuncias = $denuncias->whereBetween('fformalizacion', [$request->session()->get('fecha1'),$request->session()->get('fecha2')]);
         }
 
-        
+
         // dd($denuncias->toSql());
         // dd($denuncias->toSql(), $denuncias->getBindings());
 
@@ -269,7 +300,7 @@ class DenunciaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create() 
+    public function create()
     {
 
         $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
@@ -423,7 +454,7 @@ class DenunciaController extends Controller
       if ((isset($request['anio']) && !empty($request['anio'])) && (isset(Auth::user()->tblmodulo_id) && !empty(Auth::user()->tblmodulo_id))) {
         $sql = " SELECT distinct ti.nombre,ti.sigla,ti.tipo,IFNULL(count(d.id),0) as total FROM `tblinstancia` ti left join ( select * from denuncia d where d.tblmodulo_id = ".Auth::user()->tblmodulo_id." and year(d.fformalizacion) = ".$request['anio'];
         if (isset($request['mes']) && !empty($request['mes'])) {
-          $sql .= " AND month(d.fformalizacion) = ".$request['mes']." ";    
+          $sql .= " AND month(d.fformalizacion) = ".$request['mes']." ";
         }
         $sql .= " ) as d on d.tblinstancia_id=ti.id where ti.tbldepartamento_id = ".Auth::user()->tbldepartamento_id." and (ti.tipo = 'FA' or ti.tipo = 'JM') group by ti.nombre order by ti.nombre ";
         $instancia = DB::select(DB::raw($sql));
@@ -433,8 +464,8 @@ class DenunciaController extends Controller
 
         foreach ($instancia as $r) {
           $json[] = [
-            'nombre'=>$r->nombre, 
-            'name'=>$r->sigla, 
+            'nombre'=>$r->nombre,
+            'name'=>$r->sigla,
             'y'=>(int)$r->total,
           ];
           $maxHeight[] = (int)$r->total;
@@ -481,68 +512,68 @@ class DenunciaController extends Controller
             // dd($request['search']);
 
             $denuncias = new Denuncia();
-        
-            $denuncias = $denuncias->select('denuncia.*',DB::raw("(case 
-                when fdenuncia is not NULL then 
-                    case 
-                        when fformalizacion is not NULL then DATEDIFF(fformalizacion,fdenuncia) 
-                        else DATEDIFF(now(),fdenuncia) 
+
+            $denuncias = $denuncias->select('denuncia.*',DB::raw("(case
+                when fdenuncia is not NULL then
+                    case
+                        when fformalizacion is not NULL then DATEDIFF(fformalizacion,fdenuncia)
+                        else DATEDIFF(now(),fdenuncia)
                     end
-                when fdenuncia is NULL then -1 end ) dform, (case 
-                when fformalizacion is not NULL then 
-                    case 
-                        when faudiencia is not NULL then DATEDIFF(faudiencia,fformalizacion) 
-                        else DATEDIFF(now(),fformalizacion) 
+                when fdenuncia is NULL then -1 end ) dform, (case
+                when fformalizacion is not NULL then
+                    case
+                        when faudiencia is not NULL then DATEDIFF(faudiencia,fformalizacion)
+                        else DATEDIFF(now(),fformalizacion)
                     end
-                when fformalizacion is NULL then -1 end ) daud, (case 
-                when faudiencia is not NULL then 
-                    case 
-                        when fremision is not NULL then DATEDIFF(fremision,faudiencia) 
-                        else DATEDIFF(now(),faudiencia) 
+                when fformalizacion is NULL then -1 end ) daud, (case
+                when faudiencia is not NULL then
+                    case
+                        when fremision is not NULL then DATEDIFF(fremision,faudiencia)
+                        else DATEDIFF(now(),faudiencia)
                     end
-                when faudiencia is NULL then -1 end ) drem, (case 
-                when fremision is not NULL then 
-                    case 
-                        when fremisiond is not NULL then DATEDIFF(fremisiond,fremision) 
-                        else DATEDIFF(now(),fremision) 
+                when faudiencia is NULL then -1 end ) drem, (case
+                when fremision is not NULL then
+                    case
+                        when fremisiond is not NULL then DATEDIFF(fremisiond,fremision)
+                        else DATEDIFF(now(),fremision)
                     end
-                when fremision is NULL then -1 end ) dden, (case 
-                when fremisiond is not NULL then 
-                    case 
-                        when fremisionj is not NULL then DATEDIFF(fremisionj,fremisiond) 
-                        else DATEDIFF(now(),fremisiond) 
+                when fremision is NULL then -1 end ) dden, (case
+                when fremisiond is not NULL then
+                    case
+                        when fremisionj is not NULL then DATEDIFF(fremisionj,fremisiond)
+                        else DATEDIFF(now(),fremisiond)
                     end
-                when fremisiond is NULL then -1 end ) djuz, ((case 
-                when fdenuncia is not NULL then 
-                    case 
-                        when fformalizacion is not NULL then DATEDIFF(fformalizacion,fdenuncia) 
-                        else DATEDIFF(now(),fdenuncia) 
+                when fremisiond is NULL then -1 end ) djuz, ((case
+                when fdenuncia is not NULL then
+                    case
+                        when fformalizacion is not NULL then DATEDIFF(fformalizacion,fdenuncia)
+                        else DATEDIFF(now(),fdenuncia)
                     end
-                when fdenuncia is NULL then 0 end ) + (case 
-                when fformalizacion is not NULL then 
-                    case 
-                        when faudiencia is not NULL then DATEDIFF(faudiencia,fformalizacion) 
-                        else DATEDIFF(now(),fformalizacion) 
+                when fdenuncia is NULL then 0 end ) + (case
+                when fformalizacion is not NULL then
+                    case
+                        when faudiencia is not NULL then DATEDIFF(faudiencia,fformalizacion)
+                        else DATEDIFF(now(),fformalizacion)
                     end
-                when fformalizacion is NULL then 0 end ) + (case 
-                when faudiencia is not NULL then 
-                     case 
-                        when fremision is not NULL then DATEDIFF(fremision,faudiencia) 
-                        else DATEDIFF(now(),faudiencia) 
+                when fformalizacion is NULL then 0 end ) + (case
+                when faudiencia is not NULL then
+                     case
+                        when fremision is not NULL then DATEDIFF(fremision,faudiencia)
+                        else DATEDIFF(now(),faudiencia)
                     end
-                when faudiencia is NULL then 0 end ) + (case 
-                when fremision is not NULL then 
-                    case 
-                        when fremisiond is not NULL then DATEDIFF(fremisiond,fremision) 
-                        else DATEDIFF(now(),fremision) 
+                when faudiencia is NULL then 0 end ) + (case
+                when fremision is not NULL then
+                    case
+                        when fremisiond is not NULL then DATEDIFF(fremisiond,fremision)
+                        else DATEDIFF(now(),fremision)
                     end
-                when fremision is NULL then 0 end ) + (case 
-                when fremisiond is not NULL then 
-                    case 
-                        when fremisionj is not NULL then DATEDIFF(fremisionj,fremisiond) 
-                        else DATEDIFF(now(),fremisiond) 
+                when fremision is NULL then 0 end ) + (case
+                when fremisiond is not NULL then
+                    case
+                        when fremisionj is not NULL then DATEDIFF(fremisionj,fremisiond)
+                        else DATEDIFF(now(),fremisiond)
                     end
-                when fremisiond is NULL then 0 end )) total, (case 
+                when fremisiond is NULL then 0 end )) total, (case
                 when registro_file is not NULL then 1
                 when registro_file is NULL then 0 end ) registro"));
 
@@ -616,11 +647,11 @@ class DenunciaController extends Controller
             }
 
 
-            // Agresores reincidentes: 
+            // Agresores reincidentes:
             if (isset($request['agresor']) && $request['agresor'] != '0') {
                 $denuncias = $denuncias->join(DB::raw("
-                    ( 
-                        SELECT d.id from denuncia d 
+                    (
+                        SELECT d.id from denuncia d
                         join denuncia_agresor da on d.id=da.denuncia_id
                         join (
                             select da.agresor_id, count(d.id) from denuncia_agresor da
@@ -628,16 +659,16 @@ class DenunciaController extends Controller
                             where d.tblmodulo_id=".Auth::user()->tblmodulo_id."
                             GROUP by da.agresor_id HAVING COUNT(d.id) > 1
                         ) as tag on tag.agresor_id=da.agresor_id
-                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." 
+                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id."
                     ) ctag
                 "),'ctag.id','=','denuncia.id');
             }
 
-            // Victimas reincidentes: 
+            // Victimas reincidentes:
             if (isset($request['victima']) && $request['victima'] != '0') {
                 $denuncias = $denuncias->join(DB::raw("
-                    ( 
-                        select d.id from denuncia d 
+                    (
+                        select d.id from denuncia d
                         join denuncia_victima dv on d.id=dv.denuncia_id
                         join (
                             select dv.victima_id, count(d.id) from denuncia_victima dv
@@ -645,7 +676,7 @@ class DenunciaController extends Controller
                             where d.tblmodulo_id=".Auth::user()->tblmodulo_id."
                             GROUP by dv.victima_id HAVING COUNT(d.id) > 1
                         ) as tvc on tvc.victima_id=dv.victima_id
-                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." 
+                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id."
                     ) ctvc
                 "),'ctvc.id','=','denuncia.id');
             }
@@ -665,7 +696,7 @@ class DenunciaController extends Controller
                 return view('denuncia.denuncia.report.ajax', compact('denuncias','tdias'));
             }else{
                 if (isset($request['type']) && $request['type'] == 'report') {
-                    
+
                     $denuncias = $denuncias
                         ->orderBy('expediente', 'asc')
                         ->get();
@@ -685,7 +716,7 @@ class DenunciaController extends Controller
                     $filters['mes'] = $request['mes'];
                     $filters['fecha1'] = ( isset($request['fecha1'])&&!empty($request['fecha1']) ) ? $request['fecha1'] : '';
                     $filters['fecha2'] = ( isset($request['fecha2'])&&!empty($request['fecha2']) ) ? $request['fecha2'] : '';
-                    
+
                     PDF::setOptions(['dpi' => 72, 'defaultFont' => 'sans-serif']);
 
                     // $pdf = PDF::make('dompdf.wrapper');
@@ -712,7 +743,7 @@ class DenunciaController extends Controller
 
             return view('denuncia.denuncia.report.report', compact('anios','comisarias','instancias','chart','request'));
         }
-        
+
 
     }
 
@@ -733,7 +764,7 @@ class DenunciaController extends Controller
 
     public function importCSV(Request $request)
     {
-      
+
         if ( ($request->file('file_denuncia') && $request->hasFile('file_denuncia')) && ($request->file('file_agresor') && $request->hasFile('file_agresor')) && ($request->file('file_victima') && $request->hasFile('file_victima')) ) {
 
             // Denuncia
@@ -777,7 +808,7 @@ class DenunciaController extends Controller
             $fvictima = $path.$file_namev;
 
             if (file_exists($fdenuncia) && file_exists($fagresor) && file_exists($fvictima)) {
-                
+
                 // max execution time (mysql)
                 // ini_set('max_execution_time', 0);
                 set_time_limit(0);
@@ -830,14 +861,14 @@ class DenunciaController extends Controller
                       // se verifica si el expediente ha sido registrado
 
                       $bdenuncia = Denuncia::where('expediente','=',str_replace("'", '', $data[4]))->get();
-                      
+
                       // si no existe denuncia en la bd ( search(expediente) == 0 )
                       if(count($bdenuncia) == 0){
 
                         $denuncia = Denuncia::create($input);
 
                         // VICTIMAS
-                        $rowv = 1;  
+                        $rowv = 1;
                         if (($handlev = fopen($fvictima, "r")) !== FALSE) {
                           while (($datav = fgetcsv($handlev, 0, ";")) !== FALSE) {
                             $datav = array_map("utf8_encode", $datav);
@@ -898,7 +929,7 @@ class DenunciaController extends Controller
 
                                 // verificar si la victima esta registrada (por dni)
                                 $victima = Victima::where('nro_doc','=',$datav[1])->first();
-                                
+
                                 if(count($victima) <> 0){
                                   // existe victima
                                   // $victima = $_oControl->obtener_cursor($bresultv);
@@ -920,7 +951,7 @@ class DenunciaController extends Controller
                                 $denuncia_victima = DenunciaVictima::create($input);
 
                               }
-                              
+
                             }
                             $rowv++;
                           }
@@ -958,7 +989,7 @@ class DenunciaController extends Controller
                                     'tbldepartamento_id' => $dataa[5],
                                     'tblprovincia_id' => $dataa[6],
                                     'tbldistrito_id' => $dataa[7],
-                                ]; 
+                                ];
 
                                 // verificar si la agresor esta registrada (por dni)
                                 $agresor = Agresor::where('nro_doc','=',$dataa[1])->first();
@@ -981,7 +1012,7 @@ class DenunciaController extends Controller
                                 $denuncia_agresor = DenunciaAgresor::create($input);
 
                               }
-                              
+
                             }
                             $rowa++;
                           }
@@ -990,7 +1021,7 @@ class DenunciaController extends Controller
                         }
 
                         // $messages .= "</div>";
-                        
+
                       }
 
                     }
@@ -1045,7 +1076,7 @@ class DenunciaController extends Controller
 
                 // Victimas denunciantes
                 $sqlVD = "SELECT count(*) as total from ( SELECT distinct v.id,v.nombre,v.nro_doc from denuncia d
-                    join denuncia_victima vd on d.id = vd.denuncia_id 
+                    join denuncia_victima vd on d.id = vd.denuncia_id
                     join victima v on v.id = vd.victima_id
                     where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL AND year(d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
@@ -1067,10 +1098,10 @@ class DenunciaController extends Controller
                 $sqlHV = "SELECT ( case when sum(a.hijos) is not null then sum(a.hijos) when sum(a.hijos) is null then 0 end ) as total from (
                             select vt.id, vt.nombre, vt.nro_doc, vc.hijos from victima as vc join (
                                 select distinct v.id,v.nombre,v.nro_doc from denuncia d
-                                join denuncia_victima vd on d.id = vd.denuncia_id 
+                                join denuncia_victima vd on d.id = vd.denuncia_id
                                 join victima v on v.id = vd.victima_id
-                                where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL 
-                                and d.fformalizacion IS NOT NULL 
+                                where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL
+                                and d.fformalizacion IS NOT NULL
                                 AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlHV .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1082,7 +1113,7 @@ class DenunciaController extends Controller
                     $sqlHV .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
                 }
                 $sqlHV .= " order by v.id
-                        ) as vt on vc.id = vt.id 
+                        ) as vt on vc.id = vt.id
                     ) as a";
 
                 $victimasH = DB::select(DB::raw($sqlHV));
@@ -1093,7 +1124,7 @@ class DenunciaController extends Controller
                 $sqlCV = "SELECT distinct dt.id, dt.nombre, count(vi.id) as total from
                             (
                                 select distinct v.id,v.nombre,v.nro_doc from denuncia d
-                                join denuncia_victima vd on d.id = vd.denuncia_id 
+                                join denuncia_victima vd on d.id = vd.denuncia_id
                                 join victima v on v.id = vd.victima_id
                                 where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL
                                 AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
@@ -1106,7 +1137,7 @@ class DenunciaController extends Controller
                 if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
                     $sqlCV .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
                 }
-                $sqlCV .= " ) as vi 
+                $sqlCV .= " ) as vi
                             join victima as vc on vc.id = vi.id
                             right join tbltipo dt on dt.id = vc.tbltipo_id
                             group by dt.id, dt.nombre order by total desc";
@@ -1115,7 +1146,7 @@ class DenunciaController extends Controller
 
                 $victimasCarArr = [];
 
-                for ($i=0; $i < count($victimasCar); $i++) { 
+                for ($i=0; $i < count($victimasCar); $i++) {
                     if ($victimasCar[$i]->nombre == 'Adulto Mayor') {
                         $victimasCarArr['keys'][] = 'A. Mayor';
                     }else{
@@ -1134,10 +1165,10 @@ class DenunciaController extends Controller
                         ]);
 
                 // Edad promedio de las victimas
-                $sqlPV = " SELECT distinct tblefr.id_edad_fr, tblefr.edad_fr, count(vic.id_edad_fr) total from 
+                $sqlPV = " SELECT distinct tblefr.id_edad_fr, tblefr.edad_fr, count(vic.id_edad_fr) total from
                             (
                                 select vc.id,vc.nombre,vc.nro_doc,
-                                case 
+                                case
                                     when (vc.edad>=1 and vc.edad<=17) then '1'
                                     when (vc.edad>=18 and vc.edad<=29) then '2'
                                     when (vc.edad>=30 and vc.edad<=49) then '3'
@@ -1146,7 +1177,7 @@ class DenunciaController extends Controller
                                 END AS id_edad_fr from
                                 (
                                     select distinct v.id,v.nombre,v.nro_doc from denuncia d
-                                    join denuncia_victima vd on d.id = vd.denuncia_id 
+                                    join denuncia_victima vd on d.id = vd.denuncia_id
                                     join victima v on v.id= vd.victima_id
                                     where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL
                                     AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
@@ -1169,14 +1200,14 @@ class DenunciaController extends Controller
                             select '4','50-64' union
                             select '5','65-MAS'
                         ) as tblefr on tblefr.id_edad_fr = vic.id_edad_fr
-                        group by tblefr.id_edad_fr, tblefr.edad_fr 
+                        group by tblefr.id_edad_fr, tblefr.edad_fr
                         order by tblefr.id_edad_fr";
 
                 $victimasPV = DB::select(DB::raw($sqlPV));
 
                 $victimasPVArr = [];
 
-                for ($i=0; $i < count($victimasPV); $i++) { 
+                for ($i=0; $i < count($victimasPV); $i++) {
                     $victimasPVArr['keys'][] = $victimasPV[$i]->edad_fr;
                     $victimasPVArr['values'][] = $victimasPV[$i]->total;
                 }
@@ -1192,9 +1223,9 @@ class DenunciaController extends Controller
                 // Presuntos Agresores
                 $sqlPA = "SELECT count(*) as total from (
                         select distinct a.id,a.nombre,a.nro_doc from denuncia d
-                        join denuncia_agresor ad on d.id = ad.denuncia_id 
-                        join agresor a on a.id = ad.agresor_id 
-                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL 
+                        join denuncia_agresor ad on d.id = ad.denuncia_id
+                        join agresor a on a.id = ad.agresor_id
+                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL
                         and d.fformalizacion IS NOT NULL AND year(d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlPA .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1215,9 +1246,9 @@ class DenunciaController extends Controller
                 $sqlSA = "SELECT * from (
                         select distinct (case when (ag.sexo is null or ag.sexo = '') then 'Nulo' else ag.sexo END) AS sexo,count(agr.id) as total from (
                             select distinct a.id,a.nombre,a.nro_doc from denuncia d
-                            join denuncia_agresor ad on d.id = ad.denuncia_id 
+                            join denuncia_agresor ad on d.id = ad.denuncia_id
                             join agresor a on a.id = ad.agresor_id
-                            where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL 
+                            where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL
                             and d.fformalizacion IS NOT NULL
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
@@ -1230,14 +1261,14 @@ class DenunciaController extends Controller
                     $sqlSA .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
                 }
                 $sqlSA .= " order by a.id
-                        ) as agr right join agresor as ag on ag.id = agr.id 
+                        ) as agr right join agresor as ag on ag.id = agr.id
                     group by ag.sexo) as s where s.sexo != 'Nulo' ";
 
                 $agresoresS = DB::select(DB::raw($sqlSA));
 
                 $agresoresSArr = [];
 
-                for ($i=0; $i < count($agresoresS); $i++) { 
+                for ($i=0; $i < count($agresoresS); $i++) {
                     $agresoresSArr['keys'][] = $agresoresS[$i]->sexo;
                     $agresoresSArr['values'][] = $agresoresS[$i]->total;
                 }
@@ -1266,8 +1297,8 @@ class DenunciaController extends Controller
                         from (
                             select dad.* from denuncia_agresor as dad
                             join denuncia d on d.id = dad.denuncia_id
-                            where d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL 
-                            and d.tblmodulo_id=".Auth::user()->tblmodulo_id." 
+                            where d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL
+                            and d.tblmodulo_id=".Auth::user()->tblmodulo_id."
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlPPA .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1282,7 +1313,7 @@ class DenunciaController extends Controller
                 $sqlPPA .= ") as ad1, (
                         select dad1.* from denuncia_agresor as dad1
                         join denuncia d on d.id = dad1.denuncia_id
-                        where d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL and d.tblmodulo_id=30 
+                        where d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL and d.tblmodulo_id=30
                         AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlPPA .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1294,8 +1325,8 @@ class DenunciaController extends Controller
                     $sqlPPA .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
                 }
 
-                $sqlPPA .= " ) as ad2 
-                            where ad1.id >= ad2.id and ad1.agresor_id = ad2.agresor_id 
+                $sqlPPA .= " ) as ad2
+                            where ad1.id >= ad2.id and ad1.agresor_id = ad2.agresor_id
                             group by ad1.agresor_id
                         ) as a
                         right join tblparentesco tp on tp.id = a.tblparentesco_id
@@ -1305,7 +1336,7 @@ class DenunciaController extends Controller
 
                 $agresoresPPAArr = [];
 
-                for ($i=0; $i < count($agresoresPPA); $i++) { 
+                for ($i=0; $i < count($agresoresPPA); $i++) {
                     if ($agresoresPPA[$i]->nombre == 'Padastro(Ma)') {
                         $agresoresPPAArr['keys'][] = 'Padast.';
                     }else if ($agresoresPPA[$i]->nombre == 'Progenitor(a)') {
@@ -1353,7 +1384,7 @@ class DenunciaController extends Controller
 
                 // Atencion Psicologica
                 $sqlAp = "SELECT count(d.psicologia) as total from denuncia d
-                    where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.psicologia = '1' and d.fdenuncia is not null and d.fformalizacion is not null 
+                    where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.psicologia = '1' and d.fdenuncia is not null and d.fformalizacion is not null
                     AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlAp .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1371,7 +1402,7 @@ class DenunciaController extends Controller
 
                 // Asistencia legal
                 $sqlAl = "SELECT count(d.asistencialegal) as total from denuncia d
-                    where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.asistencialegal = '1' and d.fdenuncia is not null and d.fformalizacion is not null 
+                    where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.asistencialegal = '1' and d.fdenuncia is not null and d.fformalizacion is not null
                     AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlAl .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1389,7 +1420,7 @@ class DenunciaController extends Controller
 
                 // Denuncia Policial
                 $sqlDP = "SELECT count(*) as total from denuncia d
-                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                         AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlDP .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1407,9 +1438,9 @@ class DenunciaController extends Controller
 
                 // Calificacion Denuncias
                 $sqlCDN = "SELECT distinct cl.calificacion, count(cld.calificacion) as total from (
-                            select d.calificacion from denuncia d  
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
-                            and (d.calificacion = 'Ha lugar' or d.calificacion = 'No ha lugar') 
+                            select d.calificacion from denuncia d
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                            and (d.calificacion = 'Ha lugar' or d.calificacion = 'No ha lugar')
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlCDN .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1422,8 +1453,8 @@ class DenunciaController extends Controller
                 }
 
                 $sqlCDN .= " ) as cld
-                        right join ( 
-                            select 'Ha lugar' as calificacion union select 'No ha lugar' as calificacion 
+                        right join (
+                            select 'Ha lugar' as calificacion union select 'No ha lugar' as calificacion
                         ) as cl on cl.calificacion=cld.calificacion
                         group by cl.calificacion ";
 
@@ -1431,7 +1462,7 @@ class DenunciaController extends Controller
 
                 $calificacionDenArr = [];
 
-                for ($i=0; $i < count($calificacionDen); $i++) { 
+                for ($i=0; $i < count($calificacionDen); $i++) {
                     $calificacionDenArr['keys'][] = $calificacionDen[$i]->calificacion;
                     $calificacionDenArr['values'][] = $calificacionDen[$i]->total;
                 }
@@ -1445,8 +1476,8 @@ class DenunciaController extends Controller
                         ]);
 
                 // Audiencias Judiciales
-                $sqlAJ = "SELECT count(*) as total from denuncia d 
-                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                $sqlAJ = "SELECT count(*) as total from denuncia d
+                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                         AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlAJ .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1464,15 +1495,15 @@ class DenunciaController extends Controller
 
                 // PNP
                 $sqlPNP = "SELECT sum(a.dias_pnp_den) as suma, avg(a.dias_pnp_den) as promedio, count(*) as total from (
-                            select (case 
-                                when d.fdenuncia is not NULL then 
-                                    case 
-                                        when d.fformalizacion is not NULL then DATEDIFF(d.fformalizacion,d.fdenuncia) 
+                            select (case
+                                when d.fdenuncia is not NULL then
+                                    case
+                                        when d.fformalizacion is not NULL then DATEDIFF(d.fformalizacion,d.fdenuncia)
                                         else 0
                                     end
-                                when d.fdenuncia is NULL then 0 end 
-                            ) as dias_pnp_den from denuncia d 
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                                when d.fdenuncia is NULL then 0 end
+                            ) as dias_pnp_den from denuncia d
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlPNP .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1502,15 +1533,15 @@ class DenunciaController extends Controller
 
                 // Modulo VF
                 $sqlMVF = "SELECT sum(a.dias_modulo) as suma, avg(a.dias_modulo) as promedio, count(*) as total from (
-                            select (case 
-                                when d.fformalizacion is not NULL then 
-                                    case 
+                            select (case
+                                when d.fformalizacion is not NULL then
+                                    case
                                         when d.faudiencia is not NULL then DATEDIFF(d.faudiencia,d.fformalizacion)
                                         else 0
                                     end
-                                when d.fformalizacion is NULL then '0' end 
+                                when d.fformalizacion is NULL then '0' end
                             ) as dias_modulo from denuncia d
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlMVF .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1540,15 +1571,15 @@ class DenunciaController extends Controller
 
                 // Duracion
                 $sqlDR = "SELECT sum(a.duracion) as suma, avg(a.duracion) as promedio from (
-                            select (case 
-                                when d.fdenuncia is not NULL then 
-                                    case 
-                                        when d.fdenuncia  is not NULL then DATEDIFF(d.faudiencia,d.fdenuncia) 
+                            select (case
+                                when d.fdenuncia is not NULL then
+                                    case
+                                        when d.fdenuncia  is not NULL then DATEDIFF(d.faudiencia,d.fdenuncia)
                                         else 0
                                     end
-                                when d.fdenuncia is NULL then '0' end 
-                            ) as duracion from denuncia d 
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                                when d.fdenuncia is NULL then '0' end
+                            ) as duracion from denuncia d
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlDR .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1572,15 +1603,15 @@ class DenunciaController extends Controller
 
                 // Remision
                 $sqlREM = "SELECT sum(a.remison) as suma, avg(a.remison) as promedio from (
-                            select (case 
-                                when d.faudiencia is not NULL then 
-                                    case 
+                            select (case
+                                when d.faudiencia is not NULL then
+                                    case
                                         when d.fremision is not NULL then DATEDIFF(d.fremision,d.faudiencia)
-                                        else DATEDIFF(now(),d.faudiencia) 
+                                        else DATEDIFF(now(),d.faudiencia)
                                     end
-                                when d.faudiencia is NULL then '0' end 
+                                when d.faudiencia is NULL then '0' end
                             ) as remison from denuncia d
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlREM .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1603,8 +1634,8 @@ class DenunciaController extends Controller
                 }
 
                 // Cuadro de ingreso
-                $sqlCID = "SELECT distinct extract(month FROM d.fformalizacion) as mes, count(*) as total from denuncia d 
-                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                $sqlCID = "SELECT distinct extract(month FROM d.fformalizacion) as mes, count(*) as total from denuncia d
+                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                         AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlCID .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1625,10 +1656,10 @@ class DenunciaController extends Controller
 
                 $ingresoArr = [];
 
-                for ($i=0; $i < count($meses); $i++) { 
+                for ($i=0; $i < count($meses); $i++) {
                     if (count($ingreso) > 0) {
                         $_aux = 0;
-                        for ($j=0; $j < count($ingreso); $j++) { 
+                        for ($j=0; $j < count($ingreso); $j++) {
                             if ($meses[$i] == $ingreso[$j]->mes) {
                                 $_total = $ingreso[$j]->total;
                                 $_aux = 1;
@@ -1655,15 +1686,15 @@ class DenunciaController extends Controller
 
                 // Tiempos de tramites de denuncias - Tiempo de celeridad
                 $sqlTTC = "SELECT distinct mes, sum(a.duracion) as suma, avg(a.duracion) as promedio from (
-                        select extract(month FROM d.fformalizacion) as mes, (case 
-                        when d.fdenuncia is not NULL then 
-                            case 
-                                when d.faudiencia is not NULL then DATEDIFF(d.faudiencia,d.fdenuncia) 
+                        select extract(month FROM d.fformalizacion) as mes, (case
+                        when d.fdenuncia is not NULL then
+                            case
+                                when d.faudiencia is not NULL then DATEDIFF(d.faudiencia,d.fdenuncia)
                                 else 0
                             end
-                        when d.fdenuncia is NULL then 0 end 
-                        ) as duracion from denuncia d 
-                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                        when d.fdenuncia is NULL then 0 end
+                        ) as duracion from denuncia d
+                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                         AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlTTC .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1684,10 +1715,10 @@ class DenunciaController extends Controller
 
                 $celeridadArr = [];
 
-                for ($i=0; $i < count($meses); $i++) { 
+                for ($i=0; $i < count($meses); $i++) {
                     if (count($celeridad) > 0) {
                         $_aux = 0;
-                        for ($j=0; $j < count($celeridad); $j++) { 
+                        for ($j=0; $j < count($celeridad); $j++) {
                             if ($meses[$i] == $celeridad[$j]->mes) {
                                 $_total = $celeridad[$j]->promedio;
                                 $_aux = 1;
@@ -1719,15 +1750,15 @@ class DenunciaController extends Controller
                 // Reemplazo de tiempos de tramite
                 $ttramite = [];
                 $sqlTT1 = " SELECT distinct a.mes, sum(a.dias_pnp_den) as suma, avg(a.dias_pnp_den) as promedio, count(*) as total from (
-                                select extract(month FROM d.fformalizacion) as mes, (case 
-                                    when d.fdenuncia is not NULL then 
-                                        case 
-                                            when d.fformalizacion is not NULL then DATEDIFF(d.fformalizacion,d.fdenuncia) 
+                                select extract(month FROM d.fformalizacion) as mes, (case
+                                    when d.fdenuncia is not NULL then
+                                        case
+                                            when d.fformalizacion is not NULL then DATEDIFF(d.fformalizacion,d.fdenuncia)
                                             else 0
                                         end
-                                    when d.fdenuncia is NULL then 0 end 
-                                ) as dias_pnp_den  from denuncia d 
-                                where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                                    when d.fdenuncia is NULL then 0 end
+                                ) as dias_pnp_den  from denuncia d
+                                where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                                 AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
                     $sqlTT1 .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
@@ -1740,10 +1771,10 @@ class DenunciaController extends Controller
 
                 $queryTT1 = DB::select(DB::raw($sqlTT1));
 
-                for ($i=0; $i < count($meses); $i++) { 
+                for ($i=0; $i < count($meses); $i++) {
                     if (count($queryTT1)>0) {
                         $_aux = 0;
-                        for ($j=0; $j < count($queryTT1); $j++) { 
+                        for ($j=0; $j < count($queryTT1); $j++) {
                             if ($meses[$i] == $queryTT1[$j]->mes) {
                                 $_total = $queryTT1[$j]->promedio;
                                 $_aux = 1;
@@ -1761,15 +1792,15 @@ class DenunciaController extends Controller
                 }
 
                 $sqlTT2 = " SELECT distinct a.mes, sum(a.dias_modulo) as suma, avg(a.dias_modulo) as promedio, count(*) as total from (
-                                select extract(month FROM d.fformalizacion) as mes, (case 
-                                    when d.fformalizacion is not NULL then 
-                                        case 
+                                select extract(month FROM d.fformalizacion) as mes, (case
+                                    when d.fformalizacion is not NULL then
+                                        case
                                             when d.faudiencia is not NULL then DATEDIFF(d.faudiencia,d.fformalizacion)
                                             else 0
                                         end
-                                    when d.fformalizacion is NULL then '0' end 
+                                    when d.fformalizacion is NULL then '0' end
                                 ) as dias_modulo from denuncia d
-                                where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                                where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                                 AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
                     $sqlTT2 .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
@@ -1782,10 +1813,10 @@ class DenunciaController extends Controller
 
                 $queryTT2 = DB::select(DB::raw($sqlTT2));
 
-                for ($i=0; $i < count($meses); $i++) { 
+                for ($i=0; $i < count($meses); $i++) {
                     if (count($queryTT2)>0) {
                         $_aux = 0;
-                        for ($j=0; $j < count($queryTT2); $j++) { 
+                        for ($j=0; $j < count($queryTT2); $j++) {
                             if ($meses[$i] == $queryTT2[$j]->mes) {
                                 $_total = $queryTT2[$j]->promedio;
                                 $_aux = 1;
@@ -1806,8 +1837,8 @@ class DenunciaController extends Controller
 
 
                 // PS-CEM
-                $sqlPSCEM = "SELECT sum(d.psicologia) as total from denuncia d 
-                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                $sqlPSCEM = "SELECT sum(d.psicologia) as total from denuncia d
+                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                         AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlPSCEM .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1828,8 +1859,8 @@ class DenunciaController extends Controller
                 }
 
                 // AL-CEM
-                $sqlALCEM = "SELECT sum(asistencialegal) as total from denuncia d 
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                $sqlALCEM = "SELECT sum(asistencialegal) as total from denuncia d
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlALCEM .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1850,8 +1881,8 @@ class DenunciaController extends Controller
                 }
 
                 // Ministerio
-                $sqlALMIN = "SELECT sum(ministerio) as total from denuncia d 
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                $sqlALMIN = "SELECT sum(ministerio) as total from denuncia d
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlALMIN .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1875,7 +1906,7 @@ class DenunciaController extends Controller
                 // Agresor
                 $sqlAR = "SELECT count(*) total from ( SELECT da.agresor_id, count(d.id) from denuncia_agresor da
                             join denuncia d on d.id=da.denuncia_id
-                            where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                            where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlAR .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1900,7 +1931,7 @@ class DenunciaController extends Controller
                 // Victima
                 $sqlVR = "SELECT count(*) total from ( select dv.victima_id, count(d.id) from denuncia_victima dv
                         join denuncia d on d.id=dv.denuncia_id
-                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null 
+                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlVR .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1966,7 +1997,7 @@ class DenunciaController extends Controller
                 $chart->labels(['One', 'Two', 'Three', 'Four']);
                 $chart->dataset('My dataset', 'line', [1, 2, 3, 4]);
                 $chart->dataset('My dataset 2', 'line', [4, 3, 2, 1]);
-    
+
                 return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','chart','request'));
             }
 
@@ -1986,7 +2017,7 @@ class DenunciaController extends Controller
                 switch ($request['graph']) {
                     case '1':
                         $splitImg = explode(",data:image/png;base64",$request['imgArr']);
-                        for ($i=0; $i < count($splitImg) ; $i++) { 
+                        for ($i=0; $i < count($splitImg) ; $i++) {
                             if ($i > 0) {
                                 $splitImg[$i] = "data:image/png;base64".$splitImg[$i];
                             }
@@ -2001,7 +2032,7 @@ class DenunciaController extends Controller
 
                     case '2':
                         $splitImg = explode(",data:image/png;base64",$request['imgArr']);
-                        for ($i=0; $i < count($splitImg) ; $i++) { 
+                        for ($i=0; $i < count($splitImg) ; $i++) {
                             if ($i > 0) {
                                 $splitImg[$i] = "data:image/png;base64".$splitImg[$i];
                             }
@@ -2015,7 +2046,7 @@ class DenunciaController extends Controller
 
                     case '3':
                         $splitImg = explode(",data:image/png;base64",$request['imgArr']);
-                        for ($i=0; $i < count($splitImg) ; $i++) { 
+                        for ($i=0; $i < count($splitImg) ; $i++) {
                             if ($i > 0) {
                                 $splitImg[$i] = "data:image/png;base64".$splitImg[$i];
                             }
@@ -2030,7 +2061,7 @@ class DenunciaController extends Controller
 
                     case '4':
                         $splitImg = explode(",data:image/png;base64",$request['imgArr']);
-                        for ($i=0; $i < count($splitImg) ; $i++) { 
+                        for ($i=0; $i < count($splitImg) ; $i++) {
                             if ($i > 0) {
                                 $splitImg[$i] = "data:image/png;base64".$splitImg[$i];
                             }
@@ -2042,7 +2073,7 @@ class DenunciaController extends Controller
                         return $pdf->stream();
                         break;
                         break;
-                    
+
                     default:
                         # code...
                         break;
@@ -2059,8 +2090,9 @@ class DenunciaController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
-    {   
+    {
         $denuncia = Denuncia::findOrFail($id);
+        dd($denuncia->victimas);
         $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
         $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
         $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','FA')->orwhere('tipo','JM')->orderBy('nombre')->pluck('nombre', 'id');
@@ -2251,7 +2283,7 @@ class DenunciaController extends Controller
                     'tblcomisaria_id' => 'required|exists:tblcomisaria,id',
                     'observacion' => 'nullable|string',
                 ];
-                
+
                 $input = [
                     'oficio' => $request['oficio'],
                     'institucion' => $request['institucion'],
@@ -2360,7 +2392,7 @@ class DenunciaController extends Controller
                     'ministerio' => 'nullable',
                     'faudiencia' => 'nullable|date',
                 ];
-                
+
                 $input = [
                     'tblinstancia_id' => $request['tblinstancia_id'],
                     'expediente' => $request['expediente'],
@@ -2444,7 +2476,7 @@ class DenunciaController extends Controller
                     'oficioremitido' => 'required|string|unique:denuncia,oficioremitido,'.$denuncia->oficioremitido.',oficioremitido',
                     'fremision' => 'required|date',
                 ];
-                
+
                 $input = [
                     'remitido' => $request['remitido'],
                     'oficioremitido' => $request['oficioremitido'],
@@ -2505,7 +2537,7 @@ class DenunciaController extends Controller
                     'oficioremitidod' => 'required|string|unique:denuncia,oficioremitidod,'.$denuncia->oficioremitidod.',oficioremitidod',
                     'fremisiond' => 'required|date',
                 ];
-                
+
                 $input = [
                     'dependenciad' => $request['dependenciad'],
                     'expediented' => $request['expediented'],
@@ -2568,7 +2600,7 @@ class DenunciaController extends Controller
                     'oficioremitidoj' => 'required|string|unique:denuncia,oficioremitidoj,'.$denuncia->oficioremitidoj.',oficioremitidoj',
                     'fremisionj' => 'required|date',
                 ];
-                
+
                 $input = [
                     'jip' => $request['jip'],
                     'juzgamiento' => $request['juzgamiento'],
@@ -2601,7 +2633,7 @@ class DenunciaController extends Controller
                 }
             }
         }
-        
+
     }
 
     /**

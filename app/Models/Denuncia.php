@@ -8,14 +8,14 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Denuncia extends Model
 {
     use SoftDeletes;
-    
+
     /**
      * The table associated with the model.
      *
      * @var string
      */
     protected $table = 'denuncia';
-   
+
     /**
      * The attributes that are mass assignable.
      *
@@ -76,23 +76,23 @@ class Denuncia extends Model
     {
         return $this->belongsTo(Tblinstancia::class);  // !importante - Para los modelos  =>  Category::class
     }
-    
+
     public function tblmodulo ()
     {
         return $this->belongsTo(Tblmodulo::class);  // !importante - Para los modelos  =>  Category::class
     }
 
-    public function victimas () 
-    { 
+    public function victimas ()
+    {
         // por convencion no genera problema pero se agrega el nombre de la tabla pivot por pura simetria
-        return $this->belongsToMany(Victima::class, 'denuncia_victima'); 
+        return $this->belongsToMany(Victima::class, 'denuncia_victima')->where('deleted_at','!=',NULL);
     }
 
-    public function agresores () 
-    { 
+    public function agresores ()
+    {
         // la convencion de nombramiento de tablas debe ser en orden albafetico => la tabla pivot debio llamarse:
         // "agresor_denuncia" pero se llama denuncia_agresor por lo que se debe indicar el nombre de la tabla pivot
-       return $this->belongsToMany(Agresor::class, 'denuncia_agresor'); 
+       return $this->belongsToMany(Agresor::class, 'denuncia_agresor');
     }
 
     public function denunciaagresores ()
