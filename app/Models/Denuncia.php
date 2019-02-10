@@ -85,14 +85,22 @@ class Denuncia extends Model
     public function victimas ()
     {
         // por convencion no genera problema pero se agrega el nombre de la tabla pivot por pura simetria
+<<<<<<< 8a05ad328ac470a8ee0259027f15ac45c226c813
         return $this->belongsToMany(Victima::class, 'denuncia_victima')->where('deleted_at','!=',NULL);
+=======
+        return $this->belongsToMany(Victima::class, 'denuncia_victima')->whereNull('denuncia_victima.deleted_at'); 
+>>>>>>> bbb
     }
 
     public function agresores ()
     {
         // la convencion de nombramiento de tablas debe ser en orden albafetico => la tabla pivot debio llamarse:
         // "agresor_denuncia" pero se llama denuncia_agresor por lo que se debe indicar el nombre de la tabla pivot
+<<<<<<< 8a05ad328ac470a8ee0259027f15ac45c226c813
        return $this->belongsToMany(Agresor::class, 'denuncia_agresor');
+=======
+       return $this->belongsToMany(Agresor::class, 'denuncia_agresor')->whereNull('denuncia_agresor.deleted_at'); 
+>>>>>>> bbb
     }
 
     public function denunciaagresores ()
