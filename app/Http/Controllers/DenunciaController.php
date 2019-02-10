@@ -2265,10 +2265,12 @@ class DenunciaController extends Controller
 
                 $attributes = array(
                     'oficio' => 'Oficio',
+                    'institucion' => 'Institucion',
                     'tbldenuncia_id' => 'Tipo Denuncia',
                     'fdenuncia' => 'Fecha de Denuncia',
                     'fformalizacion' => 'Fecha de Formalización',
                     'tblcomisaria_id' => 'Comisaria',
+                    'tblfiscalia_id' => 'Fiscalia',
                     'observacion' => 'Observacion',
                     'registro_file' => 'Archivo de Registro',
                 );
@@ -2280,7 +2282,6 @@ class DenunciaController extends Controller
                     // 'tbldenuncia_id' => 'min:1',
                     'fdenuncia' => 'required|date',
                     'fformalizacion' => 'required|date',
-                    'tblcomisaria_id' => 'required|exists:tblcomisaria,id',
                     'observacion' => 'nullable|string',
                 ];
 
@@ -2290,9 +2291,19 @@ class DenunciaController extends Controller
                     'tbldenuncia_id' => $request['tbldenuncia_id'],
                     'fdenuncia' => $request['fdenuncia'],
                     'fformalizacion' => $request['fformalizacion'],
-                    'tblcomisaria_id' => $request['tblcomisaria_id'],
                     'observacion' => $request['observacion'],
+                    'tblcomisaria_id' => $request['tblcomisaria_id'],
                 ];
+
+                if ($request['institucion'] == '1') { // comisaria
+                    $rules = parent::array_push_assoc($rules, 'tblcomisaria_id', 'required|exists:tblcomisaria,id');
+                    $input = parent::array_push_assoc($input, 'tblcomisaria_id', $request['tblcomisaria_id']);
+                }
+
+                if ($request['institucion'] == '3') { // fiscalia
+                    $rules = parent::array_push_assoc($rules, 'tblfiscalia_id', 'required|exists:tblfiscalia,id');
+                    $input = parent::array_push_assoc($input, 'tblfiscalia_id', $request['tblfiscalia_id']);
+                }
 
                 if (!isset($denuncia->registro_file) && empty($denuncia->registro_file)) {
                     // no existe registro de archivo: se valida el archivo

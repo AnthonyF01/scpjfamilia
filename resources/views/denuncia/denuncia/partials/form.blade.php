@@ -384,13 +384,13 @@
                             </div>
                             <div class="comisaria" {{ (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '1') ? "style=display:initial" : "style=display:none" }} >
                               {{ Form::select('tblcomisaria_id', $comisarias, null, array('class'=>'form-control input-sm'.($errors->has('tblcomisaria_id')?" is-invalid":""), 'placeholder'=>'Seleccione una Comisaria', 'style'=>'width: 100%')) }}
+                              <span id="error-tblcomisaria_id" class="invalid-feedback"></span>
                             </div>
                             <div class="fiscalia" {{ (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? "style=display:initial" : "style=display:none" }} >
                               {{ Form::select('tblfiscalia_id', $comisarias, null, array('class'=>'form-control input-sm'.($errors->has('tblfiscalia_id')?" is-invalid":""), 'placeholder'=>'Seleccione una Fiscalia', 'style'=>'width: 100%')) }}
+                              <span id="error-tblfiscalia_id" class="invalid-feedback"></span>
                             </div>
                             <span id="error-institucion" class="invalid-feedback"></span>
-                            <span id="error-tblcomisaria_id" class="invalid-feedback"></span>
-                            <span id="error-tblfiscalia_id" class="invalid-feedback"></span>
                           </div>
                         </div>
                       </div>
@@ -459,7 +459,7 @@
                         <div class="row">
                           {{ Form::label('calificacion', 'Calificación:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
-                            {{Form::select('calificacion',[''=>'Elegir Calificación','No ha lugar'=>'No ha lugar','Ha lugar'=>'Ha lugar'],null,array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""),'name'=>'calificacion','id'=>'calificacion'))}}
+                            {{Form::select('calificacion',[''=>'Elegir Calificación','No ha lugar'=>'No ha lugar','Ha lugar'=>'Ha lugar'],null,array('class' => 'form-control input-sm'.($errors->has('calificacion')?" is-invalid":""),'name'=>'calificacion','id'=>'calificacion'))}}
                             <span id="error-calificacion" class="invalid-feedback"></span>
                           </div>
                         </div>
@@ -511,15 +511,48 @@
                       </div>
                       <div class="form-group">
                         <div class="row">
+                          {{ Form::label('tblmedida_id', 'Tipo de Medida de Protección:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
+                          <div class="col-sm-8">
+                            {{Form::select('tblmedida_id',[''=>'Seleccionar tipo','Tipo1'=>'Tipo1','Tipo2'=>'Tipo2','Tipo3'=>'Tipo3'],null,array('class' => 'form-control input-sm'.($errors->has('tblmedida_id')?" is-invalid":""),'name'=>'tblmedida_id','id'=>'tblmedida_id'))}}
+                            <span id="error-tblmedida_id" class="invalid-feedback"></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="row">
                           {{ Form::label('medida_file', 'Medida de Protección:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
-                            <div class="file-loading">
-                              <input id="medida_file" name="medida_file" type="file">
+                            <div class="input-group">
+                              <div class="input-group-btn">
+                                @if (isset($denuncia->medida_file) && !empty($denuncia->medida_file) && isset(explode("denuncia/",$denuncia->medida_file)[1]))
+                                  <a style="margin-right: 0px;" title="Descargar Medida de Protección" href="{{ $denuncia->medida_file }}" target="_blank" class="btn btn-outline-primary"><i class="fa fa-download"></i></a>
+                                @else
+                                  <a disabled style="margin-right: 0px;" title="Medida de Protección disponible" href="javascript:void(0)" target="_blank" class="btn btn-outline-primary"><i class="fa fa-download"></i></a>
+                                @endif
+                              </div>
+                              {{-- <input type="text" class="form-control"> --}}
+                              <div class="file-loading">
+                                <input id="medida_file" name="medida_file" type="file">
+                              </div>
                             </div>
                             @if (isset($denuncia->medida_file) && !empty($denuncia->medida_file) && isset(explode("denuncia/",$denuncia->medida_file)[1]))
                               <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> {{ explode("denuncia/",$denuncia->medida_file)[1] }}</span>
+                            @else
+                              <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> No disponible</span>
                             @endif
                             <span id="error-medida_file" class="invalid-feedback"></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="row">
+                          {{ Form::label('fmedida', 'Fecha de Medida de Protección:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
+                          <div class="col-sm-8">
+                            <div class="input-group date">
+                              <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                              {{ Form::text('fmedida', null, ['class' => 'form-control input-sm datepicker'.($errors->has('fmedida')?" is-invalid":""), "autofocus", 'id' => 'fmedida', 'autocomplete' => 'off']) }}
+                            </div>
+                            <span id="error-fmedida" class="invalid-feedback"></span>
                           </div>
                         </div>
                       </div>
@@ -884,6 +917,13 @@
         $(".comisaria").hide();
         $(".fiscalia").show();
       }
+    });
+
+    $('input[name=_institucion]').on('ifUnchecked', function(event){
+      $(".comisaria").hide();
+    });
+    $('input[name=_fiscalia]').on('ifUnchecked', function(event){
+      $(".fiscalia").hide();
     });
 
     $('.datepicker').datepicker({
