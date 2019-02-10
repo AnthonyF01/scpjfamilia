@@ -2092,7 +2092,6 @@ class DenunciaController extends Controller
     public function edit($id)
     {
         $denuncia = Denuncia::findOrFail($id);
-        dd($denuncia->victimas);
         $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
         $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
         $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','FA')->orwhere('tipo','JM')->orderBy('nombre')->pluck('nombre', 'id');
