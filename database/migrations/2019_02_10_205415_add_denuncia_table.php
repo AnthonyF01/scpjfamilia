@@ -14,6 +14,7 @@ class AddDenunciaTable extends Migration
     public function up()
     {
         Schema::table('denuncia', function (Blueprint $table) {
+            $table->integer('institucion')->unsigned()->nullable();
             $table->integer('tbldenuncia_id')->unsigned()->nullable();
         });
     }

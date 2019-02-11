@@ -17,7 +17,6 @@ class CreateDenunciaTable extends Migration
             $table->increments('id');
             $table->integer('tblcomisaria_id')->unsigned()->nullable();
             $table->integer('tblfiscalia_id')->unsigned()->nullable(); // por agregar
-            $table->integer('institucion');
             $table->string('oficio',50)->nullable();
             $table->date('fdenuncia')->nullable();
             $table->date('fformalizacion')->nullable();
