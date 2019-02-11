@@ -2237,6 +2237,7 @@ class DenunciaController extends Controller
                 ]);
             }
             if ($request['action'] == 'denuncia') {
+
                 // convertir de dd/mm/yyyy -> yyyy-mm-dd (mysql)
                 if ($request['fdenuncia'] != '') {
                     $request->merge([ 'fdenuncia' => date('Y-m-d',strtotime(str_replace('/', '-', $request['fdenuncia']))) ]);
@@ -2278,7 +2279,7 @@ class DenunciaController extends Controller
                     'oficio' => 'required|string',
                     'institucion' => 'required',
                     // 'tbldenuncia_id' => 'required|array|min:1',
-                    // 'tbldenuncia_id' => 'min:1',
+                    'tbldenuncia_id' => 'required|exists:tbldenuncia,id',
                     'fdenuncia' => 'required|date',
                     'fformalizacion' => 'required|date',
                     'observacion' => 'nullable|string',
@@ -2350,13 +2351,13 @@ class DenunciaController extends Controller
                         $input['registro_file'] = $fakepath;
                     }
 
-                    unset($input['tbldenuncia_id']);
+                    // unset($input['tbldenuncia_id']);
                     Denuncia::where('id', $id)->update($input);
 
                     // el metodo sync solo sirve para tablas relacionadas muchos a muchos
-                    if (!empty($request->get('tbldenuncia_id'))) {
-                      $denuncia->tbldenuncias()->sync($request->get('tbldenuncia_id'));
-                    }
+                    /*if (!empty($request->get('tbldenuncia_id'))) {
+                        $denuncia->tbldenuncias()->sync($request->get('tbldenuncia_id'));
+                    }*/
 
                     return response()->json([
                         'tab' => 'denuncia',

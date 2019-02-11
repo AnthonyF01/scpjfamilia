@@ -304,11 +304,12 @@
                         <div class="row">
                           {{ Form::label('tbldenuncia_id', 'Grado de valoracion:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
-                            @if(isset($denuncia) && !empty($denuncia['id']))
+                            {{Form::select('tbldenuncia_id',$tdenuncias,null,array('class' => 'form-control input-sm'.($errors->has('tbldenuncia_id')?" is-invalid":""),'name'=>'tbldenuncia_id','id'=>'tbldenuncia_id'))}}
+                            {{-- @if(isset($denuncia) && !empty($denuncia['id']))
                               {{Form::select('tbldenuncia_id',$tdenuncias,$denuncia->tbldenuncias()->pluck('tbldenuncia.id','tbldenuncia.nombre')->toArray(),array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tbldenuncia_id[]','id'=>'tbldenuncia_id'))}}
                             @else
                               {{Form::select('tbldenuncia_id',$tdenuncias,null,array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tbldenuncia_id[]','id'=>'tbldenuncia_id'))}}
-                            @endif
+                            @endif --}}
                             <span id="error-tbldenuncia_id" class="invalid-feedback"></span>
                           </div>
                         </div>
