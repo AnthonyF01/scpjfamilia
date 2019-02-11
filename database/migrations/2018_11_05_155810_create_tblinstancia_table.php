@@ -29,8 +29,8 @@ class CreateTblinstanciaTable extends Migration
         Schema::table('tblinstancia', function($table) {
             $table->foreign('tblmodulo_id')->references('id')->on('tblmodulo');
             $table->foreign('tbldepartamento_id')->references('id')->on('tbldepartamento');
-            $table->foreign('tblprovincia_id')->references('id')->on('tblprovincia');
-            $table->foreign('tbldistrito_id')->references('id')->on('tbldistrito');
+            // $table->foreign('tblprovincia_id')->references('id')->on('tblprovincia');
+            // $table->foreign('tbldistrito_id')->references('id')->on('tbldistrito');
         });
     }
 
