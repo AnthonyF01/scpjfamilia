@@ -57,7 +57,7 @@ class UsersTableSeeder extends Seeder
             'remember_token' => str_random(10),
         ]);
 
-        Role::create([
+        /*Role::create([
             'name' => 'Admin General',
             'slug' => 'admin',
             'special' => 'all-access',
@@ -84,7 +84,7 @@ class UsersTableSeeder extends Seeder
         DB::table('role_user')->insert([
             'role_id' => 2,
             'user_id' => 3,
-        ]);
+        ]);*/
 
 
     }

@@ -55,7 +55,7 @@ class CreateDenunciaTable extends Migration
 
         Schema::table('denuncia', function($table) {
             $table->foreign('tblcomisaria_id')->references('id')->on('tblcomisaria');
-            $table->foreign('tblfiscalia_id')->references('id')->on('tblfiscalia');
+            // $table->foreign('tblfiscalia_id')->references('id')->on('tblfiscalia');
             $table->foreign('tblmodulo_id')->references('id')->on('tblmodulo');
             $table->foreign('tblinstancia_id')->references('id')->on('tblinstancia');
             $table->foreign('dependenciad')->references('id')->on('tblinstancia');
