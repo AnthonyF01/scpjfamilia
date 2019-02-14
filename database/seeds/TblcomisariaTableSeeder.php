@@ -28,6 +28,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             1 => 
             array (
@@ -40,6 +41,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             2 => 
             array (
@@ -52,6 +54,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             3 => 
             array (
@@ -64,6 +67,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             4 => 
             array (
@@ -76,6 +80,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             5 => 
             array (
@@ -88,6 +93,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             6 => 
             array (
@@ -100,6 +106,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             7 => 
             array (
@@ -112,6 +119,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             8 => 
             array (
@@ -124,6 +132,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             9 => 
             array (
@@ -136,6 +145,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             10 => 
             array (
@@ -148,6 +158,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             11 => 
             array (
@@ -160,6 +171,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             12 => 
             array (
@@ -172,6 +184,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             13 => 
             array (
@@ -184,6 +197,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             14 => 
             array (
@@ -196,6 +210,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             15 => 
             array (
@@ -208,6 +223,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             16 => 
             array (
@@ -220,6 +236,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             17 => 
             array (
@@ -232,6 +249,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             18 => 
             array (
@@ -244,6 +262,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             19 => 
             array (
@@ -256,6 +275,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             20 => 
             array (
@@ -268,6 +288,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             21 => 
             array (
@@ -280,6 +301,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             22 => 
             array (
@@ -292,6 +314,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             23 => 
             array (
@@ -304,6 +327,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             24 => 
             array (
@@ -316,6 +340,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             25 => 
             array (
@@ -328,6 +353,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             26 => 
             array (
@@ -340,6 +366,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             27 => 
             array (
@@ -352,6 +379,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             28 => 
             array (
@@ -364,6 +392,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             29 => 
             array (
@@ -376,6 +405,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             30 => 
             array (
@@ -388,6 +418,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             31 => 
             array (
@@ -400,6 +431,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             32 => 
             array (
@@ -412,6 +444,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             33 => 
             array (
@@ -424,6 +457,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             34 => 
             array (
@@ -436,6 +470,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             35 => 
             array (
@@ -448,6 +483,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             36 => 
             array (
@@ -460,6 +496,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             37 => 
             array (
@@ -472,6 +509,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             38 => 
             array (
@@ -484,6 +522,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             39 => 
             array (
@@ -496,6 +535,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             40 => 
             array (
@@ -508,6 +548,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             41 => 
             array (
@@ -520,6 +561,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             42 => 
             array (
@@ -532,6 +574,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             43 => 
             array (
@@ -544,6 +587,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             44 => 
             array (
@@ -556,6 +600,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             45 => 
             array (
@@ -568,6 +613,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             46 => 
             array (
@@ -580,6 +626,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             47 => 
             array (
@@ -592,6 +639,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             48 => 
             array (
@@ -604,6 +652,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             49 => 
             array (
@@ -616,6 +665,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             50 => 
             array (
@@ -628,6 +678,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             51 => 
             array (
@@ -640,6 +691,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             52 => 
             array (
@@ -652,6 +704,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             53 => 
             array (
@@ -664,6 +717,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             54 => 
             array (
@@ -676,6 +730,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             55 => 
             array (
@@ -688,6 +743,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             56 => 
             array (
@@ -700,6 +756,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             57 => 
             array (
@@ -712,6 +769,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             58 => 
             array (
@@ -724,6 +782,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             59 => 
             array (
@@ -736,6 +795,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             60 => 
             array (
@@ -748,6 +808,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             61 => 
             array (
@@ -760,6 +821,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             62 => 
             array (
@@ -772,6 +834,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             63 => 
             array (
@@ -784,6 +847,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             64 => 
             array (
@@ -796,6 +860,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             65 => 
             array (
@@ -808,6 +873,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             66 => 
             array (
@@ -820,6 +886,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             67 => 
             array (
@@ -832,6 +899,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             68 => 
             array (
@@ -844,6 +912,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             69 => 
             array (
@@ -856,6 +925,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             70 => 
             array (
@@ -868,6 +938,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             71 => 
             array (
@@ -880,6 +951,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             72 => 
             array (
@@ -892,6 +964,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             73 => 
             array (
@@ -904,6 +977,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             74 => 
             array (
@@ -916,6 +990,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             75 => 
             array (
@@ -928,6 +1003,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             76 => 
             array (
@@ -940,6 +1016,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             77 => 
             array (
@@ -952,6 +1029,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             78 => 
             array (
@@ -964,6 +1042,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             79 => 
             array (
@@ -976,6 +1055,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             80 => 
             array (
@@ -988,6 +1068,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             81 => 
             array (
@@ -1000,6 +1081,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             82 => 
             array (
@@ -1012,6 +1094,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             83 => 
             array (
@@ -1024,6 +1107,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             84 => 
             array (
@@ -1036,6 +1120,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             85 => 
             array (
@@ -1048,6 +1133,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             86 => 
             array (
@@ -1060,6 +1146,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             87 => 
             array (
@@ -1072,6 +1159,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             88 => 
             array (
@@ -1084,6 +1172,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             89 => 
             array (
@@ -1096,6 +1185,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             90 => 
             array (
@@ -1108,6 +1198,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             91 => 
             array (
@@ -1120,6 +1211,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             92 => 
             array (
@@ -1132,6 +1224,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             93 => 
             array (
@@ -1144,6 +1237,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             94 => 
             array (
@@ -1156,6 +1250,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             95 => 
             array (
@@ -1168,6 +1263,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             96 => 
             array (
@@ -1180,6 +1276,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             97 => 
             array (
@@ -1192,6 +1289,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             98 => 
             array (
@@ -1204,6 +1302,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             99 => 
             array (
@@ -1216,6 +1315,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             100 => 
             array (
@@ -1228,6 +1328,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             101 => 
             array (
@@ -1240,6 +1341,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             102 => 
             array (
@@ -1252,6 +1354,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             103 => 
             array (
@@ -1264,6 +1367,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             104 => 
             array (
@@ -1276,6 +1380,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             105 => 
             array (
@@ -1288,6 +1393,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             106 => 
             array (
@@ -1300,6 +1406,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             107 => 
             array (
@@ -1312,6 +1419,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             108 => 
             array (
@@ -1324,6 +1432,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             109 => 
             array (
@@ -1336,6 +1445,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             110 => 
             array (
@@ -1348,6 +1458,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             111 => 
             array (
@@ -1360,6 +1471,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             112 => 
             array (
@@ -1372,6 +1484,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             113 => 
             array (
@@ -1384,6 +1497,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             114 => 
             array (
@@ -1396,6 +1510,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             115 => 
             array (
@@ -1408,6 +1523,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             116 => 
             array (
@@ -1420,6 +1536,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             117 => 
             array (
@@ -1432,6 +1549,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             118 => 
             array (
@@ -1444,6 +1562,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             119 => 
             array (
@@ -1456,6 +1575,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             120 => 
             array (
@@ -1468,6 +1588,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             121 => 
             array (
@@ -1480,6 +1601,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             122 => 
             array (
@@ -1492,6 +1614,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             123 => 
             array (
@@ -1504,6 +1627,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             124 => 
             array (
@@ -1516,6 +1640,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             125 => 
             array (
@@ -1528,6 +1653,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             126 => 
             array (
@@ -1540,6 +1666,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             127 => 
             array (
@@ -1552,6 +1679,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             128 => 
             array (
@@ -1564,6 +1692,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             129 => 
             array (
@@ -1576,6 +1705,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             130 => 
             array (
@@ -1588,6 +1718,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             131 => 
             array (
@@ -1600,6 +1731,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             132 => 
             array (
@@ -1612,6 +1744,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             133 => 
             array (
@@ -1624,6 +1757,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             134 => 
             array (
@@ -1636,6 +1770,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             135 => 
             array (
@@ -1648,6 +1783,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             136 => 
             array (
@@ -1660,6 +1796,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             137 => 
             array (
@@ -1672,6 +1809,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             138 => 
             array (
@@ -1684,6 +1822,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             139 => 
             array (
@@ -1696,6 +1835,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             140 => 
             array (
@@ -1708,6 +1848,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             141 => 
             array (
@@ -1720,6 +1861,7 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
             ),
             142 => 
             array (
@@ -1732,6 +1874,46 @@ class TblcomisariaTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
+                'tipo_int' => 0,
+            ),
+            143 => 
+            array (
+                'id' => 144,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'nombre' => 'Fiscalia 1',
+                'latitud' => NULL,
+                'longitud' => NULL,
+                'created_at' => '2019-02-14 01:06:20',
+                'updated_at' => '2019-02-14 01:06:20',
+                'deleted_at' => NULL,
+                'tipo_int' => 1,
+            ),
+            144 => 
+            array (
+                'id' => 145,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'nombre' => 'Fiscalia 2',
+                'latitud' => NULL,
+                'longitud' => NULL,
+                'created_at' => '2019-02-14 01:06:30',
+                'updated_at' => '2019-02-14 01:06:30',
+                'deleted_at' => NULL,
+                'tipo_int' => 1,
+            ),
+            145 => 
+            array (
+                'id' => 146,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'nombre' => 'Fiscalia 3',
+                'latitud' => NULL,
+                'longitud' => NULL,
+                'created_at' => '2019-02-14 01:06:40',
+                'updated_at' => '2019-02-14 01:06:40',
+                'deleted_at' => NULL,
+                'tipo_int' => 1,
             ),
         ));
         

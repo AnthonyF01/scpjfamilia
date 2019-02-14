@@ -53,6 +53,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:06',
                 'updated_at' => '2019-01-29 22:26:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             1 => 
             array (
@@ -90,6 +97,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             2 => 
             array (
@@ -127,6 +141,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             3 => 
             array (
@@ -164,6 +185,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             4 => 
             array (
@@ -201,6 +229,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             5 => 
             array (
@@ -238,6 +273,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             6 => 
             array (
@@ -275,6 +317,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             7 => 
             array (
@@ -312,6 +361,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             8 => 
             array (
@@ -349,6 +405,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             9 => 
             array (
@@ -386,6 +449,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             10 => 
             array (
@@ -423,6 +493,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             11 => 
             array (
@@ -460,6 +537,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             12 => 
             array (
@@ -497,6 +581,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             13 => 
             array (
@@ -534,6 +625,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             14 => 
             array (
@@ -571,6 +669,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             15 => 
             array (
@@ -608,6 +713,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:09',
                 'updated_at' => '2019-01-29 22:26:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             16 => 
             array (
@@ -645,6 +757,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:09',
                 'updated_at' => '2019-01-29 22:26:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             17 => 
             array (
@@ -682,6 +801,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:09',
                 'updated_at' => '2019-01-29 22:26:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             18 => 
             array (
@@ -719,6 +845,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:09',
                 'updated_at' => '2019-01-29 22:26:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             19 => 
             array (
@@ -756,6 +889,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:09',
                 'updated_at' => '2019-01-29 22:26:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             20 => 
             array (
@@ -793,6 +933,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:09',
                 'updated_at' => '2019-01-29 22:26:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             21 => 
             array (
@@ -830,6 +977,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:10',
                 'updated_at' => '2019-01-29 22:26:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             22 => 
             array (
@@ -867,6 +1021,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:10',
                 'updated_at' => '2019-01-29 22:26:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             23 => 
             array (
@@ -904,6 +1065,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:10',
                 'updated_at' => '2019-01-29 22:26:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             24 => 
             array (
@@ -941,6 +1109,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:10',
                 'updated_at' => '2019-01-29 22:26:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             25 => 
             array (
@@ -978,6 +1153,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:10',
                 'updated_at' => '2019-01-29 22:26:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             26 => 
             array (
@@ -1015,6 +1197,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:10',
                 'updated_at' => '2019-01-29 22:26:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             27 => 
             array (
@@ -1052,6 +1241,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:11',
                 'updated_at' => '2019-01-29 22:26:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             28 => 
             array (
@@ -1089,6 +1285,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:11',
                 'updated_at' => '2019-01-29 22:26:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             29 => 
             array (
@@ -1126,6 +1329,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:11',
                 'updated_at' => '2019-01-29 22:26:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             30 => 
             array (
@@ -1163,6 +1373,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:11',
                 'updated_at' => '2019-01-29 22:26:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             31 => 
             array (
@@ -1200,6 +1417,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:11',
                 'updated_at' => '2019-01-29 22:26:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             32 => 
             array (
@@ -1237,6 +1461,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             33 => 
             array (
@@ -1274,6 +1505,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             34 => 
             array (
@@ -1311,6 +1549,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             35 => 
             array (
@@ -1348,6 +1593,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             36 => 
             array (
@@ -1385,6 +1637,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             37 => 
             array (
@@ -1422,6 +1681,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             38 => 
             array (
@@ -1459,6 +1725,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             39 => 
             array (
@@ -1496,6 +1769,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:13',
                 'updated_at' => '2019-01-29 22:26:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             40 => 
             array (
@@ -1533,6 +1813,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:13',
                 'updated_at' => '2019-01-29 22:26:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             41 => 
             array (
@@ -1570,6 +1857,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:13',
                 'updated_at' => '2019-01-29 22:26:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             42 => 
             array (
@@ -1607,6 +1901,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:13',
                 'updated_at' => '2019-01-29 22:26:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             43 => 
             array (
@@ -1644,6 +1945,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:13',
                 'updated_at' => '2019-01-29 22:26:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             44 => 
             array (
@@ -1681,6 +1989,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:13',
                 'updated_at' => '2019-01-29 22:26:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             45 => 
             array (
@@ -1718,6 +2033,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:13',
                 'updated_at' => '2019-01-29 22:26:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             46 => 
             array (
@@ -1755,6 +2077,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:14',
                 'updated_at' => '2019-01-29 22:26:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             47 => 
             array (
@@ -1792,6 +2121,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:14',
                 'updated_at' => '2019-01-29 22:26:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             48 => 
             array (
@@ -1829,6 +2165,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:14',
                 'updated_at' => '2019-01-29 22:26:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             49 => 
             array (
@@ -1866,6 +2209,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:14',
                 'updated_at' => '2019-01-29 22:26:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             50 => 
             array (
@@ -1903,6 +2253,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:14',
                 'updated_at' => '2019-01-29 22:26:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             51 => 
             array (
@@ -1940,6 +2297,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:14',
                 'updated_at' => '2019-01-29 22:26:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             52 => 
             array (
@@ -1977,6 +2341,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:14',
                 'updated_at' => '2019-01-29 22:26:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             53 => 
             array (
@@ -2014,6 +2385,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             54 => 
             array (
@@ -2051,6 +2429,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             55 => 
             array (
@@ -2088,6 +2473,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             56 => 
             array (
@@ -2125,6 +2517,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             57 => 
             array (
@@ -2162,6 +2561,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             58 => 
             array (
@@ -2199,6 +2605,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             59 => 
             array (
@@ -2236,6 +2649,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             60 => 
             array (
@@ -2273,6 +2693,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             61 => 
             array (
@@ -2310,6 +2737,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             62 => 
             array (
@@ -2347,6 +2781,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             63 => 
             array (
@@ -2384,6 +2825,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             64 => 
             array (
@@ -2421,6 +2869,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             65 => 
             array (
@@ -2458,6 +2913,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             66 => 
             array (
@@ -2495,6 +2957,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             67 => 
             array (
@@ -2532,6 +3001,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             68 => 
             array (
@@ -2569,6 +3045,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             69 => 
             array (
@@ -2606,6 +3089,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             70 => 
             array (
@@ -2643,6 +3133,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             71 => 
             array (
@@ -2680,6 +3177,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             72 => 
             array (
@@ -2717,6 +3221,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             73 => 
             array (
@@ -2754,6 +3265,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             74 => 
             array (
@@ -2791,6 +3309,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:18',
                 'updated_at' => '2019-01-29 22:26:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             75 => 
             array (
@@ -2828,6 +3353,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:18',
                 'updated_at' => '2019-01-29 22:26:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             76 => 
             array (
@@ -2865,6 +3397,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:18',
                 'updated_at' => '2019-01-29 22:26:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             77 => 
             array (
@@ -2902,6 +3441,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:18',
                 'updated_at' => '2019-01-29 22:26:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             78 => 
             array (
@@ -2939,6 +3485,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:18',
                 'updated_at' => '2019-01-29 22:26:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             79 => 
             array (
@@ -2976,6 +3529,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:18',
                 'updated_at' => '2019-01-29 22:26:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             80 => 
             array (
@@ -3013,6 +3573,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             81 => 
             array (
@@ -3050,6 +3617,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             82 => 
             array (
@@ -3087,6 +3661,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             83 => 
             array (
@@ -3124,6 +3705,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             84 => 
             array (
@@ -3161,6 +3749,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             85 => 
             array (
@@ -3198,6 +3793,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             86 => 
             array (
@@ -3235,6 +3837,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             87 => 
             array (
@@ -3272,6 +3881,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:20',
                 'updated_at' => '2019-01-29 22:26:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             88 => 
             array (
@@ -3309,6 +3925,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:20',
                 'updated_at' => '2019-01-29 22:26:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             89 => 
             array (
@@ -3346,6 +3969,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:20',
                 'updated_at' => '2019-01-29 22:26:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             90 => 
             array (
@@ -3383,6 +4013,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:20',
                 'updated_at' => '2019-01-29 22:26:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             91 => 
             array (
@@ -3420,6 +4057,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:20',
                 'updated_at' => '2019-01-29 22:26:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             92 => 
             array (
@@ -3457,6 +4101,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:21',
                 'updated_at' => '2019-01-29 22:26:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             93 => 
             array (
@@ -3494,6 +4145,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:21',
                 'updated_at' => '2019-01-29 22:26:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             94 => 
             array (
@@ -3531,6 +4189,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:21',
                 'updated_at' => '2019-01-29 22:26:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             95 => 
             array (
@@ -3568,6 +4233,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:21',
                 'updated_at' => '2019-01-29 22:26:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             96 => 
             array (
@@ -3605,6 +4277,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:21',
                 'updated_at' => '2019-01-29 22:26:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             97 => 
             array (
@@ -3642,6 +4321,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:21',
                 'updated_at' => '2019-01-29 22:26:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             98 => 
             array (
@@ -3679,6 +4365,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:22',
                 'updated_at' => '2019-01-29 22:26:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             99 => 
             array (
@@ -3716,6 +4409,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:22',
                 'updated_at' => '2019-01-29 22:26:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             100 => 
             array (
@@ -3753,6 +4453,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:22',
                 'updated_at' => '2019-01-29 22:26:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             101 => 
             array (
@@ -3790,6 +4497,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:22',
                 'updated_at' => '2019-01-29 22:26:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             102 => 
             array (
@@ -3827,6 +4541,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:22',
                 'updated_at' => '2019-01-29 22:26:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             103 => 
             array (
@@ -3864,6 +4585,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:23',
                 'updated_at' => '2019-01-29 22:26:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             104 => 
             array (
@@ -3901,6 +4629,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:23',
                 'updated_at' => '2019-01-29 22:26:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             105 => 
             array (
@@ -3938,6 +4673,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:23',
                 'updated_at' => '2019-01-29 22:26:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             106 => 
             array (
@@ -3975,6 +4717,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:23',
                 'updated_at' => '2019-01-29 22:26:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             107 => 
             array (
@@ -4012,6 +4761,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:23',
                 'updated_at' => '2019-01-29 22:26:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             108 => 
             array (
@@ -4049,6 +4805,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:24',
                 'updated_at' => '2019-01-29 22:26:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             109 => 
             array (
@@ -4086,6 +4849,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:24',
                 'updated_at' => '2019-01-29 22:26:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             110 => 
             array (
@@ -4123,6 +4893,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:24',
                 'updated_at' => '2019-01-29 22:26:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             111 => 
             array (
@@ -4160,6 +4937,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:24',
                 'updated_at' => '2019-01-29 22:26:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             112 => 
             array (
@@ -4197,6 +4981,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:24',
                 'updated_at' => '2019-01-29 22:26:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             113 => 
             array (
@@ -4234,6 +5025,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:24',
                 'updated_at' => '2019-01-29 22:26:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             114 => 
             array (
@@ -4271,6 +5069,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:25',
                 'updated_at' => '2019-01-29 22:26:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             115 => 
             array (
@@ -4308,6 +5113,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:25',
                 'updated_at' => '2019-01-29 22:26:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             116 => 
             array (
@@ -4345,6 +5157,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:25',
                 'updated_at' => '2019-01-29 22:26:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             117 => 
             array (
@@ -4382,6 +5201,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:25',
                 'updated_at' => '2019-01-29 22:26:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             118 => 
             array (
@@ -4419,6 +5245,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:25',
                 'updated_at' => '2019-01-29 22:26:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             119 => 
             array (
@@ -4456,6 +5289,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:25',
                 'updated_at' => '2019-01-29 22:26:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             120 => 
             array (
@@ -4493,6 +5333,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:26',
                 'updated_at' => '2019-01-29 22:26:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             121 => 
             array (
@@ -4530,6 +5377,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:26',
                 'updated_at' => '2019-01-29 22:26:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             122 => 
             array (
@@ -4567,6 +5421,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:26',
                 'updated_at' => '2019-01-29 22:26:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             123 => 
             array (
@@ -4604,6 +5465,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:26',
                 'updated_at' => '2019-01-29 22:26:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             124 => 
             array (
@@ -4641,6 +5509,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:26',
                 'updated_at' => '2019-01-29 22:26:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             125 => 
             array (
@@ -4678,6 +5553,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:26',
                 'updated_at' => '2019-01-29 22:26:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             126 => 
             array (
@@ -4715,6 +5597,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:27',
                 'updated_at' => '2019-01-29 22:26:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             127 => 
             array (
@@ -4752,6 +5641,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:27',
                 'updated_at' => '2019-01-29 22:26:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             128 => 
             array (
@@ -4789,6 +5685,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:27',
                 'updated_at' => '2019-01-29 22:26:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             129 => 
             array (
@@ -4826,6 +5729,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:27',
                 'updated_at' => '2019-01-29 22:26:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             130 => 
             array (
@@ -4863,6 +5773,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:27',
                 'updated_at' => '2019-01-29 22:26:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             131 => 
             array (
@@ -4900,6 +5817,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:28',
                 'updated_at' => '2019-01-29 22:26:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             132 => 
             array (
@@ -4937,6 +5861,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:28',
                 'updated_at' => '2019-01-29 22:26:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             133 => 
             array (
@@ -4974,6 +5905,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:28',
                 'updated_at' => '2019-01-29 22:26:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             134 => 
             array (
@@ -5011,6 +5949,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:28',
                 'updated_at' => '2019-01-29 22:26:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             135 => 
             array (
@@ -5048,6 +5993,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:28',
                 'updated_at' => '2019-01-29 22:26:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             136 => 
             array (
@@ -5085,6 +6037,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:29',
                 'updated_at' => '2019-01-29 22:26:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             137 => 
             array (
@@ -5122,6 +6081,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:29',
                 'updated_at' => '2019-01-29 22:26:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             138 => 
             array (
@@ -5159,6 +6125,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:29',
                 'updated_at' => '2019-01-29 22:26:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             139 => 
             array (
@@ -5196,6 +6169,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:29',
                 'updated_at' => '2019-01-29 22:26:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             140 => 
             array (
@@ -5233,6 +6213,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:29',
                 'updated_at' => '2019-01-29 22:26:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             141 => 
             array (
@@ -5270,6 +6257,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             142 => 
             array (
@@ -5307,6 +6301,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             143 => 
             array (
@@ -5344,6 +6345,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             144 => 
             array (
@@ -5381,6 +6389,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             145 => 
             array (
@@ -5418,6 +6433,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             146 => 
             array (
@@ -5455,6 +6477,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             147 => 
             array (
@@ -5492,6 +6521,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             148 => 
             array (
@@ -5529,6 +6565,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             149 => 
             array (
@@ -5566,6 +6609,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             150 => 
             array (
@@ -5603,6 +6653,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:31',
                 'updated_at' => '2019-01-29 22:26:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             151 => 
             array (
@@ -5640,6 +6697,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:31',
                 'updated_at' => '2019-01-29 22:26:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             152 => 
             array (
@@ -5677,6 +6741,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:31',
                 'updated_at' => '2019-01-29 22:26:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             153 => 
             array (
@@ -5714,6 +6785,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:31',
                 'updated_at' => '2019-01-29 22:26:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             154 => 
             array (
@@ -5751,6 +6829,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:31',
                 'updated_at' => '2019-01-29 22:26:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             155 => 
             array (
@@ -5788,6 +6873,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:31',
                 'updated_at' => '2019-01-29 22:26:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             156 => 
             array (
@@ -5825,6 +6917,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:31',
                 'updated_at' => '2019-01-29 22:26:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             157 => 
             array (
@@ -5862,6 +6961,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             158 => 
             array (
@@ -5899,6 +7005,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             159 => 
             array (
@@ -5936,6 +7049,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             160 => 
             array (
@@ -5973,6 +7093,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             161 => 
             array (
@@ -6010,6 +7137,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             162 => 
             array (
@@ -6047,6 +7181,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             163 => 
             array (
@@ -6084,6 +7225,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             164 => 
             array (
@@ -6121,6 +7269,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             165 => 
             array (
@@ -6158,6 +7313,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             166 => 
             array (
@@ -6195,6 +7357,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             167 => 
             array (
@@ -6232,6 +7401,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             168 => 
             array (
@@ -6269,6 +7445,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             169 => 
             array (
@@ -6306,6 +7489,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             170 => 
             array (
@@ -6343,6 +7533,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             171 => 
             array (
@@ -6380,6 +7577,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             172 => 
             array (
@@ -6417,6 +7621,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             173 => 
             array (
@@ -6454,6 +7665,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             174 => 
             array (
@@ -6491,6 +7709,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             175 => 
             array (
@@ -6528,6 +7753,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             176 => 
             array (
@@ -6565,6 +7797,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             177 => 
             array (
@@ -6602,6 +7841,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             178 => 
             array (
@@ -6639,6 +7885,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             179 => 
             array (
@@ -6676,6 +7929,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:35',
                 'updated_at' => '2019-01-29 22:26:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             180 => 
             array (
@@ -6713,6 +7973,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:35',
                 'updated_at' => '2019-01-29 22:26:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             181 => 
             array (
@@ -6750,6 +8017,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:35',
                 'updated_at' => '2019-01-29 22:26:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             182 => 
             array (
@@ -6787,6 +8061,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:35',
                 'updated_at' => '2019-01-29 22:26:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             183 => 
             array (
@@ -6824,6 +8105,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:35',
                 'updated_at' => '2019-01-29 22:26:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             184 => 
             array (
@@ -6861,6 +8149,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:36',
                 'updated_at' => '2019-01-29 22:26:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             185 => 
             array (
@@ -6898,6 +8193,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:36',
                 'updated_at' => '2019-01-29 22:26:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             186 => 
             array (
@@ -6935,6 +8237,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:36',
                 'updated_at' => '2019-01-29 22:26:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             187 => 
             array (
@@ -6972,6 +8281,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:36',
                 'updated_at' => '2019-01-29 22:26:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             188 => 
             array (
@@ -7009,6 +8325,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:36',
                 'updated_at' => '2019-01-29 22:26:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             189 => 
             array (
@@ -7046,6 +8369,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:36',
                 'updated_at' => '2019-01-29 22:26:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             190 => 
             array (
@@ -7083,6 +8413,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:37',
                 'updated_at' => '2019-01-29 22:26:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             191 => 
             array (
@@ -7120,6 +8457,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:37',
                 'updated_at' => '2019-01-29 22:26:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             192 => 
             array (
@@ -7157,6 +8501,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:37',
                 'updated_at' => '2019-01-29 22:26:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             193 => 
             array (
@@ -7194,6 +8545,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:37',
                 'updated_at' => '2019-01-29 22:26:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             194 => 
             array (
@@ -7231,6 +8589,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:37',
                 'updated_at' => '2019-01-29 22:26:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             195 => 
             array (
@@ -7268,6 +8633,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:37',
                 'updated_at' => '2019-01-29 22:26:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             196 => 
             array (
@@ -7305,6 +8677,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:37',
                 'updated_at' => '2019-01-29 22:26:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             197 => 
             array (
@@ -7342,6 +8721,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             198 => 
             array (
@@ -7379,6 +8765,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             199 => 
             array (
@@ -7416,6 +8809,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             200 => 
             array (
@@ -7453,6 +8853,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             201 => 
             array (
@@ -7490,6 +8897,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             202 => 
             array (
@@ -7527,6 +8941,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             203 => 
             array (
@@ -7564,6 +8985,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             204 => 
             array (
@@ -7601,6 +9029,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             205 => 
             array (
@@ -7638,6 +9073,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:39',
                 'updated_at' => '2019-01-29 22:26:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             206 => 
             array (
@@ -7675,6 +9117,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:39',
                 'updated_at' => '2019-01-29 22:26:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             207 => 
             array (
@@ -7712,6 +9161,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:39',
                 'updated_at' => '2019-01-29 22:26:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             208 => 
             array (
@@ -7749,6 +9205,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:39',
                 'updated_at' => '2019-01-29 22:26:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             209 => 
             array (
@@ -7786,6 +9249,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:39',
                 'updated_at' => '2019-01-29 22:26:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             210 => 
             array (
@@ -7823,6 +9293,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:39',
                 'updated_at' => '2019-01-29 22:26:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             211 => 
             array (
@@ -7860,6 +9337,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:40',
                 'updated_at' => '2019-01-29 22:26:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             212 => 
             array (
@@ -7897,6 +9381,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:40',
                 'updated_at' => '2019-01-29 22:26:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             213 => 
             array (
@@ -7934,6 +9425,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:40',
                 'updated_at' => '2019-01-29 22:26:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             214 => 
             array (
@@ -7971,6 +9469,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:40',
                 'updated_at' => '2019-01-29 22:26:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             215 => 
             array (
@@ -8008,6 +9513,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:40',
                 'updated_at' => '2019-01-29 22:26:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             216 => 
             array (
@@ -8045,6 +9557,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:40',
                 'updated_at' => '2019-01-29 22:26:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             217 => 
             array (
@@ -8082,6 +9601,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             218 => 
             array (
@@ -8119,6 +9645,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             219 => 
             array (
@@ -8156,6 +9689,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             220 => 
             array (
@@ -8193,6 +9733,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             221 => 
             array (
@@ -8230,6 +9777,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             222 => 
             array (
@@ -8267,6 +9821,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             223 => 
             array (
@@ -8304,6 +9865,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             224 => 
             array (
@@ -8341,6 +9909,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             225 => 
             array (
@@ -8378,6 +9953,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             226 => 
             array (
@@ -8415,6 +9997,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             227 => 
             array (
@@ -8452,6 +10041,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             228 => 
             array (
@@ -8489,6 +10085,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             229 => 
             array (
@@ -8526,6 +10129,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             230 => 
             array (
@@ -8563,6 +10173,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             231 => 
             array (
@@ -8600,6 +10217,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             232 => 
             array (
@@ -8637,6 +10261,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             233 => 
             array (
@@ -8674,6 +10305,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             234 => 
             array (
@@ -8711,6 +10349,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             235 => 
             array (
@@ -8748,6 +10393,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             236 => 
             array (
@@ -8785,6 +10437,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             237 => 
             array (
@@ -8822,6 +10481,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             238 => 
             array (
@@ -8859,6 +10525,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             239 => 
             array (
@@ -8896,6 +10569,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             240 => 
             array (
@@ -8933,6 +10613,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             241 => 
             array (
@@ -8970,6 +10657,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             242 => 
             array (
@@ -9007,6 +10701,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             243 => 
             array (
@@ -9044,6 +10745,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             244 => 
             array (
@@ -9081,6 +10789,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             245 => 
             array (
@@ -9118,6 +10833,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             246 => 
             array (
@@ -9155,6 +10877,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             247 => 
             array (
@@ -9192,6 +10921,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             248 => 
             array (
@@ -9229,6 +10965,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             249 => 
             array (
@@ -9266,6 +11009,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             250 => 
             array (
@@ -9303,6 +11053,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             251 => 
             array (
@@ -9340,6 +11097,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             252 => 
             array (
@@ -9377,6 +11141,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             253 => 
             array (
@@ -9414,6 +11185,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             254 => 
             array (
@@ -9451,6 +11229,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             255 => 
             array (
@@ -9488,6 +11273,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             256 => 
             array (
@@ -9525,6 +11317,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             257 => 
             array (
@@ -9562,6 +11361,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             258 => 
             array (
@@ -9599,6 +11405,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             259 => 
             array (
@@ -9636,6 +11449,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             260 => 
             array (
@@ -9673,6 +11493,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             261 => 
             array (
@@ -9710,6 +11537,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             262 => 
             array (
@@ -9747,6 +11581,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             263 => 
             array (
@@ -9784,6 +11625,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             264 => 
             array (
@@ -9821,6 +11669,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             265 => 
             array (
@@ -9858,6 +11713,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             266 => 
             array (
@@ -9895,6 +11757,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             267 => 
             array (
@@ -9932,6 +11801,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             268 => 
             array (
@@ -9969,6 +11845,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             269 => 
             array (
@@ -10006,6 +11889,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             270 => 
             array (
@@ -10043,6 +11933,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:48',
                 'updated_at' => '2019-01-29 22:26:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             271 => 
             array (
@@ -10080,6 +11977,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:48',
                 'updated_at' => '2019-01-29 22:26:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             272 => 
             array (
@@ -10117,6 +12021,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:48',
                 'updated_at' => '2019-01-29 22:26:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             273 => 
             array (
@@ -10154,6 +12065,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:48',
                 'updated_at' => '2019-01-29 22:26:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             274 => 
             array (
@@ -10191,6 +12109,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:48',
                 'updated_at' => '2019-01-29 22:26:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             275 => 
             array (
@@ -10228,6 +12153,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:48',
                 'updated_at' => '2019-01-29 22:26:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             276 => 
             array (
@@ -10265,6 +12197,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:49',
                 'updated_at' => '2019-01-29 22:26:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             277 => 
             array (
@@ -10302,6 +12241,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:49',
                 'updated_at' => '2019-01-29 22:26:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             278 => 
             array (
@@ -10339,6 +12285,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:49',
                 'updated_at' => '2019-01-29 22:26:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             279 => 
             array (
@@ -10376,6 +12329,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:49',
                 'updated_at' => '2019-01-29 22:26:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             280 => 
             array (
@@ -10413,6 +12373,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:49',
                 'updated_at' => '2019-01-29 22:26:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             281 => 
             array (
@@ -10450,6 +12417,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:49',
                 'updated_at' => '2019-01-29 22:26:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             282 => 
             array (
@@ -10487,6 +12461,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:50',
                 'updated_at' => '2019-01-29 22:26:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             283 => 
             array (
@@ -10524,6 +12505,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:50',
                 'updated_at' => '2019-01-29 22:26:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             284 => 
             array (
@@ -10561,6 +12549,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:50',
                 'updated_at' => '2019-01-29 22:26:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             285 => 
             array (
@@ -10598,6 +12593,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:50',
                 'updated_at' => '2019-01-29 22:26:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             286 => 
             array (
@@ -10635,6 +12637,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:50',
                 'updated_at' => '2019-01-29 22:26:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             287 => 
             array (
@@ -10672,6 +12681,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:51',
                 'updated_at' => '2019-01-29 22:26:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             288 => 
             array (
@@ -10709,6 +12725,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:51',
                 'updated_at' => '2019-01-29 22:26:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             289 => 
             array (
@@ -10746,6 +12769,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:51',
                 'updated_at' => '2019-01-29 22:26:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             290 => 
             array (
@@ -10783,6 +12813,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:51',
                 'updated_at' => '2019-01-29 22:26:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             291 => 
             array (
@@ -10820,6 +12857,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:51',
                 'updated_at' => '2019-01-29 22:26:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             292 => 
             array (
@@ -10857,6 +12901,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:51',
                 'updated_at' => '2019-01-29 22:26:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             293 => 
             array (
@@ -10894,6 +12945,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:51',
                 'updated_at' => '2019-01-29 22:26:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             294 => 
             array (
@@ -10931,6 +12989,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:51',
                 'updated_at' => '2019-01-29 22:26:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             295 => 
             array (
@@ -10968,6 +13033,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:52',
                 'updated_at' => '2019-01-29 22:26:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             296 => 
             array (
@@ -11005,6 +13077,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:52',
                 'updated_at' => '2019-01-29 22:26:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             297 => 
             array (
@@ -11042,6 +13121,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:52',
                 'updated_at' => '2019-01-29 22:26:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             298 => 
             array (
@@ -11079,6 +13165,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:52',
                 'updated_at' => '2019-01-29 22:26:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             299 => 
             array (
@@ -11116,6 +13209,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:52',
                 'updated_at' => '2019-01-29 22:26:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             300 => 
             array (
@@ -11153,6 +13253,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:52',
                 'updated_at' => '2019-01-29 22:26:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             301 => 
             array (
@@ -11190,6 +13297,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:53',
                 'updated_at' => '2019-01-29 22:26:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             302 => 
             array (
@@ -11227,6 +13341,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:53',
                 'updated_at' => '2019-01-29 22:26:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             303 => 
             array (
@@ -11264,6 +13385,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:53',
                 'updated_at' => '2019-01-29 22:26:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             304 => 
             array (
@@ -11301,6 +13429,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:53',
                 'updated_at' => '2019-01-29 22:26:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             305 => 
             array (
@@ -11338,6 +13473,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:53',
                 'updated_at' => '2019-01-29 22:26:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             306 => 
             array (
@@ -11375,6 +13517,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:53',
                 'updated_at' => '2019-01-29 22:26:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             307 => 
             array (
@@ -11412,6 +13561,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:54',
                 'updated_at' => '2019-01-29 22:26:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             308 => 
             array (
@@ -11449,6 +13605,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:54',
                 'updated_at' => '2019-01-29 22:26:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             309 => 
             array (
@@ -11486,6 +13649,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:54',
                 'updated_at' => '2019-01-29 22:26:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             310 => 
             array (
@@ -11523,6 +13693,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:54',
                 'updated_at' => '2019-01-29 22:26:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             311 => 
             array (
@@ -11560,6 +13737,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:54',
                 'updated_at' => '2019-01-29 22:26:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             312 => 
             array (
@@ -11597,6 +13781,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:54',
                 'updated_at' => '2019-01-29 22:26:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             313 => 
             array (
@@ -11634,6 +13825,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:55',
                 'updated_at' => '2019-01-29 22:26:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             314 => 
             array (
@@ -11671,6 +13869,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:55',
                 'updated_at' => '2019-01-29 22:26:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             315 => 
             array (
@@ -11708,6 +13913,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:55',
                 'updated_at' => '2019-01-29 22:26:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             316 => 
             array (
@@ -11745,6 +13957,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:55',
                 'updated_at' => '2019-01-29 22:26:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             317 => 
             array (
@@ -11782,6 +14001,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:55',
                 'updated_at' => '2019-01-29 22:26:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             318 => 
             array (
@@ -11819,6 +14045,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:56',
                 'updated_at' => '2019-01-29 22:26:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             319 => 
             array (
@@ -11856,6 +14089,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:56',
                 'updated_at' => '2019-01-29 22:26:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             320 => 
             array (
@@ -11893,6 +14133,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:56',
                 'updated_at' => '2019-01-29 22:26:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             321 => 
             array (
@@ -11930,6 +14177,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:56',
                 'updated_at' => '2019-01-29 22:26:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             322 => 
             array (
@@ -11967,6 +14221,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:56',
                 'updated_at' => '2019-01-29 22:26:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             323 => 
             array (
@@ -12004,6 +14265,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:57',
                 'updated_at' => '2019-01-29 22:26:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             324 => 
             array (
@@ -12041,6 +14309,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:57',
                 'updated_at' => '2019-01-29 22:26:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             325 => 
             array (
@@ -12078,6 +14353,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:57',
                 'updated_at' => '2019-01-29 22:26:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             326 => 
             array (
@@ -12115,6 +14397,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:57',
                 'updated_at' => '2019-01-29 22:26:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             327 => 
             array (
@@ -12152,6 +14441,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:57',
                 'updated_at' => '2019-01-29 22:26:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             328 => 
             array (
@@ -12189,6 +14485,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:57',
                 'updated_at' => '2019-01-29 22:26:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             329 => 
             array (
@@ -12226,6 +14529,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:58',
                 'updated_at' => '2019-01-29 22:26:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             330 => 
             array (
@@ -12263,6 +14573,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:58',
                 'updated_at' => '2019-01-29 22:26:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             331 => 
             array (
@@ -12300,6 +14617,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:58',
                 'updated_at' => '2019-01-29 22:26:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             332 => 
             array (
@@ -12337,6 +14661,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:58',
                 'updated_at' => '2019-01-29 22:26:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             333 => 
             array (
@@ -12374,6 +14705,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:58',
                 'updated_at' => '2019-01-29 22:26:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             334 => 
             array (
@@ -12411,6 +14749,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:59',
                 'updated_at' => '2019-01-29 22:26:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             335 => 
             array (
@@ -12448,6 +14793,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:59',
                 'updated_at' => '2019-01-29 22:26:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             336 => 
             array (
@@ -12485,6 +14837,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:59',
                 'updated_at' => '2019-01-29 22:26:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             337 => 
             array (
@@ -12522,6 +14881,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:59',
                 'updated_at' => '2019-01-29 22:26:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             338 => 
             array (
@@ -12559,6 +14925,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:59',
                 'updated_at' => '2019-01-29 22:26:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             339 => 
             array (
@@ -12596,6 +14969,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:00',
                 'updated_at' => '2019-01-29 22:27:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             340 => 
             array (
@@ -12633,6 +15013,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:00',
                 'updated_at' => '2019-01-29 22:27:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             341 => 
             array (
@@ -12670,6 +15057,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:00',
                 'updated_at' => '2019-01-29 22:27:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             342 => 
             array (
@@ -12707,6 +15101,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:00',
                 'updated_at' => '2019-01-29 22:27:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             343 => 
             array (
@@ -12744,6 +15145,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:00',
                 'updated_at' => '2019-01-29 22:27:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             344 => 
             array (
@@ -12781,6 +15189,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:00',
                 'updated_at' => '2019-01-29 22:27:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             345 => 
             array (
@@ -12818,6 +15233,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:01',
                 'updated_at' => '2019-01-29 22:27:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             346 => 
             array (
@@ -12855,6 +15277,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:01',
                 'updated_at' => '2019-01-29 22:27:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             347 => 
             array (
@@ -12892,6 +15321,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:01',
                 'updated_at' => '2019-01-29 22:27:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             348 => 
             array (
@@ -12929,6 +15365,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:01',
                 'updated_at' => '2019-01-29 22:27:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             349 => 
             array (
@@ -12966,6 +15409,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:01',
                 'updated_at' => '2019-01-29 22:27:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             350 => 
             array (
@@ -13003,6 +15453,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:02',
                 'updated_at' => '2019-01-29 22:27:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             351 => 
             array (
@@ -13040,6 +15497,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:02',
                 'updated_at' => '2019-01-29 22:27:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             352 => 
             array (
@@ -13077,6 +15541,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:02',
                 'updated_at' => '2019-01-29 22:27:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             353 => 
             array (
@@ -13114,6 +15585,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:02',
                 'updated_at' => '2019-01-29 22:27:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             354 => 
             array (
@@ -13151,6 +15629,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:02',
                 'updated_at' => '2019-01-29 22:27:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             355 => 
             array (
@@ -13188,6 +15673,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:03',
                 'updated_at' => '2019-01-29 22:27:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             356 => 
             array (
@@ -13225,6 +15717,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:03',
                 'updated_at' => '2019-01-29 22:27:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             357 => 
             array (
@@ -13262,6 +15761,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:03',
                 'updated_at' => '2019-01-29 22:27:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             358 => 
             array (
@@ -13299,6 +15805,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:03',
                 'updated_at' => '2019-01-29 22:27:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             359 => 
             array (
@@ -13336,6 +15849,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:03',
                 'updated_at' => '2019-01-29 22:27:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             360 => 
             array (
@@ -13373,6 +15893,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:03',
                 'updated_at' => '2019-01-29 22:27:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             361 => 
             array (
@@ -13410,6 +15937,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:04',
                 'updated_at' => '2019-01-29 22:27:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             362 => 
             array (
@@ -13447,6 +15981,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:04',
                 'updated_at' => '2019-01-29 22:27:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             363 => 
             array (
@@ -13484,6 +16025,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:04',
                 'updated_at' => '2019-01-29 22:27:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             364 => 
             array (
@@ -13521,6 +16069,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:04',
                 'updated_at' => '2019-01-29 22:27:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             365 => 
             array (
@@ -13558,6 +16113,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:04',
                 'updated_at' => '2019-01-29 22:27:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             366 => 
             array (
@@ -13595,6 +16157,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:05',
                 'updated_at' => '2019-01-29 22:27:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             367 => 
             array (
@@ -13632,6 +16201,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:05',
                 'updated_at' => '2019-01-29 22:27:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             368 => 
             array (
@@ -13669,6 +16245,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:05',
                 'updated_at' => '2019-01-29 22:27:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             369 => 
             array (
@@ -13706,6 +16289,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:05',
                 'updated_at' => '2019-01-29 22:27:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             370 => 
             array (
@@ -13743,6 +16333,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:05',
                 'updated_at' => '2019-01-29 22:27:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             371 => 
             array (
@@ -13780,6 +16377,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:05',
                 'updated_at' => '2019-01-29 22:27:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             372 => 
             array (
@@ -13817,6 +16421,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:06',
                 'updated_at' => '2019-01-29 22:27:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             373 => 
             array (
@@ -13854,6 +16465,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:06',
                 'updated_at' => '2019-01-29 22:27:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             374 => 
             array (
@@ -13891,6 +16509,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:06',
                 'updated_at' => '2019-01-29 22:27:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             375 => 
             array (
@@ -13928,6 +16553,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:06',
                 'updated_at' => '2019-01-29 22:27:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             376 => 
             array (
@@ -13965,6 +16597,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:06',
                 'updated_at' => '2019-01-29 22:27:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             377 => 
             array (
@@ -14002,6 +16641,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:06',
                 'updated_at' => '2019-01-29 22:27:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             378 => 
             array (
@@ -14039,6 +16685,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:07',
                 'updated_at' => '2019-01-29 22:27:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             379 => 
             array (
@@ -14076,6 +16729,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:07',
                 'updated_at' => '2019-01-29 22:27:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             380 => 
             array (
@@ -14113,6 +16773,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:07',
                 'updated_at' => '2019-01-29 22:27:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             381 => 
             array (
@@ -14150,6 +16817,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:07',
                 'updated_at' => '2019-01-29 22:27:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             382 => 
             array (
@@ -14187,6 +16861,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:07',
                 'updated_at' => '2019-01-29 22:27:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             383 => 
             array (
@@ -14224,6 +16905,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:08',
                 'updated_at' => '2019-01-29 22:27:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             384 => 
             array (
@@ -14261,6 +16949,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:08',
                 'updated_at' => '2019-01-29 22:27:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             385 => 
             array (
@@ -14298,6 +16993,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:08',
                 'updated_at' => '2019-01-29 22:27:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             386 => 
             array (
@@ -14335,6 +17037,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:08',
                 'updated_at' => '2019-01-29 22:27:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             387 => 
             array (
@@ -14372,6 +17081,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:08',
                 'updated_at' => '2019-01-29 22:27:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             388 => 
             array (
@@ -14409,6 +17125,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:09',
                 'updated_at' => '2019-01-29 22:27:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             389 => 
             array (
@@ -14446,6 +17169,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:09',
                 'updated_at' => '2019-01-29 22:27:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             390 => 
             array (
@@ -14483,6 +17213,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:09',
                 'updated_at' => '2019-01-29 22:27:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             391 => 
             array (
@@ -14520,6 +17257,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:09',
                 'updated_at' => '2019-01-29 22:27:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             392 => 
             array (
@@ -14557,6 +17301,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:09',
                 'updated_at' => '2019-01-29 22:27:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             393 => 
             array (
@@ -14594,6 +17345,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:09',
                 'updated_at' => '2019-01-29 22:27:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             394 => 
             array (
@@ -14631,6 +17389,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:10',
                 'updated_at' => '2019-01-29 22:27:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             395 => 
             array (
@@ -14668,6 +17433,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:10',
                 'updated_at' => '2019-01-29 22:27:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             396 => 
             array (
@@ -14705,6 +17477,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:10',
                 'updated_at' => '2019-01-29 22:27:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             397 => 
             array (
@@ -14742,6 +17521,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:10',
                 'updated_at' => '2019-01-29 22:27:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             398 => 
             array (
@@ -14779,6 +17565,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:10',
                 'updated_at' => '2019-01-29 22:27:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             399 => 
             array (
@@ -14816,6 +17609,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:10',
                 'updated_at' => '2019-01-29 22:27:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             400 => 
             array (
@@ -14853,6 +17653,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:11',
                 'updated_at' => '2019-01-29 22:27:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             401 => 
             array (
@@ -14890,6 +17697,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:11',
                 'updated_at' => '2019-01-29 22:27:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             402 => 
             array (
@@ -14927,6 +17741,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:11',
                 'updated_at' => '2019-01-29 22:27:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             403 => 
             array (
@@ -14964,6 +17785,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:11',
                 'updated_at' => '2019-01-29 22:27:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             404 => 
             array (
@@ -15001,6 +17829,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:11',
                 'updated_at' => '2019-01-29 22:27:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             405 => 
             array (
@@ -15038,6 +17873,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:11',
                 'updated_at' => '2019-01-29 22:27:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             406 => 
             array (
@@ -15075,6 +17917,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:11',
                 'updated_at' => '2019-01-29 22:27:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             407 => 
             array (
@@ -15112,6 +17961,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:12',
                 'updated_at' => '2019-01-29 22:27:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             408 => 
             array (
@@ -15149,6 +18005,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:12',
                 'updated_at' => '2019-01-29 22:27:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             409 => 
             array (
@@ -15186,6 +18049,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:12',
                 'updated_at' => '2019-01-29 22:27:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             410 => 
             array (
@@ -15223,6 +18093,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:12',
                 'updated_at' => '2019-01-29 22:27:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             411 => 
             array (
@@ -15260,6 +18137,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:12',
                 'updated_at' => '2019-01-29 22:27:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             412 => 
             array (
@@ -15297,6 +18181,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:13',
                 'updated_at' => '2019-01-29 22:27:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             413 => 
             array (
@@ -15334,6 +18225,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:13',
                 'updated_at' => '2019-01-29 22:27:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             414 => 
             array (
@@ -15371,6 +18269,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:13',
                 'updated_at' => '2019-01-29 22:27:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             415 => 
             array (
@@ -15408,6 +18313,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:13',
                 'updated_at' => '2019-01-29 22:27:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             416 => 
             array (
@@ -15445,6 +18357,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:13',
                 'updated_at' => '2019-01-29 22:27:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             417 => 
             array (
@@ -15482,6 +18401,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:14',
                 'updated_at' => '2019-01-29 22:27:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             418 => 
             array (
@@ -15519,6 +18445,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:14',
                 'updated_at' => '2019-01-29 22:27:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             419 => 
             array (
@@ -15556,6 +18489,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:14',
                 'updated_at' => '2019-01-29 22:27:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             420 => 
             array (
@@ -15593,6 +18533,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:14',
                 'updated_at' => '2019-01-29 22:27:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             421 => 
             array (
@@ -15630,6 +18577,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:14',
                 'updated_at' => '2019-01-29 22:27:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             422 => 
             array (
@@ -15667,6 +18621,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:15',
                 'updated_at' => '2019-01-29 22:27:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             423 => 
             array (
@@ -15704,6 +18665,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:15',
                 'updated_at' => '2019-01-29 22:27:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             424 => 
             array (
@@ -15741,6 +18709,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:15',
                 'updated_at' => '2019-01-29 22:27:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             425 => 
             array (
@@ -15778,6 +18753,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:15',
                 'updated_at' => '2019-01-29 22:27:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             426 => 
             array (
@@ -15815,6 +18797,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:15',
                 'updated_at' => '2019-01-29 22:27:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             427 => 
             array (
@@ -15852,6 +18841,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:16',
                 'updated_at' => '2019-01-29 22:27:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             428 => 
             array (
@@ -15889,6 +18885,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:16',
                 'updated_at' => '2019-01-29 22:27:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             429 => 
             array (
@@ -15926,6 +18929,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:16',
                 'updated_at' => '2019-01-29 22:27:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             430 => 
             array (
@@ -15963,6 +18973,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:16',
                 'updated_at' => '2019-01-29 22:27:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             431 => 
             array (
@@ -16000,6 +19017,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:16',
                 'updated_at' => '2019-01-29 22:27:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             432 => 
             array (
@@ -16037,6 +19061,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:16',
                 'updated_at' => '2019-01-29 22:27:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             433 => 
             array (
@@ -16074,6 +19105,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:17',
                 'updated_at' => '2019-01-29 22:27:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             434 => 
             array (
@@ -16111,6 +19149,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:17',
                 'updated_at' => '2019-01-29 22:27:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             435 => 
             array (
@@ -16148,6 +19193,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:17',
                 'updated_at' => '2019-01-29 22:27:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             436 => 
             array (
@@ -16185,6 +19237,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:17',
                 'updated_at' => '2019-01-29 22:27:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             437 => 
             array (
@@ -16222,6 +19281,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:18',
                 'updated_at' => '2019-01-29 22:27:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             438 => 
             array (
@@ -16259,6 +19325,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:18',
                 'updated_at' => '2019-01-29 22:27:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             439 => 
             array (
@@ -16296,6 +19369,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:18',
                 'updated_at' => '2019-01-29 22:27:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             440 => 
             array (
@@ -16333,6 +19413,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:18',
                 'updated_at' => '2019-01-29 22:27:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             441 => 
             array (
@@ -16370,6 +19457,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:18',
                 'updated_at' => '2019-01-29 22:27:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             442 => 
             array (
@@ -16407,6 +19501,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:18',
                 'updated_at' => '2019-01-29 22:27:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             443 => 
             array (
@@ -16444,6 +19545,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:19',
                 'updated_at' => '2019-01-29 22:27:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             444 => 
             array (
@@ -16481,6 +19589,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:19',
                 'updated_at' => '2019-01-29 22:27:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             445 => 
             array (
@@ -16518,6 +19633,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:19',
                 'updated_at' => '2019-01-29 22:27:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             446 => 
             array (
@@ -16555,6 +19677,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:19',
                 'updated_at' => '2019-01-29 22:27:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             447 => 
             array (
@@ -16592,6 +19721,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:19',
                 'updated_at' => '2019-01-29 22:27:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             448 => 
             array (
@@ -16629,6 +19765,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:20',
                 'updated_at' => '2019-01-29 22:27:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             449 => 
             array (
@@ -16666,6 +19809,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:20',
                 'updated_at' => '2019-01-29 22:27:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             450 => 
             array (
@@ -16703,6 +19853,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:20',
                 'updated_at' => '2019-01-29 22:27:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             451 => 
             array (
@@ -16740,6 +19897,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:20',
                 'updated_at' => '2019-01-29 22:27:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             452 => 
             array (
@@ -16777,6 +19941,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:20',
                 'updated_at' => '2019-01-29 22:27:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             453 => 
             array (
@@ -16814,6 +19985,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:20',
                 'updated_at' => '2019-01-29 22:27:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             454 => 
             array (
@@ -16851,6 +20029,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:21',
                 'updated_at' => '2019-01-29 22:27:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             455 => 
             array (
@@ -16888,6 +20073,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:21',
                 'updated_at' => '2019-01-29 22:27:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             456 => 
             array (
@@ -16925,6 +20117,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:21',
                 'updated_at' => '2019-01-29 22:27:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             457 => 
             array (
@@ -16962,6 +20161,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:21',
                 'updated_at' => '2019-01-29 22:27:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             458 => 
             array (
@@ -16999,6 +20205,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:21',
                 'updated_at' => '2019-01-29 22:27:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             459 => 
             array (
@@ -17036,6 +20249,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:22',
                 'updated_at' => '2019-01-29 22:27:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             460 => 
             array (
@@ -17073,6 +20293,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:22',
                 'updated_at' => '2019-01-29 22:27:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             461 => 
             array (
@@ -17110,6 +20337,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:22',
                 'updated_at' => '2019-01-29 22:27:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             462 => 
             array (
@@ -17147,6 +20381,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:22',
                 'updated_at' => '2019-01-29 22:27:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             463 => 
             array (
@@ -17184,6 +20425,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:22',
                 'updated_at' => '2019-01-29 22:27:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             464 => 
             array (
@@ -17221,6 +20469,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:23',
                 'updated_at' => '2019-01-29 22:27:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             465 => 
             array (
@@ -17258,6 +20513,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:23',
                 'updated_at' => '2019-01-29 22:27:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             466 => 
             array (
@@ -17295,6 +20557,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:23',
                 'updated_at' => '2019-01-29 22:27:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             467 => 
             array (
@@ -17332,6 +20601,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:23',
                 'updated_at' => '2019-01-29 22:27:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             468 => 
             array (
@@ -17369,6 +20645,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:23',
                 'updated_at' => '2019-01-29 22:27:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             469 => 
             array (
@@ -17406,6 +20689,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:24',
                 'updated_at' => '2019-01-29 22:27:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             470 => 
             array (
@@ -17443,6 +20733,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:24',
                 'updated_at' => '2019-01-29 22:27:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             471 => 
             array (
@@ -17480,6 +20777,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:24',
                 'updated_at' => '2019-01-29 22:27:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             472 => 
             array (
@@ -17517,6 +20821,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:24',
                 'updated_at' => '2019-01-29 22:27:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             473 => 
             array (
@@ -17554,6 +20865,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:24',
                 'updated_at' => '2019-01-29 22:27:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             474 => 
             array (
@@ -17591,6 +20909,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:25',
                 'updated_at' => '2019-01-29 22:27:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             475 => 
             array (
@@ -17628,6 +20953,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:25',
                 'updated_at' => '2019-01-29 22:27:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             476 => 
             array (
@@ -17665,6 +20997,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:25',
                 'updated_at' => '2019-01-29 22:27:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             477 => 
             array (
@@ -17702,6 +21041,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:25',
                 'updated_at' => '2019-01-29 22:27:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             478 => 
             array (
@@ -17739,6 +21085,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:25',
                 'updated_at' => '2019-01-29 22:27:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             479 => 
             array (
@@ -17776,6 +21129,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:26',
                 'updated_at' => '2019-01-29 22:27:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             480 => 
             array (
@@ -17813,6 +21173,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:26',
                 'updated_at' => '2019-01-29 22:27:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             481 => 
             array (
@@ -17850,6 +21217,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:26',
                 'updated_at' => '2019-01-29 22:27:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             482 => 
             array (
@@ -17887,6 +21261,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:26',
                 'updated_at' => '2019-01-29 22:27:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             483 => 
             array (
@@ -17924,6 +21305,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:26',
                 'updated_at' => '2019-01-29 22:27:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             484 => 
             array (
@@ -17961,6 +21349,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:27',
                 'updated_at' => '2019-01-29 22:27:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             485 => 
             array (
@@ -17998,6 +21393,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:27',
                 'updated_at' => '2019-01-29 22:27:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             486 => 
             array (
@@ -18035,6 +21437,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:27',
                 'updated_at' => '2019-01-29 22:27:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             487 => 
             array (
@@ -18072,6 +21481,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:27',
                 'updated_at' => '2019-01-29 22:27:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             488 => 
             array (
@@ -18109,6 +21525,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:27',
                 'updated_at' => '2019-01-29 22:27:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             489 => 
             array (
@@ -18146,6 +21569,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:28',
                 'updated_at' => '2019-01-29 22:27:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             490 => 
             array (
@@ -18183,6 +21613,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:28',
                 'updated_at' => '2019-01-29 22:27:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             491 => 
             array (
@@ -18220,6 +21657,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:28',
                 'updated_at' => '2019-01-29 22:27:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             492 => 
             array (
@@ -18257,6 +21701,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:28',
                 'updated_at' => '2019-01-29 22:27:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             493 => 
             array (
@@ -18294,6 +21745,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:28',
                 'updated_at' => '2019-01-29 22:27:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             494 => 
             array (
@@ -18331,6 +21789,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:29',
                 'updated_at' => '2019-01-29 22:27:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             495 => 
             array (
@@ -18368,6 +21833,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:29',
                 'updated_at' => '2019-01-29 22:27:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             496 => 
             array (
@@ -18405,6 +21877,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:29',
                 'updated_at' => '2019-01-29 22:27:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             497 => 
             array (
@@ -18442,6 +21921,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:29',
                 'updated_at' => '2019-01-29 22:27:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             498 => 
             array (
@@ -18479,6 +21965,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:29',
                 'updated_at' => '2019-01-29 22:27:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             499 => 
             array (
@@ -18516,6 +22009,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:30',
                 'updated_at' => '2019-01-29 22:27:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
         ));
         \DB::table('denuncia')->insert(array (
@@ -18555,6 +22055,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:30',
                 'updated_at' => '2019-01-29 22:27:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             1 => 
             array (
@@ -18592,6 +22099,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:30',
                 'updated_at' => '2019-01-29 22:27:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             2 => 
             array (
@@ -18629,6 +22143,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:30',
                 'updated_at' => '2019-01-29 22:27:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             3 => 
             array (
@@ -18666,6 +22187,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:30',
                 'updated_at' => '2019-01-29 22:27:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             4 => 
             array (
@@ -18703,6 +22231,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:30',
                 'updated_at' => '2019-01-29 22:27:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             5 => 
             array (
@@ -18740,6 +22275,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:31',
                 'updated_at' => '2019-01-29 22:27:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             6 => 
             array (
@@ -18777,6 +22319,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:31',
                 'updated_at' => '2019-01-29 22:27:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             7 => 
             array (
@@ -18814,6 +22363,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:31',
                 'updated_at' => '2019-01-29 22:27:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             8 => 
             array (
@@ -18851,6 +22407,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:31',
                 'updated_at' => '2019-01-29 22:27:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             9 => 
             array (
@@ -18888,6 +22451,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:32',
                 'updated_at' => '2019-01-29 22:27:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             10 => 
             array (
@@ -18925,6 +22495,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:32',
                 'updated_at' => '2019-01-29 22:27:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             11 => 
             array (
@@ -18962,6 +22539,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:32',
                 'updated_at' => '2019-01-29 22:27:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             12 => 
             array (
@@ -18999,6 +22583,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:32',
                 'updated_at' => '2019-01-29 22:27:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             13 => 
             array (
@@ -19036,6 +22627,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:32',
                 'updated_at' => '2019-01-29 22:27:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             14 => 
             array (
@@ -19073,6 +22671,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:32',
                 'updated_at' => '2019-01-29 22:27:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             15 => 
             array (
@@ -19110,6 +22715,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:33',
                 'updated_at' => '2019-01-29 22:27:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             16 => 
             array (
@@ -19147,6 +22759,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:33',
                 'updated_at' => '2019-01-29 22:27:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             17 => 
             array (
@@ -19184,6 +22803,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:33',
                 'updated_at' => '2019-01-29 22:27:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             18 => 
             array (
@@ -19221,6 +22847,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:33',
                 'updated_at' => '2019-01-29 22:27:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             19 => 
             array (
@@ -19258,6 +22891,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:33',
                 'updated_at' => '2019-01-29 22:27:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             20 => 
             array (
@@ -19295,6 +22935,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:34',
                 'updated_at' => '2019-01-29 22:27:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             21 => 
             array (
@@ -19332,6 +22979,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:34',
                 'updated_at' => '2019-01-29 22:27:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             22 => 
             array (
@@ -19369,6 +23023,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:34',
                 'updated_at' => '2019-01-29 22:27:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             23 => 
             array (
@@ -19406,6 +23067,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:34',
                 'updated_at' => '2019-01-29 22:27:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             24 => 
             array (
@@ -19443,6 +23111,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:34',
                 'updated_at' => '2019-01-29 22:27:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             25 => 
             array (
@@ -19480,6 +23155,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:35',
                 'updated_at' => '2019-01-29 22:27:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             26 => 
             array (
@@ -19517,6 +23199,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:35',
                 'updated_at' => '2019-01-29 22:27:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             27 => 
             array (
@@ -19554,6 +23243,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:35',
                 'updated_at' => '2019-01-29 22:27:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             28 => 
             array (
@@ -19591,6 +23287,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:35',
                 'updated_at' => '2019-01-29 22:27:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             29 => 
             array (
@@ -19628,6 +23331,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:35',
                 'updated_at' => '2019-01-29 22:27:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             30 => 
             array (
@@ -19665,6 +23375,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:36',
                 'updated_at' => '2019-01-29 22:27:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             31 => 
             array (
@@ -19702,6 +23419,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:36',
                 'updated_at' => '2019-01-29 22:27:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             32 => 
             array (
@@ -19739,6 +23463,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:36',
                 'updated_at' => '2019-01-29 22:27:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             33 => 
             array (
@@ -19776,6 +23507,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:36',
                 'updated_at' => '2019-01-29 22:27:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             34 => 
             array (
@@ -19813,6 +23551,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:37',
                 'updated_at' => '2019-01-29 22:27:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             35 => 
             array (
@@ -19850,6 +23595,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:37',
                 'updated_at' => '2019-01-29 22:27:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             36 => 
             array (
@@ -19887,6 +23639,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:37',
                 'updated_at' => '2019-01-29 22:27:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             37 => 
             array (
@@ -19924,6 +23683,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:37',
                 'updated_at' => '2019-01-29 22:27:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             38 => 
             array (
@@ -19961,6 +23727,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:38',
                 'updated_at' => '2019-01-29 22:27:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             39 => 
             array (
@@ -19998,6 +23771,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:38',
                 'updated_at' => '2019-01-29 22:27:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             40 => 
             array (
@@ -20035,6 +23815,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:38',
                 'updated_at' => '2019-01-29 22:27:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             41 => 
             array (
@@ -20072,6 +23859,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:38',
                 'updated_at' => '2019-01-29 22:27:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             42 => 
             array (
@@ -20109,6 +23903,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:38',
                 'updated_at' => '2019-01-29 22:27:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             43 => 
             array (
@@ -20146,6 +23947,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:39',
                 'updated_at' => '2019-01-29 22:27:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             44 => 
             array (
@@ -20183,6 +23991,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:39',
                 'updated_at' => '2019-01-29 22:27:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             45 => 
             array (
@@ -20220,6 +24035,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:39',
                 'updated_at' => '2019-01-29 22:27:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             46 => 
             array (
@@ -20257,6 +24079,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:39',
                 'updated_at' => '2019-01-29 22:27:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             47 => 
             array (
@@ -20294,6 +24123,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:39',
                 'updated_at' => '2019-01-29 22:27:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             48 => 
             array (
@@ -20331,6 +24167,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:39',
                 'updated_at' => '2019-01-29 22:27:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             49 => 
             array (
@@ -20368,6 +24211,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:40',
                 'updated_at' => '2019-01-29 22:27:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             50 => 
             array (
@@ -20405,6 +24255,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:40',
                 'updated_at' => '2019-01-29 22:27:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             51 => 
             array (
@@ -20442,6 +24299,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:40',
                 'updated_at' => '2019-01-29 22:27:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             52 => 
             array (
@@ -20479,6 +24343,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:40',
                 'updated_at' => '2019-01-29 22:27:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             53 => 
             array (
@@ -20516,6 +24387,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:40',
                 'updated_at' => '2019-01-29 22:27:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             54 => 
             array (
@@ -20553,6 +24431,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:40',
                 'updated_at' => '2019-01-29 22:27:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             55 => 
             array (
@@ -20590,6 +24475,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:41',
                 'updated_at' => '2019-01-29 22:27:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             56 => 
             array (
@@ -20627,6 +24519,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:41',
                 'updated_at' => '2019-01-29 22:27:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             57 => 
             array (
@@ -20664,6 +24563,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:41',
                 'updated_at' => '2019-01-29 22:27:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             58 => 
             array (
@@ -20701,6 +24607,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:41',
                 'updated_at' => '2019-01-29 22:27:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             59 => 
             array (
@@ -20738,6 +24651,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:41',
                 'updated_at' => '2019-01-29 22:27:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             60 => 
             array (
@@ -20775,6 +24695,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:42',
                 'updated_at' => '2019-01-29 22:27:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             61 => 
             array (
@@ -20812,6 +24739,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:42',
                 'updated_at' => '2019-01-29 22:27:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             62 => 
             array (
@@ -20849,6 +24783,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:42',
                 'updated_at' => '2019-01-29 22:27:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             63 => 
             array (
@@ -20886,6 +24827,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:42',
                 'updated_at' => '2019-01-29 22:27:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             64 => 
             array (
@@ -20923,6 +24871,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:42',
                 'updated_at' => '2019-01-29 22:27:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             65 => 
             array (
@@ -20960,6 +24915,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:43',
                 'updated_at' => '2019-01-29 22:27:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             66 => 
             array (
@@ -20997,6 +24959,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:43',
                 'updated_at' => '2019-01-29 22:27:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             67 => 
             array (
@@ -21034,6 +25003,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:43',
                 'updated_at' => '2019-01-29 22:27:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             68 => 
             array (
@@ -21071,6 +25047,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:43',
                 'updated_at' => '2019-01-29 22:27:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             69 => 
             array (
@@ -21108,6 +25091,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:43',
                 'updated_at' => '2019-01-29 22:27:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             70 => 
             array (
@@ -21145,6 +25135,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:43',
                 'updated_at' => '2019-01-29 22:27:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             71 => 
             array (
@@ -21182,6 +25179,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:44',
                 'updated_at' => '2019-01-29 22:27:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             72 => 
             array (
@@ -21219,6 +25223,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:44',
                 'updated_at' => '2019-01-29 22:27:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             73 => 
             array (
@@ -21256,6 +25267,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:44',
                 'updated_at' => '2019-01-29 22:27:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             74 => 
             array (
@@ -21293,6 +25311,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:44',
                 'updated_at' => '2019-01-29 22:27:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             75 => 
             array (
@@ -21330,6 +25355,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:44',
                 'updated_at' => '2019-01-29 22:27:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             76 => 
             array (
@@ -21367,6 +25399,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:45',
                 'updated_at' => '2019-01-29 22:27:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             77 => 
             array (
@@ -21404,6 +25443,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:45',
                 'updated_at' => '2019-01-29 22:27:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             78 => 
             array (
@@ -21441,6 +25487,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:45',
                 'updated_at' => '2019-01-29 22:27:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             79 => 
             array (
@@ -21478,6 +25531,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:45',
                 'updated_at' => '2019-01-29 22:27:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             80 => 
             array (
@@ -21515,6 +25575,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:45',
                 'updated_at' => '2019-01-29 22:27:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             81 => 
             array (
@@ -21552,6 +25619,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:46',
                 'updated_at' => '2019-01-29 22:27:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             82 => 
             array (
@@ -21589,6 +25663,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:46',
                 'updated_at' => '2019-01-29 22:27:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             83 => 
             array (
@@ -21626,6 +25707,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:46',
                 'updated_at' => '2019-01-29 22:27:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             84 => 
             array (
@@ -21663,6 +25751,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:46',
                 'updated_at' => '2019-01-29 22:27:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             85 => 
             array (
@@ -21700,6 +25795,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:47',
                 'updated_at' => '2019-01-29 22:27:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             86 => 
             array (
@@ -21737,6 +25839,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:47',
                 'updated_at' => '2019-01-29 22:27:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             87 => 
             array (
@@ -21774,6 +25883,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:47',
                 'updated_at' => '2019-01-29 22:27:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             88 => 
             array (
@@ -21811,6 +25927,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:47',
                 'updated_at' => '2019-01-29 22:27:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             89 => 
             array (
@@ -21848,6 +25971,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:47',
                 'updated_at' => '2019-01-29 22:27:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             90 => 
             array (
@@ -21885,6 +26015,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:47',
                 'updated_at' => '2019-01-29 22:27:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             91 => 
             array (
@@ -21922,6 +26059,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:48',
                 'updated_at' => '2019-01-29 22:27:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             92 => 
             array (
@@ -21959,6 +26103,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:48',
                 'updated_at' => '2019-01-29 22:27:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             93 => 
             array (
@@ -21996,6 +26147,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:48',
                 'updated_at' => '2019-01-29 22:27:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             94 => 
             array (
@@ -22033,6 +26191,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:48',
                 'updated_at' => '2019-01-29 22:27:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             95 => 
             array (
@@ -22070,6 +26235,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:49',
                 'updated_at' => '2019-01-29 22:27:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             96 => 
             array (
@@ -22107,6 +26279,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:49',
                 'updated_at' => '2019-01-29 22:27:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             97 => 
             array (
@@ -22144,6 +26323,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:49',
                 'updated_at' => '2019-01-29 22:27:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             98 => 
             array (
@@ -22181,6 +26367,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:49',
                 'updated_at' => '2019-01-29 22:27:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             99 => 
             array (
@@ -22218,6 +26411,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:49',
                 'updated_at' => '2019-01-29 22:27:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             100 => 
             array (
@@ -22255,6 +26455,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:50',
                 'updated_at' => '2019-01-29 22:27:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             101 => 
             array (
@@ -22292,6 +26499,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:50',
                 'updated_at' => '2019-01-29 22:27:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             102 => 
             array (
@@ -22329,6 +26543,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:50',
                 'updated_at' => '2019-01-29 22:27:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             103 => 
             array (
@@ -22366,6 +26587,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:50',
                 'updated_at' => '2019-01-29 22:27:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             104 => 
             array (
@@ -22403,6 +26631,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:50',
                 'updated_at' => '2019-01-29 22:27:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             105 => 
             array (
@@ -22440,6 +26675,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:50',
                 'updated_at' => '2019-01-29 22:27:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             106 => 
             array (
@@ -22477,6 +26719,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:51',
                 'updated_at' => '2019-01-29 22:27:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             107 => 
             array (
@@ -22514,6 +26763,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:51',
                 'updated_at' => '2019-01-29 22:27:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             108 => 
             array (
@@ -22551,6 +26807,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:51',
                 'updated_at' => '2019-01-29 22:27:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             109 => 
             array (
@@ -22588,6 +26851,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:51',
                 'updated_at' => '2019-01-29 22:27:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             110 => 
             array (
@@ -22625,6 +26895,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:51',
                 'updated_at' => '2019-01-29 22:27:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             111 => 
             array (
@@ -22662,6 +26939,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:51',
                 'updated_at' => '2019-01-29 22:27:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             112 => 
             array (
@@ -22699,6 +26983,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:52',
                 'updated_at' => '2019-01-29 22:27:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             113 => 
             array (
@@ -22736,6 +27027,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:52',
                 'updated_at' => '2019-01-29 22:27:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             114 => 
             array (
@@ -22773,6 +27071,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:52',
                 'updated_at' => '2019-01-29 22:27:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             115 => 
             array (
@@ -22810,6 +27115,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:52',
                 'updated_at' => '2019-01-29 22:27:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             116 => 
             array (
@@ -22847,6 +27159,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:52',
                 'updated_at' => '2019-01-29 22:27:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             117 => 
             array (
@@ -22884,6 +27203,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:53',
                 'updated_at' => '2019-01-29 22:27:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             118 => 
             array (
@@ -22921,6 +27247,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:53',
                 'updated_at' => '2019-01-29 22:27:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             119 => 
             array (
@@ -22958,6 +27291,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:53',
                 'updated_at' => '2019-01-29 22:27:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             120 => 
             array (
@@ -22995,6 +27335,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:53',
                 'updated_at' => '2019-01-29 22:27:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             121 => 
             array (
@@ -23032,6 +27379,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:53',
                 'updated_at' => '2019-01-29 22:27:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             122 => 
             array (
@@ -23069,6 +27423,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:53',
                 'updated_at' => '2019-01-29 22:27:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             123 => 
             array (
@@ -23106,6 +27467,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:54',
                 'updated_at' => '2019-01-29 22:27:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             124 => 
             array (
@@ -23143,6 +27511,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:54',
                 'updated_at' => '2019-01-29 22:27:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             125 => 
             array (
@@ -23180,6 +27555,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:54',
                 'updated_at' => '2019-01-29 22:27:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             126 => 
             array (
@@ -23217,6 +27599,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:54',
                 'updated_at' => '2019-01-29 22:27:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             127 => 
             array (
@@ -23254,6 +27643,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:54',
                 'updated_at' => '2019-01-29 22:27:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             128 => 
             array (
@@ -23291,6 +27687,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:55',
                 'updated_at' => '2019-01-29 22:27:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             129 => 
             array (
@@ -23328,6 +27731,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:55',
                 'updated_at' => '2019-01-29 22:27:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             130 => 
             array (
@@ -23365,6 +27775,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:55',
                 'updated_at' => '2019-01-29 22:27:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             131 => 
             array (
@@ -23402,6 +27819,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:55',
                 'updated_at' => '2019-01-29 22:27:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             132 => 
             array (
@@ -23439,6 +27863,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:55',
                 'updated_at' => '2019-01-29 22:27:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             133 => 
             array (
@@ -23476,6 +27907,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:55',
                 'updated_at' => '2019-01-29 22:27:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             134 => 
             array (
@@ -23513,6 +27951,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:56',
                 'updated_at' => '2019-01-29 22:27:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             135 => 
             array (
@@ -23550,6 +27995,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:56',
                 'updated_at' => '2019-01-29 22:27:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             136 => 
             array (
@@ -23587,6 +28039,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:56',
                 'updated_at' => '2019-01-29 22:27:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             137 => 
             array (
@@ -23624,6 +28083,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:56',
                 'updated_at' => '2019-01-29 22:27:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             138 => 
             array (
@@ -23661,6 +28127,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:56',
                 'updated_at' => '2019-01-29 22:27:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             139 => 
             array (
@@ -23698,6 +28171,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:56',
                 'updated_at' => '2019-01-29 22:27:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             140 => 
             array (
@@ -23735,6 +28215,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:57',
                 'updated_at' => '2019-01-29 22:27:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             141 => 
             array (
@@ -23772,6 +28259,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:57',
                 'updated_at' => '2019-01-29 22:27:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             142 => 
             array (
@@ -23809,6 +28303,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:57',
                 'updated_at' => '2019-01-29 22:27:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             143 => 
             array (
@@ -23846,6 +28347,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:57',
                 'updated_at' => '2019-01-29 22:27:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             144 => 
             array (
@@ -23883,6 +28391,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:57',
                 'updated_at' => '2019-01-29 22:27:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             145 => 
             array (
@@ -23920,6 +28435,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:57',
                 'updated_at' => '2019-01-29 22:27:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             146 => 
             array (
@@ -23957,6 +28479,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:58',
                 'updated_at' => '2019-01-29 22:27:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             147 => 
             array (
@@ -23994,6 +28523,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:58',
                 'updated_at' => '2019-01-29 22:27:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             148 => 
             array (
@@ -24031,6 +28567,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:58',
                 'updated_at' => '2019-01-29 22:27:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             149 => 
             array (
@@ -24068,6 +28611,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:58',
                 'updated_at' => '2019-01-29 22:27:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             150 => 
             array (
@@ -24105,6 +28655,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:58',
                 'updated_at' => '2019-01-29 22:27:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             151 => 
             array (
@@ -24142,6 +28699,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:59',
                 'updated_at' => '2019-01-29 22:27:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             152 => 
             array (
@@ -24179,6 +28743,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:59',
                 'updated_at' => '2019-01-29 22:27:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             153 => 
             array (
@@ -24216,6 +28787,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:59',
                 'updated_at' => '2019-01-29 22:27:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             154 => 
             array (
@@ -24253,6 +28831,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:59',
                 'updated_at' => '2019-01-29 22:27:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             155 => 
             array (
@@ -24290,6 +28875,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:00',
                 'updated_at' => '2019-01-29 22:28:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             156 => 
             array (
@@ -24327,6 +28919,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:00',
                 'updated_at' => '2019-01-29 22:28:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             157 => 
             array (
@@ -24364,6 +28963,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:00',
                 'updated_at' => '2019-01-29 22:28:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             158 => 
             array (
@@ -24401,6 +29007,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:00',
                 'updated_at' => '2019-01-29 22:28:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             159 => 
             array (
@@ -24438,6 +29051,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:00',
                 'updated_at' => '2019-01-29 22:28:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             160 => 
             array (
@@ -24475,6 +29095,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:00',
                 'updated_at' => '2019-01-29 22:28:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             161 => 
             array (
@@ -24512,6 +29139,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:01',
                 'updated_at' => '2019-01-29 22:28:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             162 => 
             array (
@@ -24549,6 +29183,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:01',
                 'updated_at' => '2019-01-29 22:28:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             163 => 
             array (
@@ -24586,6 +29227,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:01',
                 'updated_at' => '2019-01-29 22:28:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             164 => 
             array (
@@ -24623,6 +29271,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:01',
                 'updated_at' => '2019-01-29 22:28:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             165 => 
             array (
@@ -24660,6 +29315,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:01',
                 'updated_at' => '2019-01-29 22:28:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             166 => 
             array (
@@ -24697,6 +29359,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:02',
                 'updated_at' => '2019-01-29 22:28:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             167 => 
             array (
@@ -24734,6 +29403,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:02',
                 'updated_at' => '2019-01-29 22:28:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             168 => 
             array (
@@ -24771,6 +29447,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:02',
                 'updated_at' => '2019-01-29 22:28:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             169 => 
             array (
@@ -24808,6 +29491,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:02',
                 'updated_at' => '2019-01-29 22:28:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             170 => 
             array (
@@ -24845,6 +29535,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:02',
                 'updated_at' => '2019-01-29 22:28:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             171 => 
             array (
@@ -24882,6 +29579,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:03',
                 'updated_at' => '2019-01-29 22:28:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             172 => 
             array (
@@ -24919,6 +29623,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:03',
                 'updated_at' => '2019-01-29 22:28:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             173 => 
             array (
@@ -24956,6 +29667,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:03',
                 'updated_at' => '2019-01-29 22:28:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             174 => 
             array (
@@ -24993,6 +29711,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:03',
                 'updated_at' => '2019-01-29 22:28:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             175 => 
             array (
@@ -25030,6 +29755,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:03',
                 'updated_at' => '2019-01-29 22:28:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             176 => 
             array (
@@ -25067,6 +29799,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:03',
                 'updated_at' => '2019-01-29 22:28:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             177 => 
             array (
@@ -25104,6 +29843,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:03',
                 'updated_at' => '2019-01-29 22:28:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             178 => 
             array (
@@ -25141,6 +29887,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:04',
                 'updated_at' => '2019-01-29 22:28:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             179 => 
             array (
@@ -25178,6 +29931,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:04',
                 'updated_at' => '2019-01-29 22:28:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             180 => 
             array (
@@ -25215,6 +29975,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:04',
                 'updated_at' => '2019-01-29 22:28:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             181 => 
             array (
@@ -25252,6 +30019,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:04',
                 'updated_at' => '2019-01-29 22:28:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             182 => 
             array (
@@ -25289,6 +30063,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:04',
                 'updated_at' => '2019-01-29 22:28:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             183 => 
             array (
@@ -25326,6 +30107,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:05',
                 'updated_at' => '2019-01-29 22:28:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             184 => 
             array (
@@ -25363,6 +30151,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:05',
                 'updated_at' => '2019-01-29 22:28:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             185 => 
             array (
@@ -25400,6 +30195,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:05',
                 'updated_at' => '2019-01-29 22:28:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             186 => 
             array (
@@ -25437,6 +30239,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:05',
                 'updated_at' => '2019-01-29 22:28:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             187 => 
             array (
@@ -25474,6 +30283,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:05',
                 'updated_at' => '2019-01-29 22:28:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             188 => 
             array (
@@ -25511,6 +30327,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:05',
                 'updated_at' => '2019-01-29 22:28:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             189 => 
             array (
@@ -25548,6 +30371,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:06',
                 'updated_at' => '2019-01-29 22:28:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             190 => 
             array (
@@ -25585,6 +30415,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:06',
                 'updated_at' => '2019-01-29 22:28:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             191 => 
             array (
@@ -25622,6 +30459,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:06',
                 'updated_at' => '2019-01-29 22:28:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             192 => 
             array (
@@ -25659,6 +30503,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:07',
                 'updated_at' => '2019-01-29 22:28:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             193 => 
             array (
@@ -25696,6 +30547,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:07',
                 'updated_at' => '2019-01-29 22:28:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             194 => 
             array (
@@ -25733,6 +30591,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:07',
                 'updated_at' => '2019-01-29 22:28:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             195 => 
             array (
@@ -25770,6 +30635,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:07',
                 'updated_at' => '2019-01-29 22:28:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             196 => 
             array (
@@ -25807,6 +30679,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:08',
                 'updated_at' => '2019-01-29 22:28:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             197 => 
             array (
@@ -25844,6 +30723,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:08',
                 'updated_at' => '2019-01-29 22:28:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             198 => 
             array (
@@ -25881,6 +30767,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:08',
                 'updated_at' => '2019-01-29 22:28:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             199 => 
             array (
@@ -25918,6 +30811,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:08',
                 'updated_at' => '2019-01-29 22:28:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             200 => 
             array (
@@ -25955,6 +30855,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:08',
                 'updated_at' => '2019-01-29 22:28:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             201 => 
             array (
@@ -25992,6 +30899,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:08',
                 'updated_at' => '2019-01-29 22:28:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             202 => 
             array (
@@ -26029,6 +30943,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:09',
                 'updated_at' => '2019-01-29 22:28:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             203 => 
             array (
@@ -26066,6 +30987,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:09',
                 'updated_at' => '2019-01-29 22:28:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             204 => 
             array (
@@ -26103,6 +31031,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:09',
                 'updated_at' => '2019-01-29 22:28:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             205 => 
             array (
@@ -26140,6 +31075,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:09',
                 'updated_at' => '2019-01-29 22:28:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             206 => 
             array (
@@ -26177,6 +31119,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:09',
                 'updated_at' => '2019-01-29 22:28:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             207 => 
             array (
@@ -26214,6 +31163,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:09',
                 'updated_at' => '2019-01-29 22:28:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             208 => 
             array (
@@ -26251,6 +31207,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:10',
                 'updated_at' => '2019-01-29 22:28:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             209 => 
             array (
@@ -26288,6 +31251,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:10',
                 'updated_at' => '2019-01-29 22:28:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             210 => 
             array (
@@ -26325,6 +31295,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:10',
                 'updated_at' => '2019-01-29 22:28:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             211 => 
             array (
@@ -26362,6 +31339,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:10',
                 'updated_at' => '2019-01-29 22:28:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             212 => 
             array (
@@ -26399,6 +31383,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:10',
                 'updated_at' => '2019-01-29 22:28:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             213 => 
             array (
@@ -26436,6 +31427,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:10',
                 'updated_at' => '2019-01-29 22:28:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             214 => 
             array (
@@ -26473,6 +31471,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:11',
                 'updated_at' => '2019-01-29 22:28:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             215 => 
             array (
@@ -26510,6 +31515,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:11',
                 'updated_at' => '2019-01-29 22:28:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             216 => 
             array (
@@ -26547,6 +31559,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:11',
                 'updated_at' => '2019-01-29 22:28:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             217 => 
             array (
@@ -26584,6 +31603,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:11',
                 'updated_at' => '2019-01-29 22:28:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             218 => 
             array (
@@ -26621,6 +31647,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:11',
                 'updated_at' => '2019-01-29 22:28:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             219 => 
             array (
@@ -26658,6 +31691,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:11',
                 'updated_at' => '2019-01-29 22:28:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             220 => 
             array (
@@ -26695,6 +31735,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:12',
                 'updated_at' => '2019-01-29 22:28:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             221 => 
             array (
@@ -26732,6 +31779,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:12',
                 'updated_at' => '2019-01-29 22:28:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             222 => 
             array (
@@ -26769,6 +31823,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:12',
                 'updated_at' => '2019-01-29 22:28:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             223 => 
             array (
@@ -26806,6 +31867,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:12',
                 'updated_at' => '2019-01-29 22:28:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             224 => 
             array (
@@ -26843,6 +31911,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:12',
                 'updated_at' => '2019-01-29 22:28:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             225 => 
             array (
@@ -26880,6 +31955,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:13',
                 'updated_at' => '2019-01-29 22:28:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             226 => 
             array (
@@ -26917,6 +31999,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:13',
                 'updated_at' => '2019-01-29 22:28:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             227 => 
             array (
@@ -26954,6 +32043,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:13',
                 'updated_at' => '2019-01-29 22:28:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             228 => 
             array (
@@ -26991,6 +32087,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:13',
                 'updated_at' => '2019-01-29 22:28:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             229 => 
             array (
@@ -27028,6 +32131,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:13',
                 'updated_at' => '2019-01-29 22:28:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             230 => 
             array (
@@ -27065,6 +32175,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:14',
                 'updated_at' => '2019-01-29 22:28:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             231 => 
             array (
@@ -27102,6 +32219,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:14',
                 'updated_at' => '2019-01-29 22:28:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             232 => 
             array (
@@ -27139,6 +32263,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:14',
                 'updated_at' => '2019-01-29 22:28:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             233 => 
             array (
@@ -27176,6 +32307,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:14',
                 'updated_at' => '2019-01-29 22:28:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             234 => 
             array (
@@ -27213,6 +32351,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:14',
                 'updated_at' => '2019-01-29 22:28:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             235 => 
             array (
@@ -27250,6 +32395,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:14',
                 'updated_at' => '2019-01-29 22:28:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             236 => 
             array (
@@ -27287,6 +32439,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:15',
                 'updated_at' => '2019-01-29 22:28:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             237 => 
             array (
@@ -27324,6 +32483,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:15',
                 'updated_at' => '2019-01-29 22:28:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             238 => 
             array (
@@ -27361,6 +32527,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:15',
                 'updated_at' => '2019-01-29 22:28:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             239 => 
             array (
@@ -27398,6 +32571,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:15',
                 'updated_at' => '2019-01-29 22:28:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             240 => 
             array (
@@ -27435,6 +32615,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:15',
                 'updated_at' => '2019-01-29 22:28:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             241 => 
             array (
@@ -27472,6 +32659,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:15',
                 'updated_at' => '2019-01-29 22:28:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             242 => 
             array (
@@ -27509,6 +32703,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:16',
                 'updated_at' => '2019-01-29 22:28:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             243 => 
             array (
@@ -27546,6 +32747,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:16',
                 'updated_at' => '2019-01-29 22:28:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             244 => 
             array (
@@ -27583,6 +32791,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:16',
                 'updated_at' => '2019-01-29 22:28:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             245 => 
             array (
@@ -27620,6 +32835,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:16',
                 'updated_at' => '2019-01-29 22:28:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             246 => 
             array (
@@ -27657,6 +32879,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:16',
                 'updated_at' => '2019-01-29 22:28:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             247 => 
             array (
@@ -27694,6 +32923,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:17',
                 'updated_at' => '2019-01-29 22:28:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             248 => 
             array (
@@ -27731,6 +32967,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:17',
                 'updated_at' => '2019-01-29 22:28:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             249 => 
             array (
@@ -27768,6 +33011,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:17',
                 'updated_at' => '2019-01-29 22:28:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             250 => 
             array (
@@ -27805,6 +33055,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:17',
                 'updated_at' => '2019-01-29 22:28:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             251 => 
             array (
@@ -27842,6 +33099,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:17',
                 'updated_at' => '2019-01-29 22:28:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             252 => 
             array (
@@ -27879,6 +33143,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:17',
                 'updated_at' => '2019-01-29 22:28:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             253 => 
             array (
@@ -27916,6 +33187,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:18',
                 'updated_at' => '2019-01-29 22:28:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             254 => 
             array (
@@ -27953,6 +33231,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:18',
                 'updated_at' => '2019-01-29 22:28:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             255 => 
             array (
@@ -27990,6 +33275,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:18',
                 'updated_at' => '2019-01-29 22:28:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             256 => 
             array (
@@ -28027,6 +33319,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:18',
                 'updated_at' => '2019-01-29 22:28:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             257 => 
             array (
@@ -28064,6 +33363,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:18',
                 'updated_at' => '2019-01-29 22:28:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             258 => 
             array (
@@ -28101,6 +33407,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:18',
                 'updated_at' => '2019-01-29 22:28:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             259 => 
             array (
@@ -28138,6 +33451,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:19',
                 'updated_at' => '2019-01-29 22:28:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             260 => 
             array (
@@ -28175,6 +33495,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:19',
                 'updated_at' => '2019-01-29 22:28:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             261 => 
             array (
@@ -28212,6 +33539,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:19',
                 'updated_at' => '2019-01-29 22:28:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             262 => 
             array (
@@ -28249,6 +33583,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:19',
                 'updated_at' => '2019-01-29 22:28:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             263 => 
             array (
@@ -28286,6 +33627,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:19',
                 'updated_at' => '2019-01-29 22:28:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             264 => 
             array (
@@ -28323,6 +33671,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:20',
                 'updated_at' => '2019-01-29 22:28:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             265 => 
             array (
@@ -28360,6 +33715,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:20',
                 'updated_at' => '2019-01-29 22:28:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             266 => 
             array (
@@ -28397,6 +33759,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:20',
                 'updated_at' => '2019-01-29 22:28:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             267 => 
             array (
@@ -28434,6 +33803,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:20',
                 'updated_at' => '2019-01-29 22:28:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             268 => 
             array (
@@ -28471,6 +33847,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:20',
                 'updated_at' => '2019-01-29 22:28:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             269 => 
             array (
@@ -28508,6 +33891,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:20',
                 'updated_at' => '2019-01-29 22:28:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             270 => 
             array (
@@ -28545,6 +33935,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:20',
                 'updated_at' => '2019-01-29 22:28:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             271 => 
             array (
@@ -28582,6 +33979,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:21',
                 'updated_at' => '2019-01-29 22:28:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             272 => 
             array (
@@ -28619,6 +34023,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:21',
                 'updated_at' => '2019-01-29 22:28:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             273 => 
             array (
@@ -28656,6 +34067,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:21',
                 'updated_at' => '2019-01-29 22:28:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             274 => 
             array (
@@ -28693,6 +34111,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:21',
                 'updated_at' => '2019-01-29 22:28:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             275 => 
             array (
@@ -28730,6 +34155,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:21',
                 'updated_at' => '2019-01-29 22:28:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             276 => 
             array (
@@ -28767,6 +34199,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:22',
                 'updated_at' => '2019-01-29 22:28:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             277 => 
             array (
@@ -28804,6 +34243,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:22',
                 'updated_at' => '2019-01-29 22:28:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             278 => 
             array (
@@ -28841,6 +34287,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:22',
                 'updated_at' => '2019-01-29 22:28:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             279 => 
             array (
@@ -28878,6 +34331,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:22',
                 'updated_at' => '2019-01-29 22:28:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             280 => 
             array (
@@ -28915,6 +34375,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:22',
                 'updated_at' => '2019-01-29 22:28:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             281 => 
             array (
@@ -28952,6 +34419,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:23',
                 'updated_at' => '2019-01-29 22:28:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             282 => 
             array (
@@ -28989,6 +34463,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:23',
                 'updated_at' => '2019-01-29 22:28:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             283 => 
             array (
@@ -29026,6 +34507,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:23',
                 'updated_at' => '2019-01-29 22:28:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             284 => 
             array (
@@ -29063,6 +34551,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:23',
                 'updated_at' => '2019-01-29 22:28:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             285 => 
             array (
@@ -29100,6 +34595,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:23',
                 'updated_at' => '2019-01-29 22:28:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             286 => 
             array (
@@ -29137,6 +34639,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:23',
                 'updated_at' => '2019-01-29 22:28:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             287 => 
             array (
@@ -29174,6 +34683,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:24',
                 'updated_at' => '2019-01-29 22:28:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             288 => 
             array (
@@ -29211,6 +34727,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:24',
                 'updated_at' => '2019-01-29 22:28:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             289 => 
             array (
@@ -29248,6 +34771,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:24',
                 'updated_at' => '2019-01-29 22:28:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             290 => 
             array (
@@ -29285,6 +34815,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:24',
                 'updated_at' => '2019-01-29 22:28:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             291 => 
             array (
@@ -29322,6 +34859,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:24',
                 'updated_at' => '2019-01-29 22:28:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             292 => 
             array (
@@ -29359,6 +34903,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:24',
                 'updated_at' => '2019-01-29 22:28:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             293 => 
             array (
@@ -29396,6 +34947,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:25',
                 'updated_at' => '2019-01-29 22:28:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             294 => 
             array (
@@ -29433,6 +34991,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:25',
                 'updated_at' => '2019-01-29 22:28:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             295 => 
             array (
@@ -29470,6 +35035,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:25',
                 'updated_at' => '2019-01-29 22:28:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             296 => 
             array (
@@ -29507,6 +35079,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:25',
                 'updated_at' => '2019-01-29 22:28:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             297 => 
             array (
@@ -29544,6 +35123,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:25',
                 'updated_at' => '2019-01-29 22:28:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             298 => 
             array (
@@ -29581,6 +35167,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:26',
                 'updated_at' => '2019-01-29 22:28:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             299 => 
             array (
@@ -29618,6 +35211,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:26',
                 'updated_at' => '2019-01-29 22:28:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             300 => 
             array (
@@ -29655,6 +35255,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:26',
                 'updated_at' => '2019-01-29 22:28:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             301 => 
             array (
@@ -29692,6 +35299,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:26',
                 'updated_at' => '2019-01-29 22:28:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             302 => 
             array (
@@ -29729,6 +35343,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:26',
                 'updated_at' => '2019-01-29 22:28:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             303 => 
             array (
@@ -29766,6 +35387,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:26',
                 'updated_at' => '2019-01-29 22:28:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             304 => 
             array (
@@ -29803,6 +35431,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:27',
                 'updated_at' => '2019-01-29 22:28:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             305 => 
             array (
@@ -29840,6 +35475,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:27',
                 'updated_at' => '2019-01-29 22:28:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             306 => 
             array (
@@ -29877,6 +35519,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:27',
                 'updated_at' => '2019-01-29 22:28:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             307 => 
             array (
@@ -29914,6 +35563,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:27',
                 'updated_at' => '2019-01-29 22:28:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             308 => 
             array (
@@ -29951,6 +35607,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:27',
                 'updated_at' => '2019-01-29 22:28:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             309 => 
             array (
@@ -29988,6 +35651,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:28',
                 'updated_at' => '2019-01-29 22:28:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             310 => 
             array (
@@ -30025,6 +35695,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:28',
                 'updated_at' => '2019-01-29 22:28:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             311 => 
             array (
@@ -30062,6 +35739,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:28',
                 'updated_at' => '2019-01-29 22:28:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             312 => 
             array (
@@ -30099,6 +35783,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:28',
                 'updated_at' => '2019-01-29 22:28:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             313 => 
             array (
@@ -30136,6 +35827,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:28',
                 'updated_at' => '2019-01-29 22:28:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             314 => 
             array (
@@ -30173,6 +35871,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:29',
                 'updated_at' => '2019-01-29 22:28:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             315 => 
             array (
@@ -30210,6 +35915,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:29',
                 'updated_at' => '2019-01-29 22:28:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             316 => 
             array (
@@ -30247,6 +35959,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:29',
                 'updated_at' => '2019-01-29 22:28:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             317 => 
             array (
@@ -30284,6 +36003,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:29',
                 'updated_at' => '2019-01-29 22:28:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             318 => 
             array (
@@ -30321,6 +36047,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:29',
                 'updated_at' => '2019-01-29 22:28:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             319 => 
             array (
@@ -30358,6 +36091,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:30',
                 'updated_at' => '2019-01-29 22:28:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             320 => 
             array (
@@ -30395,6 +36135,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:30',
                 'updated_at' => '2019-01-29 22:28:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             321 => 
             array (
@@ -30432,6 +36179,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:30',
                 'updated_at' => '2019-01-29 22:28:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             322 => 
             array (
@@ -30469,6 +36223,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:30',
                 'updated_at' => '2019-01-29 22:28:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             323 => 
             array (
@@ -30506,6 +36267,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:30',
                 'updated_at' => '2019-01-29 22:28:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             324 => 
             array (
@@ -30543,6 +36311,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:30',
                 'updated_at' => '2019-01-29 22:28:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             325 => 
             array (
@@ -30580,6 +36355,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:31',
                 'updated_at' => '2019-01-29 22:28:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             326 => 
             array (
@@ -30617,6 +36399,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:31',
                 'updated_at' => '2019-01-29 22:28:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             327 => 
             array (
@@ -30654,6 +36443,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:31',
                 'updated_at' => '2019-01-29 22:28:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             328 => 
             array (
@@ -30691,6 +36487,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:31',
                 'updated_at' => '2019-01-29 22:28:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             329 => 
             array (
@@ -30728,6 +36531,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:31',
                 'updated_at' => '2019-01-29 22:28:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             330 => 
             array (
@@ -30765,6 +36575,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             331 => 
             array (
@@ -30802,6 +36619,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             332 => 
             array (
@@ -30839,6 +36663,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             333 => 
             array (
@@ -30876,6 +36707,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             334 => 
             array (
@@ -30913,6 +36751,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             335 => 
             array (
@@ -30950,6 +36795,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             336 => 
             array (
@@ -30987,6 +36839,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             337 => 
             array (
@@ -31024,6 +36883,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:33',
                 'updated_at' => '2019-01-29 22:28:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             338 => 
             array (
@@ -31061,6 +36927,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:33',
                 'updated_at' => '2019-01-29 22:28:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             339 => 
             array (
@@ -31098,6 +36971,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:33',
                 'updated_at' => '2019-01-29 22:28:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             340 => 
             array (
@@ -31135,6 +37015,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:33',
                 'updated_at' => '2019-01-29 22:28:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             341 => 
             array (
@@ -31172,6 +37059,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:33',
                 'updated_at' => '2019-01-29 22:28:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             342 => 
             array (
@@ -31209,6 +37103,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:33',
                 'updated_at' => '2019-01-29 22:28:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             343 => 
             array (
@@ -31246,6 +37147,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:34',
                 'updated_at' => '2019-01-29 22:28:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             344 => 
             array (
@@ -31283,6 +37191,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:34',
                 'updated_at' => '2019-01-29 22:28:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             345 => 
             array (
@@ -31320,6 +37235,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:34',
                 'updated_at' => '2019-01-29 22:28:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             346 => 
             array (
@@ -31357,6 +37279,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:34',
                 'updated_at' => '2019-01-29 22:28:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             347 => 
             array (
@@ -31394,6 +37323,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:34',
                 'updated_at' => '2019-01-29 22:28:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             348 => 
             array (
@@ -31431,6 +37367,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:34',
                 'updated_at' => '2019-01-29 22:28:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             349 => 
             array (
@@ -31468,6 +37411,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:35',
                 'updated_at' => '2019-01-29 22:28:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             350 => 
             array (
@@ -31505,6 +37455,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:35',
                 'updated_at' => '2019-01-29 22:28:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             351 => 
             array (
@@ -31542,6 +37499,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:35',
                 'updated_at' => '2019-01-29 22:28:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             352 => 
             array (
@@ -31579,6 +37543,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:35',
                 'updated_at' => '2019-01-29 22:28:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             353 => 
             array (
@@ -31616,6 +37587,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:36',
                 'updated_at' => '2019-01-29 22:28:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             354 => 
             array (
@@ -31653,6 +37631,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:36',
                 'updated_at' => '2019-01-29 22:28:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             355 => 
             array (
@@ -31690,6 +37675,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:36',
                 'updated_at' => '2019-01-29 22:28:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             356 => 
             array (
@@ -31727,6 +37719,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:36',
                 'updated_at' => '2019-01-29 22:28:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             357 => 
             array (
@@ -31764,6 +37763,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:36',
                 'updated_at' => '2019-01-29 22:28:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             358 => 
             array (
@@ -31801,6 +37807,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:36',
                 'updated_at' => '2019-01-29 22:28:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             359 => 
             array (
@@ -31838,6 +37851,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:37',
                 'updated_at' => '2019-01-29 22:28:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             360 => 
             array (
@@ -31875,6 +37895,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:37',
                 'updated_at' => '2019-01-29 22:28:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             361 => 
             array (
@@ -31912,6 +37939,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:37',
                 'updated_at' => '2019-01-29 22:28:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             362 => 
             array (
@@ -31949,6 +37983,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:37',
                 'updated_at' => '2019-01-29 22:28:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             363 => 
             array (
@@ -31986,6 +38027,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:37',
                 'updated_at' => '2019-01-29 22:28:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             364 => 
             array (
@@ -32023,6 +38071,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:37',
                 'updated_at' => '2019-01-29 22:28:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             365 => 
             array (
@@ -32060,6 +38115,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:38',
                 'updated_at' => '2019-01-29 22:28:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             366 => 
             array (
@@ -32097,6 +38159,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:38',
                 'updated_at' => '2019-01-29 22:28:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             367 => 
             array (
@@ -32134,6 +38203,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:38',
                 'updated_at' => '2019-01-29 22:28:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             368 => 
             array (
@@ -32171,6 +38247,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:38',
                 'updated_at' => '2019-01-29 22:28:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             369 => 
             array (
@@ -32208,6 +38291,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:38',
                 'updated_at' => '2019-01-29 22:28:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             370 => 
             array (
@@ -32245,6 +38335,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:39',
                 'updated_at' => '2019-01-29 22:28:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             371 => 
             array (
@@ -32282,6 +38379,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:39',
                 'updated_at' => '2019-01-29 22:28:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             372 => 
             array (
@@ -32319,6 +38423,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:39',
                 'updated_at' => '2019-01-29 22:28:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             373 => 
             array (
@@ -32356,6 +38467,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:39',
                 'updated_at' => '2019-01-29 22:28:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             374 => 
             array (
@@ -32393,6 +38511,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:39',
                 'updated_at' => '2019-01-29 22:28:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             375 => 
             array (
@@ -32430,6 +38555,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:40',
                 'updated_at' => '2019-01-29 22:28:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             376 => 
             array (
@@ -32467,6 +38599,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:40',
                 'updated_at' => '2019-01-29 22:28:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             377 => 
             array (
@@ -32504,6 +38643,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:40',
                 'updated_at' => '2019-01-29 22:28:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             378 => 
             array (
@@ -32541,6 +38687,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:40',
                 'updated_at' => '2019-01-29 22:28:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             379 => 
             array (
@@ -32578,6 +38731,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:40',
                 'updated_at' => '2019-01-29 22:28:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             380 => 
             array (
@@ -32615,6 +38775,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:41',
                 'updated_at' => '2019-01-29 22:28:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             381 => 
             array (
@@ -32652,6 +38819,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:41',
                 'updated_at' => '2019-01-29 22:28:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             382 => 
             array (
@@ -32689,6 +38863,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:41',
                 'updated_at' => '2019-01-29 22:28:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             383 => 
             array (
@@ -32726,6 +38907,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:41',
                 'updated_at' => '2019-01-29 22:28:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             384 => 
             array (
@@ -32763,6 +38951,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:41',
                 'updated_at' => '2019-01-29 22:28:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             385 => 
             array (
@@ -32800,6 +38995,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:41',
                 'updated_at' => '2019-01-29 22:28:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             386 => 
             array (
@@ -32837,6 +39039,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:41',
                 'updated_at' => '2019-01-29 22:28:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             387 => 
             array (
@@ -32874,6 +39083,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             388 => 
             array (
@@ -32911,6 +39127,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             389 => 
             array (
@@ -32948,6 +39171,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             390 => 
             array (
@@ -32985,6 +39215,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             391 => 
             array (
@@ -33022,6 +39259,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             392 => 
             array (
@@ -33059,6 +39303,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             393 => 
             array (
@@ -33096,6 +39347,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             394 => 
             array (
@@ -33133,6 +39391,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             395 => 
             array (
@@ -33170,6 +39435,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             396 => 
             array (
@@ -33207,6 +39479,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             397 => 
             array (
@@ -33244,6 +39523,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             398 => 
             array (
@@ -33281,6 +39567,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             399 => 
             array (
@@ -33318,6 +39611,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             400 => 
             array (
@@ -33355,6 +39655,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             401 => 
             array (
@@ -33392,6 +39699,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             402 => 
             array (
@@ -33429,6 +39743,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             403 => 
             array (
@@ -33466,6 +39787,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             404 => 
             array (
@@ -33503,6 +39831,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             405 => 
             array (
@@ -33540,6 +39875,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             406 => 
             array (
@@ -33577,6 +39919,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             407 => 
             array (
@@ -33614,6 +39963,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             408 => 
             array (
@@ -33651,6 +40007,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             409 => 
             array (
@@ -33688,6 +40051,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             410 => 
             array (
@@ -33725,6 +40095,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             411 => 
             array (
@@ -33762,6 +40139,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             412 => 
             array (
@@ -33799,6 +40183,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             413 => 
             array (
@@ -33836,6 +40227,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             414 => 
             array (
@@ -33873,6 +40271,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             415 => 
             array (
@@ -33910,6 +40315,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             416 => 
             array (
@@ -33947,6 +40359,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:46',
                 'updated_at' => '2019-01-29 22:28:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             417 => 
             array (
@@ -33984,6 +40403,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:46',
                 'updated_at' => '2019-01-29 22:28:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             418 => 
             array (
@@ -34021,6 +40447,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:46',
                 'updated_at' => '2019-01-29 22:28:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             419 => 
             array (
@@ -34058,6 +40491,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:46',
                 'updated_at' => '2019-01-29 22:28:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             420 => 
             array (
@@ -34095,6 +40535,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:46',
                 'updated_at' => '2019-01-29 22:28:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             421 => 
             array (
@@ -34132,6 +40579,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:46',
                 'updated_at' => '2019-01-29 22:28:46',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             422 => 
             array (
@@ -34169,6 +40623,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:47',
                 'updated_at' => '2019-01-29 22:28:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             423 => 
             array (
@@ -34206,6 +40667,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:47',
                 'updated_at' => '2019-01-29 22:28:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             424 => 
             array (
@@ -34243,6 +40711,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:47',
                 'updated_at' => '2019-01-29 22:28:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             425 => 
             array (
@@ -34280,6 +40755,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:47',
                 'updated_at' => '2019-01-29 22:28:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             426 => 
             array (
@@ -34317,6 +40799,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:47',
                 'updated_at' => '2019-01-29 22:28:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             427 => 
             array (
@@ -34354,6 +40843,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:47',
                 'updated_at' => '2019-01-29 22:28:47',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             428 => 
             array (
@@ -34391,6 +40887,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             429 => 
             array (
@@ -34428,6 +40931,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             430 => 
             array (
@@ -34465,6 +40975,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             431 => 
             array (
@@ -34502,6 +41019,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             432 => 
             array (
@@ -34539,6 +41063,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             433 => 
             array (
@@ -34576,6 +41107,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             434 => 
             array (
@@ -34613,6 +41151,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             435 => 
             array (
@@ -34650,6 +41195,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             436 => 
             array (
@@ -34687,6 +41239,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             437 => 
             array (
@@ -34724,6 +41283,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             438 => 
             array (
@@ -34761,6 +41327,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             439 => 
             array (
@@ -34798,6 +41371,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             440 => 
             array (
@@ -34835,6 +41415,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             441 => 
             array (
@@ -34872,6 +41459,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             442 => 
             array (
@@ -34909,6 +41503,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:50',
                 'updated_at' => '2019-01-29 22:28:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             443 => 
             array (
@@ -34946,6 +41547,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:50',
                 'updated_at' => '2019-01-29 22:28:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             444 => 
             array (
@@ -34983,6 +41591,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:50',
                 'updated_at' => '2019-01-29 22:28:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             445 => 
             array (
@@ -35020,6 +41635,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:50',
                 'updated_at' => '2019-01-29 22:28:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             446 => 
             array (
@@ -35057,6 +41679,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:50',
                 'updated_at' => '2019-01-29 22:28:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             447 => 
             array (
@@ -35094,6 +41723,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:50',
                 'updated_at' => '2019-01-29 22:28:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             448 => 
             array (
@@ -35131,6 +41767,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:50',
                 'updated_at' => '2019-01-29 22:28:50',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             449 => 
             array (
@@ -35168,6 +41811,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:51',
                 'updated_at' => '2019-01-29 22:28:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             450 => 
             array (
@@ -35205,6 +41855,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:51',
                 'updated_at' => '2019-01-29 22:28:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             451 => 
             array (
@@ -35242,6 +41899,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:51',
                 'updated_at' => '2019-01-29 22:28:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             452 => 
             array (
@@ -35279,6 +41943,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:51',
                 'updated_at' => '2019-01-29 22:28:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             453 => 
             array (
@@ -35316,6 +41987,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:51',
                 'updated_at' => '2019-01-29 22:28:51',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             454 => 
             array (
@@ -35353,6 +42031,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:52',
                 'updated_at' => '2019-01-29 22:28:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             455 => 
             array (
@@ -35390,6 +42075,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:52',
                 'updated_at' => '2019-01-29 22:28:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             456 => 
             array (
@@ -35427,6 +42119,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:52',
                 'updated_at' => '2019-01-29 22:28:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             457 => 
             array (
@@ -35464,6 +42163,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:52',
                 'updated_at' => '2019-01-29 22:28:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             458 => 
             array (
@@ -35501,6 +42207,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:52',
                 'updated_at' => '2019-01-29 22:28:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             459 => 
             array (
@@ -35538,6 +42251,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:52',
                 'updated_at' => '2019-01-29 22:28:52',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             460 => 
             array (
@@ -35575,6 +42295,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             461 => 
             array (
@@ -35612,6 +42339,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             462 => 
             array (
@@ -35649,6 +42383,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             463 => 
             array (
@@ -35686,6 +42427,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             464 => 
             array (
@@ -35723,6 +42471,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             465 => 
             array (
@@ -35760,6 +42515,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             466 => 
             array (
@@ -35797,6 +42559,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             467 => 
             array (
@@ -35834,6 +42603,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             468 => 
             array (
@@ -35871,6 +42647,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             469 => 
             array (
@@ -35908,6 +42691,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             470 => 
             array (
@@ -35945,6 +42735,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             471 => 
             array (
@@ -35982,6 +42779,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             472 => 
             array (
@@ -36019,6 +42823,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             473 => 
             array (
@@ -36056,6 +42867,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             474 => 
             array (
@@ -36093,6 +42911,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:55',
                 'updated_at' => '2019-01-29 22:28:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             475 => 
             array (
@@ -36130,6 +42955,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:55',
                 'updated_at' => '2019-01-29 22:28:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             476 => 
             array (
@@ -36167,6 +42999,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:55',
                 'updated_at' => '2019-01-29 22:28:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             477 => 
             array (
@@ -36204,6 +43043,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:55',
                 'updated_at' => '2019-01-29 22:28:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             478 => 
             array (
@@ -36241,6 +43087,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:55',
                 'updated_at' => '2019-01-29 22:28:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             479 => 
             array (
@@ -36278,6 +43131,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:55',
                 'updated_at' => '2019-01-29 22:28:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             480 => 
             array (
@@ -36315,6 +43175,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:55',
                 'updated_at' => '2019-01-29 22:28:55',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             481 => 
             array (
@@ -36352,6 +43219,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:56',
                 'updated_at' => '2019-01-29 22:28:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             482 => 
             array (
@@ -36389,6 +43263,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:56',
                 'updated_at' => '2019-01-29 22:28:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             483 => 
             array (
@@ -36426,6 +43307,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:56',
                 'updated_at' => '2019-01-29 22:28:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             484 => 
             array (
@@ -36463,6 +43351,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:56',
                 'updated_at' => '2019-01-29 22:28:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             485 => 
             array (
@@ -36500,6 +43395,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:56',
                 'updated_at' => '2019-01-29 22:28:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             486 => 
             array (
@@ -36537,6 +43439,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:56',
                 'updated_at' => '2019-01-29 22:28:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             487 => 
             array (
@@ -36574,6 +43483,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:56',
                 'updated_at' => '2019-01-29 22:28:56',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             488 => 
             array (
@@ -36611,6 +43527,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             489 => 
             array (
@@ -36648,6 +43571,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             490 => 
             array (
@@ -36685,6 +43615,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             491 => 
             array (
@@ -36722,6 +43659,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             492 => 
             array (
@@ -36759,6 +43703,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             493 => 
             array (
@@ -36796,6 +43747,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             494 => 
             array (
@@ -36833,6 +43791,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             495 => 
             array (
@@ -36870,6 +43835,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             496 => 
             array (
@@ -36907,6 +43879,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             497 => 
             array (
@@ -36944,6 +43923,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             498 => 
             array (
@@ -36981,6 +43967,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             499 => 
             array (
@@ -37018,6 +44011,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
         ));
         \DB::table('denuncia')->insert(array (
@@ -37057,6 +44057,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             1 => 
             array (
@@ -37094,6 +44101,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             2 => 
             array (
@@ -37131,6 +44145,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             3 => 
             array (
@@ -37168,6 +44189,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             4 => 
             array (
@@ -37205,6 +44233,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:59',
                 'updated_at' => '2019-01-29 22:28:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             5 => 
             array (
@@ -37242,6 +44277,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:59',
                 'updated_at' => '2019-01-29 22:28:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             6 => 
             array (
@@ -37279,6 +44321,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:59',
                 'updated_at' => '2019-01-29 22:28:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             7 => 
             array (
@@ -37316,6 +44365,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:59',
                 'updated_at' => '2019-01-29 22:28:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             8 => 
             array (
@@ -37353,6 +44409,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:59',
                 'updated_at' => '2019-01-29 22:28:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             9 => 
             array (
@@ -37390,6 +44453,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:59',
                 'updated_at' => '2019-01-29 22:28:59',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             10 => 
             array (
@@ -37427,6 +44497,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             11 => 
             array (
@@ -37464,6 +44541,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             12 => 
             array (
@@ -37501,6 +44585,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             13 => 
             array (
@@ -37538,6 +44629,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             14 => 
             array (
@@ -37575,6 +44673,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             15 => 
             array (
@@ -37612,6 +44717,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             16 => 
             array (
@@ -37649,6 +44761,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             17 => 
             array (
@@ -37686,6 +44805,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:01',
                 'updated_at' => '2019-01-29 22:29:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             18 => 
             array (
@@ -37723,6 +44849,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:01',
                 'updated_at' => '2019-01-29 22:29:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             19 => 
             array (
@@ -37760,6 +44893,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:01',
                 'updated_at' => '2019-01-29 22:29:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             20 => 
             array (
@@ -37797,6 +44937,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:01',
                 'updated_at' => '2019-01-29 22:29:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             21 => 
             array (
@@ -37834,6 +44981,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:01',
                 'updated_at' => '2019-01-29 22:29:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             22 => 
             array (
@@ -37871,6 +45025,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:01',
                 'updated_at' => '2019-01-29 22:29:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             23 => 
             array (
@@ -37908,6 +45069,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:01',
                 'updated_at' => '2019-01-29 22:29:01',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             24 => 
             array (
@@ -37945,6 +45113,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             25 => 
             array (
@@ -37982,6 +45157,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             26 => 
             array (
@@ -38019,6 +45201,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             27 => 
             array (
@@ -38056,6 +45245,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             28 => 
             array (
@@ -38093,6 +45289,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             29 => 
             array (
@@ -38130,6 +45333,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             30 => 
             array (
@@ -38167,6 +45377,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             31 => 
             array (
@@ -38204,6 +45421,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             32 => 
             array (
@@ -38241,6 +45465,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             33 => 
             array (
@@ -38278,6 +45509,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             34 => 
             array (
@@ -38315,6 +45553,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             35 => 
             array (
@@ -38352,6 +45597,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             36 => 
             array (
@@ -38389,6 +45641,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             37 => 
             array (
@@ -38426,6 +45685,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             38 => 
             array (
@@ -38463,6 +45729,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             39 => 
             array (
@@ -38500,6 +45773,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             40 => 
             array (
@@ -38537,6 +45817,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             41 => 
             array (
@@ -38574,6 +45861,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             42 => 
             array (
@@ -38611,6 +45905,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             43 => 
             array (
@@ -38648,6 +45949,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             44 => 
             array (
@@ -38685,6 +45993,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             45 => 
             array (
@@ -38722,6 +46037,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             46 => 
             array (
@@ -38759,6 +46081,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             47 => 
             array (
@@ -38796,6 +46125,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             48 => 
             array (
@@ -38833,6 +46169,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             49 => 
             array (
@@ -38870,6 +46213,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             50 => 
             array (
@@ -38907,6 +46257,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             51 => 
             array (
@@ -38944,6 +46301,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             52 => 
             array (
@@ -38981,6 +46345,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             53 => 
             array (
@@ -39018,6 +46389,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             54 => 
             array (
@@ -39055,6 +46433,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:06',
                 'updated_at' => '2019-01-29 22:29:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             55 => 
             array (
@@ -39092,6 +46477,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:06',
                 'updated_at' => '2019-01-29 22:29:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             56 => 
             array (
@@ -39129,6 +46521,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:06',
                 'updated_at' => '2019-01-29 22:29:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             57 => 
             array (
@@ -39166,6 +46565,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:06',
                 'updated_at' => '2019-01-29 22:29:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             58 => 
             array (
@@ -39203,6 +46609,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:06',
                 'updated_at' => '2019-01-29 22:29:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             59 => 
             array (
@@ -39240,6 +46653,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:06',
                 'updated_at' => '2019-01-29 22:29:06',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             60 => 
             array (
@@ -39277,6 +46697,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:07',
                 'updated_at' => '2019-01-29 22:29:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             61 => 
             array (
@@ -39314,6 +46741,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:07',
                 'updated_at' => '2019-01-29 22:29:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             62 => 
             array (
@@ -39351,6 +46785,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:07',
                 'updated_at' => '2019-01-29 22:29:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             63 => 
             array (
@@ -39388,6 +46829,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:07',
                 'updated_at' => '2019-01-29 22:29:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             64 => 
             array (
@@ -39425,6 +46873,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:07',
                 'updated_at' => '2019-01-29 22:29:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             65 => 
             array (
@@ -39462,6 +46917,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:07',
                 'updated_at' => '2019-01-29 22:29:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             66 => 
             array (
@@ -39499,6 +46961,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:07',
                 'updated_at' => '2019-01-29 22:29:07',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             67 => 
             array (
@@ -39536,6 +47005,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             68 => 
             array (
@@ -39573,6 +47049,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             69 => 
             array (
@@ -39610,6 +47093,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             70 => 
             array (
@@ -39647,6 +47137,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             71 => 
             array (
@@ -39684,6 +47181,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             72 => 
             array (
@@ -39721,6 +47225,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             73 => 
             array (
@@ -39758,6 +47269,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             74 => 
             array (
@@ -39795,6 +47313,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             75 => 
             array (
@@ -39832,6 +47357,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:09',
                 'updated_at' => '2019-01-29 22:29:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             76 => 
             array (
@@ -39869,6 +47401,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:09',
                 'updated_at' => '2019-01-29 22:29:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             77 => 
             array (
@@ -39906,6 +47445,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:09',
                 'updated_at' => '2019-01-29 22:29:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             78 => 
             array (
@@ -39943,6 +47489,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:09',
                 'updated_at' => '2019-01-29 22:29:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             79 => 
             array (
@@ -39980,6 +47533,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:09',
                 'updated_at' => '2019-01-29 22:29:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             80 => 
             array (
@@ -40017,6 +47577,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:09',
                 'updated_at' => '2019-01-29 22:29:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             81 => 
             array (
@@ -40054,6 +47621,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:09',
                 'updated_at' => '2019-01-29 22:29:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             82 => 
             array (
@@ -40091,6 +47665,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:09',
                 'updated_at' => '2019-01-29 22:29:09',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             83 => 
             array (
@@ -40128,6 +47709,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             84 => 
             array (
@@ -40165,6 +47753,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             85 => 
             array (
@@ -40202,6 +47797,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             86 => 
             array (
@@ -40239,6 +47841,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             87 => 
             array (
@@ -40276,6 +47885,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             88 => 
             array (
@@ -40313,6 +47929,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             89 => 
             array (
@@ -40350,6 +47973,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             90 => 
             array (
@@ -40387,6 +48017,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             91 => 
             array (
@@ -40424,6 +48061,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             92 => 
             array (
@@ -40461,6 +48105,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             93 => 
             array (
@@ -40498,6 +48149,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             94 => 
             array (
@@ -40535,6 +48193,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             95 => 
             array (
@@ -40572,6 +48237,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             96 => 
             array (
@@ -40609,6 +48281,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             97 => 
             array (
@@ -40646,6 +48325,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:12',
                 'updated_at' => '2019-01-29 22:29:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             98 => 
             array (
@@ -40683,6 +48369,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:12',
                 'updated_at' => '2019-01-29 22:29:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             99 => 
             array (
@@ -40720,6 +48413,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:12',
                 'updated_at' => '2019-01-29 22:29:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             100 => 
             array (
@@ -40757,6 +48457,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:12',
                 'updated_at' => '2019-01-29 22:29:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             101 => 
             array (
@@ -40794,6 +48501,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:12',
                 'updated_at' => '2019-01-29 22:29:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             102 => 
             array (
@@ -40831,6 +48545,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:12',
                 'updated_at' => '2019-01-29 22:29:12',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             103 => 
             array (
@@ -40868,6 +48589,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             104 => 
             array (
@@ -40905,6 +48633,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             105 => 
             array (
@@ -40942,6 +48677,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             106 => 
             array (
@@ -40979,6 +48721,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             107 => 
             array (
@@ -41016,6 +48765,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             108 => 
             array (
@@ -41053,6 +48809,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             109 => 
             array (
@@ -41090,6 +48853,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             110 => 
             array (
@@ -41127,6 +48897,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:14',
                 'updated_at' => '2019-01-29 22:29:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             111 => 
             array (
@@ -41164,6 +48941,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:14',
                 'updated_at' => '2019-01-29 22:29:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             112 => 
             array (
@@ -41201,6 +48985,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:14',
                 'updated_at' => '2019-01-29 22:29:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             113 => 
             array (
@@ -41238,6 +49029,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:14',
                 'updated_at' => '2019-01-29 22:29:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             114 => 
             array (
@@ -41275,6 +49073,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:14',
                 'updated_at' => '2019-01-29 22:29:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             115 => 
             array (
@@ -41312,6 +49117,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:14',
                 'updated_at' => '2019-01-29 22:29:14',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             116 => 
             array (
@@ -41349,6 +49161,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             117 => 
             array (
@@ -41386,6 +49205,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             118 => 
             array (
@@ -41423,6 +49249,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             119 => 
             array (
@@ -41460,6 +49293,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             120 => 
             array (
@@ -41497,6 +49337,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             121 => 
             array (
@@ -41534,6 +49381,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             122 => 
             array (
@@ -41571,6 +49425,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             123 => 
             array (
@@ -41608,6 +49469,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             124 => 
             array (
@@ -41645,6 +49513,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             125 => 
             array (
@@ -41682,6 +49557,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             126 => 
             array (
@@ -41719,6 +49601,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             127 => 
             array (
@@ -41756,6 +49645,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             128 => 
             array (
@@ -41793,6 +49689,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             129 => 
             array (
@@ -41830,6 +49733,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             130 => 
             array (
@@ -41867,6 +49777,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             131 => 
             array (
@@ -41904,6 +49821,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             132 => 
             array (
@@ -41941,6 +49865,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             133 => 
             array (
@@ -41978,6 +49909,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             134 => 
             array (
@@ -42015,6 +49953,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             135 => 
             array (
@@ -42052,6 +49997,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             136 => 
             array (
@@ -42089,6 +50041,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             137 => 
             array (
@@ -42126,6 +50085,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             138 => 
             array (
@@ -42163,6 +50129,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             139 => 
             array (
@@ -42200,6 +50173,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             140 => 
             array (
@@ -42237,6 +50217,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             141 => 
             array (
@@ -42274,6 +50261,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             142 => 
             array (
@@ -42311,6 +50305,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             143 => 
             array (
@@ -42348,6 +50349,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             144 => 
             array (
@@ -42385,6 +50393,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             145 => 
             array (
@@ -42422,6 +50437,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             146 => 
             array (
@@ -42459,6 +50481,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             147 => 
             array (
@@ -42496,6 +50525,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             148 => 
             array (
@@ -42533,6 +50569,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             149 => 
             array (
@@ -42570,6 +50613,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             150 => 
             array (
@@ -42607,6 +50657,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             151 => 
             array (
@@ -42644,6 +50701,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             152 => 
             array (
@@ -42681,6 +50745,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             153 => 
             array (
@@ -42718,6 +50789,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             154 => 
             array (
@@ -42755,6 +50833,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             155 => 
             array (
@@ -42792,6 +50877,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             156 => 
             array (
@@ -42829,6 +50921,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             157 => 
             array (
@@ -42866,6 +50965,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             158 => 
             array (
@@ -42903,6 +51009,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             159 => 
             array (
@@ -42940,6 +51053,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             160 => 
             array (
@@ -42977,6 +51097,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             161 => 
             array (
@@ -43014,6 +51141,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:21',
                 'updated_at' => '2019-01-29 22:29:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             162 => 
             array (
@@ -43051,6 +51185,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:21',
                 'updated_at' => '2019-01-29 22:29:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             163 => 
             array (
@@ -43088,6 +51229,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:21',
                 'updated_at' => '2019-01-29 22:29:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             164 => 
             array (
@@ -43125,6 +51273,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:21',
                 'updated_at' => '2019-01-29 22:29:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             165 => 
             array (
@@ -43162,6 +51317,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:21',
                 'updated_at' => '2019-01-29 22:29:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             166 => 
             array (
@@ -43199,6 +51361,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:21',
                 'updated_at' => '2019-01-29 22:29:21',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             167 => 
             array (
@@ -43236,6 +51405,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:22',
                 'updated_at' => '2019-01-29 22:29:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             168 => 
             array (
@@ -43273,6 +51449,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:22',
                 'updated_at' => '2019-01-29 22:29:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             169 => 
             array (
@@ -43310,6 +51493,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:22',
                 'updated_at' => '2019-01-29 22:29:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             170 => 
             array (
@@ -43347,6 +51537,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:22',
                 'updated_at' => '2019-01-29 22:29:22',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             171 => 
             array (
@@ -43384,6 +51581,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             172 => 
             array (
@@ -43421,6 +51625,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             173 => 
             array (
@@ -43458,6 +51669,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             174 => 
             array (
@@ -43495,6 +51713,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             175 => 
             array (
@@ -43532,6 +51757,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             176 => 
             array (
@@ -43569,6 +51801,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             177 => 
             array (
@@ -43606,6 +51845,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:24',
                 'updated_at' => '2019-01-29 22:29:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             178 => 
             array (
@@ -43643,6 +51889,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:24',
                 'updated_at' => '2019-01-29 22:29:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             179 => 
             array (
@@ -43680,6 +51933,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:24',
                 'updated_at' => '2019-01-29 22:29:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             180 => 
             array (
@@ -43717,6 +51977,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:24',
                 'updated_at' => '2019-01-29 22:29:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             181 => 
             array (
@@ -43754,6 +52021,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:24',
                 'updated_at' => '2019-01-29 22:29:24',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             182 => 
             array (
@@ -43791,6 +52065,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:25',
                 'updated_at' => '2019-01-29 22:29:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             183 => 
             array (
@@ -43828,6 +52109,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:25',
                 'updated_at' => '2019-01-29 22:29:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             184 => 
             array (
@@ -43865,6 +52153,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:25',
                 'updated_at' => '2019-01-29 22:29:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             185 => 
             array (
@@ -43902,6 +52197,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:25',
                 'updated_at' => '2019-01-29 22:29:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             186 => 
             array (
@@ -43939,6 +52241,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:25',
                 'updated_at' => '2019-01-29 22:29:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             187 => 
             array (
@@ -43976,6 +52285,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:25',
                 'updated_at' => '2019-01-29 22:29:25',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             188 => 
             array (
@@ -44013,6 +52329,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             189 => 
             array (
@@ -44050,6 +52373,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             190 => 
             array (
@@ -44087,6 +52417,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             191 => 
             array (
@@ -44124,6 +52461,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             192 => 
             array (
@@ -44161,6 +52505,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             193 => 
             array (
@@ -44198,6 +52549,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             194 => 
             array (
@@ -44235,6 +52593,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             195 => 
             array (
@@ -44272,6 +52637,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             196 => 
             array (
@@ -44309,6 +52681,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:27',
                 'updated_at' => '2019-01-29 22:29:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             197 => 
             array (
@@ -44346,6 +52725,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:27',
                 'updated_at' => '2019-01-29 22:29:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             198 => 
             array (
@@ -44383,6 +52769,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:27',
                 'updated_at' => '2019-01-29 22:29:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             199 => 
             array (
@@ -44420,6 +52813,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:27',
                 'updated_at' => '2019-01-29 22:29:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             200 => 
             array (
@@ -44457,6 +52857,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:27',
                 'updated_at' => '2019-01-29 22:29:27',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             201 => 
             array (
@@ -44494,6 +52901,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             202 => 
             array (
@@ -44531,6 +52945,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             203 => 
             array (
@@ -44568,6 +52989,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             204 => 
             array (
@@ -44605,6 +53033,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             205 => 
             array (
@@ -44642,6 +53077,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             206 => 
             array (
@@ -44679,6 +53121,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             207 => 
             array (
@@ -44716,6 +53165,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             208 => 
             array (
@@ -44753,6 +53209,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             209 => 
             array (
@@ -44790,6 +53253,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             210 => 
             array (
@@ -44827,6 +53297,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             211 => 
             array (
@@ -44864,6 +53341,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             212 => 
             array (
@@ -44901,6 +53385,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             213 => 
             array (
@@ -44938,6 +53429,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             214 => 
             array (
@@ -44975,6 +53473,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:30',
                 'updated_at' => '2019-01-29 22:29:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             215 => 
             array (
@@ -45012,6 +53517,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:30',
                 'updated_at' => '2019-01-29 22:29:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             216 => 
             array (
@@ -45049,6 +53561,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:30',
                 'updated_at' => '2019-01-29 22:29:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             217 => 
             array (
@@ -45086,6 +53605,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:30',
                 'updated_at' => '2019-01-29 22:29:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             218 => 
             array (
@@ -45123,6 +53649,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:30',
                 'updated_at' => '2019-01-29 22:29:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             219 => 
             array (
@@ -45160,6 +53693,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:30',
                 'updated_at' => '2019-01-29 22:29:30',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             220 => 
             array (
@@ -45197,6 +53737,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:31',
                 'updated_at' => '2019-01-29 22:29:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             221 => 
             array (
@@ -45234,6 +53781,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:31',
                 'updated_at' => '2019-01-29 22:29:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             222 => 
             array (
@@ -45271,6 +53825,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:31',
                 'updated_at' => '2019-01-29 22:29:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             223 => 
             array (
@@ -45308,6 +53869,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:31',
                 'updated_at' => '2019-01-29 22:29:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             224 => 
             array (
@@ -45345,6 +53913,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:31',
                 'updated_at' => '2019-01-29 22:29:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             225 => 
             array (
@@ -45382,6 +53957,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:31',
                 'updated_at' => '2019-01-29 22:29:31',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             226 => 
             array (
@@ -45419,6 +54001,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:32',
                 'updated_at' => '2019-01-29 22:29:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             227 => 
             array (
@@ -45456,6 +54045,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:32',
                 'updated_at' => '2019-01-29 22:29:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             228 => 
             array (
@@ -45493,6 +54089,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:32',
                 'updated_at' => '2019-01-29 22:29:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             229 => 
             array (
@@ -45530,6 +54133,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:32',
                 'updated_at' => '2019-01-29 22:29:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             230 => 
             array (
@@ -45567,6 +54177,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:32',
                 'updated_at' => '2019-01-29 22:29:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             231 => 
             array (
@@ -45604,6 +54221,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:32',
                 'updated_at' => '2019-01-29 22:29:32',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             232 => 
             array (
@@ -45641,6 +54265,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             233 => 
             array (
@@ -45678,6 +54309,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             234 => 
             array (
@@ -45715,6 +54353,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             235 => 
             array (
@@ -45752,6 +54397,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             236 => 
             array (
@@ -45789,6 +54441,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             237 => 
             array (
@@ -45826,6 +54485,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             238 => 
             array (
@@ -45863,6 +54529,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             239 => 
             array (
@@ -45900,6 +54573,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             240 => 
             array (
@@ -45937,6 +54617,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             241 => 
             array (
@@ -45974,6 +54661,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             242 => 
             array (
@@ -46011,6 +54705,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             243 => 
             array (
@@ -46048,6 +54749,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             244 => 
             array (
@@ -46085,6 +54793,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:35',
                 'updated_at' => '2019-01-29 22:29:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             245 => 
             array (
@@ -46122,6 +54837,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:35',
                 'updated_at' => '2019-01-29 22:29:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             246 => 
             array (
@@ -46159,6 +54881,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:35',
                 'updated_at' => '2019-01-29 22:29:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             247 => 
             array (
@@ -46196,6 +54925,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:35',
                 'updated_at' => '2019-01-29 22:29:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             248 => 
             array (
@@ -46233,6 +54969,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:35',
                 'updated_at' => '2019-01-29 22:29:35',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             249 => 
             array (
@@ -46270,6 +55013,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:36',
                 'updated_at' => '2019-01-29 22:29:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             250 => 
             array (
@@ -46307,6 +55057,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:36',
                 'updated_at' => '2019-01-29 22:29:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             251 => 
             array (
@@ -46344,6 +55101,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:36',
                 'updated_at' => '2019-01-29 22:29:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             252 => 
             array (
@@ -46381,6 +55145,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:36',
                 'updated_at' => '2019-01-29 22:29:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             253 => 
             array (
@@ -46418,6 +55189,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:36',
                 'updated_at' => '2019-01-29 22:29:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             254 => 
             array (
@@ -46455,6 +55233,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:36',
                 'updated_at' => '2019-01-29 22:29:36',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             255 => 
             array (
@@ -46492,6 +55277,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             256 => 
             array (
@@ -46529,6 +55321,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             257 => 
             array (
@@ -46566,6 +55365,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             258 => 
             array (
@@ -46603,6 +55409,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             259 => 
             array (
@@ -46640,6 +55453,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             260 => 
             array (
@@ -46677,6 +55497,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             261 => 
             array (
@@ -46714,6 +55541,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             262 => 
             array (
@@ -46751,6 +55585,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:38',
                 'updated_at' => '2019-01-29 22:29:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             263 => 
             array (
@@ -46788,6 +55629,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:38',
                 'updated_at' => '2019-01-29 22:29:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             264 => 
             array (
@@ -46825,6 +55673,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:38',
                 'updated_at' => '2019-01-29 22:29:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             265 => 
             array (
@@ -46862,6 +55717,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:38',
                 'updated_at' => '2019-01-29 22:29:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             266 => 
             array (
@@ -46899,6 +55761,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:38',
                 'updated_at' => '2019-01-29 22:29:38',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             267 => 
             array (
@@ -46936,6 +55805,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:39',
                 'updated_at' => '2019-01-29 22:29:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             268 => 
             array (
@@ -46973,6 +55849,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:39',
                 'updated_at' => '2019-01-29 22:29:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             269 => 
             array (
@@ -47010,6 +55893,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:39',
                 'updated_at' => '2019-01-29 22:29:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             270 => 
             array (
@@ -47047,6 +55937,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:39',
                 'updated_at' => '2019-01-29 22:29:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             271 => 
             array (
@@ -47084,6 +55981,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:39',
                 'updated_at' => '2019-01-29 22:29:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             272 => 
             array (
@@ -47121,6 +56025,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:39',
                 'updated_at' => '2019-01-29 22:29:39',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             273 => 
             array (
@@ -47158,6 +56069,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:40',
                 'updated_at' => '2019-01-29 22:29:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             274 => 
             array (
@@ -47195,6 +56113,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:40',
                 'updated_at' => '2019-01-29 22:29:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             275 => 
             array (
@@ -47232,6 +56157,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:40',
                 'updated_at' => '2019-01-29 22:29:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             276 => 
             array (
@@ -47269,6 +56201,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:40',
                 'updated_at' => '2019-01-29 22:29:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             277 => 
             array (
@@ -47306,6 +56245,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:40',
                 'updated_at' => '2019-01-29 22:29:40',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             278 => 
             array (
@@ -47343,6 +56289,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:41',
                 'updated_at' => '2019-01-29 22:29:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             279 => 
             array (
@@ -47380,6 +56333,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:41',
                 'updated_at' => '2019-01-29 22:29:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             280 => 
             array (
@@ -47417,6 +56377,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:41',
                 'updated_at' => '2019-01-29 22:29:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             281 => 
             array (
@@ -47454,6 +56421,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:41',
                 'updated_at' => '2019-01-29 22:29:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             282 => 
             array (
@@ -47491,6 +56465,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:41',
                 'updated_at' => '2019-01-29 22:29:41',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             283 => 
             array (
@@ -47528,6 +56509,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             284 => 
             array (
@@ -47565,6 +56553,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             285 => 
             array (
@@ -47602,6 +56597,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             286 => 
             array (
@@ -47639,6 +56641,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             287 => 
             array (
@@ -47676,6 +56685,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             288 => 
             array (
@@ -47713,6 +56729,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             289 => 
             array (
@@ -47750,6 +56773,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             290 => 
             array (
@@ -47787,6 +56817,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:43',
                 'updated_at' => '2019-01-29 22:29:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             291 => 
             array (
@@ -47824,6 +56861,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:43',
                 'updated_at' => '2019-01-29 22:29:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             292 => 
             array (
@@ -47861,6 +56905,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:43',
                 'updated_at' => '2019-01-29 22:29:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             293 => 
             array (
@@ -47898,6 +56949,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:43',
                 'updated_at' => '2019-01-29 22:29:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             294 => 
             array (
@@ -47935,6 +56993,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:43',
                 'updated_at' => '2019-01-29 22:29:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             295 => 
             array (
@@ -47972,6 +57037,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:43',
                 'updated_at' => '2019-01-29 22:29:43',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             296 => 
             array (
@@ -48009,6 +57081,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:44',
                 'updated_at' => '2019-01-29 22:29:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             297 => 
             array (
@@ -48046,6 +57125,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:44',
                 'updated_at' => '2019-01-29 22:29:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
             298 => 
             array (
@@ -48083,6 +57169,13 @@ class DenunciaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:44',
                 'updated_at' => '2019-01-29 22:29:44',
                 'deleted_at' => NULL,
+                'institucion' => 1,
+                'tbldenuncia_id' => 2,
+                'oficioejecucion' => NULL,
+                'foficioejecucion' => NULL,
+                'oficioejecucion_file' => NULL,
+                'tblmedida_id' => NULL,
+                'fmedida' => NULL,
             ),
         ));
         
