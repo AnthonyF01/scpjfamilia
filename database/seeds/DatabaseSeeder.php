@@ -23,6 +23,7 @@ class DatabaseSeeder extends Seeder
         $this->call(TbltipoTableSeeder::class);
         $this->call(TblparentescoTableSeeder::class);
         $this->call(TbldenunciaTableSeeder::class);
+        $this->call(TblmedidaTableSeeder::class);
         $this->call(UsersTableSeeder::class);
         $this->call(PermissionsTableSeeder::class);
         $this->call(RolesTableSeeder::class);
@@ -42,6 +43,5 @@ class DatabaseSeeder extends Seeder
         // $this->call(DenunciaTableSeeder::class);
         // $this->call(DenunciaVictimaTableSeeder::class);
         // $this->call(DenunciaAgresorTableSeeder::class);
-        $this->call(TblmedidaTableSeeder::class);
     }
 }
