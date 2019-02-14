@@ -48,7 +48,7 @@
           <p>Denunciantes</p>
         </div>
         <div class="icon">
-          <i class="ion ion-bag"></i>
+          <i class="fa fa-street-view"></i>
         </div>
         <a href="#" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
       </div>
@@ -63,7 +63,7 @@
           <p>Denunciados</p>
         </div>
         <div class="icon">
-          <i class="ion ion-pie-graph"></i>
+          <i class="fa fa-user-times"></i>
         </div>
         <a href="#" class="small-box-footer">Más información <i class="fa fa-arrow-circle-right"></i></a>
       </div>

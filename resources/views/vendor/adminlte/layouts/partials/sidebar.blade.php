@@ -22,7 +22,7 @@
         <!-- search form (Optional) -->
         <form action="#" method="get" class="sidebar-form">
             <div class="input-group">
-                <input type="text" name="q" class="form-control" placeholder="{{ trans('adminlte_lang::message.search') }}..."/>
+                <input type="text" name="q" class="form-control" placeholder="Buscar{{-- {{ trans('adminlte_lang::message.search') }} --}}..."/>
               <span class="input-group-btn">
                 <button type='submit' name='search' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
               </span>
@@ -33,7 +33,7 @@
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu" data-widget="tree">
 
-            <li style="font-size: 13px" class="header">{{ trans('adminlte_lang::message.header') }}</li>
+            <li style="font-size: 13px" class="header">MÓDULOS{{-- {{ trans('adminlte_lang::message.header') }} --}}</li>
 
             <!-- Optionally, you can add icons to the links -->
             <li class="@yield('home')"><a href="{{ url('home') }}"><i class='fa fa-home'></i> <span>
