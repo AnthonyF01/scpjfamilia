@@ -49,10 +49,11 @@ desired effect
 
         <ol class="breadcrumb" style="padding: 15px 20px; margin: 0px;">
             <li>
-                <a href="{{ url('/home') }}"><i class="fa fa-home"></i> Home</a>
+                <a href="{{ url('/home') }}"><i class="fa fa-home"></i> Inicio</a>
             </li>
             <li id="parent" class="active">
-                <i class="fa fa-gears"></i> @yield('contentheader_title', 'Page Header here')
+                <i class="fa fa-gears"></i> Informacion
+                {{-- @yield('contentheader_title', 'Page Header here') --}}
             </li>
         </ol>
 

@@ -36,7 +36,10 @@
             <li style="font-size: 13px" class="header">{{ trans('adminlte_lang::message.header') }}</li>
 
             <!-- Optionally, you can add icons to the links -->
-            <li class="@yield('home')"><a href="{{ url('home') }}"><i class='fa fa-home'></i> <span>{{ trans('adminlte_lang::message.home') }}</span></a></li>
+            <li class="@yield('home')"><a href="{{ url('home') }}"><i class='fa fa-home'></i> <span>
+                {{-- {{ trans('adminlte_lang::message.home') }} --}}
+                Inicio
+            </span></a></li>
 
             <li class="treeview @yield('denuncia') @yield('victima') @yield('agresor') @yield('report') @yield('import') @yield('estadistica')">
                 <a href="javascript:;">
