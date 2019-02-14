@@ -11,14 +11,15 @@
         "barryvdh/laravel-dompdf": "^0.8.3",
         "caffeinated/shinobi": "^3.3",
         "consoletvs/charts": "^6.3",
+        "doctrine/dbal": "^2.9",
         "fideloper/proxy": "^4.0",
+        "fzaninotto/faker": "^1.4",
+        "laravel/dusk": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/passport": "^7.0",
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.4.0",
-        "orangehill/iseed": "dev-master",
-        "laravel/dusk": "^4.0",
-        "fzaninotto/faker": "^1.4"
+        "orangehill/iseed": "dev-master"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

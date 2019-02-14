@@ -8,24 +8,24 @@ function ajaxLoad(filename, content, action = '', message = '') {
 
     // add breadcrumb
     if (typeof filename !== 'undefined' && filename != '') {
-        var redirect = "javascript:ajaxLoad(\""+filename.split("tblcomisaria")[0]+"tblcomisaria"+"\")";
+        var redirect = "javascript:ajaxLoad(\""+filename.split("tblmedida")[0]+"tblmedida"+"\")";
         if (filename.indexOf('edit') != -1) {
             $('#parent').remove();
-            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-medkit'></i> Instituciones</a></li><li id='li_edit' class='active'><i class='fa fa-edit'></i> Editar Institución</li>");
+            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-folder-open'></i> Tipos de medida</a></li><li id='li_edit' class='active'><i class='fa fa-edit'></i> Editar Tipo de medida</li>");
         }else if (filename.indexOf('create') != -1) {
             $('#parent').remove();
-            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-medkit'></i> Instituciones</a></li><li id='li_create' class='active'><i class='fa fa-edit'></i> Crear Institución</li>");
+            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-folder-open'></i> Tipos de medida</a></li><li id='li_create' class='active'><i class='fa fa-edit'></i> Crear Tipo de medida</li>");
         }else {
             $('#li_create').remove();
             $('#li_edit').remove();
             $('#parent').remove();
-            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Instituciones</li>');
+            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Tipos de medida</li>');
         }
     }else{
         $('#li_create').remove();
         $('#li_edit').remove();
         $('#parent').remove();
-        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Instituciones</li>');
+        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Tipos de medida</li>');
     }
 
     content = typeof content !== 'undefined' ? content : 'content_ajax';
@@ -55,7 +55,7 @@ function ajaxLoad(filename, content, action = '', message = '') {
     });
 }
 
-$(document).on('submit', 'form#form_comisaria', function (event) {
+$(document).on('submit', 'form#form_tblmedida', function (event) {
     event.preventDefault();
     var form = $(this);
     var data = new FormData($(this)[0]);
@@ -106,6 +106,6 @@ function ajaxDelete(filename, token, content) {
 function showRow(elm) {
     var value = $(elm).val();
     var path = "{{ url('/') }}";
-    var str = "/tblcomisaria?show=" + value;
+    var str = "/tblmedida?show=" + value;
     javascript:ajaxLoad(str);
 }

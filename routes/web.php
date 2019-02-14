@@ -264,6 +264,28 @@ Route::middleware(['auth'])->group(function () {
     Route::get('tbldenuncia/{tdenuncia}/edit', 'TbldenunciaController@edit')->name('tdenuncia.edit')
         ->middleware('permission:tdenuncia.edit');
 
+    // Tipos de medida
+    Route::post('tblmedida/store', 'TblmedidaController@store')->name('tblmedida.store')
+        ->middleware('permission:tblmedida.create');
+
+    Route::get('tblmedida', 'TblmedidaController@index')->name('tblmedida.index')
+        ->middleware('permission:tblmedida.index');
+
+    Route::get('tblmedida/create', 'TblmedidaController@create')->name('tblmedida.create')
+        ->middleware('permission:tblmedida.create');
+
+    Route::put('tblmedida/{tblmedida}', 'TblmedidaController@update')->name('tblmedida.update')
+        ->middleware('permission:tblmedida.edit');
+
+    Route::get('tblmedida/{tblmedida}', 'TblmedidaController@show')->name('tblmedida.show')
+        ->middleware('permission:tblmedida.show');
+
+    Route::delete('tblmedida/{tblmedida}', 'TblmedidaController@destroy')->name('tblmedida.destroy')
+        ->middleware('permission:tblmedida.destroy');
+
+    Route::get('tblmedida/{tblmedida}/edit', 'TblmedidaController@edit')->name('tblmedida.edit')
+        ->middleware('permission:tblmedida.edit');
+
     // Victimas
     Route::post('victima/store', 'VictimaController@store')->name('victima.store')
         ->middleware('permission:victima.create');
@@ -347,6 +369,12 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('denuncia/{denuncia}/edit', 'DenunciaController@edit')->name('denuncia.edit')
         ->middleware('permission:denuncia.edit');
+
+    Route::get('denuncia/{denuncia}/ejecucion', 'DenunciaController@ejecucion')->name('denuncia.ejecucion')
+        ->middleware('permission:denuncia.ejecucion');
+
+    Route::put('denuncia/ejecucion/{denuncia}', 'DenunciaController@ejecucionUpdate')->name('denuncia.ejecucionUpdate')
+        ->middleware('permission:denuncia.ejecucion');
 
     // Notificaciones
     Route::post('notification/store', 'NotificationController@store')->name('notification.store')

@@ -22,7 +22,7 @@ class Tblcomisaria extends Model
      *
      * @var array
      */
-    protected $fillable = [ 'nombre', 'latitud', 'longitud', 'tblmodulo_id', 'tbldepartamento_id' ];
+    protected $fillable = [ 'nombre', 'latitud', 'longitud', 'tipo_int', 'tblmodulo_id', 'tbldepartamento_id' ];
 
     /**
     * The attributes that aren't mass assignable.

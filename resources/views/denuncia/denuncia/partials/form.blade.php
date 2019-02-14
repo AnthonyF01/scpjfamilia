@@ -388,7 +388,7 @@
                               <span id="error-tblcomisaria_id" class="invalid-feedback"></span>
                             </div>
                             <div class="fiscalia" {{ (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? "style=display:initial" : "style=display:none" }} >
-                              {{ Form::select('tblfiscalia_id', $comisarias, null, array('class'=>'form-control input-sm'.($errors->has('tblfiscalia_id')?" is-invalid":""), 'placeholder'=>'Seleccione una Fiscalia', 'style'=>'width: 100%')) }}
+                              {{ Form::select('tblfiscalia_id', $instituciones, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? $denuncia->tblcomisaria_id : null, array('class'=>'form-control input-sm'.($errors->has('tblfiscalia_id')?" is-invalid":""), 'placeholder'=>'Seleccione una Fiscalia', 'style'=>'width: 100%', 'id'=>'tblfiscalia_id')) }}
                               <span id="error-tblfiscalia_id" class="invalid-feedback"></span>
                             </div>
                             <span id="error-institucion" class="invalid-feedback"></span>
@@ -500,7 +500,7 @@
                       </div>
                       <div class="form-group">
                         <div class="row">
-                          {{ Form::label('faudiencia', 'Fecha de Audiencia Realizada:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
+                          {{ Form::label('faudiencia', 'Fecha de Audiencia:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
                             <div class="input-group date">
                               <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
@@ -514,7 +514,8 @@
                         <div class="row">
                           {{ Form::label('tblmedida_id', 'Tipo de Medida de Protección:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
-                            {{Form::select('tblmedida_id',[''=>'Seleccionar tipo','Tipo1'=>'Tipo1','Tipo2'=>'Tipo2','Tipo3'=>'Tipo3'],null,array('class' => 'form-control input-sm'.($errors->has('tblmedida_id')?" is-invalid":""),'name'=>'tblmedida_id','id'=>'tblmedida_id'))}}
+                            {{Form::select('tblmedida_id',$medidas,null,array('class' => 'form-control input-sm'.($errors->has('tblmedida_id')?" is-invalid":""),'name'=>'tblmedida_id','id'=>'tblmedida_id'))}}
+
                             <span id="error-tblmedida_id" class="invalid-feedback"></span>
                           </div>
                         </div>
@@ -943,6 +944,10 @@
       placeholder: 'Seleccione un Tipo',
       width: '100%'
     });
+    $('#tblmedida_id').select2({
+      placeholder: 'Seleccione un Tipo',
+      width: '100%'
+    });
     $('#victima_id').select2({ // SELECT CLASS
       // dropdownCssClass: "select-size",
       language: "es",
@@ -986,6 +991,7 @@
       }
     });
     $('#tblcomisaria_id').select2();
+    $('#tblfiscalia_id').select2();
     $('#tblinstancia_id').select2();
     $('#medida_file').fileinput({
       theme: 'fa',

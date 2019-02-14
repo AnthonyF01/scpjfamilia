@@ -21,7 +21,7 @@ class Denuncia extends Model
      *
      * @var array
      */
-    protected $fillable = [ 'tblcomisaria_id','oficio','fdenuncia','fformalizacion','expediente','calificacion','hora','faudiencia','remitido','oficioremitido','fremision','ministerio','tblinstancia_id','asistencialegal','psicologia','remitidod','oficioremitidod','fremisiond','remitidoj','oficioremitidoj','fremisionj','observacion','tblmodulo_id','medida_file','registro_file' ];
+    protected $fillable = [ 'tblcomisaria_id','oficio','fdenuncia','fformalizacion','expediente','calificacion','hora','faudiencia','remitido','oficioremitido','fremision','ministerio','tblinstancia_id','asistencialegal','psicologia','remitidod','oficioremitidod','fremisiond','remitidoj','oficioremitidoj','fremisionj','observacion','tblmodulo_id','medida_file','registro_file','institucion','tbldenuncia_id','oficioejecucion','foficioejecucion','oficioejecucion_file','tblmedida_id','fmedida' ];
 
     /**
     * The attributes that aren't mass assignable.
@@ -67,6 +67,21 @@ class Denuncia extends Model
         return (isset($value) && !empty($value)) ? date('d/m/Y',strtotime($value)) : '';
     }
 
+    public function getFoficioejecucionAttribute($value)
+    {
+        return (isset($value) && !empty($value)) ? date('d/m/Y',strtotime($value)) : '';
+    }
+
+    public function getFmedidaAttribute($value)
+    {
+        return (isset($value) && !empty($value)) ? date('d/m/Y',strtotime($value)) : '';
+    }
+
+    public function tblmedida ()
+    {
+        return $this->belongsTo(Tblmedida::class);  // !importante - Para los modelos  =>  Category::class
+    }
+
     public function tblcomisaria ()
     {
         return $this->belongsTo(Tblcomisaria::class);  // !importante - Para los modelos  =>  Category::class
@@ -80,6 +95,11 @@ class Denuncia extends Model
     public function tblmodulo ()
     {
         return $this->belongsTo(Tblmodulo::class);  // !importante - Para los modelos  =>  Category::class
+    }
+
+    public function tbldenuncia ()
+    {
+        return $this->belongsTo(Tbldenuncia::class);  // !importante - Para los modelos  =>  Category::class
     }
 
     public function victimas () 
@@ -105,9 +125,9 @@ class Denuncia extends Model
         return $this->hasMany(DenunciaVictima::class);  // !importante - Para los modelos  =>  Category::class
     }
 
-    public function tbldenuncias()
-    {
-        return $this->belongsToMany(Tbldenuncia::class);
-    }
+    // public function tbldenuncias()
+    // {
+    //     return $this->belongsToMany(Tbldenuncia::class);
+    // }
 
 }

@@ -15,5 +15,10 @@ class Controller extends BaseController
         $array[$key] = $value;
         return $array;
     }
+
+    public function array_rm_assoc($array, $key){
+        unset($array[$key]);
+        return $array;
+    }
     
 }

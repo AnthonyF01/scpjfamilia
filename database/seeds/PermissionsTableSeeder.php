@@ -447,6 +447,12 @@ class PermissionsTableSeeder extends Seeder
             'description'   => 'Podría eliminar cualquier denuncia del sistema',      
         ]);
 
+        Permission::create([
+            'name'          => 'Ejecucion Medida proteccion',
+            'slug'          => 'denuncia.ejecucion',
+            'description'   => 'Informa de la ejecucion de la medida de proteccion',      
+        ]);
+
         
         // Notificaciones
         Permission::create([
@@ -477,6 +483,37 @@ class PermissionsTableSeeder extends Seeder
             'name'          => 'Eliminar notificaciones',
             'slug'          => 'notification.destroy',
             'description'   => 'Podría eliminar cualquier notificacion del sistema',      
+        ]);
+
+        // Tipo medida
+        Permission::create([
+            'name'          => 'Navegar tipos de denuncia',
+            'slug'          => 'tblmedida.index',
+            'description'   => 'Lista y navega todos los tipos de denuncia del sistema',
+        ]);
+
+        Permission::create([
+            'name'          => 'Ver detalle de un tipo de denuncia',
+            'slug'          => 'tblmedida.show',
+            'description'   => 'Ve en detalle cada tipo de denuncia del sistema',            
+        ]);
+        
+        Permission::create([
+            'name'          => 'Creación de tipos de denuncia',
+            'slug'          => 'tblmedida.create',
+            'description'   => 'Podría crear nuevos tipos de denuncia en el sistema',
+        ]);
+        
+        Permission::create([
+            'name'          => 'Edición de tipos de denuncia',
+            'slug'          => 'tblmedida.edit',
+            'description'   => 'Podría editar cualquier dato de un tipo de denuncia del sistema',
+        ]);
+        
+        Permission::create([
+            'name'          => 'Eliminar tipos de denuncia',
+            'slug'          => 'tblmedida.destroy',
+            'description'   => 'Podría eliminar cualquier tipo de denuncia del sistema',      
         ]);
 
     }

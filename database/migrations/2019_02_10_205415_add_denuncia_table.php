@@ -17,6 +17,9 @@ class AddDenunciaTable extends Migration
             $table->integer('institucion')->unsigned()->nullable();
             $table->integer('tbldenuncia_id')->unsigned()->nullable();
         });
+        Schema::table('denuncia', function (Blueprint $table) {
+            $table->foreign('tbldenuncia_id')->references('id')->on('tbldenuncia');
+        });
     }
 
     /**
@@ -26,8 +29,5 @@ class AddDenunciaTable extends Migration
      */
     public function down()
     {
-        Schema::table('denuncia', function (Blueprint $table) {
-            $table->foreign('tbldenuncia_id')->references('id')->on('tbldenuncia');
-        });
     }
 }

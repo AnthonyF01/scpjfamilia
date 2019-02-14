@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 use Auth;
 use PDF;
 use App\Models\Denuncia;
@@ -19,6 +20,7 @@ use App\Models\Tblcomisaria;
 use App\Models\Tblinstancia;
 use App\Models\Tblparentesco;
 use App\Models\Tbldenuncia;
+use App\Models\Tblmedida;
 use App\Models\Tbldocumento;
 use App\Models\Tbltipo;
 
@@ -2092,7 +2094,29 @@ class DenunciaController extends Controller
     public function edit($id)
     {
         $denuncia = Denuncia::findOrFail($id);
-        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
+        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->orderBy('nombre')->pluck('nombre', 'id');
+        $instituciones = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',1)->orderBy('nombre')->pluck('nombre', 'id');
+        $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','FA')->orwhere('tipo','JM')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
+        $tdenuncias = Tbldenuncia::orderBy('nombre')->pluck('nombre', 'id');
+        $medidas = Tblmedida::orderBy('nombre')->pluck('nombre', 'id');
+
+        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
+        $documentos = Tbldocumento::orderBy('nombre','asc')->pluck('nombre', 'id');
+        $tipos = Tbltipo::all()->pluck('nombre', 'id');
+
+        return view('denuncia.denuncia.partials.form', compact('denuncia','comisarias','instituciones','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','medidas','tdenuncias','departamentos','documentos','tipos'));
+    }
+
+    public function ejecucion($id)
+    {
+        $denuncia = Denuncia::findOrFail($id);
+        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->orderBy('nombre')->pluck('nombre', 'id');
+        $instituciones = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',1)->orderBy('nombre')->pluck('nombre', 'id');
         $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
         $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','FA')->orwhere('tipo','JM')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
@@ -2105,7 +2129,7 @@ class DenunciaController extends Controller
         $documentos = Tbldocumento::orderBy('nombre','asc')->pluck('nombre', 'id');
         $tipos = Tbltipo::all()->pluck('nombre', 'id');
 
-        return view('denuncia.denuncia.partials.form', compact('denuncia','comisarias','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tdenuncias','departamentos','documentos','tipos'));
+        return view('denuncia.denuncia.partials.ejecucion', compact('denuncia','comisarias','instituciones','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tdenuncias','departamentos','documentos','tipos'));
     }
 
     /**
@@ -2292,7 +2316,6 @@ class DenunciaController extends Controller
                     'fdenuncia' => $request['fdenuncia'],
                     'fformalizacion' => $request['fformalizacion'],
                     'observacion' => $request['observacion'],
-                    'tblcomisaria_id' => $request['tblcomisaria_id'],
                 ];
 
                 if ($request['institucion'] == '1') { // comisaria
@@ -2301,7 +2324,7 @@ class DenunciaController extends Controller
                 }
 
                 if ($request['institucion'] == '3') { // fiscalia
-                    $rules = parent::array_push_assoc($rules, 'tblfiscalia_id', 'required|exists:tblfiscalia,id');
+                    $rules = parent::array_push_assoc($rules, 'tblfiscalia_id', 'required|exists:tblcomisaria,id');
                     $input = parent::array_push_assoc($input, 'tblfiscalia_id', $request['tblfiscalia_id']);
                 }
 
@@ -2351,6 +2374,15 @@ class DenunciaController extends Controller
                         $input['registro_file'] = $fakepath;
                     }
 
+
+                    if ($request['institucion'] == '3') { // fiscalia
+                        // Log::info('store tblfiscalia_id: ', ['tblfiscalia_id' => $request['tblfiscalia_id'], 'input-tblfiscalia_id' => $input['tblfiscalia_id'], 'input' => $input]);
+                        // $input = parent::array_rm_assoc($input, 'tblfiscalia_id');
+                        unset($input['tblfiscalia_id']);
+                        $input = parent::array_push_assoc($input, 'tblcomisaria_id', $request['tblfiscalia_id']);
+                        Log::info('store tblfiscalia_id: ', ['tblfiscalia_id' => $request['tblfiscalia_id'], 'input' => $input]);
+                    }
+
                     // unset($input['tbldenuncia_id']);
                     Denuncia::where('id', $id)->update($input);
 
@@ -2375,6 +2407,10 @@ class DenunciaController extends Controller
                     $request->merge([ 'faudiencia' => date('Y-m-d',strtotime(str_replace('/', '-', $request['faudiencia']))) ]);
                 }
 
+                if ($request['fmedida'] != '') {
+                    $request->merge([ 'fmedida' => date('Y-m-d',strtotime(str_replace('/', '-', $request['fmedida']))) ]);
+                }
+
                 $messages = array(
                     'required' => ':attribute es obligatorio.',
                     'email'    => ':attribute debe ser un e-mail válido.',
@@ -2388,30 +2424,39 @@ class DenunciaController extends Controller
 
                 $attributes = array(
                     'tblinstancia_id' => 'Juzgado',
+                    'tblmedida_id' => 'Tipo medida',
                     'expediente' => 'Expediente',
                     'calificacion' => 'Calificacion',
                     'hora' => 'Hora de Audiencia',
                     'ministerio' => 'Ministerio',
                     'faudiencia' => 'Fecha de Formalización',
+                    'fmedida' => 'Fecha de Medida de Protección',
                 );
 
                 $rules = [
                     'tblinstancia_id' => 'required|exists:tblinstancia,id',
+                    'tblmedida_id' => 'required|exists:tblmedida,id',
                     'expediente' => 'required|string|unique:denuncia,expediente,'.$denuncia->expediente.',expediente',
                     'calificacion' => 'nullable|string',
                     'hora' => 'nullable',
                     'ministerio' => 'nullable',
                     'faudiencia' => 'nullable|date',
+                    'fmedida' => 'nullable|date',
                 ];
 
                 $input = [
                     'tblinstancia_id' => $request['tblinstancia_id'],
+                    'tblmedida_id' => $request['tblmedida_id'],
                     'expediente' => $request['expediente'],
                     'calificacion' => $request['calificacion'],
                     'hora' => $request['hora'],
                     'ministerio' => $request['ministerio'],
                     'faudiencia' => $request['faudiencia'],
+                    'fmedida' => $request['fmedida'],
                 ];
+
+                Log::info('update denuncia: ', ['input' => $input]);
+
 
                 $validator = Validator::make($input, $rules, $messages);
 
@@ -2646,6 +2691,96 @@ class DenunciaController extends Controller
         }
 
     }
+
+    public function ejecucionUpdate( Request $request, $id)
+    {
+            
+        $denuncia = Denuncia::find($id);
+
+        if (isset($request['action']) && !empty($request['action'])) {
+
+            if ($request['action'] == 'ejecucion') {
+                // convertir de dd/mm/yyyy -> yyyy-mm-dd (mysql)
+                if ($request['foficioejecucion'] != '') {
+                    $request->merge([ 'foficioejecucion' => date('Y-m-d',strtotime(str_replace('/', '-', $request['foficioejecucion']))) ]);
+                }
+
+                $messages = array(
+                    'required' => ':attribute es obligatorio.',
+                    'email'    => ':attribute debe ser un e-mail válido.',
+                    'min'      => ':attribute debe tener :min caracteres como mínimo.',
+                    'max'      => ':attribute debe tener :max caracteres como máximo.',
+                    'unique'   => ':attribute ya ha sido registrado.',
+                    'numeric'  => ':attribute debe ser numérico.',
+                    'image'    => ':attribute debe ser un archivo imagen.',
+                    'mimes'    => ':attribute debe ser un archivo de tipo: valores.',
+                );
+
+                $attributes = array(
+                    'oficioejecucion' => 'Nro. Informe',
+                    'foficioejecucion' => 'Fecha Informe',
+                );
+
+                $rules = [
+                    'oficioejecucion' => 'required|string|unique:denuncia,oficioejecucion,'.$denuncia->oficioejecucion.',oficioejecucion',
+                    'foficioejecucion' => 'required|date',
+                ];
+
+                $input = [
+                    'oficioejecucion' => $request['oficioejecucion'],
+                    'foficioejecucion' => $request['foficioejecucion'],
+                ];
+
+                $validator = Validator::make($input, $rules, $messages);
+
+                $validator->setAttributeNames($attributes);
+
+                if ($validator->fails()){
+                    return response()->json([
+                      'fail' => true,
+                      'errors' => $validator->errors()
+                    ]);
+                }else{
+
+                    if ($request->file('oficioejecucion_file') && $request->hasFile('oficioejecucion_file')) {
+                        $filename = $request->file('oficioejecucion_file')->getClientOriginalName();
+                        $filetype = $request->file('oficioejecucion_file')->getClientOriginalExtension();
+                        $public_path = public_path();
+                        $public_path = str_replace("\\", "/", $public_path);
+                        $path = $public_path.'/img/denuncia/';
+                        if (!file_exists($path)) { // crea el directorio si no existe
+                            mkdir($path, 0777, true); // todos los permisos
+                        }
+
+                        // elimina el arhivo si existe
+                        if (file_exists($public_path.$denuncia->oficioejecucion_file) && isset($denuncia->oficioejecucion_file) && !empty($denuncia->oficioejecucion_file)) {
+                            unlink($public_path.$denuncia->oficioejecucion_file);
+                        }
+
+                        $file_name = 'file_ejecucion_'.$denuncia->expediente.'_'.time().'.'.$filetype;
+
+                        $request->file('oficioejecucion_file')->move($path,$file_name);
+
+                        $fakepath = '/img/denuncia/'.$file_name;
+                        $input['oficioejecucion_file'] = $fakepath;
+                    }
+
+                    Denuncia::where('id', $id)->update($input);
+
+                    return response()->json([
+                        'tab' => 'ejecucion',
+                        'type' => 'update',
+                        'status' => 'success',
+                        'info' => 'Informe de ejecucion registrado. '.$file_name,
+                        'url'  => route('denuncia.ejecucion', ['id' => $denuncia->id ]),
+                    ]);
+
+                }
+            }
+
+        }
+
+    }   
 
     /**
      * Remove the specified resource from storage.

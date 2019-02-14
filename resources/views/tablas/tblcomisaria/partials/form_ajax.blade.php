@@ -36,6 +36,12 @@
             </div>
 
             <div class="form-group">
+              {{ Form::label('Tipo Institución') }}
+              {{Form::select('tipo_int',['0'=>'Comisaría','1'=>'Fiscalía'],null,array('class' => 'form-control input-sm'.($errors->has('tipo_int')?" is-invalid":""), 'placeholder'=>'Elegir tipo','name'=>'tipo_int','id'=>'tipo_int'))}}
+              <span id="error-tipo_int" class="invalid-feedback"></span>
+            </div>
+
+            <div class="form-group">
               {{ Form::label('Modulo') }}
               {{ Form::select('tblmodulo_id', $modulos, null, array('class'=>'form-control input-sm'.($errors->has('tblmodulo_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Modulo')) }}
               <span id="error-tblmodulo_id" class="invalid-feedback"></span>

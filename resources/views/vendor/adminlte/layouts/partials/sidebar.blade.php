@@ -63,7 +63,9 @@
                             @endcan
                         </ul>
                     </li>
-                    <li class="@yield('estadistica')"><a href="{{ route('denuncia.estadistica') }}"><i class="fa fa-bar-chart"></i> Estadisticas</a></li>
+                    @can ('denuncia.estadistica')
+                        <li class="@yield('estadistica')"><a href="{{ route('denuncia.estadistica') }}"><i class="fa fa-bar-chart"></i> Estadisticas</a></li>
+                    @endcan
                     @can ('denuncia.report')
                         <li class="@yield('report')"><a href="{{ route('denuncia.report') }}"><i class="fa fa-clipboard"></i> Reportes</a></li>
                     @endcan
@@ -73,8 +75,9 @@
                 </ul>
             </li>
 
-            <li class="@yield('notification')"><a href="{{ route('notification.index') }}"><i class='fa fa-bell'></i> <span>Notificaciones</span></a></li>
-            
+            @can ('notification.index')
+                <li class="@yield('notification')"><a href="{{ route('notification.index') }}"><i class='fa fa-bell'></i> <span>Notificaciones</span></a></li>
+            @endcan
 
             <li class="header">MANTENIMIENTO</li>
 
@@ -126,6 +129,9 @@
                     @endcan
                     @can ('tdenuncia.index')
                         <li class="@yield('tbldenuncia')"><a href="{{ route('tdenuncia.index') }}"><i class="fa fa-object-group"></i> Tipo Denuncia</a></li>
+                    @endcan
+                    @can ('tblmedida.index')
+                        <li class="@yield('tblmedida')"><a href="{{ route('tblmedida.index') }}"><i class="fa fa-object-group"></i> Tipo Medida</a></li>
                     @endcan
                     @can ('tipo.index')
                         <li class="@yield('tbltipo')"><a href="{{ route('tipo.index') }}"><i class="fa fa-object-group"></i> Tipo Victima</a></li>

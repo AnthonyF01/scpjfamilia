@@ -52,6 +52,15 @@ $(document).ready(function() {
         $("div#message").text(data.info);
         sessionStorage.removeItem('familia');
     }
+    if (typeof sessionStorage.ejecucion !== 'undefined' && sessionStorage.ejecucion != '') {
+        var data = JSON.parse(sessionStorage.ejecucion);
+        if (data.status == 'success') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-success"); }
+        if (data.status == 'error') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-error"); }
+        $("div#box_message").removeClass('hide');
+        $("div#box_message").addClass('show');
+        $("div#message").text(data.info);
+        sessionStorage.removeItem('ejecucion');
+    }
     if (typeof sessionStorage.remision !== 'undefined' && sessionStorage.remision != '') {
         var data = JSON.parse(sessionStorage.remision);
         if (data.status == 'success') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-success"); }
@@ -218,6 +227,9 @@ $(document).on('submit', 'form', function (event) {
                         break;
                     case 'familia':
                         sessionStorage.setItem('familia', JSON.stringify(data));
+                        break;
+                    case 'ejecucion':
+                        sessionStorage.setItem('ejecucion', JSON.stringify(data));
                         break;
                     case 'remision':
                         sessionStorage.setItem('remision', JSON.stringify(data));

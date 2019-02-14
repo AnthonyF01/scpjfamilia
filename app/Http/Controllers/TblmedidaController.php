@@ -4,13 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
-use App\Models\Tblcomisaria;
-use App\Models\Tbldepartamento;
-use App\Models\Tblmodulo;
-use Illuminate\Support\Facades\Log;
+use App\Models\Tblmedida;
 
-
-class TblcomisariaController extends Controller
+class TblmedidaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -24,12 +20,12 @@ class TblcomisariaController extends Controller
 
         // Forma anterior
 
-            // $tblcomisarias = Tblcomisaria::paginate(10);
-            // return view('tablas.tblcomisaria.index', compact('tblcomisarias'));
+            // $tblmedidas = Tblmedida::paginate(10);
+            // return view('tablas.tblmedida.index', compact('tblmedidas'));
 
         // Nueva: Search - Sort 
         
-        $tblcomisarias = new Tblcomisaria();
+        $tblmedidas = new Tblmedida();
 
 
         $request->session()->put('search', $request
@@ -37,7 +33,7 @@ class TblcomisariaController extends Controller
             ->has('search') ? $request->session()->get('search') : ''));
 
 
-        $fillable = $tblcomisarias->getFields();
+        $fillable = $tblmedidas->getFields();
 
         $request->session()->put('field', $request
             ->has('field') ? $request->get('field') : ( $request->session()
@@ -55,21 +51,21 @@ class TblcomisariaController extends Controller
               $request->session()->get('show') : '10' ) : '10'));
 
 
-        $tblcomisarias = $tblcomisarias
+        $tblmedidas = $tblmedidas
             ->where('nombre', 'like', '%' . $request->session()->get('search') . '%')
-            ->orwhere('tblmodulo_id', '=', ( gettype( Tblmodulo::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tblmodulo::where('nombre','=',$request->session()->get('search'))->first()->id : '' )
-            ->orwhere('tbldepartamento_id', '=', ( gettype( Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first()->id : '' )
             ->orderBy($request->session()->get('field'), $request->session()->get('sort'))
             // ->orderBy('nombre', $request->session()->get('sort'))
             // ->orderBy('email', $request->session()->get('sort'))
             ->paginate($request->session()->get('show'));
 
-        // dd($tblcomisarias);
+        // dd($request->session()->get('field'));
+        // dd($request->session()->get('sort'));
+        // dd($request->session()->get('search'));
 
         if ($request->ajax()) {
-          return view('tablas.tblcomisaria.ajax', compact('tblcomisarias'));  
+          return view('tablas.tblmedida.ajax', compact('tblmedidas'));  
         } else {
-          return view('tablas.tblcomisaria.index', compact('tblcomisarias'));
+          return view('tablas.tblmedida.index', compact('tblmedidas'));
         }
     }
 
@@ -80,11 +76,8 @@ class TblcomisariaController extends Controller
      */
     public function create() /* no usada */
     {
-        
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
-        $modulos = Tblmodulo::all()->pluck('nombre', 'id');
 
-        return view('tablas.tblcomisaria.partials.form_ajax', compact('departamentos', 'modulos'));
+        return view('tablas.tblmedida.partials.form_ajax');
 
     }
 
@@ -113,8 +106,6 @@ class TblcomisariaController extends Controller
 
         // No se pueden usar accessors o mutators en query builders, solo en elquent
 
-        Log::info('store institucion: ', ['request' => $request->all()]);
-
         $messages = array(
             'required' => ':attribute es obligatorio.',
             'email'    => ':attribute debe ser un e-mail válido.',
@@ -122,34 +113,20 @@ class TblcomisariaController extends Controller
             'max'      => ':attribute debe tener :max caracteres como máximo.',
             'numeric'  => ':attribute debe ser numérico.',
             'image'    => ':attribute debe ser un archivo imagen.',
-            'mimes'    => ':attribute debe ser un archivo de tipo: valores.',
+            'mimes'    => ':attribute debe ser un archivo de denuncia: valores.',
+            'unique'   => ':attribute ya ha sido registrado.',
         );
 
         $attributes = array(
             'nombre' => 'Nombre',
-            'latitud' => 'Latitud',
-            'longitud' => 'Longitud',
-            'tipo_int' => 'Tipo Institucion',
-            'tbldepartamento_id' => 'Departamento',
-            'tblmodulo_id' => 'Modulo',
         );
 
         $rules = [
-            'nombre' => 'required|string',
-            'latitud' => 'nullable|string',
-            'longitud' => 'nullable|string',
-            'tipo_int' => 'required',
-            'tbldepartamento_id' => 'required|exists:tbldepartamento,id',
-            'tblmodulo_id' => 'nullable|exists:tblmodulo,id',
+            'nombre' => 'required|string|unique:tblmedida',
         ];
         
         $input = [
             'nombre' => $request['nombre'],
-            'latitud' => $request['latitud'],
-            'longitud' => $request['longitud'],
-            'tipo_int' => $request['tipo_int'],
-            'tbldepartamento_id' => $request['tbldepartamento_id'],
-            'tblmodulo_id' => $request['tblmodulo_id'],
         ];
 
         $validator = Validator::make($input, $rules, $messages);
@@ -163,11 +140,11 @@ class TblcomisariaController extends Controller
             ]);
         }else{
 
-            $tblcomisaria = Tblcomisaria::create($input);
+            $tblmedida = Tblmedida::create($input);
 
             return response()->json([
                 'type' => 'store',
-                'info' => 'Institución registrada.',
+                'info' => 'Tipo medida registrada.',
             ]);
         }
 
@@ -176,32 +153,30 @@ class TblcomisariaController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Tblcomisaria  $tblcomisaria
+     * @param  \App\Tblmedida  $tblmedida
      * @return \Illuminate\Http\Response
      */
     public function show($id)
     {
-        $tblcomisaria = Tblcomisaria::findOrFail($id);
+        $tblmedida = Tblmedida::findOrFail($id);
 
-        // return view('tablas.tblcomisaria.show', compact('tblcomisaria'));
+        // return view('tablas.tblmedida.show', compact('tblmedida'));
 
-        return view('tablas.tblcomisaria.detail', compact('tblcomisaria'));
+        return view('tablas.tblmedida.detail', compact('tblmedida'));
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Tblcomisaria  $tblcomisaria
+     * @param  \App\Tblmedida  $tblmedida
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {   
         
-        $tblcomisaria = Tblcomisaria::findOrFail($id);
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
-        $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+        $tblmedida = Tblmedida::findOrFail($id);
 
-        return view('tablas.tblcomisaria.partials.form_ajax', compact('tblcomisaria', 'roles', 'departamentos', 'modulos'));
+        return view('tablas.tblmedida.partials.form_ajax', compact('tblmedida'));
 
     }
 
@@ -209,7 +184,7 @@ class TblcomisariaController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Tblcomisaria  $tblcomisaria
+     * @param  \App\Tblmedida  $tblmedida
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -217,7 +192,7 @@ class TblcomisariaController extends Controller
 
         // No se pueden usar accessors o mutators en query builders, solo en elquent
 
-        $tblcomisaria = Tblcomisaria::findOrFail($id);
+        $tblmedida = Tblmedida::findOrFail($id);
 
         $messages = array(
             'required' => ':attribute es obligatorio.',
@@ -225,33 +200,21 @@ class TblcomisariaController extends Controller
             'min'      => ':attribute debe tener :min caracteres como mínimo.',
             'max'      => ':attribute debe tener :max caracteres como máximo.',
             'numeric'  => ':attribute debe ser numérico.',
+            'image'    => ':attribute debe ser un archivo imagen.',
+            'mimes'    => ':attribute debe ser un archivo de denuncia: valores.',
+            'unique'   => ':attribute ya ha sido registrado.',
         );
 
         $attributes = array(
             'nombre' => 'Nombre',
-            'latitud' => 'Latitud',
-            'longitud' => 'Longitud',
-            'tipo_int' => 'Tipo Institucion',
-            'tbldepartamento_id' => 'Departamento',
-            'tblmodulo_id' => 'Modulo',
         );
 
         $rules = [
-            'nombre' => 'required|string',
-            'latitud' => 'nullable|string',
-            'longitud' => 'nullable|string',
-            'tipo_int' => 'required',
-            'tbldepartamento_id' => 'required|exists:tbldepartamento,id',
-            'tblmodulo_id' => 'nullable|exists:tblmodulo,id',
+            'nombre' => 'required|string|unique:tblmedida,nombre,'.$tblmedida->nombre.',nombre',
         ];
         
         $input = [
             'nombre' => $request['nombre'],
-            'latitud' => $request['latitud'],
-            'longitud' => $request['longitud'],
-            'tipo_int' => $request['tipo_int'],
-            'tbldepartamento_id' => $request['tbldepartamento_id'],
-            'tblmodulo_id' => $request['tblmodulo_id'],
         ];
 
         $validator = Validator::make($input, $rules, $messages);
@@ -265,11 +228,11 @@ class TblcomisariaController extends Controller
             ]);
         }else{
 
-            Tblcomisaria::where('id', $id)->update($input);
+            Tblmedida::where('id', $id)->update($input);
 
             return response()->json([
                 'type' => 'update',
-                'info' => 'Institución actualizada.',
+                'info' => 'Tipo medida actualizada.',
             ]);
         }
     }
@@ -277,16 +240,16 @@ class TblcomisariaController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Tblcomisaria  $tblcomisaria
+     * @param  \App\Tblmedida  $tblmedida
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
     {
-        $tblcomisaria = Tblcomisaria::find($id)->delete();
+        $tblmedida = Tblmedida::find($id)->delete();
 
         return response()->json([
             'type' => 'destroy',
-            'info' => 'Institución eliminada correctamente.',
+            'info' => 'Tipo medida eliminado correctamente.',
         ]);
     }
 }
