@@ -57,19 +57,31 @@ class UserController extends Controller
 
 
         // listara solo los usuarios con acceso al sistema web
-        $users = $users
-            ->where('acceso', '=', 1)
-            ->whereNull('deleted_at')
-            ->where(function ($query) use ($request) {
-                $query->where('nombre', 'like', '%' . $request->session()->get('search') . '%')
-                      ->orwhere('name', 'like', '%' . $request->session()->get('search') . '%')
-                      ->orwhere('email', 'like', '%' . $request->session()->get('search') . '%')
-                      ->orwhere('fono', 'like', '%' . $request->session()->get('search') . '%');
-            });
-
         if (Auth::user()->getRoles()[0] == 'adminmodulo') {
-            $users = $users->where('tblmodulo_id', '=', Auth::user()->tblmodulo_id);
+            $users = $users->where('acceso', '=', 1)
+                ->whereNull('deleted_at')
+                ->where(function ($query) use ($request) {
+                    $query->where('nombre', 'like', '%' . $request->session()->get('search') . '%')
+                          ->orwhere('name', 'like', '%' . $request->session()->get('search') . '%')
+                          ->orwhere('email', 'like', '%' . $request->session()->get('search') . '%')
+                          ->orwhere('fono', 'like', '%' . $request->session()->get('search') . '%');
+                })
+                ->where('tblmodulo_id', '=', Auth::user()->tblmodulo_id)
+                ->where('tbldepartamento_id', '=', Auth::user()->tbldepartamento_id);
+        }else{
+            $users = $users
+                ->where('acceso', '=', 1)
+                ->whereNull('deleted_at')
+                ->where(function ($query) use ($request) {
+                    $query->where('nombre', 'like', '%' . $request->session()->get('search') . '%')
+                          ->orwhere('name', 'like', '%' . $request->session()->get('search') . '%')
+                          ->orwhere('email', 'like', '%' . $request->session()->get('search') . '%')
+                          ->orwhere('fono', 'like', '%' . $request->session()->get('search') . '%');
+                });
+
+            // dd($users->toSql(),$users->getBindings());
         }
+
 
         $users = $users->orderBy($request->session()->get('field'), $request->session()->get('sort'))
             // ->orderBy('nombre', $request->session()->get('sort'))

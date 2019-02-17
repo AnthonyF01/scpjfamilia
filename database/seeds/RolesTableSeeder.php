@@ -34,7 +34,7 @@ class RolesTableSeeder extends Seeder
                 'slug' => 'adminmodulo',
                 'description' => 'Administrador de Modulo',
                 'created_at' => '2019-02-02 13:13:38',
-                'updated_at' => '2019-02-10 20:01:53',
+                'updated_at' => '2019-02-14 22:23:03',
                 'special' => NULL,
             ),
             2 => 
