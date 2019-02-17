@@ -805,7 +805,7 @@ class TblinstanciaTableSeeder extends Seeder
             array (
                 'id' => 57,
                 'tblmodulo_id' => 33,
-                'tbldepartamento_id' => 15,
+                'tbldepartamento_id' => 7,
                 'tblprovincia_id' => NULL,
                 'tbldistrito_id' => NULL,
                 'nombre' => '1° JUZGADO DE FAMILIA - SEDE ANEXO 1',
@@ -819,7 +819,7 @@ class TblinstanciaTableSeeder extends Seeder
             array (
                 'id' => 58,
                 'tblmodulo_id' => 33,
-                'tbldepartamento_id' => 15,
+                'tbldepartamento_id' => 7,
                 'tblprovincia_id' => NULL,
                 'tbldistrito_id' => NULL,
                 'nombre' => '2° JUZGADO DE FAMILIA - SEDE JUZG. FAMILIA',
@@ -833,7 +833,7 @@ class TblinstanciaTableSeeder extends Seeder
             array (
                 'id' => 59,
                 'tblmodulo_id' => 33,
-                'tbldepartamento_id' => 15,
+                'tbldepartamento_id' => 7,
                 'tblprovincia_id' => NULL,
                 'tbldistrito_id' => NULL,
                 'nombre' => 'JUZGADO CIVIL - SEDE ANCON',
@@ -847,7 +847,7 @@ class TblinstanciaTableSeeder extends Seeder
             array (
                 'id' => 60,
                 'tblmodulo_id' => 33,
-                'tbldepartamento_id' => 15,
+                'tbldepartamento_id' => 7,
                 'tblprovincia_id' => NULL,
                 'tbldistrito_id' => NULL,
                 'nombre' => 'JUZGADO CIVIL - SEDE MI PERÚ',
@@ -861,7 +861,7 @@ class TblinstanciaTableSeeder extends Seeder
             array (
                 'id' => 61,
                 'tblmodulo_id' => 33,
-                'tbldepartamento_id' => 15,
+                'tbldepartamento_id' => 7,
                 'tblprovincia_id' => NULL,
                 'tbldistrito_id' => NULL,
                 'nombre' => 'JUZGADO CIVIL - SEDE PACHACÚTEC',
