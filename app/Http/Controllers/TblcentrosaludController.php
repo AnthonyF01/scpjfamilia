@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Auth;
 use App\Models\Tblcentrosalud;
 use App\Models\Tbldepartamento;
 use App\Models\Tblmodulo;
@@ -54,14 +55,24 @@ class TblcentrosaludController extends Controller
 
 
         $tblcentrosaluds = $tblcentrosaluds
-            ->where('nombre', 'like', '%' . $request->session()->get('search') . '%')
-            ->orderBy($request->session()->get('field'), $request->session()->get('sort'))
-            ->orwhere('tblmodulo_id', '=', ( gettype( Tblmodulo::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tblmodulo::where('nombre','=',$request->session()->get('search'))->first()->id : '' )
-            ->orwhere('tbldepartamento_id', '=', ( gettype( Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first()->id : '' )
-            ->orderBy($request->session()->get('field'), $request->session()->get('sort'))
-            // ->orderBy('nombre', $request->session()->get('sort'))
-            // ->orderBy('email', $request->session()->get('sort'))
-            ->paginate($request->session()->get('show'));
+            ->where('nombre', 'like', '%' . $request->session()->get('search') . '%');
+
+        if (Auth::user()->getRoles()[0] == 'adminmodulo') {
+            $tblcentrosaluds = $tblcentrosaluds->where('tblmodulo_id', '=', Auth::user()->tblmodulo_id)
+                                               ->where('tblmodulo_id', '=', Auth::user()->tblmodulo_id)
+                                               ->where('tbldepartamento_id', '=', Auth::user()->tbldepartamento_id);
+        }else{
+            $tblcentrosaluds = $tblcentrosaluds
+                ->orwhere('tblmodulo_id', '=', ( gettype( Tblmodulo::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tblmodulo::where('nombre','=',$request->session()->get('search'))->first()->id : '' )
+                ->orwhere('tbldepartamento_id', '=', ( gettype( Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first()->id : '' );
+        }
+
+        $tblcentrosaluds = $tblcentrosaluds->orderBy($request->session()->get('field'), $request->session()->get('sort'))
+                ->orderBy($request->session()->get('field'), $request->session()->get('sort'))
+                // ->orderBy('nombre', $request->session()->get('sort'))
+                // ->orderBy('email', $request->session()->get('sort'))
+                ->paginate($request->session()->get('show'));
+
 
         // dd($tblcentrosaluds);
 
@@ -80,8 +91,14 @@ class TblcentrosaludController extends Controller
     public function create() /* no usado */
     {
         
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
-        $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+        if (Auth::user()->getRoles()[0] == 'admin') {
+            $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
+        }
+        if (Auth::user()->getRoles()[0] == 'adminmodulo') {
+            $modulos = Tblmodulo::where('id','=',Auth::user()->tblmodulo_id)->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::where('id','=',Auth::user()->tbldepartamento_id)->pluck('nombre', 'id');
+        }
 
         return view('tablas.tblcentrosalud.partials.form_ajax', compact('departamentos', 'modulos'));
 
@@ -186,8 +203,15 @@ class TblcentrosaludController extends Controller
     {   
         
         $tblcentrosalud = Tblcentrosalud::findOrFail($id);
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
-        $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+
+        if (Auth::user()->getRoles()[0] == 'admin') {
+            $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
+        }
+        if (Auth::user()->getRoles()[0] == 'adminmodulo') {
+            $modulos = Tblmodulo::where('id','=',Auth::user()->tblmodulo_id)->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::where('id','=',Auth::user()->tbldepartamento_id)->pluck('nombre', 'id');
+        }
 
         return view('tablas.tblcentrosalud.partials.form_ajax', compact('tblcentrosalud', 'roles', 'departamentos', 'modulos'));
 

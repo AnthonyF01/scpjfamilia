@@ -487,33 +487,33 @@ class PermissionsTableSeeder extends Seeder
 
         // Tipo medida
         Permission::create([
-            'name'          => 'Navegar tipos de denuncia',
+            'name'          => 'Navegar tipos de medida',
             'slug'          => 'tblmedida.index',
-            'description'   => 'Lista y navega todos los tipos de denuncia del sistema',
+            'description'   => 'Lista y navega todos los tipos de medida del sistema',
         ]);
 
         Permission::create([
-            'name'          => 'Ver detalle de un tipo de denuncia',
+            'name'          => 'Ver detalle de un tipo de medida',
             'slug'          => 'tblmedida.show',
-            'description'   => 'Ve en detalle cada tipo de denuncia del sistema',            
+            'description'   => 'Ve en detalle cada tipo de medida del sistema',            
         ]);
         
         Permission::create([
-            'name'          => 'Creación de tipos de denuncia',
+            'name'          => 'Creación de tipos de medida',
             'slug'          => 'tblmedida.create',
-            'description'   => 'Podría crear nuevos tipos de denuncia en el sistema',
+            'description'   => 'Podría crear nuevos tipos de medida en el sistema',
         ]);
         
         Permission::create([
-            'name'          => 'Edición de tipos de denuncia',
+            'name'          => 'Edición de tipos de medida',
             'slug'          => 'tblmedida.edit',
-            'description'   => 'Podría editar cualquier dato de un tipo de denuncia del sistema',
+            'description'   => 'Podría editar cualquier dato de un tipo de medida del sistema',
         ]);
         
         Permission::create([
-            'name'          => 'Eliminar tipos de denuncia',
+            'name'          => 'Eliminar tipos de medida',
             'slug'          => 'tblmedida.destroy',
-            'description'   => 'Podría eliminar cualquier tipo de denuncia del sistema',      
+            'description'   => 'Podría eliminar cualquier tipo de medida del sistema',      
         ]);
 
     }

@@ -1915,6 +1915,58 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
             ),
+            146 => 
+            array (
+                'id' => 147,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'nombre' => 'Fiscalia 4',
+                'latitud' => NULL,
+                'longitud' => NULL,
+                'created_at' => '2019-02-14 01:23:33',
+                'updated_at' => '2019-02-14 01:23:33',
+                'deleted_at' => NULL,
+                'tipo_int' => 1,
+            ),
+            147 => 
+            array (
+                'id' => 148,
+                'tblmodulo_id' => 33,
+                'tbldepartamento_id' => 7,
+                'nombre' => 'COMISARIA DE PACHACUTEC',
+                'latitud' => NULL,
+                'longitud' => NULL,
+                'created_at' => '2019-02-17 10:54:07',
+                'updated_at' => '2019-02-17 10:54:07',
+                'deleted_at' => NULL,
+                'tipo_int' => 0,
+            ),
+            148 => 
+            array (
+                'id' => 149,
+                'tblmodulo_id' => 33,
+                'tbldepartamento_id' => 7,
+                'nombre' => 'COMISARIA DE VENTANILLA',
+                'latitud' => NULL,
+                'longitud' => NULL,
+                'created_at' => '2019-02-17 10:54:31',
+                'updated_at' => '2019-02-17 10:54:31',
+                'deleted_at' => NULL,
+                'tipo_int' => 0,
+            ),
+            149 => 
+            array (
+                'id' => 150,
+                'tblmodulo_id' => 33,
+                'tbldepartamento_id' => 7,
+                'nombre' => 'COMISARIA VILLA LOS REYES',
+                'latitud' => NULL,
+                'longitud' => NULL,
+                'created_at' => '2019-02-17 11:41:24',
+                'updated_at' => '2019-02-17 11:41:24',
+                'deleted_at' => NULL,
+                'tipo_int' => 0,
+            ),
         ));
         
         

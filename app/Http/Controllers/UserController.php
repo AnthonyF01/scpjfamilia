@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Log;
+use Auth;
 use App\User;
 use App\Models\Tbldepartamento;
 use App\Models\Tblmodulo;
@@ -57,13 +59,19 @@ class UserController extends Controller
         // listara solo los usuarios con acceso al sistema web
         $users = $users
             ->where('acceso', '=', 1)
+            ->whereNull('deleted_at')
             ->where(function ($query) use ($request) {
                 $query->where('nombre', 'like', '%' . $request->session()->get('search') . '%')
                       ->orwhere('name', 'like', '%' . $request->session()->get('search') . '%')
                       ->orwhere('email', 'like', '%' . $request->session()->get('search') . '%')
                       ->orwhere('fono', 'like', '%' . $request->session()->get('search') . '%');
-            })
-            ->orderBy($request->session()->get('field'), $request->session()->get('sort'))
+            });
+
+        if (Auth::user()->getRoles()[0] == 'adminmodulo') {
+            $users = $users->where('tblmodulo_id', '=', Auth::user()->tblmodulo_id);
+        }
+
+        $users = $users->orderBy($request->session()->get('field'), $request->session()->get('sort'))
             // ->orderBy('nombre', $request->session()->get('sort'))
             // ->orderBy('email', $request->session()->get('sort'))
             ->paginate($request->session()->get('show'));
@@ -96,9 +104,14 @@ class UserController extends Controller
 
         $user = [];
         $roles = Role::get();
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
-        $modulos = Tblmodulo::all()->pluck('nombre', 'id');
-
+        if (Auth::user()->getRoles()[0] == 'admin') {
+            $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
+        }
+        if (Auth::user()->getRoles()[0] == 'adminmodulo') {
+            $modulos = Tblmodulo::where('id','=',Auth::user()->tblmodulo_id)->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::where('id','=',Auth::user()->tbldepartamento_id)->pluck('nombre', 'id');
+        }
         return view('admin.users.partials.form_ajax', compact('user', 'roles', 'departamentos', 'modulos'));
 
     }
@@ -125,6 +138,8 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
+
+        // Log::info('store user: ', ['user' => $request]);
 
         // No se pueden usar accessors o mutators en query builders, solo en elquent
 
@@ -265,9 +280,15 @@ class UserController extends Controller
 
         $user = User::findOrFail($id);
         $roles = Role::get();
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
-        $modulos = Tblmodulo::all()->pluck('nombre', 'id');
-
+        if (Auth::user()->getRoles()[0] == 'admin') {
+            $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
+        }
+        if (Auth::user()->getRoles()[0] == 'adminmodulo') {
+            $modulos = Tblmodulo::where('id','=',Auth::user()->tblmodulo_id)->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::where('id','=',Auth::user()->tbldepartamento_id)->pluck('nombre', 'id');
+        }
+        
         return view('admin.users.partials.form_ajax', compact('user', 'roles', 'departamentos', 'modulos'));
 
     }
@@ -305,6 +326,8 @@ class UserController extends Controller
             'fono' => 'Teléfono',
             'dni' => 'DNI',
             'fchnac' => 'Fecha de Nacimiento',
+            'tblmodulo_id' => 'Modulo',
+            'tbldepartamento_id' => 'Deparatamento',
         );
 
         $rules = [
@@ -313,6 +336,8 @@ class UserController extends Controller
             'fono' => 'required|string',
             'dni' => 'required|numeric|unique:users,dni,'.$user->dni.',dni',
             'fchnac' => 'required|date',
+            'tblmodulo_id' => 'required|exists:tblmodulo,id',
+            'tbldepartamento_id' => 'required|exists:tbldepartamento,id',
         ];
         
         $input = [
@@ -321,6 +346,8 @@ class UserController extends Controller
             'fono' => $request['fono'],
             'dni' => $request['dni'],
             'fchnac' => $request['fchnac'],
+            'tblmodulo_id' => $request['tblmodulo_id'],
+            'tbldepartamento_id' => $request['tbldepartamento_id'],
         ];
 
         // return response()->json( $input , 200);

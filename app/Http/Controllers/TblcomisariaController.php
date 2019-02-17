@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Auth;
 use App\Models\Tblcomisaria;
 use App\Models\Tbldepartamento;
 use App\Models\Tblmodulo;
@@ -54,11 +55,24 @@ class TblcomisariaController extends Controller
             ->has('show') ? ( is_numeric($request->session()->get('show')) ? 
               $request->session()->get('show') : '10' ) : '10'));
 
-
-        $tblcomisarias = $tblcomisarias
+        if (Auth::user()->getRoles()[0] == 'adminmodulo') {
+            $tblcomisarias = $tblcomisarias->where('nombre', 'like', '%' . $request->session()->get('search') . '%')
+                                           ->where('tblmodulo_id', '=', Auth::user()->tblmodulo_id)
+                                           ->where('tbldepartamento_id', '=', Auth::user()->tbldepartamento_id);
+        }else{
+            $tblcomisarias = $tblcomisarias
             ->where('nombre', 'like', '%' . $request->session()->get('search') . '%')
             ->orwhere('tblmodulo_id', '=', ( gettype( Tblmodulo::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tblmodulo::where('nombre','=',$request->session()->get('search'))->first()->id : '' )
-            ->orwhere('tbldepartamento_id', '=', ( gettype( Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first()->id : '' )
+            ->orwhere('tbldepartamento_id', '=', ( gettype( Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first()->id : '' );
+            // dd($tblcomisarias->toSql(),$tblcomisarias->getBindings());
+
+        }
+
+        // dd(Auth::user()->tblmodulo_id);
+
+        // dd($tblcomisarias->toSql(),$tblcomisarias->getBindings());
+
+        $tblcomisarias = $tblcomisarias
             ->orderBy($request->session()->get('field'), $request->session()->get('sort'))
             // ->orderBy('nombre', $request->session()->get('sort'))
             // ->orderBy('email', $request->session()->get('sort'))
@@ -81,8 +95,15 @@ class TblcomisariaController extends Controller
     public function create() /* no usada */
     {
         
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
-        $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+        if (Auth::user()->getRoles()[0] == 'admin') {
+            $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
+        }
+        if (Auth::user()->getRoles()[0] == 'adminmodulo') {
+            // dd(Auth::user()->tbldepartamento_id);
+            $modulos = Tblmodulo::where('id','=',Auth::user()->tblmodulo_id)->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::where('id','=',Auth::user()->tbldepartamento_id)->pluck('nombre', 'id');
+        }
 
         return view('tablas.tblcomisaria.partials.form_ajax', compact('departamentos', 'modulos'));
 
@@ -198,8 +219,15 @@ class TblcomisariaController extends Controller
     {   
         
         $tblcomisaria = Tblcomisaria::findOrFail($id);
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
-        $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+
+        if (Auth::user()->getRoles()[0] == 'admin') {
+            $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
+        }
+        if (Auth::user()->getRoles()[0] == 'adminmodulo') {
+            $modulos = Tblmodulo::where('id','=',Auth::user()->tblmodulo_id)->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::where('id','=',Auth::user()->tbldepartamento_id)->pluck('nombre', 'id');
+        }
 
         return view('tablas.tblcomisaria.partials.form_ajax', compact('tblcomisaria', 'roles', 'departamentos', 'modulos'));
 

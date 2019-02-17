@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Auth;
 use App\Models\Tblinstancia;
 use App\Models\Tbldepartamento;
 use App\Models\Tblmodulo;
@@ -52,12 +53,19 @@ class TblinstanciaController extends Controller
             ->has('show') ? ( is_numeric($request->session()->get('show')) ? 
               $request->session()->get('show') : '10' ) : '10'));
 
+        if (Auth::user()->getRoles()[0] == 'adminmodulo') {
+            $tblinstancias = $tblinstancias->where('nombre', 'like', '%' . $request->session()->get('search') . '%')
+                                           ->where('tblmodulo_id', '=', Auth::user()->tblmodulo_id)
+                                           ->where('tbldepartamento_id', '=', Auth::user()->tbldepartamento_id);
+        }else{
+            $tblinstancias = $tblinstancias
+                ->where('nombre', 'like', '%' . $request->session()->get('search') . '%')
+                ->orwhere('sigla', 'like', '%' . $request->session()->get('search') . '%')
+                ->orwhere('tblmodulo_id', '=', ( gettype( Tblmodulo::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tblmodulo::where('nombre','=',$request->session()->get('search'))->first()->id : '' )
+                ->orwhere('tbldepartamento_id', '=', ( gettype( Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first()->id : '' );
+        }
 
         $tblinstancias = $tblinstancias
-            ->where('nombre', 'like', '%' . $request->session()->get('search') . '%')
-            ->orwhere('sigla', 'like', '%' . $request->session()->get('search') . '%')
-            ->orwhere('tblmodulo_id', '=', ( gettype( Tblmodulo::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tblmodulo::where('nombre','=',$request->session()->get('search'))->first()->id : '' )
-            ->orwhere('tbldepartamento_id', '=', ( gettype( Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first()->id : '' )
             ->orderBy($request->session()->get('field'), $request->session()->get('sort'))
             // ->orderBy('nombre', $request->session()->get('sort'))
             // ->orderBy('email', $request->session()->get('sort'))
@@ -81,9 +89,15 @@ class TblinstanciaController extends Controller
      */
     public function create() /* no usada */
     {
-        
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
-        $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+
+        if (Auth::user()->getRoles()[0] == 'admin') {
+            $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
+        }
+        if (Auth::user()->getRoles()[0] == 'adminmodulo') {
+            $modulos = Tblmodulo::where('id','=',Auth::user()->tblmodulo_id)->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::where('id','=',Auth::user()->tbldepartamento_id)->pluck('nombre', 'id');
+        }
 
         return view('tablas.tblinstancia.partials.form_ajax', compact('departamentos', 'modulos'));
 
@@ -194,8 +208,15 @@ class TblinstanciaController extends Controller
     {   
         
         $tblinstancia = Tblinstancia::findOrFail($id);
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
-        $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+
+        if (Auth::user()->getRoles()[0] == 'admin') {
+            $modulos = Tblmodulo::all()->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
+        }
+        if (Auth::user()->getRoles()[0] == 'adminmodulo') {
+            $modulos = Tblmodulo::where('id','=',Auth::user()->tblmodulo_id)->pluck('nombre', 'id');
+            $departamentos = Tbldepartamento::where('id','=',Auth::user()->tbldepartamento_id)->pluck('nombre', 'id');
+        }
 
         return view('tablas.tblinstancia.partials.form_ajax', compact('tblinstancia', 'departamentos', 'modulos'));
 
