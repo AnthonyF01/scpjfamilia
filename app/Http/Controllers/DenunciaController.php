@@ -306,6 +306,7 @@ class DenunciaController extends Controller
     {
 
         $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
+        $instituciones = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',1)->orderBy('nombre')->pluck('nombre', 'id');
         $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
         $tdenuncias = Tbldenuncia::orderBy('nombre')->pluck('nombre', 'id');
         $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
@@ -313,12 +314,13 @@ class DenunciaController extends Controller
         $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
+        $medidas = Tblmedida::orderBy('nombre')->pluck('nombre', 'id');
 
         $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
         $documentos = Tbldocumento::orderBy('nombre','asc')->pluck('nombre', 'id');
         $tipos = Tbltipo::all()->pluck('nombre', 'id');
 
-        return view('denuncia.denuncia.partials.form', compact('comisarias','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tdenuncias','departamentos','documentos','tipos'));
+        return view('denuncia.denuncia.partials.form', compact('medidas','comisarias','instituciones','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tdenuncias','departamentos','documentos','tipos'));
 
     }
 
@@ -2374,6 +2376,12 @@ class DenunciaController extends Controller
                         $input['registro_file'] = $fakepath;
                     }
 
+
+                    if ($request['institucion'] == '2') { // modulo
+                        unset($input['tblfiscalia_id']);
+                        unset($input['tblcomisaria_id']);
+                        $input = parent::array_push_assoc($input, 'tblcomisaria_id', null);
+                    }
 
                     if ($request['institucion'] == '3') { // fiscalia
                         // Log::info('store tblfiscalia_id: ', ['tblfiscalia_id' => $request['tblfiscalia_id'], 'input-tblfiscalia_id' => $input['tblfiscalia_id'], 'input' => $input]);

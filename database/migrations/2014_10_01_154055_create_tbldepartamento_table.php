@@ -15,6 +15,7 @@ class CreateTbldepartamentoTable extends Migration
     {
         Schema::create('tbldepartamento', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('ubigeo');
             $table->string('nombre');
             $table->timestamps();
             $table->softDeletes();

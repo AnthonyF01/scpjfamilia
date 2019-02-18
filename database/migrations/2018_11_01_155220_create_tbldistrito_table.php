@@ -16,6 +16,7 @@ class CreateTbldistritoTable extends Migration
         Schema::create('tbldistrito', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('tblprovincia_id')->unsigned();
+            $table->string('ubigeo');
             $table->string('nombre');
             $table->timestamps();
             $table->softDeletes();

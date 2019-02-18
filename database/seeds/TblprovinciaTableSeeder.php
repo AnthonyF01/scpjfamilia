@@ -21,7 +21,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'tbldepartamento_id' => 1,
-                'nombre' => 'CHACHAPOYAS ',
+                'ubigeo' => '010100',
+                'nombre' => 'Chachapoyas',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -30,7 +31,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 2,
                 'tbldepartamento_id' => 1,
-                'nombre' => 'BAGUA',
+                'ubigeo' => '010200',
+                'nombre' => 'Bagua',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -39,7 +41,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'tbldepartamento_id' => 1,
-                'nombre' => 'BONGARA',
+                'ubigeo' => '010300',
+                'nombre' => 'Bongará',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -48,7 +51,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 4,
                 'tbldepartamento_id' => 1,
-                'nombre' => 'CONDORCANQUI',
+                'ubigeo' => '010400',
+                'nombre' => 'Condorcanqui',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -57,7 +61,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 5,
                 'tbldepartamento_id' => 1,
-                'nombre' => 'LUYA',
+                'ubigeo' => '010500',
+                'nombre' => 'Luya',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -66,7 +71,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 6,
                 'tbldepartamento_id' => 1,
-                'nombre' => 'RODRIGUEZ DE MENDOZA',
+                'ubigeo' => '010600',
+                'nombre' => 'Rodríguez de Mendoza',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -75,7 +81,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 7,
                 'tbldepartamento_id' => 1,
-                'nombre' => 'UTCUBAMBA',
+                'ubigeo' => '010700',
+                'nombre' => 'Utcubamba',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -84,7 +91,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 8,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'HUARAZ',
+                'ubigeo' => '020100',
+                'nombre' => 'Huaraz',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -93,7 +101,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 9,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'AIJA',
+                'ubigeo' => '020200',
+                'nombre' => 'Aija',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -102,7 +111,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 10,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'ANTONIO RAYMONDI',
+                'ubigeo' => '020300',
+                'nombre' => 'Antonio Raymondi',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -111,7 +121,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 11,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'ASUNCION',
+                'ubigeo' => '020400',
+                'nombre' => 'Asunción',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -120,7 +131,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 12,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'BOLOGNESI',
+                'ubigeo' => '020500',
+                'nombre' => 'Bolognesi',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -129,7 +141,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 13,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'CARHUAZ',
+                'ubigeo' => '020600',
+                'nombre' => 'Carhuaz',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -138,7 +151,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 14,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'CARLOS FERMIN FITZCARRALD',
+                'ubigeo' => '020700',
+                'nombre' => 'Carlos Fermín Fitzcarrald',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -147,7 +161,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 15,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'CASMA',
+                'ubigeo' => '020800',
+                'nombre' => 'Casma',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -156,7 +171,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 16,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'CORONGO',
+                'ubigeo' => '020900',
+                'nombre' => 'Corongo',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -165,7 +181,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 17,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'HUARI',
+                'ubigeo' => '021000',
+                'nombre' => 'Huari',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -174,7 +191,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 18,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'HUARMEY',
+                'ubigeo' => '021100',
+                'nombre' => 'Huarmey',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -183,7 +201,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 19,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'HUAYLAS',
+                'ubigeo' => '021200',
+                'nombre' => 'Huaylas',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -192,7 +211,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 20,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'MARISCAL LUZURIAGA',
+                'ubigeo' => '021300',
+                'nombre' => 'Mariscal Luzuriaga',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -201,7 +221,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 21,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'OCROS',
+                'ubigeo' => '021400',
+                'nombre' => 'Ocros',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -210,7 +231,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 22,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'PALLASCA',
+                'ubigeo' => '021500',
+                'nombre' => 'Pallasca',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -219,7 +241,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 23,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'POMABAMBA',
+                'ubigeo' => '021600',
+                'nombre' => 'Pomabamba',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -228,7 +251,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 24,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'RECUAY',
+                'ubigeo' => '021700',
+                'nombre' => 'Recuay',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -237,7 +261,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 25,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'SANTA',
+                'ubigeo' => '021800',
+                'nombre' => 'Santa',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -246,7 +271,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 26,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'SIHUAS',
+                'ubigeo' => '021900',
+                'nombre' => 'Sihuas',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -255,7 +281,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 27,
                 'tbldepartamento_id' => 2,
-                'nombre' => 'YUNGAY',
+                'ubigeo' => '022000',
+                'nombre' => 'Yungay',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -264,7 +291,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 28,
                 'tbldepartamento_id' => 3,
-                'nombre' => 'ABANCAY',
+                'ubigeo' => '030100',
+                'nombre' => 'Abancay',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -273,7 +301,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 29,
                 'tbldepartamento_id' => 3,
-                'nombre' => 'ANDAHUAYLAS',
+                'ubigeo' => '030200',
+                'nombre' => 'Andahuaylas',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -282,7 +311,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 30,
                 'tbldepartamento_id' => 3,
-                'nombre' => 'ANTABAMBA',
+                'ubigeo' => '030300',
+                'nombre' => 'Antabamba',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -291,7 +321,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 31,
                 'tbldepartamento_id' => 3,
-                'nombre' => 'AYMARAES',
+                'ubigeo' => '030400',
+                'nombre' => 'Aymaraes',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -300,7 +331,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 32,
                 'tbldepartamento_id' => 3,
-                'nombre' => 'COTABAMBAS',
+                'ubigeo' => '030500',
+                'nombre' => 'Cotabambas',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -309,7 +341,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 33,
                 'tbldepartamento_id' => 3,
-                'nombre' => 'CHINCHEROS',
+                'ubigeo' => '030600',
+                'nombre' => 'Chincheros',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -318,7 +351,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 34,
                 'tbldepartamento_id' => 3,
-                'nombre' => 'GRAU',
+                'ubigeo' => '030700',
+                'nombre' => 'Grau',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -327,7 +361,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 35,
                 'tbldepartamento_id' => 4,
-                'nombre' => 'AREQUIPA',
+                'ubigeo' => '040100',
+                'nombre' => 'Arequipa',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -336,7 +371,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 36,
                 'tbldepartamento_id' => 4,
-                'nombre' => 'CAMANA',
+                'ubigeo' => '040200',
+                'nombre' => 'Camaná',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -345,7 +381,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 37,
                 'tbldepartamento_id' => 4,
-                'nombre' => 'CARAVELI',
+                'ubigeo' => '040300',
+                'nombre' => 'Caravelí',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -354,7 +391,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 38,
                 'tbldepartamento_id' => 4,
-                'nombre' => 'CASTILLA',
+                'ubigeo' => '040400',
+                'nombre' => 'Castilla',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -363,7 +401,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 39,
                 'tbldepartamento_id' => 4,
-                'nombre' => 'CAYLLOMA',
+                'ubigeo' => '040500',
+                'nombre' => 'Caylloma',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -372,7 +411,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 40,
                 'tbldepartamento_id' => 4,
-                'nombre' => 'CONDESUYOS',
+                'ubigeo' => '040600',
+                'nombre' => 'Condesuyos',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -381,7 +421,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 41,
                 'tbldepartamento_id' => 4,
-                'nombre' => 'ISLAY',
+                'ubigeo' => '040700',
+                'nombre' => 'Islay',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -390,7 +431,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 42,
                 'tbldepartamento_id' => 4,
-                'nombre' => 'LA UNION',
+                'ubigeo' => '040800',
+                'nombre' => 'La Uniòn',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -399,7 +441,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 43,
                 'tbldepartamento_id' => 5,
-                'nombre' => 'HUAMANGA',
+                'ubigeo' => '050100',
+                'nombre' => 'Huamanga',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -408,7 +451,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 44,
                 'tbldepartamento_id' => 5,
-                'nombre' => 'CANGALLO',
+                'ubigeo' => '050200',
+                'nombre' => 'Cangallo',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -417,7 +461,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 45,
                 'tbldepartamento_id' => 5,
-                'nombre' => 'HUANCA SANCOS',
+                'ubigeo' => '050300',
+                'nombre' => 'Huanca Sancos',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -426,7 +471,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 46,
                 'tbldepartamento_id' => 5,
-                'nombre' => 'HUANTA',
+                'ubigeo' => '050400',
+                'nombre' => 'Huanta',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -435,7 +481,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 47,
                 'tbldepartamento_id' => 5,
-                'nombre' => 'LA MAR',
+                'ubigeo' => '050500',
+                'nombre' => 'La Mar',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -444,7 +491,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 48,
                 'tbldepartamento_id' => 5,
-                'nombre' => 'LUCANAS',
+                'ubigeo' => '050600',
+                'nombre' => 'Lucanas',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -453,7 +501,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 49,
                 'tbldepartamento_id' => 5,
-                'nombre' => 'PARINACOCHAS',
+                'ubigeo' => '050700',
+                'nombre' => 'Parinacochas',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -462,7 +511,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 50,
                 'tbldepartamento_id' => 5,
-                'nombre' => 'PAUCAR DEL SARA SARA',
+                'ubigeo' => '050800',
+                'nombre' => 'Pàucar del Sara Sara',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -471,7 +521,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 51,
                 'tbldepartamento_id' => 5,
-                'nombre' => 'SUCRE',
+                'ubigeo' => '050900',
+                'nombre' => 'Sucre',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -480,7 +531,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 52,
                 'tbldepartamento_id' => 5,
-                'nombre' => 'VICTOR FAJARDO',
+                'ubigeo' => '051000',
+                'nombre' => 'Víctor Fajardo',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -489,7 +541,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 53,
                 'tbldepartamento_id' => 5,
-                'nombre' => 'VILCAS HUAMAN',
+                'ubigeo' => '051100',
+                'nombre' => 'Vilcas Huamán',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -498,7 +551,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 54,
                 'tbldepartamento_id' => 6,
-                'nombre' => 'CAJAMARCA',
+                'ubigeo' => '060100',
+                'nombre' => 'Cajamarca',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -507,7 +561,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 55,
                 'tbldepartamento_id' => 6,
-                'nombre' => 'CAJABAMBA',
+                'ubigeo' => '060200',
+                'nombre' => 'Cajabamba',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -516,7 +571,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 56,
                 'tbldepartamento_id' => 6,
-                'nombre' => 'CELENDIN',
+                'ubigeo' => '060300',
+                'nombre' => 'Celendín',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -525,7 +581,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 57,
                 'tbldepartamento_id' => 6,
-                'nombre' => 'CHOTA ',
+                'ubigeo' => '060400',
+                'nombre' => 'Chota',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -534,7 +591,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 58,
                 'tbldepartamento_id' => 6,
-                'nombre' => 'CONTUMAZA',
+                'ubigeo' => '060500',
+                'nombre' => 'Contumazá',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -543,7 +601,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 59,
                 'tbldepartamento_id' => 6,
-                'nombre' => 'CUTERVO',
+                'ubigeo' => '060600',
+                'nombre' => 'Cutervo',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -552,7 +611,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 60,
                 'tbldepartamento_id' => 6,
-                'nombre' => 'HUALGAYOC',
+                'ubigeo' => '060700',
+                'nombre' => 'Hualgayoc',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -561,7 +621,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 61,
                 'tbldepartamento_id' => 6,
-                'nombre' => 'JAEN',
+                'ubigeo' => '060800',
+                'nombre' => 'Jaén',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -570,7 +631,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 62,
                 'tbldepartamento_id' => 6,
-                'nombre' => 'SAN IGNACIO',
+                'ubigeo' => '060900',
+                'nombre' => 'San Ignacio',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -579,7 +641,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 63,
                 'tbldepartamento_id' => 6,
-                'nombre' => 'SAN MARCOS',
+                'ubigeo' => '061000',
+                'nombre' => 'San Marcos',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -588,7 +651,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 64,
                 'tbldepartamento_id' => 6,
-                'nombre' => 'SAN PABLO',
+                'ubigeo' => '061100',
+                'nombre' => 'San Miguel',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -597,7 +661,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 65,
                 'tbldepartamento_id' => 6,
-                'nombre' => 'SANTA CRUZ',
+                'ubigeo' => '061200',
+                'nombre' => 'San Pablo',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -605,8 +670,9 @@ class TblprovinciaTableSeeder extends Seeder
             65 => 
             array (
                 'id' => 66,
-                'tbldepartamento_id' => 7,
-                'nombre' => 'CALLAO',
+                'tbldepartamento_id' => 6,
+                'ubigeo' => '061300',
+                'nombre' => 'Santa Cruz',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -614,8 +680,9 @@ class TblprovinciaTableSeeder extends Seeder
             66 => 
             array (
                 'id' => 67,
-                'tbldepartamento_id' => 8,
-                'nombre' => 'CUSCO',
+                'tbldepartamento_id' => 7,
+                'ubigeo' => '070100',
+                'nombre' => 'Prov. Const. del Callao',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -624,7 +691,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 68,
                 'tbldepartamento_id' => 8,
-                'nombre' => 'ACOMAYO',
+                'ubigeo' => '080100',
+                'nombre' => 'Cusco',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -633,7 +701,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 69,
                 'tbldepartamento_id' => 8,
-                'nombre' => 'ANTA',
+                'ubigeo' => '080200',
+                'nombre' => 'Acomayo',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -642,7 +711,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 70,
                 'tbldepartamento_id' => 8,
-                'nombre' => 'CALCA',
+                'ubigeo' => '080300',
+                'nombre' => 'Anta',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -651,7 +721,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 71,
                 'tbldepartamento_id' => 8,
-                'nombre' => 'CANAS',
+                'ubigeo' => '080400',
+                'nombre' => 'Calca',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -660,7 +731,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 72,
                 'tbldepartamento_id' => 8,
-                'nombre' => 'CANCHIS',
+                'ubigeo' => '080500',
+                'nombre' => 'Canas',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -669,7 +741,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 73,
                 'tbldepartamento_id' => 8,
-                'nombre' => 'CHUMBIVILCAS',
+                'ubigeo' => '080600',
+                'nombre' => 'Canchis',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -678,7 +751,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 74,
                 'tbldepartamento_id' => 8,
-                'nombre' => 'ESPINAR',
+                'ubigeo' => '080700',
+                'nombre' => 'Chumbivilcas',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -687,7 +761,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 75,
                 'tbldepartamento_id' => 8,
-                'nombre' => 'LA CONVENCION',
+                'ubigeo' => '080800',
+                'nombre' => 'Espinar',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -696,7 +771,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 76,
                 'tbldepartamento_id' => 8,
-                'nombre' => 'PARURO',
+                'ubigeo' => '080900',
+                'nombre' => 'La Convención',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -705,7 +781,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 77,
                 'tbldepartamento_id' => 8,
-                'nombre' => 'PAUCARTAMBO',
+                'ubigeo' => '081000',
+                'nombre' => 'Paruro',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -714,7 +791,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 78,
                 'tbldepartamento_id' => 8,
-                'nombre' => 'QUISPICANCHI',
+                'ubigeo' => '081100',
+                'nombre' => 'Paucartambo',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -723,7 +801,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 79,
                 'tbldepartamento_id' => 8,
-                'nombre' => 'URUBAMBA',
+                'ubigeo' => '081200',
+                'nombre' => 'Quispicanchi',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -731,8 +810,9 @@ class TblprovinciaTableSeeder extends Seeder
             79 => 
             array (
                 'id' => 80,
-                'tbldepartamento_id' => 9,
-                'nombre' => 'HUANCAVELICA',
+                'tbldepartamento_id' => 8,
+                'ubigeo' => '081300',
+                'nombre' => 'Urubamba',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -741,7 +821,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 81,
                 'tbldepartamento_id' => 9,
-                'nombre' => 'ACOBAMBA',
+                'ubigeo' => '090100',
+                'nombre' => 'Huancavelica',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -750,7 +831,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 82,
                 'tbldepartamento_id' => 9,
-                'nombre' => 'ANGARAES',
+                'ubigeo' => '090200',
+                'nombre' => 'Acobamba',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -759,7 +841,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 83,
                 'tbldepartamento_id' => 9,
-                'nombre' => 'CASTROVIRREYNA',
+                'ubigeo' => '090300',
+                'nombre' => 'Angaraes',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -768,7 +851,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 84,
                 'tbldepartamento_id' => 9,
-                'nombre' => 'CHURCAMPA',
+                'ubigeo' => '090400',
+                'nombre' => 'Castrovirreyna',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -777,7 +861,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 85,
                 'tbldepartamento_id' => 9,
-                'nombre' => 'HUAYTARA',
+                'ubigeo' => '090500',
+                'nombre' => 'Churcampa',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -786,7 +871,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 86,
                 'tbldepartamento_id' => 9,
-                'nombre' => 'TAYACAJA',
+                'ubigeo' => '090600',
+                'nombre' => 'Huaytará',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -794,8 +880,9 @@ class TblprovinciaTableSeeder extends Seeder
             86 => 
             array (
                 'id' => 87,
-                'tbldepartamento_id' => 10,
-                'nombre' => 'HUANUCO',
+                'tbldepartamento_id' => 9,
+                'ubigeo' => '090700',
+                'nombre' => 'Tayacaja',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -804,7 +891,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 88,
                 'tbldepartamento_id' => 10,
-                'nombre' => 'AMBO',
+                'ubigeo' => '100100',
+                'nombre' => 'Huánuco',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -813,7 +901,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 89,
                 'tbldepartamento_id' => 10,
-                'nombre' => 'DOS DE MAYO',
+                'ubigeo' => '100200',
+                'nombre' => 'Ambo',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -822,7 +911,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 90,
                 'tbldepartamento_id' => 10,
-                'nombre' => 'HUACAYBAMBA',
+                'ubigeo' => '100300',
+                'nombre' => 'Dos de Mayo',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -831,7 +921,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 91,
                 'tbldepartamento_id' => 10,
-                'nombre' => 'HUAMALIES',
+                'ubigeo' => '100400',
+                'nombre' => 'Huacaybamba',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -840,7 +931,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 92,
                 'tbldepartamento_id' => 10,
-                'nombre' => 'LEONCIO PRADO',
+                'ubigeo' => '100500',
+                'nombre' => 'Huamalíes',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -849,7 +941,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 93,
                 'tbldepartamento_id' => 10,
-                'nombre' => 'MARA&Ntilde;ON',
+                'ubigeo' => '100600',
+                'nombre' => 'Leoncio Prado',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -858,7 +951,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 94,
                 'tbldepartamento_id' => 10,
-                'nombre' => 'PACHITEA',
+                'ubigeo' => '100700',
+                'nombre' => 'Marañón',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -867,7 +961,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 95,
                 'tbldepartamento_id' => 10,
-                'nombre' => 'PUERTO INCA',
+                'ubigeo' => '100800',
+                'nombre' => 'Pachitea',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -876,7 +971,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 96,
                 'tbldepartamento_id' => 10,
-                'nombre' => 'LAURICOCHA',
+                'ubigeo' => '100900',
+                'nombre' => 'Puerto Inca',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -885,7 +981,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 97,
                 'tbldepartamento_id' => 10,
-                'nombre' => 'YAROWILCA',
+                'ubigeo' => '101000',
+                'nombre' => 'Lauricocha ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -893,8 +990,9 @@ class TblprovinciaTableSeeder extends Seeder
             97 => 
             array (
                 'id' => 98,
-                'tbldepartamento_id' => 11,
-                'nombre' => 'ICA',
+                'tbldepartamento_id' => 10,
+                'ubigeo' => '101100',
+                'nombre' => 'Yarowilca ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -903,7 +1001,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 99,
                 'tbldepartamento_id' => 11,
-                'nombre' => 'CHINCHA',
+                'ubigeo' => '110100',
+                'nombre' => 'Ica ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -912,7 +1011,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 100,
                 'tbldepartamento_id' => 11,
-                'nombre' => 'NAZCA',
+                'ubigeo' => '110200',
+                'nombre' => 'Chincha ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -921,7 +1021,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 101,
                 'tbldepartamento_id' => 11,
-                'nombre' => 'PALPA',
+                'ubigeo' => '110300',
+                'nombre' => 'Nasca ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -930,7 +1031,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 102,
                 'tbldepartamento_id' => 11,
-                'nombre' => 'PISCO',
+                'ubigeo' => '110400',
+                'nombre' => 'Palpa ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -938,8 +1040,9 @@ class TblprovinciaTableSeeder extends Seeder
             102 => 
             array (
                 'id' => 103,
-                'tbldepartamento_id' => 12,
-                'nombre' => 'HUANCAYO',
+                'tbldepartamento_id' => 11,
+                'ubigeo' => '110500',
+                'nombre' => 'Pisco ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -948,7 +1051,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 104,
                 'tbldepartamento_id' => 12,
-                'nombre' => 'CONCEPCION',
+                'ubigeo' => '120100',
+                'nombre' => 'Huancayo ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -957,7 +1061,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 105,
                 'tbldepartamento_id' => 12,
-                'nombre' => 'CHANCHAMAYO',
+                'ubigeo' => '120200',
+                'nombre' => 'Concepción ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -966,7 +1071,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 106,
                 'tbldepartamento_id' => 12,
-                'nombre' => 'JAUJA',
+                'ubigeo' => '120300',
+                'nombre' => 'Chanchamayo ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -975,7 +1081,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 107,
                 'tbldepartamento_id' => 12,
-                'nombre' => 'JUNIN',
+                'ubigeo' => '120400',
+                'nombre' => 'Jauja ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -984,7 +1091,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 108,
                 'tbldepartamento_id' => 12,
-                'nombre' => 'SATIPO',
+                'ubigeo' => '120500',
+                'nombre' => 'Junín ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -993,7 +1101,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 109,
                 'tbldepartamento_id' => 12,
-                'nombre' => 'TARMA',
+                'ubigeo' => '120600',
+                'nombre' => 'Satipo ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1002,7 +1111,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 110,
                 'tbldepartamento_id' => 12,
-                'nombre' => 'YAULI',
+                'ubigeo' => '120700',
+                'nombre' => 'Tarma ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1011,7 +1121,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 111,
                 'tbldepartamento_id' => 12,
-                'nombre' => 'CHUPACA',
+                'ubigeo' => '120800',
+                'nombre' => 'Yauli ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1019,8 +1130,9 @@ class TblprovinciaTableSeeder extends Seeder
             111 => 
             array (
                 'id' => 112,
-                'tbldepartamento_id' => 13,
-                'nombre' => 'TRUJILLO',
+                'tbldepartamento_id' => 12,
+                'ubigeo' => '120900',
+                'nombre' => 'Chupaca ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1029,7 +1141,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 113,
                 'tbldepartamento_id' => 13,
-                'nombre' => 'ASCOPE',
+                'ubigeo' => '130100',
+                'nombre' => 'Trujillo ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1038,7 +1151,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 114,
                 'tbldepartamento_id' => 13,
-                'nombre' => 'BOLIVAR',
+                'ubigeo' => '130200',
+                'nombre' => 'Ascope ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1047,7 +1161,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 115,
                 'tbldepartamento_id' => 13,
-                'nombre' => 'CHEPEN',
+                'ubigeo' => '130300',
+                'nombre' => 'Bolívar ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1056,7 +1171,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 116,
                 'tbldepartamento_id' => 13,
-                'nombre' => 'JULCAN',
+                'ubigeo' => '130400',
+                'nombre' => 'Chepén ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1065,7 +1181,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 117,
                 'tbldepartamento_id' => 13,
-                'nombre' => 'OTUZCO',
+                'ubigeo' => '130500',
+                'nombre' => 'Julcán ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1074,7 +1191,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 118,
                 'tbldepartamento_id' => 13,
-                'nombre' => 'PACASMAYO',
+                'ubigeo' => '130600',
+                'nombre' => 'Otuzco ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1083,7 +1201,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 119,
                 'tbldepartamento_id' => 13,
-                'nombre' => 'PATAZ',
+                'ubigeo' => '130700',
+                'nombre' => 'Pacasmayo ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1092,7 +1211,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 120,
                 'tbldepartamento_id' => 13,
-                'nombre' => 'SANCHEZ CARRION',
+                'ubigeo' => '130800',
+                'nombre' => 'Pataz ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1101,7 +1221,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 121,
                 'tbldepartamento_id' => 13,
-                'nombre' => 'SANTIAGO DE CHUCO',
+                'ubigeo' => '130900',
+                'nombre' => 'Sánchez Carrión ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1110,7 +1231,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 122,
                 'tbldepartamento_id' => 13,
-                'nombre' => 'GRAN CHIMU',
+                'ubigeo' => '131000',
+                'nombre' => 'Santiago de Chuco ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1119,7 +1241,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 123,
                 'tbldepartamento_id' => 13,
-                'nombre' => 'VIRU',
+                'ubigeo' => '131100',
+                'nombre' => 'Gran Chimú ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1127,8 +1250,9 @@ class TblprovinciaTableSeeder extends Seeder
             123 => 
             array (
                 'id' => 124,
-                'tbldepartamento_id' => 14,
-                'nombre' => 'CHICLAYO',
+                'tbldepartamento_id' => 13,
+                'ubigeo' => '131200',
+                'nombre' => 'Virú ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1137,7 +1261,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 125,
                 'tbldepartamento_id' => 14,
-                'nombre' => 'FERRE&Ntilde;AFE',
+                'ubigeo' => '140100',
+                'nombre' => 'Chiclayo ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1146,7 +1271,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 126,
                 'tbldepartamento_id' => 14,
-                'nombre' => 'LAMBAYEQUE',
+                'ubigeo' => '140200',
+                'nombre' => 'Ferreñafe ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1154,8 +1280,9 @@ class TblprovinciaTableSeeder extends Seeder
             126 => 
             array (
                 'id' => 127,
-                'tbldepartamento_id' => 15,
-                'nombre' => 'LIMA',
+                'tbldepartamento_id' => 14,
+                'ubigeo' => '140300',
+                'nombre' => 'Lambayeque ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1164,7 +1291,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 128,
                 'tbldepartamento_id' => 15,
-                'nombre' => 'BARRANCA',
+                'ubigeo' => '150100',
+                'nombre' => 'Lima ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1173,7 +1301,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 129,
                 'tbldepartamento_id' => 15,
-                'nombre' => 'CAJATAMBO',
+                'ubigeo' => '150200',
+                'nombre' => 'Barranca ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1182,7 +1311,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 130,
                 'tbldepartamento_id' => 15,
-                'nombre' => 'CANTA',
+                'ubigeo' => '150300',
+                'nombre' => 'Cajatambo ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1191,7 +1321,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 131,
                 'tbldepartamento_id' => 15,
-                'nombre' => 'CA&Ntilde;ETE',
+                'ubigeo' => '150400',
+                'nombre' => 'Canta ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1200,7 +1331,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 132,
                 'tbldepartamento_id' => 15,
-                'nombre' => 'HUARAL',
+                'ubigeo' => '150500',
+                'nombre' => 'Cañete ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1209,7 +1341,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 133,
                 'tbldepartamento_id' => 15,
-                'nombre' => 'HUAROCHIRI',
+                'ubigeo' => '150600',
+                'nombre' => 'Huaral ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1218,7 +1351,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 134,
                 'tbldepartamento_id' => 15,
-                'nombre' => 'HUAURA',
+                'ubigeo' => '150700',
+                'nombre' => 'Huarochirí ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1227,7 +1361,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 135,
                 'tbldepartamento_id' => 15,
-                'nombre' => 'OYON',
+                'ubigeo' => '150800',
+                'nombre' => 'Huaura ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1236,7 +1371,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 136,
                 'tbldepartamento_id' => 15,
-                'nombre' => 'YAUYOS',
+                'ubigeo' => '150900',
+                'nombre' => 'Oyón ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1244,8 +1380,9 @@ class TblprovinciaTableSeeder extends Seeder
             136 => 
             array (
                 'id' => 137,
-                'tbldepartamento_id' => 16,
-                'nombre' => 'MAYNAS',
+                'tbldepartamento_id' => 15,
+                'ubigeo' => '151000',
+                'nombre' => 'Yauyos ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1254,7 +1391,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 138,
                 'tbldepartamento_id' => 16,
-                'nombre' => 'ALTO AMAZONAS',
+                'ubigeo' => '160100',
+                'nombre' => 'Maynas ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1263,7 +1401,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 139,
                 'tbldepartamento_id' => 16,
-                'nombre' => 'LORETO',
+                'ubigeo' => '160200',
+                'nombre' => 'Alto Amazonas ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1272,7 +1411,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 140,
                 'tbldepartamento_id' => 16,
-                'nombre' => 'MARISCAL RAMON CASTILLA',
+                'ubigeo' => '160300',
+                'nombre' => 'Loreto ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1281,7 +1421,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 141,
                 'tbldepartamento_id' => 16,
-                'nombre' => 'REQUENA',
+                'ubigeo' => '160400',
+                'nombre' => 'Mariscal Ramón Castilla ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1290,7 +1431,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 142,
                 'tbldepartamento_id' => 16,
-                'nombre' => 'UCAYALI',
+                'ubigeo' => '160500',
+                'nombre' => 'Requena ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1298,8 +1440,9 @@ class TblprovinciaTableSeeder extends Seeder
             142 => 
             array (
                 'id' => 143,
-                'tbldepartamento_id' => 17,
-                'nombre' => 'TAMBOPATA',
+                'tbldepartamento_id' => 16,
+                'ubigeo' => '160600',
+                'nombre' => 'Ucayali ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1307,8 +1450,9 @@ class TblprovinciaTableSeeder extends Seeder
             143 => 
             array (
                 'id' => 144,
-                'tbldepartamento_id' => 17,
-                'nombre' => 'MANU',
+                'tbldepartamento_id' => 16,
+                'ubigeo' => '160700',
+                'nombre' => 'Datem del Marañón ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1316,8 +1460,9 @@ class TblprovinciaTableSeeder extends Seeder
             144 => 
             array (
                 'id' => 145,
-                'tbldepartamento_id' => 17,
-                'nombre' => 'TAHUAMANU',
+                'tbldepartamento_id' => 16,
+                'ubigeo' => '160800',
+                'nombre' => 'Putumayo',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1325,8 +1470,9 @@ class TblprovinciaTableSeeder extends Seeder
             145 => 
             array (
                 'id' => 146,
-                'tbldepartamento_id' => 18,
-                'nombre' => 'MARISCAL NIETO',
+                'tbldepartamento_id' => 17,
+                'ubigeo' => '170100',
+                'nombre' => 'Tambopata ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1334,8 +1480,9 @@ class TblprovinciaTableSeeder extends Seeder
             146 => 
             array (
                 'id' => 147,
-                'tbldepartamento_id' => 18,
-                'nombre' => 'GENERAL SANCHEZ CERRO',
+                'tbldepartamento_id' => 17,
+                'ubigeo' => '170200',
+                'nombre' => 'Manu ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1343,8 +1490,9 @@ class TblprovinciaTableSeeder extends Seeder
             147 => 
             array (
                 'id' => 148,
-                'tbldepartamento_id' => 18,
-                'nombre' => 'ILO',
+                'tbldepartamento_id' => 17,
+                'ubigeo' => '170300',
+                'nombre' => 'Tahuamanu ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1352,8 +1500,9 @@ class TblprovinciaTableSeeder extends Seeder
             148 => 
             array (
                 'id' => 149,
-                'tbldepartamento_id' => 19,
-                'nombre' => 'PASCO',
+                'tbldepartamento_id' => 18,
+                'ubigeo' => '180100',
+                'nombre' => 'Mariscal Nieto ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1361,8 +1510,9 @@ class TblprovinciaTableSeeder extends Seeder
             149 => 
             array (
                 'id' => 150,
-                'tbldepartamento_id' => 19,
-                'nombre' => 'DANIEL ALCIDES CARRION',
+                'tbldepartamento_id' => 18,
+                'ubigeo' => '180200',
+                'nombre' => 'General Sánchez Cerro ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1370,8 +1520,9 @@ class TblprovinciaTableSeeder extends Seeder
             150 => 
             array (
                 'id' => 151,
-                'tbldepartamento_id' => 19,
-                'nombre' => 'OXAPAMPA',
+                'tbldepartamento_id' => 18,
+                'ubigeo' => '180300',
+                'nombre' => 'Ilo ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1379,8 +1530,9 @@ class TblprovinciaTableSeeder extends Seeder
             151 => 
             array (
                 'id' => 152,
-                'tbldepartamento_id' => 20,
-                'nombre' => 'PIURA',
+                'tbldepartamento_id' => 19,
+                'ubigeo' => '190100',
+                'nombre' => 'Pasco ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1388,8 +1540,9 @@ class TblprovinciaTableSeeder extends Seeder
             152 => 
             array (
                 'id' => 153,
-                'tbldepartamento_id' => 20,
-                'nombre' => 'AYABACA',
+                'tbldepartamento_id' => 19,
+                'ubigeo' => '190200',
+                'nombre' => 'Daniel Alcides Carrión ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1397,8 +1550,9 @@ class TblprovinciaTableSeeder extends Seeder
             153 => 
             array (
                 'id' => 154,
-                'tbldepartamento_id' => 20,
-                'nombre' => 'HUANCABAMBA',
+                'tbldepartamento_id' => 19,
+                'ubigeo' => '190300',
+                'nombre' => 'Oxapampa ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1407,7 +1561,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 155,
                 'tbldepartamento_id' => 20,
-                'nombre' => 'MORROPON',
+                'ubigeo' => '200100',
+                'nombre' => 'Piura ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1416,7 +1571,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 156,
                 'tbldepartamento_id' => 20,
-                'nombre' => 'PAITA',
+                'ubigeo' => '200200',
+                'nombre' => 'Ayabaca ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1425,7 +1581,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 157,
                 'tbldepartamento_id' => 20,
-                'nombre' => 'SULLANA',
+                'ubigeo' => '200300',
+                'nombre' => 'Huancabamba ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1434,7 +1591,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 158,
                 'tbldepartamento_id' => 20,
-                'nombre' => 'TALARA',
+                'ubigeo' => '200400',
+                'nombre' => 'Morropón ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1443,7 +1601,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 159,
                 'tbldepartamento_id' => 20,
-                'nombre' => 'SECHURA',
+                'ubigeo' => '200500',
+                'nombre' => 'Paita ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1451,8 +1610,9 @@ class TblprovinciaTableSeeder extends Seeder
             159 => 
             array (
                 'id' => 160,
-                'tbldepartamento_id' => 21,
-                'nombre' => 'PUNO',
+                'tbldepartamento_id' => 20,
+                'ubigeo' => '200600',
+                'nombre' => 'Sullana ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1460,8 +1620,9 @@ class TblprovinciaTableSeeder extends Seeder
             160 => 
             array (
                 'id' => 161,
-                'tbldepartamento_id' => 21,
-                'nombre' => 'AZANGARO',
+                'tbldepartamento_id' => 20,
+                'ubigeo' => '200700',
+                'nombre' => 'Talara ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1469,8 +1630,9 @@ class TblprovinciaTableSeeder extends Seeder
             161 => 
             array (
                 'id' => 162,
-                'tbldepartamento_id' => 21,
-                'nombre' => 'CARABAYA',
+                'tbldepartamento_id' => 20,
+                'ubigeo' => '200800',
+                'nombre' => 'Sechura ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1479,7 +1641,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 163,
                 'tbldepartamento_id' => 21,
-                'nombre' => 'CHUCUITO',
+                'ubigeo' => '210100',
+                'nombre' => 'Puno ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1488,7 +1651,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 164,
                 'tbldepartamento_id' => 21,
-                'nombre' => 'EL COLLAO',
+                'ubigeo' => '210200',
+                'nombre' => 'Azángaro ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1497,7 +1661,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 165,
                 'tbldepartamento_id' => 21,
-                'nombre' => 'HUANCANE',
+                'ubigeo' => '210300',
+                'nombre' => 'Carabaya ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1506,7 +1671,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 166,
                 'tbldepartamento_id' => 21,
-                'nombre' => 'LAMPA',
+                'ubigeo' => '210400',
+                'nombre' => 'Chucuito ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1515,7 +1681,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 167,
                 'tbldepartamento_id' => 21,
-                'nombre' => 'MELGAR',
+                'ubigeo' => '210500',
+                'nombre' => 'El Collao ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1524,7 +1691,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 168,
                 'tbldepartamento_id' => 21,
-                'nombre' => 'MOHO',
+                'ubigeo' => '210600',
+                'nombre' => 'Huancané ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1533,7 +1701,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 169,
                 'tbldepartamento_id' => 21,
-                'nombre' => 'SAN ANTONIO DE PUTINA',
+                'ubigeo' => '210700',
+                'nombre' => 'Lampa ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1542,7 +1711,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 170,
                 'tbldepartamento_id' => 21,
-                'nombre' => 'SAN ROMAN',
+                'ubigeo' => '210800',
+                'nombre' => 'Melgar ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1551,7 +1721,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 171,
                 'tbldepartamento_id' => 21,
-                'nombre' => 'SANDIA',
+                'ubigeo' => '210900',
+                'nombre' => 'Moho ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1560,7 +1731,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 172,
                 'tbldepartamento_id' => 21,
-                'nombre' => 'YUNGUYO',
+                'ubigeo' => '211000',
+                'nombre' => 'San Antonio de Putina ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1568,8 +1740,9 @@ class TblprovinciaTableSeeder extends Seeder
             172 => 
             array (
                 'id' => 173,
-                'tbldepartamento_id' => 22,
-                'nombre' => 'MOYOBAMBA',
+                'tbldepartamento_id' => 21,
+                'ubigeo' => '211100',
+                'nombre' => 'San Román ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1577,8 +1750,9 @@ class TblprovinciaTableSeeder extends Seeder
             173 => 
             array (
                 'id' => 174,
-                'tbldepartamento_id' => 22,
-                'nombre' => 'BELLAVISTA',
+                'tbldepartamento_id' => 21,
+                'ubigeo' => '211200',
+                'nombre' => 'Sandia ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1586,8 +1760,9 @@ class TblprovinciaTableSeeder extends Seeder
             174 => 
             array (
                 'id' => 175,
-                'tbldepartamento_id' => 22,
-                'nombre' => 'EL DORADO',
+                'tbldepartamento_id' => 21,
+                'ubigeo' => '211300',
+                'nombre' => 'Yunguyo ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1596,7 +1771,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 176,
                 'tbldepartamento_id' => 22,
-                'nombre' => 'HUALLAGA',
+                'ubigeo' => '220100',
+                'nombre' => 'Moyobamba ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1605,7 +1781,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 177,
                 'tbldepartamento_id' => 22,
-                'nombre' => 'LAMAS',
+                'ubigeo' => '220200',
+                'nombre' => 'Bellavista ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1614,7 +1791,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 178,
                 'tbldepartamento_id' => 22,
-                'nombre' => 'MARISCAL CACERES',
+                'ubigeo' => '220300',
+                'nombre' => 'El Dorado ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1623,7 +1801,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 179,
                 'tbldepartamento_id' => 22,
-                'nombre' => 'PICOTA',
+                'ubigeo' => '220400',
+                'nombre' => 'Huallaga ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1632,7 +1811,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 180,
                 'tbldepartamento_id' => 22,
-                'nombre' => 'RIOJA',
+                'ubigeo' => '220500',
+                'nombre' => 'Lamas ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1641,7 +1821,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 181,
                 'tbldepartamento_id' => 22,
-                'nombre' => 'SAN MARTIN',
+                'ubigeo' => '220600',
+                'nombre' => 'Mariscal Cáceres ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1650,7 +1831,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 182,
                 'tbldepartamento_id' => 22,
-                'nombre' => 'TOCACHE',
+                'ubigeo' => '220700',
+                'nombre' => 'Picota ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1658,8 +1840,9 @@ class TblprovinciaTableSeeder extends Seeder
             182 => 
             array (
                 'id' => 183,
-                'tbldepartamento_id' => 23,
-                'nombre' => 'TACNA',
+                'tbldepartamento_id' => 22,
+                'ubigeo' => '220800',
+                'nombre' => 'Rioja ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1667,8 +1850,9 @@ class TblprovinciaTableSeeder extends Seeder
             183 => 
             array (
                 'id' => 184,
-                'tbldepartamento_id' => 23,
-                'nombre' => 'CANDARAVE',
+                'tbldepartamento_id' => 22,
+                'ubigeo' => '220900',
+                'nombre' => 'San Martín ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1676,8 +1860,9 @@ class TblprovinciaTableSeeder extends Seeder
             184 => 
             array (
                 'id' => 185,
-                'tbldepartamento_id' => 23,
-                'nombre' => 'JORGE BASADRE',
+                'tbldepartamento_id' => 22,
+                'ubigeo' => '221000',
+                'nombre' => 'Tocache ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1686,7 +1871,8 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 186,
                 'tbldepartamento_id' => 23,
-                'nombre' => 'TARATA',
+                'ubigeo' => '230100',
+                'nombre' => 'Tacna ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1694,8 +1880,9 @@ class TblprovinciaTableSeeder extends Seeder
             186 => 
             array (
                 'id' => 187,
-                'tbldepartamento_id' => 24,
-                'nombre' => 'TUMBES',
+                'tbldepartamento_id' => 23,
+                'ubigeo' => '230200',
+                'nombre' => 'Candarave ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1703,8 +1890,9 @@ class TblprovinciaTableSeeder extends Seeder
             187 => 
             array (
                 'id' => 188,
-                'tbldepartamento_id' => 24,
-                'nombre' => 'CONTRALMIRANTE VILLAR',
+                'tbldepartamento_id' => 23,
+                'ubigeo' => '230300',
+                'nombre' => 'Jorge Basadre ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1712,8 +1900,9 @@ class TblprovinciaTableSeeder extends Seeder
             188 => 
             array (
                 'id' => 189,
-                'tbldepartamento_id' => 24,
-                'nombre' => 'ZARUMILLA',
+                'tbldepartamento_id' => 23,
+                'ubigeo' => '230400',
+                'nombre' => 'Tarata ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1721,8 +1910,9 @@ class TblprovinciaTableSeeder extends Seeder
             189 => 
             array (
                 'id' => 190,
-                'tbldepartamento_id' => 25,
-                'nombre' => 'CORONEL PORTILLO',
+                'tbldepartamento_id' => 24,
+                'ubigeo' => '240100',
+                'nombre' => 'Tumbes ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1730,8 +1920,9 @@ class TblprovinciaTableSeeder extends Seeder
             190 => 
             array (
                 'id' => 191,
-                'tbldepartamento_id' => 25,
-                'nombre' => 'ATALAYA',
+                'tbldepartamento_id' => 24,
+                'ubigeo' => '240200',
+                'nombre' => 'Contralmirante Villar ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1739,8 +1930,9 @@ class TblprovinciaTableSeeder extends Seeder
             191 => 
             array (
                 'id' => 192,
-                'tbldepartamento_id' => 25,
-                'nombre' => 'PADRE ABAD',
+                'tbldepartamento_id' => 24,
+                'ubigeo' => '240300',
+                'nombre' => 'Zarumilla ',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
@@ -1749,7 +1941,38 @@ class TblprovinciaTableSeeder extends Seeder
             array (
                 'id' => 193,
                 'tbldepartamento_id' => 25,
-                'nombre' => 'PURUS',
+                'ubigeo' => '250100',
+                'nombre' => 'Coronel Portillo ',
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            193 => 
+            array (
+                'id' => 194,
+                'tbldepartamento_id' => 25,
+                'ubigeo' => '250200',
+                'nombre' => 'Atalaya ',
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            194 => 
+            array (
+                'id' => 195,
+                'tbldepartamento_id' => 25,
+                'ubigeo' => '250300',
+                'nombre' => 'Padre Abad ',
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            195 => 
+            array (
+                'id' => 196,
+                'tbldepartamento_id' => 25,
+                'ubigeo' => '250400',
+                'nombre' => 'Purús',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
