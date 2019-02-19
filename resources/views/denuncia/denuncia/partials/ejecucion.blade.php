@@ -285,7 +285,7 @@
                     <div class="row">
                       {{ Form::label('tblmedida_id', 'Tipo de medida:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                       <div class="col-sm-8">
-                        <label style="text-align: right;width: 100%;" for="tblmedida_id" class="input-sm" autofocus="" id="tblmedida_id" autocomplete="off">{{$denuncia->tblmedida->nombre}}</label>
+                        <label style="text-align: right;width: 100%;" for="tblmedida_id" class="input-sm" autofocus="" id="tblmedida_id" autocomplete="off">{{(isset($denuncia->tblmedida->nombre) && !empty($denuncia->tblmedida->nombre) ? $denuncia->tblmedida->nombre : '-' )}}</label>
                       </div>
                     </div>
                   </div>
