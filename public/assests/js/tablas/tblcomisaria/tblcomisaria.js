@@ -1,3 +1,8 @@
+$(document).ready(function() {
+    $('#parent').remove();
+    $(".breadcrumb").append('<li id="parent" class="active"><img style="height: 14px;margin-right: 2px;" src="/assests/img/icons/police-station-o.png"> Instituciones</li>');
+}); 
+
 $(document).on('click', 'a.page-link', function (event) {
     event.preventDefault();
     ajaxLoad($(this).attr('href'));
@@ -11,21 +16,21 @@ function ajaxLoad(filename, content, action = '', message = '') {
         var redirect = "javascript:ajaxLoad(\""+filename.split("tblcomisaria")[0]+"tblcomisaria"+"\")";
         if (filename.indexOf('edit') != -1) {
             $('#parent').remove();
-            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-medkit'></i> Instituciones</a></li><li id='li_edit' class='active'><i class='fa fa-edit'></i> Editar Institución</li>");
+            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><img style='height: 14px;margin-right: 2px;' src='/assests/img/icons/police-station-o.png'> Instituciones</a></li><li id='li_edit' class='active'><i class='fa fa-edit'></i> Editar Institución</li>");
         }else if (filename.indexOf('create') != -1) {
             $('#parent').remove();
-            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-medkit'></i> Instituciones</a></li><li id='li_create' class='active'><i class='fa fa-edit'></i> Crear Institución</li>");
+            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><img style='height: 14px;margin-right: 2px;' src='/assests/img/icons/police-station-o.png'> Instituciones</a></li><li id='li_create' class='active'><i class='fa fa-edit'></i> Crear Institución</li>");
         }else {
             $('#li_create').remove();
             $('#li_edit').remove();
             $('#parent').remove();
-            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Instituciones</li>');
+            $(".breadcrumb").append('<li id="parent" class="active"><img style="height: 14px;margin-right: 2px;" src="/assests/img/icons/police-station-o.png"> Instituciones</li>');
         }
     }else{
         $('#li_create').remove();
         $('#li_edit').remove();
         $('#parent').remove();
-        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Instituciones</li>');
+        $(".breadcrumb").append('<li id="parent" class="active"><img style="height: 14px;margin-right: 2px;" src="/assests/img/icons/police-station-o.png"> Instituciones</li>');
     }
 
     content = typeof content !== 'undefined' ? content : 'content_ajax';

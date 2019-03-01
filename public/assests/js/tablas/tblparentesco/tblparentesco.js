@@ -1,3 +1,8 @@
+$(document).ready(function() {
+    $('#parent').remove();
+    $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-group"></i> Parentescos</li>');
+});
+
 $(document).on('click', 'a.page-link', function (event) {
     event.preventDefault();
     ajaxLoad($(this).attr('href'));
@@ -19,13 +24,13 @@ function ajaxLoad(filename, content, action = '', message = '') {
             $('#li_create').remove();
             $('#li_edit').remove();
             $('#parent').remove();
-            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Parentescos</li>');
+            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-group"></i> Parentescos</li>');
         }
     }else{
         $('#li_create').remove();
         $('#li_edit').remove();
         $('#parent').remove();
-        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Parentescos</li>');
+        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-group"></i> Parentescos</li>');
     }
 
     content = typeof content !== 'undefined' ? content : 'content_ajax';

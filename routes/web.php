@@ -330,9 +330,34 @@ Route::middleware(['auth'])->group(function () {
     Route::get('agresor/{agresor}/edit', 'AgresorController@edit')->name('agresor.edit')
         ->middleware('permission:agresor.edit');
 
+    // Documentos
+    Route::post('documento/store', 'DocumentoController@store')->name('ddocumento.store')
+        ->middleware('permission:ddocumento.create');
+
+    Route::get('documento', 'DocumentoController@index')->name('ddocumento.index')
+        ->middleware('permission:ddocumento.index');
+
+    Route::get('documento/create', 'DocumentoController@create')->name('ddocumento.create')
+        ->middleware('permission:ddocumento.create');
+
+    Route::put('documento/{documento}', 'DocumentoController@update')->name('ddocumento.update')
+        ->middleware('permission:ddocumento.edit');
+
+    Route::get('documento/{documento}', 'DocumentoController@show')->name('ddocumento.show')
+        ->middleware('permission:ddocumento.show');
+
+    Route::delete('documento/{documento}', 'DocumentoController@destroy')->name('ddocumento.destroy')
+        ->middleware('permission:ddocumento.destroy');
+
+    Route::get('documento/{documento}/edit', 'DocumentoController@edit')->name('ddocumento.edit')
+        ->middleware('permission:ddocumento.edit');
+
     // Denuncias
     Route::get('denuncia/getGData', 'DenunciaController@getGData')->name('denuncia.getGData')
         ->middleware('permission:denuncia.getGData');
+
+    Route::get('denuncia/documento', 'DenunciaController@documento')->name('denuncia.documento')
+        ->middleware('permission:denuncia.documento');
 
     Route::get('denuncia/report', 'DenunciaController@report')->name('denuncia.report')
         ->middleware('permission:denuncia.report');

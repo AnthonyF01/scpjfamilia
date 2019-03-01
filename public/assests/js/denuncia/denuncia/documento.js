@@ -1,6 +1,8 @@
 $(document).ready(function() {
+
     $('#parent').remove();
-    $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-credit-card"></i> Documentos</li>');
+    $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-file"></i> Documentos Digitalizados</li>');
+
 });
 
 $(document).on('click', 'a.page-link', function (event) {
@@ -10,27 +12,26 @@ $(document).on('click', 'a.page-link', function (event) {
 
 // Carga todas las vistas: index, create, edit.
 function ajaxLoad(filename, content, action = '', message = '') {
-
     // add breadcrumb
     if (typeof filename !== 'undefined' && filename != '') {
-        var redirect = "javascript:ajaxLoad(\""+filename.split("tbldocumento")[0]+"tbldocumento"+"\")";
+        var redirect = "javascript:ajaxLoad(\""+filename.split("digitalizado")[0]+"digitalizado"+"\")";
         if (filename.indexOf('edit') != -1) {
             $('#parent').remove();
-            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-credit-card'></i> Documentos</a></li><li id='li_edit' class='active'><i class='fa fa-edit'></i> Editar Documento</li>");
+            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-medkit'></i> Documentos Digitalizados</a></li><li id='li_edit' class='active'><i class='fa fa-edit'></i> Editar Documento Digitalizado</li>");
         }else if (filename.indexOf('create') != -1) {
             $('#parent').remove();
-            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-credit-card'></i> Documentos</a></li><li id='li_create' class='active'><i class='fa fa-edit'></i> Crear Documento</li>");
+            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-medkit'></i> Documentos Digitalizados</a></li><li id='li_create' class='active'><i class='fa fa-edit'></i> Crear Documento Digitalizado</li>");
         }else {
             $('#li_create').remove();
             $('#li_edit').remove();
             $('#parent').remove();
-            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-credit-card"></i> Documentos</li>');
+            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Documentos Digitalizados</li>');
         }
     }else{
         $('#li_create').remove();
         $('#li_edit').remove();
         $('#parent').remove();
-        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-credit-card"></i> Documentos</li>');
+        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Documentos Digitalizados</li>');
     }
 
     content = typeof content !== 'undefined' ? content : 'content_ajax';
@@ -60,7 +61,7 @@ function ajaxLoad(filename, content, action = '', message = '') {
     });
 }
 
-$(document).on('submit', 'form#form_documento', function (event) {
+$(document).on('submit', 'form#form_centrosalud', function (event) {
     event.preventDefault();
     var form = $(this);
     var data = new FormData($(this)[0]);
@@ -111,6 +112,6 @@ function ajaxDelete(filename, token, content) {
 function showRow(elm) {
     var value = $(elm).val();
     var path = "{{ url('/') }}";
-    var str = "/tbldocumento?show=" + value;
+    var str = "/digitalizado?show=" + value;
     javascript:ajaxLoad(str);
 }

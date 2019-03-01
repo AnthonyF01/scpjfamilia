@@ -1,3 +1,8 @@
+$(document).ready(function() {
+    $('#parent').remove();
+    $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-medkit"></i> Centros de Salud</li>');
+});
+
 $(document).on('click', 'a.page-link', function (event) {
     event.preventDefault();
     ajaxLoad($(this).attr('href'));
@@ -5,7 +10,6 @@ $(document).on('click', 'a.page-link', function (event) {
 
 // Carga todas las vistas: index, create, edit.
 function ajaxLoad(filename, content, action = '', message = '') {
-
     // add breadcrumb
     if (typeof filename !== 'undefined' && filename != '') {
         var redirect = "javascript:ajaxLoad(\""+filename.split("tblcentrosalud")[0]+"tblcentrosalud"+"\")";
@@ -19,13 +23,13 @@ function ajaxLoad(filename, content, action = '', message = '') {
             $('#li_create').remove();
             $('#li_edit').remove();
             $('#parent').remove();
-            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Centros de Salud</li>');
+            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-medkit"></i> Centros de Salud</li>');
         }
     }else{
         $('#li_create').remove();
         $('#li_edit').remove();
         $('#parent').remove();
-        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Centros de Salud</li>');
+        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-medkit"></i> Centros de Salud</li>');
     }
 
     content = typeof content !== 'undefined' ? content : 'content_ajax';

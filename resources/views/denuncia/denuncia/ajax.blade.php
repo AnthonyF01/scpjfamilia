@@ -234,7 +234,7 @@
                   <td class="width-20 fweight">Oficio:</td>
                   <td class="width-30">{{ $denuncia->oficio }}</td>
                   <td class="width-20 fweight">Institución:</td>
-                  <td class="width-30">{{ $denuncia->tblcomisaria->nombre }}</td>
+                  <td class="width-30">{{ (isset($denuncia->tblcomisaria->nombre) && !empty($denuncia->tblcomisaria->nombre)) ? $denuncia->tblcomisaria->nombre : '-' }}</td>
                 </tr>
                 <tr>
                   <td class="width-20 fweight">Fecha de Denuncia:</td>

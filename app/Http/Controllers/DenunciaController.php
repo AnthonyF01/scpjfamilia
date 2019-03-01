@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Auth;
 use PDF;
+use App\Models\Documento;
 use App\Models\Denuncia;
 use App\Models\Agresor;
 use App\Models\Victima;

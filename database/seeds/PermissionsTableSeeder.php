@@ -746,6 +746,51 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2019-02-14 01:11:24',
                 'updated_at' => '2019-02-14 01:11:24',
             ),
+            81 => 
+            array (
+                'id' => 82,
+                'name' => 'Navegar documentos digitalizados',
+                'slug' => 'ddocumento.index',
+                'description' => 'Navegar documentos digitalizados',
+                'created_at' => '2019-02-14 01:11:24',
+                'updated_at' => '2019-02-14 01:11:24',
+            ),
+            82 => 
+            array (
+                'id' => 83,
+                'name' => 'Ver detalle de un documento digitalizado',
+                'slug' => 'ddocumento.show',
+                'description' => 'Ver detalle de un documento digitalizado',
+                'created_at' => '2019-02-14 01:11:24',
+                'updated_at' => '2019-02-14 01:11:24',
+            ),
+            83 => 
+            array (
+                'id' => 84,
+                'name' => 'Crear documento digitalizado',
+                'slug' => 'ddocumento.create',
+                'description' => 'Crear documento digitalizado',
+                'created_at' => '2019-02-14 01:11:24',
+                'updated_at' => '2019-02-14 01:11:24',
+            ),
+            84 => 
+            array (
+                'id' => 85,
+                'name' => 'Editar documento digitalizado',
+                'slug' => 'ddocumento.edit',
+                'description' => 'Editar documento digitalizado',
+                'created_at' => '2019-02-14 01:11:24',
+                'updated_at' => '2019-02-14 01:11:24',
+            ),
+            85 => 
+            array (
+                'id' => 86,
+                'name' => 'Eliminar documento digitalizado',
+                'slug' => 'ddocumento.destroy',
+                'description' => 'Eliminar documento digitalizado',
+                'created_at' => '2019-02-14 01:11:24',
+                'updated_at' => '2019-02-14 01:11:24',
+            ),
         ));
         
         

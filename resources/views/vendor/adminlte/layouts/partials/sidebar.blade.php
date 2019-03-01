@@ -41,13 +41,16 @@
                 Inicio
             </span></a></li>
 
-            <li class="treeview @yield('denuncia') @yield('victima') @yield('agresor') @yield('report') @yield('import') @yield('estadistica')">
+            <li class="treeview @yield('documento') @yield('denuncia') @yield('victima') @yield('agresor') @yield('report') @yield('import') @yield('estadistica')">
                 <a href="javascript:;">
                     <i class="fa fa-angle-left pull-right"></i>
                     <i class="fa fa-balance-scale"></i>
                     <span>Adm. Ley Nº 30364</span>
                 </a>
                 <ul class="treeview-menu">
+                    @can ('ddocumento.index')
+                        <li class="@yield('documento')"><a href="{{ route('ddocumento.index') }}"><i class="fa fa-file-text"></i> Doc. Digitalizados</a></li>
+                    @endcan
                     <li class="treeview @yield('denuncia') @yield('victima') @yield('agresor')">
                         <a href="javascript:;"><i class="fa fa-indent"></i> Denuncias
                             <span class="pull-right-container">
@@ -105,7 +108,7 @@
                 </ul>
             </li>
 
-            <li class="treeview @yield('tblcentrosalud') @yield('tblcomisaria') @yield('tblinstancia') @yield('tblmotivo') @yield('tbldocumento') @yield('tbltipo') @yield('tblparentesco') @yield('tbldenuncia')">
+            <li class="treeview @yield('tblcentrosalud') @yield('tblcomisaria') @yield('tblinstancia') @yield('tblmotivo') @yield('tbldocumento') @yield('tbltipo') @yield('tblparentesco') @yield('tbldenuncia') @yield('tblmedida')@yield('tbltipo')">
                 <a href="javascript:;">
                     <i class="fa fa-angle-left pull-right"></i>
                     <i class="fa fa-list"></i>

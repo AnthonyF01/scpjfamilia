@@ -1,3 +1,8 @@
+$(document).ready(function() {
+    $('#parent').remove();
+    $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-object-group"></i> Tipo Victima</li>');
+});
+
 $(document).on('click', 'a.page-link', function (event) {
     event.preventDefault();
     ajaxLoad($(this).attr('href'));
@@ -11,21 +16,21 @@ function ajaxLoad(filename, content, action = '', message = '') {
         var redirect = "javascript:ajaxLoad(\""+filename.split("tbltipo")[0]+"tbltipo"+"\")";
         if (filename.indexOf('edit') != -1) {
             $('#parent').remove();
-            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-folder-open'></i> Tipos</a></li><li id='li_edit' class='active'><i class='fa fa-edit'></i> Editar Tipo</li>");
+            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-object-group'></i> Tipo Victima</a></li><li id='li_edit' class='active'><i class='fa fa-edit'></i> Editar Tipo</li>");
         }else if (filename.indexOf('create') != -1) {
             $('#parent').remove();
-            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-folder-open'></i> Tipos</a></li><li id='li_create' class='active'><i class='fa fa-edit'></i> Crear Tipo</li>");
+            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-object-group'></i> Tipo Victima</a></li><li id='li_create' class='active'><i class='fa fa-edit'></i> Crear Tipo</li>");
         }else {
             $('#li_create').remove();
             $('#li_edit').remove();
             $('#parent').remove();
-            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Tipos</li>');
+            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-object-group"></i> Tipo Victima</li>');
         }
     }else{
         $('#li_create').remove();
         $('#li_edit').remove();
         $('#parent').remove();
-        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Tipos</li>');
+        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-object-group"></i> Tipo Victima</li>');
     }
 
     content = typeof content !== 'undefined' ? content : 'content_ajax';
