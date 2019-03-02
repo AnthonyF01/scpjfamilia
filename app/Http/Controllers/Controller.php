@@ -20,5 +20,11 @@ class Controller extends BaseController
         unset($array[$key]);
         return $array;
     }
+
+    function clearString($string) {
+       $string = str_replace(' ', '-', $string);
+       return preg_replace('/[^A-Za-z0-9\-]/', '', $string);
+    }
+
     
 }

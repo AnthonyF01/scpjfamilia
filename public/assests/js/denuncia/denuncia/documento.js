@@ -17,21 +17,21 @@ function ajaxLoad(filename, content, action = '', message = '') {
         var redirect = "javascript:ajaxLoad(\""+filename.split("digitalizado")[0]+"digitalizado"+"\")";
         if (filename.indexOf('edit') != -1) {
             $('#parent').remove();
-            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-medkit'></i> Documentos Digitalizados</a></li><li id='li_edit' class='active'><i class='fa fa-edit'></i> Editar Documento Digitalizado</li>");
+            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-file'></i> Documentos Digitalizados</a></li><li id='li_edit' class='active'><i class='fa fa-edit'></i> Editar Documento Digitalizado</li>");
         }else if (filename.indexOf('create') != -1) {
             $('#parent').remove();
-            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-medkit'></i> Documentos Digitalizados</a></li><li id='li_create' class='active'><i class='fa fa-edit'></i> Crear Documento Digitalizado</li>");
+            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-file'></i> Documentos Digitalizados</a></li><li id='li_create' class='active'><i class='fa fa-edit'></i> Crear Documento Digitalizado</li>");
         }else {
             $('#li_create').remove();
             $('#li_edit').remove();
             $('#parent').remove();
-            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Documentos Digitalizados</li>');
+            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-file"></i> Documentos Digitalizados</li>');
         }
     }else{
         $('#li_create').remove();
         $('#li_edit').remove();
         $('#parent').remove();
-        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Documentos Digitalizados</li>');
+        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-file"></i> Documentos Digitalizados</li>');
     }
 
     content = typeof content !== 'undefined' ? content : 'content_ajax';
@@ -61,7 +61,7 @@ function ajaxLoad(filename, content, action = '', message = '') {
     });
 }
 
-$(document).on('submit', 'form#form_centrosalud', function (event) {
+$(document).on('submit', 'form#form_doc', function (event) {
     event.preventDefault();
     var form = $(this);
     var data = new FormData($(this)[0]);
@@ -77,6 +77,7 @@ $(document).on('submit', 'form#form_centrosalud', function (event) {
         success: function (data) {
             debugger;
             $('.is-invalid').removeClass('is-invalid');
+            $('span.invalid-feedback').html('');
             if (data.fail) {
                 for (control in data.errors) {
                     $('#' + control).addClass('is-invalid');
@@ -92,6 +93,23 @@ $(document).on('submit', 'form#form_centrosalud', function (event) {
     });
     return false;
 });
+
+function ajaxVerify(filename) {
+    debugger;
+    $.ajax({
+        type: 'GET',
+        // data: {_method: 'DELETE', _token: token},
+        url: filename,
+        cache: false, // al navegar atras se muestra todo correctamente
+        contentType: false,
+        success: function (data) {
+            ajaxLoad(data.redirect_url, content='content_ajax', data.type, data.info);
+        },
+        error: function (xhr, status, error) {
+            alert(xhr.responseText);
+        }
+    });
+}
 
 function ajaxDelete(filename, token, content) {
     debugger;

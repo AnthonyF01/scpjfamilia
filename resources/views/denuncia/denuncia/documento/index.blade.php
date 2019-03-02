@@ -18,6 +18,18 @@
 
 @section('css')
   <style>
+    .loading {
+      background: lightgrey;
+      padding: 20px;
+      position: fixed;
+      border-radius: 5px;
+      left: 59%;
+      top: 50%;
+      text-align: center;
+      margin: -40px 0 0 -50px;
+      z-index: 2000;
+      display: none;
+    }
     .menu_tab {
       padding: 15px 20px;
       /*font-size: 14px;*/
@@ -69,22 +81,14 @@
   </div>
 </div>
 
+<div class="loading" style="display: none;">
+  <i class="fa fa-refresh fa-spin fa-2x fa-tw"></i>
+  <br>
+  <span>Loading</span>
+</div>
+
 @endsection
 
 @section('js')
   <script src="{{ asset('assests/js/denuncia/denuncia/documento.js') }}"></script>
-  <script type="text/javascript">
-    $('#documento_file').fileinput({
-      theme: 'fa',
-      language: 'es',
-      showUpload: false,
-      showCaption: true,
-      showClose: true,
-      showBrowse: true,
-      showUploadedThumbs: false,
-      showPreview: false,
-      // uploadUrl: '#',
-      allowedFileExtensions: ['pdf']
-    });
-  </script>
 @endsection

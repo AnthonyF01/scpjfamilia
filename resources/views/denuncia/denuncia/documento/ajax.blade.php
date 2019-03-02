@@ -43,24 +43,36 @@
       <thead>
         <tr>
           <th width="10px">#</th>
+          @can ('ddocumento.verificar')    
+          {{-- @if ($roles[0] == 'admin' || $roles[0] == 'adminmodulo') --}}
+            <th class="modHeader" width="10px" title="Documento verificado" style="text-align: center;">
+              <i style="margin-right: 2px" class="fa fa-file"></i>
+            </th>
+          {{-- @endif --}}
+          @endcan
+          <th>
+            <a class="btn-block" href="javascript:ajaxLoad('{{url('documento?field=numero&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Nro. Documento
+               <i style="margin-right: 10px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+            </a>
+          </th>
 
           <th>
+            <a class="btn-block" href="javascript:ajaxLoad('{{url('documento?field=tipo&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Documento
+               <i style="margin-right: 10px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+            </a>
+          </th>
+
+          <th>
+            <a class="btn-block" href="javascript:ajaxLoad('{{url('documento?field=fecha&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Fecha
+               <i style="margin-right: 10px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+            </a>
+          </th>
+
+          {{-- <th>
             <a class="btn-block" href="javascript:ajaxLoad('{{url('documento?field=tblmodulo_id&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Modulo 
               <i style="margin-right: 10px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
             </a>
-          </th>
-
-          <th>
-            <a class="btn-block" href="javascript:ajaxLoad('{{url('documento?field=tbldepartamento_id&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Departamento
-               <i style="margin-right: 10px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
-            </a>
-          </th>
-
-          <th>
-            <a class="btn-block" href="javascript:ajaxLoad('{{url('documento?field=nombre&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Nombre
-               <i style="margin-right: 10px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
-            </a>
-          </th>
+          </th> --}}
 
           <th colspan="3" style="text-align: center;">Accion</th>
         </tr>
@@ -79,22 +91,40 @@
           @foreach($documentos as $documento)
             <tr>
               <td class="middle">{{ $counter++ + ( $documentos->perPage() * ( $documentos->currentPage() - 1 ) ) }}</td>
-              <td class="middle">{{ $documento->tblmodulo->nombre }}</td>
-              <td class="middle">{{ $documento->tbldepartamento->nombre }}</td>
-              <td class="middle">{{ $documento->nombre }}</td>
-              @can('ddocumento.edit')
-                <td width="10px">
-                  <a href="javascript:ajaxLoad('{{ route('ddocumento.edit', $documento->id) }}')" class="btn btn-xs btn-outline-warning"><i class="glyphicon glyphicon-edit"></i></a>
-                </td>
+              @can ('ddocumento.verificar')
+              {{-- @if ($roles[0] == 'admin' || $roles[0] == 'adminmodulo') --}}
+                <td class="middle modContent">@if ($documento->verificado) <small class="label bg-green">si</small> @else <small class="label bg-red">no</small> @endif</td>
+              {{-- @endif --}}
               @endcan 
-              @can('ddocumento.destroy')
-                <td width="10px">
+              <td class="middle">{{ $documento->numero }}</td>
+              <td class="middle">{{ $documento->tipo }}</td>
+              <td class="middle">{{ $documento->fecha }}</td>
+              {{-- <td class="middle">{{ $documento->tblmodulo->nombre }}</td> --}}
+              <td width="150" style="padding: 8px; text-align: center;">
+                @can ('ddocumento.verificar')
+                  @if (isset($documento->verificado) && !empty($documento->verificado) && ($documento->verificado))
+                    <a title="Documento verificado" href="javascript:void(0)" disabled class="btn btn-xs btn-outline-success"><i class="fa fa-check"></i></a>
+                  @else
+                    <a title="Verificar documento" href="javascript:ajaxVerify('{{ route('ddocumento.verificar', $documento->id) }}')" class="btn btn-xs btn-outline-success"><i class="fa fa-check"></i></a>
+                  @endif
+                @endcan 
+                @can ('ddocumento.download')
+                  @if (isset($documento->file) && !empty($documento->file) && isset(explode("documento/",$documento->file)[1]))
+                    <a title="Descargar Documento" href="{{ $documento->file }}" target="_blank" class="btn btn-xs btn-outline-primary"><i class="fa fa-download"></i></a>
+                  @else
+                    <a href="javascript:void(0)" disabled class="btn btn-xs btn-outline-primary"><i class="fa fa-file-o"></i></a>
+                  @endif
+                @endcan 
+                @can('ddocumento.edit')
+                  <a href="javascript:ajaxLoad('{{ route('ddocumento.edit', $documento->id) }}')" class="btn btn-xs btn-outline-warning"><i class="glyphicon glyphicon-edit"></i></a>
+                @endcan 
+                @can('ddocumento.destroy')
                   <input type="hidden" name="_method" value="delete"/>
                   <a class="btn btn-xs btn-outline-danger" href="javascript:if(confirm('¿Está seguro que desea eliminar este registro?')) ajaxDelete('{{ route('ddocumento.destroy', $documento->id) }}','{{csrf_token()}}')">
                       <i class="glyphicon glyphicon-trash"></i>
                   </a>
-                </td>
-              @endcan 
+                @endcan 
+              </td>
             </tr>
           @endforeach
 

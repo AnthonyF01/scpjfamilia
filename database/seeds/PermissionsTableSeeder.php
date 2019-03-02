@@ -791,6 +791,24 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2019-02-14 01:11:24',
                 'updated_at' => '2019-02-14 01:11:24',
             ),
+            86 => 
+            array (
+                'id' => 87,
+                'name' => 'Descargar documento digitalizado',
+                'slug' => 'ddocumento.download',
+                'description' => 'Descargar documento digitalizado',
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            87 => 
+            array (
+                'id' => 88,
+                'name' => 'Verificar documento digitalizado',
+                'slug' => 'ddocumento.verificar',
+                'description' => 'Verificar documento digitalizado',
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
         ));
         
         

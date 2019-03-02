@@ -352,6 +352,9 @@ Route::middleware(['auth'])->group(function () {
     Route::get('documento/{documento}/edit', 'DocumentoController@edit')->name('ddocumento.edit')
         ->middleware('permission:ddocumento.edit');
 
+    Route::get('documento/{documento}/verificar', 'DocumentoController@verificar')->name('ddocumento.verificar')
+        ->middleware('permission:ddocumento.verificar');
+
     // Denuncias
     Route::get('denuncia/getGData', 'DenunciaController@getGData')->name('denuncia.getGData')
         ->middleware('permission:denuncia.getGData');

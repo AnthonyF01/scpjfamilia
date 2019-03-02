@@ -202,7 +202,7 @@
           <td class="middle">{{ $denuncia->total }}</td>
           <td style="padding: 8px 4px;">
             @if (isset($denuncia->medida_file) && !empty($denuncia->medida_file))
-              <a title="Descargar Medida de Protección" href="{{ $denuncia->medida_file }}" target="_blank" class="btn btn-xs btn-outline-primary"><i class="fa fa-file"></i></a>
+              <a title="Descargar Medida de Protección" href="{{ $denuncia->medida_file }}" target="_blank" class="btn btn-xs btn-outline-primary"><i class="fa fa-download"></i></a>
             @else
               <a href="javascript:void(0)" disabled class="btn btn-xs btn-outline-primary"><i class="fa fa-file-o"></i></a>
             @endif

@@ -577,6 +577,70 @@ class PermissionRoleTableSeeder extends Seeder
                 'created_at' => '2019-02-28 16:16:52',
                 'updated_at' => '2019-02-28 16:16:52',
             ),
+            70 => 
+            array (
+                'id' => 74,
+                'permission_id' => 87,
+                'role_id' => 3,
+                'created_at' => '2019-03-02 13:02:25',
+                'updated_at' => '2019-03-02 13:02:25',
+            ),
+            71 => 
+            array (
+                'id' => 75,
+                'permission_id' => 82,
+                'role_id' => 2,
+                'created_at' => '2019-03-02 13:46:37',
+                'updated_at' => '2019-03-02 13:46:37',
+            ),
+            72 => 
+            array (
+                'id' => 76,
+                'permission_id' => 83,
+                'role_id' => 2,
+                'created_at' => '2019-03-02 13:46:37',
+                'updated_at' => '2019-03-02 13:46:37',
+            ),
+            73 => 
+            array (
+                'id' => 77,
+                'permission_id' => 84,
+                'role_id' => 2,
+                'created_at' => '2019-03-02 13:46:37',
+                'updated_at' => '2019-03-02 13:46:37',
+            ),
+            74 => 
+            array (
+                'id' => 78,
+                'permission_id' => 85,
+                'role_id' => 2,
+                'created_at' => '2019-03-02 13:46:37',
+                'updated_at' => '2019-03-02 13:46:37',
+            ),
+            75 => 
+            array (
+                'id' => 79,
+                'permission_id' => 86,
+                'role_id' => 2,
+                'created_at' => '2019-03-02 13:46:37',
+                'updated_at' => '2019-03-02 13:46:37',
+            ),
+            76 => 
+            array (
+                'id' => 80,
+                'permission_id' => 87,
+                'role_id' => 2,
+                'created_at' => '2019-03-02 13:46:37',
+                'updated_at' => '2019-03-02 13:46:37',
+            ),
+            77 => 
+            array (
+                'id' => 81,
+                'permission_id' => 88,
+                'role_id' => 2,
+                'created_at' => '2019-03-02 13:46:37',
+                'updated_at' => '2019-03-02 13:46:37',
+            ),
         ));
         
         

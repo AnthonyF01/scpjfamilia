@@ -21,7 +21,7 @@ class Documento extends Model
      *
      * @var array
      */
-    protected $fillable = [ 'user_id', 'numero', 'tipo', 'file', 'tblmodulo_id', 'created_at', 'updated_at' ];
+    protected $fillable = [ 'user_id', 'numero', 'fecha', 'tipo', 'file', 'tblmodulo_id', 'created_at', 'updated_at' ];
 
     /**
     * The attributes that aren't mass assignable.
@@ -36,4 +36,15 @@ class Documento extends Model
     {
         return $this->fillable;
     }
+
+    public function tblmodulo ()
+    {
+        return $this->belongsTo(Tblmodulo::class);  // !importante - Para los modelos  =>  Category::class
+    }
+
+    public function getFechaAttribute($value)
+    {
+        return (isset($value) && !empty($value)) ? date('d/m/Y',strtotime($value)) : '';
+    }
+
 }

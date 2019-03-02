@@ -16,10 +16,12 @@ class CreateDocumentoTable extends Migration
         Schema::create('documento', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('user_id')->unsigned();
+            $table->date('fecha');
             $table->string('numero')->unique();
             $table->string('tipo');
             $table->string('file');
             $table->integer('tblmodulo_id')->unsigned()->nullable();
+            $table->boolean('verificado')->default(0);
             $table->timestamps();
             $table->softDeletes();
         });
