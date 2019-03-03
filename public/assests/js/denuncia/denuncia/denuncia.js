@@ -267,11 +267,147 @@ function ajaxDelete(filename, token, content) {
     });
 }
 
-/* registrar victima */
-function storeVictima() {
+/* abrir modal */
+function openModal(form,modal,select,funcion){
+    debugger
+    $(".loading").show();
+    var elemento = form.replace('form_','');
+    elemento = elemento.replace('_modal','');
+    $(".store").hide();
+    $(".update").hide();
+    $(".update_btn").attr('disabled','disabled');
+    if ($("#"+select).val() !== null) {
+        var value = $("#"+select).val();
+        $.ajax({
+            type: 'GET',
+            url: '/'+funcion+'/'+value,
+            cache: false,
+            contentType: false,
+            success: function (data) {
+                debugger;
+                var agresor_id,victima_id,tbldepartamento_id,tblprovincia_id,tbldistrito_id;
+                for (var item in data) {
+                    if (item == 'id') {
+                        if (elemento == 'vicitma') {
+                            victima_id = data[item];
+                        }
+                        if (elemento == 'agresor') {
+                            agresor_id = data[item];
+                        }
+                    } 
+                    if (item == 'tbldepartamento_id') {
+                        tbldepartamento_id = data[item];
+                    } 
+                    if (item == 'tblprovincia_id') {
+                        tblprovincia_id = data[item];
+                    } 
+                    if (item == 'tbldistrito_id') {
+                        tbldistrito_id = data[item];
+                    } else {
+                        $('form#'+form+' #'+item).val(data[item]);                    
+                    }
+                }
+
+                myPlugin = new myqueue();
+                myPlugin.add(function (dfd) {
+                  setTimeout(function () {
+
+                    $('form#'+form+' #tbldepartamento_id').val(tbldepartamento_id).trigger('change');
+
+                    console.log("1");
+                    dfd.resolve();
+                  }, 1000);
+                }, "first");
+
+                myPlugin.add(function (dfd) {
+                  setTimeout(function () {
+
+                    $('form#'+form+' #tblprovincia_id').val(tblprovincia_id).trigger('change');
+
+                    console.log("2");
+                    dfd.resolve();
+                  }, 1000);
+                }, "second");
+
+                myPlugin.add(function (dfd) {
+                  setTimeout(function () {
+
+                    $('form#'+form+' #tbldistrito_id').val(tbldistrito_id).trigger('change');
+
+                    $(".update_btn").removeAttr('disabled');
+                    $(".loading").hide();
+
+                    console.log("3");
+                    dfd.resolve();
+                  }, 1000);
+                }, "third");  
+
+                myPlugin.start();
+
+                // cambiar el metodo y y la url del formulario
+                var action = $("form#"+form).attr('action');
+                if (elemento == 'victima') {
+                    action = action.replace('store', victima_id);
+                }
+                if (elemento == 'agresor') {
+                    action = action.replace('store', agresor_id);
+                }
+                $("form#"+form).attr('action',action);
+                $("form#"+form).append('<input name="_method" type="hidden" value="PUT">');
+
+                $("#myModal1").find(".modal-header").css({background:'#f39c12'});
+                $("#myModal2").find(".modal-header").css({background:'#f39c12'});
+                if (elemento == 'victima') {
+                    $(".modal-header").find("h5").html('Modificar victima');
+                }
+                if (elemento == 'agresor') {
+                    $(".modal-header").find("h5").html('Modificar agresor');
+                }
+
+                $(".update").show();
+                return $('#'+modal).modal('toggle');
+            },
+            error: function (xhr, status, error) {
+                alert(xhr.responseText);
+            }
+        });
+    }else{
+        // revertir cambios del metodo y la url del formulario
+        var action = $("form#"+form).attr('action');
+        var split = action.split('/');
+        action = split[0]+'/'+split[1]+'/'+split[2]+'/'+split[3]+'/store';
+        $("form#"+form).attr('action',action);
+        // $("form#"+form).append('<input name="_method" type="hidden" value="PUT">');
+        $("form#"+form+' input[name=_method]').remove();
+
+        $("#myModal1").find(".modal-header").css({background:'#337ab7'});
+        $("#myModal2").find(".modal-header").css({background:'#337ab7'});
+        if (elemento == 'victima') {
+            $(".modal-header").find("h5").html('Registrar victima');
+        }
+        if (elemento == 'agresor') {
+            $(".modal-header").find("h5").html('Registrar agresor');
+        }
+
+        $(".loading").hide();
+        $(".store").show();
+        return $('#'+modal).modal('toggle');
+    }
+
+}
+
+/* resetear select */
+function refresh(select, form) {
+    $('#'+select).prev().find('span').attr('class','fa fa-plus');
+    $("#"+select).val(null).trigger('change');
+    resetPartes(form);
+}
+
+/* registrar victima/agresor */
+function savePartes(id_form) {
     event.preventDefault();
-    var form = $('form#form_victima_modal');
-    var data = new FormData($('form#form_victima_modal')[0]);
+    var form = $('form#'+id_form);
+    var data = new FormData($('form#'+id_form)[0]);
     var url = form.attr("action");
     debugger;
     $.ajax({
@@ -318,8 +454,9 @@ function storeVictima() {
                     $("div#message").text(data.info);
                     sessionStorage.removeItem('agresor_modal');
                 }
-                $('#myModal1').modal('toggle');
-                resetVictima();
+                $('#myModal1').modal('hide');
+                $('#myModal2').modal('hide');
+                resetPartes(id_form);
             }
         },
         error: function (xhr, textStatus, errorThrown) {
@@ -329,12 +466,12 @@ function storeVictima() {
     return false;
 }
 
-/* limpiar formulario victima */
-function resetVictima() {
-    $('form#form_victima_modal').find('span.invalid-feedback').empty();
-    $('form#form_victima_modal').find('select,input').css({"color":"#555"});
+/* limpiar formulario victima/agresor */
+function resetPartes(id_form) {
+    $('form#'+id_form).find('span.invalid-feedback').empty();
+    $('form#'+id_form).find('select,input').css({"color":"#555"});
 
-    $('form#form_victima_modal').trigger("reset");
+    $('form#'+id_form).trigger("reset");
     $("#tblprovincia_id, .tblprovincia_id").empty();
     $("#tblprovincia_id, .tblprovincia_id").append("<option value=''>Seleccione una Provincia</option>");
     $("#tbldistrito_id, .tbldistrito_id").empty();

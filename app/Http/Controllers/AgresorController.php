@@ -107,22 +107,25 @@ class AgresorController extends Controller
         return $key;
     }
 
-    public function getAgresor(Request $request)
+    public function getAgresor(Request $request, $id = null)
     {
-        $data = [];
-
-        if($request->has('q')){
-            $search = $request->q;
-            $data = Agresor::select('id','nombre','apellido','nro_doc')
-                    ->where("nombre","LIKE","%$search%")
-                    ->orwhere("apellido","LIKE","%$search%")
-                    ->orwhere("nro_doc","LIKE","%$search%")
-                    ->orderBy('apellido', 'asc')
-                    ->take(10)
-                    ->get();
+        if ($id !== null) {
+            $agresor = Agresor::findOrFail($id);
+            return response()->json($agresor);
+        }else{
+            $data = [];
+            if($request->has('q')){
+                $search = $request->q;
+                $data = Agresor::select('id','nombre','apellido','nro_doc')
+                        ->where("nombre","LIKE","%$search%")
+                        ->orwhere("apellido","LIKE","%$search%")
+                        ->orwhere("nro_doc","LIKE","%$search%")
+                        ->orderBy('apellido', 'asc')
+                        ->take(10)
+                        ->get();
+            }
+            return response()->json($data);
         }
-
-        return response()->json($data);
     }
 
     /**
@@ -193,6 +196,7 @@ class AgresorController extends Controller
             $agresor = Agresor::create($input);
 
             return response()->json([
+                'tab' => 'agresor_modal',
                 'type' => 'store',
                 'info' => 'Agresor registrado.',
             ]);

@@ -98,7 +98,6 @@ function ajaxVerify(filename) {
     debugger;
     $.ajax({
         type: 'GET',
-        // data: {_method: 'DELETE', _token: token},
         url: filename,
         cache: false, // al navegar atras se muestra todo correctamente
         contentType: false,

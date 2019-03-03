@@ -109,22 +109,27 @@ class VictimaController extends Controller
         return $key;
     }
 
-    public function getVictima(Request $request)
+    public function getVictima(Request $request, $id = null)
     {
-        $data = [];
 
-        if($request->has('q')){
-            $search = $request->q;
-            $data = Victima::select('id','nombre','apellido','nro_doc','edad')
-                    ->where("nombre","LIKE","%$search%")
-                    ->orwhere("apellido","LIKE","%$search%")
-                    ->orwhere("nro_doc","LIKE","%$search%")
-                    ->orderBy('apellido', 'asc')
-                    ->take(10)
-                    ->get();
+        if ($id !== null) {
+            $victima = Victima::findOrFail($id);
+            return response()->json($victima);
+        }else{
+            $data = [];
+            if($request->has('q')){
+                $search = $request->q;
+                $data = Victima::select('id','nombre','apellido','nro_doc','edad')
+                        ->where("nombre","LIKE","%$search%")
+                        ->orwhere("apellido","LIKE","%$search%")
+                        ->orwhere("nro_doc","LIKE","%$search%")
+                        ->orderBy('apellido', 'asc')
+                        ->take(10)
+                        ->get();
+            }
+            return response()->json($data);
         }
 
-        return response()->json($data);
     }
 
     /**
@@ -202,7 +207,7 @@ class VictimaController extends Controller
             $victima = Victima::create($input);
 
             return response()->json([
-                'tab' => 'victima_modal',        
+                'tab' => 'victima_modal',
                 'type' => 'store',
                 'info' => 'Victima registrada.',
             ]);

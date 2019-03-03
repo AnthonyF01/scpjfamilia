@@ -38,8 +38,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('getDistrito/{id}', 'TblprovinciaController@getDistrito');
 
     // Cargar Victimas y Agresores
-    Route::get('getVictima', 'VictimaController@getVictima');
-    Route::get('getAgresor', 'AgresorController@getAgresor');
+    Route::get('getVictima/{id?}', 'VictimaController@getVictima');
+    Route::get('getAgresor/{id?}', 'AgresorController@getAgresor');
 
     //Roles
     Route::post('roles/store', 'RoleController@store')->name('roles.store')

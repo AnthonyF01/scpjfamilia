@@ -19,6 +19,18 @@
 
 @section('css')
   <style>
+    .loading {
+      background: lightgrey;
+      padding: 20px;
+      position: fixed;
+      border-radius: 5px;
+      left: 59%;
+      top: 50%;
+      text-align: center;
+      margin: -40px 0 0 -50px;
+      z-index: 2000;
+      display: none;
+    }
     .menu_tab {
       padding: 15px 20px;
       /*font-size: 14px;*/
@@ -102,7 +114,10 @@
                           {{ Form::label('victima_id', 'Buscar Victima:', ['class' => 'col-sm-2 control-label', 'style' => 'line-height:30px; text-align:left; width: 125px;']) }}
                           <div class="col-sm-6">
                             <div class="input-group width100">
-                              <div class="input-group-addon pointer" onclick="return $('#myModal1').modal('toggle');" style="cursor: pointer;">
+                              <div class="input-group-addon pointer" onclick="refresh('victima_id','form_victima_modal')" style="cursor: pointer;">
+                                <a href="javascript:void(0);"><span class="fa fa-refresh"></span></a>
+                              </div>
+                              <div class="input-group-addon pointer" onclick="openModal('form_victima_modal','myModal1','victima_id','getVictima')" style="cursor: pointer;">
                                 <a href="javascript:void(0);"><span class="fa fa-plus"></span></a>
                               </div>
                               {{ Form::select('victima_id', [], null, array('class'=>'form-control input-sm'.($errors->has('victima_id')?" is-invalid":""), 'style'=>'width: 100%')) }}
@@ -171,7 +186,10 @@
                           {{ Form::label('agresor_id', 'Buscar agresor:', ['class' => 'col-sm-2 control-label', 'style' => 'line-height:30px; text-align:left; width: 125px;']) }}
                           <div class="col-sm-6">
                             <div class="input-group width100">
-                              <div class="input-group-addon pointer" onclick="return $('#myModal2').modal('toggle');" style="cursor: pointer;">
+                              <div class="input-group-addon pointer" onclick="refresh('agresor_id','form_agresor_modal')" style="cursor: pointer;">
+                                <a href="javascript:void(0);"><span class="fa fa-refresh"></span></a>
+                              </div>
+                              <div class="input-group-addon pointer" onclick="openModal('form_agresor_modal','myModal2','agresor_id','getAgresor')" style="cursor: pointer;">
                                   <a href="javascript:void(0);"><span class="fa fa-plus"></span></a>
                               </div>
                               {{ Form::select('agresor_id', [], null, array('class'=>'form-control input-sm'.($errors->has('agresor_id')?" is-invalid":""), 'style'=>'width: 100%')) }}
@@ -812,7 +830,7 @@
               </div>
               <div class="form-group">
                 {{ Form::label('Tipo de Documento') }}
-                {{ Form::select('tbldocumento_id', $documentos, null, array('class'=>'form-control input-sm'.($errors->has('tbldocumento_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo de Documento')) }}
+                {{ Form::select('tbldocumento_id', $documentos, null, array('id'=>'tbldocumento_id', 'class'=>'form-control input-sm'.($errors->has('tbldocumento_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo de Documento')) }}
                 <span id="error-tbldocumento_id" class="invalid-feedback"></span>
               </div>
             </div>
@@ -833,7 +851,7 @@
             <div class="col-md-4">
               <div class="form-group">
                 {{ Form::label('Tipo') }}
-                {{ Form::select('tbltipo_id', $tipos, null, array('class'=>'form-control input-sm'.($errors->has('tbltipo_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo')) }}
+                {{ Form::select('tbltipo_id', $tipos, null, array('id'=>'tbltipo_id','class'=>'form-control input-sm'.($errors->has('tbltipo_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo')) }}
                 <span id="error-tbltipo_id" class="invalid-feedback"></span>
               </div>
             </div>
@@ -861,29 +879,143 @@
 
           <div class="form-group">
             {{ Form::label('Departamento') }}
-            {{ Form::select('tbldepartamento_id', $departamentos, null, array('class'=>'form-control input-sm'.($errors->has('tbldepartamento_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Departamento', 'id'=>'tbldepartamento_id')) }}
+            {{ Form::select('tbldepartamento_id', $departamentos, null, array('class'=>'form-control input-sm tbldepartamento_id'.($errors->has('tbldepartamento_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Departamento', 'id'=>'tbldepartamento_id')) }}
             <span id="error-tbldepartamento_id" class="invalid-feedback"></span>
           </div>
 
           <div class="form-group">
             {{ Form::label('Provincia') }}
-            {{ Form::select('tblprovincia_id', [], null, array('class'=>'form-control input-sm'.($errors->has('tblprovincia_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Provincia', 'id'=>'tblprovincia_id')) }}
+            {{ Form::select('tblprovincia_id', [], null, array('class'=>'form-control input-sm tblprovincia_id'.($errors->has('tblprovincia_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Provincia', 'id'=>'tblprovincia_id')) }}
             <span id="error-tblprovincia_id" class="invalid-feedback"></span>
           </div>
 
           <div class="form-group">
             {{ Form::label('Distrito') }}
-            {{ Form::select('tbldistrito_id', [], null, array('class'=>'form-control input-sm'.($errors->has('tbldistrito_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Distrito', 'id'=>'tbldistrito_id')) }}
+            {{ Form::select('tbldistrito_id', [], null, array('class'=>'form-control input-sm tbldistrito_id'.($errors->has('tbldistrito_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Distrito', 'id'=>'tbldistrito_id')) }}
+            <span id="error-tbldistrito_id" class="invalid-feedback"></span>
+          </div>
+        {!! Form::close() !!}
+        
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="store" >
+              {!! Form::button("Guardar",['id'=>"store_btn", "type" => "button","class"=>"btn btn-primary","onclick"=>"savePartes('form_victima_modal')"])!!}
+            </div>
+
+            <div class="update" >
+              {!! Form::button("Actualizar",["type" => "button","class"=>"update_btn btn btn-warning","onclick"=>"savePartes('form_victima_modal')"])!!}
+            </div>
+          </div>
+          <div class="col-sm-6" style="text-align: right;">
+            {!! Form::button("Limpiar",["type" => "button","class"=>"btn","style"=>"margin-right:10px","onclick"=>"resetPartes('form_victima_modal')"])!!}
+            {!! Form::button("Cancelar",["type" => "button","class"=>"btn","data-dismiss"=>"modal","aria-label"=>"Close"])!!}
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal modal-plus fade z-index-1060" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal21Label" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: #337ab7; color:#fff;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h5 class="modal-title" id="myModal21Label">Registrar Agresor</h5>
+      </div>
+      <div class="modal-body">
+        {!! Form::open([ 'route' => 'agresor.store', 'id'=>'form_agresor_modal' ]) !!}    
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group has-feedback {{ $errors->has('nombre')? 'has-error':'' }}">
+                {{ Form::label('nombre', 'Nombre') }}
+                {{ Form::text('nombre', null, ['class' => 'form-control input-sm'.($errors->has('nombre')?" is-invalid":""), "autofocus", 'id' => 'nombre', 'autocomplete' => 'off']) }}
+                <span id="error-nombre" class="invalid-feedback"></span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group has-feedback {{ $errors->has('apellido')? 'has-error':'' }}">
+                {{ Form::label('apellido', 'Apellido') }}
+                {{ Form::text('apellido', null, ['class' => 'form-control input-sm'.($errors->has('apellido')?" is-invalid":""), "autofocus", 'id' => 'apellido', 'autocomplete' => 'off']) }}
+                <span id="error-apellido" class="invalid-feedback"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                {{ Form::label('Tipo de Documento') }}
+                {{ Form::select('tbldocumento_id', $documentos, null, array('id'=>'tbldocumento_id','class'=>'form-control input-sm'.($errors->has('tbldocumento_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo de Documento')) }}
+                <span id="error-tbldocumento_id" class="invalid-feedback"></span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group has-feedback {{ $errors->has('nro_doc')? 'has-error':'' }}">
+                {{ Form::label('nro_doc', 'Numero de Documento') }}
+                {{ Form::text('nro_doc', null, ['class' => 'form-control input-sm'.($errors->has('nro_doc')?" is-invalid":""), "autofocus", 'id' => 'nro_doc', 'autocomplete' => 'off']) }}
+                <span id="error-nro_doc" class="invalid-feedback"></span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group has-feedback {{ $errors->has('sexo')? 'has-error':'' }}">
+                {{ Form::label('sexo', 'Sexo') }}
+                {{ Form::select('sexo', ['Masculino'=>'Masculino','Femenino'=>'Femenino'], null, array('class'=>'form-control input-sm'.($errors->has('sexo')?" is-invalid":""), 'placeholder'=>'Seleccione un Sexo')) }}
+                <span id="error-sexo" class="invalid-feedback"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6">
+            </div>
+          </div>
+
+          <div class="form-group">
+            {{ Form::label('Departamento') }}
+            {{ Form::select('tbldepartamento_id', $departamentos, null, array('class'=>'form-control input-sm tbldepartamento_id'.($errors->has('tbldepartamento_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Departamento', 'id'=>'tbldepartamento_id')) }}
+            <span id="error-tbldepartamento_id" class="invalid-feedback"></span>
+          </div>
+
+          <div class="form-group">
+            {{ Form::label('Provincia') }}
+            {{ Form::select('tblprovincia_id', [], null, array('class'=>'form-control input-sm tblprovincia_id'.($errors->has('tblprovincia_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Provincia', 'id'=>'tblprovincia_id')) }}
+            <span id="error-tblprovincia_id" class="invalid-feedback"></span>
+          </div>
+
+          <div class="form-group">
+            {{ Form::label('Distrito') }}
+            {{ Form::select('tbldistrito_id', [], null, array('class'=>'form-control input-sm tbldistrito_id'.($errors->has('tbldistrito_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Distrito', 'id'=>'tbldistrito_id')) }}
             <span id="error-tbldistrito_id" class="invalid-feedback"></span>
           </div>
         {!! Form::close() !!}
 
-        {!! Form::button("Guardar",["type" => "button","class"=>"btn btn-primary","onclick"=>"storeVictima()"])!!}
-        {!! Form::button("Cancelar",["type" => "button","class"=>"btn pull-right","data-dismiss"=>"modal","aria-label"=>"Close"])!!}
-        {!! Form::button("Limpiar",["type" => "button","class"=>"btn pull-right","style"=>"margin-right:10px","onclick"=>"resetVictima()"])!!}
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="store" >
+              {!! Form::button("Guardar",["type" => "button","class"=>"btn btn-primary","onclick"=>"savePartes('form_agresor_modal')"])!!}
+            </div>
+
+            <div class="update" >
+              {!! Form::button("Actualizar",["type" => "button","class"=>"update_btn btn btn-warning","onclick"=>"savePartes('form_agresor_modal')"])!!}
+            </div>
+          </div>
+          <div class="col-sm-6" style="text-align: right;">
+            {!! Form::button("Limpiar",["type" => "button","class"=>"btn","onclick"=>"resetPartes('form_agresor_modal')"])!!}
+            {!! Form::button("Cancelar",["type" => "button","class"=>"btn","data-dismiss"=>"modal","aria-label"=>"Close"])!!}
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
+</div>
+
+<div class="loading" style="display: none;">
+  <i class="fa fa-refresh fa-spin fa-2x fa-tw"></i>
+  <br>
+  <span>Loading</span>
 </div>
 
 @endsection
@@ -891,8 +1023,8 @@
 @section('js')
   <script src="{{ asset('assests/js/denuncia/denuncia/denuncia.js') }}"></script>
   <script>
-    $("#tblprovincia_id").attr('disabled', 'disabled');
-    $("#tbldistrito_id").attr('disabled', 'disabled');
+    $("#tblprovincia_id,.tblprovincia").attr('disabled', 'disabled');
+    $("#tbldistrito_id,.tbldistrito").attr('disabled', 'disabled');
 
     $('input').iCheck({
       checkboxClass: 'icheckbox_square-blue',
@@ -969,6 +1101,11 @@
         cache: true
       }
     });
+    $("#victima_id").on('change',function(){ 
+      if ($("#victima_id").val() !== null) {
+        $('#victima_id').prev().find('span').attr('class','fa fa-folder-open');
+      }
+    });
     $('#agresor_id').select2({ // SELECT CLASS
       // dropdownCssClass: "select-size",
       language: "es",
@@ -988,6 +1125,11 @@
           };
         },
         cache: true
+      }
+    });
+    $("#agresor_id").on('change',function(){ 
+      if ($("#agresor_id").val() !== null) {
+        $('#agresor_id').prev().find('span').attr('class','fa fa-folder-open');
       }
     });
     $('#tblcomisaria_id').select2();
