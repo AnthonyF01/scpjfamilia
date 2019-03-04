@@ -641,6 +641,94 @@ class PermissionRoleTableSeeder extends Seeder
                 'created_at' => '2019-03-02 13:46:37',
                 'updated_at' => '2019-03-02 13:46:37',
             ),
+            78 => 
+            array (
+                'id' => 82,
+                'permission_id' => 53,
+                'role_id' => 3,
+                'created_at' => '2019-03-03 19:13:57',
+                'updated_at' => '2019-03-03 19:13:57',
+            ),
+            79 => 
+            array (
+                'id' => 83,
+                'permission_id' => 54,
+                'role_id' => 3,
+                'created_at' => '2019-03-03 19:13:57',
+                'updated_at' => '2019-03-03 19:13:57',
+            ),
+            80 => 
+            array (
+                'id' => 84,
+                'permission_id' => 58,
+                'role_id' => 3,
+                'created_at' => '2019-03-03 19:13:57',
+                'updated_at' => '2019-03-03 19:13:57',
+            ),
+            81 => 
+            array (
+                'id' => 85,
+                'permission_id' => 59,
+                'role_id' => 3,
+                'created_at' => '2019-03-03 19:13:57',
+                'updated_at' => '2019-03-03 19:13:57',
+            ),
+            82 => 
+            array (
+                'id' => 86,
+                'permission_id' => 69,
+                'role_id' => 3,
+                'created_at' => '2019-03-03 19:13:57',
+                'updated_at' => '2019-03-03 19:13:57',
+            ),
+            83 => 
+            array (
+                'id' => 87,
+                'permission_id' => 50,
+                'role_id' => 2,
+                'created_at' => '2019-03-03 19:50:48',
+                'updated_at' => '2019-03-03 19:50:48',
+            ),
+            84 => 
+            array (
+                'id' => 88,
+                'permission_id' => 77,
+                'role_id' => 2,
+                'created_at' => '2019-03-03 19:50:48',
+                'updated_at' => '2019-03-03 19:50:48',
+            ),
+            85 => 
+            array (
+                'id' => 89,
+                'permission_id' => 78,
+                'role_id' => 2,
+                'created_at' => '2019-03-03 19:50:48',
+                'updated_at' => '2019-03-03 19:50:48',
+            ),
+            86 => 
+            array (
+                'id' => 90,
+                'permission_id' => 79,
+                'role_id' => 2,
+                'created_at' => '2019-03-03 19:50:48',
+                'updated_at' => '2019-03-03 19:50:48',
+            ),
+            87 => 
+            array (
+                'id' => 91,
+                'permission_id' => 80,
+                'role_id' => 2,
+                'created_at' => '2019-03-03 19:50:48',
+                'updated_at' => '2019-03-03 19:50:48',
+            ),
+            88 => 
+            array (
+                'id' => 92,
+                'permission_id' => 81,
+                'role_id' => 2,
+                'created_at' => '2019-03-03 19:50:48',
+                'updated_at' => '2019-03-03 19:50:48',
+            ),
         ));
         
         

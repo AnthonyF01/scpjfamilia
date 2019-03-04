@@ -288,7 +288,7 @@ function openModal(form,modal,select,funcion){
                 var agresor_id,victima_id,tbldepartamento_id,tblprovincia_id,tbldistrito_id;
                 for (var item in data) {
                     if (item == 'id') {
-                        if (elemento == 'vicitma') {
+                        if (elemento == 'victima') {
                             victima_id = data[item];
                         }
                         if (elemento == 'agresor') {

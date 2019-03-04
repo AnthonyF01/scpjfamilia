@@ -704,45 +704,45 @@ class PermissionsTableSeeder extends Seeder
             76 => 
             array (
                 'id' => 77,
-                'name' => 'Navegar tipos de denuncia',
+                'name' => 'Navegar tipos de medida de proteccion',
                 'slug' => 'tblmedida.index',
-                'description' => 'Lista y navega todos los tipos de denuncia del sistema',
+                'description' => 'Lista y navega todos los tipos de medida de proteccion del sistema',
                 'created_at' => '2019-02-14 01:11:24',
                 'updated_at' => '2019-02-14 01:11:24',
             ),
             77 => 
             array (
                 'id' => 78,
-                'name' => 'Ver detalle de un tipo de denuncia',
+                'name' => 'Ver detalle de un tipo de medida de proteccion',
                 'slug' => 'tblmedida.show',
-                'description' => 'Ve en detalle cada tipo de denuncia del sistema',
+                'description' => 'Ve en detalle cada tipo de medida de proteccion del sistema',
                 'created_at' => '2019-02-14 01:11:24',
                 'updated_at' => '2019-02-14 01:11:24',
             ),
             78 => 
             array (
                 'id' => 79,
-                'name' => 'Creación de tipos de denuncia',
+                'name' => 'Creación de tipos de medida de proteccion',
                 'slug' => 'tblmedida.create',
-                'description' => 'Podría crear nuevos tipos de denuncia en el sistema',
+                'description' => 'Podría crear nuevos tipos de medida de proteccion en el sistema',
                 'created_at' => '2019-02-14 01:11:24',
                 'updated_at' => '2019-02-14 01:11:24',
             ),
             79 => 
             array (
                 'id' => 80,
-                'name' => 'Edición de tipos de denuncia',
+                'name' => 'Edición de tipos de medida de proteccion',
                 'slug' => 'tblmedida.edit',
-                'description' => 'Podría editar cualquier dato de un tipo de denuncia del sistema',
+                'description' => 'Podría editar cualquier dato de un tipo de medida de proteccion del sistema',
                 'created_at' => '2019-02-14 01:11:24',
                 'updated_at' => '2019-02-14 01:11:24',
             ),
             80 => 
             array (
                 'id' => 81,
-                'name' => 'Eliminar tipos de denuncia',
+                'name' => 'Eliminar tipos de medida de proteccion',
                 'slug' => 'tblmedida.destroy',
-                'description' => 'Podría eliminar cualquier tipo de denuncia del sistema',
+                'description' => 'Podría eliminar cualquier tipo de medida de proteccion del sistema',
                 'created_at' => '2019-02-14 01:11:24',
                 'updated_at' => '2019-02-14 01:11:24',
             ),

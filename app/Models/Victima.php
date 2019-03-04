@@ -67,4 +67,9 @@ class Victima extends Model
         // por convencion no genera problema pero se agrega el nombre de la tabla pivot por pura simetria
         return $this->belongsToMany(Denuncia::class, 'denuncia_victima'); 
     }
+
+    public function denunciavictimas ()
+    {
+        return $this->hasMany(DenunciaVictima::class);  // !importante - Para los modelos  =>  Category::class
+    }
 }
