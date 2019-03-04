@@ -3,6 +3,7 @@
     for ($i=0; $i < count(Auth::user()->getPermissions()); $i++) {
         $permissions[]=Auth::user()->getPermissions()[$i];
     }
+    $role = Auth::user()->getRoles()[0];
 ?>
 
 <!-- Left side column. contains the logo and sidebar -->
@@ -92,11 +93,11 @@
                 <li class="@yield('notification')"><a href="{{ route('notification.index') }}"><i class='fa fa-bell'></i> <span>Notificaciones</span></a></li>
             @endcan
 
-            @if ((array_search('users.index', $permissions)) || (array_search('roles.index', $permissions)) || (array_search('centrosalud.index', $permissions)) || (array_search('comisaria.index', $permissions)) || (array_search('documento.index', $permissions)) || (array_search('instancia.index', $permissions)) || (array_search('motivo.index', $permissions)) || (array_search('parentesco.index', $permissions)) || (array_search('tdenuncia.index', $permissions)) || (array_search('tblmedida.index', $permissions)) || (array_search('tipo.index', $permissions))) 
+            @if (($role == 'admin') || (array_search('users.index', $permissions)) || (array_search('roles.index', $permissions)) || (array_search('centrosalud.index', $permissions)) || (array_search('comisaria.index', $permissions)) || (array_search('documento.index', $permissions)) || (array_search('instancia.index', $permissions)) || (array_search('motivo.index', $permissions)) || (array_search('parentesco.index', $permissions)) || (array_search('tdenuncia.index', $permissions)) || (array_search('tblmedida.index', $permissions)) || (array_search('tipo.index', $permissions))) 
                 <li class="header">MANTENIMIENTO</li>
             @endif
 
-            @if ((array_search('users.index', $permissions)) || (array_search('roles.index', $permissions)))
+            @if (($role == 'admin') || (array_search('users.index', $permissions)) || (array_search('roles.index', $permissions)))
                 <li class="treeview @yield('users') @yield('roles')">
                     <a href="javascript:;">
                         <i class="fa fa-angle-left pull-right"></i>
@@ -119,7 +120,7 @@
                 </li>
             @endif
 
-            @if ((array_search('centrosalud.index', $permissions)) || (array_search('comisaria.index', $permissions)) || (array_search('documento.index', $permissions)) || (array_search('instancia.index', $permissions)) || (array_search('motivo.index', $permissions)) || (array_search('parentesco.index', $permissions)) || (array_search('tdenuncia.index', $permissions)) || (array_search('tblmedida.index', $permissions)) || (array_search('tipo.index', $permissions))) 
+            @if (($role == 'admin') ||  (array_search('centrosalud.index', $permissions)) || (array_search('comisaria.index', $permissions)) || (array_search('documento.index', $permissions)) || (array_search('instancia.index', $permissions)) || (array_search('motivo.index', $permissions)) || (array_search('parentesco.index', $permissions)) || (array_search('tdenuncia.index', $permissions)) || (array_search('tblmedida.index', $permissions)) || (array_search('tipo.index', $permissions))) 
                 <li class="treeview @yield('tblcentrosalud') @yield('tblcomisaria') @yield('tblinstancia') @yield('tblmotivo') @yield('tbldocumento') @yield('tbltipo') @yield('tblparentesco') @yield('tbldenuncia') @yield('tblmedida')@yield('tbltipo')">
                     <a href="javascript:;">
                         <i class="fa fa-angle-left pull-right"></i>
