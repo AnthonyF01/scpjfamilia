@@ -41,6 +41,9 @@ class DocumentoController extends Controller
               $request->session()->get('show') : '10' ) : '10'));
 
         $roles = Auth::user()->getRoles();
+        $permissions = Auth::user()->getPermissions();
+
+        // dd($permissions,array_search('users.index', $permissions));
 
         // dd($roles);
 

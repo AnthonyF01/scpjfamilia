@@ -1,3 +1,10 @@
+<?php 
+    $permissions = [];
+    for ($i=0; $i < count(Auth::user()->getPermissions()); $i++) {
+        $permissions[]=Auth::user()->getPermissions()[$i];
+    }
+?>
+
 <!-- Left side column. contains the logo and sidebar -->
 <aside class="main-sidebar">
 
@@ -85,66 +92,71 @@
                 <li class="@yield('notification')"><a href="{{ route('notification.index') }}"><i class='fa fa-bell'></i> <span>Notificaciones</span></a></li>
             @endcan
 
-            <li class="header">MANTENIMIENTO</li>
+            @if ((array_search('users.index', $permissions)) || (array_search('roles.index', $permissions)) || (array_search('centrosalud.index', $permissions)) || (array_search('comisaria.index', $permissions)) || (array_search('documento.index', $permissions)) || (array_search('instancia.index', $permissions)) || (array_search('motivo.index', $permissions)) || (array_search('parentesco.index', $permissions)) || (array_search('tdenuncia.index', $permissions)) || (array_search('tblmedida.index', $permissions)) || (array_search('tipo.index', $permissions))) 
+                <li class="header">MANTENIMIENTO</li>
+            @endif
 
-            <li class="treeview @yield('users') @yield('roles')">
-                <a href="javascript:;">
-                    <i class="fa fa-angle-left pull-right"></i>
-                    <i class="fa fa-users"></i>
-                    <span>Personal Administrativo</span>
-                </a>
-                <ul class="treeview-menu">
-                    @can ('users.index')
-                        <li class="@yield('users')">
-                            <a href="{{ route('users.index') }}"><i class="fa fa-user"></i> <span>Usuarios</span></a>
-                        </li>
-                    @endcan
+            @if ((array_search('users.index', $permissions)) || (array_search('roles.index', $permissions)))
+                <li class="treeview @yield('users') @yield('roles')">
+                    <a href="javascript:;">
+                        <i class="fa fa-angle-left pull-right"></i>
+                        <i class="fa fa-users"></i>
+                        <span>Personal Administrativo</span>
+                    </a>
+                    <ul class="treeview-menu">
+                        @can ('users.index')
+                            <li class="@yield('users')">
+                                <a href="{{ route('users.index') }}"><i class="fa fa-user"></i> <span>Usuarios</span></a>
+                            </li>
+                        @endcan
 
-                    @can ('roles.index')
-                        <li class="@yield('roles')">
-                            <a href="{{ route('roles.index') }}"><i class="fa fa-tag"></i> <span>Roles</span></a>
-                        </li>
-                    @endcan
-                </ul>
-            </li>
+                        @can ('roles.index')
+                            <li class="@yield('roles')">
+                                <a href="{{ route('roles.index') }}"><i class="fa fa-tag"></i> <span>Roles</span></a>
+                            </li>
+                        @endcan
+                    </ul>
+                </li>
+            @endif
 
-            <li class="treeview @yield('tblcentrosalud') @yield('tblcomisaria') @yield('tblinstancia') @yield('tblmotivo') @yield('tbldocumento') @yield('tbltipo') @yield('tblparentesco') @yield('tbldenuncia') @yield('tblmedida')@yield('tbltipo')">
-                <a href="javascript:;">
-                    <i class="fa fa-angle-left pull-right"></i>
-                    <i class="fa fa-list"></i>
-                    <span>Tablas Maestras</span>
-                </a>
-                <ul class="treeview-menu">
-                    @can ('centrosalud.index')
-                        <li class="@yield('tblcentrosalud')"><a href="{{ route('centrosalud.index') }}"><i class="fa fa-medkit"></i> Centros de Salud</a></li>
-                    @endcan
-                    @can ('comisaria.index')
-                        <li class="@yield('tblcomisaria')"><a href="{{ route('comisaria.index') }}"><img style="height: 14px;margin-right: 6px;" src="{{ asset('/assests/img/icons/police-station.png') }}"> Instituciones</a></li>
-                    @endcan
-                    @can ('documento.index')
-                        <li class="@yield('tbldocumento')"><a href="{{ route('documento.index') }}"><i class="fa fa-credit-card"></i> Documentos</a></li>
-                    @endcan
-                    @can ('instancia.index')
-                        <li class="@yield('tblinstancia')"><a href="{{ route('instancia.index') }}"><i class="fa fa-bank"></i> Instancias</a></li>
-                    @endcan
-                    @can ('motivo.index')
-                        <li class="@yield('tblmotivo')"><a href="{{ route('motivo.index') }}"><i class="fa fa-folder-open"></i> Motivos</a></li>
-                    @endcan
-                    @can ('parentesco.index')
-                        <li class="@yield('tblparentesco')"><a href="{{ route('parentesco.index') }}"><i class="fa fa-group"></i> Parentescos</a></li>
-                    @endcan
-                    @can ('tdenuncia.index')
-                        <li class="@yield('tbldenuncia')"><a href="{{ route('tdenuncia.index') }}"><i class="fa fa-object-group"></i> Tipo Denuncia</a></li>
-                    @endcan
-                    @can ('tblmedida.index')
-                        <li class="@yield('tblmedida')"><a href="{{ route('tblmedida.index') }}"><i class="fa fa-object-group"></i> Tipo Medida</a></li>
-                    @endcan
-                    @can ('tipo.index')
-                        <li class="@yield('tbltipo')"><a href="{{ route('tipo.index') }}"><i class="fa fa-object-group"></i> Tipo Victima</a></li>
-                    @endcan
-                </ul>
-            </li>
-
+            @if ((array_search('centrosalud.index', $permissions)) || (array_search('comisaria.index', $permissions)) || (array_search('documento.index', $permissions)) || (array_search('instancia.index', $permissions)) || (array_search('motivo.index', $permissions)) || (array_search('parentesco.index', $permissions)) || (array_search('tdenuncia.index', $permissions)) || (array_search('tblmedida.index', $permissions)) || (array_search('tipo.index', $permissions))) 
+                <li class="treeview @yield('tblcentrosalud') @yield('tblcomisaria') @yield('tblinstancia') @yield('tblmotivo') @yield('tbldocumento') @yield('tbltipo') @yield('tblparentesco') @yield('tbldenuncia') @yield('tblmedida')@yield('tbltipo')">
+                    <a href="javascript:;">
+                        <i class="fa fa-angle-left pull-right"></i>
+                        <i class="fa fa-list"></i>
+                        <span>Tablas Maestras</span>
+                    </a>
+                    <ul class="treeview-menu">
+                        @can ('centrosalud.index')
+                            <li class="@yield('tblcentrosalud')"><a href="{{ route('centrosalud.index') }}"><i class="fa fa-medkit"></i> Centros de Salud</a></li>
+                        @endcan
+                        @can ('comisaria.index')
+                            <li class="@yield('tblcomisaria')"><a href="{{ route('comisaria.index') }}"><img style="height: 14px;margin-right: 6px;" src="{{ asset('/assests/img/icons/police-station.png') }}"> Instituciones</a></li>
+                        @endcan
+                        @can ('documento.index')
+                            <li class="@yield('tbldocumento')"><a href="{{ route('documento.index') }}"><i class="fa fa-credit-card"></i> Documentos</a></li>
+                        @endcan
+                        @can ('instancia.index')
+                            <li class="@yield('tblinstancia')"><a href="{{ route('instancia.index') }}"><i class="fa fa-bank"></i> Instancias</a></li>
+                        @endcan
+                        @can ('motivo.index')
+                            <li class="@yield('tblmotivo')"><a href="{{ route('motivo.index') }}"><i class="fa fa-folder-open"></i> Motivos</a></li>
+                        @endcan
+                        @can ('parentesco.index')
+                            <li class="@yield('tblparentesco')"><a href="{{ route('parentesco.index') }}"><i class="fa fa-group"></i> Parentescos</a></li>
+                        @endcan
+                        @can ('tdenuncia.index')
+                            <li class="@yield('tbldenuncia')"><a href="{{ route('tdenuncia.index') }}"><i class="fa fa-object-group"></i> Tipo Denuncia</a></li>
+                        @endcan
+                        @can ('tblmedida.index')
+                            <li class="@yield('tblmedida')"><a href="{{ route('tblmedida.index') }}"><i class="fa fa-object-group"></i> Tipo Medida</a></li>
+                        @endcan
+                        @can ('tipo.index')
+                            <li class="@yield('tbltipo')"><a href="{{ route('tipo.index') }}"><i class="fa fa-object-group"></i> Tipo Victima</a></li>
+                        @endcan
+                    </ul>
+                </li>
+            @endif
 
         </ul><!-- /.sidebar-menu -->
     </section>
