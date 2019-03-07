@@ -6,8 +6,8 @@
       <th class="header" width="10px"></th>
       <th class="header" colspan="6">FASE I: LEY 30364</th>
       <th class="header" colspan="2">FASE II</th>
-      <th class="header" colspan="2">FASE III</th>
-      <th class="header" colspan="2">FASE IV</th>
+      {{-- <th class="header" colspan="2">FASE III</th> --}}
+      {{-- <th class="header" colspan="2">FASE IV</th> --}}
       <th class="header" rowspan="3">TOTAL</th>
       <th rowspan="3" style="text-align: center;">ACCION</th>
     </tr>
@@ -19,8 +19,8 @@
       <th class="header" colspan="2">EXPEDIENTE</th>
       <th class="header" colspan="2">AUDIENCIA</th>
       <th class="header" colspan="2">REMISION</th>
-      <th class="header" colspan="2">DENUNCIA</th>
-      <th class="header" colspan="2">JUZGADO</th>
+      {{-- <th class="header" colspan="2">DENUNCIA</th> --}}
+      {{-- <th class="header" colspan="2">JUZGADO</th> --}}
     </tr>
     <tr>
       <th class="modHeader" width="10px"></th>
@@ -69,7 +69,9 @@
         </a>
       </th>
 
-      <th class="modHeader" title="Fecha Denuncia">
+      {{-- Lo comentado hace referencia a fase III y IV --}}      
+
+      {{-- <th class="modHeader" title="Fecha Denuncia">
         <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=fdenuncia&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">F. Den. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
@@ -87,7 +89,8 @@
       <th class="modHeader" title="Días Juzgado">
         <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=djuz&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">D.J. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
-      </th>
+      </th> --}}
+
     </tr>
   </thead>
   <tbody>
@@ -161,9 +164,10 @@
             @endif
           @endif
 
-          <td class="middle">{{ (isset($denuncia->fremisiond) && !empty($denuncia->fremisiond)) ? $denuncia->fremisiond : '-' }}</td>
+          {{-- Lo comentado hace referencia a fase III y IV --}}
 
-          {{-- <td class="middle">{{ $denuncia->dden }}</td> --}}
+          {{-- <td class="middle">{{ (isset($denuncia->fremisiond) && !empty($denuncia->fremisiond)) ? $denuncia->fremisiond : '-' }}</td>
+
           @if ($denuncia->dden >= 0)
             @if (isset($denuncia->fremisiond) && !empty($denuncia->fremisiond))
               <td class="middle"><small class="label bg-green">{{ $denuncia->dden }}</small></td>
@@ -182,7 +186,6 @@
 
           <td class="middle">{{ (isset($denuncia->fremisionj) && !empty($denuncia->fremisionj)) ? $denuncia->fremisionj : '-' }}</td>
 
-          {{-- <td class="middle">{{ $denuncia->djuz }}</td> --}}
           @if ($denuncia->djuz >= 0)
             @if (isset($denuncia->fremisionj) && !empty($denuncia->fremisionj))
               <td class="middle"><small class="label bg-green">{{ $denuncia->djuz }}</small></td>
@@ -197,10 +200,10 @@
                 <td class="middle" title="Fecha Remisión Denuncia es mayor que Fecha Remisión Juzgado"><small class="label bg-red">{{ $denuncia->djuz }}</small></td>
               @endif
             @endif
-          @endif
+          @endif --}}
 
-          <td class="middle">{{ $denuncia->total }}</td>
-          <td style="padding: 8px 4px;">
+          <td class="middle" style="text-align: center;">{{ $denuncia->total }}</td>
+          <td style="text-align: center; padding: 8px 4px;">
             @if (isset($denuncia->medida_file) && !empty($denuncia->medida_file))
               <a title="Descargar Medida de Protección" href="{{ $denuncia->medida_file }}" target="_blank" class="btn btn-xs btn-outline-primary"><i class="fa fa-download"></i></a>
             @else
@@ -220,10 +223,9 @@
                   <i class="glyphicon glyphicon-trash"></i>
               </a>
             @endcan 
-            <a href="javascript:void(0)" class="btn btn-xs {{ (isset($denuncia->device) && !empty($denuncia->device)) ? ( ($denuncia->device == 0)? 'btn-secondary' : ( ($denuncia->device == 1) ? 'btn-success' : ( ($denuncia->device == 2) ? 'btn-danger' : ( ($denuncia->device == 3) ? 'btn-warning' : '' ) ) ) ) : 'btn-secondary' }}" {{ (isset($denuncia->device) && !empty($denuncia->device)) ? ( ($denuncia->device == 0)? 'disabled' : '' ) : 'disabled' }}>
-              {{-- <i class="fa fa-mobile" style="width: 10px;"></i> --}}
+            {{-- <a href="javascript:void(0)" class="btn btn-xs {{ (isset($denuncia->device) && !empty($denuncia->device)) ? ( ($denuncia->device == 0)? 'btn-secondary' : ( ($denuncia->device == 1) ? 'btn-success' : ( ($denuncia->device == 2) ? 'btn-danger' : ( ($denuncia->device == 3) ? 'btn-warning' : '' ) ) ) ) : 'btn-secondary' }}" {{ (isset($denuncia->device) && !empty($denuncia->device)) ? ( ($denuncia->device == 0)? 'disabled' : '' ) : 'disabled' }}>
               <i class="glyphicon glyphicon-phone"></i>
-            </a>
+            </a> --}}
           </td>
         </tr>
         <tr class="details" style="display: none;">
@@ -284,7 +286,7 @@
                     @endif
                   </td>
                 </tr>
-                <tr class="selected">
+                {{-- <tr class="selected">
                   <td class="width-20 fweight">Remitido (Fase III):</td>
                   <td class="width-30">
                     @if (isset($denuncia->remitidod) && !empty($denuncia->remitidod))
@@ -319,7 +321,7 @@
                       <small style="font-size:11px;" class="label bg-red">No Registra</small>
                     @endif
                   </td>
-                </tr>
+                </tr> --}}
                 <tr>
                   <td colspan="4">
                     <p class="fweight">Observaciones:</p>

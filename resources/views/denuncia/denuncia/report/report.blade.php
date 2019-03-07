@@ -113,7 +113,7 @@
                           </div> Fase II: Remision
                         </label>
                       </div>
-                      <div class="checkbox icheck">
+                      {{-- <div class="checkbox icheck">
                         <label class="">
                           <div class="icheckbox_square-blue" style="position: relative;">
                             {!! Form::checkbox('denuncia', null, null) !!}
@@ -126,7 +126,7 @@
                             {!! Form::checkbox('juzgado', null, null) !!}
                           </div> Fase IV: Remision Juzgado
                         </label>
-                      </div>
+                      </div> --}}
                     </div>
                   </div>
                 </div>

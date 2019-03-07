@@ -461,7 +461,7 @@ class DenunciaController extends Controller
         if (isset($request['mes']) && !empty($request['mes'])) {
           $sql .= " AND month(d.fformalizacion) = ".$request['mes']." ";
         }
-        $sql .= " ) as d on d.tblinstancia_id=ti.id where ti.tbldepartamento_id = ".Auth::user()->tbldepartamento_id." and (ti.tipo = 'FA' or ti.tipo = 'JM') group by ti.nombre order by ti.nombre ";
+        $sql .= " ) as d on d.tblinstancia_id=ti.id where ti.tbldepartamento_id = ".Auth::user()->tbldepartamento_id." and (ti.tipo = 'FA' or ti.tipo = 'JM' or ti.estadistica = '1') group by ti.nombre order by ti.nombre ";
         $instancia = DB::select(DB::raw($sql));
 
         $data = array();

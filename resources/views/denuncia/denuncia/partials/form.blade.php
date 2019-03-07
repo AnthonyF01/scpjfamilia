@@ -96,8 +96,8 @@
               <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_4" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-user-secret"></i> <span>DENUNCIA</span></a></li>
               <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_5" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>M. FAMILIA</span></a></li>
               <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_6" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>REMISIÓN</span></a></li>
-              <li class="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_7" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>FASE III</span></a></li>
-              <li class="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_8" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>FASE IV</span></a></li>
+              {{-- <li class="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_7" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>FASE III</span></a></li>
+              <li class="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_8" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>FASE IV</span></a></li> --}}
             </ul>
             <div class="tab-content">
               <div class="tab-pane active" id="tab_1">
@@ -636,7 +636,7 @@
                 </div>
               </div>
               <!-- /.tab-pane -->
-              <div class="tab-pane" id="tab_7">
+              {{-- <div class="tab-pane" id="tab_7">
                 <div class="row">
                   <div class="col-sm-8 col-sm-offset-1">
                     @if(isset($denuncia) && !empty($denuncia['id']))
@@ -645,15 +645,6 @@
                       {!! Form::open([ 'route' => 'denuncia.store', 'id'=>'form_fase3' ]) !!}
                     @endif
                       <input type="hidden" name="action" value="fase3">
-                      {{-- <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('dependenciad', 'Dependencia(JUZ PAZ, Ministerio):', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
-                            {{Form::select('dependenciad',[''=>'Elegir','Archivo Central'=>'Archivo Central','Juzgado de Investigación Preparatoria'=>'Juzgado de Investigación Preparatoria'],null,array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""),'name'=>'dependenciad','id'=>'dependenciad'))}}
-                            <span id="error-dependenciad" class="invalid-feedback"></span>
-                          </div>
-                        </div>
-                      </div> --}}
                       <div id="pl">
                         <div class="form-group">
                           <div class="row">
@@ -721,9 +712,9 @@
                     {!! Form::close() !!}
                   </div>
                 </div>
-              </div>
+              </div> --}}
               <!-- /.tab-pane -->
-              <div class="tab-pane" id="tab_8">
+              {{-- <div class="tab-pane" id="tab_8">
                 <div class="row">
                   <div class="col-sm-8 col-sm-offset-1">
                     @if(isset($denuncia) && !empty($denuncia['id']))
@@ -741,15 +732,6 @@
                           </div>
                         </div>
                       </div>
-                      {{-- <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('jip', 'JIP:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
-                            {{Form::select('jip',[''=>'Elegir','Archivo Central'=>'Archivo Central','Juzgado de Investigación Preparatoria'=>'Juzgado de Investigación Preparatoria'],null,array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""),'name'=>'remitidoj','id'=>'remitidoj'))}}
-                            <span id="error-remitidoj" class="invalid-feedback"></span>
-                          </div>
-                        </div>
-                      </div> --}}
                       <div class="form-group">
                         <div class="row">
                           {{ Form::label('juzgamiento', 'Juzgamiento', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
@@ -759,7 +741,7 @@
                           </div>
                         </div>
                       </div>
-                      {{-- <div class="form-group">
+                      <div class="form-group">
                         <div class="row">
                           {{ Form::label('juzgamiento', 'Juzgamiento:(JUZ PENAL)', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
@@ -767,7 +749,7 @@
                             <span id="error-remitidoj" class="invalid-feedback"></span>
                           </div>
                         </div>
-                      </div> --}}
+                      </div>
                       <div class="form-group">
                         <div class="row">
                           {{ Form::label('remitidoj', 'Remitir a:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
@@ -779,7 +761,6 @@
                       </div>
                       <div class="form-group has-feedback {{ $errors->has('oficioremitidoj')? 'has-error':'' }}">
                         <div class="row">
-                          {{-- {{ Form::label('oficioremitidoj', 'Oficio(Resolucion):', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }} --}}
                           {{ Form::label('oficioremitidoj', 'Resolución:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
                             {{ Form::text('oficioremitidoj', null, ['class' => 'form-control input-sm'.($errors->has('oficioremitidoj')?" is-invalid":""), "autofocus", 'id' => 'oficioremitidoj', 'autocomplete' => 'off']) }}
@@ -805,7 +786,7 @@
                     {!! Form::close() !!}
                   </div>
                 </div>
-              </div>
+              </div> --}}
               <!-- /.tab-pane -->
             </div>
             <!-- /.tab-content -->

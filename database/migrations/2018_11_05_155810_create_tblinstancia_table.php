@@ -22,6 +22,7 @@ class CreateTblinstanciaTable extends Migration
             $table->string('nombre');
             $table->string('sigla')->nullable();
             $table->string('tipo',10)->nullable();
+            $table->boolean('estadistica')->nullable()->default(0);
             $table->timestamps();
             $table->softDeletes();
         });
