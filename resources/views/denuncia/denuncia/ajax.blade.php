@@ -201,7 +201,7 @@
               @endif
             @endif
           @endif --}}
-
+    
           <td class="middle" style="text-align: center;">{{ $denuncia->total }}</td>
           <td style="text-align: center; padding: 8px 4px;">
             @if (isset($denuncia->medida_file) && !empty($denuncia->medida_file))

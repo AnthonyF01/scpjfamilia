@@ -452,7 +452,7 @@ class DenunciaController extends Controller
     {
 
     }
-
+    
     public function getGData(Request $request)
     {
 
