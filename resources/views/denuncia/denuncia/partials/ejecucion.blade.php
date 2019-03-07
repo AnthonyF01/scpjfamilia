@@ -203,7 +203,7 @@
                     <div class="row">
                       {{ Form::label('tbldenuncia_id', 'Grado de valoracion:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                       <div class="col-sm-8">
-                        <label style="text-align: right;width: 100%;" for="tbldenuncia_id" class="input-sm" autofocus="" id="tbldenuncia_id" autocomplete="off">{{$denuncia->tbldenuncia->nombre}}</label>
+                        <label style="text-align: right;width: 100%;" for="tbldenuncia_id" class="input-sm" autofocus="" id="tbldenuncia_id" autocomplete="off">{{(isset($denuncia->tbldenuncia->nombre) && !empty($denuncia->tbldenuncia->nombre)) ? $denuncia->tbldenuncia->nombre : $denuncia->tblmodulo->nombre}}</label>
                       </div>
                     </div>
                   </div>

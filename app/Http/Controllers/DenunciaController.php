@@ -2377,7 +2377,6 @@ class DenunciaController extends Controller
                         $input['registro_file'] = $fakepath;
                     }
 
-
                     if ($request['institucion'] == '2') { // modulo
                         unset($input['tblfiscalia_id']);
                         unset($input['tblcomisaria_id']);
@@ -2444,7 +2443,8 @@ class DenunciaController extends Controller
 
                 $rules = [
                     'tblinstancia_id' => 'required|exists:tblinstancia,id',
-                    'tblmedida_id' => 'required|exists:tblmedida,id',
+                    // 'tblmedida_id' => 'nullable|exists:tblmedida,id',
+                    'tblmedida_id' => 'nullable|array|min:1',
                     'expediente' => 'required|string|unique:denuncia,expediente,'.$denuncia->expediente.',expediente',
                     'calificacion' => 'nullable|string',
                     'hora' => 'nullable',
@@ -2455,7 +2455,7 @@ class DenunciaController extends Controller
 
                 $input = [
                     'tblinstancia_id' => $request['tblinstancia_id'],
-                    'tblmedida_id' => $request['tblmedida_id'],
+                    // 'tblmedida_id' => $request['tblmedida_id'],
                     'expediente' => $request['expediente'],
                     'calificacion' => $request['calificacion'],
                     'hora' => $request['hora'],
@@ -2465,7 +2465,6 @@ class DenunciaController extends Controller
                 ];
 
                 Log::info('update denuncia: ', ['input' => $input]);
-
 
                 $validator = Validator::make($input, $rules, $messages);
 
@@ -2503,6 +2502,11 @@ class DenunciaController extends Controller
                     }
 
                     Denuncia::where('id', $id)->update($input);
+
+                    // el metodo sync solo sirve para tablas relacionadas muchos a muchos
+                    if (!empty($request->get('tblmedida_id'))) {
+                        $denuncia->tblmedidas()->sync($request->get('tblmedida_id'));
+                    }
 
                     return response()->json([
                         'tab' => 'denuncia',

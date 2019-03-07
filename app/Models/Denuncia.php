@@ -130,4 +130,9 @@ class Denuncia extends Model
     //     return $this->belongsToMany(Tbldenuncia::class);
     // }
 
+    public function tblmedidas()
+    {
+        return $this->belongsToMany(Tblmedida::class);
+    }
+
 }

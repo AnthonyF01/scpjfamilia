@@ -532,8 +532,13 @@
                         <div class="row">
                           {{ Form::label('tblmedida_id', 'Tipo de Medida de Protección:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
-                            {{Form::select('tblmedida_id',$medidas,null,array('class' => 'form-control input-sm'.($errors->has('tblmedida_id')?" is-invalid":""),'name'=>'tblmedida_id','id'=>'tblmedida_id','placeholder'=>'Seleccione una tipo'))}}
+                            {{-- {{Form::select('tblmedida_id',$medidas,null,array('class' => 'form-control input-sm'.($errors->has('tblmedida_id')?" is-invalid":""),'name'=>'tblmedida_id','id'=>'tblmedida_id','placeholder'=>'Seleccione una tipo'))}} --}}
 
+                            @if(isset($denuncia) && !empty($denuncia['id']))
+                              {{Form::select('tblmedida_id',$medidas,$denuncia->tblmedidas()->pluck('tblmedida.id','tblmedida.nombre')->toArray(),array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tblmedida_id[]','id'=>'tblmedida_id'))}}
+                            @else
+                              {{Form::select('tblmedida_id',$medidas,null,array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tblmedida_id[]','id'=>'tblmedida_id'))}}
+                            @endif
                             <span id="error-tblmedida_id" class="invalid-feedback"></span>
                           </div>
                         </div>
