@@ -723,11 +723,203 @@ class PermissionRoleTableSeeder extends Seeder
             ),
             88 => 
             array (
-                'id' => 92,
-                'permission_id' => 81,
-                'role_id' => 2,
-                'created_at' => '2019-03-03 19:50:48',
-                'updated_at' => '2019-03-03 19:50:48',
+                'id' => 93,
+                'permission_id' => 31,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            89 => 
+            array (
+                'id' => 94,
+                'permission_id' => 32,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            90 => 
+            array (
+                'id' => 95,
+                'permission_id' => 33,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            91 => 
+            array (
+                'id' => 96,
+                'permission_id' => 34,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            92 => 
+            array (
+                'id' => 97,
+                'permission_id' => 35,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            93 => 
+            array (
+                'id' => 98,
+                'permission_id' => 51,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            94 => 
+            array (
+                'id' => 99,
+                'permission_id' => 52,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            95 => 
+            array (
+                'id' => 100,
+                'permission_id' => 53,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            96 => 
+            array (
+                'id' => 101,
+                'permission_id' => 54,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            97 => 
+            array (
+                'id' => 102,
+                'permission_id' => 56,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            98 => 
+            array (
+                'id' => 103,
+                'permission_id' => 57,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            99 => 
+            array (
+                'id' => 104,
+                'permission_id' => 58,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            100 => 
+            array (
+                'id' => 105,
+                'permission_id' => 59,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            101 => 
+            array (
+                'id' => 106,
+                'permission_id' => 61,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            102 => 
+            array (
+                'id' => 107,
+                'permission_id' => 62,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            103 => 
+            array (
+                'id' => 108,
+                'permission_id' => 63,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            104 => 
+            array (
+                'id' => 109,
+                'permission_id' => 68,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            105 => 
+            array (
+                'id' => 110,
+                'permission_id' => 69,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            106 => 
+            array (
+                'id' => 111,
+                'permission_id' => 82,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            107 => 
+            array (
+                'id' => 112,
+                'permission_id' => 83,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            108 => 
+            array (
+                'id' => 113,
+                'permission_id' => 84,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            109 => 
+            array (
+                'id' => 114,
+                'permission_id' => 85,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            110 => 
+            array (
+                'id' => 115,
+                'permission_id' => 86,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            111 => 
+            array (
+                'id' => 116,
+                'permission_id' => 87,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
+            ),
+            112 => 
+            array (
+                'id' => 117,
+                'permission_id' => 88,
+                'role_id' => 4,
+                'created_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-04 09:05:53',
             ),
         ));
         

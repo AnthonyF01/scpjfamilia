@@ -57,6 +57,14 @@ class RoleUserTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
+            5 => 
+            array (
+                'id' => 8,
+                'role_id' => 4,
+                'user_id' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
         ));
         
         
