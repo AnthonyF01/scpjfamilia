@@ -2487,7 +2487,7 @@ class DenunciaController extends Controller
                 );
 
                 $rules = [
-                    'oficio' => 'required|string',
+                    'oficio' => 'nullable|string',
                     'institucion' => 'required',
                     'tblviolencia_id' => 'nullable|array|min:1',
                     // 'tbldenuncia_id' => 'required|array|min:1',
