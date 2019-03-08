@@ -320,7 +320,7 @@
                       </div>
                       <div class="form-group">
                         <div class="row">
-                          {{ Form::label('tbldenuncia_id', 'Grado de valoracion:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
+                          {{ Form::label('tbldenuncia_id', 'Grado de violencia:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
                             {{Form::select('tbldenuncia_id',$tdenuncias,null,array('class' => 'form-control input-sm'.($errors->has('tbldenuncia_id')?" is-invalid":""),'name'=>'tbldenuncia_id','id'=>'tbldenuncia_id'))}}
                             {{-- @if(isset($denuncia) && !empty($denuncia['id']))
@@ -329,6 +329,21 @@
                               {{Form::select('tbldenuncia_id',$tdenuncias,null,array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tbldenuncia_id[]','id'=>'tbldenuncia_id'))}}
                             @endif --}}
                             <span id="error-tbldenuncia_id" class="invalid-feedback"></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="row">
+                          {{ Form::label('tblviolencia_id', 'Tipo de Violencia:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
+                          <div class="col-sm-8">
+                            {{-- {{Form::select('tblviolencia_id',$medidas,null,array('class' => 'form-control input-sm'.($errors->has('tblviolencia_id')?" is-invalid":""),'name'=>'tblviolencia_id','id'=>'tblviolencia_id','placeholder'=>'Seleccione una tipo'))}} --}}
+
+                            @if(isset($denuncia) && !empty($denuncia['id']))
+                              {{Form::select('tblviolencia_id',$violencias,$denuncia->tblviolencias()->pluck('tblviolencia.id','tblviolencia.nombre')->toArray(),array('class' => 'form-control input-sm'.($errors->has('tblviolencia_id')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tblviolencia_id[]','id'=>'tblviolencia_id'))}}
+                            @else
+                              {{Form::select('tblviolencia_id',$violencias,null,array('class' => 'form-control input-sm'.($errors->has('tblviolencia_id')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tblviolencia_id[]','id'=>'tblviolencia_id'))}}
+                            @endif
+                            <span id="error-tblviolencia_id" class="invalid-feedback"></span>
                           </div>
                         </div>
                       </div>
@@ -602,7 +617,7 @@
                         <div class="row">
                           {{ Form::label('remitido', 'Remitir a:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
-                            {{Form::select('remitido',[''=>'Elegir','Archivo Central'=>'Archivo Central','Ministerio Público'=>'Ministerio Público','Juzgado de Paz Letrado'=>'Juzgado de Paz Letrado','Sala Superior'=>'Sala Superior'],null,array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""),'name'=>'remitido','id'=>'remitido'))}}
+                            {{Form::select('remitido',[''=>'Elegir','Archivo Central'=>'Fiscalia','Fiscalia'=>'Archivo Central','Ministerio Público'=>'Ministerio Público','Juzgado de Paz Letrado'=>'Juzgado de Paz Letrado','Sala Superior'=>'Sala Superior'],null,array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""),'name'=>'remitido','id'=>'remitido'))}}
                             <span id="error-remitido" class="invalid-feedback"></span>
                           </div>
                         </div>
@@ -1063,6 +1078,10 @@
       width: '100%'
     });
     $('#tblmedida_id').select2({
+      placeholder: 'Seleccione un Tipo',
+      width: '100%'
+    });
+    $('#tblviolencia_id').select2({
       placeholder: 'Seleccione un Tipo',
       width: '100%'
     });

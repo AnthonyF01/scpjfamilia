@@ -932,6 +932,21 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => '2019-02-14 23:23:42',
                 'deleted_at' => NULL,
             ),
+            61 => 
+            array (
+                'id' => 62,
+                'tblmodulo_id' => 33,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'JUZGADO CIVIL TRANSITORIO - SEDE ANCON',
+                'sigla' => 'JCTSA',
+                'tipo' => 'CI',
+                'estadistica' => 1,
+                'created_at' => '2019-02-14 23:23:42',
+                'updated_at' => '2019-02-14 23:23:42',
+                'deleted_at' => NULL,
+            ),
         ));
         
         

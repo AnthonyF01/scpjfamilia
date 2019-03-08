@@ -43,5 +43,6 @@ class DatabaseSeeder extends Seeder
         // $this->call(DenunciaTableSeeder::class);
         // $this->call(DenunciaVictimaTableSeeder::class);
         // $this->call(DenunciaAgresorTableSeeder::class);
+        $this->call(TblviolenciaTableSeeder::class);
     }
 }

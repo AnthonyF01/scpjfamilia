@@ -24,6 +24,7 @@ use App\Models\Tbldenuncia;
 use App\Models\Tblmedida;
 use App\Models\Tbldocumento;
 use App\Models\Tbltipo;
+use App\Models\Tblviolencia;
 
 use App\Charts\ExampleChart;
 
@@ -44,7 +45,8 @@ class DenunciaController extends Controller
 
         $fillable = $denuncias->getFields();
 
-        $denuncias = $denuncias->select('denuncia.*',DB::raw(
+        // descomentar para reemplazar lo de abajo y contar la fase 3 y 4
+        /*$denuncias = $denuncias->select('denuncia.*',DB::raw(
             "(case
                 when fdenuncia is not NULL then
                     case
@@ -137,7 +139,88 @@ class DenunciaController extends Controller
                 when registro_file is not NULL then 1
                 when registro_file is NULL then 0
             end) registro"
+        ));*/
+
+        $denuncias = $denuncias->select('denuncia.*',DB::raw(
+            "(case
+                when fdenuncia is not NULL then
+                    case
+                        when fformalizacion is not NULL then DATEDIFF(fformalizacion,fdenuncia)
+                        else DATEDIFF(now(),fdenuncia)
+                    end
+                when fdenuncia is NULL then -1
+            end) dform,
+
+            (case
+                when fformalizacion is not NULL then
+                    case
+                        when faudiencia is not NULL then DATEDIFF(faudiencia,fformalizacion)
+                        else DATEDIFF(now(),fformalizacion)
+                    end
+                when fformalizacion is NULL then -1
+            end) daud,
+
+            (case
+                when faudiencia is not NULL then
+                    case
+                        when fremision is not NULL then DATEDIFF(fremision,faudiencia)
+                        else DATEDIFF(now(),faudiencia)
+                    end
+                when faudiencia is NULL then -1
+            end) drem,
+
+            (case
+                when fremision is not NULL then
+                    case
+                        when fremisiond is not NULL then DATEDIFF(fremisiond,fremision)
+                        else DATEDIFF(now(),fremision)
+                    end
+                when fremision is NULL then -1
+            end) dden,
+
+            (case
+                when fremisiond is not NULL then
+                    case
+                        when fremisionj is not NULL then DATEDIFF(fremisionj,fremisiond)
+                        else DATEDIFF(now(),fremisiond)
+                    end
+                when fremisiond is NULL then -1
+            end) djuz,
+
+            (
+                (case
+                    when fdenuncia is not NULL then
+                        case
+                            when fformalizacion is not NULL then DATEDIFF(fformalizacion,fdenuncia)
+                            else DATEDIFF(now(),fdenuncia)
+                        end
+                    when fdenuncia is NULL then 0
+                end) +
+                (case
+                    when fformalizacion is not NULL then
+                        case
+                            when faudiencia is not NULL then DATEDIFF(faudiencia,fformalizacion)
+                            else DATEDIFF(now(),fformalizacion)
+                        end
+                    when fformalizacion is NULL then 0
+                end) +
+                (case
+                    when faudiencia is not NULL then
+                        case
+                            when fremision is not NULL then DATEDIFF(fremision,faudiencia)
+                            else DATEDIFF(now(),faudiencia)
+                        end
+                    when faudiencia is NULL then 0
+                end)
+            ) total,
+
+            (case
+                when registro_file is not NULL then 1
+                when registro_file is NULL then 0
+            end) registro"
         ));
+
+
         // $denuncias = $denuncias->paginate(10);
         // dd($denuncias);
 
@@ -509,7 +592,12 @@ class DenunciaController extends Controller
 
         $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
 
-        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
+        // $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
+
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)
+        ->where(function ($query) {
+            $query->where('tipo','FA')->orwhere('tipo','JM')->orwhere('estadistica','1');
+        })->orderBy('nombre')->pluck('nombre', 'id');
 
 
         if ($request->ajax()) {
@@ -1040,8 +1128,99 @@ class DenunciaController extends Controller
 
         }else{
             if ( ($request->file('file_audiencia') && $request->hasFile('file_audiencia')) ) {
+
+                // Audiencia
+                $filename = $request->file('file_audiencia')->getClientOriginalName();
+                $filetype = $request->file('file_audiencia')->getClientOriginalExtension();
+                $public_path = public_path();
+                $public_path = str_replace("\\", "/", $public_path);
+                $path = $public_path.'/img/import/';
+                if (!file_exists($path)) { // crea el directorio si no existe
+                    mkdir($path, 0777, true); // todos los permisos
+                }
+                $file_namea = $filename.'.'.$filetype;
+                $request->file('file_audiencia')->move($path,$file_namea);
+
+                $faudiencia = $path.$file_namea;
+
+                if (file_exists($faudiencia)) {
+                    set_time_limit(0);
+                    $row = 1;
+                    if (($handle = fopen($faudiencia, "r")) !== FALSE) {
+                      while (($data = fgetcsv($handle, 0, ";")) !== FALSE) {
+                        $num = count($data);
+                        if ($row > 1) {
+
+                          $input = [
+                              'faudiencia' => (!empty($data[1]) && isset($data[1]) && ($data[1]))? $data[1] : null,
+                              'hora' => (!empty($data[2]) && isset($data[2]) && ($data[2]))? $data[2] : null,
+                              'calificacion' => 'Ha lugar',
+                          ];
+
+                          $bdenuncia = Denuncia::where('expediente','=',str_replace("'", '', $data[0]))->first();
+
+                          if(count($bdenuncia) > 0){
+
+                            $denuncia = Denuncia::where('expediente','=',str_replace("'", '', $data[0]))->update($input);
+
+                          }
+
+                        }
+
+                        $row++;
+                      }
+                      fclose($handle);
+                    }
+                    echo json_encode("OK.");
+                }
+
             }else{
-                if ( ($request->file('file_audiencia') && $request->hasFile('file_audiencia')) ) {
+                if ( ($request->file('file_remision') && $request->hasFile('file_remision')) ) {
+
+                  // Remision
+                  $filename = $request->file('file_remision')->getClientOriginalName();
+                  $filetype = $request->file('file_remision')->getClientOriginalExtension();
+                  $public_path = public_path();
+                  $public_path = str_replace("\\", "/", $public_path);
+                  $path = $public_path.'/img/import/';
+                  if (!file_exists($path)) { // crea el directorio si no existe
+                      mkdir($path, 0777, true); // todos los permisos
+                  }
+                  $file_namer = $filename.'.'.$filetype;
+                  $request->file('file_remision')->move($path,$file_namer);
+
+                  $fremision = $path.$file_namer;
+
+                  if (file_exists($fremision)) {
+                    set_time_limit(0);
+                    $row = 1;
+                    if (($handle = fopen($fremision, "r")) !== FALSE) {
+                      while (($data = fgetcsv($handle, 0, ";")) !== FALSE) {
+                        $num = count($data);
+                        if ($row > 1) {
+
+                          $input = [
+                              'fremision' => (!empty($data[1]) && isset($data[1]) && ($data[1]))? $data[1] : null,
+                              'calificacion' => 'Ha lugar',
+                          ];
+
+                          $bdenuncia = Denuncia::where('expediente','=',str_replace("'", '', $data[0]))->first();
+
+                          if(count($bdenuncia) > 0){
+
+                            $denuncia = Denuncia::where('expediente','=',str_replace("'", '', $data[0]))->update($input);
+
+                          }
+
+                        }
+
+                        $row++;
+                      }
+                      fclose($handle);
+                    }
+                    echo json_encode("OK.");
+                }
+
                 }else{
                     echo json_encode("Error: Fallo de carga en los archivos.");
                 }
@@ -2100,19 +2279,23 @@ class DenunciaController extends Controller
         $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->orderBy('nombre')->pluck('nombre', 'id');
         $instituciones = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',1)->orderBy('nombre')->pluck('nombre', 'id');
         $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
-        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','FA')->orwhere('tipo','JM')->orderBy('nombre')->pluck('nombre', 'id');
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)
+        ->where(function ($query) {
+            $query->where('tipo','FA')->orwhere('tipo','JM')->orwhere('estadistica','1');
+        })->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
         $tdenuncias = Tbldenuncia::orderBy('nombre')->pluck('nombre', 'id');
         $medidas = Tblmedida::orderBy('nombre')->pluck('nombre', 'id');
+        $violencias = Tblviolencia::orderBy('nombre')->pluck('nombre', 'id');
 
         $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
         $documentos = Tbldocumento::orderBy('nombre','asc')->pluck('nombre', 'id');
         $tipos = Tbltipo::all()->pluck('nombre', 'id');
 
-        return view('denuncia.denuncia.partials.form', compact('denuncia','comisarias','instituciones','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','medidas','tdenuncias','departamentos','documentos','tipos'));
+        return view('denuncia.denuncia.partials.form', compact('denuncia','comisarias','instituciones','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','medidas','violencias','tdenuncias','departamentos','documentos','tipos'));
     }
 
     public function ejecucion($id)
@@ -2294,6 +2477,7 @@ class DenunciaController extends Controller
                     'oficio' => 'Oficio',
                     'institucion' => 'Institucion',
                     'tbldenuncia_id' => 'Tipo Denuncia',
+                    'tblviolencia_id' => 'Tipo de Violencia',
                     'fdenuncia' => 'Fecha de Denuncia',
                     'fformalizacion' => 'Fecha de Formalización',
                     'tblcomisaria_id' => 'Comisaria',
@@ -2305,6 +2489,7 @@ class DenunciaController extends Controller
                 $rules = [
                     'oficio' => 'required|string',
                     'institucion' => 'required',
+                    'tblviolencia_id' => 'nullable|array|min:1',
                     // 'tbldenuncia_id' => 'required|array|min:1',
                     'tbldenuncia_id' => 'required|exists:tbldenuncia,id',
                     'fdenuncia' => 'required|date',
@@ -2395,9 +2580,9 @@ class DenunciaController extends Controller
                     Denuncia::where('id', $id)->update($input);
 
                     // el metodo sync solo sirve para tablas relacionadas muchos a muchos
-                    /*if (!empty($request->get('tbldenuncia_id'))) {
-                        $denuncia->tbldenuncias()->sync($request->get('tbldenuncia_id'));
-                    }*/
+                    if (!empty($request->get('tblviolencia_id'))) {
+                        $denuncia->tblviolencias()->sync($request->get('tblviolencia_id'));
+                    }
 
                     return response()->json([
                         'tab' => 'denuncia',

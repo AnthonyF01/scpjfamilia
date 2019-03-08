@@ -159,6 +159,7 @@
         });
         
       }else{
+        $("#importDAV").removeAttr('disabled');
         alert("Debe agregar los archivos correspondientes a la denuncia, victima y agresor.");
         return false;
       }
@@ -167,37 +168,42 @@
 
     function loadDFilesA() {
 
+      $('.loading').show();
       $("#importA").attr('disabled','disabled');
 
       var file_audiencia = $('input[name=audiencia]').prop('files')[0];
+      var _token = $('input[id=token]').val();
       var form_data = new FormData();
       form_data.append('file_audiencia', file_audiencia);
+      form_data.append('_token', _token);
 
       debugger
 
       if ((typeof file_audiencia !== 'undefined' && (file_audiencia))) {
 
         $.ajax({
-          url: '../import/import.php',
-          dataType: "text",
+          url: "/denuncia/importCSV",
+          data: form_data,
+          type: 'post',
           cache: false,
           contentType: false,
           processData: false,
-          data: form_data,
-          type: 'post',
           success: function(data){
             debugger
             alert(data);
+            $('.loading').hide();
             $("#data").html(data);
             $("#importA").removeAttr('disabled');
           },
           error: function(xhr,error,status){
             debugger
+            $('.loading').hide();
             $("#importA").removeAttr('disabled');
           }
         });
         
       }else{
+        $("#importA").removeAttr('disabled');    
         alert("Debe agregar el archivo de audiencia.");
         return false;
       }
@@ -206,37 +212,42 @@
 
     function loadDFilesR() {
 
+      $('.loading').show();
       $("#importR").attr('disabled','disabled');
 
       var file_remision = $('input[name=remision]').prop('files')[0];
       var form_data = new FormData();
+      var _token = $('input[id=token]').val();
       form_data.append('file_remision', file_remision);
+      form_data.append('_token', _token);
 
       debugger
 
       if ((typeof file_remision !== 'undefined' && (file_remision))) {
 
         $.ajax({
-          url: '../import/import.php',
-          dataType: "text",
+          url: "/denuncia/importCSV",
+          data: form_data,
+          type: 'post',
           cache: false,
           contentType: false,
           processData: false,
-          data: form_data,
-          type: 'post',
           success: function(data){
             debugger
             alert(data);
+            $('.loading').hide();
             $("#data").html(data);
             $("#importR").removeAttr('disabled');
           },
           error: function(xhr,error,status){
             debugger
+            $('.loading').hide();
             $("#importR").removeAttr('disabled');
           }
         });
         
       }else{
+        $("#importR").removeAttr('disabled');
         alert("Debe agregar el archivo de remision.");
         return false;
       }
