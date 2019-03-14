@@ -1967,6 +1967,32 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
             ),
+            150 => 
+            array (
+                'id' => 151,
+                'tblmodulo_id' => 33,
+                'tbldepartamento_id' => 7,
+                'nombre' => 'COMISARIA DE SANTA ROSA',
+                'latitud' => NULL,
+                'longitud' => NULL,
+                'created_at' => '2019-03-13 15:22:08',
+                'updated_at' => '2019-03-13 15:22:08',
+                'deleted_at' => NULL,
+                'tipo_int' => 0,
+            ),
+            151 => 
+            array (
+                'id' => 152,
+                'tblmodulo_id' => 33,
+                'tbldepartamento_id' => 7,
+                'nombre' => 'COMISARIA DE ANCON',
+                'latitud' => NULL,
+                'longitud' => NULL,
+                'created_at' => '2019-03-13 15:22:21',
+                'updated_at' => '2019-03-13 15:22:21',
+                'deleted_at' => NULL,
+                'tipo_int' => 0,
+            ),
         ));
         
         
