@@ -32,6 +32,29 @@ class DenunciaController extends Controller
 
     }
 
+    public function findDNI(Request $request, $dni = '')
+    {
+        
+        if ($dni != '') {
+            $denuncia = new Denuncia;
+
+            $victima=Victima::where('nro_doc',$dni)->first();
+            $id=$victima->id; 
+            $denuncia=$denuncia->join('denuncia_victima',function ($join) use($id){
+                $join->on('denuncia.id','=','denuncia_victima.denuncia_id');
+                $join->where('denuncia_victima.victima_id','=',$id);
+            });
+            $denuncia = $denuncia->where('tblmodulo_id','=',$request->user()->tblmodulo_id)->take(10)->get();
+        }else{
+            $denuncia = [];
+        }
+
+        return response()->json([
+            'denuncia' => $denuncia,
+        ]);
+
+    }
+
     public function findVictima(Request $request, $dni = '')
     {
 
@@ -87,8 +110,8 @@ class DenunciaController extends Controller
         
         $denuncia = Denuncia::where('expediente', '=', $expediente)->where('tblmodulo_id','=',$request->user()->tblmodulo_id)->first();
         $element = [
-            'instancia' => $denuncia->tblinstancia->sigla,
-            'institucion' => $denuncia->tblcomisaria->nombre,
+            'instancia' => ($denuncia->tblinstancia->sigla !== 'undefined') ? $denuncia->tblinstancia->sigla : '',
+            'institucion' => (isset($denuncia->tblcomisaria->nombre) && ($denuncia->tblcomisaria->nombre !== 'undefined')) ? $denuncia->tblcomisaria->nombre : '',
             'expediente' => $denuncia->expediente,
             'oficio' => $denuncia->oficio,
             'fdenuncia' => $denuncia->fdenuncia,
