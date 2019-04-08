@@ -21,7 +21,7 @@ class Agresor extends Model
      *
      * @var array
      */
-    protected $fillable = [ 'nombre', 'apellido', 'tbldocumento_id', 'nro_doc', 'sexo', 'tbldepartamento_id', 'tblprovincia_id', 'tbldistrito_id' ];
+    protected $fillable = [ 'nombre', 'apellido', 'tbldocumento_id', 'nro_doc', 'sexo', 'tbldepartamento_id', 'tblprovincia_id', 'tbldistrito_id', 'telefono', 'direccion' ];
 
     /**
     * The attributes that aren't mass assignable.

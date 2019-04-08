@@ -180,6 +180,10 @@ $(document).on('submit', 'form', function (event) {
         data.set('ministerio', $('input[name="ministerio"]:checked').length);
     }
 
+    if (data.has('device')) {
+        data.set('device', $('input[name="device"]:checked').length);
+    }
+
     // denuncia 
     if (data.has('_institucion')) {
         data.set('institucion', 1);
@@ -831,7 +835,154 @@ function makeChartMensual(json) {
     });
 }
 
+function showDocumentoPolicial(url,s,id) {
+    var form=$("#form-registro_file");
+    var frame=$("#pdf-registro_file");
+    var span=$("#span-title");
+    var button=$("#button-registro_file");
+    var modal_message=$("#modal_message");
 
+    form[0].reset();
+    button.attr('disabled','disabled');
+    button.attr('title','Subir un documento PDF para realizar esta operación');
 
+    modal_message.addClass('hide');
+
+    if (url=='') {
+        frame.html('');
+        frame.removeClass('hide');
+    }
+    else{
+        frame.html('<iframe src="'+url+'" width="100%" style="height: 450px;" frameborder="0"></iframe>');
+        frame.removeClass('hide');
+    }
+
+    if (s==0) {
+        span.html('<strong>Subir Documento Registro Policial</strong>');
+        button.html('<span class="glyphicon glyphicon-plus"></span> Subir Documento')
+                                .removeClass('btn-success')
+                                .addClass('btn-primary');
+    }
+    else{
+        span.html('<strong>Modificar Documento Registro Policial</strong>');
+        button.html('<span class="glyphicon glyphicon-check"></span> Modificar Documento')
+                                .removeClass('btn-primary')
+                                .addClass('btn-success');
+    }
+    $("#form-registro_file").attr('action',s);
+    $("#form-registro_file").data('id',id);
+    $("#form-registro_file").data('s',s);
+    $("#showModalRegistro").modal({backdrop: 'static', keyboard: false});
+}
+
+$(document).on('click', '#button-registro_file', function (event) {
+    event.preventDefault();
+    var modal_message=$("#modal_message");
+    var show_message=$("#show_message");
+
+    var documento=$("#registro_file").val();
+    var form=$("#form-registro_file");
+    var button=$(this);
+    var id=form.data('id');
+    var s=form.data('s'); //estado de si es update o insert
+
+    button.html('<i class="fa fa-refresh fa-lg fa-spin"></i> Procesando');
+    button.attr('disabled', 'disabled');
+
+    if (documento) {
+        $("#modal_message").addClass('hide');
+        $("#show_message").html('');
+        var data = new FormData(form[0]);
+        $.ajax({
+            type: 'POST',
+            url: URLs+'/denucia-subir-documento/'+id,
+            data: data,
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: function (data) {
+                debugger;
+                // button.removeAttr('disabled');
+                modal_message.removeClass('hide');
+                form[0].reset();
+                if (data.fail) {
+                    modal_message.find(".alert").removeClass('alert-success').addClass('alert-warning');
+                    show_message.html('');
+                    for (control in data.errors) {
+                        show_message.append(data.errors[control])
+                    }
+                    if (s==0) {
+                        button.html('<span class="glyphicon glyphicon-plus"></span> Subir Documento')
+                                .removeClass('btn-success')
+                                .addClass('btn-primary');
+                    }
+                    else{
+                        button.html('<span class="glyphicon glyphicon-check"></span> Modificar Documento')
+                                .removeClass('btn-primary')
+                                .addClass('btn-success');
+                    }
+                }
+                else {
+                    modal_message.find(".alert").removeClass('alert-warning').addClass('alert-success');
+                    button.html('<span class="glyphicon glyphicon-check"></span> Modificar Documento')
+                            .removeClass('btn-primary')
+                            .addClass('btn-success');
+                    if (s==0) {
+                        var message='Registro Policial <strong>subido</strong> exitosamente';
+                        form.data('s',1);
+                    }
+                    else{
+                        var message='Registro Policial <strong>modificado</strong> exitosamente';
+                    }
+                    show_message.html(message);
+                    javascript:ajaxLoad('/denuncia');
+                }
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                // button.removeAttr('disabled');
+                button.html('<span class="glyphicon glyphicon-check"></span> Modificar Documento')
+                        .removeClass('btn-primary')
+                        .addClass('btn-success');
+                alert("Error: " + errorThrown);
+            }
+        });
+    }
+    else{
+        $("#modal_message").removeClass('hide')
+        $("#show_message").html('Seleccione el Documento Policial Para Realizar Esta Acción');
+    }
+
+});
+
+function archivoFile(evt) {
+    var files = evt.target.files; // FileList object
+    var button=$("#button-registro_file");
+    var modal_message=$("#modal_message");
+    var show_message=$("#show_message");
+    var frame=$("#pdf-"+evt.target.name);
+    if (files.length==0) {
+        frame.html('');
+        frame.addClass('hide');
+        button.attr('disabled','disabled');
+        button.attr('title','Subir un documento PDF para realizar esta operación');
+        modal_message.removeClass('hide');
+        modal_message.find(".alert").removeClass('alert-success').addClass('alert-warning');
+        show_message.html('Seleccione el Documento Policial Para Realizar Esta Acción');
+    }
+    else{
+        pdffile_url=URL.createObjectURL(files[0]);
+        frame.html('<iframe src="'+pdffile_url +'" width="100%" style="height: 450px;" frameborder="0"></iframe>');
+        frame.removeClass('hide');
+        button.removeAttr('disabled');
+        button.attr('title','');
+        modal_message.addClass('hide');
+        modal_message.find(".alert").removeClass('alert-warning').addClass('alert-success');
+        show_message.html('');
+    }
+}
+
+$("#registro_file").change(function(event) {
+    archivoFile(event);
+});
 
 

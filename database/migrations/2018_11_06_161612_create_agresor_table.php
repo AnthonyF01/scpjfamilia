@@ -23,6 +23,8 @@ class CreateAgresorTable extends Migration
             $table->integer('tbldocumento_id')->unsigned();
             $table->string('nro_doc');
             $table->string('sexo',20);
+            $table->string('telefono')->nullable();
+            $table->string('direccion')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

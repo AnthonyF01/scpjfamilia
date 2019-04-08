@@ -3,18 +3,18 @@
     <div class="col-md-8 col-md-offset-2">
       <div class="box_plus box_plus-default ">
         <div id="box_plus-title" class="box_plus-heading">
-        	@if(isset($agresor) && !empty($agresor['id']))
-        		Editar Agresor
-	        @else
-        		Crear Agresor
-	        @endif
+            @if(isset($agresor) && !empty($agresor['id']))
+                Editar Agresor
+            @else
+                Crear Agresor
+            @endif
         </div>
         <div class="box_plus-body">
 
-        	@if(isset($agresor) && !empty($agresor['id']))
-          	{!! Form::model($agresor, [ 'route' => ['agresor.update', $agresor->id], 'method' => 'PUT', 'id'=>'form_agresor' ]) !!}
-	        @else
-	          {!! Form::open([ 'route' => 'agresor.store', 'id'=>'form_agresor' ]) !!}
+            @if(isset($agresor) && !empty($agresor['id']))
+            {!! Form::model($agresor, [ 'route' => ['agresor.update', $agresor->id], 'method' => 'PUT', 'id'=>'form_agresor' ]) !!}
+            @else
+              {!! Form::open([ 'route' => 'agresor.store', 'id'=>'form_agresor' ]) !!}
           @endif
 
             <div class="form-group has-feedback {{ $errors->has('nombre')? 'has-error':'' }}">
@@ -29,22 +29,44 @@
               <span id="error-apellido" class="invalid-feedback"></span>
             </div>
 
-            <div class="form-group">
-              {{ Form::label('Tipo de Documento') }}
-              {{ Form::select('tbldocumento_id', $documentos, null, array('class'=>'form-control input-sm'.($errors->has('tbldocumento_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo de Documento')) }}
-              <span id="error-tbldocumento_id" class="invalid-feedback"></span>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  {{ Form::label('Tipo de Documento') }}
+                  {{ Form::select('tbldocumento_id', $documentos, null, array('class'=>'form-control input-sm'.($errors->has('tbldocumento_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo de Documento')) }}
+                  <span id="error-tbldocumento_id" class="invalid-feedback"></span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group has-feedback {{ $errors->has('nro_doc')? 'has-error':'' }}">
+                  {{ Form::label('nro_doc', 'Numero de Documento') }}
+                  {{ Form::text('nro_doc', null, ['class' => 'form-control input-sm'.($errors->has('nro_doc')?" is-invalid":""), "autofocus", 'id' => 'nro_doc', 'autocomplete' => 'off']) }}
+                  <span id="error-nro_doc" class="invalid-feedback"></span>
+                </div>
+              </div>
             </div>
 
-            <div class="form-group has-feedback {{ $errors->has('nro_doc')? 'has-error':'' }}">
-              {{ Form::label('nro_doc', 'Numero de Documento') }}
-              {{ Form::text('nro_doc', null, ['class' => 'form-control input-sm'.($errors->has('nro_doc')?" is-invalid":""), "autofocus", 'id' => 'nro_doc', 'autocomplete' => 'off']) }}
-              <span id="error-nro_doc" class="invalid-feedback"></span>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group has-feedback {{ $errors->has('sexo')? 'has-error':'' }}">
+                  {{ Form::label('sexo', 'Sexo') }}
+                  {{ Form::select('sexo', ['Masculino'=>'Masculino','Femenino'=>'Femenino'], null, array('class'=>'form-control input-sm'.($errors->has('sexo')?" is-invalid":""), 'placeholder'=>'Seleccione un Sexo')) }}
+                  <span id="error-sexo" class="invalid-feedback"></span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group has-feedback {{ $errors->has('telefono')? 'has-error':'' }}">
+                  {{ Form::label('telefono', 'Teléfono') }}
+                  {{ Form::text('telefono', null, ['class' => 'form-control input-sm'.($errors->has('telefono')?" is-invalid":""), "autofocus", 'id' => 'telefono', 'autocomplete' => 'off']) }}
+                  <span id="error-telefono" class="invalid-feedback"></span>
+                </div>
+              </div>
             </div>
 
-            <div class="form-group has-feedback {{ $errors->has('sexo')? 'has-error':'' }}">
-              {{ Form::label('sexo', 'Sexo') }}
-              {{ Form::select('sexo', ['Masculino'=>'Masculino','Femenino'=>'Femenino'], null, array('class'=>'form-control input-sm'.($errors->has('sexo')?" is-invalid":""), 'placeholder'=>'Seleccione un Sexo')) }}
-              <span id="error-sexo" class="invalid-feedback"></span>
+            <div class="form-group has-feedback {{ $errors->has('direccion')? 'has-error':'' }}">
+              {{ Form::label('direccion', 'Dirección') }}
+              {{ Form::text('direccion', null, ['class' => 'form-control input-sm'.($errors->has('direccion')?" is-invalid":""), "autofocus", 'id' => 'direccion', 'autocomplete' => 'off']) }}
+              <span id="error-direccion" class="invalid-feedback"></span>
             </div>
 
             <div class="form-group">
@@ -65,19 +87,19 @@
               <span id="error-tbldistrito_id" class="invalid-feedback"></span>
             </div>
 
-						
-						<div class="form-group">
-							@if( !empty($agresor['id']) ) 
-								{!! Form::button("Actualizar",["type" => "submit","id" => "btnSubmitAgresor","class"=>"btn btn-warning"])!!}
-							@else
-								{!! Form::button("Guardar",["type" => "submit","class"=>"btn btn-primary"])!!}
-							@endif
-							<a href="javascript:ajaxLoad('{{ url('/agresor') }}')" class="btn btn-default pull-right">Cancelar</a>
-						</div>
-					
+                        
+                        <div class="form-group">
+                            @if( !empty($agresor['id']) ) 
+                                {!! Form::button("Actualizar",["type" => "submit","id" => "btnSubmitAgresor","class"=>"btn btn-warning"])!!}
+                            @else
+                                {!! Form::button("Guardar",["type" => "submit","class"=>"btn btn-primary"])!!}
+                            @endif
+                            <a href="javascript:ajaxLoad('{{ url('/agresor') }}')" class="btn btn-default pull-right">Cancelar</a>
+                        </div>
+                    
           {!! Form::close() !!}
 
-				</div>
+                </div>
       </div>
     </div>
   </div>

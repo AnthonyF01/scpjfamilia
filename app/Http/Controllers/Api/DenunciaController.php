@@ -32,25 +32,52 @@ class DenunciaController extends Controller
 
     }
 
-    public function findDNI(Request $request, $dni = '')
+    public function findDNI(Request $request, $search = '')
     {
         
-        if ($dni != '') {
+        if ($search != '') {
             $denuncia = new Denuncia;
 
-            $victima=Victima::where('nro_doc',$dni)->first();
-            $id=$victima->id; 
-            $denuncia=$denuncia->join('denuncia_victima',function ($join) use($id){
-                $join->on('denuncia.id','=','denuncia_victima.denuncia_id');
-                $join->where('denuncia_victima.victima_id','=',$id);
-            });
-            $denuncia = $denuncia->where('tblmodulo_id','=',$request->user()->tblmodulo_id)->take(10)->get();
+            $victima=Victima::where('nro_doc',$search)
+                              ->orwhere(function ($query) use ($search) {
+                                $query->orwhere('nombre','like', '%'.$search.'%')
+                                      ->orWhere('apellido','like', '%'.$search.'%');
+                              })
+                              ->take(10)
+                              ->get();
+
+            // dd(count($victima),$victima[0]->id);
+
+            if (count($victima) > 0) {
+                if (count($victima) <= 1) {
+                    // dd("victima: ".$victima);
+                    $id=$victima[0]->id; 
+                    $denuncia=$denuncia->join('denuncia_victima',function ($join) use($id){
+                        $join->on('denuncia.id','=','denuncia_victima.denuncia_id');
+                        $join->where('denuncia_victima.victima_id','=',$id);
+                    });
+                    $denuncia = $denuncia->where('tblmodulo_id','=',$request->user()->tblmodulo_id)->take(10)->get();
+                    // $denuncia = $denuncia->where('tblmodulo_id','=',33)->take(10)->get();
+                    $victima = [];
+                }else{
+                    $denuncia = [];
+                    return response()->json([
+                        'victima' => $victima,
+                        'denuncia' => $denuncia,
+                    ]);
+                }
+            }else{
+                $denuncia = [];
+                $victima = [];
+            }
         }else{
             $denuncia = [];
+            $victima = [];
         }
 
         return response()->json([
             'denuncia' => $denuncia,
+            'victima' => $victima,
         ]);
 
     }

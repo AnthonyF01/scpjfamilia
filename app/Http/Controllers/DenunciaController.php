@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Http\UploadedFile;
 use Auth;
 use PDF;
 use App\Models\Documento;
@@ -228,6 +230,10 @@ class DenunciaController extends Controller
             ->has('search') ? $request->get('search') : ($request->session()
             ->has('search') ? $request->session()->get('search') : ''));
 
+        $request->session()->put('dni', $request
+            ->has('dni') ? $request->get('dni') : ($request->session()
+            ->has('dni') ? $request->session()->get('dni') : ''));
+
         $request->session()->put('field', $request
             ->has('field') ? $request->get('field') : ( $request->session()
             ->has('field') ? ( array_search($request->session()->get('field'), $fillable) ?
@@ -272,10 +278,29 @@ class DenunciaController extends Controller
             ->has('fecha2') ? ( is_numeric($request->session()->get('fecha2')) ?
               $request->session()->get('fecha2') : date('Y-m-d') ) : date('Y-m-d')));
 
-        $denuncias = $denuncias
-            ->where('expediente', 'like', '%' . $request->session()->get('search') . '%')
-            ->where('tblmodulo_id', Auth::user()->tblmodulo_id);
-            // dd($denuncias->get());
+        $search=$request->session()->get('search');
+
+        if ($request->session()->get('dni') != '') {
+            $dni=$request->session()->get('dni');
+            $victima=Victima::where('nro_doc',$dni)->first();
+            if ($victima) $id=$victima->id;
+            else $id=0;
+            $denuncias=$denuncias->join('denuncia_victima',function ($join) use($id){
+                $join->on('denuncia.id','=','denuncia_victima.denuncia_id');
+                $join->where('denuncia_victima.victima_id','=',$id);
+            });
+
+            if ($search) {
+                $denuncias = $denuncias->where('expediente', 'like', "%$search%");
+            }
+        }
+        else{
+            $denuncias = $denuncias->where('expediente', 'like', "%$search%");
+        }
+
+        $denuncias = $denuncias->where('tblmodulo_id', Auth::user()->tblmodulo_id);
+            
+        // dd($denuncias->get());
 
         if ($request->session()->get('tblinstancia_id') != '') {
             $denuncias = $denuncias->where('tblinstancia_id', $request->session()->get('tblinstancia_id'));
@@ -393,18 +418,22 @@ class DenunciaController extends Controller
         $instituciones = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',1)->orderBy('nombre')->pluck('nombre', 'id');
         $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
         $tdenuncias = Tbldenuncia::orderBy('nombre')->pluck('nombre', 'id');
-        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)
+        ->where(function ($query) {
+            $query->where('tipo','FA')->orwhere('tipo','JM')->orwhere('estadistica','1');
+        })->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
         $medidas = Tblmedida::orderBy('nombre')->pluck('nombre', 'id');
+        $violencias = Tblviolencia::orderBy('nombre')->pluck('nombre', 'id');
 
         $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
         $documentos = Tbldocumento::orderBy('nombre','asc')->pluck('nombre', 'id');
         $tipos = Tbltipo::all()->pluck('nombre', 'id');
 
-        return view('denuncia.denuncia.partials.form', compact('medidas','comisarias','instituciones','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tdenuncias','departamentos','documentos','tipos'));
+        return view('denuncia.denuncia.partials.form', compact('medidas','comisarias','instituciones','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tdenuncias','departamentos','documentos','tipos','violencias'));
 
     }
 
@@ -1620,6 +1649,84 @@ class DenunciaController extends Controller
 
                 $DPTotal = $denunciaP[0]->total;
 
+                //  Valoración de Denuncias
+                $sqlV = "SELECT distinct tbld.nombre, ifnull(count(d.tbldenuncia_id),0) as total
+                            from  tbldenuncia as tbld
+                            left join (
+                                select *  from denuncia as d
+                                where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                                AND extract(year FROM fformalizacion) = ".$request['anio']." ";
+                if (isset($request['mes']) && !empty($request['mes'])) {
+                    $sqlV .= " and month(d.fformalizacion)=".$request['mes']." ";
+                }
+                if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
+                    $sqlV .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
+                }
+                if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
+                    $sqlV .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
+                }
+
+                $sqlV.= ") as d on d.tbldenuncia_id=tbld.id
+                        group by tbld.nombre order by tbld.nombre";
+
+                $valoracionDen = DB::select(DB::raw($sqlV));
+
+                $valoracionDenArr = [];
+
+                for ($i=0; $i < count($valoracionDen); $i++) {
+                    $valoracionDenArr['keys'][] = $valoracionDen[$i]->nombre;
+                    $valoracionDenArr['values'][] = $valoracionDen[$i]->total;
+                }
+
+                $chartV = new ExampleChart;
+                $chartV->displayYAxes(false)->displayXAxes(true,'#000000','11px')->displayLegend(false)->plotOpt(true, 'column');
+                $chartV->labels($valoracionDenArr['keys']);
+                $chartV->dataset('Total', 'column', $valoracionDenArr['values'])
+                        ->options([
+                            'color' => 'rgb(110,255,51)',
+                            'fontSize' => '15px',
+                        ]);
+
+                //  Tipos de Medida de Protección de Denuncias
+                $sqlMP = "SELECT distinct tblm.nombre, tblm.sigla, ifnull(count(d.tblmedida_id),0) as total
+                            from  tblmedida as tblm
+                            left join (
+                                select *  from denuncia as d
+                                where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                                AND extract(year FROM fformalizacion) = ".$request['anio']." ";
+                if (isset($request['mes']) && !empty($request['mes'])) {
+                    $sqlMP .= " and month(d.fformalizacion)=".$request['mes']." ";
+                }
+                if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
+                    $sqlMP .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
+                }
+                if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
+                    $sqlMP .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
+                }
+
+                $sqlMP.= ") as d on d.tblmedida_id=tblm.id
+                        group by tblm.nombre order by tblm.id";
+
+                $medidaDen = DB::select(DB::raw($sqlMP));
+
+                $chartMP = array();
+                $medidaDenArr = [];
+
+                foreach ($medidaDen as $r) {
+                    $medidaDenArr[] = [
+                        'nombre'=>$r->nombre,
+                        'name'=>$r->sigla,
+                        'y'=>(int)$r->total,
+                    ];
+                    $maxHeight[] = (int)$r->total;
+                }
+
+                if (isset($maxHeight) && !empty($maxHeight)) {
+                    $chartMP['json'] = $medidaDenArr;
+                    $chartMP['maxHeight'] = $maxHeight;
+                    $chartMP['anio'] = $request['anio'];
+                }
+
                 // Calificacion Denuncias
                 $sqlCDN = "SELECT distinct cl.calificacion, count(cld.calificacion) as total from (
                             select d.calificacion from denuncia d
@@ -2161,17 +2268,17 @@ class DenunciaController extends Controller
                     $idChartArr[] = $chartCDN->id;
                     $idChartArr[] = $chartVAR->id;
                     $idChartArr = json_encode($idChartArr);
-                    return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','ApTotal','AlTotal','DPTotal','chartCDN','AJTotal','PNPTotal','MVFTotal','DRTotal','REMTotal','chartVAR','idChartArr','request','graphGenerated'));
+                    return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','ApTotal','AlTotal','DPTotal','chartCDN','calificacionDenArr','AJTotal','PNPTotal','MVFTotal','DRTotal','REMTotal','chartVAR','idChartArr','request','graphGenerated','chartV','chartMP'));
                 }
 
                 if (isset($request['graph4']) && !empty($request['graph4']) && $request['graph4'] != '0') {
                     $graphGenerated = '4';
                     // array de ids de las graficas
                     $idChartArr[] = $chartCID->id;
-                    // $idChartArr[] = $chartTTC->id;
-                    $idChartArr[] = "ttramite";         // id del grafico generado manualmente
+                    $idChartArr[] = $chartTTC->id;
+                    // $idChartArr[] = "ttramite";         // id del grafico generado manualmente
                     $idChartArr = json_encode($idChartArr);
-                    return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','DPTotal','chartCID','PNPTotal','MVFTotal','PSCEMTotal','ALCEMTotal','MINTotal','idChartArr','request','graphGenerated'));
+                    return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','DPTotal','chartCID','chartTTC','PNPTotal','MVFTotal','PSCEMTotal','ALCEMTotal','MINTotal','idChartArr','request','graphGenerated'));
                 }
 
 
@@ -2452,9 +2559,6 @@ class DenunciaController extends Controller
                 if ($request['fdenuncia'] != '') {
                     $request->merge([ 'fdenuncia' => date('Y-m-d',strtotime(str_replace('/', '-', $request['fdenuncia']))) ]);
                 }
-                if ($request['fformalizacion'] != '') {
-                    $request->merge([ 'fformalizacion' => date('Y-m-d',strtotime(str_replace('/', '-', $request['fformalizacion']))) ]);
-                }
 
                 $messages = array(
                     'required' => ':attribute es obligatorio.',
@@ -2493,7 +2597,7 @@ class DenunciaController extends Controller
                     // 'tbldenuncia_id' => 'required|array|min:1',
                     'tbldenuncia_id' => 'required|exists:tbldenuncia,id',
                     'fdenuncia' => 'required|date',
-                    'fformalizacion' => 'required|date',
+                    // 'fformalizacion' => 'required|date',
                     'observacion' => 'nullable|string',
                 ];
 
@@ -2502,7 +2606,7 @@ class DenunciaController extends Controller
                     'institucion' => $request['institucion'],
                     'tbldenuncia_id' => $request['tbldenuncia_id'],
                     'fdenuncia' => $request['fdenuncia'],
-                    'fformalizacion' => $request['fformalizacion'],
+                    // 'fformalizacion' => $request['fformalizacion'],
                     'observacion' => $request['observacion'],
                 ];
 
@@ -2596,6 +2700,10 @@ class DenunciaController extends Controller
             }
             if ($request['action'] == 'familia') {
                 // convertir de dd/mm/yyyy -> yyyy-mm-dd (mysql)
+                if ($request['fformalizacion'] != '') {
+                    $request->merge([ 'fformalizacion' => date('Y-m-d',strtotime(str_replace('/', '-', $request['fformalizacion']))) ]);
+                }
+
                 if ($request['faudiencia'] != '') {
                     $request->merge([ 'faudiencia' => date('Y-m-d',strtotime(str_replace('/', '-', $request['faudiencia']))) ]);
                 }
@@ -2619,37 +2727,43 @@ class DenunciaController extends Controller
                     'tblinstancia_id' => 'Juzgado',
                     'tblmedida_id' => 'Tipo medida',
                     'expediente' => 'Expediente',
+                    'fformalizacion' => 'Fecha de Formalización',
                     'calificacion' => 'Calificacion',
                     'hora' => 'Hora de Audiencia',
                     'ministerio' => 'Ministerio',
                     'faudiencia' => 'Fecha de Formalización',
                     'fmedida' => 'Fecha de Medida de Protección',
+                    'device' => 'Aplicación Móvil',
                 );
 
                 $rules = [
                     'tblinstancia_id' => 'required|exists:tblinstancia,id',
+                    'expediente' => 'required|string|unique:denuncia,expediente,'.$denuncia->expediente.',expediente',
+                    'fformalizacion' => 'required|date',
                     // 'tblmedida_id' => 'nullable|exists:tblmedida,id',
                     'tblmedida_id' => 'nullable|array|min:1',
-                    'expediente' => 'required|string|unique:denuncia,expediente,'.$denuncia->expediente.',expediente',
                     'calificacion' => 'nullable|string',
                     'hora' => 'nullable',
                     'ministerio' => 'nullable',
                     'faudiencia' => 'nullable|date',
                     'fmedida' => 'nullable|date',
+                    'device' => 'nullable',
                 ];
 
                 $input = [
                     'tblinstancia_id' => $request['tblinstancia_id'],
                     // 'tblmedida_id' => $request['tblmedida_id'],
                     'expediente' => $request['expediente'],
+                    'fformalizacion' => $request['fformalizacion'],
                     'calificacion' => $request['calificacion'],
                     'hora' => $request['hora'],
                     'ministerio' => $request['ministerio'],
                     'faudiencia' => $request['faudiencia'],
                     'fmedida' => $request['fmedida'],
+                    'device' => $request['device'],
                 ];
 
-                Log::info('update denuncia: ', ['input' => $input]);
+                // Log::info('update denuncia: ', ['input' => $input]);
 
                 $validator = Validator::make($input, $rules, $messages);
 
@@ -2892,9 +3006,9 @@ class DenunciaController extends Controller
 
     public function ejecucionUpdate( Request $request, $id)
     {
-            
+        
         $denuncia = Denuncia::find($id);
-
+        
         if (isset($request['action']) && !empty($request['action'])) {
 
             if ($request['action'] == 'ejecucion') {
@@ -2978,7 +3092,7 @@ class DenunciaController extends Controller
 
         }
 
-    }   
+    }
 
     /**
      * Remove the specified resource from storage.
@@ -3031,4 +3145,64 @@ class DenunciaController extends Controller
         }
 
     }
+
+    public function denunciaSubirDocumento(Request $request,$id)
+    {
+        $messages = array(
+            'required' => ':attribute es obligatorio.',
+            'image'    => ':attribute debe ser un archivo imagen.',
+            'mimes'    => ':attribute debe ser un archivo de tipo: valores.',
+            'max'      => [
+                'file'    => ':attribute no puede superar los :max kilobytes seleccione otro documento.',
+                'array'   => 'The :attribute may not have more than :max items.',
+            ],
+            'uploaded' => ':attribute no pudo ser cargado.',
+        );
+
+        $rules = [
+            'registro_file'       => 'required|file|mimes:pdf|max:5120',
+        ];
+
+        $input = [
+            'registro_file' => $request['registro_file'],
+        ];
+
+        $validator = Validator::make($input, $rules, $messages);
+
+        if ($validator->fails()){
+            return response()->json([
+              'fail' => true,
+              'errors' => $validator->errors()
+            ]);
+        }
+
+        $denuncia=Denuncia::find($id);
+
+        $registro_file  = Input::file('registro_file');
+        if ($denuncia->registro_file) {
+            File::delete(public_path().$denuncia->registro_file);
+        }
+        $doc=$this->guardarImagen($registro_file,$denuncia->expediente,'/img/denuncia/');
+
+        $denuncia->registro_file=$doc;
+        $denuncia->save();
+
+        return $denuncia->registro_file;
+    }
+
+    private function guardarImagen(UploadedFile $imagen, string $name, string $rutaRelativa): string
+    {
+        // $nombreImagen = str_replace(' ', '-', $imagen->getClientOriginalName());
+        // $longitudTotal = strlen($nombreImagen);
+        $extension = $imagen->getClientOriginalExtension();
+
+        // $longitudNombre = $longitudTotal - strlen($extension);
+        // $nuevoNombre = substr($nombreImagen, 0, $longitudNombre - 1) . '_file_' . time() . '.' . $extension;
+        $nuevoNombre = $name . '_file_' . time() . '.' . $extension;
+        $rutaAbsoluta = public_path() . $rutaRelativa;
+        $imagen->move($rutaAbsoluta, $nuevoNombre);
+
+        return $rutaRelativa . $nuevoNombre;
+    }
+
 }

@@ -165,6 +165,8 @@ class VictimaController extends Controller
             'tbldepartamento_id' => 'Departamento',
             'tblprovincia_id' => 'Provincia',
             'tbldistrito_id' => 'Distrito',
+            'direccion' => 'Dirección',
+            'telefono' => 'Teléfono',
         );
 
         $rules = [
@@ -178,6 +180,8 @@ class VictimaController extends Controller
             'tbldepartamento_id' => 'required|exists:tbldepartamento,id',
             'tblprovincia_id' => 'required|exists:tblprovincia,id',
             'tbldistrito_id' => 'required|exists:tbldistrito,id',
+            'direccion' => 'nullable|string',
+            'telefono' => 'nullable|string',
         ];
         
         $input = [
@@ -191,6 +195,8 @@ class VictimaController extends Controller
             'tbldepartamento_id' => $request['tbldepartamento_id'],
             'tblprovincia_id' => $request['tblprovincia_id'],
             'tbldistrito_id' => $request['tbldistrito_id'],
+            'direccion' => $request['direccion'],
+            'telefono' => $request['telefono'],
         ];
 
         $validator = Validator::make($input, $rules, $messages);
@@ -289,6 +295,8 @@ class VictimaController extends Controller
             'tbldepartamento_id' => 'Departamento',
             'tblprovincia_id' => 'Provincia',
             'tbldistrito_id' => 'Distrito',
+            'telefono' => 'Teléfono',
+            'direccion' => 'Dirección',
         );
 
         $rules = [
@@ -302,6 +310,8 @@ class VictimaController extends Controller
             'tbldepartamento_id' => 'required|exists:tbldepartamento,id',
             'tblprovincia_id' => 'required|exists:tblprovincia,id',
             'tbldistrito_id' => 'required|exists:tbldistrito,id',
+            'telefono' => 'nullable|string',
+            'direccion' => 'nullable|string',
         ];
         
         $input = [
@@ -315,6 +325,8 @@ class VictimaController extends Controller
             'tbldepartamento_id' => $request['tbldepartamento_id'],
             'tblprovincia_id' => $request['tblprovincia_id'],
             'tbldistrito_id' => $request['tbldistrito_id'],
+            'telefono' => $request['telefono'],
+            'direccion' => $request['direccion'],
         ];
 
         // return response()->json( $input , 200);
@@ -326,6 +338,7 @@ class VictimaController extends Controller
         if ($validator->fails()){
             return response()->json([
                 'fail' => true,
+                'type' => 'update',
                 'errors' => $validator->errors()
             ]);
         }else{
@@ -333,6 +346,7 @@ class VictimaController extends Controller
             Victima::where('id', $id)->update($input);
             
             return response()->json([
+                'tab' => 'victima_modal',
                 'type' => 'update',
                 'info' => 'Victima actualizada.',
             ]);

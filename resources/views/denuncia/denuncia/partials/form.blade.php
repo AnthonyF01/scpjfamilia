@@ -68,6 +68,68 @@
       line-height: 22px;
     }
   </style>
+  
+  <style type="text/css">
+    /* SWITCH STYLES */
+    /* SOURCE: https://proto.io/freebies/onoff/ */
+    .onoffswitch {
+        position: relative; width: 70px;
+        -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+    .onoffswitch-checkbox {
+        display: none;
+    }
+    .onoffswitch-label {
+        display: block; overflow: hidden; cursor: pointer;
+        border: 2px solid #FFFFFF; border-radius: 20px;
+    }
+    .onoffswitch-inner {
+        display: block; width: 200%; margin-left: -100%;
+        transition: margin 0.3s ease-in 0s;
+    }
+    .onoffswitch-inner:before, .onoffswitch-inner:after {
+        display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+        font-size: 12px; color: black; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+        box-sizing: border-box;
+    }
+    .onoffswitch-inner:before {
+        content: "SI";
+        padding-left: 15px;
+        background-color: #167ebb; color: #FFFFFF;
+        text-align: left;
+    }
+    .onoffswitch-inner:after {
+        content: "NO";
+        padding-right: 15px;
+        background-color: #e84655; color: #FFFFFF;
+        text-align: right;
+    }
+    .onoffswitch-switch {
+        display: block; width: 12px; margin: 5px;
+        background: #FFFFFF;
+        position: absolute; top: 0; bottom: 0;
+        right: 40px;
+        border: 2px solid #FFFFFF; border-radius: 20px;
+        transition: all 0.3s ease-in 0s; 
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+        margin-left: 0;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+        right: 8px; 
+    }
+    
+    /* adicional */
+    .onoffswitch-content {
+      float: left;
+    }
+    .onoffswitch-lbln {
+      line-height: 34px;
+      margin-left: 10px;
+    }
+
+  </style>
+
 @endsection
 
 @section('main-content')
@@ -90,14 +152,30 @@
           <!-- Custom Tabs -->
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
-              <li class="active"><a class="menu_tab" href="#tab_1" data-toggle="tab"><i class="fa fa-user"></i> <span>VICTIMAS</span></a></li>
-              <li><a class="menu_tab" href="#tab_2" data-toggle="tab"><img style="height: 25px;" src="{{ asset('/assests/img/icons/human-skull-o.png') }}"> AGRESORES</a></li>
-              <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_3" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>CEM</span></a></li>
-              <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_4" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-user-secret"></i> <span>DENUNCIA</span></a></li>
-              <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_5" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>M. FAMILIA</span></a></li>
-              <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_6" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>REMISIÓN</span></a></li>
-              {{-- <li class="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_7" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>FASE III</span></a></li>
-              <li class="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_8" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>FASE IV</span></a></li> --}}
+              @can('acceso.victima')
+                <li class="active"><a class="menu_tab" href="#tab_1" data-toggle="tab"><i class="fa fa-user"></i> <span>VICTIMAS</span></a></li>
+              @endcan
+              @can('acceso.agresores')
+                <li><a class="menu_tab" href="#tab_2" data-toggle="tab"><img style="height: 25px;" src="{{ asset('/assests/img/icons/human-skull-o.png') }}"> AGRESORES</a></li>
+              @endcan
+              @can('acceso.cem')
+                <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_3" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>CEM</span></a></li>
+              @endcan
+              @can('acceso.denuncia')
+                <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_4" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-user-secret"></i> <span>DENUNCIA</span></a></li>
+              @endcan
+              @can('acceso.familia')
+                <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_5" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>M. FAMILIA</span></a></li>
+              @endcan
+              @can('acceso.remision')
+                <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_6" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>REMISIÓN</span></a></li>
+              @endcan
+              {{-- @can('acceso.faseii')
+                <li class="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_7" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>FASE III</span></a></li>
+              @endcan --}}
+              {{-- @can('acceso.faseiii')
+                <li class="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_8" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>FASE IV</span></a></li>
+              @endcan --}}
             </ul>
             <div class="tab-content">
               <div class="tab-pane active" id="tab_1">
@@ -268,11 +346,10 @@
                               <label class="">
                                 <div class="icheckbox_square-blue" style="position: relative;">
                                   @if(isset($denuncia) && !empty($denuncia['id']))
-                                    {!! Form::checkbox('asistencialegal', $denuncia->asistencialegal, null) !!}
+                                    {!! Form::checkbox('asistencialegal', $denuncia->asistencialegal, null,['class' => 'icheckjs']) !!}
                                   @else
-                                    {!! Form::checkbox('asistencialegal', null, null) !!}
+                                    {!! Form::checkbox('asistencialegal', null, null,['class' => 'icheckjs']) !!}
                                   @endif
-                                  {{-- <input type="checkbox" name="asistencialegal" {{ old('asistencialegal') ? 'checked' : '' }} style="display: block; position: absolute; top: -20%; left: -20%; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins> --}}
                                 </div> Asistencia Legal
                               </label>
                             </div>
@@ -280,11 +357,10 @@
                               <label class="">
                                 <div class="icheckbox_square-blue" style="position: relative;">
                                   @if(isset($denuncia) && !empty($denuncia['id']))
-                                    {!! Form::checkbox('psicologia', $denuncia->psicologia, null) !!}
+                                    {!! Form::checkbox('psicologia', $denuncia->psicologia, null,['class' => 'icheckjs']) !!}
                                   @else
-                                    {!! Form::checkbox('psicologia', null, null) !!}
+                                    {!! Form::checkbox('psicologia', null, null,['class' => 'icheckjs']) !!}
                                   @endif
-                                  {{-- <input type="checkbox" name="psicologia" {{ old('psicologia') ? 'checked' : '' }} style="display: block; position: absolute; top: -20%; left: -20%; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins> --}}
                                 </div> Psicología
                               </label>
                             </div>
@@ -302,88 +378,43 @@
               <!-- /.tab-pane -->
               <div class="tab-pane" id="tab_4">
                 <div class="row">
-                  <div class="col-sm-8 col-sm-offset-1">
+                  <div class="col-sm-10 col-sm-offset-1">
                     @if(isset($denuncia) && !empty($denuncia['id']))
                       {!! Form::model($denuncia, [ 'route' => ['denuncia.update', $denuncia->id], 'method' => 'PUT', 'id'=>'form_denuncia' ]) !!}
                     @else
                       {!! Form::open([ 'route' => 'denuncia.store', 'id'=>'form_denuncia' ]) !!}
                     @endif
                       <input type="hidden" name="action" value="denuncia">
-                      <div class="form-group has-feedback {{ $errors->has('oficio')? 'has-error':'' }}">
-                        <div class="row">
-                          {{ Form::label('oficio', 'Oficio:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
+
+                      <div class="row">
+                        <div class="col-md-offset-2 col-sm-8">
+                          
+                          {{ Form::label('exp', 'Información de la Denuncia', ['class' => 'lbldenh control-label']) }}  
+
+                          <div class="form-group has-feedback {{ $errors->has('oficio')? 'has-error':'' }}">
+                            {{ Form::label('oficio', 'Oficio:', ['class' => 'lbldens control-label']) }}
                             {{ Form::text('oficio', null, ['class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), "autofocus", 'id' => 'oficio', 'autocomplete' => 'off']) }}
                             <span id="error-oficio" class="invalid-feedback"></span>
                           </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('tbldenuncia_id', 'Grado de violencia:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
-                            {{Form::select('tbldenuncia_id',$tdenuncias,null,array('class' => 'form-control input-sm'.($errors->has('tbldenuncia_id')?" is-invalid":""),'name'=>'tbldenuncia_id','id'=>'tbldenuncia_id'))}}
-                            {{-- @if(isset($denuncia) && !empty($denuncia['id']))
-                              {{Form::select('tbldenuncia_id',$tdenuncias,$denuncia->tbldenuncias()->pluck('tbldenuncia.id','tbldenuncia.nombre')->toArray(),array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tbldenuncia_id[]','id'=>'tbldenuncia_id'))}}
-                            @else
-                              {{Form::select('tbldenuncia_id',$tdenuncias,null,array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tbldenuncia_id[]','id'=>'tbldenuncia_id'))}}
-                            @endif --}}
-                            <span id="error-tbldenuncia_id" class="invalid-feedback"></span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('tblviolencia_id', 'Tipo de Violencia:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
-                            {{-- {{Form::select('tblviolencia_id',$medidas,null,array('class' => 'form-control input-sm'.($errors->has('tblviolencia_id')?" is-invalid":""),'name'=>'tblviolencia_id','id'=>'tblviolencia_id','placeholder'=>'Seleccione una tipo'))}} --}}
-
-                            @if(isset($denuncia) && !empty($denuncia['id']))
-                              {{Form::select('tblviolencia_id',$violencias,$denuncia->tblviolencias()->pluck('tblviolencia.id','tblviolencia.nombre')->toArray(),array('class' => 'form-control input-sm'.($errors->has('tblviolencia_id')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tblviolencia_id[]','id'=>'tblviolencia_id'))}}
-                            @else
-                              {{Form::select('tblviolencia_id',$violencias,null,array('class' => 'form-control input-sm'.($errors->has('tblviolencia_id')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tblviolencia_id[]','id'=>'tblviolencia_id'))}}
-                            @endif
-                            <span id="error-tblviolencia_id" class="invalid-feedback"></span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('fdenuncia', 'Fecha de Denuncia:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
+                          <div class="form-group">
+                            {{ Form::label('fdenuncia', 'Fecha de Denuncia:', ['class' => 'lbldens control-label']) }}
                             <div class="input-group date">
                               <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
                               {{ Form::text('fdenuncia', null, ['class' => 'form-control input-sm datepicker'.($errors->has('fdenuncia')?" is-invalid":""), "autofocus", 'id' => 'fdenuncia', 'autocomplete' => 'off', 'data-date-end-date'=>"0d"]) }}
                             </div>
                             <span id="error-fdenuncia" class="invalid-feedback"></span>
                           </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('fformalizacion', 'Fecha de Formalización:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
-                            <div class="input-group date">
-                              <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
-                              {{ Form::text('fformalizacion', null, ['class' => 'form-control input-sm datepicker'.($errors->has('fformalizacion')?" is-invalid":""), "autofocus", 'id' => 'fformalizacion', 'autocomplete' => 'off']) }}
-                            </div>
-                            <span id="error-fformalizacion" class="invalid-feedback"></span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('tblcomisaria_id', 'Institución:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
+                          <div class="form-group">
+                            {{ Form::label('tblcomisaria_id', 'Institución:', ['class' => 'lbldens control-label']) }}
                             <div class="row">
                               <div class="col-md-4">
                                 <div class="checkbox icheck" style="margin-top: 5px">
                                   <label class="">
                                     <div class="icheckbox_square-blue" style="position: relative;">
                                       @if(isset($denuncia) && !empty($denuncia['id']))
-                                        {!! Form::checkbox('_institucion', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '1') ? ['class'=>'chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
+                                        {!! Form::checkbox('_institucion', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '1') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
                                       @else
-                                        {!! Form::checkbox('_institucion', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '1') ? ['class'=>'chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
+                                        {!! Form::checkbox('_institucion', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '1') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
                                       @endif
                                     </div> Comisaria
                                   </label>
@@ -394,9 +425,9 @@
                                   <label class="">
                                     <div class="icheckbox_square-blue" style="position: relative;">
                                       @if(isset($denuncia) && !empty($denuncia['id']))
-                                        {!! Form::checkbox('_modulo', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '2') ? ['class'=>'chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
+                                        {!! Form::checkbox('_modulo', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '2') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
                                       @else
-                                        {!! Form::checkbox('_modulo', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '2') ? ['class'=>'chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
+                                        {!! Form::checkbox('_modulo', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '2') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
                                       @endif
                                     </div> Modulo
                                   </label>
@@ -407,9 +438,9 @@
                                   <label class="">
                                     <div class="icheckbox_square-blue" style="position: relative;">
                                       @if(isset($denuncia) && !empty($denuncia['id']))
-                                        {!! Form::checkbox('_fiscalia', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? ['class'=>'chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
+                                        {!! Form::checkbox('_fiscalia', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
                                       @else
-                                        {!! Form::checkbox('_fiscalia', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? ['class'=>'chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
+                                        {!! Form::checkbox('_fiscalia', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
                                       @endif
                                     </div> Fiscalia
                                   </label>
@@ -426,12 +457,33 @@
                             </div>
                             <span id="error-institucion" class="invalid-feedback"></span>
                           </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('registro_file', 'Archivo de Registro:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
+
+                          <br>
+                          {{ Form::label('exp', 'Información de los Hechos', ['class' => 'lbldenh control-label']) }}
+                          <div class="form-group">
+                            {{ Form::label('tblviolencia_id', 'Tipo de Violencia:', ['class' => 'lbldens control-label']) }}
+                            @if(isset($denuncia) && !empty($denuncia['id']))
+                              {{Form::select('tblviolencia_id',$violencias,$denuncia->tblviolencias()->pluck('tblviolencia.id','tblviolencia.nombre')->toArray(),array('class' => 'form-control input-sm'.($errors->has('tblviolencia_id')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tblviolencia_id[]','id'=>'tblviolencia_id'))}}
+                            @else
+                              {{Form::select('tblviolencia_id',$violencias,null,array('class' => 'form-control input-sm'.($errors->has('tblviolencia_id')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tblviolencia_id[]','id'=>'tblviolencia_id'))}}
+                            @endif
+                            <span id="error-tblviolencia_id" class="invalid-feedback"></span>
+                          </div>
+                          <div class="form-group">
+                            {{ Form::label('tbldenuncia_id', 'Grado de violencia:', ['class' => 'lbldens control-label']) }}
+                            {{Form::select('tbldenuncia_id',$tdenuncias,null,array('class' => 'form-control input-sm'.($errors->has('tbldenuncia_id')?" is-invalid":""),'name'=>'tbldenuncia_id','id'=>'tbldenuncia_id'))}}
+                            {{-- @if(isset($denuncia) && !empty($denuncia['id']))
+                              {{Form::select('tbldenuncia_id',$tdenuncias,$denuncia->tbldenuncias()->pluck('tbldenuncia.id','tbldenuncia.nombre')->toArray(),array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tbldenuncia_id[]','id'=>'tbldenuncia_id'))}}
+                            @else
+                              {{Form::select('tbldenuncia_id',$tdenuncias,null,array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tbldenuncia_id[]','id'=>'tbldenuncia_id'))}}
+                            @endif --}}
+                            <span id="error-tbldenuncia_id" class="invalid-feedback"></span>
+                          </div>
+
+                          <br>
+                          {{ Form::label('exp', 'Información Adicional', ['class' => 'lbldenh control-label']) }}
+                          <div class="form-group">
+                            {{ Form::label('registro_file', 'Archivo de Registro:', ['class' => 'lbldens control-label']) }}
                             <div class="file-loading">
                               <input id="registro_file" name="registro_file" type="file">
                             </div>
@@ -440,23 +492,23 @@
                             @endif
                             <span id="error-registro_file" class="invalid-feedback"></span>
                           </div>
-                        </div>
-                      </div>
-                      <div class="form-group has-feedback {{ $errors->has('observacion')? 'has-error':'' }}">
-                        <div class="row">
-                          {{ Form::label('observacion', 'Observacion:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
+                          <div class="form-group has-feedback {{ $errors->has('observacion')? 'has-error':'' }}">
+                            {{ Form::label('observacion', 'Observaciones:', ['class' => 'lbldens control-label']) }}
                             <div class="input-group">
                               {{ Form::textarea('observacion', null, ['class' => 'form-control input-sm'.($errors->has('observacion')?" is-invalid":""), "autofocus", 'id' => 'observacion', 'autocomplete' => 'off', 'rows' => 4]) }}
                               <div class="input-group-addon"><i class="fa fa-edit"></i></div>
                             </div>
                             <span id="error-observacion" class="invalid-feedback"></span>
                           </div>
+
+                          <hr>
+                          <div style="text-align: center;">
+                            <button class="btn btn-outline-primary btn-sm" type="submit"><i class="fa fa-save"></i> Actualizar</button>
+                          </div>
+                          
                         </div>
                       </div>
-                      <div class="col-sm-4 col-sm-offset-4">
-                        <button class="btn btn-outline-primary btn-sm" type="submit"><i class="fa fa-save"></i> Actualizar</button>
-                      </div>
+                      
                     {!! Form::close() !!}
                   </div>
                 </div>
@@ -464,91 +516,105 @@
               <!-- /.tab-pane -->
               <div class="tab-pane" id="tab_5">
                 <div class="row">
-                  <div class="col-sm-8 col-sm-offset-1">
+                  <div class="col-sm-10 col-sm-offset-1">
                     @if(isset($denuncia) && !empty($denuncia['id']))
                       {!! Form::model($denuncia, [ 'route' => ['denuncia.update', $denuncia->id], 'method' => 'PUT', 'id'=>'form_agresor' ]) !!}
                     @else
                       {!! Form::open([ 'route' => 'denuncia.store', 'id'=>'form_familia' ]) !!}
                     @endif
-                      <input type="hidden" name="action" value="familia">
-                      <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('tblinstancia_id', 'Juzgado:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
+                      
+                      <div class="row">
+                        <div class="col-md-offset-2 col-sm-8">
+                          
+                          <input type="hidden" name="action" value="familia">
+                          {{ Form::label('exp', 'Información del Expediente', ['class' => 'lbldenh control-label']) }}  
+                          <div class="form-group">
+                            {{ Form::label('tblinstancia_id', 'Juzgado:', ['class' => 'lbldens control-label']) }}
                             {{ Form::select('tblinstancia_id', $instancias, null, array('class'=>'form-control input-sm'.($errors->has('tblinstancia_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Juzgado', 'style'=>'width: 100%')) }}
                             <span id="error-tblinstancia_id" class="invalid-feedback"></span>
                           </div>
-                        </div>
-                      </div>
-                      <div class="form-group has-feedback {{ $errors->has('expediente')? 'has-error':'' }}">
-                        <div class="row">
-                          {{ Form::label('expediente', 'Expediente:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
+                          <div class="form-group has-feedback {{ $errors->has('expediente')? 'has-error':'' }}">
+                            {{ Form::label('expediente', 'Expediente:', ['class' => 'lbldens control-label']) }}
                             {{ Form::text('expediente', null, ['class' => 'form-control input-sm'.($errors->has('expediente')?" is-invalid":""), "autofocus", 'id' => 'expediente', 'autocomplete' => 'off']) }}
                             <span id="error-expediente" class="invalid-feedback"></span>
                           </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('calificacion', 'Calificación:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
+                          <div class="form-group">
+                            {{ Form::label('fformalizacion', 'Fecha de Formalización:', ['class' => 'lbldens control-label']) }}
+                            <div class="input-group date">
+                              <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                              {{ Form::text('fformalizacion', null, ['class' => 'form-control input-sm datepicker'.($errors->has('fformalizacion')?" is-invalid":""), "autofocus", 'id' => 'fformalizacion', 'autocomplete' => 'off']) }}
+                            </div>
+                            <span id="error-fformalizacion" class="invalid-feedback"></span>
+                          </div>
+
+                          <br>
+                          {{ Form::label('exp', 'Información de la Audiencia', ['class' => 'lbldenh control-label']) }}  
+                          <div class="form-group">
+                            {{ Form::label('calificacion', 'Calificación:', ['class' => 'lbldens control-label']) }}
                             {{Form::select('calificacion',[''=>'Elegir Calificación','No ha lugar'=>'No ha lugar','Ha lugar'=>'Ha lugar'],null,array('class' => 'form-control input-sm'.($errors->has('calificacion')?" is-invalid":""),'name'=>'calificacion','id'=>'calificacion'))}}
                             <span id="error-calificacion" class="invalid-feedback"></span>
                           </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('hora', 'Hora de Audiencia:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
-                            <div class="input-group">
-                              {{ Form::text('hora', null, ['class' => 'form-control input-sm timepicker'.($errors->has('hora')?" is-invalid":""), "autofocus", 'id' => 'hora', 'autocomplete' => 'off']) }}
-                              <div class="input-group-addon">
-                                <i class="fa fa-clock-o"></i>
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                {{ Form::label('faudiencia', 'Fecha de Audiencia:', ['class' => 'lbldens control-label']) }}
+                                <div class="input-group date">
+                                  <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                                  {{ Form::text('faudiencia', null, ['class' => 'form-control input-sm datepicker'.($errors->has('faudiencia')?" is-invalid":""), "autofocus", 'id' => 'faudiencia', 'autocomplete' => 'off']) }}
+                                </div>
+                                <span id="error-faudiencia" class="invalid-feedback"></span>
                               </div>
                             </div>
-                            <span id="error-hora" class="invalid-feedback"></span>
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                {{ Form::label('hora', 'Hora de Audiencia:', ['class' => 'lbldens control-label']) }}
+                                <div class="input-group">
+                                  {{ Form::text('hora', null, ['class' => 'form-control input-sm timepicker'.($errors->has('hora')?" is-invalid":""), "autofocus", 'id' => 'hora', 'autocomplete' => 'off']) }}
+                                  <div class="input-group-addon">
+                                    <i class="fa fa-clock-o"></i>
+                                  </div>
+                                </div>
+                                <span id="error-hora" class="invalid-feedback"></span>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-                      <div class="form-group has-feedback {{ $errors->has('ministerio')? 'has-error':'' }}">
-                        <div class="row">
-                          {{ Form::label('ministerio', 'Audiencia:', ['class' => 'col-sm-4 control-label', 'style' => 'padding-top: 10px;']) }}
-                          <div class="col-sm-8">
+                          <div class="form-group">
+                            {{ Form::label('ministerio', 'Audiencia:', ['class' => 'lbldens control-label']) }}
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="onoffswitch-content">
+                                  <div class="onoffswitch">
+                                    {!! Form::checkbox('ministerio', $denuncia->ministerio, (isset($denuncia) && !empty($denuncia['id']) && $denuncia->ministerio == '1') ? true : false, ['class' => 'onoffswitch-checkbox', 'id' => 'ministerio']) !!}
+                                    <label class="onoffswitch-label" for="ministerio">
+                                      <span class="onoffswitch-inner"></span>
+                                      <span class="onoffswitch-switch"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                                <span class="onoffswitch-lbln">Participación del Ministerio Publico</span>
+                              </div>
+                            </div>
+                          </div>
+                          {{-- <div class="form-group has-feedback {{ $errors->has('ministerio')? 'has-error':'' }}">
+                            {{ Form::label('ministerio', 'Audiencia:', ['class' => 'lbldens control-label']) }}
                             <div class="checkbox icheck">
                               <label class="">
                                 <div class="icheckbox_square-blue" style="position: relative;">
                                   @if(isset($denuncia) && !empty($denuncia['id']))
-                                    {!! Form::checkbox('ministerio', $denuncia->ministerio, null) !!}
+                                    {!! Form::checkbox('ministerio', $denuncia->ministerio, null, ['class' => 'icheckjs']) !!}
                                   @else
-                                    {!! Form::checkbox('ministerio', null, null) !!}
+                                    {!! Form::checkbox('ministerio', null, null, ['class' => 'icheckjs']) !!}
                                   @endif
-                                  {{-- <input type="checkbox" name="ministerio" {{ old('ministerio') ? 'checked' : '' }} style="display: block; position: absolute; top: -20%; left: -20%; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins> --}}
                                 </div> Ministerio
                               </label>
                             </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('faudiencia', 'Fecha de Audiencia:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
-                            <div class="input-group date">
-                              <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
-                              {{ Form::text('faudiencia', null, ['class' => 'form-control input-sm datepicker'.($errors->has('faudiencia')?" is-invalid":""), "autofocus", 'id' => 'faudiencia', 'autocomplete' => 'off']) }}
-                            </div>
-                            <span id="error-faudiencia" class="invalid-feedback"></span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('tblmedida_id', 'Tipo de Medida de Protección:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
-                            {{-- {{Form::select('tblmedida_id',$medidas,null,array('class' => 'form-control input-sm'.($errors->has('tblmedida_id')?" is-invalid":""),'name'=>'tblmedida_id','id'=>'tblmedida_id','placeholder'=>'Seleccione una tipo'))}} --}}
+                          </div> --}}
 
+
+                          <br>
+                          {{ Form::label('exp', 'Medida de Protección', ['class' => 'lbldenh control-label']) }}  
+                          <div class="form-group">
+                            {{ Form::label('tblmedida_id', 'Tipo de Medida de Protección:', ['class' => 'lbldens control-label']) }}
                             @if(isset($denuncia) && !empty($denuncia['id']))
                               {{Form::select('tblmedida_id',$medidas,$denuncia->tblmedidas()->pluck('tblmedida.id','tblmedida.nombre')->toArray(),array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tblmedida_id[]','id'=>'tblmedida_id'))}}
                             @else
@@ -556,12 +622,8 @@
                             @endif
                             <span id="error-tblmedida_id" class="invalid-feedback"></span>
                           </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('medida_file', 'Medida de Protección:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
+                          <div class="form-group">
+                            {{ Form::label('medida_file', 'Medida de Protección:', ['class' => 'lbldens control-label']) }}
                             <div class="input-group">
                               <div class="input-group-btn">
                                 @if (isset($denuncia->medida_file) && !empty($denuncia->medida_file) && isset(explode("denuncia/",$denuncia->medida_file)[1]))
@@ -582,23 +644,45 @@
                             @endif
                             <span id="error-medida_file" class="invalid-feedback"></span>
                           </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="row">
-                          {{ Form::label('fmedida', 'Fecha de Medida de Protección:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                          <div class="col-sm-8">
+                          <div class="form-group">
+                            {{ Form::label('fmedida', 'Fecha de Medida de Protección:', ['class' => 'lbldens control-label']) }}
                             <div class="input-group date">
                               <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
                               {{ Form::text('fmedida', null, ['class' => 'form-control input-sm datepicker'.($errors->has('fmedida')?" is-invalid":""), "autofocus", 'id' => 'fmedida', 'autocomplete' => 'off']) }}
                             </div>
                             <span id="error-fmedida" class="invalid-feedback"></span>
                           </div>
+
+
+                          <br>
+                          {{ Form::label('exp', 'Aplicación Botón de Pánico', ['class' => 'lbldenh control-label']) }}  
+                          <div class="form-group">
+                            {{ Form::label('device', 'Aplicación Móvil:', ['class' => 'lbldens control-label']) }}
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="onoffswitch-content">
+                                  <div class="onoffswitch">
+                                    {!! Form::checkbox('device', $denuncia->device, (isset($denuncia) && !empty($denuncia['id']) && $denuncia->device == '1') ? true : false, ['class' => 'onoffswitch-checkbox', 'id' => 'device']) !!}
+                                    <label class="onoffswitch-label" for="device">
+                                      <span class="onoffswitch-inner"></span>
+                                      <span class="onoffswitch-switch"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                                <span class="onoffswitch-lbln">Instalación de Botón de Pánico</span>
+                              </div>
+                            </div>
+                          </div>
+
+                          <hr>
+
+                          <div style="text-align: center">
+                            <button class="btn btn-outline-primary btn-sm" type="submit"><i class="fa fa-save"></i> Actualizar</button>
+                          </div>
+                          
                         </div>
                       </div>
-                      <div class="col-sm-4 col-sm-offset-4">
-                        <button class="btn btn-outline-primary btn-sm" type="submit"><i class="fa fa-save"></i> Actualizar</button>
-                      </div>
+
                     {!! Form::close() !!}
                   </div>
                 </div>
@@ -617,7 +701,7 @@
                         <div class="row">
                           {{ Form::label('remitido', 'Remitir a:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                           <div class="col-sm-8">
-                            {{Form::select('remitido',[''=>'Elegir','Archivo Central'=>'Fiscalia','Fiscalia'=>'Archivo Central','Ministerio Público'=>'Ministerio Público','Juzgado de Paz Letrado'=>'Juzgado de Paz Letrado','Sala Superior'=>'Sala Superior'],null,array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""),'name'=>'remitido','id'=>'remitido'))}}
+                            {{Form::select('remitido',[''=>'Elegir','Archivo Central'=>'Archivo Central','Ministerio Público'=>'Ministerio Público','Juzgado de Paz Letrado'=>'Juzgado de Paz Letrado','Sala Superior'=>'Sala Superior'],null,array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""),'name'=>'remitido','id'=>'remitido'))}}
                             <span id="error-remitido" class="invalid-feedback"></span>
                           </div>
                         </div>
@@ -829,11 +913,6 @@
                 {{ Form::text('nombre', null, ['class' => 'form-control input-sm'.($errors->has('nombre')?" is-invalid":""), "autofocus", 'id' => 'nombre', 'autocomplete' => 'off']) }}
                 <span id="error-nombre" class="invalid-feedback"></span>
               </div>
-              <div class="form-group">
-                {{ Form::label('Tipo de Documento') }}
-                {{ Form::select('tbldocumento_id', $documentos, null, array('id'=>'tbldocumento_id', 'class'=>'form-control input-sm'.($errors->has('tbldocumento_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo de Documento')) }}
-                <span id="error-tbldocumento_id" class="invalid-feedback"></span>
-              </div>
             </div>
             <div class="col-md-6">
               <div class="form-group has-feedback {{ $errors->has('apellido')? 'has-error':'' }}">
@@ -841,14 +920,23 @@
                 {{ Form::text('apellido', null, ['class' => 'form-control input-sm'.($errors->has('apellido')?" is-invalid":""), "autofocus", 'id' => 'apellido', 'autocomplete' => 'off']) }}
                 <span id="error-apellido" class="invalid-feedback"></span>
               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                {{ Form::label('Tipo de Documento') }}
+                {{ Form::select('tbldocumento_id', $documentos, null, array('id'=>'tbldocumento_id', 'class'=>'form-control input-sm'.($errors->has('tbldocumento_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo de Documento')) }}
+                <span id="error-tbldocumento_id" class="invalid-feedback"></span>
+              </div>
+            </div>
+            <div class="col-md-4">
               <div class="form-group has-feedback {{ $errors->has('nro_doc')? 'has-error':'' }}">
                 {{ Form::label('nro_doc', 'Numero de Documento') }}
                 {{ Form::text('nro_doc', null, ['class' => 'form-control input-sm'.($errors->has('nro_doc')?" is-invalid":""), "autofocus", 'id' => 'nro_doc', 'autocomplete' => 'off']) }}
                 <span id="error-nro_doc" class="invalid-feedback"></span>
               </div>
             </div>
-          </div>
-          <div class="row">
             <div class="col-md-4">
               <div class="form-group">
                 {{ Form::label('Tipo') }}
@@ -856,6 +944,8 @@
                 <span id="error-tbltipo_id" class="invalid-feedback"></span>
               </div>
             </div>
+          </div>
+          <div class="row">
             <div class="col-md-4">
               <div class="form-group has-feedback {{ $errors->has('edad')? 'has-error':'' }}">
                 {{ Form::label('edad', 'Edad') }}
@@ -870,12 +960,19 @@
                 <span id="error-hijos" class="invalid-feedback"></span>
               </div>
             </div>
+            <div class="col-md-4">
+              <div class="form-group has-feedback {{ $errors->has('telefono')? 'has-error':'' }}">
+                {{ Form::label('telefono', 'Teléfono') }}
+                {{ Form::text('telefono', null, ['class' => 'form-control input-sm'.($errors->has('telefono')?" is-invalid":""), "autofocus", 'id' => 'telefono', 'autocomplete' => 'off']) }}
+                <span id="error-telefono" class="invalid-feedback"></span>
+              </div>
+            </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-            </div>
-            <div class="col-md-6">
-            </div>
+
+          <div class="form-group has-feedback {{ $errors->has('direccion')? 'has-error':'' }}">
+            {{ Form::label('direccion', 'Dirección') }}
+            {{ Form::text('direccion', null, ['class' => 'form-control input-sm'.($errors->has('direccion')?" is-invalid":""), "autofocus", 'id' => 'direccion', 'autocomplete' => 'off']) }}
+            <span id="error-direccion" class="invalid-feedback"></span>
           </div>
 
           <div class="form-group">
@@ -944,33 +1041,43 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
               <div class="form-group">
                 {{ Form::label('Tipo de Documento') }}
                 {{ Form::select('tbldocumento_id', $documentos, null, array('id'=>'tbldocumento_id','class'=>'form-control input-sm'.($errors->has('tbldocumento_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo de Documento')) }}
                 <span id="error-tbldocumento_id" class="invalid-feedback"></span>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
               <div class="form-group has-feedback {{ $errors->has('nro_doc')? 'has-error':'' }}">
                 {{ Form::label('nro_doc', 'Numero de Documento') }}
                 {{ Form::text('nro_doc', null, ['class' => 'form-control input-sm'.($errors->has('nro_doc')?" is-invalid":""), "autofocus", 'id' => 'nro_doc', 'autocomplete' => 'off']) }}
                 <span id="error-nro_doc" class="invalid-feedback"></span>
               </div>
             </div>
-            <div class="col-md-4">
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
               <div class="form-group has-feedback {{ $errors->has('sexo')? 'has-error':'' }}">
                 {{ Form::label('sexo', 'Sexo') }}
                 {{ Form::select('sexo', ['Masculino'=>'Masculino','Femenino'=>'Femenino'], null, array('class'=>'form-control input-sm'.($errors->has('sexo')?" is-invalid":""), 'placeholder'=>'Seleccione un Sexo')) }}
                 <span id="error-sexo" class="invalid-feedback"></span>
               </div>
             </div>
+            <div class="col-md-6">
+              <div class="form-group has-feedback {{ $errors->has('telefono')? 'has-error':'' }}">
+                {{ Form::label('telefono', 'Teléfono') }}
+                {{ Form::text('telefono', null, ['class' => 'form-control input-sm'.($errors->has('telefono')?" is-invalid":""), "autofocus", 'id' => 'telefono', 'autocomplete' => 'off']) }}
+                <span id="error-telefono" class="invalid-feedback"></span>
+              </div>
+            </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-            </div>
-            <div class="col-md-6">
-            </div>
+
+          <div class="form-group has-feedback {{ $errors->has('direccion')? 'has-error':'' }}">
+            {{ Form::label('direccion', 'Dirección') }}
+            {{ Form::text('direccion', null, ['class' => 'form-control input-sm'.($errors->has('direccion')?" is-invalid":""), "autofocus", 'id' => 'direccion', 'autocomplete' => 'off']) }}
+            <span id="error-direccion" class="invalid-feedback"></span>
           </div>
 
           <div class="form-group">
@@ -1023,11 +1130,13 @@
 
 @section('js')
   <script src="{{ asset('assests/js/denuncia/denuncia/denuncia.js') }}"></script>
+
   <script>
     $("#tblprovincia_id,.tblprovincia").attr('disabled', 'disabled');
     $("#tbldistrito_id,.tbldistrito").attr('disabled', 'disabled');
 
-    $('input').iCheck({
+    // iniciar icheck
+    $('input.icheckjs').iCheck({
       checkboxClass: 'icheckbox_square-blue',
       radioClass: 'iradio_square-blue',
       increaseArea: '20%' // optional
@@ -1150,7 +1259,7 @@
       showUploadedThumbs: false,
       showPreview: false,
       // uploadUrl: '#',
-      allowedFileExtensions: ['pdf']
+      allowedFileExtensions: ['pdf','doc','docx']
     });
     $('#registro_file').fileinput({
       theme: 'fa',

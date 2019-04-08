@@ -147,7 +147,18 @@
 
     {{-- Bootstrap Fileup --}}
     <link href="{{ asset('/assests/plugins/fileinput/fileinput.min.css') }}" rel="stylesheet" type="text/css" />
-    
+
+    {{-- Leaflet --}}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+    {{-- Leaflet routing machine --}}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+
+    {{-- Nestable --}}
+    <link rel="stylesheet" href="{{ asset('/adminlte245/bower_components/nestable/jquery.nestable.css') }}">
+
+    {{-- Bootstrap Toggle --}}
+    <link href="{{ asset('/assests/plugins/bootstrap-toggle/bootstrap-toggle.min.css') }}" rel="stylesheet" type="text/css" />
+
     <link href="{{ asset('/assests/css/main.css') }}" rel="stylesheet" type="text/css" />
 
 

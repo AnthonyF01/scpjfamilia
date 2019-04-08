@@ -158,6 +158,8 @@ class AgresorController extends Controller
             'tbldepartamento_id' => 'Departamento',
             'tblprovincia_id' => 'Provincia',
             'tbldistrito_id' => 'Distrito',
+            'telefono' => 'Teléfono',
+            'direccion' => 'Dirección',
         );
 
         $rules = [
@@ -169,6 +171,8 @@ class AgresorController extends Controller
             'tbldepartamento_id' => 'required|exists:tbldepartamento,id',
             'tblprovincia_id' => 'required|exists:tblprovincia,id',
             'tbldistrito_id' => 'required|exists:tbldistrito,id',
+            'telefono' => 'nullable|string',
+            'direccion' => 'nullable|string',
         ];
         
         $input = [
@@ -180,6 +184,8 @@ class AgresorController extends Controller
             'tbldepartamento_id' => $request['tbldepartamento_id'],
             'tblprovincia_id' => $request['tblprovincia_id'],
             'tbldistrito_id' => $request['tbldistrito_id'],
+            'telefono' => $request['telefono'],
+            'direccion' => $request['direccion'],
         ];
 
         $validator = Validator::make($input, $rules, $messages);
@@ -275,6 +281,8 @@ class AgresorController extends Controller
             'tbldepartamento_id' => 'Departamento',
             'tblprovincia_id' => 'Provincia',
             'tbldistrito_id' => 'Distrito',
+            'telefono' => 'Teléfono',
+            'direccion' => 'Dirección',
         );
 
         $rules = [
@@ -286,6 +294,8 @@ class AgresorController extends Controller
             'tbldepartamento_id' => 'required|exists:tbldepartamento,id',
             'tblprovincia_id' => 'required|exists:tblprovincia,id',
             'tbldistrito_id' => 'required|exists:tbldistrito,id',
+            'telefono' => 'nullable|string',
+            'direccion' => 'nullable|string',
         ];
         
         $input = [
@@ -297,6 +307,8 @@ class AgresorController extends Controller
             'tbldepartamento_id' => $request['tbldepartamento_id'],
             'tblprovincia_id' => $request['tblprovincia_id'],
             'tbldistrito_id' => $request['tbldistrito_id'],
+            'telefono' => $request['telefono'],
+            'direccion' => $request['direccion'],
         ];
 
         // return response()->json( $input , 200);

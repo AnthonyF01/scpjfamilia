@@ -104,6 +104,9 @@
     {{-- Highcharts v6.0.6 --}}
     {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/6.0.6/highcharts.js" charset="utf-8"></script> --}}
 
+    <script src="{{ asset('/assests/plugins/bootstrap-toggle/bootstrap-toggle.min.js') }}"></script>
+    
+
 <!-- Scripts propios -->
 
 <script src="{{ asset('/assests/js/main.js') }}" type="text/javascript"></script>

@@ -21,7 +21,7 @@ class Victima extends Model
      *
      * @var array
      */
-    protected $fillable = [ 'nombre', 'apellido', 'tbldocumento_id', 'nro_doc', 'edad', 'hijos', 'tbltipo_id', 'tbldepartamento_id', 'tblprovincia_id', 'tbldistrito_id' ];
+    protected $fillable = [ 'nombre', 'apellido', 'tbldocumento_id', 'nro_doc', 'edad', 'hijos', 'tbltipo_id', 'tbldepartamento_id', 'tblprovincia_id', 'tbldistrito_id', 'telefono', 'direccion' ];
 
     /**
     * The attributes that aren't mass assignable.

@@ -958,3 +958,24 @@ td.width-30{
 /* --icheck-- */
 
 
+/* leaflet */
+
+#mapid { height: 500px; }
+
+/* --leaflet-- */
+
+/* diseño tabs denuncia */
+
+label.lbldenh {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+label.lbldens {
+    color: #888;
+    font-size: 14px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: normal;
+}
+
+/* ---- diseño tabs denuncia ---- */

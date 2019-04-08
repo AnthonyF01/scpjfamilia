@@ -3,18 +3,18 @@
     <div class="col-md-8 col-md-offset-2">
       <div class="box_plus box_plus-default ">
         <div id="box_plus-title" class="box_plus-heading">
-        	@if(isset($victima) && !empty($victima['id']))
-        		Editar Victima
-	        @else
-        		Crear Victima
-	        @endif
+            @if(isset($victima) && !empty($victima['id']))
+                Editar Victima
+            @else
+                Crear Victima
+            @endif
         </div>
         <div class="box_plus-body">
 
-        	@if(isset($victima) && !empty($victima['id']))
-          	{!! Form::model($victima, [ 'route' => ['victima.update', $victima->id], 'method' => 'PUT', 'id'=>'form_victima' ]) !!}
-	        @else
-	          {!! Form::open([ 'route' => 'victima.store', 'id'=>'form_victima' ]) !!}
+            @if(isset($victima) && !empty($victima['id']))
+            {!! Form::model($victima, [ 'route' => ['victima.update', $victima->id], 'method' => 'PUT', 'id'=>'form_victima' ]) !!}
+            @else
+              {!! Form::open([ 'route' => 'victima.store', 'id'=>'form_victima' ]) !!}
           @endif
 
             <div class="form-group has-feedback {{ $errors->has('nombre')? 'has-error':'' }}">
@@ -41,13 +41,14 @@
               <span id="error-nro_doc" class="invalid-feedback"></span>
             </div>
 
-            <div class="form-group">
-              {{ Form::label('Tipo') }}
-              {{ Form::select('tbltipo_id', $tipos, null, array('class'=>'form-control input-sm'.($errors->has('tbltipo_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo')) }}
-              <span id="error-tbltipo_id" class="invalid-feedback"></span>
-            </div>
-
             <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  {{ Form::label('Tipo') }}
+                  {{ Form::select('tbltipo_id', $tipos, null, array('class'=>'form-control input-sm'.($errors->has('tbltipo_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo')) }}
+                  <span id="error-tbltipo_id" class="invalid-feedback"></span>
+                </div>
+              </div>
               <div class="col-md-6">
                 <div class="form-group has-feedback {{ $errors->has('edad')? 'has-error':'' }}">
                   {{ Form::label('edad', 'Edad') }}
@@ -55,6 +56,10 @@
                   <span id="error-edad" class="invalid-feedback"></span>
                 </div>                
               </div>
+            </div>
+
+
+            <div class="row">
               <div class="col-md-6">
                 <div class="form-group has-feedback {{ $errors->has('hijos')? 'has-error':'' }}">
                   {{ Form::label('hijos', 'Hijos') }}
@@ -62,6 +67,19 @@
                   <span id="error-hijos" class="invalid-feedback"></span>
                 </div>
               </div>
+              <div class="col-md-6">
+                <div class="form-group has-feedback {{ $errors->has('telefono')? 'has-error':'' }}">
+                  {{ Form::label('telefono', 'Teléfono') }}
+                  {{ Form::text('telefono', null, ['class' => 'form-control input-sm'.($errors->has('telefono')?" is-invalid":""), "autofocus", 'id' => 'telefono', 'autocomplete' => 'off']) }}
+                  <span id="error-telefono" class="invalid-feedback"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group has-feedback {{ $errors->has('direccion')? 'has-error':'' }}">
+              {{ Form::label('direccion', 'Dirección') }}
+              {{ Form::text('direccion', null, ['class' => 'form-control input-sm'.($errors->has('direccion')?" is-invalid":""), "autofocus", 'id' => 'direccion', 'autocomplete' => 'off']) }}
+              <span id="error-direccion" class="invalid-feedback"></span>
             </div>
 
             <div class="form-group">
@@ -82,19 +100,19 @@
               <span id="error-tbldistrito_id" class="invalid-feedback"></span>
             </div>
 
-						
-						<div class="form-group">
-							@if( !empty($victima['id']) ) 
-								{!! Form::button("Actualizar",["type" => "submit","id" => "btnSubmitVictima","class"=>"btn btn-warning"])!!}
-							@else
-								{!! Form::button("Guardar",["type" => "submit","class"=>"btn btn-primary"])!!}
-							@endif
-							<a href="javascript:ajaxLoad('{{ url('/victima') }}')" class="btn btn-default pull-right">Cancelar</a>
-						</div>
-					
+                        
+                        <div class="form-group">
+                            @if( !empty($victima['id']) ) 
+                                {!! Form::button("Actualizar",["type" => "submit","id" => "btnSubmitVictima","class"=>"btn btn-warning"])!!}
+                            @else
+                                {!! Form::button("Guardar",["type" => "submit","class"=>"btn btn-primary"])!!}
+                            @endif
+                            <a href="javascript:ajaxLoad('{{ url('/victima') }}')" class="btn btn-default pull-right">Cancelar</a>
+                        </div>
+                    
           {!! Form::close() !!}
 
-				</div>
+                </div>
       </div>
     </div>
   </div>

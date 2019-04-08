@@ -223,9 +223,9 @@
                   <i class="glyphicon glyphicon-trash"></i>
               </a>
             @endcan 
-            {{-- <a href="javascript:void(0)" class="btn btn-xs {{ (isset($denuncia->device) && !empty($denuncia->device)) ? ( ($denuncia->device == 0)? 'btn-secondary' : ( ($denuncia->device == 1) ? 'btn-success' : ( ($denuncia->device == 2) ? 'btn-danger' : ( ($denuncia->device == 3) ? 'btn-warning' : '' ) ) ) ) : 'btn-secondary' }}" {{ (isset($denuncia->device) && !empty($denuncia->device)) ? ( ($denuncia->device == 0)? 'disabled' : '' ) : 'disabled' }}>
+            <a title='{{ (isset($denuncia->device) && !empty($denuncia->device)) ? "Aplicación instalada" : "Aplicación no instalada" }}' href="javascript:void(0)" class="btn btn-xs {{ (isset($denuncia->device) && !empty($denuncia->device)) ? ( ($denuncia->device == 0)? 'btn-secondary' : ( ($denuncia->device == 1) ? 'btn-success' : ( ($denuncia->device == 2) ? 'btn-danger' : ( ($denuncia->device == 3) ? 'btn-warning' : '' ) ) ) ) : 'btn-secondary' }}" {{ (isset($denuncia->device) && !empty($denuncia->device)) ? ( ($denuncia->device == 0)? 'disabled' : '' ) : 'disabled' }}>
               <i class="glyphicon glyphicon-phone"></i>
-            </a> --}}
+            </a>
           </td>
         </tr>
         <tr class="details" style="display: none;">
