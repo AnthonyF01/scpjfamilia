@@ -152,24 +152,24 @@
           <!-- Custom Tabs -->
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
-              @can('acceso.victima')
+              {{-- @can('acceso.victima') --}}
                 <li class="active"><a class="menu_tab" href="#tab_1" data-toggle="tab"><i class="fa fa-user"></i> <span>VICTIMAS</span></a></li>
-              @endcan
-              @can('acceso.agresores')
+              {{-- @endcan --}}
+              {{-- @can('acceso.agresores') --}}
                 <li><a class="menu_tab" href="#tab_2" data-toggle="tab"><img style="height: 25px;" src="{{ asset('/assests/img/icons/human-skull-o.png') }}"> AGRESORES</a></li>
-              @endcan
-              @can('acceso.cem')
+              {{-- @endcan --}}
+              {{-- @can('acceso.cem') --}}
                 <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_3" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>CEM</span></a></li>
-              @endcan
-              @can('acceso.denuncia')
+              {{-- @endcan --}}
+              {{-- @can('acceso.denuncia') --}}
                 <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_4" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-user-secret"></i> <span>DENUNCIA</span></a></li>
-              @endcan
-              @can('acceso.familia')
+              {{-- @endcan --}}
+              {{-- @can('acceso.familia') --}}
                 <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_5" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>M. FAMILIA</span></a></li>
-              @endcan
-              @can('acceso.remision')
+              {{-- @endcan --}}
+              {{-- @can('acceso.remision') --}}
                 <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_6" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>REMISIÓN</span></a></li>
-              @endcan
+              {{-- @endcan --}}
               {{-- @can('acceso.faseii')
                 <li class="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_7" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>FASE III</span></a></li>
               @endcan --}}
