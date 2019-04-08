@@ -1150,7 +1150,7 @@
       showUploadedThumbs: false,
       showPreview: false,
       // uploadUrl: '#',
-      allowedFileExtensions: ['pdf']
+      allowedFileExtensions: ['pdf','doc','docx']
     });
     $('#registro_file').fileinput({
       theme: 'fa',
