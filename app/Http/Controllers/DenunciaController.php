@@ -2588,6 +2588,7 @@ class DenunciaController extends Controller
                     'tblfiscalia_id' => 'Fiscalia',
                     'observacion' => 'Observacion',
                     'registro_file' => 'Archivo de Registro',
+                    'itinerancia' => 'Itinerancia en comisaría',
                 );
 
                 $rules = [
@@ -2599,6 +2600,7 @@ class DenunciaController extends Controller
                     'fdenuncia' => 'required|date',
                     // 'fformalizacion' => 'required|date',
                     'observacion' => 'nullable|string',
+                    'itinerancia' => 'nullable|in:1,0',
                 ];
 
                 $input = [
@@ -2608,6 +2610,7 @@ class DenunciaController extends Controller
                     'fdenuncia' => $request['fdenuncia'],
                     // 'fformalizacion' => $request['fformalizacion'],
                     'observacion' => $request['observacion'],
+                    'itinerancia' => $request['itinerancia'],
                 ];
 
                 if ($request['institucion'] == '1') { // comisaria

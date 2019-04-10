@@ -184,6 +184,10 @@ $(document).on('submit', 'form', function (event) {
         data.set('device', $('input[name="device"]:checked').length);
     }
 
+    if (data.has('itinerancia')) {
+        data.set('itinerancia', $('input[name="itinerancia"]:checked').length);
+    }
+
     // denuncia 
     if (data.has('_institucion')) {
         data.set('institucion', 1);

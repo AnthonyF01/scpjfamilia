@@ -457,6 +457,23 @@
                             </div>
                             <span id="error-institucion" class="invalid-feedback"></span>
                           </div>
+                          <div class="form-group">
+                            {{ Form::label('itinerancia', 'Itinerancia:', ['class' => 'lbldens control-label']) }}
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="onoffswitch-content">
+                                  <div class="onoffswitch">
+                                    {!! Form::checkbox('itinerancia', $denuncia->itinerancia, (isset($denuncia) && !empty($denuncia['id']) && $denuncia->itinerancia == '1') ? true : false, ['class' => 'onoffswitch-checkbox', 'id' => 'itinerancia']) !!}
+                                    <label class="onoffswitch-label" for="itinerancia">
+                                      <span class="onoffswitch-inner"></span>
+                                      <span class="onoffswitch-switch"></span>
+                                    </label>
+                                  </div>
+                                </div>
+                                <span class="onoffswitch-lbln">Itinerancia en comisaría</span>
+                              </div>
+                            </div>
+                          </div>
 
                           <br>
                           {{ Form::label('exp', 'Información de los Hechos', ['class' => 'lbldenh control-label']) }}
@@ -933,7 +950,10 @@
             <div class="col-md-4">
               <div class="form-group has-feedback {{ $errors->has('nro_doc')? 'has-error':'' }}">
                 {{ Form::label('nro_doc', 'Numero de Documento') }}
-                {{ Form::text('nro_doc', null, ['class' => 'form-control input-sm'.($errors->has('nro_doc')?" is-invalid":""), "autofocus", 'id' => 'nro_doc', 'autocomplete' => 'off']) }}
+                <div class="input-group">
+                  {{ Form::text('nro_doc', null, ['class' => 'form-control input-sm'.($errors->has('nro_doc')?" is-invalid":""), "autofocus", 'id' => 'nro_doc', 'autocomplete' => 'off']) }}
+                  <span class="input-group-addon"><i class="fa fa-eye"></i></span>
+                </div>
                 <span id="error-nro_doc" class="invalid-feedback"></span>
               </div>
             </div>
@@ -1132,6 +1152,13 @@
   <script src="{{ asset('assests/js/denuncia/denuncia/denuncia.js') }}"></script>
 
   <script>
+  
+    function randomString(length, chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ') {
+      var result = '';
+      for (var i = length; i > 0; --i) result += chars[Math.round(Math.random() * (chars.length - 1))];
+      return result;
+    }
+
     $("#tblprovincia_id,.tblprovincia").attr('disabled', 'disabled');
     $("#tbldistrito_id,.tbldistrito").attr('disabled', 'disabled');
 
