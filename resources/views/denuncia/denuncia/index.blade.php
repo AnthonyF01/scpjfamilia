@@ -138,6 +138,23 @@
                   </div>
                 </div>
               </div>
+
+              <div class="form-group has-feedback ">
+                <div class="row">
+                  <label for="dni" class="col-sm-4 control-label" style="line-height:30px">Nombre o DNI:</label>
+                  <div class="col-sm-8">
+                    <div class="input-group">
+                      <input class="form-control input-sm" autofocus="autofocus" id="dni" value="{{ request()->session()->get('dni') }}" onkeydown="if (event.keyCode == 13) ajaxLoad('{{url('denuncia')}}?dni='+this.value)" placeholder="Buscar..." name="dni" type="text"/>
+                      <div class="input-group-btn">
+                        <button type="submit" class="btn btn-sm btn-primary" onclick="ajaxLoad('{{url('denuncia')}}?dni='+$('input#dni').val())">
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div class="col-md-6">
               <div class="form-group">

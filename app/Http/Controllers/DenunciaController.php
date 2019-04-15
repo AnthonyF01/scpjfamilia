@@ -258,6 +258,8 @@ class DenunciaController extends Controller
             ->has('tblinstancia_id') ? ( is_numeric($request->session()->get('tblinstancia_id')) ?
               $request->session()->get('tblinstancia_id') : '' ) : ''));
 
+        // dd($request->session()->get('tblinstancia_id'));
+
         $request->session()->put('tblcomisaria_id', $request
             ->has('tblcomisaria_id') ? $request->get('tblcomisaria_id') : ($request->session()
             ->has('tblcomisaria_id') ? ( is_numeric($request->session()->get('tblcomisaria_id')) ?
@@ -282,13 +284,21 @@ class DenunciaController extends Controller
 
         if ($request->session()->get('dni') != '') {
             $dni=$request->session()->get('dni');
-            $victima=Victima::where('nro_doc',$dni)->first();
-            if ($victima) $id=$victima->id;
-            else $id=0;
-            $denuncias=$denuncias->join('denuncia_victima',function ($join) use($id){
-                $join->on('denuncia.id','=','denuncia_victima.denuncia_id');
-                $join->where('denuncia_victima.victima_id','=',$id);
-            });
+            // $victima=Victima::where('nro_doc',$dni)->first();
+            // if ($victima) $id=$victima->id;
+            // else $id=0;
+            // $denuncias=$denuncias->join('denuncia_victima',function ($join) use($id){
+            //     $join->on('denuncia.id','=','denuncia_victima.denuncia_id');
+            //     $join->where('denuncia_victima.victima_id','=',$id);
+            // });
+
+            $denuncias = $denuncias->join('denuncia_victima','denuncia.id','=','denuncia_victima.denuncia_id')
+                                    ->join('victima','victima.id','=','denuncia_victima.victima_id')
+                                    ->where('victima.nro_doc',$dni)
+                                        ->orwhere(function ($query) use ($dni) {
+                                            $query->orwhere('victima.nombre','like', '%'.$dni.'%')
+                                              ->orWhere('victima.apellido','like', '%'.$dni.'%');
+                                    });
 
             if ($search) {
                 $denuncias = $denuncias->where('expediente', 'like', "%$search%");

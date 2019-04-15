@@ -35,6 +35,8 @@ class DenunciaController extends Controller
     public function findDNI(Request $request, $search = '')
     {
         
+        Log::info('victima: ', ['search' => $search]);
+
         if ($search != '') {
             $denuncia = new Denuncia;
 
@@ -47,11 +49,14 @@ class DenunciaController extends Controller
                               ->get();
 
             // dd(count($victima),$victima[0]->id);
+            // Log::info('victima: ', ['vcount' => count($victima)]);
 
             if (count($victima) > 0) {
                 if (count($victima) <= 1) {
                     // dd("victima: ".$victima);
-                    $id=$victima[0]->id; 
+                    Log::info('victima: ', ['vcount' => count($victima), 'vid' => $victima[0]->id]);
+
+                    $id=$victima[0]->id;
                     $denuncia=$denuncia->join('denuncia_victima',function ($join) use($id){
                         $join->on('denuncia.id','=','denuncia_victima.denuncia_id');
                         $join->where('denuncia_victima.victima_id','=',$id);
@@ -59,6 +64,8 @@ class DenunciaController extends Controller
                     $denuncia = $denuncia->where('tblmodulo_id','=',$request->user()->tblmodulo_id)->take(10)->get();
                     // $denuncia = $denuncia->where('tblmodulo_id','=',33)->take(10)->get();
                     $victima = [];
+
+                    Log::info('denuncia: ', ['array' => $denuncia, 'dcount' => count($denuncia)]);
                 }else{
                     $denuncia = [];
                     return response()->json([
