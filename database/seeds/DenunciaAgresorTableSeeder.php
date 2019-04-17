@@ -21102,8 +21102,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2075,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:25',
-                'updated_at' => '2019-03-08 06:14:25',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-03-27 18:12:57',
+                'deleted_at' => '2019-03-27 18:12:57',
             ),
             108 => 
             array (
@@ -21562,8 +21562,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2117,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-03-27 18:53:04',
+                'deleted_at' => '2019-03-27 18:53:04',
             ),
             154 => 
             array (
@@ -21782,8 +21782,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1233,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:27',
-                'updated_at' => '2019-03-08 06:14:27',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-03-27 18:43:09',
+                'deleted_at' => '2019-03-27 18:43:09',
             ),
             176 => 
             array (
@@ -25975,6 +25975,1786 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'tblparentesco_id' => 4,
                 'created_at' => '2019-03-14 11:41:55',
                 'updated_at' => '2019-03-14 11:41:55',
+                'deleted_at' => NULL,
+            ),
+            95 => 
+            array (
+                'id' => 2596,
+                'denuncia_id' => 2483,
+                'agresor_id' => 2544,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-03-14 11:48:40',
+                'updated_at' => '2019-03-14 11:48:40',
+                'deleted_at' => NULL,
+            ),
+            96 => 
+            array (
+                'id' => 2597,
+                'denuncia_id' => 2485,
+                'agresor_id' => 2523,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-03-14 16:10:18',
+                'updated_at' => '2019-03-14 16:10:18',
+                'deleted_at' => NULL,
+            ),
+            97 => 
+            array (
+                'id' => 2598,
+                'denuncia_id' => 2485,
+                'agresor_id' => 2524,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-03-14 16:10:36',
+                'updated_at' => '2019-03-14 16:10:36',
+                'deleted_at' => NULL,
+            ),
+            98 => 
+            array (
+                'id' => 2599,
+                'denuncia_id' => 2486,
+                'agresor_id' => 2545,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-18 14:29:25',
+                'updated_at' => '2019-03-18 14:29:25',
+                'deleted_at' => NULL,
+            ),
+            99 => 
+            array (
+                'id' => 2600,
+                'denuncia_id' => 2487,
+                'agresor_id' => 2546,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-18 14:45:48',
+                'updated_at' => '2019-03-18 14:45:48',
+                'deleted_at' => NULL,
+            ),
+            100 => 
+            array (
+                'id' => 2601,
+                'denuncia_id' => 2488,
+                'agresor_id' => 2547,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-18 14:51:09',
+                'updated_at' => '2019-03-18 14:51:09',
+                'deleted_at' => NULL,
+            ),
+            101 => 
+            array (
+                'id' => 2602,
+                'denuncia_id' => 2489,
+                'agresor_id' => 2548,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-03-19 11:29:11',
+                'updated_at' => '2019-03-19 11:29:11',
+                'deleted_at' => NULL,
+            ),
+            102 => 
+            array (
+                'id' => 2603,
+                'denuncia_id' => 2490,
+                'agresor_id' => 2549,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-19 11:34:25',
+                'updated_at' => '2019-03-19 11:34:25',
+                'deleted_at' => NULL,
+            ),
+            103 => 
+            array (
+                'id' => 2604,
+                'denuncia_id' => 2491,
+                'agresor_id' => 2550,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-19 11:44:41',
+                'updated_at' => '2019-03-19 11:44:41',
+                'deleted_at' => NULL,
+            ),
+            104 => 
+            array (
+                'id' => 2605,
+                'denuncia_id' => 2492,
+                'agresor_id' => 2551,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-19 11:49:04',
+                'updated_at' => '2019-03-19 11:49:04',
+                'deleted_at' => NULL,
+            ),
+            105 => 
+            array (
+                'id' => 2606,
+                'denuncia_id' => 2493,
+                'agresor_id' => 2552,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-19 11:55:14',
+                'updated_at' => '2019-03-19 11:55:14',
+                'deleted_at' => NULL,
+            ),
+            106 => 
+            array (
+                'id' => 2607,
+                'denuncia_id' => 2493,
+                'agresor_id' => 2553,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-19 11:55:28',
+                'updated_at' => '2019-03-19 11:55:28',
+                'deleted_at' => NULL,
+            ),
+            107 => 
+            array (
+                'id' => 2608,
+                'denuncia_id' => 2494,
+                'agresor_id' => 2554,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-21 13:00:34',
+                'updated_at' => '2019-03-21 13:00:34',
+                'deleted_at' => NULL,
+            ),
+            108 => 
+            array (
+                'id' => 2609,
+                'denuncia_id' => 2495,
+                'agresor_id' => 2555,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-21 13:05:37',
+                'updated_at' => '2019-03-21 13:05:37',
+                'deleted_at' => NULL,
+            ),
+            109 => 
+            array (
+                'id' => 2610,
+                'denuncia_id' => 2497,
+                'agresor_id' => 2556,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-03-21 13:19:58',
+                'updated_at' => '2019-03-21 13:19:58',
+                'deleted_at' => NULL,
+            ),
+            110 => 
+            array (
+                'id' => 2611,
+                'denuncia_id' => 2498,
+                'agresor_id' => 2557,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-21 13:25:24',
+                'updated_at' => '2019-03-21 13:25:24',
+                'deleted_at' => NULL,
+            ),
+            111 => 
+            array (
+                'id' => 2612,
+                'denuncia_id' => 2499,
+                'agresor_id' => 2558,
+                'tblparentesco_id' => 2,
+                'created_at' => '2019-03-21 13:29:02',
+                'updated_at' => '2019-03-21 13:29:02',
+                'deleted_at' => NULL,
+            ),
+            112 => 
+            array (
+                'id' => 2613,
+                'denuncia_id' => 2500,
+                'agresor_id' => 2559,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-21 14:28:07',
+                'updated_at' => '2019-03-21 14:28:07',
+                'deleted_at' => NULL,
+            ),
+            113 => 
+            array (
+                'id' => 2614,
+                'denuncia_id' => 2501,
+                'agresor_id' => 2560,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-03-21 15:33:24',
+                'updated_at' => '2019-03-21 15:33:24',
+                'deleted_at' => NULL,
+            ),
+            114 => 
+            array (
+                'id' => 2615,
+                'denuncia_id' => 2502,
+                'agresor_id' => 2561,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-25 15:14:53',
+                'updated_at' => '2019-03-25 15:14:53',
+                'deleted_at' => NULL,
+            ),
+            115 => 
+            array (
+                'id' => 2616,
+                'denuncia_id' => 2503,
+                'agresor_id' => 2562,
+                'tblparentesco_id' => 6,
+                'created_at' => '2019-03-25 15:33:14',
+                'updated_at' => '2019-03-25 15:33:14',
+                'deleted_at' => NULL,
+            ),
+            116 => 
+            array (
+                'id' => 2617,
+                'denuncia_id' => 2504,
+                'agresor_id' => 2563,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-25 15:38:53',
+                'updated_at' => '2019-03-25 15:38:53',
+                'deleted_at' => NULL,
+            ),
+            117 => 
+            array (
+                'id' => 2618,
+                'denuncia_id' => 2505,
+                'agresor_id' => 2564,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-25 15:43:35',
+                'updated_at' => '2019-03-25 15:43:35',
+                'deleted_at' => NULL,
+            ),
+            118 => 
+            array (
+                'id' => 2619,
+                'denuncia_id' => 2506,
+                'agresor_id' => 2565,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-25 15:48:39',
+                'updated_at' => '2019-03-25 15:48:39',
+                'deleted_at' => NULL,
+            ),
+            119 => 
+            array (
+                'id' => 2620,
+                'denuncia_id' => 2507,
+                'agresor_id' => 2566,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-25 15:54:31',
+                'updated_at' => '2019-03-25 15:54:31',
+                'deleted_at' => NULL,
+            ),
+            120 => 
+            array (
+                'id' => 2621,
+                'denuncia_id' => 2508,
+                'agresor_id' => 2567,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-25 16:01:34',
+                'updated_at' => '2019-03-25 16:01:34',
+                'deleted_at' => NULL,
+            ),
+            121 => 
+            array (
+                'id' => 2622,
+                'denuncia_id' => 2508,
+                'agresor_id' => 2568,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-25 16:07:38',
+                'updated_at' => '2019-03-25 16:07:38',
+                'deleted_at' => NULL,
+            ),
+            122 => 
+            array (
+                'id' => 2623,
+                'denuncia_id' => 2509,
+                'agresor_id' => 2569,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-26 15:52:24',
+                'updated_at' => '2019-03-26 15:52:24',
+                'deleted_at' => NULL,
+            ),
+            123 => 
+            array (
+                'id' => 2624,
+                'denuncia_id' => 2510,
+                'agresor_id' => 2119,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-26 17:26:05',
+                'updated_at' => '2019-03-27 10:43:45',
+                'deleted_at' => '2019-03-27 10:43:45',
+            ),
+            124 => 
+            array (
+                'id' => 2625,
+                'denuncia_id' => 2511,
+                'agresor_id' => 2570,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-26 17:32:32',
+                'updated_at' => '2019-03-26 17:32:32',
+                'deleted_at' => NULL,
+            ),
+            125 => 
+            array (
+                'id' => 2626,
+                'denuncia_id' => 2512,
+                'agresor_id' => 2571,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-26 17:38:24',
+                'updated_at' => '2019-03-26 17:38:24',
+                'deleted_at' => NULL,
+            ),
+            126 => 
+            array (
+                'id' => 2627,
+                'denuncia_id' => 2513,
+                'agresor_id' => 2572,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-26 17:44:21',
+                'updated_at' => '2019-03-26 17:44:21',
+                'deleted_at' => NULL,
+            ),
+            127 => 
+            array (
+                'id' => 2628,
+                'denuncia_id' => 2514,
+                'agresor_id' => 2573,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-26 17:48:47',
+                'updated_at' => '2019-03-26 17:48:47',
+                'deleted_at' => NULL,
+            ),
+            128 => 
+            array (
+                'id' => 2629,
+                'denuncia_id' => 2515,
+                'agresor_id' => 1035,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-26 17:51:59',
+                'updated_at' => '2019-03-27 10:32:04',
+                'deleted_at' => '2019-03-27 10:32:04',
+            ),
+            129 => 
+            array (
+                'id' => 2630,
+                'denuncia_id' => 2516,
+                'agresor_id' => 2090,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-26 17:53:58',
+                'updated_at' => '2019-03-27 09:57:14',
+                'deleted_at' => '2019-03-27 09:57:14',
+            ),
+            130 => 
+            array (
+                'id' => 2631,
+                'denuncia_id' => 2517,
+                'agresor_id' => 2574,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-26 17:58:44',
+                'updated_at' => '2019-03-26 17:58:44',
+                'deleted_at' => NULL,
+            ),
+            131 => 
+            array (
+                'id' => 2632,
+                'denuncia_id' => 2518,
+                'agresor_id' => 2098,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-26 18:00:57',
+                'updated_at' => '2019-03-27 10:12:11',
+                'deleted_at' => '2019-03-27 10:12:11',
+            ),
+            132 => 
+            array (
+                'id' => 2633,
+                'denuncia_id' => 2519,
+                'agresor_id' => 2575,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-26 18:04:36',
+                'updated_at' => '2019-03-26 18:04:36',
+                'deleted_at' => NULL,
+            ),
+            133 => 
+            array (
+                'id' => 2634,
+                'denuncia_id' => 2520,
+                'agresor_id' => 2576,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-26 18:08:34',
+                'updated_at' => '2019-03-26 18:08:34',
+                'deleted_at' => NULL,
+            ),
+            134 => 
+            array (
+                'id' => 2635,
+                'denuncia_id' => 2521,
+                'agresor_id' => 2137,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-26 18:10:20',
+                'updated_at' => '2019-03-27 10:06:17',
+                'deleted_at' => '2019-03-27 10:06:17',
+            ),
+            135 => 
+            array (
+                'id' => 2636,
+                'denuncia_id' => 2523,
+                'agresor_id' => 2432,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-27 09:24:08',
+                'updated_at' => '2019-03-27 09:24:08',
+                'deleted_at' => NULL,
+            ),
+            136 => 
+            array (
+                'id' => 2637,
+                'denuncia_id' => 2524,
+                'agresor_id' => 2095,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-27 09:31:19',
+                'updated_at' => '2019-03-27 09:31:19',
+                'deleted_at' => NULL,
+            ),
+            137 => 
+            array (
+                'id' => 2638,
+                'denuncia_id' => 2525,
+                'agresor_id' => 2132,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 09:37:02',
+                'updated_at' => '2019-03-27 09:37:02',
+                'deleted_at' => NULL,
+            ),
+            138 => 
+            array (
+                'id' => 2639,
+                'denuncia_id' => 2526,
+                'agresor_id' => 2577,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-27 09:41:56',
+                'updated_at' => '2019-03-27 09:41:56',
+                'deleted_at' => NULL,
+            ),
+            139 => 
+            array (
+                'id' => 2640,
+                'denuncia_id' => 2527,
+                'agresor_id' => 2578,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-27 09:46:04',
+                'updated_at' => '2019-03-27 09:46:04',
+                'deleted_at' => NULL,
+            ),
+            140 => 
+            array (
+                'id' => 2641,
+                'denuncia_id' => 2528,
+                'agresor_id' => 2579,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-27 09:50:37',
+                'updated_at' => '2019-03-27 09:50:37',
+                'deleted_at' => NULL,
+            ),
+            141 => 
+            array (
+                'id' => 2642,
+                'denuncia_id' => 2529,
+                'agresor_id' => 2579,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-27 09:55:22',
+                'updated_at' => '2019-03-27 09:55:22',
+                'deleted_at' => NULL,
+            ),
+            142 => 
+            array (
+                'id' => 2643,
+                'denuncia_id' => 2529,
+                'agresor_id' => 2580,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-03-27 09:57:05',
+                'updated_at' => '2019-03-27 09:57:05',
+                'deleted_at' => NULL,
+            ),
+            143 => 
+            array (
+                'id' => 2644,
+                'denuncia_id' => 2530,
+                'agresor_id' => 2083,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-27 10:00:35',
+                'updated_at' => '2019-03-27 10:00:35',
+                'deleted_at' => NULL,
+            ),
+            144 => 
+            array (
+                'id' => 2645,
+                'denuncia_id' => 2531,
+                'agresor_id' => 2581,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-03-27 10:04:51',
+                'updated_at' => '2019-03-27 10:04:51',
+                'deleted_at' => NULL,
+            ),
+            145 => 
+            array (
+                'id' => 2646,
+                'denuncia_id' => 2532,
+                'agresor_id' => 2582,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-03-27 10:32:28',
+                'updated_at' => '2019-03-27 10:32:28',
+                'deleted_at' => NULL,
+            ),
+            146 => 
+            array (
+                'id' => 2647,
+                'denuncia_id' => 2533,
+                'agresor_id' => 2583,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 10:41:04',
+                'updated_at' => '2019-03-27 10:41:04',
+                'deleted_at' => NULL,
+            ),
+            147 => 
+            array (
+                'id' => 2648,
+                'denuncia_id' => 2534,
+                'agresor_id' => 2584,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 10:47:49',
+                'updated_at' => '2019-03-27 10:47:49',
+                'deleted_at' => NULL,
+            ),
+            148 => 
+            array (
+                'id' => 2649,
+                'denuncia_id' => 2535,
+                'agresor_id' => 2585,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 10:51:07',
+                'updated_at' => '2019-03-27 10:51:07',
+                'deleted_at' => NULL,
+            ),
+            149 => 
+            array (
+                'id' => 2650,
+                'denuncia_id' => 2536,
+                'agresor_id' => 2586,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 10:54:39',
+                'updated_at' => '2019-03-27 10:54:39',
+                'deleted_at' => NULL,
+            ),
+            150 => 
+            array (
+                'id' => 2651,
+                'denuncia_id' => 2537,
+                'agresor_id' => 2587,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 11:04:05',
+                'updated_at' => '2019-03-27 11:04:05',
+                'deleted_at' => NULL,
+            ),
+            151 => 
+            array (
+                'id' => 2652,
+                'denuncia_id' => 2538,
+                'agresor_id' => 2588,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 11:08:50',
+                'updated_at' => '2019-03-27 11:08:50',
+                'deleted_at' => NULL,
+            ),
+            152 => 
+            array (
+                'id' => 2653,
+                'denuncia_id' => 2539,
+                'agresor_id' => 2589,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 11:12:54',
+                'updated_at' => '2019-03-27 11:12:54',
+                'deleted_at' => NULL,
+            ),
+            153 => 
+            array (
+                'id' => 2654,
+                'denuncia_id' => 2540,
+                'agresor_id' => 2590,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-03-27 11:17:25',
+                'updated_at' => '2019-03-27 11:17:25',
+                'deleted_at' => NULL,
+            ),
+            154 => 
+            array (
+                'id' => 2655,
+                'denuncia_id' => 2541,
+                'agresor_id' => 2591,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 11:23:13',
+                'updated_at' => '2019-03-27 11:23:13',
+                'deleted_at' => NULL,
+            ),
+            155 => 
+            array (
+                'id' => 2656,
+                'denuncia_id' => 2542,
+                'agresor_id' => 2592,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-03-27 11:28:39',
+                'updated_at' => '2019-03-27 11:28:39',
+                'deleted_at' => NULL,
+            ),
+            156 => 
+            array (
+                'id' => 2657,
+                'denuncia_id' => 2543,
+                'agresor_id' => 2074,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-27 11:33:04',
+                'updated_at' => '2019-03-27 17:41:13',
+                'deleted_at' => '2019-03-27 17:41:13',
+            ),
+            157 => 
+            array (
+                'id' => 2658,
+                'denuncia_id' => 2544,
+                'agresor_id' => 2593,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 11:36:49',
+                'updated_at' => '2019-03-27 11:36:49',
+                'deleted_at' => NULL,
+            ),
+            158 => 
+            array (
+                'id' => 2659,
+                'denuncia_id' => 2545,
+                'agresor_id' => 2594,
+                'tblparentesco_id' => 6,
+                'created_at' => '2019-03-27 15:10:44',
+                'updated_at' => '2019-03-27 15:10:44',
+                'deleted_at' => NULL,
+            ),
+            159 => 
+            array (
+                'id' => 2660,
+                'denuncia_id' => 2546,
+                'agresor_id' => 2122,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-03-27 15:18:28',
+                'updated_at' => '2019-03-27 15:18:28',
+                'deleted_at' => NULL,
+            ),
+            160 => 
+            array (
+                'id' => 2661,
+                'denuncia_id' => 2547,
+                'agresor_id' => 2103,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-27 15:20:07',
+                'updated_at' => '2019-03-27 15:20:07',
+                'deleted_at' => NULL,
+            ),
+            161 => 
+            array (
+                'id' => 2662,
+                'denuncia_id' => 2548,
+                'agresor_id' => 2101,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 15:29:41',
+                'updated_at' => '2019-03-27 15:29:41',
+                'deleted_at' => NULL,
+            ),
+            162 => 
+            array (
+                'id' => 2663,
+                'denuncia_id' => 2549,
+                'agresor_id' => 2128,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 15:31:41',
+                'updated_at' => '2019-03-27 15:31:41',
+                'deleted_at' => NULL,
+            ),
+            163 => 
+            array (
+                'id' => 2664,
+                'denuncia_id' => 2550,
+                'agresor_id' => 2595,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 15:34:19',
+                'updated_at' => '2019-03-27 15:34:19',
+                'deleted_at' => NULL,
+            ),
+            164 => 
+            array (
+                'id' => 2665,
+                'denuncia_id' => 2551,
+                'agresor_id' => 2596,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-03-27 15:38:23',
+                'updated_at' => '2019-03-27 15:38:23',
+                'deleted_at' => NULL,
+            ),
+            165 => 
+            array (
+                'id' => 2666,
+                'denuncia_id' => 2551,
+                'agresor_id' => 2597,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-03-27 15:39:45',
+                'updated_at' => '2019-03-27 15:39:45',
+                'deleted_at' => NULL,
+            ),
+            166 => 
+            array (
+                'id' => 2667,
+                'denuncia_id' => 2552,
+                'agresor_id' => 2598,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 15:48:34',
+                'updated_at' => '2019-03-27 15:54:32',
+                'deleted_at' => '2019-03-27 15:54:32',
+            ),
+            167 => 
+            array (
+                'id' => 2668,
+                'denuncia_id' => 2552,
+                'agresor_id' => 1144,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 15:51:01',
+                'updated_at' => '2019-03-27 15:51:01',
+                'deleted_at' => NULL,
+            ),
+            168 => 
+            array (
+                'id' => 2669,
+                'denuncia_id' => 2553,
+                'agresor_id' => 2598,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 15:59:34',
+                'updated_at' => '2019-03-27 15:59:34',
+                'deleted_at' => NULL,
+            ),
+            169 => 
+            array (
+                'id' => 2670,
+                'denuncia_id' => 2554,
+                'agresor_id' => 2599,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-27 16:18:33',
+                'updated_at' => '2019-03-27 16:18:33',
+                'deleted_at' => NULL,
+            ),
+            170 => 
+            array (
+                'id' => 2671,
+                'denuncia_id' => 2555,
+                'agresor_id' => 2600,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 16:21:50',
+                'updated_at' => '2019-03-27 16:21:50',
+                'deleted_at' => NULL,
+            ),
+            171 => 
+            array (
+                'id' => 2672,
+                'denuncia_id' => 2556,
+                'agresor_id' => 2601,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 16:25:36',
+                'updated_at' => '2019-03-27 16:25:36',
+                'deleted_at' => NULL,
+            ),
+            172 => 
+            array (
+                'id' => 2673,
+                'denuncia_id' => 2557,
+                'agresor_id' => 2117,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-27 16:47:10',
+                'updated_at' => '2019-03-27 16:47:10',
+                'deleted_at' => NULL,
+            ),
+            173 => 
+            array (
+                'id' => 2674,
+                'denuncia_id' => 2558,
+                'agresor_id' => 2602,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 16:50:12',
+                'updated_at' => '2019-03-27 16:50:12',
+                'deleted_at' => NULL,
+            ),
+            174 => 
+            array (
+                'id' => 2675,
+                'denuncia_id' => 2559,
+                'agresor_id' => 2109,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-03-27 16:57:14',
+                'updated_at' => '2019-03-27 16:57:14',
+                'deleted_at' => NULL,
+            ),
+            175 => 
+            array (
+                'id' => 2676,
+                'denuncia_id' => 2560,
+                'agresor_id' => 2603,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-27 17:05:26',
+                'updated_at' => '2019-03-27 17:05:26',
+                'deleted_at' => NULL,
+            ),
+            176 => 
+            array (
+                'id' => 2677,
+                'denuncia_id' => 2561,
+                'agresor_id' => 2604,
+                'tblparentesco_id' => 6,
+                'created_at' => '2019-03-27 17:10:17',
+                'updated_at' => '2019-03-27 17:10:17',
+                'deleted_at' => NULL,
+            ),
+            177 => 
+            array (
+                'id' => 2678,
+                'denuncia_id' => 2562,
+                'agresor_id' => 2605,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 17:20:13',
+                'updated_at' => '2019-03-27 17:20:13',
+                'deleted_at' => NULL,
+            ),
+            178 => 
+            array (
+                'id' => 2679,
+                'denuncia_id' => 2562,
+                'agresor_id' => 2606,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-03-27 17:21:07',
+                'updated_at' => '2019-03-27 17:21:07',
+                'deleted_at' => NULL,
+            ),
+            179 => 
+            array (
+                'id' => 2680,
+                'denuncia_id' => 2563,
+                'agresor_id' => 2607,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 17:25:42',
+                'updated_at' => '2019-03-27 17:25:42',
+                'deleted_at' => NULL,
+            ),
+            180 => 
+            array (
+                'id' => 2681,
+                'denuncia_id' => 2564,
+                'agresor_id' => 2608,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 17:28:54',
+                'updated_at' => '2019-03-27 17:28:54',
+                'deleted_at' => NULL,
+            ),
+            181 => 
+            array (
+                'id' => 2682,
+                'denuncia_id' => 2565,
+                'agresor_id' => 1233,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 17:30:52',
+                'updated_at' => '2019-03-27 17:30:52',
+                'deleted_at' => NULL,
+            ),
+            182 => 
+            array (
+                'id' => 2683,
+                'denuncia_id' => 2566,
+                'agresor_id' => 2609,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-03-27 17:36:53',
+                'updated_at' => '2019-03-27 17:36:53',
+                'deleted_at' => NULL,
+            ),
+            183 => 
+            array (
+                'id' => 2684,
+                'denuncia_id' => 2567,
+                'agresor_id' => 2610,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-03-27 17:40:55',
+                'updated_at' => '2019-03-27 17:40:55',
+                'deleted_at' => NULL,
+            ),
+            184 => 
+            array (
+                'id' => 2685,
+                'denuncia_id' => 2567,
+                'agresor_id' => 2611,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-03-27 17:41:08',
+                'updated_at' => '2019-03-27 17:41:08',
+                'deleted_at' => NULL,
+            ),
+            185 => 
+            array (
+                'id' => 2686,
+                'denuncia_id' => 2568,
+                'agresor_id' => 2612,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 17:45:03',
+                'updated_at' => '2019-03-27 17:45:03',
+                'deleted_at' => NULL,
+            ),
+            186 => 
+            array (
+                'id' => 2687,
+                'denuncia_id' => 2569,
+                'agresor_id' => 2613,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 17:48:22',
+                'updated_at' => '2019-03-27 17:48:22',
+                'deleted_at' => NULL,
+            ),
+            187 => 
+            array (
+                'id' => 2688,
+                'denuncia_id' => 2570,
+                'agresor_id' => 2614,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-27 17:57:29',
+                'updated_at' => '2019-03-27 17:57:29',
+                'deleted_at' => NULL,
+            ),
+            188 => 
+            array (
+                'id' => 2689,
+                'denuncia_id' => 2571,
+                'agresor_id' => 2124,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-28 08:41:28',
+                'updated_at' => '2019-03-28 08:41:28',
+                'deleted_at' => NULL,
+            ),
+            189 => 
+            array (
+                'id' => 2690,
+                'denuncia_id' => 2572,
+                'agresor_id' => 2114,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-28 08:47:59',
+                'updated_at' => '2019-03-28 08:47:59',
+                'deleted_at' => NULL,
+            ),
+            190 => 
+            array (
+                'id' => 2691,
+                'denuncia_id' => 2573,
+                'agresor_id' => 2001,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-28 08:50:06',
+                'updated_at' => '2019-03-28 08:50:06',
+                'deleted_at' => NULL,
+            ),
+            191 => 
+            array (
+                'id' => 2692,
+                'denuncia_id' => 2574,
+                'agresor_id' => 2615,
+                'tblparentesco_id' => 7,
+                'created_at' => '2019-03-28 09:28:25',
+                'updated_at' => '2019-03-28 09:28:25',
+                'deleted_at' => NULL,
+            ),
+            192 => 
+            array (
+                'id' => 2693,
+                'denuncia_id' => 2575,
+                'agresor_id' => 2616,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-28 10:42:59',
+                'updated_at' => '2019-03-28 10:42:59',
+                'deleted_at' => NULL,
+            ),
+            193 => 
+            array (
+                'id' => 2694,
+                'denuncia_id' => 2576,
+                'agresor_id' => 2617,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-03-28 11:40:15',
+                'updated_at' => '2019-03-28 11:40:15',
+                'deleted_at' => NULL,
+            ),
+            194 => 
+            array (
+                'id' => 2695,
+                'denuncia_id' => 2577,
+                'agresor_id' => 2618,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-28 12:18:49',
+                'updated_at' => '2019-03-28 12:18:49',
+                'deleted_at' => NULL,
+            ),
+            195 => 
+            array (
+                'id' => 2696,
+                'denuncia_id' => 2578,
+                'agresor_id' => 2619,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-03-29 10:22:13',
+                'updated_at' => '2019-03-29 10:22:13',
+                'deleted_at' => NULL,
+            ),
+            196 => 
+            array (
+                'id' => 2697,
+                'denuncia_id' => 2579,
+                'agresor_id' => 2619,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-03-29 10:39:49',
+                'updated_at' => '2019-03-29 10:39:49',
+                'deleted_at' => NULL,
+            ),
+            197 => 
+            array (
+                'id' => 2698,
+                'denuncia_id' => 2580,
+                'agresor_id' => 2620,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-03-29 11:22:24',
+                'updated_at' => '2019-03-29 11:22:24',
+                'deleted_at' => NULL,
+            ),
+            198 => 
+            array (
+                'id' => 2699,
+                'denuncia_id' => 2580,
+                'agresor_id' => 2621,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-03-29 11:24:07',
+                'updated_at' => '2019-03-29 11:24:07',
+                'deleted_at' => NULL,
+            ),
+            199 => 
+            array (
+                'id' => 2700,
+                'denuncia_id' => 2583,
+                'agresor_id' => 2622,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-29 12:47:41',
+                'updated_at' => '2019-03-29 12:47:41',
+                'deleted_at' => NULL,
+            ),
+            200 => 
+            array (
+                'id' => 2701,
+                'denuncia_id' => 2584,
+                'agresor_id' => 2623,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-03-29 13:32:35',
+                'updated_at' => '2019-03-29 13:32:35',
+                'deleted_at' => NULL,
+            ),
+            201 => 
+            array (
+                'id' => 2702,
+                'denuncia_id' => 2584,
+                'agresor_id' => 2624,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-03-29 13:33:18',
+                'updated_at' => '2019-03-29 13:33:18',
+                'deleted_at' => NULL,
+            ),
+            202 => 
+            array (
+                'id' => 2703,
+                'denuncia_id' => 2585,
+                'agresor_id' => 2625,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-29 14:44:00',
+                'updated_at' => '2019-03-29 14:44:00',
+                'deleted_at' => NULL,
+            ),
+            203 => 
+            array (
+                'id' => 2704,
+                'denuncia_id' => 2586,
+                'agresor_id' => 2626,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-03-29 14:48:16',
+                'updated_at' => '2019-03-29 14:48:16',
+                'deleted_at' => NULL,
+            ),
+            204 => 
+            array (
+                'id' => 2705,
+                'denuncia_id' => 2587,
+                'agresor_id' => 2627,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-03-29 15:55:09',
+                'updated_at' => '2019-03-29 15:55:09',
+                'deleted_at' => NULL,
+            ),
+            205 => 
+            array (
+                'id' => 2706,
+                'denuncia_id' => 2589,
+                'agresor_id' => 2628,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-04-03 08:33:23',
+                'updated_at' => '2019-04-03 08:33:23',
+                'deleted_at' => NULL,
+            ),
+            206 => 
+            array (
+                'id' => 2707,
+                'denuncia_id' => 2590,
+                'agresor_id' => 980,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-03 17:26:56',
+                'updated_at' => '2019-04-03 17:26:56',
+                'deleted_at' => NULL,
+            ),
+            207 => 
+            array (
+                'id' => 2708,
+                'denuncia_id' => 2591,
+                'agresor_id' => 2629,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-03 17:37:16',
+                'updated_at' => '2019-04-03 17:37:16',
+                'deleted_at' => NULL,
+            ),
+            208 => 
+            array (
+                'id' => 2709,
+                'denuncia_id' => 2591,
+                'agresor_id' => 2630,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-04-03 17:37:37',
+                'updated_at' => '2019-04-03 17:37:37',
+                'deleted_at' => NULL,
+            ),
+            209 => 
+            array (
+                'id' => 2710,
+                'denuncia_id' => 2592,
+                'agresor_id' => 2631,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-03 17:41:15',
+                'updated_at' => '2019-04-03 17:41:15',
+                'deleted_at' => NULL,
+            ),
+            210 => 
+            array (
+                'id' => 2711,
+                'denuncia_id' => 2593,
+                'agresor_id' => 2632,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-04-03 17:57:01',
+                'updated_at' => '2019-04-03 17:57:01',
+                'deleted_at' => NULL,
+            ),
+            211 => 
+            array (
+                'id' => 2712,
+                'denuncia_id' => 2594,
+                'agresor_id' => 2633,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-03 18:07:16',
+                'updated_at' => '2019-04-03 18:07:16',
+                'deleted_at' => NULL,
+            ),
+            212 => 
+            array (
+                'id' => 2713,
+                'denuncia_id' => 2594,
+                'agresor_id' => 2634,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-04-03 18:07:35',
+                'updated_at' => '2019-04-03 18:07:35',
+                'deleted_at' => NULL,
+            ),
+            213 => 
+            array (
+                'id' => 2714,
+                'denuncia_id' => 2594,
+                'agresor_id' => 2635,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-04-03 18:07:51',
+                'updated_at' => '2019-04-03 18:07:51',
+                'deleted_at' => NULL,
+            ),
+            214 => 
+            array (
+                'id' => 2715,
+                'denuncia_id' => 2595,
+                'agresor_id' => 2636,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-04-04 08:21:45',
+                'updated_at' => '2019-04-04 08:21:45',
+                'deleted_at' => NULL,
+            ),
+            215 => 
+            array (
+                'id' => 2716,
+                'denuncia_id' => 2596,
+                'agresor_id' => 2637,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-05 08:57:39',
+                'updated_at' => '2019-04-05 08:57:39',
+                'deleted_at' => NULL,
+            ),
+            216 => 
+            array (
+                'id' => 2717,
+                'denuncia_id' => 2599,
+                'agresor_id' => 2638,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-05 09:02:04',
+                'updated_at' => '2019-04-05 09:02:04',
+                'deleted_at' => NULL,
+            ),
+            217 => 
+            array (
+                'id' => 2718,
+                'denuncia_id' => 2600,
+                'agresor_id' => 2639,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-05 09:08:51',
+                'updated_at' => '2019-04-05 09:08:51',
+                'deleted_at' => NULL,
+            ),
+            218 => 
+            array (
+                'id' => 2719,
+                'denuncia_id' => 2601,
+                'agresor_id' => 2640,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-04-05 09:12:32',
+                'updated_at' => '2019-04-05 09:12:32',
+                'deleted_at' => NULL,
+            ),
+            219 => 
+            array (
+                'id' => 2720,
+                'denuncia_id' => 2602,
+                'agresor_id' => 1402,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-04-05 09:15:32',
+                'updated_at' => '2019-04-05 09:15:32',
+                'deleted_at' => NULL,
+            ),
+            220 => 
+            array (
+                'id' => 2721,
+                'denuncia_id' => 2603,
+                'agresor_id' => 2641,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-08 09:15:59',
+                'updated_at' => '2019-04-08 09:15:59',
+                'deleted_at' => NULL,
+            ),
+            221 => 
+            array (
+                'id' => 2722,
+                'denuncia_id' => 2604,
+                'agresor_id' => 2529,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-04-08 10:54:41',
+                'updated_at' => '2019-04-08 10:54:41',
+                'deleted_at' => NULL,
+            ),
+            222 => 
+            array (
+                'id' => 2723,
+                'denuncia_id' => 2605,
+                'agresor_id' => 2642,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-08 11:07:10',
+                'updated_at' => '2019-04-08 11:07:10',
+                'deleted_at' => NULL,
+            ),
+            223 => 
+            array (
+                'id' => 2724,
+                'denuncia_id' => 2605,
+                'agresor_id' => 2643,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-04-08 11:08:22',
+                'updated_at' => '2019-04-08 11:08:22',
+                'deleted_at' => NULL,
+            ),
+            224 => 
+            array (
+                'id' => 2725,
+                'denuncia_id' => 2606,
+                'agresor_id' => 2644,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-08 11:14:09',
+                'updated_at' => '2019-04-08 11:14:09',
+                'deleted_at' => NULL,
+            ),
+            225 => 
+            array (
+                'id' => 2726,
+                'denuncia_id' => 2607,
+                'agresor_id' => 2646,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-04-08 11:23:14',
+                'updated_at' => '2019-04-08 11:23:14',
+                'deleted_at' => NULL,
+            ),
+            226 => 
+            array (
+                'id' => 2727,
+                'denuncia_id' => 2607,
+                'agresor_id' => 2645,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-04-08 11:23:25',
+                'updated_at' => '2019-04-08 11:23:25',
+                'deleted_at' => NULL,
+            ),
+            227 => 
+            array (
+                'id' => 2728,
+                'denuncia_id' => 2608,
+                'agresor_id' => 2647,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-08 11:34:48',
+                'updated_at' => '2019-04-08 11:34:48',
+                'deleted_at' => NULL,
+            ),
+            228 => 
+            array (
+                'id' => 2729,
+                'denuncia_id' => 2609,
+                'agresor_id' => 2648,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-04-08 11:40:04',
+                'updated_at' => '2019-04-08 11:40:04',
+                'deleted_at' => NULL,
+            ),
+            229 => 
+            array (
+                'id' => 2730,
+                'denuncia_id' => 2610,
+                'agresor_id' => 2649,
+                'tblparentesco_id' => 6,
+                'created_at' => '2019-04-08 11:45:40',
+                'updated_at' => '2019-04-08 11:45:40',
+                'deleted_at' => NULL,
+            ),
+            230 => 
+            array (
+                'id' => 2731,
+                'denuncia_id' => 2611,
+                'agresor_id' => 2650,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-08 11:59:42',
+                'updated_at' => '2019-04-08 11:59:42',
+                'deleted_at' => NULL,
+            ),
+            231 => 
+            array (
+                'id' => 2732,
+                'denuncia_id' => 2612,
+                'agresor_id' => 2651,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-04-08 12:13:29',
+                'updated_at' => '2019-04-08 12:13:29',
+                'deleted_at' => NULL,
+            ),
+            232 => 
+            array (
+                'id' => 2733,
+                'denuncia_id' => 2613,
+                'agresor_id' => 2652,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-08 16:22:25',
+                'updated_at' => '2019-04-08 16:22:25',
+                'deleted_at' => NULL,
+            ),
+            233 => 
+            array (
+                'id' => 2734,
+                'denuncia_id' => 2614,
+                'agresor_id' => 2653,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-08 16:41:17',
+                'updated_at' => '2019-04-08 16:41:17',
+                'deleted_at' => NULL,
+            ),
+            234 => 
+            array (
+                'id' => 2735,
+                'denuncia_id' => 2615,
+                'agresor_id' => 2654,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-08 16:54:27',
+                'updated_at' => '2019-04-08 16:54:27',
+                'deleted_at' => NULL,
+            ),
+            235 => 
+            array (
+                'id' => 2736,
+                'denuncia_id' => 2616,
+                'agresor_id' => 2655,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-09 08:46:04',
+                'updated_at' => '2019-04-09 08:46:04',
+                'deleted_at' => NULL,
+            ),
+            236 => 
+            array (
+                'id' => 2737,
+                'denuncia_id' => 2617,
+                'agresor_id' => 2656,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-09 09:03:06',
+                'updated_at' => '2019-04-09 09:03:06',
+                'deleted_at' => NULL,
+            ),
+            237 => 
+            array (
+                'id' => 2738,
+                'denuncia_id' => 2618,
+                'agresor_id' => 2657,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-09 09:24:41',
+                'updated_at' => '2019-04-09 09:24:41',
+                'deleted_at' => NULL,
+            ),
+            238 => 
+            array (
+                'id' => 2739,
+                'denuncia_id' => 2619,
+                'agresor_id' => 2658,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-04-09 09:30:31',
+                'updated_at' => '2019-04-09 09:30:31',
+                'deleted_at' => NULL,
+            ),
+            239 => 
+            array (
+                'id' => 2740,
+                'denuncia_id' => 2620,
+                'agresor_id' => 2659,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-04-09 09:47:43',
+                'updated_at' => '2019-04-09 09:47:43',
+                'deleted_at' => NULL,
+            ),
+            240 => 
+            array (
+                'id' => 2741,
+                'denuncia_id' => 2621,
+                'agresor_id' => 2660,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-09 09:54:09',
+                'updated_at' => '2019-04-09 09:54:09',
+                'deleted_at' => NULL,
+            ),
+            241 => 
+            array (
+                'id' => 2742,
+                'denuncia_id' => 2622,
+                'agresor_id' => 2661,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-04-09 09:58:31',
+                'updated_at' => '2019-04-09 09:58:31',
+                'deleted_at' => NULL,
+            ),
+            242 => 
+            array (
+                'id' => 2743,
+                'denuncia_id' => 2623,
+                'agresor_id' => 2662,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-09 10:10:13',
+                'updated_at' => '2019-04-09 10:10:13',
+                'deleted_at' => NULL,
+            ),
+            243 => 
+            array (
+                'id' => 2744,
+                'denuncia_id' => 2624,
+                'agresor_id' => 2663,
+                'tblparentesco_id' => 2,
+                'created_at' => '2019-04-09 10:14:37',
+                'updated_at' => '2019-04-09 10:14:37',
+                'deleted_at' => NULL,
+            ),
+            244 => 
+            array (
+                'id' => 2745,
+                'denuncia_id' => 2625,
+                'agresor_id' => 2664,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-04-09 10:48:57',
+                'updated_at' => '2019-04-09 10:48:57',
+                'deleted_at' => NULL,
+            ),
+            245 => 
+            array (
+                'id' => 2746,
+                'denuncia_id' => 2626,
+                'agresor_id' => 2665,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-04-09 10:53:06',
+                'updated_at' => '2019-04-09 10:53:06',
+                'deleted_at' => NULL,
+            ),
+            246 => 
+            array (
+                'id' => 2747,
+                'denuncia_id' => 2626,
+                'agresor_id' => 2666,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-04-09 10:54:14',
+                'updated_at' => '2019-04-09 10:54:14',
+                'deleted_at' => NULL,
+            ),
+            247 => 
+            array (
+                'id' => 2748,
+                'denuncia_id' => 2627,
+                'agresor_id' => 2667,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-04-09 10:58:40',
+                'updated_at' => '2019-04-09 10:58:40',
+                'deleted_at' => NULL,
+            ),
+            248 => 
+            array (
+                'id' => 2749,
+                'denuncia_id' => 2628,
+                'agresor_id' => 2668,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-09 11:37:40',
+                'updated_at' => '2019-04-09 11:37:40',
+                'deleted_at' => NULL,
+            ),
+            249 => 
+            array (
+                'id' => 2750,
+                'denuncia_id' => 2629,
+                'agresor_id' => 2669,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-09 11:45:04',
+                'updated_at' => '2019-04-09 11:45:04',
+                'deleted_at' => NULL,
+            ),
+            250 => 
+            array (
+                'id' => 2751,
+                'denuncia_id' => 2630,
+                'agresor_id' => 2670,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-09 11:49:33',
+                'updated_at' => '2019-04-09 11:49:33',
+                'deleted_at' => NULL,
+            ),
+            251 => 
+            array (
+                'id' => 2752,
+                'denuncia_id' => 2631,
+                'agresor_id' => 2671,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-09 17:04:09',
+                'updated_at' => '2019-04-09 17:04:09',
+                'deleted_at' => NULL,
+            ),
+            252 => 
+            array (
+                'id' => 2753,
+                'denuncia_id' => 2632,
+                'agresor_id' => 2672,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-10 09:03:31',
+                'updated_at' => '2019-04-10 09:03:31',
+                'deleted_at' => NULL,
+            ),
+            253 => 
+            array (
+                'id' => 2754,
+                'denuncia_id' => 2633,
+                'agresor_id' => 2673,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-10 12:09:26',
+                'updated_at' => '2019-04-10 12:09:26',
+                'deleted_at' => NULL,
+            ),
+            254 => 
+            array (
+                'id' => 2755,
+                'denuncia_id' => 2634,
+                'agresor_id' => 2632,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-10 12:16:36',
+                'updated_at' => '2019-04-10 12:16:36',
+                'deleted_at' => NULL,
+            ),
+            255 => 
+            array (
+                'id' => 2756,
+                'denuncia_id' => 2635,
+                'agresor_id' => 2674,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-11 08:45:37',
+                'updated_at' => '2019-04-11 08:45:37',
+                'deleted_at' => NULL,
+            ),
+            256 => 
+            array (
+                'id' => 2757,
+                'denuncia_id' => 2636,
+                'agresor_id' => 2675,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-04-11 09:05:52',
+                'updated_at' => '2019-04-11 09:05:52',
+                'deleted_at' => NULL,
+            ),
+            257 => 
+            array (
+                'id' => 2758,
+                'denuncia_id' => 2637,
+                'agresor_id' => 2676,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-11 09:10:17',
+                'updated_at' => '2019-04-11 09:10:17',
+                'deleted_at' => NULL,
+            ),
+            258 => 
+            array (
+                'id' => 2759,
+                'denuncia_id' => 2638,
+                'agresor_id' => 2677,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-11 09:16:52',
+                'updated_at' => '2019-04-11 09:16:52',
+                'deleted_at' => NULL,
+            ),
+            259 => 
+            array (
+                'id' => 2760,
+                'denuncia_id' => 2639,
+                'agresor_id' => 2678,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-11 09:27:24',
+                'updated_at' => '2019-04-11 09:27:24',
+                'deleted_at' => NULL,
+            ),
+            260 => 
+            array (
+                'id' => 2761,
+                'denuncia_id' => 2640,
+                'agresor_id' => 2679,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-11 11:13:45',
+                'updated_at' => '2019-04-11 11:13:45',
+                'deleted_at' => NULL,
+            ),
+            261 => 
+            array (
+                'id' => 2762,
+                'denuncia_id' => 2641,
+                'agresor_id' => 2680,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-11 11:19:38',
+                'updated_at' => '2019-04-11 11:19:38',
+                'deleted_at' => NULL,
+            ),
+            262 => 
+            array (
+                'id' => 2763,
+                'denuncia_id' => 2642,
+                'agresor_id' => 2681,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-11 11:25:22',
+                'updated_at' => '2019-04-11 11:25:22',
+                'deleted_at' => NULL,
+            ),
+            263 => 
+            array (
+                'id' => 2764,
+                'denuncia_id' => 2643,
+                'agresor_id' => 2682,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-04-11 11:31:39',
+                'updated_at' => '2019-04-11 11:31:39',
+                'deleted_at' => NULL,
+            ),
+            264 => 
+            array (
+                'id' => 2765,
+                'denuncia_id' => 2644,
+                'agresor_id' => 2683,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-11 11:35:10',
+                'updated_at' => '2019-04-11 11:35:10',
+                'deleted_at' => NULL,
+            ),
+            265 => 
+            array (
+                'id' => 2766,
+                'denuncia_id' => 2645,
+                'agresor_id' => 2684,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-04-11 11:38:51',
+                'updated_at' => '2019-04-11 11:38:51',
+                'deleted_at' => NULL,
+            ),
+            266 => 
+            array (
+                'id' => 2767,
+                'denuncia_id' => 2646,
+                'agresor_id' => 2685,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-04-11 11:48:03',
+                'updated_at' => '2019-04-11 11:48:03',
+                'deleted_at' => NULL,
+            ),
+            267 => 
+            array (
+                'id' => 2768,
+                'denuncia_id' => 2647,
+                'agresor_id' => 2686,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-04-12 12:29:19',
+                'updated_at' => '2019-04-12 12:29:19',
+                'deleted_at' => NULL,
+            ),
+            268 => 
+            array (
+                'id' => 2769,
+                'denuncia_id' => 2648,
+                'agresor_id' => 2687,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-04-12 12:35:00',
+                'updated_at' => '2019-04-12 12:35:00',
+                'deleted_at' => NULL,
+            ),
+            269 => 
+            array (
+                'id' => 2770,
+                'denuncia_id' => 2649,
+                'agresor_id' => 2688,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-15 08:34:46',
+                'updated_at' => '2019-04-15 08:34:46',
+                'deleted_at' => NULL,
+            ),
+            270 => 
+            array (
+                'id' => 2771,
+                'denuncia_id' => 2650,
+                'agresor_id' => 2689,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-15 08:43:12',
+                'updated_at' => '2019-04-15 08:43:12',
+                'deleted_at' => NULL,
+            ),
+            271 => 
+            array (
+                'id' => 2772,
+                'denuncia_id' => 2651,
+                'agresor_id' => 2690,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-04-15 08:48:26',
+                'updated_at' => '2019-04-15 08:48:26',
+                'deleted_at' => NULL,
+            ),
+            272 => 
+            array (
+                'id' => 2773,
+                'denuncia_id' => 2652,
+                'agresor_id' => 2691,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-04-15 08:53:03',
+                'updated_at' => '2019-04-15 08:53:03',
                 'deleted_at' => NULL,
             ),
         ));

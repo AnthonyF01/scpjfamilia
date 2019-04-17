@@ -33,6 +33,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:06',
                 'updated_at' => '2019-01-29 22:26:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             1 => 
             array (
@@ -50,6 +52,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             2 => 
             array (
@@ -67,6 +71,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             3 => 
             array (
@@ -84,6 +90,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             4 => 
             array (
@@ -101,6 +109,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             5 => 
             array (
@@ -118,6 +128,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             6 => 
             array (
@@ -135,6 +147,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             7 => 
             array (
@@ -152,6 +166,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             8 => 
             array (
@@ -169,6 +185,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:07',
                 'updated_at' => '2019-01-29 22:26:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             9 => 
             array (
@@ -186,6 +204,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             10 => 
             array (
@@ -203,6 +223,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             11 => 
             array (
@@ -220,6 +242,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             12 => 
             array (
@@ -237,6 +261,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             13 => 
             array (
@@ -254,6 +280,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             14 => 
             array (
@@ -271,6 +299,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             15 => 
             array (
@@ -288,6 +318,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             16 => 
             array (
@@ -305,6 +337,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:08',
                 'updated_at' => '2019-01-29 22:26:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             17 => 
             array (
@@ -322,6 +356,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:09',
                 'updated_at' => '2019-01-29 22:26:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             18 => 
             array (
@@ -339,6 +375,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:09',
                 'updated_at' => '2019-01-29 22:26:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             19 => 
             array (
@@ -356,6 +394,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:09',
                 'updated_at' => '2019-01-29 22:26:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             20 => 
             array (
@@ -373,6 +413,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:09',
                 'updated_at' => '2019-01-29 22:26:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             21 => 
             array (
@@ -390,6 +432,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:09',
                 'updated_at' => '2019-01-29 22:26:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             22 => 
             array (
@@ -407,6 +451,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:09',
                 'updated_at' => '2019-01-29 22:26:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             23 => 
             array (
@@ -424,6 +470,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:09',
                 'updated_at' => '2019-01-29 22:26:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             24 => 
             array (
@@ -441,6 +489,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:10',
                 'updated_at' => '2019-01-29 22:26:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             25 => 
             array (
@@ -458,6 +508,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:10',
                 'updated_at' => '2019-01-29 22:26:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             26 => 
             array (
@@ -475,6 +527,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:10',
                 'updated_at' => '2019-01-29 22:26:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             27 => 
             array (
@@ -492,6 +546,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:10',
                 'updated_at' => '2019-01-29 22:26:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             28 => 
             array (
@@ -509,6 +565,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:10',
                 'updated_at' => '2019-01-29 22:26:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             29 => 
             array (
@@ -526,6 +584,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:10',
                 'updated_at' => '2019-01-29 22:26:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             30 => 
             array (
@@ -543,6 +603,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:11',
                 'updated_at' => '2019-01-29 22:26:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             31 => 
             array (
@@ -560,6 +622,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:11',
                 'updated_at' => '2019-01-29 22:26:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             32 => 
             array (
@@ -577,6 +641,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:11',
                 'updated_at' => '2019-01-29 22:26:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             33 => 
             array (
@@ -594,6 +660,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:11',
                 'updated_at' => '2019-01-29 22:26:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             34 => 
             array (
@@ -611,6 +679,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:11',
                 'updated_at' => '2019-01-29 22:26:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             35 => 
             array (
@@ -628,6 +698,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             36 => 
             array (
@@ -645,6 +717,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             37 => 
             array (
@@ -662,6 +736,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             38 => 
             array (
@@ -679,6 +755,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             39 => 
             array (
@@ -696,6 +774,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             40 => 
             array (
@@ -713,6 +793,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             41 => 
             array (
@@ -730,6 +812,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:12',
                 'updated_at' => '2019-01-29 22:26:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             42 => 
             array (
@@ -747,6 +831,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:13',
                 'updated_at' => '2019-01-29 22:26:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             43 => 
             array (
@@ -764,6 +850,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:13',
                 'updated_at' => '2019-01-29 22:26:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             44 => 
             array (
@@ -781,6 +869,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:13',
                 'updated_at' => '2019-01-29 22:26:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             45 => 
             array (
@@ -798,6 +888,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:13',
                 'updated_at' => '2019-01-29 22:26:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             46 => 
             array (
@@ -815,6 +907,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:13',
                 'updated_at' => '2019-01-29 22:26:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             47 => 
             array (
@@ -832,6 +926,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:14',
                 'updated_at' => '2019-01-29 22:26:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             48 => 
             array (
@@ -849,6 +945,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:14',
                 'updated_at' => '2019-01-29 22:26:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             49 => 
             array (
@@ -866,6 +964,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:14',
                 'updated_at' => '2019-01-29 22:26:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             50 => 
             array (
@@ -883,6 +983,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             51 => 
             array (
@@ -900,6 +1002,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             52 => 
             array (
@@ -917,6 +1021,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             53 => 
             array (
@@ -934,6 +1040,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             54 => 
             array (
@@ -951,6 +1059,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             55 => 
             array (
@@ -968,6 +1078,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             56 => 
             array (
@@ -985,6 +1097,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             57 => 
             array (
@@ -1002,6 +1116,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             58 => 
             array (
@@ -1019,6 +1135,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:15',
                 'updated_at' => '2019-01-29 22:26:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             59 => 
             array (
@@ -1036,6 +1154,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             60 => 
             array (
@@ -1053,6 +1173,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             61 => 
             array (
@@ -1070,6 +1192,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             62 => 
             array (
@@ -1087,6 +1211,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             63 => 
             array (
@@ -1104,6 +1230,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             64 => 
             array (
@@ -1121,6 +1249,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             65 => 
             array (
@@ -1138,6 +1268,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:16',
                 'updated_at' => '2019-01-29 22:26:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             66 => 
             array (
@@ -1155,6 +1287,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             67 => 
             array (
@@ -1172,6 +1306,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             68 => 
             array (
@@ -1189,6 +1325,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             69 => 
             array (
@@ -1206,6 +1344,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             70 => 
             array (
@@ -1223,6 +1363,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             71 => 
             array (
@@ -1240,6 +1382,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             72 => 
             array (
@@ -1257,6 +1401,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:17',
                 'updated_at' => '2019-01-29 22:26:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             73 => 
             array (
@@ -1274,6 +1420,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:18',
                 'updated_at' => '2019-01-29 22:26:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             74 => 
             array (
@@ -1291,6 +1439,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:18',
                 'updated_at' => '2019-01-29 22:26:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             75 => 
             array (
@@ -1308,6 +1458,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:18',
                 'updated_at' => '2019-01-29 22:26:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             76 => 
             array (
@@ -1325,6 +1477,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:18',
                 'updated_at' => '2019-01-29 22:26:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             77 => 
             array (
@@ -1342,6 +1496,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:18',
                 'updated_at' => '2019-01-29 22:26:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             78 => 
             array (
@@ -1359,6 +1515,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:18',
                 'updated_at' => '2019-01-29 22:26:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             79 => 
             array (
@@ -1376,6 +1534,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             80 => 
             array (
@@ -1393,6 +1553,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             81 => 
             array (
@@ -1410,6 +1572,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             82 => 
             array (
@@ -1427,6 +1591,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             83 => 
             array (
@@ -1444,6 +1610,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             84 => 
             array (
@@ -1461,6 +1629,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             85 => 
             array (
@@ -1478,6 +1648,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:19',
                 'updated_at' => '2019-01-29 22:26:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             86 => 
             array (
@@ -1495,6 +1667,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:20',
                 'updated_at' => '2019-01-29 22:26:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             87 => 
             array (
@@ -1512,6 +1686,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:20',
                 'updated_at' => '2019-01-29 22:26:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             88 => 
             array (
@@ -1529,6 +1705,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:20',
                 'updated_at' => '2019-01-29 22:26:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             89 => 
             array (
@@ -1546,6 +1724,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:20',
                 'updated_at' => '2019-01-29 22:26:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             90 => 
             array (
@@ -1563,6 +1743,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:20',
                 'updated_at' => '2019-01-29 22:26:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             91 => 
             array (
@@ -1580,6 +1762,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:20',
                 'updated_at' => '2019-01-29 22:26:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             92 => 
             array (
@@ -1597,6 +1781,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:21',
                 'updated_at' => '2019-01-29 22:26:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             93 => 
             array (
@@ -1614,6 +1800,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:21',
                 'updated_at' => '2019-01-29 22:26:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             94 => 
             array (
@@ -1631,6 +1819,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:21',
                 'updated_at' => '2019-01-29 22:26:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             95 => 
             array (
@@ -1648,6 +1838,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:21',
                 'updated_at' => '2019-01-29 22:26:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             96 => 
             array (
@@ -1665,6 +1857,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:21',
                 'updated_at' => '2019-01-29 22:26:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             97 => 
             array (
@@ -1682,6 +1876,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:21',
                 'updated_at' => '2019-01-29 22:26:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             98 => 
             array (
@@ -1699,6 +1895,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:21',
                 'updated_at' => '2019-01-29 22:26:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             99 => 
             array (
@@ -1716,6 +1914,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:22',
                 'updated_at' => '2019-01-29 22:26:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             100 => 
             array (
@@ -1733,6 +1933,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:22',
                 'updated_at' => '2019-01-29 22:26:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             101 => 
             array (
@@ -1750,6 +1952,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:22',
                 'updated_at' => '2019-01-29 22:26:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             102 => 
             array (
@@ -1767,6 +1971,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:22',
                 'updated_at' => '2019-01-29 22:26:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             103 => 
             array (
@@ -1784,6 +1990,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:22',
                 'updated_at' => '2019-01-29 22:26:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             104 => 
             array (
@@ -1801,6 +2009,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:23',
                 'updated_at' => '2019-01-29 22:26:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             105 => 
             array (
@@ -1818,6 +2028,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:23',
                 'updated_at' => '2019-01-29 22:26:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             106 => 
             array (
@@ -1835,6 +2047,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:23',
                 'updated_at' => '2019-01-29 22:26:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             107 => 
             array (
@@ -1852,6 +2066,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:23',
                 'updated_at' => '2019-01-29 22:26:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             108 => 
             array (
@@ -1869,6 +2085,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:23',
                 'updated_at' => '2019-01-29 22:26:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             109 => 
             array (
@@ -1886,6 +2104,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:23',
                 'updated_at' => '2019-01-29 22:26:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             110 => 
             array (
@@ -1903,6 +2123,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:24',
                 'updated_at' => '2019-01-29 22:26:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             111 => 
             array (
@@ -1920,6 +2142,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:24',
                 'updated_at' => '2019-01-29 22:26:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             112 => 
             array (
@@ -1937,6 +2161,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:24',
                 'updated_at' => '2019-01-29 22:26:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             113 => 
             array (
@@ -1954,6 +2180,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:24',
                 'updated_at' => '2019-01-29 22:26:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             114 => 
             array (
@@ -1971,6 +2199,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:24',
                 'updated_at' => '2019-01-29 22:26:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             115 => 
             array (
@@ -1988,6 +2218,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:24',
                 'updated_at' => '2019-01-29 22:26:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             116 => 
             array (
@@ -2005,6 +2237,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:24',
                 'updated_at' => '2019-01-29 22:26:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             117 => 
             array (
@@ -2022,6 +2256,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:25',
                 'updated_at' => '2019-01-29 22:26:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             118 => 
             array (
@@ -2039,6 +2275,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:25',
                 'updated_at' => '2019-01-29 22:26:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             119 => 
             array (
@@ -2056,6 +2294,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:25',
                 'updated_at' => '2019-01-29 22:26:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             120 => 
             array (
@@ -2073,6 +2313,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:25',
                 'updated_at' => '2019-01-29 22:26:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             121 => 
             array (
@@ -2090,6 +2332,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:25',
                 'updated_at' => '2019-01-29 22:26:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             122 => 
             array (
@@ -2107,6 +2351,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:26',
                 'updated_at' => '2019-01-29 22:26:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             123 => 
             array (
@@ -2124,6 +2370,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:26',
                 'updated_at' => '2019-01-29 22:26:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             124 => 
             array (
@@ -2141,6 +2389,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:26',
                 'updated_at' => '2019-01-29 22:26:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             125 => 
             array (
@@ -2158,6 +2408,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:26',
                 'updated_at' => '2019-01-29 22:26:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             126 => 
             array (
@@ -2175,6 +2427,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:26',
                 'updated_at' => '2019-01-29 22:26:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             127 => 
             array (
@@ -2192,6 +2446,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:26',
                 'updated_at' => '2019-01-29 22:26:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             128 => 
             array (
@@ -2209,6 +2465,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:27',
                 'updated_at' => '2019-01-29 22:26:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             129 => 
             array (
@@ -2226,6 +2484,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:27',
                 'updated_at' => '2019-01-29 22:26:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             130 => 
             array (
@@ -2243,6 +2503,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:27',
                 'updated_at' => '2019-01-29 22:26:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             131 => 
             array (
@@ -2260,6 +2522,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:27',
                 'updated_at' => '2019-01-29 22:26:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             132 => 
             array (
@@ -2277,6 +2541,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:27',
                 'updated_at' => '2019-01-29 22:26:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             133 => 
             array (
@@ -2294,6 +2560,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:28',
                 'updated_at' => '2019-01-29 22:26:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             134 => 
             array (
@@ -2311,6 +2579,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:28',
                 'updated_at' => '2019-01-29 22:26:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             135 => 
             array (
@@ -2328,6 +2598,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:28',
                 'updated_at' => '2019-01-29 22:26:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             136 => 
             array (
@@ -2345,6 +2617,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:28',
                 'updated_at' => '2019-01-29 22:26:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             137 => 
             array (
@@ -2362,6 +2636,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:28',
                 'updated_at' => '2019-01-29 22:26:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             138 => 
             array (
@@ -2379,6 +2655,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:29',
                 'updated_at' => '2019-01-29 22:26:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             139 => 
             array (
@@ -2396,6 +2674,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:29',
                 'updated_at' => '2019-01-29 22:26:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             140 => 
             array (
@@ -2413,6 +2693,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:29',
                 'updated_at' => '2019-01-29 22:26:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             141 => 
             array (
@@ -2430,6 +2712,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:29',
                 'updated_at' => '2019-01-29 22:26:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             142 => 
             array (
@@ -2447,6 +2731,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:29',
                 'updated_at' => '2019-01-29 22:26:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             143 => 
             array (
@@ -2464,6 +2750,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             144 => 
             array (
@@ -2481,6 +2769,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             145 => 
             array (
@@ -2498,6 +2788,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             146 => 
             array (
@@ -2515,6 +2807,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             147 => 
             array (
@@ -2532,6 +2826,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             148 => 
             array (
@@ -2549,6 +2845,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             149 => 
             array (
@@ -2566,6 +2864,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             150 => 
             array (
@@ -2583,6 +2883,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:30',
                 'updated_at' => '2019-01-29 22:26:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             151 => 
             array (
@@ -2600,6 +2902,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:31',
                 'updated_at' => '2019-01-29 22:26:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             152 => 
             array (
@@ -2617,6 +2921,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:31',
                 'updated_at' => '2019-01-29 22:26:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             153 => 
             array (
@@ -2634,6 +2940,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:31',
                 'updated_at' => '2019-01-29 22:26:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             154 => 
             array (
@@ -2651,6 +2959,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:31',
                 'updated_at' => '2019-01-29 22:26:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             155 => 
             array (
@@ -2668,6 +2978,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:31',
                 'updated_at' => '2019-01-29 22:26:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             156 => 
             array (
@@ -2685,6 +2997,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:31',
                 'updated_at' => '2019-01-29 22:26:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             157 => 
             array (
@@ -2702,6 +3016,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             158 => 
             array (
@@ -2719,6 +3035,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             159 => 
             array (
@@ -2736,6 +3054,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             160 => 
             array (
@@ -2753,6 +3073,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             161 => 
             array (
@@ -2770,6 +3092,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             162 => 
             array (
@@ -2787,6 +3111,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             163 => 
             array (
@@ -2804,6 +3130,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             164 => 
             array (
@@ -2821,6 +3149,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:32',
                 'updated_at' => '2019-01-29 22:26:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             165 => 
             array (
@@ -2838,6 +3168,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             166 => 
             array (
@@ -2855,6 +3187,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             167 => 
             array (
@@ -2872,6 +3206,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             168 => 
             array (
@@ -2889,6 +3225,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             169 => 
             array (
@@ -2906,6 +3244,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             170 => 
             array (
@@ -2923,6 +3263,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             171 => 
             array (
@@ -2940,6 +3282,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:33',
                 'updated_at' => '2019-01-29 22:26:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             172 => 
             array (
@@ -2957,6 +3301,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             173 => 
             array (
@@ -2974,6 +3320,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             174 => 
             array (
@@ -2991,6 +3339,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             175 => 
             array (
@@ -3008,6 +3358,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             176 => 
             array (
@@ -3025,6 +3377,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             177 => 
             array (
@@ -3042,6 +3396,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             178 => 
             array (
@@ -3059,6 +3415,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:34',
                 'updated_at' => '2019-01-29 22:26:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             179 => 
             array (
@@ -3076,6 +3434,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:35',
                 'updated_at' => '2019-01-29 22:26:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             180 => 
             array (
@@ -3093,6 +3453,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:35',
                 'updated_at' => '2019-01-29 22:26:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             181 => 
             array (
@@ -3110,6 +3472,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:35',
                 'updated_at' => '2019-01-29 22:26:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             182 => 
             array (
@@ -3127,6 +3491,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:35',
                 'updated_at' => '2019-01-29 22:26:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             183 => 
             array (
@@ -3144,6 +3510,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:35',
                 'updated_at' => '2019-01-29 22:26:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             184 => 
             array (
@@ -3161,6 +3529,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:36',
                 'updated_at' => '2019-01-29 22:26:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             185 => 
             array (
@@ -3178,6 +3548,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:36',
                 'updated_at' => '2019-01-29 22:26:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             186 => 
             array (
@@ -3195,6 +3567,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:36',
                 'updated_at' => '2019-01-29 22:26:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             187 => 
             array (
@@ -3212,6 +3586,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:36',
                 'updated_at' => '2019-01-29 22:26:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             188 => 
             array (
@@ -3229,6 +3605,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:36',
                 'updated_at' => '2019-01-29 22:26:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             189 => 
             array (
@@ -3246,6 +3624,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:36',
                 'updated_at' => '2019-01-29 22:26:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             190 => 
             array (
@@ -3263,6 +3643,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:37',
                 'updated_at' => '2019-01-29 22:26:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             191 => 
             array (
@@ -3280,6 +3662,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:37',
                 'updated_at' => '2019-01-29 22:26:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             192 => 
             array (
@@ -3297,6 +3681,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:37',
                 'updated_at' => '2019-01-29 22:26:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             193 => 
             array (
@@ -3314,6 +3700,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:37',
                 'updated_at' => '2019-01-29 22:26:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             194 => 
             array (
@@ -3331,6 +3719,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:37',
                 'updated_at' => '2019-01-29 22:26:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             195 => 
             array (
@@ -3348,6 +3738,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:37',
                 'updated_at' => '2019-01-29 22:26:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             196 => 
             array (
@@ -3365,6 +3757,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             197 => 
             array (
@@ -3382,6 +3776,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             198 => 
             array (
@@ -3399,6 +3795,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             199 => 
             array (
@@ -3416,6 +3814,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             200 => 
             array (
@@ -3433,6 +3833,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             201 => 
             array (
@@ -3450,6 +3852,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             202 => 
             array (
@@ -3467,6 +3871,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             203 => 
             array (
@@ -3484,6 +3890,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:38',
                 'updated_at' => '2019-01-29 22:26:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             204 => 
             array (
@@ -3501,6 +3909,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:39',
                 'updated_at' => '2019-01-29 22:26:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             205 => 
             array (
@@ -3518,6 +3928,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:39',
                 'updated_at' => '2019-01-29 22:26:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             206 => 
             array (
@@ -3535,6 +3947,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:39',
                 'updated_at' => '2019-01-29 22:26:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             207 => 
             array (
@@ -3552,6 +3966,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:39',
                 'updated_at' => '2019-01-29 22:26:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             208 => 
             array (
@@ -3569,6 +3985,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:39',
                 'updated_at' => '2019-01-29 22:26:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             209 => 
             array (
@@ -3586,6 +4004,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:39',
                 'updated_at' => '2019-01-29 22:26:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             210 => 
             array (
@@ -3603,6 +4023,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:39',
                 'updated_at' => '2019-01-29 22:26:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             211 => 
             array (
@@ -3620,6 +4042,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:40',
                 'updated_at' => '2019-01-29 22:26:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             212 => 
             array (
@@ -3637,6 +4061,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:40',
                 'updated_at' => '2019-01-29 22:26:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             213 => 
             array (
@@ -3654,6 +4080,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:40',
                 'updated_at' => '2019-01-29 22:26:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             214 => 
             array (
@@ -3671,6 +4099,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:40',
                 'updated_at' => '2019-01-29 22:26:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             215 => 
             array (
@@ -3688,6 +4118,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:40',
                 'updated_at' => '2019-01-29 22:26:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             216 => 
             array (
@@ -3705,6 +4137,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:40',
                 'updated_at' => '2019-01-29 22:26:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             217 => 
             array (
@@ -3722,6 +4156,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             218 => 
             array (
@@ -3739,6 +4175,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             219 => 
             array (
@@ -3756,6 +4194,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             220 => 
             array (
@@ -3773,6 +4213,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             221 => 
             array (
@@ -3790,6 +4232,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             222 => 
             array (
@@ -3807,6 +4251,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             223 => 
             array (
@@ -3824,6 +4270,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             224 => 
             array (
@@ -3841,6 +4289,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             225 => 
             array (
@@ -3858,6 +4308,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:41',
                 'updated_at' => '2019-01-29 22:26:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             226 => 
             array (
@@ -3875,6 +4327,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             227 => 
             array (
@@ -3892,6 +4346,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             228 => 
             array (
@@ -3909,6 +4365,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             229 => 
             array (
@@ -3926,6 +4384,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             230 => 
             array (
@@ -3943,6 +4403,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             231 => 
             array (
@@ -3960,6 +4422,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             232 => 
             array (
@@ -3977,6 +4441,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             233 => 
             array (
@@ -3994,6 +4460,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:42',
                 'updated_at' => '2019-01-29 22:26:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             234 => 
             array (
@@ -4011,6 +4479,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             235 => 
             array (
@@ -4028,6 +4498,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             236 => 
             array (
@@ -4045,6 +4517,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             237 => 
             array (
@@ -4062,6 +4536,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             238 => 
             array (
@@ -4079,6 +4555,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             239 => 
             array (
@@ -4096,6 +4574,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             240 => 
             array (
@@ -4113,6 +4593,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:43',
                 'updated_at' => '2019-01-29 22:26:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             241 => 
             array (
@@ -4130,6 +4612,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             242 => 
             array (
@@ -4147,6 +4631,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             243 => 
             array (
@@ -4164,6 +4650,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             244 => 
             array (
@@ -4181,6 +4669,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             245 => 
             array (
@@ -4198,6 +4688,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             246 => 
             array (
@@ -4215,6 +4707,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             247 => 
             array (
@@ -4232,6 +4726,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:44',
                 'updated_at' => '2019-01-29 22:26:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             248 => 
             array (
@@ -4249,6 +4745,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             249 => 
             array (
@@ -4266,6 +4764,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             250 => 
             array (
@@ -4283,6 +4783,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             251 => 
             array (
@@ -4300,6 +4802,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             252 => 
             array (
@@ -4317,6 +4821,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             253 => 
             array (
@@ -4334,6 +4840,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             254 => 
             array (
@@ -4351,6 +4859,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             255 => 
             array (
@@ -4368,6 +4878,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             256 => 
             array (
@@ -4385,6 +4897,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:45',
                 'updated_at' => '2019-01-29 22:26:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             257 => 
             array (
@@ -4402,6 +4916,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             258 => 
             array (
@@ -4419,6 +4935,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             259 => 
             array (
@@ -4436,6 +4954,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             260 => 
             array (
@@ -4453,6 +4973,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             261 => 
             array (
@@ -4470,6 +4992,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             262 => 
             array (
@@ -4487,6 +5011,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             263 => 
             array (
@@ -4504,6 +5030,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             264 => 
             array (
@@ -4521,6 +5049,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             265 => 
             array (
@@ -4538,6 +5068,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             266 => 
             array (
@@ -4555,6 +5087,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             267 => 
             array (
@@ -4572,6 +5106,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             268 => 
             array (
@@ -4589,6 +5125,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             269 => 
             array (
@@ -4606,6 +5144,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             270 => 
             array (
@@ -4623,6 +5163,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:46',
                 'updated_at' => '2019-01-29 22:26:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             271 => 
             array (
@@ -4640,6 +5182,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             272 => 
             array (
@@ -4657,6 +5201,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             273 => 
             array (
@@ -4674,6 +5220,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             274 => 
             array (
@@ -4691,6 +5239,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             275 => 
             array (
@@ -4708,6 +5258,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             276 => 
             array (
@@ -4725,6 +5277,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             277 => 
             array (
@@ -4742,6 +5296,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:47',
                 'updated_at' => '2019-01-29 22:26:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             278 => 
             array (
@@ -4759,6 +5315,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:48',
                 'updated_at' => '2019-01-29 22:26:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             279 => 
             array (
@@ -4776,6 +5334,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:48',
                 'updated_at' => '2019-01-29 22:26:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             280 => 
             array (
@@ -4793,6 +5353,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:48',
                 'updated_at' => '2019-01-29 22:26:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             281 => 
             array (
@@ -4810,6 +5372,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:48',
                 'updated_at' => '2019-01-29 22:26:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             282 => 
             array (
@@ -4827,6 +5391,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:48',
                 'updated_at' => '2019-01-29 22:26:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             283 => 
             array (
@@ -4844,6 +5410,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:48',
                 'updated_at' => '2019-01-29 22:26:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             284 => 
             array (
@@ -4861,6 +5429,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:49',
                 'updated_at' => '2019-01-29 22:26:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             285 => 
             array (
@@ -4878,6 +5448,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:49',
                 'updated_at' => '2019-01-29 22:26:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             286 => 
             array (
@@ -4895,6 +5467,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:49',
                 'updated_at' => '2019-01-29 22:26:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             287 => 
             array (
@@ -4912,6 +5486,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:49',
                 'updated_at' => '2019-01-29 22:26:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             288 => 
             array (
@@ -4929,6 +5505,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:49',
                 'updated_at' => '2019-01-29 22:26:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             289 => 
             array (
@@ -4946,6 +5524,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:49',
                 'updated_at' => '2019-01-29 22:26:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             290 => 
             array (
@@ -4963,6 +5543,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:50',
                 'updated_at' => '2019-01-29 22:26:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             291 => 
             array (
@@ -4980,6 +5562,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:50',
                 'updated_at' => '2019-01-29 22:26:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             292 => 
             array (
@@ -4997,6 +5581,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:50',
                 'updated_at' => '2019-01-29 22:26:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             293 => 
             array (
@@ -5014,6 +5600,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:51',
                 'updated_at' => '2019-01-29 22:26:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             294 => 
             array (
@@ -5031,6 +5619,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:51',
                 'updated_at' => '2019-01-29 22:26:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             295 => 
             array (
@@ -5048,6 +5638,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:51',
                 'updated_at' => '2019-01-29 22:26:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             296 => 
             array (
@@ -5065,6 +5657,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:51',
                 'updated_at' => '2019-01-29 22:26:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             297 => 
             array (
@@ -5082,6 +5676,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:51',
                 'updated_at' => '2019-01-29 22:26:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             298 => 
             array (
@@ -5099,6 +5695,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:52',
                 'updated_at' => '2019-01-29 22:26:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             299 => 
             array (
@@ -5116,6 +5714,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:52',
                 'updated_at' => '2019-01-29 22:26:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             300 => 
             array (
@@ -5133,6 +5733,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:52',
                 'updated_at' => '2019-01-29 22:26:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             301 => 
             array (
@@ -5150,6 +5752,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:52',
                 'updated_at' => '2019-01-29 22:26:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             302 => 
             array (
@@ -5167,6 +5771,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:52',
                 'updated_at' => '2019-01-29 22:26:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             303 => 
             array (
@@ -5184,6 +5790,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:52',
                 'updated_at' => '2019-01-29 22:26:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             304 => 
             array (
@@ -5201,6 +5809,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:52',
                 'updated_at' => '2019-01-29 22:26:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             305 => 
             array (
@@ -5218,6 +5828,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:53',
                 'updated_at' => '2019-01-29 22:26:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             306 => 
             array (
@@ -5235,6 +5847,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:53',
                 'updated_at' => '2019-01-29 22:26:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             307 => 
             array (
@@ -5252,6 +5866,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:53',
                 'updated_at' => '2019-01-29 22:26:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             308 => 
             array (
@@ -5269,6 +5885,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:53',
                 'updated_at' => '2019-01-29 22:26:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             309 => 
             array (
@@ -5286,6 +5904,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:53',
                 'updated_at' => '2019-01-29 22:26:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             310 => 
             array (
@@ -5303,6 +5923,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:53',
                 'updated_at' => '2019-01-29 22:26:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             311 => 
             array (
@@ -5320,6 +5942,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:54',
                 'updated_at' => '2019-01-29 22:26:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             312 => 
             array (
@@ -5337,6 +5961,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:54',
                 'updated_at' => '2019-01-29 22:26:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             313 => 
             array (
@@ -5354,6 +5980,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:54',
                 'updated_at' => '2019-01-29 22:26:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             314 => 
             array (
@@ -5371,6 +5999,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:54',
                 'updated_at' => '2019-01-29 22:26:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             315 => 
             array (
@@ -5388,6 +6018,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:54',
                 'updated_at' => '2019-01-29 22:26:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             316 => 
             array (
@@ -5405,6 +6037,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:55',
                 'updated_at' => '2019-01-29 22:26:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             317 => 
             array (
@@ -5422,6 +6056,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:55',
                 'updated_at' => '2019-01-29 22:26:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             318 => 
             array (
@@ -5439,6 +6075,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:55',
                 'updated_at' => '2019-01-29 22:26:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             319 => 
             array (
@@ -5456,6 +6094,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:55',
                 'updated_at' => '2019-01-29 22:26:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             320 => 
             array (
@@ -5473,6 +6113,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:55',
                 'updated_at' => '2019-01-29 22:26:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             321 => 
             array (
@@ -5490,6 +6132,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:55',
                 'updated_at' => '2019-01-29 22:26:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             322 => 
             array (
@@ -5507,6 +6151,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:56',
                 'updated_at' => '2019-01-29 22:26:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             323 => 
             array (
@@ -5524,6 +6170,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:56',
                 'updated_at' => '2019-01-29 22:26:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             324 => 
             array (
@@ -5541,6 +6189,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:56',
                 'updated_at' => '2019-01-29 22:26:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             325 => 
             array (
@@ -5558,6 +6208,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:56',
                 'updated_at' => '2019-01-29 22:26:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             326 => 
             array (
@@ -5575,6 +6227,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:56',
                 'updated_at' => '2019-01-29 22:26:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             327 => 
             array (
@@ -5592,6 +6246,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:57',
                 'updated_at' => '2019-01-29 22:26:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             328 => 
             array (
@@ -5609,6 +6265,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:57',
                 'updated_at' => '2019-01-29 22:26:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             329 => 
             array (
@@ -5626,6 +6284,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:57',
                 'updated_at' => '2019-01-29 22:26:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             330 => 
             array (
@@ -5643,6 +6303,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:57',
                 'updated_at' => '2019-01-29 22:26:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             331 => 
             array (
@@ -5660,6 +6322,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:58',
                 'updated_at' => '2019-01-29 22:26:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             332 => 
             array (
@@ -5677,6 +6341,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:58',
                 'updated_at' => '2019-01-29 22:26:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             333 => 
             array (
@@ -5694,6 +6360,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:58',
                 'updated_at' => '2019-01-29 22:26:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             334 => 
             array (
@@ -5711,6 +6379,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:58',
                 'updated_at' => '2019-01-29 22:26:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             335 => 
             array (
@@ -5728,6 +6398,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:58',
                 'updated_at' => '2019-01-29 22:26:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             336 => 
             array (
@@ -5745,6 +6417,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:59',
                 'updated_at' => '2019-01-29 22:26:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             337 => 
             array (
@@ -5762,6 +6436,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:59',
                 'updated_at' => '2019-01-29 22:26:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             338 => 
             array (
@@ -5779,6 +6455,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:59',
                 'updated_at' => '2019-01-29 22:26:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             339 => 
             array (
@@ -5796,6 +6474,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:59',
                 'updated_at' => '2019-01-29 22:26:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             340 => 
             array (
@@ -5813,6 +6493,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:26:59',
                 'updated_at' => '2019-01-29 22:26:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             341 => 
             array (
@@ -5830,6 +6512,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:00',
                 'updated_at' => '2019-01-29 22:27:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             342 => 
             array (
@@ -5847,6 +6531,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:00',
                 'updated_at' => '2019-01-29 22:27:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             343 => 
             array (
@@ -5864,6 +6550,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:00',
                 'updated_at' => '2019-01-29 22:27:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             344 => 
             array (
@@ -5881,6 +6569,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:00',
                 'updated_at' => '2019-01-29 22:27:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             345 => 
             array (
@@ -5898,6 +6588,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:00',
                 'updated_at' => '2019-01-29 22:27:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             346 => 
             array (
@@ -5915,6 +6607,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:01',
                 'updated_at' => '2019-01-29 22:27:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             347 => 
             array (
@@ -5932,6 +6626,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:01',
                 'updated_at' => '2019-01-29 22:27:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             348 => 
             array (
@@ -5949,6 +6645,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:01',
                 'updated_at' => '2019-01-29 22:27:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             349 => 
             array (
@@ -5966,6 +6664,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:01',
                 'updated_at' => '2019-01-29 22:27:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             350 => 
             array (
@@ -5983,6 +6683,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:01',
                 'updated_at' => '2019-01-29 22:27:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             351 => 
             array (
@@ -6000,6 +6702,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:01',
                 'updated_at' => '2019-01-29 22:27:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             352 => 
             array (
@@ -6017,6 +6721,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:01',
                 'updated_at' => '2019-01-29 22:27:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             353 => 
             array (
@@ -6034,6 +6740,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:01',
                 'updated_at' => '2019-01-29 22:27:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             354 => 
             array (
@@ -6051,6 +6759,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:02',
                 'updated_at' => '2019-01-29 22:27:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             355 => 
             array (
@@ -6068,6 +6778,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:02',
                 'updated_at' => '2019-01-29 22:27:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             356 => 
             array (
@@ -6085,6 +6797,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:02',
                 'updated_at' => '2019-01-29 22:27:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             357 => 
             array (
@@ -6102,6 +6816,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:02',
                 'updated_at' => '2019-01-29 22:27:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             358 => 
             array (
@@ -6119,6 +6835,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:02',
                 'updated_at' => '2019-01-29 22:27:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             359 => 
             array (
@@ -6136,6 +6854,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:02',
                 'updated_at' => '2019-01-29 22:27:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             360 => 
             array (
@@ -6153,6 +6873,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:03',
                 'updated_at' => '2019-01-29 22:27:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             361 => 
             array (
@@ -6170,6 +6892,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:03',
                 'updated_at' => '2019-01-29 22:27:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             362 => 
             array (
@@ -6187,6 +6911,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:03',
                 'updated_at' => '2019-01-29 22:27:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             363 => 
             array (
@@ -6204,6 +6930,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:03',
                 'updated_at' => '2019-01-29 22:27:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             364 => 
             array (
@@ -6221,6 +6949,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:03',
                 'updated_at' => '2019-01-29 22:27:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             365 => 
             array (
@@ -6238,6 +6968,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:03',
                 'updated_at' => '2019-01-29 22:27:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             366 => 
             array (
@@ -6255,6 +6987,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:03',
                 'updated_at' => '2019-01-29 22:27:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             367 => 
             array (
@@ -6272,6 +7006,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:04',
                 'updated_at' => '2019-01-29 22:27:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             368 => 
             array (
@@ -6289,6 +7025,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:04',
                 'updated_at' => '2019-01-29 22:27:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             369 => 
             array (
@@ -6306,6 +7044,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:04',
                 'updated_at' => '2019-01-29 22:27:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             370 => 
             array (
@@ -6323,6 +7063,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:04',
                 'updated_at' => '2019-01-29 22:27:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             371 => 
             array (
@@ -6340,6 +7082,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:05',
                 'updated_at' => '2019-01-29 22:27:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             372 => 
             array (
@@ -6357,6 +7101,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:05',
                 'updated_at' => '2019-01-29 22:27:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             373 => 
             array (
@@ -6374,6 +7120,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:05',
                 'updated_at' => '2019-01-29 22:27:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             374 => 
             array (
@@ -6391,6 +7139,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:05',
                 'updated_at' => '2019-01-29 22:27:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             375 => 
             array (
@@ -6408,6 +7158,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:05',
                 'updated_at' => '2019-01-29 22:27:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             376 => 
             array (
@@ -6425,6 +7177,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:05',
                 'updated_at' => '2019-01-29 22:27:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             377 => 
             array (
@@ -6442,6 +7196,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:06',
                 'updated_at' => '2019-01-29 22:27:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             378 => 
             array (
@@ -6459,6 +7215,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:06',
                 'updated_at' => '2019-01-29 22:27:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             379 => 
             array (
@@ -6476,6 +7234,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:06',
                 'updated_at' => '2019-01-29 22:27:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             380 => 
             array (
@@ -6493,6 +7253,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:06',
                 'updated_at' => '2019-01-29 22:27:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             381 => 
             array (
@@ -6510,6 +7272,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:07',
                 'updated_at' => '2019-01-29 22:27:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             382 => 
             array (
@@ -6527,6 +7291,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:07',
                 'updated_at' => '2019-01-29 22:27:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             383 => 
             array (
@@ -6544,6 +7310,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:07',
                 'updated_at' => '2019-01-29 22:27:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             384 => 
             array (
@@ -6561,6 +7329,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:07',
                 'updated_at' => '2019-01-29 22:27:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             385 => 
             array (
@@ -6578,6 +7348,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:08',
                 'updated_at' => '2019-01-29 22:27:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             386 => 
             array (
@@ -6595,6 +7367,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:08',
                 'updated_at' => '2019-01-29 22:27:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             387 => 
             array (
@@ -6612,6 +7386,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:08',
                 'updated_at' => '2019-01-29 22:27:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             388 => 
             array (
@@ -6629,6 +7405,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:08',
                 'updated_at' => '2019-01-29 22:27:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             389 => 
             array (
@@ -6646,6 +7424,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:08',
                 'updated_at' => '2019-01-29 22:27:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             390 => 
             array (
@@ -6663,6 +7443,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:09',
                 'updated_at' => '2019-01-29 22:27:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             391 => 
             array (
@@ -6680,6 +7462,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:09',
                 'updated_at' => '2019-01-29 22:27:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             392 => 
             array (
@@ -6697,6 +7481,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:09',
                 'updated_at' => '2019-01-29 22:27:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             393 => 
             array (
@@ -6714,6 +7500,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:09',
                 'updated_at' => '2019-01-29 22:27:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             394 => 
             array (
@@ -6731,6 +7519,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:09',
                 'updated_at' => '2019-01-29 22:27:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             395 => 
             array (
@@ -6748,6 +7538,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:09',
                 'updated_at' => '2019-01-29 22:27:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             396 => 
             array (
@@ -6765,6 +7557,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:10',
                 'updated_at' => '2019-01-29 22:27:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             397 => 
             array (
@@ -6782,6 +7576,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:10',
                 'updated_at' => '2019-01-29 22:27:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             398 => 
             array (
@@ -6799,6 +7595,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:10',
                 'updated_at' => '2019-01-29 22:27:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             399 => 
             array (
@@ -6816,6 +7614,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:10',
                 'updated_at' => '2019-01-29 22:27:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             400 => 
             array (
@@ -6833,6 +7633,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:10',
                 'updated_at' => '2019-01-29 22:27:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             401 => 
             array (
@@ -6850,6 +7652,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:10',
                 'updated_at' => '2019-01-29 22:27:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             402 => 
             array (
@@ -6867,6 +7671,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:11',
                 'updated_at' => '2019-01-29 22:27:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             403 => 
             array (
@@ -6884,6 +7690,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:11',
                 'updated_at' => '2019-01-29 22:27:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             404 => 
             array (
@@ -6901,6 +7709,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:11',
                 'updated_at' => '2019-01-29 22:27:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             405 => 
             array (
@@ -6918,6 +7728,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:11',
                 'updated_at' => '2019-01-29 22:27:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             406 => 
             array (
@@ -6935,6 +7747,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:11',
                 'updated_at' => '2019-01-29 22:27:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             407 => 
             array (
@@ -6952,6 +7766,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:12',
                 'updated_at' => '2019-01-29 22:27:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             408 => 
             array (
@@ -6969,6 +7785,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:12',
                 'updated_at' => '2019-01-29 22:27:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             409 => 
             array (
@@ -6986,6 +7804,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:12',
                 'updated_at' => '2019-01-29 22:27:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             410 => 
             array (
@@ -7003,6 +7823,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:12',
                 'updated_at' => '2019-01-29 22:27:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             411 => 
             array (
@@ -7020,6 +7842,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:12',
                 'updated_at' => '2019-01-29 22:27:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             412 => 
             array (
@@ -7037,6 +7861,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:12',
                 'updated_at' => '2019-01-29 22:27:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             413 => 
             array (
@@ -7054,6 +7880,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:13',
                 'updated_at' => '2019-01-29 22:27:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             414 => 
             array (
@@ -7071,6 +7899,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:13',
                 'updated_at' => '2019-01-29 22:27:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             415 => 
             array (
@@ -7088,6 +7918,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:13',
                 'updated_at' => '2019-01-29 22:27:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             416 => 
             array (
@@ -7105,6 +7937,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:13',
                 'updated_at' => '2019-01-29 22:27:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             417 => 
             array (
@@ -7122,6 +7956,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:14',
                 'updated_at' => '2019-01-29 22:27:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             418 => 
             array (
@@ -7139,6 +7975,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:15',
                 'updated_at' => '2019-01-29 22:27:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             419 => 
             array (
@@ -7156,6 +7994,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:15',
                 'updated_at' => '2019-01-29 22:27:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             420 => 
             array (
@@ -7173,6 +8013,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:15',
                 'updated_at' => '2019-01-29 22:27:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             421 => 
             array (
@@ -7190,6 +8032,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:15',
                 'updated_at' => '2019-01-29 22:27:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             422 => 
             array (
@@ -7207,6 +8051,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:15',
                 'updated_at' => '2019-01-29 22:27:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             423 => 
             array (
@@ -7224,6 +8070,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:16',
                 'updated_at' => '2019-01-29 22:27:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             424 => 
             array (
@@ -7241,6 +8089,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:16',
                 'updated_at' => '2019-01-29 22:27:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             425 => 
             array (
@@ -7258,6 +8108,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:16',
                 'updated_at' => '2019-01-29 22:27:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             426 => 
             array (
@@ -7275,6 +8127,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:16',
                 'updated_at' => '2019-01-29 22:27:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             427 => 
             array (
@@ -7292,6 +8146,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:16',
                 'updated_at' => '2019-01-29 22:27:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             428 => 
             array (
@@ -7309,6 +8165,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:17',
                 'updated_at' => '2019-01-29 22:27:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             429 => 
             array (
@@ -7326,6 +8184,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:17',
                 'updated_at' => '2019-01-29 22:27:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             430 => 
             array (
@@ -7343,6 +8203,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:17',
                 'updated_at' => '2019-01-29 22:27:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             431 => 
             array (
@@ -7360,6 +8222,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:17',
                 'updated_at' => '2019-01-29 22:27:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             432 => 
             array (
@@ -7377,6 +8241,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:18',
                 'updated_at' => '2019-01-29 22:27:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             433 => 
             array (
@@ -7394,6 +8260,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:18',
                 'updated_at' => '2019-01-29 22:27:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             434 => 
             array (
@@ -7411,6 +8279,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:18',
                 'updated_at' => '2019-01-29 22:27:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             435 => 
             array (
@@ -7428,6 +8298,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:18',
                 'updated_at' => '2019-01-29 22:27:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             436 => 
             array (
@@ -7445,6 +8317,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:18',
                 'updated_at' => '2019-01-29 22:27:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             437 => 
             array (
@@ -7462,6 +8336,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:19',
                 'updated_at' => '2019-01-29 22:27:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             438 => 
             array (
@@ -7479,6 +8355,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:19',
                 'updated_at' => '2019-01-29 22:27:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             439 => 
             array (
@@ -7496,6 +8374,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:19',
                 'updated_at' => '2019-01-29 22:27:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             440 => 
             array (
@@ -7513,6 +8393,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:19',
                 'updated_at' => '2019-01-29 22:27:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             441 => 
             array (
@@ -7530,6 +8412,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:19',
                 'updated_at' => '2019-01-29 22:27:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             442 => 
             array (
@@ -7547,6 +8431,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:20',
                 'updated_at' => '2019-01-29 22:27:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             443 => 
             array (
@@ -7564,6 +8450,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:20',
                 'updated_at' => '2019-01-29 22:27:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             444 => 
             array (
@@ -7581,6 +8469,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:20',
                 'updated_at' => '2019-01-29 22:27:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             445 => 
             array (
@@ -7598,6 +8488,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:20',
                 'updated_at' => '2019-01-29 22:27:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             446 => 
             array (
@@ -7615,6 +8507,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:20',
                 'updated_at' => '2019-01-29 22:27:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             447 => 
             array (
@@ -7632,6 +8526,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:21',
                 'updated_at' => '2019-01-29 22:27:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             448 => 
             array (
@@ -7649,6 +8545,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:21',
                 'updated_at' => '2019-01-29 22:27:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             449 => 
             array (
@@ -7666,6 +8564,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:21',
                 'updated_at' => '2019-01-29 22:27:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             450 => 
             array (
@@ -7683,6 +8583,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:21',
                 'updated_at' => '2019-01-29 22:27:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             451 => 
             array (
@@ -7700,6 +8602,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:21',
                 'updated_at' => '2019-01-29 22:27:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             452 => 
             array (
@@ -7717,6 +8621,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:22',
                 'updated_at' => '2019-01-29 22:27:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             453 => 
             array (
@@ -7734,6 +8640,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:22',
                 'updated_at' => '2019-01-29 22:27:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             454 => 
             array (
@@ -7751,6 +8659,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:22',
                 'updated_at' => '2019-01-29 22:27:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             455 => 
             array (
@@ -7768,6 +8678,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:22',
                 'updated_at' => '2019-01-29 22:27:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             456 => 
             array (
@@ -7785,6 +8697,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:22',
                 'updated_at' => '2019-01-29 22:27:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             457 => 
             array (
@@ -7802,6 +8716,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:23',
                 'updated_at' => '2019-01-29 22:27:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             458 => 
             array (
@@ -7819,6 +8735,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:23',
                 'updated_at' => '2019-01-29 22:27:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             459 => 
             array (
@@ -7836,6 +8754,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:24',
                 'updated_at' => '2019-01-29 22:27:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             460 => 
             array (
@@ -7853,6 +8773,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:24',
                 'updated_at' => '2019-01-29 22:27:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             461 => 
             array (
@@ -7870,6 +8792,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:24',
                 'updated_at' => '2019-01-29 22:27:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             462 => 
             array (
@@ -7887,6 +8811,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:24',
                 'updated_at' => '2019-01-29 22:27:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             463 => 
             array (
@@ -7904,6 +8830,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:24',
                 'updated_at' => '2019-01-29 22:27:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             464 => 
             array (
@@ -7921,6 +8849,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:24',
                 'updated_at' => '2019-01-29 22:27:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             465 => 
             array (
@@ -7938,6 +8868,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:24',
                 'updated_at' => '2019-01-29 22:27:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             466 => 
             array (
@@ -7955,6 +8887,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:25',
                 'updated_at' => '2019-01-29 22:27:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             467 => 
             array (
@@ -7972,6 +8906,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:25',
                 'updated_at' => '2019-01-29 22:27:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             468 => 
             array (
@@ -7989,6 +8925,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:25',
                 'updated_at' => '2019-01-29 22:27:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             469 => 
             array (
@@ -8006,6 +8944,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:25',
                 'updated_at' => '2019-01-29 22:27:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             470 => 
             array (
@@ -8023,6 +8963,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:25',
                 'updated_at' => '2019-01-29 22:27:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             471 => 
             array (
@@ -8040,6 +8982,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:26',
                 'updated_at' => '2019-01-29 22:27:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             472 => 
             array (
@@ -8057,6 +9001,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:26',
                 'updated_at' => '2019-01-29 22:27:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             473 => 
             array (
@@ -8074,6 +9020,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:26',
                 'updated_at' => '2019-01-29 22:27:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             474 => 
             array (
@@ -8091,6 +9039,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:26',
                 'updated_at' => '2019-01-29 22:27:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             475 => 
             array (
@@ -8108,6 +9058,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:26',
                 'updated_at' => '2019-01-29 22:27:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             476 => 
             array (
@@ -8125,6 +9077,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:27',
                 'updated_at' => '2019-01-29 22:27:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             477 => 
             array (
@@ -8142,6 +9096,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:27',
                 'updated_at' => '2019-01-29 22:27:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             478 => 
             array (
@@ -8159,6 +9115,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:27',
                 'updated_at' => '2019-01-29 22:27:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             479 => 
             array (
@@ -8176,6 +9134,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:27',
                 'updated_at' => '2019-01-29 22:27:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             480 => 
             array (
@@ -8193,6 +9153,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:28',
                 'updated_at' => '2019-01-29 22:27:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             481 => 
             array (
@@ -8210,6 +9172,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:28',
                 'updated_at' => '2019-01-29 22:27:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             482 => 
             array (
@@ -8227,6 +9191,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:28',
                 'updated_at' => '2019-01-29 22:27:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             483 => 
             array (
@@ -8244,6 +9210,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:28',
                 'updated_at' => '2019-01-29 22:27:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             484 => 
             array (
@@ -8261,6 +9229,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:28',
                 'updated_at' => '2019-01-29 22:27:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             485 => 
             array (
@@ -8278,6 +9248,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:28',
                 'updated_at' => '2019-01-29 22:27:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             486 => 
             array (
@@ -8295,6 +9267,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:29',
                 'updated_at' => '2019-01-29 22:27:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             487 => 
             array (
@@ -8312,6 +9286,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:29',
                 'updated_at' => '2019-01-29 22:27:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             488 => 
             array (
@@ -8329,6 +9305,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:29',
                 'updated_at' => '2019-01-29 22:27:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             489 => 
             array (
@@ -8346,6 +9324,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:29',
                 'updated_at' => '2019-01-29 22:27:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             490 => 
             array (
@@ -8363,6 +9343,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:29',
                 'updated_at' => '2019-01-29 22:27:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             491 => 
             array (
@@ -8380,6 +9362,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:30',
                 'updated_at' => '2019-01-29 22:27:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             492 => 
             array (
@@ -8397,6 +9381,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:30',
                 'updated_at' => '2019-01-29 22:27:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             493 => 
             array (
@@ -8414,6 +9400,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:30',
                 'updated_at' => '2019-01-29 22:27:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             494 => 
             array (
@@ -8431,6 +9419,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:30',
                 'updated_at' => '2019-01-29 22:27:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             495 => 
             array (
@@ -8448,6 +9438,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:30',
                 'updated_at' => '2019-01-29 22:27:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             496 => 
             array (
@@ -8465,6 +9457,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:31',
                 'updated_at' => '2019-01-29 22:27:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             497 => 
             array (
@@ -8482,6 +9476,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:31',
                 'updated_at' => '2019-01-29 22:27:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             498 => 
             array (
@@ -8499,6 +9495,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:31',
                 'updated_at' => '2019-01-29 22:27:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             499 => 
             array (
@@ -8516,6 +9514,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:31',
                 'updated_at' => '2019-01-29 22:27:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
         ));
         \DB::table('victima')->insert(array (
@@ -8535,6 +9535,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:31',
                 'updated_at' => '2019-01-29 22:27:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             1 => 
             array (
@@ -8552,6 +9554,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:32',
                 'updated_at' => '2019-01-29 22:27:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             2 => 
             array (
@@ -8569,6 +9573,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:32',
                 'updated_at' => '2019-01-29 22:27:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             3 => 
             array (
@@ -8586,6 +9592,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:32',
                 'updated_at' => '2019-01-29 22:27:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             4 => 
             array (
@@ -8603,6 +9611,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:32',
                 'updated_at' => '2019-01-29 22:27:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             5 => 
             array (
@@ -8620,6 +9630,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:32',
                 'updated_at' => '2019-01-29 22:27:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             6 => 
             array (
@@ -8637,6 +9649,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:32',
                 'updated_at' => '2019-01-29 22:27:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             7 => 
             array (
@@ -8654,6 +9668,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:33',
                 'updated_at' => '2019-01-29 22:27:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             8 => 
             array (
@@ -8671,6 +9687,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:33',
                 'updated_at' => '2019-01-29 22:27:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             9 => 
             array (
@@ -8688,6 +9706,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:33',
                 'updated_at' => '2019-01-29 22:27:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             10 => 
             array (
@@ -8705,6 +9725,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:33',
                 'updated_at' => '2019-01-29 22:27:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             11 => 
             array (
@@ -8722,6 +9744,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:33',
                 'updated_at' => '2019-01-29 22:27:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             12 => 
             array (
@@ -8739,6 +9763,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:34',
                 'updated_at' => '2019-01-29 22:27:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             13 => 
             array (
@@ -8756,6 +9782,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:34',
                 'updated_at' => '2019-01-29 22:27:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             14 => 
             array (
@@ -8773,6 +9801,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:34',
                 'updated_at' => '2019-01-29 22:27:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             15 => 
             array (
@@ -8790,6 +9820,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:34',
                 'updated_at' => '2019-01-29 22:27:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             16 => 
             array (
@@ -8807,6 +9839,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:35',
                 'updated_at' => '2019-01-29 22:27:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             17 => 
             array (
@@ -8824,6 +9858,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:35',
                 'updated_at' => '2019-01-29 22:27:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             18 => 
             array (
@@ -8841,6 +9877,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:35',
                 'updated_at' => '2019-01-29 22:27:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             19 => 
             array (
@@ -8858,6 +9896,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:35',
                 'updated_at' => '2019-01-29 22:27:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             20 => 
             array (
@@ -8875,6 +9915,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:36',
                 'updated_at' => '2019-01-29 22:27:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             21 => 
             array (
@@ -8892,6 +9934,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:36',
                 'updated_at' => '2019-01-29 22:27:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             22 => 
             array (
@@ -8909,6 +9953,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:36',
                 'updated_at' => '2019-01-29 22:27:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             23 => 
             array (
@@ -8926,6 +9972,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:36',
                 'updated_at' => '2019-01-29 22:27:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             24 => 
             array (
@@ -8943,6 +9991,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:36',
                 'updated_at' => '2019-01-29 22:27:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             25 => 
             array (
@@ -8960,6 +10010,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:37',
                 'updated_at' => '2019-01-29 22:27:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             26 => 
             array (
@@ -8977,6 +10029,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:37',
                 'updated_at' => '2019-01-29 22:27:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             27 => 
             array (
@@ -8994,6 +10048,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:37',
                 'updated_at' => '2019-01-29 22:27:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             28 => 
             array (
@@ -9011,6 +10067,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:37',
                 'updated_at' => '2019-01-29 22:27:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             29 => 
             array (
@@ -9028,6 +10086,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:38',
                 'updated_at' => '2019-01-29 22:27:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             30 => 
             array (
@@ -9045,6 +10105,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:38',
                 'updated_at' => '2019-01-29 22:27:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             31 => 
             array (
@@ -9062,6 +10124,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:38',
                 'updated_at' => '2019-01-29 22:27:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             32 => 
             array (
@@ -9079,6 +10143,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:38',
                 'updated_at' => '2019-01-29 22:27:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             33 => 
             array (
@@ -9096,6 +10162,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:38',
                 'updated_at' => '2019-01-29 22:27:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             34 => 
             array (
@@ -9113,6 +10181,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:39',
                 'updated_at' => '2019-01-29 22:27:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             35 => 
             array (
@@ -9130,6 +10200,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:39',
                 'updated_at' => '2019-01-29 22:27:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             36 => 
             array (
@@ -9147,6 +10219,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:39',
                 'updated_at' => '2019-01-29 22:27:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             37 => 
             array (
@@ -9164,6 +10238,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:39',
                 'updated_at' => '2019-01-29 22:27:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             38 => 
             array (
@@ -9181,6 +10257,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:39',
                 'updated_at' => '2019-01-29 22:27:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             39 => 
             array (
@@ -9198,6 +10276,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:39',
                 'updated_at' => '2019-01-29 22:27:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             40 => 
             array (
@@ -9215,6 +10295,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:40',
                 'updated_at' => '2019-01-29 22:27:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             41 => 
             array (
@@ -9232,6 +10314,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:40',
                 'updated_at' => '2019-01-29 22:27:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             42 => 
             array (
@@ -9249,6 +10333,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:40',
                 'updated_at' => '2019-01-29 22:27:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             43 => 
             array (
@@ -9266,6 +10352,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:40',
                 'updated_at' => '2019-01-29 22:27:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             44 => 
             array (
@@ -9283,6 +10371,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:40',
                 'updated_at' => '2019-01-29 22:27:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             45 => 
             array (
@@ -9300,6 +10390,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:40',
                 'updated_at' => '2019-01-29 22:27:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             46 => 
             array (
@@ -9317,6 +10409,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:41',
                 'updated_at' => '2019-01-29 22:27:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             47 => 
             array (
@@ -9334,6 +10428,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:41',
                 'updated_at' => '2019-01-29 22:27:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             48 => 
             array (
@@ -9351,6 +10447,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:41',
                 'updated_at' => '2019-01-29 22:27:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             49 => 
             array (
@@ -9368,6 +10466,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:41',
                 'updated_at' => '2019-01-29 22:27:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             50 => 
             array (
@@ -9385,6 +10485,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:41',
                 'updated_at' => '2019-01-29 22:27:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             51 => 
             array (
@@ -9402,6 +10504,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:42',
                 'updated_at' => '2019-01-29 22:27:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             52 => 
             array (
@@ -9419,6 +10523,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:42',
                 'updated_at' => '2019-01-29 22:27:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             53 => 
             array (
@@ -9436,6 +10542,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:42',
                 'updated_at' => '2019-01-29 22:27:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             54 => 
             array (
@@ -9453,6 +10561,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:42',
                 'updated_at' => '2019-01-29 22:27:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             55 => 
             array (
@@ -9470,6 +10580,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:42',
                 'updated_at' => '2019-01-29 22:27:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             56 => 
             array (
@@ -9487,6 +10599,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:43',
                 'updated_at' => '2019-01-29 22:27:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             57 => 
             array (
@@ -9504,6 +10618,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:43',
                 'updated_at' => '2019-01-29 22:27:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             58 => 
             array (
@@ -9521,6 +10637,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:43',
                 'updated_at' => '2019-01-29 22:27:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             59 => 
             array (
@@ -9538,6 +10656,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:43',
                 'updated_at' => '2019-01-29 22:27:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             60 => 
             array (
@@ -9555,6 +10675,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:43',
                 'updated_at' => '2019-01-29 22:27:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             61 => 
             array (
@@ -9572,6 +10694,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:43',
                 'updated_at' => '2019-01-29 22:27:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             62 => 
             array (
@@ -9589,6 +10713,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:44',
                 'updated_at' => '2019-01-29 22:27:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             63 => 
             array (
@@ -9606,6 +10732,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:44',
                 'updated_at' => '2019-01-29 22:27:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             64 => 
             array (
@@ -9623,6 +10751,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:44',
                 'updated_at' => '2019-01-29 22:27:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             65 => 
             array (
@@ -9640,6 +10770,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:45',
                 'updated_at' => '2019-01-29 22:27:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             66 => 
             array (
@@ -9657,6 +10789,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:45',
                 'updated_at' => '2019-01-29 22:27:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             67 => 
             array (
@@ -9674,6 +10808,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:45',
                 'updated_at' => '2019-01-29 22:27:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             68 => 
             array (
@@ -9691,6 +10827,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:45',
                 'updated_at' => '2019-01-29 22:27:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             69 => 
             array (
@@ -9708,6 +10846,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:45',
                 'updated_at' => '2019-01-29 22:27:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             70 => 
             array (
@@ -9725,6 +10865,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:46',
                 'updated_at' => '2019-01-29 22:27:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             71 => 
             array (
@@ -9742,6 +10884,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:46',
                 'updated_at' => '2019-01-29 22:27:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             72 => 
             array (
@@ -9759,6 +10903,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:46',
                 'updated_at' => '2019-01-29 22:27:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             73 => 
             array (
@@ -9776,6 +10922,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:46',
                 'updated_at' => '2019-01-29 22:27:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             74 => 
             array (
@@ -9793,6 +10941,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:46',
                 'updated_at' => '2019-01-29 22:27:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             75 => 
             array (
@@ -9810,6 +10960,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:46',
                 'updated_at' => '2019-01-29 22:27:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             76 => 
             array (
@@ -9827,6 +10979,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:47',
                 'updated_at' => '2019-01-29 22:27:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             77 => 
             array (
@@ -9844,6 +10998,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:47',
                 'updated_at' => '2019-01-29 22:27:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             78 => 
             array (
@@ -9861,6 +11017,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:47',
                 'updated_at' => '2019-01-29 22:27:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             79 => 
             array (
@@ -9878,6 +11036,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:47',
                 'updated_at' => '2019-01-29 22:27:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             80 => 
             array (
@@ -9895,6 +11055,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:47',
                 'updated_at' => '2019-01-29 22:27:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             81 => 
             array (
@@ -9912,6 +11074,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:47',
                 'updated_at' => '2019-01-29 22:27:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             82 => 
             array (
@@ -9929,6 +11093,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:48',
                 'updated_at' => '2019-01-29 22:27:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             83 => 
             array (
@@ -9946,6 +11112,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:48',
                 'updated_at' => '2019-01-29 22:27:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             84 => 
             array (
@@ -9963,6 +11131,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:48',
                 'updated_at' => '2019-01-29 22:27:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             85 => 
             array (
@@ -9980,6 +11150,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:48',
                 'updated_at' => '2019-01-29 22:27:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             86 => 
             array (
@@ -9997,6 +11169,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:48',
                 'updated_at' => '2019-01-29 22:27:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             87 => 
             array (
@@ -10014,6 +11188,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:49',
                 'updated_at' => '2019-01-29 22:27:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             88 => 
             array (
@@ -10031,6 +11207,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:49',
                 'updated_at' => '2019-01-29 22:27:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             89 => 
             array (
@@ -10048,6 +11226,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:49',
                 'updated_at' => '2019-01-29 22:27:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             90 => 
             array (
@@ -10065,6 +11245,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:49',
                 'updated_at' => '2019-01-29 22:27:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             91 => 
             array (
@@ -10082,6 +11264,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:50',
                 'updated_at' => '2019-01-29 22:27:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             92 => 
             array (
@@ -10099,6 +11283,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:50',
                 'updated_at' => '2019-01-29 22:27:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             93 => 
             array (
@@ -10116,6 +11302,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:50',
                 'updated_at' => '2019-01-29 22:27:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             94 => 
             array (
@@ -10133,6 +11321,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:50',
                 'updated_at' => '2019-01-29 22:27:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             95 => 
             array (
@@ -10150,6 +11340,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:50',
                 'updated_at' => '2019-01-29 22:27:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             96 => 
             array (
@@ -10167,6 +11359,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:50',
                 'updated_at' => '2019-01-29 22:27:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             97 => 
             array (
@@ -10184,6 +11378,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:51',
                 'updated_at' => '2019-01-29 22:27:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             98 => 
             array (
@@ -10201,6 +11397,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:51',
                 'updated_at' => '2019-01-29 22:27:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             99 => 
             array (
@@ -10218,6 +11416,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:51',
                 'updated_at' => '2019-01-29 22:27:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             100 => 
             array (
@@ -10235,6 +11435,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:52',
                 'updated_at' => '2019-01-29 22:27:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             101 => 
             array (
@@ -10252,6 +11454,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:52',
                 'updated_at' => '2019-01-29 22:27:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             102 => 
             array (
@@ -10269,6 +11473,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:52',
                 'updated_at' => '2019-01-29 22:27:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             103 => 
             array (
@@ -10286,6 +11492,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:52',
                 'updated_at' => '2019-01-29 22:27:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             104 => 
             array (
@@ -10303,6 +11511,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:52',
                 'updated_at' => '2019-01-29 22:27:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             105 => 
             array (
@@ -10320,6 +11530,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:52',
                 'updated_at' => '2019-01-29 22:27:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             106 => 
             array (
@@ -10337,6 +11549,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:53',
                 'updated_at' => '2019-01-29 22:27:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             107 => 
             array (
@@ -10354,6 +11568,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:53',
                 'updated_at' => '2019-01-29 22:27:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             108 => 
             array (
@@ -10371,6 +11587,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:53',
                 'updated_at' => '2019-01-29 22:27:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             109 => 
             array (
@@ -10388,6 +11606,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:53',
                 'updated_at' => '2019-01-29 22:27:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             110 => 
             array (
@@ -10405,6 +11625,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:53',
                 'updated_at' => '2019-01-29 22:27:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             111 => 
             array (
@@ -10422,6 +11644,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:53',
                 'updated_at' => '2019-01-29 22:27:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             112 => 
             array (
@@ -10439,6 +11663,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:54',
                 'updated_at' => '2019-01-29 22:27:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             113 => 
             array (
@@ -10456,6 +11682,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:54',
                 'updated_at' => '2019-01-29 22:27:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             114 => 
             array (
@@ -10473,6 +11701,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:54',
                 'updated_at' => '2019-01-29 22:27:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             115 => 
             array (
@@ -10490,6 +11720,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:54',
                 'updated_at' => '2019-01-29 22:27:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             116 => 
             array (
@@ -10507,6 +11739,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:54',
                 'updated_at' => '2019-01-29 22:27:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             117 => 
             array (
@@ -10524,6 +11758,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:55',
                 'updated_at' => '2019-01-29 22:27:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             118 => 
             array (
@@ -10541,6 +11777,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:55',
                 'updated_at' => '2019-01-29 22:27:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             119 => 
             array (
@@ -10558,6 +11796,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:55',
                 'updated_at' => '2019-01-29 22:27:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             120 => 
             array (
@@ -10575,6 +11815,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:55',
                 'updated_at' => '2019-01-29 22:27:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             121 => 
             array (
@@ -10592,6 +11834,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:55',
                 'updated_at' => '2019-01-29 22:27:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             122 => 
             array (
@@ -10609,6 +11853,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:55',
                 'updated_at' => '2019-01-29 22:27:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             123 => 
             array (
@@ -10626,6 +11872,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:56',
                 'updated_at' => '2019-01-29 22:27:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             124 => 
             array (
@@ -10643,6 +11891,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:56',
                 'updated_at' => '2019-01-29 22:27:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             125 => 
             array (
@@ -10660,6 +11910,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:56',
                 'updated_at' => '2019-01-29 22:27:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             126 => 
             array (
@@ -10677,6 +11929,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:56',
                 'updated_at' => '2019-01-29 22:27:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             127 => 
             array (
@@ -10694,6 +11948,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:56',
                 'updated_at' => '2019-01-29 22:27:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             128 => 
             array (
@@ -10711,6 +11967,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:56',
                 'updated_at' => '2019-01-29 22:27:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             129 => 
             array (
@@ -10728,6 +11986,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:57',
                 'updated_at' => '2019-01-29 22:27:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             130 => 
             array (
@@ -10745,6 +12005,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:57',
                 'updated_at' => '2019-01-29 22:27:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             131 => 
             array (
@@ -10762,6 +12024,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:57',
                 'updated_at' => '2019-01-29 22:27:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             132 => 
             array (
@@ -10779,6 +12043,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:57',
                 'updated_at' => '2019-01-29 22:27:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             133 => 
             array (
@@ -10796,6 +12062,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:57',
                 'updated_at' => '2019-01-29 22:27:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             134 => 
             array (
@@ -10813,6 +12081,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:57',
                 'updated_at' => '2019-01-29 22:27:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             135 => 
             array (
@@ -10830,6 +12100,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:58',
                 'updated_at' => '2019-01-29 22:27:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             136 => 
             array (
@@ -10847,6 +12119,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:58',
                 'updated_at' => '2019-01-29 22:27:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             137 => 
             array (
@@ -10864,6 +12138,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:58',
                 'updated_at' => '2019-01-29 22:27:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             138 => 
             array (
@@ -10881,6 +12157,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:58',
                 'updated_at' => '2019-01-29 22:27:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             139 => 
             array (
@@ -10898,6 +12176,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:58',
                 'updated_at' => '2019-01-29 22:27:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             140 => 
             array (
@@ -10915,6 +12195,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:59',
                 'updated_at' => '2019-01-29 22:27:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             141 => 
             array (
@@ -10932,6 +12214,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:59',
                 'updated_at' => '2019-01-29 22:27:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             142 => 
             array (
@@ -10949,6 +12233,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:59',
                 'updated_at' => '2019-01-29 22:27:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             143 => 
             array (
@@ -10966,6 +12252,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:59',
                 'updated_at' => '2019-01-29 22:27:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             144 => 
             array (
@@ -10983,6 +12271,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:27:59',
                 'updated_at' => '2019-01-29 22:27:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             145 => 
             array (
@@ -11000,6 +12290,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:00',
                 'updated_at' => '2019-01-29 22:28:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             146 => 
             array (
@@ -11017,6 +12309,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:00',
                 'updated_at' => '2019-01-29 22:28:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             147 => 
             array (
@@ -11034,6 +12328,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:00',
                 'updated_at' => '2019-01-29 22:28:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             148 => 
             array (
@@ -11051,6 +12347,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:00',
                 'updated_at' => '2019-01-29 22:28:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             149 => 
             array (
@@ -11068,6 +12366,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:00',
                 'updated_at' => '2019-01-29 22:28:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             150 => 
             array (
@@ -11085,6 +12385,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:00',
                 'updated_at' => '2019-01-29 22:28:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             151 => 
             array (
@@ -11102,6 +12404,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:01',
                 'updated_at' => '2019-01-29 22:28:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             152 => 
             array (
@@ -11119,6 +12423,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:01',
                 'updated_at' => '2019-01-29 22:28:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             153 => 
             array (
@@ -11136,6 +12442,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:01',
                 'updated_at' => '2019-01-29 22:28:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             154 => 
             array (
@@ -11153,6 +12461,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:01',
                 'updated_at' => '2019-01-29 22:28:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             155 => 
             array (
@@ -11170,6 +12480,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:01',
                 'updated_at' => '2019-01-29 22:28:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             156 => 
             array (
@@ -11187,6 +12499,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:02',
                 'updated_at' => '2019-01-29 22:28:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             157 => 
             array (
@@ -11204,6 +12518,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:02',
                 'updated_at' => '2019-01-29 22:28:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             158 => 
             array (
@@ -11221,6 +12537,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:02',
                 'updated_at' => '2019-01-29 22:28:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             159 => 
             array (
@@ -11238,6 +12556,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:02',
                 'updated_at' => '2019-01-29 22:28:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             160 => 
             array (
@@ -11255,6 +12575,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:02',
                 'updated_at' => '2019-01-29 22:28:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             161 => 
             array (
@@ -11272,6 +12594,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:03',
                 'updated_at' => '2019-01-29 22:28:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             162 => 
             array (
@@ -11289,6 +12613,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:03',
                 'updated_at' => '2019-01-29 22:28:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             163 => 
             array (
@@ -11306,6 +12632,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:03',
                 'updated_at' => '2019-01-29 22:28:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             164 => 
             array (
@@ -11323,6 +12651,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:03',
                 'updated_at' => '2019-01-29 22:28:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             165 => 
             array (
@@ -11340,6 +12670,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:03',
                 'updated_at' => '2019-01-29 22:28:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             166 => 
             array (
@@ -11357,6 +12689,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:03',
                 'updated_at' => '2019-01-29 22:28:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             167 => 
             array (
@@ -11374,6 +12708,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:04',
                 'updated_at' => '2019-01-29 22:28:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             168 => 
             array (
@@ -11391,6 +12727,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:04',
                 'updated_at' => '2019-01-29 22:28:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             169 => 
             array (
@@ -11408,6 +12746,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:04',
                 'updated_at' => '2019-01-29 22:28:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             170 => 
             array (
@@ -11425,6 +12765,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:04',
                 'updated_at' => '2019-01-29 22:28:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             171 => 
             array (
@@ -11442,6 +12784,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:04',
                 'updated_at' => '2019-01-29 22:28:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             172 => 
             array (
@@ -11459,6 +12803,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:04',
                 'updated_at' => '2019-01-29 22:28:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             173 => 
             array (
@@ -11476,6 +12822,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:05',
                 'updated_at' => '2019-01-29 22:28:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             174 => 
             array (
@@ -11493,6 +12841,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:05',
                 'updated_at' => '2019-01-29 22:28:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             175 => 
             array (
@@ -11510,6 +12860,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:05',
                 'updated_at' => '2019-01-29 22:28:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             176 => 
             array (
@@ -11527,6 +12879,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:05',
                 'updated_at' => '2019-01-29 22:28:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             177 => 
             array (
@@ -11544,6 +12898,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:06',
                 'updated_at' => '2019-01-29 22:28:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             178 => 
             array (
@@ -11561,6 +12917,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:06',
                 'updated_at' => '2019-01-29 22:28:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             179 => 
             array (
@@ -11578,6 +12936,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:06',
                 'updated_at' => '2019-01-29 22:28:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             180 => 
             array (
@@ -11595,6 +12955,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:06',
                 'updated_at' => '2019-01-29 22:28:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             181 => 
             array (
@@ -11612,6 +12974,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:07',
                 'updated_at' => '2019-01-29 22:28:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             182 => 
             array (
@@ -11629,6 +12993,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:07',
                 'updated_at' => '2019-01-29 22:28:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             183 => 
             array (
@@ -11646,6 +13012,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:07',
                 'updated_at' => '2019-01-29 22:28:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             184 => 
             array (
@@ -11663,6 +13031,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:07',
                 'updated_at' => '2019-01-29 22:28:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             185 => 
             array (
@@ -11680,6 +13050,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:08',
                 'updated_at' => '2019-01-29 22:28:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             186 => 
             array (
@@ -11697,6 +13069,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:08',
                 'updated_at' => '2019-01-29 22:28:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             187 => 
             array (
@@ -11714,6 +13088,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:08',
                 'updated_at' => '2019-01-29 22:28:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             188 => 
             array (
@@ -11731,6 +13107,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:08',
                 'updated_at' => '2019-01-29 22:28:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             189 => 
             array (
@@ -11748,6 +13126,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:08',
                 'updated_at' => '2019-01-29 22:28:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             190 => 
             array (
@@ -11765,6 +13145,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:09',
                 'updated_at' => '2019-01-29 22:28:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             191 => 
             array (
@@ -11782,6 +13164,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:09',
                 'updated_at' => '2019-01-29 22:28:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             192 => 
             array (
@@ -11799,6 +13183,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:09',
                 'updated_at' => '2019-01-29 22:28:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             193 => 
             array (
@@ -11816,6 +13202,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:09',
                 'updated_at' => '2019-01-29 22:28:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             194 => 
             array (
@@ -11833,6 +13221,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:09',
                 'updated_at' => '2019-01-29 22:28:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             195 => 
             array (
@@ -11850,6 +13240,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:09',
                 'updated_at' => '2019-01-29 22:28:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             196 => 
             array (
@@ -11867,6 +13259,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:09',
                 'updated_at' => '2019-01-29 22:28:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             197 => 
             array (
@@ -11884,6 +13278,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:10',
                 'updated_at' => '2019-01-29 22:28:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             198 => 
             array (
@@ -11901,6 +13297,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:10',
                 'updated_at' => '2019-01-29 22:28:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             199 => 
             array (
@@ -11918,6 +13316,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:10',
                 'updated_at' => '2019-01-29 22:28:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             200 => 
             array (
@@ -11935,6 +13335,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:10',
                 'updated_at' => '2019-01-29 22:28:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             201 => 
             array (
@@ -11952,6 +13354,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:10',
                 'updated_at' => '2019-01-29 22:28:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             202 => 
             array (
@@ -11969,6 +13373,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:10',
                 'updated_at' => '2019-01-29 22:28:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             203 => 
             array (
@@ -11986,6 +13392,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:10',
                 'updated_at' => '2019-01-29 22:28:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             204 => 
             array (
@@ -12003,6 +13411,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:11',
                 'updated_at' => '2019-01-29 22:28:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             205 => 
             array (
@@ -12020,6 +13430,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:11',
                 'updated_at' => '2019-01-29 22:28:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             206 => 
             array (
@@ -12037,6 +13449,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:11',
                 'updated_at' => '2019-01-29 22:28:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             207 => 
             array (
@@ -12054,6 +13468,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:11',
                 'updated_at' => '2019-01-29 22:28:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             208 => 
             array (
@@ -12071,6 +13487,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:11',
                 'updated_at' => '2019-01-29 22:28:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             209 => 
             array (
@@ -12088,6 +13506,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:11',
                 'updated_at' => '2019-01-29 22:28:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             210 => 
             array (
@@ -12105,6 +13525,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:12',
                 'updated_at' => '2019-01-29 22:28:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             211 => 
             array (
@@ -12122,6 +13544,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:12',
                 'updated_at' => '2019-01-29 22:28:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             212 => 
             array (
@@ -12139,6 +13563,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:12',
                 'updated_at' => '2019-01-29 22:28:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             213 => 
             array (
@@ -12156,6 +13582,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:12',
                 'updated_at' => '2019-01-29 22:28:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             214 => 
             array (
@@ -12173,6 +13601,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:12',
                 'updated_at' => '2019-01-29 22:28:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             215 => 
             array (
@@ -12190,6 +13620,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:13',
                 'updated_at' => '2019-01-29 22:28:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             216 => 
             array (
@@ -12207,6 +13639,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:13',
                 'updated_at' => '2019-01-29 22:28:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             217 => 
             array (
@@ -12224,6 +13658,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:13',
                 'updated_at' => '2019-01-29 22:28:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             218 => 
             array (
@@ -12241,6 +13677,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:13',
                 'updated_at' => '2019-01-29 22:28:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             219 => 
             array (
@@ -12258,6 +13696,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:13',
                 'updated_at' => '2019-01-29 22:28:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             220 => 
             array (
@@ -12275,6 +13715,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:14',
                 'updated_at' => '2019-01-29 22:28:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             221 => 
             array (
@@ -12292,6 +13734,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:14',
                 'updated_at' => '2019-01-29 22:28:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             222 => 
             array (
@@ -12309,6 +13753,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:14',
                 'updated_at' => '2019-01-29 22:28:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             223 => 
             array (
@@ -12326,6 +13772,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:14',
                 'updated_at' => '2019-01-29 22:28:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             224 => 
             array (
@@ -12343,6 +13791,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:14',
                 'updated_at' => '2019-01-29 22:28:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             225 => 
             array (
@@ -12360,6 +13810,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:14',
                 'updated_at' => '2019-01-29 22:28:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             226 => 
             array (
@@ -12377,6 +13829,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:15',
                 'updated_at' => '2019-01-29 22:28:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             227 => 
             array (
@@ -12394,6 +13848,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:15',
                 'updated_at' => '2019-01-29 22:28:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             228 => 
             array (
@@ -12411,6 +13867,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:15',
                 'updated_at' => '2019-01-29 22:28:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             229 => 
             array (
@@ -12428,6 +13886,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:15',
                 'updated_at' => '2019-01-29 22:28:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             230 => 
             array (
@@ -12445,6 +13905,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:15',
                 'updated_at' => '2019-01-29 22:28:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             231 => 
             array (
@@ -12462,6 +13924,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:16',
                 'updated_at' => '2019-01-29 22:28:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             232 => 
             array (
@@ -12479,6 +13943,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:16',
                 'updated_at' => '2019-01-29 22:28:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             233 => 
             array (
@@ -12496,6 +13962,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:16',
                 'updated_at' => '2019-01-29 22:28:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             234 => 
             array (
@@ -12513,6 +13981,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:16',
                 'updated_at' => '2019-01-29 22:28:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             235 => 
             array (
@@ -12530,6 +14000,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:16',
                 'updated_at' => '2019-01-29 22:28:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             236 => 
             array (
@@ -12547,6 +14019,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:16',
                 'updated_at' => '2019-01-29 22:28:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             237 => 
             array (
@@ -12564,6 +14038,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:17',
                 'updated_at' => '2019-01-29 22:28:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             238 => 
             array (
@@ -12581,6 +14057,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:17',
                 'updated_at' => '2019-01-29 22:28:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             239 => 
             array (
@@ -12598,6 +14076,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:17',
                 'updated_at' => '2019-01-29 22:28:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             240 => 
             array (
@@ -12615,6 +14095,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:17',
                 'updated_at' => '2019-01-29 22:28:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             241 => 
             array (
@@ -12632,6 +14114,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:17',
                 'updated_at' => '2019-01-29 22:28:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             242 => 
             array (
@@ -12649,6 +14133,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:18',
                 'updated_at' => '2019-01-29 22:28:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             243 => 
             array (
@@ -12666,6 +14152,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:18',
                 'updated_at' => '2019-01-29 22:28:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             244 => 
             array (
@@ -12683,6 +14171,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:18',
                 'updated_at' => '2019-01-29 22:28:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             245 => 
             array (
@@ -12700,6 +14190,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:18',
                 'updated_at' => '2019-01-29 22:28:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             246 => 
             array (
@@ -12717,6 +14209,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:18',
                 'updated_at' => '2019-01-29 22:28:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             247 => 
             array (
@@ -12734,6 +14228,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:18',
                 'updated_at' => '2019-01-29 22:28:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             248 => 
             array (
@@ -12751,6 +14247,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:19',
                 'updated_at' => '2019-01-29 22:28:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             249 => 
             array (
@@ -12768,6 +14266,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:19',
                 'updated_at' => '2019-01-29 22:28:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             250 => 
             array (
@@ -12785,6 +14285,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:19',
                 'updated_at' => '2019-01-29 22:28:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             251 => 
             array (
@@ -12802,6 +14304,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:19',
                 'updated_at' => '2019-01-29 22:28:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             252 => 
             array (
@@ -12819,6 +14323,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:20',
                 'updated_at' => '2019-01-29 22:28:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             253 => 
             array (
@@ -12836,6 +14342,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:20',
                 'updated_at' => '2019-01-29 22:28:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             254 => 
             array (
@@ -12853,6 +14361,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:20',
                 'updated_at' => '2019-01-29 22:28:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             255 => 
             array (
@@ -12870,6 +14380,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:20',
                 'updated_at' => '2019-01-29 22:28:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             256 => 
             array (
@@ -12887,6 +14399,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:20',
                 'updated_at' => '2019-01-29 22:28:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             257 => 
             array (
@@ -12904,6 +14418,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:21',
                 'updated_at' => '2019-01-29 22:28:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             258 => 
             array (
@@ -12921,6 +14437,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:21',
                 'updated_at' => '2019-01-29 22:28:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             259 => 
             array (
@@ -12938,6 +14456,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:21',
                 'updated_at' => '2019-01-29 22:28:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             260 => 
             array (
@@ -12955,6 +14475,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:21',
                 'updated_at' => '2019-01-29 22:28:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             261 => 
             array (
@@ -12972,6 +14494,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:21',
                 'updated_at' => '2019-01-29 22:28:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             262 => 
             array (
@@ -12989,6 +14513,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:21',
                 'updated_at' => '2019-01-29 22:28:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             263 => 
             array (
@@ -13006,6 +14532,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:22',
                 'updated_at' => '2019-01-29 22:28:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             264 => 
             array (
@@ -13023,6 +14551,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:22',
                 'updated_at' => '2019-01-29 22:28:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             265 => 
             array (
@@ -13040,6 +14570,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:22',
                 'updated_at' => '2019-01-29 22:28:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             266 => 
             array (
@@ -13057,6 +14589,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:22',
                 'updated_at' => '2019-01-29 22:28:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             267 => 
             array (
@@ -13074,6 +14608,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:22',
                 'updated_at' => '2019-01-29 22:28:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             268 => 
             array (
@@ -13091,6 +14627,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:23',
                 'updated_at' => '2019-01-29 22:28:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             269 => 
             array (
@@ -13108,6 +14646,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:23',
                 'updated_at' => '2019-01-29 22:28:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             270 => 
             array (
@@ -13125,6 +14665,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:23',
                 'updated_at' => '2019-01-29 22:28:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             271 => 
             array (
@@ -13142,6 +14684,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:23',
                 'updated_at' => '2019-01-29 22:28:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             272 => 
             array (
@@ -13159,6 +14703,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:23',
                 'updated_at' => '2019-01-29 22:28:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             273 => 
             array (
@@ -13176,6 +14722,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:23',
                 'updated_at' => '2019-01-29 22:28:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             274 => 
             array (
@@ -13193,6 +14741,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:23',
                 'updated_at' => '2019-01-29 22:28:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             275 => 
             array (
@@ -13210,6 +14760,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:24',
                 'updated_at' => '2019-01-29 22:28:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             276 => 
             array (
@@ -13227,6 +14779,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:24',
                 'updated_at' => '2019-01-29 22:28:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             277 => 
             array (
@@ -13244,6 +14798,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:24',
                 'updated_at' => '2019-01-29 22:28:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             278 => 
             array (
@@ -13261,6 +14817,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:24',
                 'updated_at' => '2019-01-29 22:28:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             279 => 
             array (
@@ -13278,6 +14836,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:24',
                 'updated_at' => '2019-01-29 22:28:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             280 => 
             array (
@@ -13295,6 +14855,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:25',
                 'updated_at' => '2019-01-29 22:28:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             281 => 
             array (
@@ -13312,6 +14874,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:25',
                 'updated_at' => '2019-01-29 22:28:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             282 => 
             array (
@@ -13329,6 +14893,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:25',
                 'updated_at' => '2019-01-29 22:28:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             283 => 
             array (
@@ -13346,6 +14912,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:25',
                 'updated_at' => '2019-01-29 22:28:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             284 => 
             array (
@@ -13363,6 +14931,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:25',
                 'updated_at' => '2019-01-29 22:28:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             285 => 
             array (
@@ -13380,6 +14950,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:25',
                 'updated_at' => '2019-01-29 22:28:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             286 => 
             array (
@@ -13397,6 +14969,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:26',
                 'updated_at' => '2019-01-29 22:28:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             287 => 
             array (
@@ -13414,6 +14988,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:26',
                 'updated_at' => '2019-01-29 22:28:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             288 => 
             array (
@@ -13431,6 +15007,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:26',
                 'updated_at' => '2019-01-29 22:28:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             289 => 
             array (
@@ -13448,6 +15026,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:26',
                 'updated_at' => '2019-01-29 22:28:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             290 => 
             array (
@@ -13465,6 +15045,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:27',
                 'updated_at' => '2019-01-29 22:28:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             291 => 
             array (
@@ -13482,6 +15064,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:27',
                 'updated_at' => '2019-01-29 22:28:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             292 => 
             array (
@@ -13499,6 +15083,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:27',
                 'updated_at' => '2019-01-29 22:28:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             293 => 
             array (
@@ -13516,6 +15102,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:27',
                 'updated_at' => '2019-01-29 22:28:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             294 => 
             array (
@@ -13533,6 +15121,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:27',
                 'updated_at' => '2019-01-29 22:28:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             295 => 
             array (
@@ -13550,6 +15140,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:28',
                 'updated_at' => '2019-01-29 22:28:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             296 => 
             array (
@@ -13567,6 +15159,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:28',
                 'updated_at' => '2019-01-29 22:28:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             297 => 
             array (
@@ -13584,6 +15178,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:28',
                 'updated_at' => '2019-01-29 22:28:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             298 => 
             array (
@@ -13601,6 +15197,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:28',
                 'updated_at' => '2019-01-29 22:28:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             299 => 
             array (
@@ -13618,6 +15216,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:28',
                 'updated_at' => '2019-01-29 22:28:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             300 => 
             array (
@@ -13635,6 +15235,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:29',
                 'updated_at' => '2019-01-29 22:28:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             301 => 
             array (
@@ -13652,6 +15254,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:29',
                 'updated_at' => '2019-01-29 22:28:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             302 => 
             array (
@@ -13669,6 +15273,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:29',
                 'updated_at' => '2019-01-29 22:28:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             303 => 
             array (
@@ -13686,6 +15292,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:29',
                 'updated_at' => '2019-01-29 22:28:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             304 => 
             array (
@@ -13703,6 +15311,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:30',
                 'updated_at' => '2019-01-29 22:28:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             305 => 
             array (
@@ -13720,6 +15330,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:30',
                 'updated_at' => '2019-01-29 22:28:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             306 => 
             array (
@@ -13737,6 +15349,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:30',
                 'updated_at' => '2019-01-29 22:28:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             307 => 
             array (
@@ -13754,6 +15368,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:30',
                 'updated_at' => '2019-01-29 22:28:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             308 => 
             array (
@@ -13771,6 +15387,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:30',
                 'updated_at' => '2019-01-29 22:28:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             309 => 
             array (
@@ -13788,6 +15406,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:30',
                 'updated_at' => '2019-01-29 22:28:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             310 => 
             array (
@@ -13805,6 +15425,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:31',
                 'updated_at' => '2019-01-29 22:28:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             311 => 
             array (
@@ -13822,6 +15444,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:31',
                 'updated_at' => '2019-01-29 22:28:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             312 => 
             array (
@@ -13839,6 +15463,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:31',
                 'updated_at' => '2019-01-29 22:28:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             313 => 
             array (
@@ -13856,6 +15482,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:31',
                 'updated_at' => '2019-01-29 22:28:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             314 => 
             array (
@@ -13873,6 +15501,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:31',
                 'updated_at' => '2019-01-29 22:28:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             315 => 
             array (
@@ -13890,6 +15520,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             316 => 
             array (
@@ -13907,6 +15539,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             317 => 
             array (
@@ -13924,6 +15558,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             318 => 
             array (
@@ -13941,6 +15577,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             319 => 
             array (
@@ -13958,6 +15596,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             320 => 
             array (
@@ -13975,6 +15615,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             321 => 
             array (
@@ -13992,6 +15634,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:32',
                 'updated_at' => '2019-01-29 22:28:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             322 => 
             array (
@@ -14009,6 +15653,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:33',
                 'updated_at' => '2019-01-29 22:28:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             323 => 
             array (
@@ -14026,6 +15672,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:33',
                 'updated_at' => '2019-01-29 22:28:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             324 => 
             array (
@@ -14043,6 +15691,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:33',
                 'updated_at' => '2019-01-29 22:28:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             325 => 
             array (
@@ -14060,6 +15710,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:33',
                 'updated_at' => '2019-01-29 22:28:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             326 => 
             array (
@@ -14077,6 +15729,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:33',
                 'updated_at' => '2019-01-29 22:28:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             327 => 
             array (
@@ -14094,6 +15748,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:34',
                 'updated_at' => '2019-01-29 22:28:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             328 => 
             array (
@@ -14111,6 +15767,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:34',
                 'updated_at' => '2019-01-29 22:28:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             329 => 
             array (
@@ -14128,6 +15786,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:35',
                 'updated_at' => '2019-01-29 22:28:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             330 => 
             array (
@@ -14145,6 +15805,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:35',
                 'updated_at' => '2019-01-29 22:28:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             331 => 
             array (
@@ -14162,6 +15824,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:35',
                 'updated_at' => '2019-01-29 22:28:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             332 => 
             array (
@@ -14179,6 +15843,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:35',
                 'updated_at' => '2019-01-29 22:28:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             333 => 
             array (
@@ -14196,6 +15862,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:35',
                 'updated_at' => '2019-01-29 22:28:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             334 => 
             array (
@@ -14213,6 +15881,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:36',
                 'updated_at' => '2019-01-29 22:28:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             335 => 
             array (
@@ -14230,6 +15900,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:36',
                 'updated_at' => '2019-01-29 22:28:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             336 => 
             array (
@@ -14247,6 +15919,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:36',
                 'updated_at' => '2019-01-29 22:28:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             337 => 
             array (
@@ -14264,6 +15938,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:37',
                 'updated_at' => '2019-01-29 22:28:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             338 => 
             array (
@@ -14281,6 +15957,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:37',
                 'updated_at' => '2019-01-29 22:28:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             339 => 
             array (
@@ -14298,6 +15976,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:37',
                 'updated_at' => '2019-01-29 22:28:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             340 => 
             array (
@@ -14315,6 +15995,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:37',
                 'updated_at' => '2019-01-29 22:28:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             341 => 
             array (
@@ -14332,6 +16014,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:37',
                 'updated_at' => '2019-01-29 22:28:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             342 => 
             array (
@@ -14349,6 +16033,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:37',
                 'updated_at' => '2019-01-29 22:28:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             343 => 
             array (
@@ -14366,6 +16052,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:37',
                 'updated_at' => '2019-01-29 22:28:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             344 => 
             array (
@@ -14383,6 +16071,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:38',
                 'updated_at' => '2019-01-29 22:28:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             345 => 
             array (
@@ -14400,6 +16090,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:38',
                 'updated_at' => '2019-01-29 22:28:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             346 => 
             array (
@@ -14417,6 +16109,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:38',
                 'updated_at' => '2019-01-29 22:28:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             347 => 
             array (
@@ -14434,6 +16128,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:39',
                 'updated_at' => '2019-01-29 22:28:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             348 => 
             array (
@@ -14451,6 +16147,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:39',
                 'updated_at' => '2019-01-29 22:28:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             349 => 
             array (
@@ -14468,6 +16166,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:39',
                 'updated_at' => '2019-01-29 22:28:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             350 => 
             array (
@@ -14485,6 +16185,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:39',
                 'updated_at' => '2019-01-29 22:28:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             351 => 
             array (
@@ -14502,6 +16204,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:39',
                 'updated_at' => '2019-01-29 22:28:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             352 => 
             array (
@@ -14519,6 +16223,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:40',
                 'updated_at' => '2019-01-29 22:28:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             353 => 
             array (
@@ -14536,6 +16242,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:40',
                 'updated_at' => '2019-01-29 22:28:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             354 => 
             array (
@@ -14553,6 +16261,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:40',
                 'updated_at' => '2019-01-29 22:28:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             355 => 
             array (
@@ -14570,6 +16280,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:40',
                 'updated_at' => '2019-01-29 22:28:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             356 => 
             array (
@@ -14587,6 +16299,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:40',
                 'updated_at' => '2019-01-29 22:28:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             357 => 
             array (
@@ -14604,6 +16318,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:40',
                 'updated_at' => '2019-01-29 22:28:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             358 => 
             array (
@@ -14621,6 +16337,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:41',
                 'updated_at' => '2019-01-29 22:28:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             359 => 
             array (
@@ -14638,6 +16356,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:41',
                 'updated_at' => '2019-01-29 22:28:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             360 => 
             array (
@@ -14655,6 +16375,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:41',
                 'updated_at' => '2019-01-29 22:28:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             361 => 
             array (
@@ -14672,6 +16394,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:41',
                 'updated_at' => '2019-01-29 22:28:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             362 => 
             array (
@@ -14689,6 +16413,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:41',
                 'updated_at' => '2019-01-29 22:28:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             363 => 
             array (
@@ -14706,6 +16432,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:41',
                 'updated_at' => '2019-01-29 22:28:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             364 => 
             array (
@@ -14723,6 +16451,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             365 => 
             array (
@@ -14740,6 +16470,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             366 => 
             array (
@@ -14757,6 +16489,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             367 => 
             array (
@@ -14774,6 +16508,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             368 => 
             array (
@@ -14791,6 +16527,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             369 => 
             array (
@@ -14808,6 +16546,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             370 => 
             array (
@@ -14825,6 +16565,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:42',
                 'updated_at' => '2019-01-29 22:28:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             371 => 
             array (
@@ -14842,6 +16584,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             372 => 
             array (
@@ -14859,6 +16603,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             373 => 
             array (
@@ -14876,6 +16622,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             374 => 
             array (
@@ -14893,6 +16641,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             375 => 
             array (
@@ -14910,6 +16660,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             376 => 
             array (
@@ -14927,6 +16679,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             377 => 
             array (
@@ -14944,6 +16698,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:43',
                 'updated_at' => '2019-01-29 22:28:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             378 => 
             array (
@@ -14961,6 +16717,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             379 => 
             array (
@@ -14978,6 +16736,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             380 => 
             array (
@@ -14995,6 +16755,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             381 => 
             array (
@@ -15012,6 +16774,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             382 => 
             array (
@@ -15029,6 +16793,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             383 => 
             array (
@@ -15046,6 +16812,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             384 => 
             array (
@@ -15063,6 +16831,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:44',
                 'updated_at' => '2019-01-29 22:28:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             385 => 
             array (
@@ -15080,6 +16850,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             386 => 
             array (
@@ -15097,6 +16869,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             387 => 
             array (
@@ -15114,6 +16888,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             388 => 
             array (
@@ -15131,6 +16907,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             389 => 
             array (
@@ -15148,6 +16926,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             390 => 
             array (
@@ -15165,6 +16945,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             391 => 
             array (
@@ -15182,6 +16964,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             392 => 
             array (
@@ -15199,6 +16983,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:45',
                 'updated_at' => '2019-01-29 22:28:45',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             393 => 
             array (
@@ -15216,6 +17002,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:46',
                 'updated_at' => '2019-01-29 22:28:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             394 => 
             array (
@@ -15233,6 +17021,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:46',
                 'updated_at' => '2019-01-29 22:28:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             395 => 
             array (
@@ -15250,6 +17040,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:46',
                 'updated_at' => '2019-01-29 22:28:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             396 => 
             array (
@@ -15267,6 +17059,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:46',
                 'updated_at' => '2019-01-29 22:28:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             397 => 
             array (
@@ -15284,6 +17078,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:46',
                 'updated_at' => '2019-01-29 22:28:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             398 => 
             array (
@@ -15301,6 +17097,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:47',
                 'updated_at' => '2019-01-29 22:28:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             399 => 
             array (
@@ -15318,6 +17116,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:47',
                 'updated_at' => '2019-01-29 22:28:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             400 => 
             array (
@@ -15335,6 +17135,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:47',
                 'updated_at' => '2019-01-29 22:28:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             401 => 
             array (
@@ -15352,6 +17154,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:47',
                 'updated_at' => '2019-01-29 22:28:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             402 => 
             array (
@@ -15369,6 +17173,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:47',
                 'updated_at' => '2019-01-29 22:28:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             403 => 
             array (
@@ -15386,6 +17192,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             404 => 
             array (
@@ -15403,6 +17211,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             405 => 
             array (
@@ -15420,6 +17230,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             406 => 
             array (
@@ -15437,6 +17249,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             407 => 
             array (
@@ -15454,6 +17268,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             408 => 
             array (
@@ -15471,6 +17287,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             409 => 
             array (
@@ -15488,6 +17306,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             410 => 
             array (
@@ -15505,6 +17325,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             411 => 
             array (
@@ -15522,6 +17344,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:48',
                 'updated_at' => '2019-01-29 22:28:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             412 => 
             array (
@@ -15539,6 +17363,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             413 => 
             array (
@@ -15556,6 +17382,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             414 => 
             array (
@@ -15573,6 +17401,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             415 => 
             array (
@@ -15590,6 +17420,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             416 => 
             array (
@@ -15607,6 +17439,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             417 => 
             array (
@@ -15624,6 +17458,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             418 => 
             array (
@@ -15641,6 +17477,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:49',
                 'updated_at' => '2019-01-29 22:28:49',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             419 => 
             array (
@@ -15658,6 +17496,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:50',
                 'updated_at' => '2019-01-29 22:28:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             420 => 
             array (
@@ -15675,6 +17515,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:50',
                 'updated_at' => '2019-01-29 22:28:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             421 => 
             array (
@@ -15692,6 +17534,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:50',
                 'updated_at' => '2019-01-29 22:28:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             422 => 
             array (
@@ -15709,6 +17553,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:50',
                 'updated_at' => '2019-01-29 22:28:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             423 => 
             array (
@@ -15726,6 +17572,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:51',
                 'updated_at' => '2019-01-29 22:28:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             424 => 
             array (
@@ -15743,6 +17591,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:51',
                 'updated_at' => '2019-01-29 22:28:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             425 => 
             array (
@@ -15760,6 +17610,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:51',
                 'updated_at' => '2019-01-29 22:28:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             426 => 
             array (
@@ -15777,6 +17629,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:51',
                 'updated_at' => '2019-01-29 22:28:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             427 => 
             array (
@@ -15794,6 +17648,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:51',
                 'updated_at' => '2019-01-29 22:28:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             428 => 
             array (
@@ -15811,6 +17667,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:51',
                 'updated_at' => '2019-01-29 22:28:51',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             429 => 
             array (
@@ -15828,6 +17686,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:52',
                 'updated_at' => '2019-01-29 22:28:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             430 => 
             array (
@@ -15845,6 +17705,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:52',
                 'updated_at' => '2019-01-29 22:28:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             431 => 
             array (
@@ -15862,6 +17724,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:52',
                 'updated_at' => '2019-01-29 22:28:52',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             432 => 
             array (
@@ -15879,6 +17743,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             433 => 
             array (
@@ -15896,6 +17762,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             434 => 
             array (
@@ -15913,6 +17781,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             435 => 
             array (
@@ -15930,6 +17800,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             436 => 
             array (
@@ -15947,6 +17819,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             437 => 
             array (
@@ -15964,6 +17838,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             438 => 
             array (
@@ -15981,6 +17857,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             439 => 
             array (
@@ -15998,6 +17876,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             440 => 
             array (
@@ -16015,6 +17895,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:53',
                 'updated_at' => '2019-01-29 22:28:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             441 => 
             array (
@@ -16032,6 +17914,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             442 => 
             array (
@@ -16049,6 +17933,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             443 => 
             array (
@@ -16066,6 +17952,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             444 => 
             array (
@@ -16083,6 +17971,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             445 => 
             array (
@@ -16100,6 +17990,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             446 => 
             array (
@@ -16117,6 +18009,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             447 => 
             array (
@@ -16134,6 +18028,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             448 => 
             array (
@@ -16151,6 +18047,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:54',
                 'updated_at' => '2019-01-29 22:28:54',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             449 => 
             array (
@@ -16168,6 +18066,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:55',
                 'updated_at' => '2019-01-29 22:28:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             450 => 
             array (
@@ -16185,6 +18085,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:55',
                 'updated_at' => '2019-01-29 22:28:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             451 => 
             array (
@@ -16202,6 +18104,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:55',
                 'updated_at' => '2019-01-29 22:28:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             452 => 
             array (
@@ -16219,6 +18123,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:55',
                 'updated_at' => '2019-01-29 22:28:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             453 => 
             array (
@@ -16236,6 +18142,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:55',
                 'updated_at' => '2019-01-29 22:28:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             454 => 
             array (
@@ -16253,6 +18161,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:55',
                 'updated_at' => '2019-01-29 22:28:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             455 => 
             array (
@@ -16270,6 +18180,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:56',
                 'updated_at' => '2019-01-29 22:28:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             456 => 
             array (
@@ -16287,6 +18199,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:56',
                 'updated_at' => '2019-01-29 22:28:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             457 => 
             array (
@@ -16304,6 +18218,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:56',
                 'updated_at' => '2019-01-29 22:28:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             458 => 
             array (
@@ -16321,6 +18237,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:56',
                 'updated_at' => '2019-01-29 22:28:56',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             459 => 
             array (
@@ -16338,6 +18256,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             460 => 
             array (
@@ -16355,6 +18275,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             461 => 
             array (
@@ -16372,6 +18294,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             462 => 
             array (
@@ -16389,6 +18313,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             463 => 
             array (
@@ -16406,6 +18332,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             464 => 
             array (
@@ -16423,6 +18351,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             465 => 
             array (
@@ -16440,6 +18370,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             466 => 
             array (
@@ -16457,6 +18389,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             467 => 
             array (
@@ -16474,6 +18408,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             468 => 
             array (
@@ -16491,6 +18427,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:57',
                 'updated_at' => '2019-01-29 22:28:57',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             469 => 
             array (
@@ -16508,6 +18446,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             470 => 
             array (
@@ -16525,6 +18465,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             471 => 
             array (
@@ -16542,6 +18484,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             472 => 
             array (
@@ -16559,6 +18503,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             473 => 
             array (
@@ -16576,6 +18522,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             474 => 
             array (
@@ -16593,6 +18541,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             475 => 
             array (
@@ -16610,6 +18560,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:58',
                 'updated_at' => '2019-01-29 22:28:58',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             476 => 
             array (
@@ -16627,6 +18579,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:59',
                 'updated_at' => '2019-01-29 22:28:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             477 => 
             array (
@@ -16644,6 +18598,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:59',
                 'updated_at' => '2019-01-29 22:28:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             478 => 
             array (
@@ -16661,6 +18617,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:59',
                 'updated_at' => '2019-01-29 22:28:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             479 => 
             array (
@@ -16678,6 +18636,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:59',
                 'updated_at' => '2019-01-29 22:28:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             480 => 
             array (
@@ -16695,6 +18655,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:59',
                 'updated_at' => '2019-01-29 22:28:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             481 => 
             array (
@@ -16712,6 +18674,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:28:59',
                 'updated_at' => '2019-01-29 22:28:59',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             482 => 
             array (
@@ -16729,6 +18693,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             483 => 
             array (
@@ -16746,6 +18712,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             484 => 
             array (
@@ -16763,6 +18731,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             485 => 
             array (
@@ -16780,6 +18750,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             486 => 
             array (
@@ -16797,6 +18769,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             487 => 
             array (
@@ -16814,6 +18788,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             488 => 
             array (
@@ -16831,6 +18807,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             489 => 
             array (
@@ -16848,6 +18826,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:00',
                 'updated_at' => '2019-01-29 22:29:00',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             490 => 
             array (
@@ -16865,6 +18845,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:01',
                 'updated_at' => '2019-01-29 22:29:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             491 => 
             array (
@@ -16882,6 +18864,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:01',
                 'updated_at' => '2019-01-29 22:29:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             492 => 
             array (
@@ -16899,6 +18883,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:01',
                 'updated_at' => '2019-01-29 22:29:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             493 => 
             array (
@@ -16916,6 +18902,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:01',
                 'updated_at' => '2019-01-29 22:29:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             494 => 
             array (
@@ -16933,6 +18921,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:01',
                 'updated_at' => '2019-01-29 22:29:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             495 => 
             array (
@@ -16950,6 +18940,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:01',
                 'updated_at' => '2019-01-29 22:29:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             496 => 
             array (
@@ -16967,6 +18959,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             497 => 
             array (
@@ -16984,6 +18978,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             498 => 
             array (
@@ -17001,6 +18997,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             499 => 
             array (
@@ -17018,6 +19016,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
         ));
         \DB::table('victima')->insert(array (
@@ -17037,6 +19037,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             1 => 
             array (
@@ -17054,6 +19056,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             2 => 
             array (
@@ -17071,6 +19075,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:02',
                 'updated_at' => '2019-01-29 22:29:02',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             3 => 
             array (
@@ -17088,6 +19094,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             4 => 
             array (
@@ -17105,6 +19113,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             5 => 
             array (
@@ -17122,6 +19132,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             6 => 
             array (
@@ -17139,6 +19151,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             7 => 
             array (
@@ -17156,6 +19170,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             8 => 
             array (
@@ -17173,6 +19189,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             9 => 
             array (
@@ -17190,6 +19208,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             10 => 
             array (
@@ -17207,6 +19227,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:03',
                 'updated_at' => '2019-01-29 22:29:03',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             11 => 
             array (
@@ -17224,6 +19246,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             12 => 
             array (
@@ -17241,6 +19265,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             13 => 
             array (
@@ -17258,6 +19284,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             14 => 
             array (
@@ -17275,6 +19303,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             15 => 
             array (
@@ -17292,6 +19322,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             16 => 
             array (
@@ -17309,6 +19341,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             17 => 
             array (
@@ -17326,6 +19360,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             18 => 
             array (
@@ -17343,6 +19379,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:04',
                 'updated_at' => '2019-01-29 22:29:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             19 => 
             array (
@@ -17360,6 +19398,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             20 => 
             array (
@@ -17377,6 +19417,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             21 => 
             array (
@@ -17394,6 +19436,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             22 => 
             array (
@@ -17411,6 +19455,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             23 => 
             array (
@@ -17428,6 +19474,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             24 => 
             array (
@@ -17445,6 +19493,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             25 => 
             array (
@@ -17462,6 +19512,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             26 => 
             array (
@@ -17479,6 +19531,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             27 => 
             array (
@@ -17496,6 +19550,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:05',
                 'updated_at' => '2019-01-29 22:29:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             28 => 
             array (
@@ -17513,6 +19569,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:06',
                 'updated_at' => '2019-01-29 22:29:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             29 => 
             array (
@@ -17530,6 +19588,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:06',
                 'updated_at' => '2019-01-29 22:29:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             30 => 
             array (
@@ -17547,6 +19607,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:06',
                 'updated_at' => '2019-01-29 22:29:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             31 => 
             array (
@@ -17564,6 +19626,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:06',
                 'updated_at' => '2019-01-29 22:29:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             32 => 
             array (
@@ -17581,6 +19645,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:06',
                 'updated_at' => '2019-01-29 22:29:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             33 => 
             array (
@@ -17598,6 +19664,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:07',
                 'updated_at' => '2019-01-29 22:29:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             34 => 
             array (
@@ -17615,6 +19683,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:07',
                 'updated_at' => '2019-01-29 22:29:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             35 => 
             array (
@@ -17632,6 +19702,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:07',
                 'updated_at' => '2019-01-29 22:29:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             36 => 
             array (
@@ -17649,6 +19721,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:07',
                 'updated_at' => '2019-01-29 22:29:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             37 => 
             array (
@@ -17666,6 +19740,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             38 => 
             array (
@@ -17683,6 +19759,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             39 => 
             array (
@@ -17700,6 +19778,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             40 => 
             array (
@@ -17717,6 +19797,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             41 => 
             array (
@@ -17734,6 +19816,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             42 => 
             array (
@@ -17751,6 +19835,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             43 => 
             array (
@@ -17768,6 +19854,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:08',
                 'updated_at' => '2019-01-29 22:29:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             44 => 
             array (
@@ -17785,6 +19873,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:09',
                 'updated_at' => '2019-01-29 22:29:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             45 => 
             array (
@@ -17802,6 +19892,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:09',
                 'updated_at' => '2019-01-29 22:29:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             46 => 
             array (
@@ -17819,6 +19911,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:09',
                 'updated_at' => '2019-01-29 22:29:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             47 => 
             array (
@@ -17836,6 +19930,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:09',
                 'updated_at' => '2019-01-29 22:29:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             48 => 
             array (
@@ -17853,6 +19949,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:09',
                 'updated_at' => '2019-01-29 22:29:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             49 => 
             array (
@@ -17870,6 +19968,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             50 => 
             array (
@@ -17887,6 +19987,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             51 => 
             array (
@@ -17904,6 +20006,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             52 => 
             array (
@@ -17921,6 +20025,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             53 => 
             array (
@@ -17938,6 +20044,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             54 => 
             array (
@@ -17955,6 +20063,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             55 => 
             array (
@@ -17972,6 +20082,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:10',
                 'updated_at' => '2019-01-29 22:29:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             56 => 
             array (
@@ -17989,6 +20101,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             57 => 
             array (
@@ -18006,6 +20120,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             58 => 
             array (
@@ -18023,6 +20139,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             59 => 
             array (
@@ -18040,6 +20158,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             60 => 
             array (
@@ -18057,6 +20177,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             61 => 
             array (
@@ -18074,6 +20196,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             62 => 
             array (
@@ -18091,6 +20215,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:11',
                 'updated_at' => '2019-01-29 22:29:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             63 => 
             array (
@@ -18108,6 +20234,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:12',
                 'updated_at' => '2019-01-29 22:29:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             64 => 
             array (
@@ -18125,6 +20253,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:12',
                 'updated_at' => '2019-01-29 22:29:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             65 => 
             array (
@@ -18142,6 +20272,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:12',
                 'updated_at' => '2019-01-29 22:29:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             66 => 
             array (
@@ -18159,6 +20291,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:12',
                 'updated_at' => '2019-01-29 22:29:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             67 => 
             array (
@@ -18176,6 +20310,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:12',
                 'updated_at' => '2019-01-29 22:29:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             68 => 
             array (
@@ -18193,6 +20329,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:12',
                 'updated_at' => '2019-01-29 22:29:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             69 => 
             array (
@@ -18210,6 +20348,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:12',
                 'updated_at' => '2019-01-29 22:29:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             70 => 
             array (
@@ -18227,6 +20367,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             71 => 
             array (
@@ -18244,6 +20386,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             72 => 
             array (
@@ -18261,6 +20405,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             73 => 
             array (
@@ -18278,6 +20424,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             74 => 
             array (
@@ -18295,6 +20443,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             75 => 
             array (
@@ -18312,6 +20462,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             76 => 
             array (
@@ -18329,6 +20481,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:13',
                 'updated_at' => '2019-01-29 22:29:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             77 => 
             array (
@@ -18346,6 +20500,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:14',
                 'updated_at' => '2019-01-29 22:29:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             78 => 
             array (
@@ -18363,6 +20519,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:14',
                 'updated_at' => '2019-01-29 22:29:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             79 => 
             array (
@@ -18380,6 +20538,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:14',
                 'updated_at' => '2019-01-29 22:29:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             80 => 
             array (
@@ -18397,6 +20557,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:14',
                 'updated_at' => '2019-01-29 22:29:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             81 => 
             array (
@@ -18414,6 +20576,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:14',
                 'updated_at' => '2019-01-29 22:29:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             82 => 
             array (
@@ -18431,6 +20595,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             83 => 
             array (
@@ -18448,6 +20614,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             84 => 
             array (
@@ -18465,6 +20633,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             85 => 
             array (
@@ -18482,6 +20652,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             86 => 
             array (
@@ -18499,6 +20671,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             87 => 
             array (
@@ -18516,6 +20690,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             88 => 
             array (
@@ -18533,6 +20709,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             89 => 
             array (
@@ -18550,6 +20728,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:15',
                 'updated_at' => '2019-01-29 22:29:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             90 => 
             array (
@@ -18567,6 +20747,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             91 => 
             array (
@@ -18584,6 +20766,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             92 => 
             array (
@@ -18601,6 +20785,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             93 => 
             array (
@@ -18618,6 +20804,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             94 => 
             array (
@@ -18635,6 +20823,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             95 => 
             array (
@@ -18652,6 +20842,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             96 => 
             array (
@@ -18669,6 +20861,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:16',
                 'updated_at' => '2019-01-29 22:29:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             97 => 
             array (
@@ -18686,6 +20880,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             98 => 
             array (
@@ -18703,6 +20899,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             99 => 
             array (
@@ -18720,6 +20918,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             100 => 
             array (
@@ -18737,6 +20937,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             101 => 
             array (
@@ -18754,6 +20956,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             102 => 
             array (
@@ -18771,6 +20975,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             103 => 
             array (
@@ -18788,6 +20994,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             104 => 
             array (
@@ -18805,6 +21013,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             105 => 
             array (
@@ -18822,6 +21032,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:17',
                 'updated_at' => '2019-01-29 22:29:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             106 => 
             array (
@@ -18839,6 +21051,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             107 => 
             array (
@@ -18856,6 +21070,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             108 => 
             array (
@@ -18873,6 +21089,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             109 => 
             array (
@@ -18890,6 +21108,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             110 => 
             array (
@@ -18907,6 +21127,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             111 => 
             array (
@@ -18924,6 +21146,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:18',
                 'updated_at' => '2019-01-29 22:29:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             112 => 
             array (
@@ -18941,6 +21165,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             113 => 
             array (
@@ -18958,6 +21184,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             114 => 
             array (
@@ -18975,6 +21203,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             115 => 
             array (
@@ -18992,6 +21222,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             116 => 
             array (
@@ -19009,6 +21241,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             117 => 
             array (
@@ -19026,6 +21260,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             118 => 
             array (
@@ -19043,6 +21279,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:19',
                 'updated_at' => '2019-01-29 22:29:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             119 => 
             array (
@@ -19060,6 +21298,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             120 => 
             array (
@@ -19077,6 +21317,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             121 => 
             array (
@@ -19094,6 +21336,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             122 => 
             array (
@@ -19111,6 +21355,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             123 => 
             array (
@@ -19128,6 +21374,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             124 => 
             array (
@@ -19145,6 +21393,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             125 => 
             array (
@@ -19162,6 +21412,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:20',
                 'updated_at' => '2019-01-29 22:29:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             126 => 
             array (
@@ -19179,6 +21431,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:21',
                 'updated_at' => '2019-01-29 22:29:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             127 => 
             array (
@@ -19196,6 +21450,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:21',
                 'updated_at' => '2019-01-29 22:29:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             128 => 
             array (
@@ -19213,6 +21469,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:21',
                 'updated_at' => '2019-01-29 22:29:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             129 => 
             array (
@@ -19230,6 +21488,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:21',
                 'updated_at' => '2019-01-29 22:29:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             130 => 
             array (
@@ -19247,6 +21507,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:21',
                 'updated_at' => '2019-01-29 22:29:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             131 => 
             array (
@@ -19264,6 +21526,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:22',
                 'updated_at' => '2019-01-29 22:29:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             132 => 
             array (
@@ -19281,6 +21545,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:22',
                 'updated_at' => '2019-01-29 22:29:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             133 => 
             array (
@@ -19298,6 +21564,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:22',
                 'updated_at' => '2019-01-29 22:29:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             134 => 
             array (
@@ -19315,6 +21583,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:22',
                 'updated_at' => '2019-01-29 22:29:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             135 => 
             array (
@@ -19332,6 +21602,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:22',
                 'updated_at' => '2019-01-29 22:29:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             136 => 
             array (
@@ -19349,6 +21621,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:22',
                 'updated_at' => '2019-01-29 22:29:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             137 => 
             array (
@@ -19366,6 +21640,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:22',
                 'updated_at' => '2019-01-29 22:29:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             138 => 
             array (
@@ -19383,6 +21659,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             139 => 
             array (
@@ -19400,6 +21678,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             140 => 
             array (
@@ -19417,6 +21697,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             141 => 
             array (
@@ -19434,6 +21716,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             142 => 
             array (
@@ -19451,6 +21735,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             143 => 
             array (
@@ -19468,6 +21754,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             144 => 
             array (
@@ -19485,6 +21773,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             145 => 
             array (
@@ -19502,6 +21792,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:23',
                 'updated_at' => '2019-01-29 22:29:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             146 => 
             array (
@@ -19519,6 +21811,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:24',
                 'updated_at' => '2019-01-29 22:29:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             147 => 
             array (
@@ -19536,6 +21830,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:24',
                 'updated_at' => '2019-01-29 22:29:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             148 => 
             array (
@@ -19553,6 +21849,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:24',
                 'updated_at' => '2019-01-29 22:29:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             149 => 
             array (
@@ -19570,6 +21868,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:24',
                 'updated_at' => '2019-01-29 22:29:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             150 => 
             array (
@@ -19587,6 +21887,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:24',
                 'updated_at' => '2019-01-29 22:29:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             151 => 
             array (
@@ -19604,6 +21906,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:25',
                 'updated_at' => '2019-01-29 22:29:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             152 => 
             array (
@@ -19621,6 +21925,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:25',
                 'updated_at' => '2019-01-29 22:29:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             153 => 
             array (
@@ -19638,6 +21944,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:25',
                 'updated_at' => '2019-01-29 22:29:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             154 => 
             array (
@@ -19655,6 +21963,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:25',
                 'updated_at' => '2019-01-29 22:29:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             155 => 
             array (
@@ -19672,6 +21982,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             156 => 
             array (
@@ -19689,6 +22001,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             157 => 
             array (
@@ -19706,6 +22020,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             158 => 
             array (
@@ -19723,6 +22039,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             159 => 
             array (
@@ -19740,6 +22058,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             160 => 
             array (
@@ -19757,6 +22077,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             161 => 
             array (
@@ -19774,6 +22096,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             162 => 
             array (
@@ -19791,6 +22115,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             163 => 
             array (
@@ -19808,6 +22134,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             164 => 
             array (
@@ -19825,6 +22153,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:26',
                 'updated_at' => '2019-01-29 22:29:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             165 => 
             array (
@@ -19842,6 +22172,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:27',
                 'updated_at' => '2019-01-29 22:29:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             166 => 
             array (
@@ -19859,6 +22191,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:27',
                 'updated_at' => '2019-01-29 22:29:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             167 => 
             array (
@@ -19876,6 +22210,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:27',
                 'updated_at' => '2019-01-29 22:29:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             168 => 
             array (
@@ -19893,6 +22229,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             169 => 
             array (
@@ -19910,6 +22248,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             170 => 
             array (
@@ -19927,6 +22267,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             171 => 
             array (
@@ -19944,6 +22286,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             172 => 
             array (
@@ -19961,6 +22305,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             173 => 
             array (
@@ -19978,6 +22324,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             174 => 
             array (
@@ -19995,6 +22343,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             175 => 
             array (
@@ -20012,6 +22362,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:28',
                 'updated_at' => '2019-01-29 22:29:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             176 => 
             array (
@@ -20029,6 +22381,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             177 => 
             array (
@@ -20046,6 +22400,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             178 => 
             array (
@@ -20063,6 +22419,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             179 => 
             array (
@@ -20080,6 +22438,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             180 => 
             array (
@@ -20097,6 +22457,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             181 => 
             array (
@@ -20114,6 +22476,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             182 => 
             array (
@@ -20131,6 +22495,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             183 => 
             array (
@@ -20148,6 +22514,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:29',
                 'updated_at' => '2019-01-29 22:29:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             184 => 
             array (
@@ -20165,6 +22533,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:30',
                 'updated_at' => '2019-01-29 22:29:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             185 => 
             array (
@@ -20182,6 +22552,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:30',
                 'updated_at' => '2019-01-29 22:29:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             186 => 
             array (
@@ -20199,6 +22571,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:30',
                 'updated_at' => '2019-01-29 22:29:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             187 => 
             array (
@@ -20216,6 +22590,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:30',
                 'updated_at' => '2019-01-29 22:29:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             188 => 
             array (
@@ -20233,6 +22609,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:30',
                 'updated_at' => '2019-01-29 22:29:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             189 => 
             array (
@@ -20250,6 +22628,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:31',
                 'updated_at' => '2019-01-29 22:29:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             190 => 
             array (
@@ -20267,6 +22647,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:31',
                 'updated_at' => '2019-01-29 22:29:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             191 => 
             array (
@@ -20284,6 +22666,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:31',
                 'updated_at' => '2019-01-29 22:29:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             192 => 
             array (
@@ -20301,6 +22685,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:31',
                 'updated_at' => '2019-01-29 22:29:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             193 => 
             array (
@@ -20318,6 +22704,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:31',
                 'updated_at' => '2019-01-29 22:29:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             194 => 
             array (
@@ -20335,6 +22723,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:31',
                 'updated_at' => '2019-01-29 22:29:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             195 => 
             array (
@@ -20352,6 +22742,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:32',
                 'updated_at' => '2019-01-29 22:29:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             196 => 
             array (
@@ -20369,6 +22761,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:32',
                 'updated_at' => '2019-01-29 22:29:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             197 => 
             array (
@@ -20386,6 +22780,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:32',
                 'updated_at' => '2019-01-29 22:29:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             198 => 
             array (
@@ -20403,6 +22799,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:32',
                 'updated_at' => '2019-01-29 22:29:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             199 => 
             array (
@@ -20420,6 +22818,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:32',
                 'updated_at' => '2019-01-29 22:29:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             200 => 
             array (
@@ -20437,6 +22837,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             201 => 
             array (
@@ -20454,6 +22856,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             202 => 
             array (
@@ -20471,6 +22875,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             203 => 
             array (
@@ -20488,6 +22894,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             204 => 
             array (
@@ -20505,6 +22913,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             205 => 
             array (
@@ -20522,6 +22932,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             206 => 
             array (
@@ -20539,6 +22951,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             207 => 
             array (
@@ -20556,6 +22970,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             208 => 
             array (
@@ -20573,6 +22989,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:33',
                 'updated_at' => '2019-01-29 22:29:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             209 => 
             array (
@@ -20590,6 +23008,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             210 => 
             array (
@@ -20607,6 +23027,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             211 => 
             array (
@@ -20624,6 +23046,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             212 => 
             array (
@@ -20641,6 +23065,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             213 => 
             array (
@@ -20658,6 +23084,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             214 => 
             array (
@@ -20675,6 +23103,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             215 => 
             array (
@@ -20692,6 +23122,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:34',
                 'updated_at' => '2019-01-29 22:29:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             216 => 
             array (
@@ -20709,6 +23141,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:35',
                 'updated_at' => '2019-01-29 22:29:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             217 => 
             array (
@@ -20726,6 +23160,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:35',
                 'updated_at' => '2019-01-29 22:29:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             218 => 
             array (
@@ -20743,6 +23179,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:35',
                 'updated_at' => '2019-01-29 22:29:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             219 => 
             array (
@@ -20760,6 +23198,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:35',
                 'updated_at' => '2019-01-29 22:29:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             220 => 
             array (
@@ -20777,6 +23217,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:35',
                 'updated_at' => '2019-01-29 22:29:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             221 => 
             array (
@@ -20794,6 +23236,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:36',
                 'updated_at' => '2019-01-29 22:29:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             222 => 
             array (
@@ -20811,6 +23255,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:36',
                 'updated_at' => '2019-01-29 22:29:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             223 => 
             array (
@@ -20828,6 +23274,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:36',
                 'updated_at' => '2019-01-29 22:29:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             224 => 
             array (
@@ -20845,6 +23293,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:36',
                 'updated_at' => '2019-01-29 22:29:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             225 => 
             array (
@@ -20862,6 +23312,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:36',
                 'updated_at' => '2019-01-29 22:29:36',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             226 => 
             array (
@@ -20879,6 +23331,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             227 => 
             array (
@@ -20896,6 +23350,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             228 => 
             array (
@@ -20913,6 +23369,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             229 => 
             array (
@@ -20930,6 +23388,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             230 => 
             array (
@@ -20947,6 +23407,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             231 => 
             array (
@@ -20964,6 +23426,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             232 => 
             array (
@@ -20981,6 +23445,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             233 => 
             array (
@@ -20998,6 +23464,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:37',
                 'updated_at' => '2019-01-29 22:29:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             234 => 
             array (
@@ -21015,6 +23483,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:38',
                 'updated_at' => '2019-01-29 22:29:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             235 => 
             array (
@@ -21032,6 +23502,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:38',
                 'updated_at' => '2019-01-29 22:29:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             236 => 
             array (
@@ -21049,6 +23521,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:38',
                 'updated_at' => '2019-01-29 22:29:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             237 => 
             array (
@@ -21066,6 +23540,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:38',
                 'updated_at' => '2019-01-29 22:29:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             238 => 
             array (
@@ -21083,6 +23559,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:38',
                 'updated_at' => '2019-01-29 22:29:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             239 => 
             array (
@@ -21100,6 +23578,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:38',
                 'updated_at' => '2019-01-29 22:29:38',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             240 => 
             array (
@@ -21117,6 +23597,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:39',
                 'updated_at' => '2019-01-29 22:29:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             241 => 
             array (
@@ -21134,6 +23616,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:39',
                 'updated_at' => '2019-01-29 22:29:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             242 => 
             array (
@@ -21151,6 +23635,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:39',
                 'updated_at' => '2019-01-29 22:29:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             243 => 
             array (
@@ -21168,6 +23654,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:39',
                 'updated_at' => '2019-01-29 22:29:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             244 => 
             array (
@@ -21185,6 +23673,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:39',
                 'updated_at' => '2019-01-29 22:29:39',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             245 => 
             array (
@@ -21202,6 +23692,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:40',
                 'updated_at' => '2019-01-29 22:29:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             246 => 
             array (
@@ -21219,6 +23711,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:40',
                 'updated_at' => '2019-01-29 22:29:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             247 => 
             array (
@@ -21236,6 +23730,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:40',
                 'updated_at' => '2019-01-29 22:29:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             248 => 
             array (
@@ -21253,6 +23749,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:40',
                 'updated_at' => '2019-01-29 22:29:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             249 => 
             array (
@@ -21270,6 +23768,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:40',
                 'updated_at' => '2019-01-29 22:29:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             250 => 
             array (
@@ -21287,6 +23787,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:40',
                 'updated_at' => '2019-01-29 22:29:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             251 => 
             array (
@@ -21304,6 +23806,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:40',
                 'updated_at' => '2019-01-29 22:29:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             252 => 
             array (
@@ -21321,6 +23825,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:40',
                 'updated_at' => '2019-01-29 22:29:40',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             253 => 
             array (
@@ -21338,6 +23844,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:41',
                 'updated_at' => '2019-01-29 22:29:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             254 => 
             array (
@@ -21355,6 +23863,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:41',
                 'updated_at' => '2019-01-29 22:29:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             255 => 
             array (
@@ -21372,6 +23882,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:41',
                 'updated_at' => '2019-01-29 22:29:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             256 => 
             array (
@@ -21389,6 +23901,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:41',
                 'updated_at' => '2019-01-29 22:29:41',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             257 => 
             array (
@@ -21406,6 +23920,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             258 => 
             array (
@@ -21423,6 +23939,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             259 => 
             array (
@@ -21440,6 +23958,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             260 => 
             array (
@@ -21457,6 +23977,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             261 => 
             array (
@@ -21474,6 +23996,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             262 => 
             array (
@@ -21491,6 +24015,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             263 => 
             array (
@@ -21508,6 +24034,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:42',
                 'updated_at' => '2019-01-29 22:29:42',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             264 => 
             array (
@@ -21525,6 +24053,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:43',
                 'updated_at' => '2019-01-29 22:29:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             265 => 
             array (
@@ -21542,6 +24072,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:43',
                 'updated_at' => '2019-01-29 22:29:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             266 => 
             array (
@@ -21559,6 +24091,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:43',
                 'updated_at' => '2019-01-29 22:29:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             267 => 
             array (
@@ -21576,6 +24110,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:43',
                 'updated_at' => '2019-01-29 22:29:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             268 => 
             array (
@@ -21593,6 +24129,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:43',
                 'updated_at' => '2019-01-29 22:29:43',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             269 => 
             array (
@@ -21610,6 +24148,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:44',
                 'updated_at' => '2019-01-29 22:29:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             270 => 
             array (
@@ -21627,6 +24167,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:44',
                 'updated_at' => '2019-01-29 22:29:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             271 => 
             array (
@@ -21644,6 +24186,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-01-29 22:29:44',
                 'updated_at' => '2019-01-29 22:29:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             272 => 
             array (
@@ -21661,6 +24205,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             273 => 
             array (
@@ -21678,6 +24224,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             274 => 
             array (
@@ -21695,6 +24243,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             275 => 
             array (
@@ -21712,6 +24262,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             276 => 
             array (
@@ -21729,6 +24281,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             277 => 
             array (
@@ -21746,6 +24300,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             278 => 
             array (
@@ -21763,6 +24319,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             279 => 
             array (
@@ -21780,6 +24338,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             280 => 
             array (
@@ -21797,6 +24357,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             281 => 
             array (
@@ -21814,6 +24376,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             282 => 
             array (
@@ -21831,6 +24395,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             283 => 
             array (
@@ -21848,6 +24414,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             284 => 
             array (
@@ -21865,6 +24433,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             285 => 
             array (
@@ -21882,6 +24452,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             286 => 
             array (
@@ -21899,6 +24471,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             287 => 
             array (
@@ -21916,6 +24490,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             288 => 
             array (
@@ -21933,6 +24509,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             289 => 
             array (
@@ -21950,6 +24528,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             290 => 
             array (
@@ -21967,6 +24547,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             291 => 
             array (
@@ -21984,6 +24566,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             292 => 
             array (
@@ -22001,6 +24585,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             293 => 
             array (
@@ -22018,6 +24604,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             294 => 
             array (
@@ -22035,6 +24623,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:05',
                 'updated_at' => '2019-03-08 06:13:05',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             295 => 
             array (
@@ -22052,6 +24642,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             296 => 
             array (
@@ -22069,6 +24661,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             297 => 
             array (
@@ -22086,6 +24680,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             298 => 
             array (
@@ -22103,6 +24699,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             299 => 
             array (
@@ -22120,6 +24718,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             300 => 
             array (
@@ -22137,6 +24737,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             301 => 
             array (
@@ -22154,6 +24756,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             302 => 
             array (
@@ -22171,6 +24775,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             303 => 
             array (
@@ -22188,6 +24794,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             304 => 
             array (
@@ -22205,6 +24813,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             305 => 
             array (
@@ -22222,6 +24832,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             306 => 
             array (
@@ -22239,6 +24851,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             307 => 
             array (
@@ -22256,6 +24870,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             308 => 
             array (
@@ -22273,6 +24889,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             309 => 
             array (
@@ -22290,6 +24908,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             310 => 
             array (
@@ -22307,6 +24927,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             311 => 
             array (
@@ -22324,6 +24946,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             312 => 
             array (
@@ -22341,6 +24965,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             313 => 
             array (
@@ -22358,6 +24984,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             314 => 
             array (
@@ -22375,6 +25003,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             315 => 
             array (
@@ -22392,6 +25022,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             316 => 
             array (
@@ -22409,6 +25041,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             317 => 
             array (
@@ -22426,6 +25060,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             318 => 
             array (
@@ -22443,6 +25079,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             319 => 
             array (
@@ -22460,6 +25098,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             320 => 
             array (
@@ -22477,6 +25117,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             321 => 
             array (
@@ -22494,6 +25136,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             322 => 
             array (
@@ -22511,6 +25155,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             323 => 
             array (
@@ -22528,6 +25174,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             324 => 
             array (
@@ -22545,6 +25193,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             325 => 
             array (
@@ -22562,6 +25212,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             326 => 
             array (
@@ -22579,6 +25231,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             327 => 
             array (
@@ -22596,6 +25250,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             328 => 
             array (
@@ -22613,6 +25269,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:06',
                 'updated_at' => '2019-03-08 06:13:06',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             329 => 
             array (
@@ -22630,6 +25288,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             330 => 
             array (
@@ -22647,6 +25307,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             331 => 
             array (
@@ -22664,6 +25326,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             332 => 
             array (
@@ -22681,6 +25345,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             333 => 
             array (
@@ -22698,6 +25364,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             334 => 
             array (
@@ -22715,6 +25383,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             335 => 
             array (
@@ -22732,6 +25402,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             336 => 
             array (
@@ -22749,6 +25421,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             337 => 
             array (
@@ -22766,6 +25440,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             338 => 
             array (
@@ -22783,6 +25459,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             339 => 
             array (
@@ -22800,6 +25478,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             340 => 
             array (
@@ -22817,6 +25497,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             341 => 
             array (
@@ -22834,6 +25516,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             342 => 
             array (
@@ -22851,6 +25535,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             343 => 
             array (
@@ -22868,6 +25554,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             344 => 
             array (
@@ -22885,6 +25573,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             345 => 
             array (
@@ -22902,6 +25592,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             346 => 
             array (
@@ -22919,6 +25611,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             347 => 
             array (
@@ -22936,6 +25630,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             348 => 
             array (
@@ -22953,6 +25649,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             349 => 
             array (
@@ -22970,6 +25668,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             350 => 
             array (
@@ -22987,6 +25687,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             351 => 
             array (
@@ -23004,6 +25706,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             352 => 
             array (
@@ -23021,6 +25725,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             353 => 
             array (
@@ -23038,6 +25744,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             354 => 
             array (
@@ -23055,6 +25763,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             355 => 
             array (
@@ -23072,6 +25782,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             356 => 
             array (
@@ -23089,6 +25801,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             357 => 
             array (
@@ -23106,6 +25820,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             358 => 
             array (
@@ -23123,6 +25839,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             359 => 
             array (
@@ -23140,6 +25858,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             360 => 
             array (
@@ -23157,6 +25877,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             361 => 
             array (
@@ -23174,6 +25896,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:07',
                 'updated_at' => '2019-03-08 06:13:07',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             362 => 
             array (
@@ -23191,6 +25915,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             363 => 
             array (
@@ -23208,6 +25934,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             364 => 
             array (
@@ -23225,6 +25953,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             365 => 
             array (
@@ -23242,6 +25972,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             366 => 
             array (
@@ -23259,6 +25991,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             367 => 
             array (
@@ -23276,6 +26010,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             368 => 
             array (
@@ -23293,6 +26029,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             369 => 
             array (
@@ -23310,6 +26048,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             370 => 
             array (
@@ -23327,6 +26067,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             371 => 
             array (
@@ -23344,6 +26086,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             372 => 
             array (
@@ -23361,6 +26105,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             373 => 
             array (
@@ -23378,6 +26124,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             374 => 
             array (
@@ -23395,6 +26143,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             375 => 
             array (
@@ -23412,6 +26162,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             376 => 
             array (
@@ -23429,6 +26181,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             377 => 
             array (
@@ -23446,6 +26200,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             378 => 
             array (
@@ -23463,6 +26219,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             379 => 
             array (
@@ -23480,6 +26238,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             380 => 
             array (
@@ -23497,6 +26257,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             381 => 
             array (
@@ -23514,6 +26276,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             382 => 
             array (
@@ -23531,6 +26295,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             383 => 
             array (
@@ -23548,6 +26314,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             384 => 
             array (
@@ -23565,6 +26333,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             385 => 
             array (
@@ -23582,6 +26352,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             386 => 
             array (
@@ -23599,6 +26371,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             387 => 
             array (
@@ -23616,6 +26390,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             388 => 
             array (
@@ -23633,6 +26409,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             389 => 
             array (
@@ -23650,6 +26428,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             390 => 
             array (
@@ -23667,6 +26447,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             391 => 
             array (
@@ -23684,6 +26466,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             392 => 
             array (
@@ -23701,6 +26485,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             393 => 
             array (
@@ -23718,6 +26504,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             394 => 
             array (
@@ -23735,6 +26523,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             395 => 
             array (
@@ -23752,6 +26542,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:08',
                 'updated_at' => '2019-03-08 06:13:08',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             396 => 
             array (
@@ -23769,6 +26561,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             397 => 
             array (
@@ -23786,6 +26580,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             398 => 
             array (
@@ -23803,6 +26599,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             399 => 
             array (
@@ -23820,6 +26618,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             400 => 
             array (
@@ -23837,6 +26637,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             401 => 
             array (
@@ -23854,6 +26656,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             402 => 
             array (
@@ -23871,6 +26675,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             403 => 
             array (
@@ -23888,6 +26694,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             404 => 
             array (
@@ -23905,6 +26713,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             405 => 
             array (
@@ -23922,6 +26732,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             406 => 
             array (
@@ -23939,6 +26751,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             407 => 
             array (
@@ -23956,6 +26770,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             408 => 
             array (
@@ -23973,6 +26789,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             409 => 
             array (
@@ -23990,6 +26808,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             410 => 
             array (
@@ -24007,6 +26827,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             411 => 
             array (
@@ -24024,6 +26846,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             412 => 
             array (
@@ -24041,6 +26865,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             413 => 
             array (
@@ -24058,6 +26884,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             414 => 
             array (
@@ -24075,6 +26903,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             415 => 
             array (
@@ -24092,6 +26922,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             416 => 
             array (
@@ -24109,6 +26941,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             417 => 
             array (
@@ -24126,6 +26960,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             418 => 
             array (
@@ -24143,6 +26979,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             419 => 
             array (
@@ -24160,6 +26998,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             420 => 
             array (
@@ -24177,6 +27017,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             421 => 
             array (
@@ -24194,6 +27036,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             422 => 
             array (
@@ -24211,6 +27055,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             423 => 
             array (
@@ -24228,6 +27074,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             424 => 
             array (
@@ -24245,6 +27093,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             425 => 
             array (
@@ -24262,6 +27112,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             426 => 
             array (
@@ -24279,6 +27131,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             427 => 
             array (
@@ -24296,6 +27150,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             428 => 
             array (
@@ -24313,6 +27169,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             429 => 
             array (
@@ -24330,6 +27188,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             430 => 
             array (
@@ -24347,6 +27207,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             431 => 
             array (
@@ -24364,6 +27226,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             432 => 
             array (
@@ -24381,6 +27245,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             433 => 
             array (
@@ -24398,6 +27264,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             434 => 
             array (
@@ -24415,6 +27283,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             435 => 
             array (
@@ -24432,6 +27302,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:09',
                 'updated_at' => '2019-03-08 06:13:09',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             436 => 
             array (
@@ -24449,6 +27321,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             437 => 
             array (
@@ -24466,6 +27340,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             438 => 
             array (
@@ -24483,6 +27359,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             439 => 
             array (
@@ -24500,6 +27378,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             440 => 
             array (
@@ -24517,6 +27397,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             441 => 
             array (
@@ -24534,6 +27416,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             442 => 
             array (
@@ -24551,6 +27435,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             443 => 
             array (
@@ -24568,6 +27454,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             444 => 
             array (
@@ -24585,6 +27473,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             445 => 
             array (
@@ -24602,6 +27492,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             446 => 
             array (
@@ -24619,6 +27511,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             447 => 
             array (
@@ -24636,6 +27530,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             448 => 
             array (
@@ -24653,6 +27549,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             449 => 
             array (
@@ -24670,6 +27568,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             450 => 
             array (
@@ -24687,6 +27587,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             451 => 
             array (
@@ -24704,6 +27606,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             452 => 
             array (
@@ -24721,6 +27625,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             453 => 
             array (
@@ -24738,6 +27644,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             454 => 
             array (
@@ -24755,6 +27663,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             455 => 
             array (
@@ -24772,6 +27682,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             456 => 
             array (
@@ -24789,6 +27701,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             457 => 
             array (
@@ -24806,6 +27720,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             458 => 
             array (
@@ -24823,6 +27739,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             459 => 
             array (
@@ -24840,6 +27758,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             460 => 
             array (
@@ -24857,6 +27777,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             461 => 
             array (
@@ -24874,6 +27796,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             462 => 
             array (
@@ -24891,6 +27815,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             463 => 
             array (
@@ -24908,6 +27834,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             464 => 
             array (
@@ -24925,6 +27853,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             465 => 
             array (
@@ -24942,6 +27872,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             466 => 
             array (
@@ -24959,6 +27891,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             467 => 
             array (
@@ -24976,6 +27910,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             468 => 
             array (
@@ -24993,6 +27929,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             469 => 
             array (
@@ -25010,6 +27948,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             470 => 
             array (
@@ -25027,6 +27967,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             471 => 
             array (
@@ -25044,6 +27986,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             472 => 
             array (
@@ -25061,6 +28005,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:10',
                 'updated_at' => '2019-03-08 06:13:10',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             473 => 
             array (
@@ -25078,6 +28024,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             474 => 
             array (
@@ -25095,6 +28043,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             475 => 
             array (
@@ -25112,6 +28062,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             476 => 
             array (
@@ -25129,6 +28081,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             477 => 
             array (
@@ -25146,6 +28100,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             478 => 
             array (
@@ -25163,6 +28119,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             479 => 
             array (
@@ -25180,6 +28138,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             480 => 
             array (
@@ -25197,6 +28157,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             481 => 
             array (
@@ -25214,6 +28176,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             482 => 
             array (
@@ -25231,6 +28195,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             483 => 
             array (
@@ -25248,6 +28214,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             484 => 
             array (
@@ -25265,6 +28233,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             485 => 
             array (
@@ -25282,6 +28252,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             486 => 
             array (
@@ -25299,6 +28271,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             487 => 
             array (
@@ -25316,6 +28290,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             488 => 
             array (
@@ -25333,6 +28309,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             489 => 
             array (
@@ -25350,6 +28328,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             490 => 
             array (
@@ -25367,6 +28347,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             491 => 
             array (
@@ -25384,6 +28366,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             492 => 
             array (
@@ -25401,6 +28385,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             493 => 
             array (
@@ -25418,6 +28404,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             494 => 
             array (
@@ -25435,6 +28423,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             495 => 
             array (
@@ -25452,6 +28442,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             496 => 
             array (
@@ -25469,6 +28461,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             497 => 
             array (
@@ -25486,6 +28480,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             498 => 
             array (
@@ -25503,6 +28499,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             499 => 
             array (
@@ -25520,6 +28518,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
         ));
         \DB::table('victima')->insert(array (
@@ -25539,6 +28539,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             1 => 
             array (
@@ -25556,6 +28558,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             2 => 
             array (
@@ -25573,6 +28577,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             3 => 
             array (
@@ -25590,6 +28596,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             4 => 
             array (
@@ -25607,6 +28615,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             5 => 
             array (
@@ -25624,6 +28634,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             6 => 
             array (
@@ -25641,6 +28653,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             7 => 
             array (
@@ -25658,6 +28672,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             8 => 
             array (
@@ -25675,6 +28691,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:11',
                 'updated_at' => '2019-03-08 06:13:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             9 => 
             array (
@@ -25692,6 +28710,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             10 => 
             array (
@@ -25709,6 +28729,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             11 => 
             array (
@@ -25726,6 +28748,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             12 => 
             array (
@@ -25743,6 +28767,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             13 => 
             array (
@@ -25760,6 +28786,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             14 => 
             array (
@@ -25777,6 +28805,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             15 => 
             array (
@@ -25794,6 +28824,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             16 => 
             array (
@@ -25811,6 +28843,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             17 => 
             array (
@@ -25828,6 +28862,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             18 => 
             array (
@@ -25845,6 +28881,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             19 => 
             array (
@@ -25862,6 +28900,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             20 => 
             array (
@@ -25879,6 +28919,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             21 => 
             array (
@@ -25896,6 +28938,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             22 => 
             array (
@@ -25913,6 +28957,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             23 => 
             array (
@@ -25930,6 +28976,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             24 => 
             array (
@@ -25947,6 +28995,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             25 => 
             array (
@@ -25964,6 +29014,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             26 => 
             array (
@@ -25981,6 +29033,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             27 => 
             array (
@@ -25998,6 +29052,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             28 => 
             array (
@@ -26015,6 +29071,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             29 => 
             array (
@@ -26032,6 +29090,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             30 => 
             array (
@@ -26049,6 +29109,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             31 => 
             array (
@@ -26066,6 +29128,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             32 => 
             array (
@@ -26083,6 +29147,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             33 => 
             array (
@@ -26100,6 +29166,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             34 => 
             array (
@@ -26117,6 +29185,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             35 => 
             array (
@@ -26134,6 +29204,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             36 => 
             array (
@@ -26151,6 +29223,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             37 => 
             array (
@@ -26168,6 +29242,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             38 => 
             array (
@@ -26185,6 +29261,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             39 => 
             array (
@@ -26202,6 +29280,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             40 => 
             array (
@@ -26219,6 +29299,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             41 => 
             array (
@@ -26236,6 +29318,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             42 => 
             array (
@@ -26253,6 +29337,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             43 => 
             array (
@@ -26270,6 +29356,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             44 => 
             array (
@@ -26287,6 +29375,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:12',
                 'updated_at' => '2019-03-08 06:13:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             45 => 
             array (
@@ -26304,6 +29394,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             46 => 
             array (
@@ -26321,6 +29413,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             47 => 
             array (
@@ -26338,6 +29432,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             48 => 
             array (
@@ -26355,6 +29451,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             49 => 
             array (
@@ -26372,6 +29470,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             50 => 
             array (
@@ -26389,6 +29489,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             51 => 
             array (
@@ -26406,6 +29508,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             52 => 
             array (
@@ -26423,6 +29527,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             53 => 
             array (
@@ -26440,6 +29546,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             54 => 
             array (
@@ -26457,6 +29565,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             55 => 
             array (
@@ -26474,6 +29584,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             56 => 
             array (
@@ -26491,6 +29603,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             57 => 
             array (
@@ -26508,6 +29622,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             58 => 
             array (
@@ -26525,6 +29641,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             59 => 
             array (
@@ -26542,6 +29660,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             60 => 
             array (
@@ -26559,6 +29679,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             61 => 
             array (
@@ -26576,6 +29698,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             62 => 
             array (
@@ -26593,6 +29717,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             63 => 
             array (
@@ -26610,6 +29736,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             64 => 
             array (
@@ -26627,6 +29755,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             65 => 
             array (
@@ -26644,6 +29774,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             66 => 
             array (
@@ -26661,6 +29793,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             67 => 
             array (
@@ -26678,6 +29812,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             68 => 
             array (
@@ -26695,6 +29831,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             69 => 
             array (
@@ -26712,6 +29850,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             70 => 
             array (
@@ -26729,6 +29869,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             71 => 
             array (
@@ -26746,6 +29888,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             72 => 
             array (
@@ -26763,6 +29907,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             73 => 
             array (
@@ -26780,6 +29926,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             74 => 
             array (
@@ -26797,6 +29945,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             75 => 
             array (
@@ -26814,6 +29964,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             76 => 
             array (
@@ -26831,6 +29983,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             77 => 
             array (
@@ -26848,6 +30002,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             78 => 
             array (
@@ -26865,6 +30021,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             79 => 
             array (
@@ -26882,6 +30040,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             80 => 
             array (
@@ -26899,6 +30059,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             81 => 
             array (
@@ -26916,6 +30078,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:13',
                 'updated_at' => '2019-03-08 06:13:13',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             82 => 
             array (
@@ -26933,6 +30097,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             83 => 
             array (
@@ -26950,6 +30116,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             84 => 
             array (
@@ -26967,6 +30135,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             85 => 
             array (
@@ -26984,6 +30154,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             86 => 
             array (
@@ -27001,6 +30173,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             87 => 
             array (
@@ -27018,6 +30192,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             88 => 
             array (
@@ -27035,6 +30211,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             89 => 
             array (
@@ -27052,6 +30230,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             90 => 
             array (
@@ -27069,6 +30249,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             91 => 
             array (
@@ -27086,6 +30268,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             92 => 
             array (
@@ -27103,6 +30287,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             93 => 
             array (
@@ -27120,6 +30306,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             94 => 
             array (
@@ -27137,6 +30325,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             95 => 
             array (
@@ -27154,6 +30344,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             96 => 
             array (
@@ -27171,6 +30363,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             97 => 
             array (
@@ -27188,6 +30382,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             98 => 
             array (
@@ -27205,6 +30401,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             99 => 
             array (
@@ -27222,6 +30420,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             100 => 
             array (
@@ -27239,6 +30439,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             101 => 
             array (
@@ -27256,6 +30458,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             102 => 
             array (
@@ -27273,6 +30477,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             103 => 
             array (
@@ -27290,6 +30496,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             104 => 
             array (
@@ -27307,6 +30515,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             105 => 
             array (
@@ -27324,6 +30534,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             106 => 
             array (
@@ -27341,6 +30553,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             107 => 
             array (
@@ -27358,6 +30572,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             108 => 
             array (
@@ -27375,6 +30591,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             109 => 
             array (
@@ -27392,6 +30610,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             110 => 
             array (
@@ -27409,6 +30629,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             111 => 
             array (
@@ -27426,6 +30648,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             112 => 
             array (
@@ -27443,6 +30667,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             113 => 
             array (
@@ -27460,6 +30686,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             114 => 
             array (
@@ -27477,6 +30705,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:14',
                 'updated_at' => '2019-03-08 06:13:14',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             115 => 
             array (
@@ -27494,6 +30724,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             116 => 
             array (
@@ -27511,6 +30743,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             117 => 
             array (
@@ -27528,6 +30762,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             118 => 
             array (
@@ -27545,6 +30781,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             119 => 
             array (
@@ -27562,6 +30800,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             120 => 
             array (
@@ -27579,6 +30819,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             121 => 
             array (
@@ -27596,6 +30838,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             122 => 
             array (
@@ -27613,6 +30857,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             123 => 
             array (
@@ -27630,6 +30876,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             124 => 
             array (
@@ -27647,6 +30895,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             125 => 
             array (
@@ -27664,6 +30914,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             126 => 
             array (
@@ -27681,6 +30933,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             127 => 
             array (
@@ -27698,6 +30952,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             128 => 
             array (
@@ -27715,6 +30971,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             129 => 
             array (
@@ -27732,6 +30990,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             130 => 
             array (
@@ -27749,6 +31009,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             131 => 
             array (
@@ -27766,6 +31028,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             132 => 
             array (
@@ -27783,6 +31047,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             133 => 
             array (
@@ -27800,6 +31066,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             134 => 
             array (
@@ -27817,6 +31085,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             135 => 
             array (
@@ -27834,6 +31104,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             136 => 
             array (
@@ -27851,6 +31123,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             137 => 
             array (
@@ -27868,6 +31142,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             138 => 
             array (
@@ -27885,6 +31161,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             139 => 
             array (
@@ -27902,6 +31180,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             140 => 
             array (
@@ -27919,6 +31199,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             141 => 
             array (
@@ -27936,6 +31218,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             142 => 
             array (
@@ -27953,6 +31237,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             143 => 
             array (
@@ -27970,6 +31256,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             144 => 
             array (
@@ -27987,6 +31275,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:15',
                 'updated_at' => '2019-03-08 06:13:15',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             145 => 
             array (
@@ -28004,6 +31294,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             146 => 
             array (
@@ -28021,6 +31313,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             147 => 
             array (
@@ -28038,6 +31332,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             148 => 
             array (
@@ -28055,6 +31351,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             149 => 
             array (
@@ -28072,6 +31370,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             150 => 
             array (
@@ -28089,6 +31389,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             151 => 
             array (
@@ -28106,6 +31408,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             152 => 
             array (
@@ -28123,6 +31427,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             153 => 
             array (
@@ -28140,6 +31446,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             154 => 
             array (
@@ -28157,6 +31465,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             155 => 
             array (
@@ -28174,6 +31484,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             156 => 
             array (
@@ -28191,6 +31503,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             157 => 
             array (
@@ -28208,6 +31522,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             158 => 
             array (
@@ -28225,6 +31541,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             159 => 
             array (
@@ -28242,6 +31560,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             160 => 
             array (
@@ -28259,6 +31579,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             161 => 
             array (
@@ -28276,6 +31598,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             162 => 
             array (
@@ -28293,6 +31617,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             163 => 
             array (
@@ -28310,6 +31636,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             164 => 
             array (
@@ -28327,6 +31655,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             165 => 
             array (
@@ -28344,6 +31674,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             166 => 
             array (
@@ -28361,6 +31693,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             167 => 
             array (
@@ -28378,6 +31712,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             168 => 
             array (
@@ -28395,6 +31731,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             169 => 
             array (
@@ -28412,6 +31750,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             170 => 
             array (
@@ -28429,6 +31769,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             171 => 
             array (
@@ -28446,6 +31788,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             172 => 
             array (
@@ -28463,6 +31807,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             173 => 
             array (
@@ -28480,6 +31826,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             174 => 
             array (
@@ -28497,6 +31845,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             175 => 
             array (
@@ -28514,6 +31864,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:16',
                 'updated_at' => '2019-03-08 06:13:16',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             176 => 
             array (
@@ -28531,6 +31883,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             177 => 
             array (
@@ -28548,6 +31902,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             178 => 
             array (
@@ -28565,6 +31921,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             179 => 
             array (
@@ -28582,6 +31940,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             180 => 
             array (
@@ -28599,6 +31959,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             181 => 
             array (
@@ -28616,6 +31978,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             182 => 
             array (
@@ -28633,6 +31997,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             183 => 
             array (
@@ -28650,6 +32016,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             184 => 
             array (
@@ -28667,6 +32035,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             185 => 
             array (
@@ -28684,6 +32054,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             186 => 
             array (
@@ -28701,6 +32073,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             187 => 
             array (
@@ -28718,6 +32092,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             188 => 
             array (
@@ -28735,6 +32111,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             189 => 
             array (
@@ -28752,6 +32130,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             190 => 
             array (
@@ -28769,6 +32149,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             191 => 
             array (
@@ -28786,6 +32168,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             192 => 
             array (
@@ -28803,6 +32187,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             193 => 
             array (
@@ -28820,6 +32206,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             194 => 
             array (
@@ -28837,6 +32225,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             195 => 
             array (
@@ -28854,6 +32244,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             196 => 
             array (
@@ -28871,6 +32263,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             197 => 
             array (
@@ -28888,6 +32282,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             198 => 
             array (
@@ -28905,6 +32301,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             199 => 
             array (
@@ -28922,6 +32320,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             200 => 
             array (
@@ -28939,6 +32339,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             201 => 
             array (
@@ -28956,6 +32358,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             202 => 
             array (
@@ -28973,6 +32377,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             203 => 
             array (
@@ -28990,6 +32396,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             204 => 
             array (
@@ -29007,6 +32415,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             205 => 
             array (
@@ -29024,6 +32434,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             206 => 
             array (
@@ -29041,6 +32453,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             207 => 
             array (
@@ -29058,6 +32472,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:17',
                 'updated_at' => '2019-03-08 06:13:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             208 => 
             array (
@@ -29075,6 +32491,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             209 => 
             array (
@@ -29092,6 +32510,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             210 => 
             array (
@@ -29109,6 +32529,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             211 => 
             array (
@@ -29126,6 +32548,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             212 => 
             array (
@@ -29143,6 +32567,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             213 => 
             array (
@@ -29160,6 +32586,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             214 => 
             array (
@@ -29177,6 +32605,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             215 => 
             array (
@@ -29194,6 +32624,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             216 => 
             array (
@@ -29211,6 +32643,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             217 => 
             array (
@@ -29228,6 +32662,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             218 => 
             array (
@@ -29245,6 +32681,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             219 => 
             array (
@@ -29262,6 +32700,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             220 => 
             array (
@@ -29279,6 +32719,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             221 => 
             array (
@@ -29296,6 +32738,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             222 => 
             array (
@@ -29313,6 +32757,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             223 => 
             array (
@@ -29330,6 +32776,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             224 => 
             array (
@@ -29347,6 +32795,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             225 => 
             array (
@@ -29364,6 +32814,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             226 => 
             array (
@@ -29381,6 +32833,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             227 => 
             array (
@@ -29398,6 +32852,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             228 => 
             array (
@@ -29415,6 +32871,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             229 => 
             array (
@@ -29432,6 +32890,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             230 => 
             array (
@@ -29449,6 +32909,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             231 => 
             array (
@@ -29466,6 +32928,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             232 => 
             array (
@@ -29483,6 +32947,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             233 => 
             array (
@@ -29500,6 +32966,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             234 => 
             array (
@@ -29517,6 +32985,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             235 => 
             array (
@@ -29534,6 +33004,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             236 => 
             array (
@@ -29551,6 +33023,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             237 => 
             array (
@@ -29568,6 +33042,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             238 => 
             array (
@@ -29585,6 +33061,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             239 => 
             array (
@@ -29602,6 +33080,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:18',
                 'updated_at' => '2019-03-08 06:13:18',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             240 => 
             array (
@@ -29619,6 +33099,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             241 => 
             array (
@@ -29636,6 +33118,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             242 => 
             array (
@@ -29653,6 +33137,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             243 => 
             array (
@@ -29670,6 +33156,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             244 => 
             array (
@@ -29687,6 +33175,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             245 => 
             array (
@@ -29704,6 +33194,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             246 => 
             array (
@@ -29721,6 +33213,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             247 => 
             array (
@@ -29738,6 +33232,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             248 => 
             array (
@@ -29755,6 +33251,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             249 => 
             array (
@@ -29772,6 +33270,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             250 => 
             array (
@@ -29789,6 +33289,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             251 => 
             array (
@@ -29806,6 +33308,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             252 => 
             array (
@@ -29823,6 +33327,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             253 => 
             array (
@@ -29840,6 +33346,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             254 => 
             array (
@@ -29857,6 +33365,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             255 => 
             array (
@@ -29874,6 +33384,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             256 => 
             array (
@@ -29891,6 +33403,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             257 => 
             array (
@@ -29908,6 +33422,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             258 => 
             array (
@@ -29925,6 +33441,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             259 => 
             array (
@@ -29942,6 +33460,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             260 => 
             array (
@@ -29959,6 +33479,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             261 => 
             array (
@@ -29976,6 +33498,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             262 => 
             array (
@@ -29993,6 +33517,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             263 => 
             array (
@@ -30010,6 +33536,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             264 => 
             array (
@@ -30027,6 +33555,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             265 => 
             array (
@@ -30044,6 +33574,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             266 => 
             array (
@@ -30061,6 +33593,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:19',
                 'updated_at' => '2019-03-08 06:13:19',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             267 => 
             array (
@@ -30078,6 +33612,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             268 => 
             array (
@@ -30095,6 +33631,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             269 => 
             array (
@@ -30112,6 +33650,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             270 => 
             array (
@@ -30129,6 +33669,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             271 => 
             array (
@@ -30146,6 +33688,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             272 => 
             array (
@@ -30163,6 +33707,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             273 => 
             array (
@@ -30180,6 +33726,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             274 => 
             array (
@@ -30197,6 +33745,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             275 => 
             array (
@@ -30214,6 +33764,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             276 => 
             array (
@@ -30231,6 +33783,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             277 => 
             array (
@@ -30248,6 +33802,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             278 => 
             array (
@@ -30265,6 +33821,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             279 => 
             array (
@@ -30282,6 +33840,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             280 => 
             array (
@@ -30299,6 +33859,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             281 => 
             array (
@@ -30316,6 +33878,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             282 => 
             array (
@@ -30333,6 +33897,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             283 => 
             array (
@@ -30350,6 +33916,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             284 => 
             array (
@@ -30367,6 +33935,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             285 => 
             array (
@@ -30384,6 +33954,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             286 => 
             array (
@@ -30401,6 +33973,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             287 => 
             array (
@@ -30418,6 +33992,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             288 => 
             array (
@@ -30435,6 +34011,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             289 => 
             array (
@@ -30452,6 +34030,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             290 => 
             array (
@@ -30469,6 +34049,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             291 => 
             array (
@@ -30486,6 +34068,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             292 => 
             array (
@@ -30503,6 +34087,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             293 => 
             array (
@@ -30520,6 +34106,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             294 => 
             array (
@@ -30537,6 +34125,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:20',
                 'updated_at' => '2019-03-08 06:13:20',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             295 => 
             array (
@@ -30554,6 +34144,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             296 => 
             array (
@@ -30571,6 +34163,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             297 => 
             array (
@@ -30588,6 +34182,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             298 => 
             array (
@@ -30605,6 +34201,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             299 => 
             array (
@@ -30622,6 +34220,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             300 => 
             array (
@@ -30639,6 +34239,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             301 => 
             array (
@@ -30656,6 +34258,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             302 => 
             array (
@@ -30673,6 +34277,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             303 => 
             array (
@@ -30690,6 +34296,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             304 => 
             array (
@@ -30707,6 +34315,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             305 => 
             array (
@@ -30724,6 +34334,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             306 => 
             array (
@@ -30741,6 +34353,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             307 => 
             array (
@@ -30758,6 +34372,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             308 => 
             array (
@@ -30775,6 +34391,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             309 => 
             array (
@@ -30792,6 +34410,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             310 => 
             array (
@@ -30809,6 +34429,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             311 => 
             array (
@@ -30826,6 +34448,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             312 => 
             array (
@@ -30843,6 +34467,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             313 => 
             array (
@@ -30860,6 +34486,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             314 => 
             array (
@@ -30877,6 +34505,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             315 => 
             array (
@@ -30894,6 +34524,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             316 => 
             array (
@@ -30911,6 +34543,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             317 => 
             array (
@@ -30928,6 +34562,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             318 => 
             array (
@@ -30945,6 +34581,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             319 => 
             array (
@@ -30962,6 +34600,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             320 => 
             array (
@@ -30979,6 +34619,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             321 => 
             array (
@@ -30996,6 +34638,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:21',
                 'updated_at' => '2019-03-08 06:13:21',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             322 => 
             array (
@@ -31013,6 +34657,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:22',
                 'updated_at' => '2019-03-08 06:13:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             323 => 
             array (
@@ -31030,6 +34676,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:22',
                 'updated_at' => '2019-03-08 06:13:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             324 => 
             array (
@@ -31047,6 +34695,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:22',
                 'updated_at' => '2019-03-08 06:13:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             325 => 
             array (
@@ -31064,6 +34714,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:22',
                 'updated_at' => '2019-03-08 06:13:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             326 => 
             array (
@@ -31081,6 +34733,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:22',
                 'updated_at' => '2019-03-08 06:13:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             327 => 
             array (
@@ -31098,6 +34752,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             328 => 
             array (
@@ -31115,6 +34771,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             329 => 
             array (
@@ -31132,6 +34790,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             330 => 
             array (
@@ -31149,6 +34809,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             331 => 
             array (
@@ -31166,6 +34828,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             332 => 
             array (
@@ -31183,6 +34847,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             333 => 
             array (
@@ -31200,6 +34866,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             334 => 
             array (
@@ -31217,6 +34885,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             335 => 
             array (
@@ -31234,6 +34904,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             336 => 
             array (
@@ -31251,6 +34923,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             337 => 
             array (
@@ -31268,6 +34942,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             338 => 
             array (
@@ -31285,6 +34961,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             339 => 
             array (
@@ -31302,6 +34980,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             340 => 
             array (
@@ -31319,6 +34999,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             341 => 
             array (
@@ -31336,6 +35018,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             342 => 
             array (
@@ -31353,6 +35037,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             343 => 
             array (
@@ -31370,6 +35056,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             344 => 
             array (
@@ -31387,6 +35075,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             345 => 
             array (
@@ -31404,6 +35094,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:23',
                 'updated_at' => '2019-03-08 06:13:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             346 => 
             array (
@@ -31421,6 +35113,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             347 => 
             array (
@@ -31438,6 +35132,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             348 => 
             array (
@@ -31455,6 +35151,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             349 => 
             array (
@@ -31472,6 +35170,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             350 => 
             array (
@@ -31489,6 +35189,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             351 => 
             array (
@@ -31506,6 +35208,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             352 => 
             array (
@@ -31523,6 +35227,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             353 => 
             array (
@@ -31540,6 +35246,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             354 => 
             array (
@@ -31557,6 +35265,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             355 => 
             array (
@@ -31574,6 +35284,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             356 => 
             array (
@@ -31591,6 +35303,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             357 => 
             array (
@@ -31608,6 +35322,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             358 => 
             array (
@@ -31625,6 +35341,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             359 => 
             array (
@@ -31642,6 +35360,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             360 => 
             array (
@@ -31659,6 +35379,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             361 => 
             array (
@@ -31676,6 +35398,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             362 => 
             array (
@@ -31693,6 +35417,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             363 => 
             array (
@@ -31710,6 +35436,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             364 => 
             array (
@@ -31727,6 +35455,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             365 => 
             array (
@@ -31744,6 +35474,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             366 => 
             array (
@@ -31761,6 +35493,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             367 => 
             array (
@@ -31778,6 +35512,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             368 => 
             array (
@@ -31795,6 +35531,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             369 => 
             array (
@@ -31812,6 +35550,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             370 => 
             array (
@@ -31829,6 +35569,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             371 => 
             array (
@@ -31846,6 +35588,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             372 => 
             array (
@@ -31863,6 +35607,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             373 => 
             array (
@@ -31880,6 +35626,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             374 => 
             array (
@@ -31897,6 +35645,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             375 => 
             array (
@@ -31914,6 +35664,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             376 => 
             array (
@@ -31931,6 +35683,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             377 => 
             array (
@@ -31948,6 +35702,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             378 => 
             array (
@@ -31965,6 +35721,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             379 => 
             array (
@@ -31982,6 +35740,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             380 => 
             array (
@@ -31999,6 +35759,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             381 => 
             array (
@@ -32016,6 +35778,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:24',
                 'updated_at' => '2019-03-08 06:13:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             382 => 
             array (
@@ -32033,6 +35797,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             383 => 
             array (
@@ -32050,6 +35816,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             384 => 
             array (
@@ -32067,6 +35835,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             385 => 
             array (
@@ -32084,6 +35854,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             386 => 
             array (
@@ -32101,6 +35873,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             387 => 
             array (
@@ -32118,6 +35892,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             388 => 
             array (
@@ -32135,6 +35911,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             389 => 
             array (
@@ -32152,6 +35930,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             390 => 
             array (
@@ -32169,6 +35949,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             391 => 
             array (
@@ -32186,6 +35968,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             392 => 
             array (
@@ -32203,6 +35987,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             393 => 
             array (
@@ -32220,6 +36006,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             394 => 
             array (
@@ -32237,6 +36025,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             395 => 
             array (
@@ -32254,6 +36044,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             396 => 
             array (
@@ -32271,6 +36063,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             397 => 
             array (
@@ -32288,6 +36082,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             398 => 
             array (
@@ -32305,6 +36101,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             399 => 
             array (
@@ -32322,6 +36120,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             400 => 
             array (
@@ -32339,6 +36139,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             401 => 
             array (
@@ -32356,6 +36158,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             402 => 
             array (
@@ -32373,6 +36177,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             403 => 
             array (
@@ -32390,6 +36196,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             404 => 
             array (
@@ -32407,6 +36215,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             405 => 
             array (
@@ -32424,6 +36234,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             406 => 
             array (
@@ -32441,6 +36253,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             407 => 
             array (
@@ -32458,6 +36272,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             408 => 
             array (
@@ -32475,6 +36291,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             409 => 
             array (
@@ -32492,6 +36310,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             410 => 
             array (
@@ -32509,6 +36329,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:25',
                 'updated_at' => '2019-03-08 06:13:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             411 => 
             array (
@@ -32526,6 +36348,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             412 => 
             array (
@@ -32543,6 +36367,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             413 => 
             array (
@@ -32560,6 +36386,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             414 => 
             array (
@@ -32577,6 +36405,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             415 => 
             array (
@@ -32594,6 +36424,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             416 => 
             array (
@@ -32611,6 +36443,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             417 => 
             array (
@@ -32628,6 +36462,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             418 => 
             array (
@@ -32645,6 +36481,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             419 => 
             array (
@@ -32662,6 +36500,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             420 => 
             array (
@@ -32679,6 +36519,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             421 => 
             array (
@@ -32696,6 +36538,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             422 => 
             array (
@@ -32713,6 +36557,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             423 => 
             array (
@@ -32730,6 +36576,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             424 => 
             array (
@@ -32747,6 +36595,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             425 => 
             array (
@@ -32764,6 +36614,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             426 => 
             array (
@@ -32781,6 +36633,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             427 => 
             array (
@@ -32798,6 +36652,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             428 => 
             array (
@@ -32815,6 +36671,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             429 => 
             array (
@@ -32832,6 +36690,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             430 => 
             array (
@@ -32849,6 +36709,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             431 => 
             array (
@@ -32866,6 +36728,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             432 => 
             array (
@@ -32883,6 +36747,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             433 => 
             array (
@@ -32900,6 +36766,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             434 => 
             array (
@@ -32917,6 +36785,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             435 => 
             array (
@@ -32934,6 +36804,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             436 => 
             array (
@@ -32951,6 +36823,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             437 => 
             array (
@@ -32968,6 +36842,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             438 => 
             array (
@@ -32985,6 +36861,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:13:26',
                 'updated_at' => '2019-03-08 06:13:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             439 => 
             array (
@@ -33002,6 +36880,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:22',
                 'updated_at' => '2019-03-08 06:14:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             440 => 
             array (
@@ -33019,6 +36899,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:22',
                 'updated_at' => '2019-03-08 06:14:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             441 => 
             array (
@@ -33036,6 +36918,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:22',
                 'updated_at' => '2019-03-08 06:14:22',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             442 => 
             array (
@@ -33053,6 +36937,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             443 => 
             array (
@@ -33070,6 +36956,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             444 => 
             array (
@@ -33087,6 +36975,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             445 => 
             array (
@@ -33104,6 +36994,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             446 => 
             array (
@@ -33121,6 +37013,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             447 => 
             array (
@@ -33138,6 +37032,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             448 => 
             array (
@@ -33155,6 +37051,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             449 => 
             array (
@@ -33172,6 +37070,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             450 => 
             array (
@@ -33189,6 +37089,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             451 => 
             array (
@@ -33206,6 +37108,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             452 => 
             array (
@@ -33223,6 +37127,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             453 => 
             array (
@@ -33240,6 +37146,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             454 => 
             array (
@@ -33257,6 +37165,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             455 => 
             array (
@@ -33274,6 +37184,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             456 => 
             array (
@@ -33291,6 +37203,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             457 => 
             array (
@@ -33308,6 +37222,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             458 => 
             array (
@@ -33325,6 +37241,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             459 => 
             array (
@@ -33342,6 +37260,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             460 => 
             array (
@@ -33359,6 +37279,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             461 => 
             array (
@@ -33376,6 +37298,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             462 => 
             array (
@@ -33393,6 +37317,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             463 => 
             array (
@@ -33410,6 +37336,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             464 => 
             array (
@@ -33427,6 +37355,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             465 => 
             array (
@@ -33444,6 +37374,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             466 => 
             array (
@@ -33461,6 +37393,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             467 => 
             array (
@@ -33478,6 +37412,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             468 => 
             array (
@@ -33495,6 +37431,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             469 => 
             array (
@@ -33512,6 +37450,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             470 => 
             array (
@@ -33529,6 +37469,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             471 => 
             array (
@@ -33546,6 +37488,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             472 => 
             array (
@@ -33563,6 +37507,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             473 => 
             array (
@@ -33580,6 +37526,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             474 => 
             array (
@@ -33597,6 +37545,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             475 => 
             array (
@@ -33614,6 +37564,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             476 => 
             array (
@@ -33631,6 +37583,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             477 => 
             array (
@@ -33648,6 +37602,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             478 => 
             array (
@@ -33665,6 +37621,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             479 => 
             array (
@@ -33682,6 +37640,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             480 => 
             array (
@@ -33699,6 +37659,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             481 => 
             array (
@@ -33716,6 +37678,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             482 => 
             array (
@@ -33733,6 +37697,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:23',
                 'updated_at' => '2019-03-08 06:14:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             483 => 
             array (
@@ -33750,6 +37716,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             484 => 
             array (
@@ -33767,6 +37735,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             485 => 
             array (
@@ -33784,6 +37754,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             486 => 
             array (
@@ -33801,6 +37773,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             487 => 
             array (
@@ -33818,6 +37792,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             488 => 
             array (
@@ -33835,6 +37811,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             489 => 
             array (
@@ -33852,6 +37830,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             490 => 
             array (
@@ -33869,6 +37849,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             491 => 
             array (
@@ -33886,6 +37868,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             492 => 
             array (
@@ -33903,6 +37887,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             493 => 
             array (
@@ -33920,6 +37906,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             494 => 
             array (
@@ -33937,6 +37925,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             495 => 
             array (
@@ -33954,6 +37944,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             496 => 
             array (
@@ -33971,6 +37963,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             497 => 
             array (
@@ -33988,6 +37982,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             498 => 
             array (
@@ -34005,6 +38001,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             499 => 
             array (
@@ -34022,6 +38020,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
         ));
         \DB::table('victima')->insert(array (
@@ -34041,6 +38041,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             1 => 
             array (
@@ -34058,6 +38060,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             2 => 
             array (
@@ -34075,6 +38079,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             3 => 
             array (
@@ -34092,6 +38098,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             4 => 
             array (
@@ -34109,6 +38117,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             5 => 
             array (
@@ -34126,6 +38136,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             6 => 
             array (
@@ -34143,6 +38155,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             7 => 
             array (
@@ -34160,6 +38174,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             8 => 
             array (
@@ -34177,6 +38193,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             9 => 
             array (
@@ -34194,6 +38212,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             10 => 
             array (
@@ -34211,6 +38231,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             11 => 
             array (
@@ -34228,6 +38250,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             12 => 
             array (
@@ -34245,6 +38269,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             13 => 
             array (
@@ -34262,6 +38288,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             14 => 
             array (
@@ -34279,6 +38307,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             15 => 
             array (
@@ -34296,6 +38326,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             16 => 
             array (
@@ -34313,6 +38345,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             17 => 
             array (
@@ -34330,6 +38364,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             18 => 
             array (
@@ -34347,6 +38383,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:24',
                 'updated_at' => '2019-03-08 06:14:24',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             19 => 
             array (
@@ -34364,6 +38402,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             20 => 
             array (
@@ -34381,6 +38421,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             21 => 
             array (
@@ -34398,6 +38440,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             22 => 
             array (
@@ -34415,6 +38459,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             23 => 
             array (
@@ -34432,6 +38478,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             24 => 
             array (
@@ -34449,6 +38497,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             25 => 
             array (
@@ -34466,6 +38516,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             26 => 
             array (
@@ -34483,6 +38535,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             27 => 
             array (
@@ -34500,6 +38554,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             28 => 
             array (
@@ -34517,6 +38573,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             29 => 
             array (
@@ -34534,6 +38592,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             30 => 
             array (
@@ -34551,6 +38611,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             31 => 
             array (
@@ -34568,6 +38630,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             32 => 
             array (
@@ -34585,6 +38649,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             33 => 
             array (
@@ -34602,6 +38668,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             34 => 
             array (
@@ -34619,6 +38687,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             35 => 
             array (
@@ -34636,6 +38706,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             36 => 
             array (
@@ -34653,6 +38725,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             37 => 
             array (
@@ -34670,6 +38744,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             38 => 
             array (
@@ -34687,6 +38763,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             39 => 
             array (
@@ -34704,6 +38782,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             40 => 
             array (
@@ -34721,6 +38801,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             41 => 
             array (
@@ -34738,6 +38820,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             42 => 
             array (
@@ -34755,6 +38839,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             43 => 
             array (
@@ -34772,6 +38858,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             44 => 
             array (
@@ -34789,6 +38877,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             45 => 
             array (
@@ -34806,6 +38896,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             46 => 
             array (
@@ -34823,6 +38915,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             47 => 
             array (
@@ -34840,6 +38934,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             48 => 
             array (
@@ -34857,6 +38953,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             49 => 
             array (
@@ -34874,6 +38972,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             50 => 
             array (
@@ -34891,6 +38991,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             51 => 
             array (
@@ -34908,6 +39010,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             52 => 
             array (
@@ -34925,6 +39029,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             53 => 
             array (
@@ -34942,6 +39048,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             54 => 
             array (
@@ -34959,6 +39067,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             55 => 
             array (
@@ -34976,6 +39086,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:25',
                 'updated_at' => '2019-03-08 06:14:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             56 => 
             array (
@@ -34993,6 +39105,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             57 => 
             array (
@@ -35010,6 +39124,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             58 => 
             array (
@@ -35027,6 +39143,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             59 => 
             array (
@@ -35044,6 +39162,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             60 => 
             array (
@@ -35061,6 +39181,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             61 => 
             array (
@@ -35078,6 +39200,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             62 => 
             array (
@@ -35095,6 +39219,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             63 => 
             array (
@@ -35112,6 +39238,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             64 => 
             array (
@@ -35129,6 +39257,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             65 => 
             array (
@@ -35146,6 +39276,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             66 => 
             array (
@@ -35163,6 +39295,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             67 => 
             array (
@@ -35180,6 +39314,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             68 => 
             array (
@@ -35197,6 +39333,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             69 => 
             array (
@@ -35214,6 +39352,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             70 => 
             array (
@@ -35231,6 +39371,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             71 => 
             array (
@@ -35248,6 +39390,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             72 => 
             array (
@@ -35265,6 +39409,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             73 => 
             array (
@@ -35282,6 +39428,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             74 => 
             array (
@@ -35299,6 +39447,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             75 => 
             array (
@@ -35316,6 +39466,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             76 => 
             array (
@@ -35333,6 +39485,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             77 => 
             array (
@@ -35350,6 +39504,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             78 => 
             array (
@@ -35367,6 +39523,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             79 => 
             array (
@@ -35384,6 +39542,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             80 => 
             array (
@@ -35401,6 +39561,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             81 => 
             array (
@@ -35418,6 +39580,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             82 => 
             array (
@@ -35435,6 +39599,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             83 => 
             array (
@@ -35452,6 +39618,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             84 => 
             array (
@@ -35469,6 +39637,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             85 => 
             array (
@@ -35486,6 +39656,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             86 => 
             array (
@@ -35503,6 +39675,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             87 => 
             array (
@@ -35520,6 +39694,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             88 => 
             array (
@@ -35537,6 +39713,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             89 => 
             array (
@@ -35554,6 +39732,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             90 => 
             array (
@@ -35571,6 +39751,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             91 => 
             array (
@@ -35588,6 +39770,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             92 => 
             array (
@@ -35605,6 +39789,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:26',
                 'updated_at' => '2019-03-08 06:14:26',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             93 => 
             array (
@@ -35622,6 +39808,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             94 => 
             array (
@@ -35639,6 +39827,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             95 => 
             array (
@@ -35656,6 +39846,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             96 => 
             array (
@@ -35673,6 +39865,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             97 => 
             array (
@@ -35690,6 +39884,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             98 => 
             array (
@@ -35707,6 +39903,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             99 => 
             array (
@@ -35724,6 +39922,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             100 => 
             array (
@@ -35741,6 +39941,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             101 => 
             array (
@@ -35758,6 +39960,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             102 => 
             array (
@@ -35775,6 +39979,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             103 => 
             array (
@@ -35792,6 +39998,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             104 => 
             array (
@@ -35809,6 +40017,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             105 => 
             array (
@@ -35826,6 +40036,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             106 => 
             array (
@@ -35843,6 +40055,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             107 => 
             array (
@@ -35860,6 +40074,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             108 => 
             array (
@@ -35877,6 +40093,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             109 => 
             array (
@@ -35894,6 +40112,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             110 => 
             array (
@@ -35911,6 +40131,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             111 => 
             array (
@@ -35928,6 +40150,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             112 => 
             array (
@@ -35945,6 +40169,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             113 => 
             array (
@@ -35962,6 +40188,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             114 => 
             array (
@@ -35979,6 +40207,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             115 => 
             array (
@@ -35996,6 +40226,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             116 => 
             array (
@@ -36013,6 +40245,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             117 => 
             array (
@@ -36030,6 +40264,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             118 => 
             array (
@@ -36047,6 +40283,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             119 => 
             array (
@@ -36064,6 +40302,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             120 => 
             array (
@@ -36081,6 +40321,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             121 => 
             array (
@@ -36098,6 +40340,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             122 => 
             array (
@@ -36115,6 +40359,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             123 => 
             array (
@@ -36132,6 +40378,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             124 => 
             array (
@@ -36149,6 +40397,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             125 => 
             array (
@@ -36166,6 +40416,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             126 => 
             array (
@@ -36183,6 +40435,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             127 => 
             array (
@@ -36200,6 +40454,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             128 => 
             array (
@@ -36217,6 +40473,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             129 => 
             array (
@@ -36234,6 +40492,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             130 => 
             array (
@@ -36251,6 +40511,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             131 => 
             array (
@@ -36268,6 +40530,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             132 => 
             array (
@@ -36285,6 +40549,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             133 => 
             array (
@@ -36302,6 +40568,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:27',
                 'updated_at' => '2019-03-08 06:14:27',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             134 => 
             array (
@@ -36319,6 +40587,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             135 => 
             array (
@@ -36336,6 +40606,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             136 => 
             array (
@@ -36353,6 +40625,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             137 => 
             array (
@@ -36370,6 +40644,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             138 => 
             array (
@@ -36387,6 +40663,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             139 => 
             array (
@@ -36404,6 +40682,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             140 => 
             array (
@@ -36421,6 +40701,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             141 => 
             array (
@@ -36438,6 +40720,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             142 => 
             array (
@@ -36455,6 +40739,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             143 => 
             array (
@@ -36472,6 +40758,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             144 => 
             array (
@@ -36489,6 +40777,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             145 => 
             array (
@@ -36506,6 +40796,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             146 => 
             array (
@@ -36523,6 +40815,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             147 => 
             array (
@@ -36540,6 +40834,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             148 => 
             array (
@@ -36557,6 +40853,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             149 => 
             array (
@@ -36574,6 +40872,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             150 => 
             array (
@@ -36591,6 +40891,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             151 => 
             array (
@@ -36608,6 +40910,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             152 => 
             array (
@@ -36625,6 +40929,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:28',
                 'updated_at' => '2019-03-08 06:14:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             153 => 
             array (
@@ -36642,6 +40948,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:29',
                 'updated_at' => '2019-03-08 06:14:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             154 => 
             array (
@@ -36659,6 +40967,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:29',
                 'updated_at' => '2019-03-08 06:14:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             155 => 
             array (
@@ -36676,6 +40986,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:29',
                 'updated_at' => '2019-03-08 06:14:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             156 => 
             array (
@@ -36693,6 +41005,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:29',
                 'updated_at' => '2019-03-08 06:14:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             157 => 
             array (
@@ -36710,6 +41024,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:29',
                 'updated_at' => '2019-03-08 06:14:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             158 => 
             array (
@@ -36727,6 +41043,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:29',
                 'updated_at' => '2019-03-08 06:14:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             159 => 
             array (
@@ -36744,6 +41062,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:29',
                 'updated_at' => '2019-03-08 06:14:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             160 => 
             array (
@@ -36761,6 +41081,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:29',
                 'updated_at' => '2019-03-08 06:14:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             161 => 
             array (
@@ -36778,6 +41100,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:29',
                 'updated_at' => '2019-03-08 06:14:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             162 => 
             array (
@@ -36795,6 +41119,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:30',
                 'updated_at' => '2019-03-08 06:14:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             163 => 
             array (
@@ -36812,6 +41138,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:30',
                 'updated_at' => '2019-03-08 06:14:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             164 => 
             array (
@@ -36829,6 +41157,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:30',
                 'updated_at' => '2019-03-08 06:14:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             165 => 
             array (
@@ -36846,6 +41176,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:30',
                 'updated_at' => '2019-03-08 06:14:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             166 => 
             array (
@@ -36863,6 +41195,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             167 => 
             array (
@@ -36880,6 +41214,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             168 => 
             array (
@@ -36897,6 +41233,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             169 => 
             array (
@@ -36914,6 +41252,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             170 => 
             array (
@@ -36931,6 +41271,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             171 => 
             array (
@@ -36948,6 +41290,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             172 => 
             array (
@@ -36965,6 +41309,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             173 => 
             array (
@@ -36982,6 +41328,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             174 => 
             array (
@@ -36999,6 +41347,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             175 => 
             array (
@@ -37016,6 +41366,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             176 => 
             array (
@@ -37033,6 +41385,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             177 => 
             array (
@@ -37050,6 +41404,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             178 => 
             array (
@@ -37067,6 +41423,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             179 => 
             array (
@@ -37084,6 +41442,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             180 => 
             array (
@@ -37101,6 +41461,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             181 => 
             array (
@@ -37118,6 +41480,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             182 => 
             array (
@@ -37135,6 +41499,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             183 => 
             array (
@@ -37152,6 +41518,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             184 => 
             array (
@@ -37169,6 +41537,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             185 => 
             array (
@@ -37186,6 +41556,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             186 => 
             array (
@@ -37203,6 +41575,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             187 => 
             array (
@@ -37220,6 +41594,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             188 => 
             array (
@@ -37237,6 +41613,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             189 => 
             array (
@@ -37254,6 +41632,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             190 => 
             array (
@@ -37271,6 +41651,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             191 => 
             array (
@@ -37288,6 +41670,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:31',
                 'updated_at' => '2019-03-08 06:14:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             192 => 
             array (
@@ -37305,6 +41689,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             193 => 
             array (
@@ -37322,6 +41708,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             194 => 
             array (
@@ -37339,6 +41727,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             195 => 
             array (
@@ -37356,6 +41746,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             196 => 
             array (
@@ -37373,6 +41765,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             197 => 
             array (
@@ -37390,6 +41784,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             198 => 
             array (
@@ -37407,6 +41803,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             199 => 
             array (
@@ -37424,6 +41822,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             200 => 
             array (
@@ -37441,6 +41841,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             201 => 
             array (
@@ -37458,6 +41860,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             202 => 
             array (
@@ -37475,6 +41879,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             203 => 
             array (
@@ -37492,6 +41898,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             204 => 
             array (
@@ -37509,6 +41917,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             205 => 
             array (
@@ -37526,6 +41936,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             206 => 
             array (
@@ -37543,6 +41955,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             207 => 
             array (
@@ -37560,6 +41974,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             208 => 
             array (
@@ -37577,6 +41993,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             209 => 
             array (
@@ -37594,6 +42012,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             210 => 
             array (
@@ -37611,6 +42031,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             211 => 
             array (
@@ -37628,6 +42050,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             212 => 
             array (
@@ -37645,6 +42069,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             213 => 
             array (
@@ -37662,6 +42088,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             214 => 
             array (
@@ -37679,6 +42107,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             215 => 
             array (
@@ -37696,6 +42126,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             216 => 
             array (
@@ -37713,6 +42145,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             217 => 
             array (
@@ -37730,6 +42164,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             218 => 
             array (
@@ -37747,6 +42183,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             219 => 
             array (
@@ -37764,6 +42202,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             220 => 
             array (
@@ -37781,6 +42221,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             221 => 
             array (
@@ -37798,6 +42240,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             222 => 
             array (
@@ -37815,6 +42259,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             223 => 
             array (
@@ -37832,6 +42278,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             224 => 
             array (
@@ -37849,6 +42297,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             225 => 
             array (
@@ -37866,6 +42316,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             226 => 
             array (
@@ -37883,6 +42335,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             227 => 
             array (
@@ -37900,6 +42354,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             228 => 
             array (
@@ -37917,6 +42373,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             229 => 
             array (
@@ -37934,6 +42392,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             230 => 
             array (
@@ -37951,6 +42411,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             231 => 
             array (
@@ -37968,6 +42430,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             232 => 
             array (
@@ -37985,6 +42449,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             233 => 
             array (
@@ -38002,6 +42468,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:32',
                 'updated_at' => '2019-03-08 06:14:32',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             234 => 
             array (
@@ -38019,6 +42487,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:33',
                 'updated_at' => '2019-03-08 06:14:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             235 => 
             array (
@@ -38036,6 +42506,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:33',
                 'updated_at' => '2019-03-08 06:14:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             236 => 
             array (
@@ -38053,6 +42525,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:33',
                 'updated_at' => '2019-03-08 06:14:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             237 => 
             array (
@@ -38070,6 +42544,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:33',
                 'updated_at' => '2019-03-08 06:14:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             238 => 
             array (
@@ -38087,6 +42563,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:33',
                 'updated_at' => '2019-03-08 06:14:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             239 => 
             array (
@@ -38104,6 +42582,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:33',
                 'updated_at' => '2019-03-08 06:14:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             240 => 
             array (
@@ -38121,6 +42601,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:33',
                 'updated_at' => '2019-03-08 06:14:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             241 => 
             array (
@@ -38138,6 +42620,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:33',
                 'updated_at' => '2019-03-08 06:14:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             242 => 
             array (
@@ -38155,6 +42639,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:14:33',
                 'updated_at' => '2019-03-08 06:14:33',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             243 => 
             array (
@@ -38172,6 +42658,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 06:16:12',
                 'updated_at' => '2019-03-08 06:16:12',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             244 => 
             array (
@@ -38189,6 +42677,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-08 11:39:04',
                 'updated_at' => '2019-03-08 11:39:04',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             245 => 
             array (
@@ -38206,6 +42696,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-11 12:52:48',
                 'updated_at' => '2019-03-11 12:52:48',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             246 => 
             array (
@@ -38223,6 +42715,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-11 12:59:30',
                 'updated_at' => '2019-03-11 12:59:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             247 => 
             array (
@@ -38230,16 +42724,18 @@ class VictimaTableSeeder extends Seeder
                 'tbldepartamento_id' => 15,
                 'tblprovincia_id' => 128,
                 'tbldistrito_id' => 1282,
-                'nombre' => 'PARIAMACHI',
-                'apellido' => 'SANDOVAL',
+                'nombre' => 'MELANIE',
+                'apellido' => 'PARIAMACHI SANDOVAL',
                 'tbldocumento_id' => 2,
                 'nro_doc' => '47704847',
                 'edad' => 26,
                 'hijos' => 0,
                 'tbltipo_id' => 4,
                 'created_at' => '2019-03-11 15:20:28',
-                'updated_at' => '2019-03-11 15:20:28',
+                'updated_at' => '2019-03-21 13:13:30',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             248 => 
             array (
@@ -38257,6 +42753,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-11 15:23:11',
                 'updated_at' => '2019-03-11 15:23:11',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             249 => 
             array (
@@ -38274,6 +42772,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-11 15:29:37',
                 'updated_at' => '2019-03-11 15:29:37',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             250 => 
             array (
@@ -38291,6 +42791,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-11 15:31:55',
                 'updated_at' => '2019-03-11 15:31:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             251 => 
             array (
@@ -38308,6 +42810,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-11 15:33:23',
                 'updated_at' => '2019-03-11 15:33:23',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             252 => 
             array (
@@ -38325,6 +42829,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-11 15:34:47',
                 'updated_at' => '2019-03-11 15:34:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             253 => 
             array (
@@ -38342,6 +42848,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-11 15:34:47',
                 'updated_at' => '2019-03-11 15:34:47',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             254 => 
             array (
@@ -38359,6 +42867,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-11 15:36:17',
                 'updated_at' => '2019-03-11 15:36:17',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             255 => 
             array (
@@ -38376,6 +42886,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-12 10:27:31',
                 'updated_at' => '2019-03-12 10:27:31',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             256 => 
             array (
@@ -38393,6 +42905,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-12 10:28:50',
                 'updated_at' => '2019-03-12 10:28:50',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             257 => 
             array (
@@ -38410,6 +42924,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-13 10:57:44',
                 'updated_at' => '2019-03-13 10:57:44',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             258 => 
             array (
@@ -38427,6 +42943,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-13 10:59:34',
                 'updated_at' => '2019-03-13 10:59:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             259 => 
             array (
@@ -38444,6 +42962,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-13 11:01:28',
                 'updated_at' => '2019-03-13 11:01:28',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             260 => 
             array (
@@ -38461,6 +42981,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-13 11:12:01',
                 'updated_at' => '2019-03-13 11:12:01',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             261 => 
             array (
@@ -38478,6 +43000,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-13 16:14:55',
                 'updated_at' => '2019-03-13 16:14:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             262 => 
             array (
@@ -38495,6 +43019,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-13 16:16:29',
                 'updated_at' => '2019-03-13 16:16:29',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             263 => 
             array (
@@ -38512,6 +43038,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-14 10:25:34',
                 'updated_at' => '2019-03-14 10:25:34',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             264 => 
             array (
@@ -38529,6 +43057,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-14 11:24:55',
                 'updated_at' => '2019-03-14 11:24:55',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             265 => 
             array (
@@ -38546,6 +43076,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-14 11:29:46',
                 'updated_at' => '2019-03-14 11:29:46',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             266 => 
             array (
@@ -38563,6 +43095,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-14 11:33:25',
                 'updated_at' => '2019-03-14 11:33:25',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             267 => 
             array (
@@ -38580,6 +43114,8 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-14 11:40:53',
                 'updated_at' => '2019-03-14 11:40:53',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
             268 => 
             array (
@@ -38597,6 +43133,3067 @@ class VictimaTableSeeder extends Seeder
                 'created_at' => '2019-03-14 11:46:35',
                 'updated_at' => '2019-03-14 11:46:35',
                 'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            269 => 
+            array (
+                'id' => 2270,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'BRYHIGT ESTHEFANY',
+                'apellido' => 'BERECHE MORALESD',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '73008990',
+                'edad' => 18,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-18 14:28:19',
+                'updated_at' => '2019-03-18 14:28:19',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            270 => 
+            array (
+                'id' => 2271,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'BRIGITTE VALERIA',
+                'apellido' => 'ORDUÑA INTI',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '75324358',
+                'edad' => 17,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-18 14:43:57',
+                'updated_at' => '2019-03-18 14:43:57',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            271 => 
+            array (
+                'id' => 2272,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'MILAGROS OLGA',
+                'apellido' => 'MORAN CESPEDES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '40589144',
+                'edad' => 38,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-18 14:49:34',
+                'updated_at' => '2019-03-18 14:49:34',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            272 => 
+            array (
+                'id' => 2273,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'A U',
+                'apellido' => 'D P',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '00000003',
+                'edad' => 11,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-19 11:28:11',
+                'updated_at' => '2019-03-19 11:28:11',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            273 => 
+            array (
+                'id' => 2274,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'FORTUNATA',
+                'apellido' => 'VILLALBA OBREGON',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '00000005',
+                'edad' => 56,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-19 11:33:26',
+                'updated_at' => '2019-03-19 11:33:26',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            274 => 
+            array (
+                'id' => 2275,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'MASSIEL PRISCILA',
+                'apellido' => 'GARCIA EGUSQUIZA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '44395199',
+                'edad' => 32,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-19 11:37:47',
+                'updated_at' => '2019-03-19 11:37:47',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            275 => 
+            array (
+                'id' => 2276,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'LEOCADIO JUAN',
+                'apellido' => 'NEGREROS MENDOZA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '41621345',
+                'edad' => 36,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-03-19 11:47:59',
+                'updated_at' => '2019-03-19 11:47:59',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            276 => 
+            array (
+                'id' => 2277,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'ROSITA CAROLINA',
+                'apellido' => 'MALPARTIDA CANAYO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '46138666',
+                'edad' => 29,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-19 11:51:15',
+                'updated_at' => '2019-03-19 11:51:15',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            277 => 
+            array (
+                'id' => 2278,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'WALTER',
+                'apellido' => 'SOUZA RODRIGUEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '80113121',
+                'edad' => 39,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-03-19 11:53:14',
+                'updated_at' => '2019-03-19 11:53:14',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            278 => 
+            array (
+                'id' => 2279,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'VICTORIA',
+                'apellido' => 'AGUIDA EUSTAQUIO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '45588033',
+                'edad' => 30,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-21 12:58:55',
+                'updated_at' => '2019-03-21 12:58:55',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            279 => 
+            array (
+                'id' => 2280,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'BEATRIZ TEODORA',
+                'apellido' => 'QUIJANDRIA DIAZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '25454974',
+                'edad' => 59,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-21 13:03:44',
+                'updated_at' => '2019-03-21 13:03:44',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            280 => 
+            array (
+                'id' => 2281,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'OLIVER STICK',
+                'apellido' => 'PILLACA VIDAL',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '76178590',
+                'edad' => 15,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-21 13:08:38',
+                'updated_at' => '2019-03-21 13:18:50',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            281 => 
+            array (
+                'id' => 2282,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'MELANIE',
+                'apellido' => 'MELANIE',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '00000012',
+                'edad' => 20,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-21 13:12:54',
+                'updated_at' => '2019-03-21 13:12:54',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            282 => 
+            array (
+                'id' => 2283,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'ROSA MARIA',
+                'apellido' => 'CUEVA FERNANDEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '44849742',
+                'edad' => 31,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-21 13:23:20',
+                'updated_at' => '2019-03-21 13:23:20',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            283 => 
+            array (
+                'id' => 2284,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'SONIA',
+                'apellido' => 'VALLE PARE',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '44636346',
+                'edad' => 32,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-21 13:27:47',
+                'updated_at' => '2019-03-21 13:27:47',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            284 => 
+            array (
+                'id' => 2285,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'RAISA IRINA',
+                'apellido' => 'PINEDO PIZANGO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '00000006',
+                'edad' => 20,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-21 14:27:12',
+                'updated_at' => '2019-03-21 14:27:12',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            285 => 
+            array (
+                'id' => 2286,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'CARMEN DEL ROSARIO',
+                'apellido' => 'MAMANI MACEDO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '44444444',
+                'edad' => 30,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-21 15:16:28',
+                'updated_at' => '2019-03-21 15:16:28',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            286 => 
+            array (
+                'id' => 2287,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'MARIA PETRONILA',
+                'apellido' => 'DIAZ VASQUEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '45777545',
+                'edad' => 29,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-25 15:11:12',
+                'updated_at' => '2019-03-25 15:11:12',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            287 => 
+            array (
+                'id' => 2288,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'SEGUNDO MERCEDES',
+                'apellido' => 'AYAY CARRASCO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '26608357',
+                'edad' => 63,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-03-25 15:31:38',
+                'updated_at' => '2019-03-25 15:31:38',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            288 => 
+            array (
+                'id' => 2289,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'ALICIA ROSA',
+                'apellido' => 'HUNGARO TORIBIO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '44819237',
+                'edad' => 35,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-25 15:36:10',
+                'updated_at' => '2019-03-25 15:36:10',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            289 => 
+            array (
+                'id' => 2290,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'SHIRLEY KATHERINE',
+                'apellido' => 'SALAS NANURA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '72533825',
+                'edad' => 20,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-25 15:42:30',
+                'updated_at' => '2019-03-25 15:42:30',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            290 => 
+            array (
+                'id' => 2291,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1319,
+                'nombre' => 'MARIA ISABEL',
+                'apellido' => 'CORONEL URIARTE',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '44347246',
+                'edad' => 31,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-25 15:47:25',
+                'updated_at' => '2019-03-25 15:47:25',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            291 => 
+            array (
+                'id' => 2292,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1319,
+                'nombre' => 'SENAIDA MARGARITA',
+                'apellido' => 'CONDORI CCOICCA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '41374760',
+                'edad' => 37,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-25 15:51:11',
+                'updated_at' => '2019-03-25 15:51:11',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            292 => 
+            array (
+                'id' => 2293,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1319,
+                'nombre' => 'JUVINO EULOGIO',
+                'apellido' => 'ZUÑIGA TOLEDO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '22476501',
+                'edad' => 51,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-03-25 15:57:26',
+                'updated_at' => '2019-03-25 15:57:26',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            293 => 
+            array (
+                'id' => 2294,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'PATTY',
+                'apellido' => 'TALAVERA DE LA CRUZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '40176603',
+                'edad' => 39,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-26 15:46:59',
+                'updated_at' => '2019-03-26 15:46:59',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            294 => 
+            array (
+                'id' => 2295,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'H.D',
+                'apellido' => 'R.Z',
+                'tbldocumento_id' => 3,
+                'nro_doc' => '0',
+                'edad' => 11,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-26 17:24:57',
+                'updated_at' => '2019-03-26 17:24:57',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            295 => 
+            array (
+                'id' => 2296,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'GABY',
+                'apellido' => 'PALACIOS SANTOS',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '77152536',
+                'edad' => 20,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-26 17:31:00',
+                'updated_at' => '2019-03-26 17:31:00',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            296 => 
+            array (
+                'id' => 2297,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'MARCO OBLITAS',
+                'apellido' => 'ENRIQUE MENACHO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '41696725',
+                'edad' => 35,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-03-26 17:37:06',
+                'updated_at' => '2019-03-26 17:37:06',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            297 => 
+            array (
+                'id' => 2298,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'ALICIA',
+                'apellido' => 'RAVINES TORRES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '43880264',
+                'edad' => 35,
+                'hijos' => 1,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-26 17:41:13',
+                'updated_at' => '2019-03-26 17:41:13',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            298 => 
+            array (
+                'id' => 2299,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'A.L',
+                'apellido' => 'B.R',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '1',
+                'edad' => 16,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-26 17:42:38',
+                'updated_at' => '2019-03-26 17:42:38',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            299 => 
+            array (
+                'id' => 2300,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'JENNIFER VANESA',
+                'apellido' => 'QUEZADA ROJAS',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '74980733',
+                'edad' => 20,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-26 17:47:22',
+                'updated_at' => '2019-03-26 17:47:22',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            300 => 
+            array (
+                'id' => 2301,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'LAURA',
+                'apellido' => 'IPANAQUE SANCHEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '05643010',
+                'edad' => 41,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-26 17:57:17',
+                'updated_at' => '2019-03-26 17:57:17',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            301 => 
+            array (
+                'id' => 2302,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'ELENA YERALDE',
+                'apellido' => 'CADILLO CHAVEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '40406912',
+                'edad' => 39,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-26 18:03:28',
+                'updated_at' => '2019-03-26 18:03:28',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            302 => 
+            array (
+                'id' => 2303,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'WILMA',
+                'apellido' => 'CHANCARI FLORES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '47528429',
+                'edad' => 27,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-26 18:06:32',
+                'updated_at' => '2019-03-26 18:06:32',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            303 => 
+            array (
+                'id' => 2304,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'MELIZABETH MILENI',
+                'apellido' => 'TIZNADO PERALTA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '70932133',
+                'edad' => 21,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 09:23:33',
+                'updated_at' => '2019-03-27 09:23:33',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            304 => 
+            array (
+                'id' => 2305,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'NEYVA MARISOL',
+                'apellido' => 'NUÑEZ REQUEJO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '48498163',
+                'edad' => 28,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 09:40:37',
+                'updated_at' => '2019-03-27 09:40:37',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            305 => 
+            array (
+                'id' => 2306,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'MARIA',
+                'apellido' => 'SANCARRANCO CARHUAPOMA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '42003830',
+                'edad' => 40,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 09:44:11',
+                'updated_at' => '2019-03-27 09:44:11',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            306 => 
+            array (
+                'id' => 2307,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'ANGELICA',
+                'apellido' => 'DIAZ GUEVARA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '44008303',
+                'edad' => 37,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 09:49:12',
+                'updated_at' => '2019-03-27 09:49:12',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            307 => 
+            array (
+                'id' => 2308,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'DIONILA',
+                'apellido' => 'GUERRERO NUÑEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '01052721',
+                'edad' => 58,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 09:53:21',
+                'updated_at' => '2019-03-27 09:53:57',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            308 => 
+            array (
+                'id' => 2309,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'P',
+                'apellido' => 'R.L',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '2',
+                'edad' => 13,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-27 10:03:02',
+                'updated_at' => '2019-03-27 10:03:02',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            309 => 
+            array (
+                'id' => 2310,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'JHULISSA',
+                'apellido' => 'LOPEZ LOPEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '40678954',
+                'edad' => 38,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 10:31:16',
+                'updated_at' => '2019-03-27 10:31:16',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            310 => 
+            array (
+                'id' => 2311,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'MEYRI',
+                'apellido' => 'PALACIOS PEÑA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '80337464',
+                'edad' => 39,
+                'hijos' => 3,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 10:38:20',
+                'updated_at' => '2019-03-27 10:38:20',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            311 => 
+            array (
+                'id' => 2312,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'J.O',
+                'apellido' => 'H.S',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '10',
+                'edad' => 16,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-27 10:46:26',
+                'updated_at' => '2019-03-27 10:46:26',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            312 => 
+            array (
+                'id' => 2313,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'MICHELL MARIA',
+                'apellido' => 'TALAVERANO ROSALES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '76094888',
+                'edad' => 21,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 10:50:02',
+                'updated_at' => '2019-03-27 10:50:02',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            313 => 
+            array (
+                'id' => 2314,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'CELIA',
+                'apellido' => 'BRUNO RAMIREZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '40555230',
+                'edad' => 37,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 10:53:39',
+                'updated_at' => '2019-03-27 10:53:39',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            314 => 
+            array (
+                'id' => 2315,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'HENRY AMERICO',
+                'apellido' => 'PERALTA CASTILLO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '09909204',
+                'edad' => 45,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-03-27 11:02:26',
+                'updated_at' => '2019-03-27 11:02:26',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            315 => 
+            array (
+                'id' => 2316,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'ROBESLITA',
+                'apellido' => 'MELGAREJO SANCHEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '32731207',
+                'edad' => 42,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 11:07:55',
+                'updated_at' => '2019-03-27 11:07:55',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            316 => 
+            array (
+                'id' => 2317,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'GRISELDA YENNY',
+                'apellido' => 'RUIZ LOAYZA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '08661144',
+                'edad' => 54,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 11:11:42',
+                'updated_at' => '2019-03-27 11:11:42',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            317 => 
+            array (
+                'id' => 2318,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'MARIA ELIZABETH',
+                'apellido' => 'GARCIA VILLAFUERTE',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '07634715',
+                'edad' => 43,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 11:16:07',
+                'updated_at' => '2019-03-27 11:16:07',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            318 => 
+            array (
+                'id' => 2319,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'NAY RUT',
+                'apellido' => 'SALAS GAYOSO DE HURTADO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '43618058',
+                'edad' => 32,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 11:21:39',
+                'updated_at' => '2019-03-27 11:21:39',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            319 => 
+            array (
+                'id' => 2320,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'TITO ANDREO',
+                'apellido' => 'RUIZ SILVA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '76926377',
+                'edad' => 19,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-03-27 11:26:32',
+                'updated_at' => '2019-03-27 11:26:32',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            320 => 
+            array (
+                'id' => 2321,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'D.E',
+                'apellido' => 'P.T',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '123',
+                'edad' => 9,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-27 11:32:24',
+                'updated_at' => '2019-03-27 11:32:24',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            321 => 
+            array (
+                'id' => 2322,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'TERESA GLORIA',
+                'apellido' => 'CARHUAYANO MURGA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '48610471',
+                'edad' => 38,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 11:35:39',
+                'updated_at' => '2019-03-27 11:35:39',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            322 => 
+            array (
+                'id' => 2323,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'GAUDENCIA',
+                'apellido' => 'COSTALES AREVALO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '09781579',
+                'edad' => 46,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 15:08:09',
+                'updated_at' => '2019-03-27 15:08:09',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            323 => 
+            array (
+                'id' => 2324,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'R',
+                'apellido' => 'T.C',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '02',
+                'edad' => 15,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-27 15:09:43',
+                'updated_at' => '2019-03-27 15:09:43',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            324 => 
+            array (
+                'id' => 2325,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'H.P',
+                'apellido' => 'Y.C',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '56',
+                'edad' => 16,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-27 15:36:43',
+                'updated_at' => '2019-03-27 15:36:43',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            325 => 
+            array (
+                'id' => 2326,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'JHANET MONICA',
+                'apellido' => 'SULLCARAY QUISPE',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '74309543',
+                'edad' => 22,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 15:47:33',
+                'updated_at' => '2019-03-27 15:47:33',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            326 => 
+            array (
+                'id' => 2327,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'CRISTINA',
+                'apellido' => 'PUMA TACO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '40006041',
+                'edad' => 40,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 16:17:01',
+                'updated_at' => '2019-03-27 16:17:01',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            327 => 
+            array (
+                'id' => 2328,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'RAQUEL GLADYS',
+                'apellido' => 'PAYANO ALMONACID',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '40777408',
+                'edad' => 38,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 16:20:29',
+                'updated_at' => '2019-03-27 16:20:29',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            328 => 
+            array (
+                'id' => 2329,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'HILDA',
+                'apellido' => 'VASQUEZ ARTERIO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '45263814',
+                'edad' => 30,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 16:23:37',
+                'updated_at' => '2019-03-27 16:23:37',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            329 => 
+            array (
+                'id' => 2330,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'S',
+                'apellido' => 'T.V',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '5',
+                'edad' => 9,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-27 16:24:11',
+                'updated_at' => '2019-03-27 16:24:11',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            330 => 
+            array (
+                'id' => 2331,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'M.E',
+                'apellido' => 'S.C',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '6',
+                'edad' => 13,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-27 16:55:04',
+                'updated_at' => '2019-03-27 16:55:04',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            331 => 
+            array (
+                'id' => 2332,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'JESSICA FABIOLA',
+                'apellido' => 'RODRIGUEZ FIGUEROA DE CASTAÑEDA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '06805334',
+                'edad' => 40,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 17:04:43',
+                'updated_at' => '2019-03-27 17:04:43',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            332 => 
+            array (
+                'id' => 2333,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'DARIA ELVIRA',
+                'apellido' => 'CARHUANCO ESPINOZA DE QUISPE',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '23657073',
+                'edad' => 62,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 17:07:48',
+                'updated_at' => '2019-03-27 17:07:48',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            333 => 
+            array (
+                'id' => 2334,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'JULIA',
+                'apellido' => 'PEREYRA AYALA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '25804304',
+                'edad' => 50,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 17:17:17',
+                'updated_at' => '2019-03-27 17:17:17',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            334 => 
+            array (
+                'id' => 2335,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'L',
+                'apellido' => 'T.P',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '9',
+                'edad' => 17,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-27 17:18:14',
+                'updated_at' => '2019-03-27 17:19:09',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            335 => 
+            array (
+                'id' => 2336,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'JHOSIMAR RICARDO',
+                'apellido' => 'DIAZ RODRIGUEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '45424524',
+                'edad' => 31,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-03-27 17:24:16',
+                'updated_at' => '2019-03-27 17:24:16',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            336 => 
+            array (
+                'id' => 2337,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'RUBEN LEONARDO',
+                'apellido' => 'VALDEZ SOTO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '44088350',
+                'edad' => 31,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-03-27 17:28:02',
+                'updated_at' => '2019-03-27 17:28:02',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            337 => 
+            array (
+                'id' => 2338,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'JUANA',
+                'apellido' => 'DIAZ TAPARA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '19887665',
+                'edad' => 58,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 17:35:43',
+                'updated_at' => '2019-03-27 17:35:43',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            338 => 
+            array (
+                'id' => 2339,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'FELIPÉ ADALBERTO',
+                'apellido' => 'ELIAS PEREZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '44291983',
+                'edad' => 32,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-03-27 17:38:56',
+                'updated_at' => '2019-03-27 17:38:56',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            339 => 
+            array (
+                'id' => 2340,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'MARIA LUCELINA',
+                'apellido' => 'ROJAS GIL',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '45997149',
+                'edad' => 32,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 17:43:43',
+                'updated_at' => '2019-03-27 17:43:43',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            340 => 
+            array (
+                'id' => 2341,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'ENA MADALI',
+                'apellido' => 'FERNANDEZ ESPINOZA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '46327388',
+                'edad' => 46327388,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 17:47:19',
+                'updated_at' => '2019-03-27 17:47:19',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            341 => 
+            array (
+                'id' => 2342,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'MARCELA BEATRIZ',
+                'apellido' => 'JAUCHA RIVERA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '46306121',
+                'edad' => 37,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-27 17:56:20',
+                'updated_at' => '2019-03-27 17:56:20',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            342 => 
+            array (
+                'id' => 2343,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'MENOR DE INICIALES',
+                'apellido' => 'P.T.D.E.',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '555555555',
+                'edad' => 9,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-27 18:12:32',
+                'updated_at' => '2019-03-27 18:12:32',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            343 => 
+            array (
+                'id' => 2344,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'ELENA TERESA',
+                'apellido' => 'BLAS CUEVAS',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '40782689',
+                'edad' => 38,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-28 08:39:56',
+                'updated_at' => '2019-03-28 08:39:56',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            344 => 
+            array (
+                'id' => 2345,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'JENESIS ALMENDRA',
+                'apellido' => 'HUAMAN ROBLES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '76031896',
+                'edad' => 23,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-28 09:24:33',
+                'updated_at' => '2019-03-28 09:24:33',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            345 => 
+            array (
+                'id' => 2346,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'NILER',
+                'apellido' => 'JACINTO AGUILAR',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '46513429',
+                'edad' => 28,
+                'hijos' => 2,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-28 10:37:07',
+                'updated_at' => '2019-03-28 10:43:27',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            346 => 
+            array (
+                'id' => 2347,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'LIZBETH STEPHANY',
+                'apellido' => 'CCAMA JULCA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '70365418',
+                'edad' => 25,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-28 11:38:14',
+                'updated_at' => '2019-03-28 11:38:14',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            347 => 
+            array (
+                'id' => 2348,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'DONATO',
+                'apellido' => 'CIRIACO MAGUIÑA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '10377660',
+                'edad' => 67,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-03-28 12:17:26',
+                'updated_at' => '2019-03-28 12:17:26',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            348 => 
+            array (
+                'id' => 2349,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'BETTY',
+                'apellido' => 'RODRIGUEZ REYES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '44912503',
+                'edad' => 33,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-29 10:14:34',
+                'updated_at' => '2019-03-29 10:14:34',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            349 => 
+            array (
+                'id' => 2350,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'T E',
+                'apellido' => 'V S',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '00200200',
+                'edad' => 17,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-29 11:19:46',
+                'updated_at' => '2019-03-29 11:19:46',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            350 => 
+            array (
+                'id' => 2351,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'GABY PAMELA',
+                'apellido' => 'CHACCI FLORES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '70756370',
+                'edad' => 24,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-29 12:24:29',
+                'updated_at' => '2019-03-29 12:24:29',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            351 => 
+            array (
+                'id' => 2352,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'G.E',
+                'apellido' => 'V.S',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '7',
+                'edad' => 1,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-03-29 13:30:18',
+                'updated_at' => '2019-03-29 13:30:18',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            352 => 
+            array (
+                'id' => 2353,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'ELSA',
+                'apellido' => 'SANCHEZ LOBATO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '42270275',
+                'edad' => 38,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-29 14:42:45',
+                'updated_at' => '2019-03-29 14:42:45',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            353 => 
+            array (
+                'id' => 2354,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'PAMELA ESPERANZA',
+                'apellido' => 'CASTILLO SALCEDO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '47772194',
+                'edad' => 27,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-29 14:46:10',
+                'updated_at' => '2019-03-29 14:46:10',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            354 => 
+            array (
+                'id' => 2355,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1319,
+                'nombre' => 'ERIKA CARMEN',
+                'apellido' => 'CARRIZO SORIA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '44189082',
+                'edad' => 32,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-03-29 16:37:33',
+                'updated_at' => '2019-03-29 16:37:33',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            355 => 
+            array (
+                'id' => 2356,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'GISELA MARIA',
+                'apellido' => 'CUADROS UTIA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '10615607',
+                'edad' => 43,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-03 08:31:59',
+                'updated_at' => '2019-04-03 08:31:59',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            356 => 
+            array (
+                'id' => 2357,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'HEBERSINEO',
+                'apellido' => 'YAURI CCANTO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '07752857',
+                'edad' => 49,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-04-03 17:25:19',
+                'updated_at' => '2019-04-03 17:25:19',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            357 => 
+            array (
+                'id' => 2358,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'FLOR DE JESUS',
+                'apellido' => 'CHUMPATE PAITAMPOMA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '47626036',
+                'edad' => 26,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-03 17:30:30',
+                'updated_at' => '2019-04-03 17:30:30',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            358 => 
+            array (
+                'id' => 2359,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'V.E',
+                'apellido' => 'C.C',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '97',
+                'edad' => 1,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-03 17:31:47',
+                'updated_at' => '2019-04-03 17:31:47',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            359 => 
+            array (
+                'id' => 2360,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'A.G',
+                'apellido' => 'K.L',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '567',
+                'edad' => 8,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-03 17:33:12',
+                'updated_at' => '2019-04-03 17:33:12',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            360 => 
+            array (
+                'id' => 2361,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'A.G',
+                'apellido' => 'L.C',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '654',
+                'edad' => 6,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-03 17:33:48',
+                'updated_at' => '2019-04-03 17:33:48',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            361 => 
+            array (
+                'id' => 2362,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'A.G',
+                'apellido' => 'L.C',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '753',
+                'edad' => 4,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-03 17:34:18',
+                'updated_at' => '2019-04-03 17:34:18',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            362 => 
+            array (
+                'id' => 2363,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'T.G',
+                'apellido' => 'L.C',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '951',
+                'edad' => 2,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-03 17:34:47',
+                'updated_at' => '2019-04-03 17:34:47',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            363 => 
+            array (
+                'id' => 2364,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'RANDY ROISER',
+                'apellido' => 'DE SOUZA MARIN',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '73432276',
+                'edad' => 26,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-04-03 17:40:05',
+                'updated_at' => '2019-04-03 17:40:05',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            364 => 
+            array (
+                'id' => 2365,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'GRACE NICOLLE',
+                'apellido' => 'BARRERA RODRIGUEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '75441909',
+                'edad' => 22,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-03 17:53:57',
+                'updated_at' => '2019-04-03 17:53:57',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            365 => 
+            array (
+                'id' => 2366,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'N.J',
+                'apellido' => 'P.B',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '6532',
+                'edad' => 5,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-03 17:54:28',
+                'updated_at' => '2019-04-03 17:54:28',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            366 => 
+            array (
+                'id' => 2367,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'G.A.R',
+                'apellido' => 'P.B',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '852',
+                'edad' => 4,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-03 17:54:57',
+                'updated_at' => '2019-04-03 17:54:57',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            367 => 
+            array (
+                'id' => 2368,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'G.T.A',
+                'apellido' => 'P.B',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '95632',
+                'edad' => 2,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-03 17:55:35',
+                'updated_at' => '2019-04-03 17:55:35',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            368 => 
+            array (
+                'id' => 2369,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'Y.S',
+                'apellido' => 'C.C',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '85624',
+                'edad' => 14,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-03 18:01:27',
+                'updated_at' => '2019-04-03 18:03:55',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            369 => 
+            array (
+                'id' => 2370,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'K.D',
+                'apellido' => 'C.C',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '7546',
+                'edad' => 7,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-03 18:02:41',
+                'updated_at' => '2019-04-03 18:02:41',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            370 => 
+            array (
+                'id' => 2371,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'KARINA',
+                'apellido' => 'HUASASQUICHE ESPICHAN',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '80465867',
+                'edad' => 0,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-04 08:12:25',
+                'updated_at' => '2019-04-04 08:12:25',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            371 => 
+            array (
+                'id' => 2372,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'JESUS EDUARDO JOSE',
+                'apellido' => 'CUMPA HUASASQUICHE',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '12121212',
+                'edad' => 0,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-04 08:20:02',
+                'updated_at' => '2019-04-04 08:20:02',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            372 => 
+            array (
+                'id' => 2373,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'CATALINA YOLANDA',
+                'apellido' => 'PORRAS MERGE',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '71433719',
+                'edad' => 26,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-05 08:54:32',
+                'updated_at' => '2019-04-05 08:54:32',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            373 => 
+            array (
+                'id' => 2374,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'EDITH ANGELICA',
+                'apellido' => 'PACHECO CCENTA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '25825575',
+                'edad' => 42,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-05 09:00:41',
+                'updated_at' => '2019-04-05 09:00:41',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            374 => 
+            array (
+                'id' => 2375,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'DELMER DANILO',
+                'apellido' => 'QUISPE CASTRO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '25817905',
+                'edad' => 42,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-05 09:06:11',
+                'updated_at' => '2019-04-05 09:06:11',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            375 => 
+            array (
+                'id' => 2376,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'YESENIA VICTORIA',
+                'apellido' => 'CURO PUMA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '46925970',
+                'edad' => 30,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-05 09:11:08',
+                'updated_at' => '2019-04-05 09:11:08',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            376 => 
+            array (
+                'id' => 2377,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1301,
+                'nombre' => 'JULIANA SARA',
+                'apellido' => 'VALDEZ SOTO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '44047898',
+                'edad' => 37,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-08 09:13:13',
+                'updated_at' => '2019-04-08 09:13:13',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MZ. C15 LR.8 MI PERU',
+            ),
+            377 => 
+            array (
+                'id' => 2378,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'LIZETH',
+                'apellido' => 'RETAMOZO LEONARDO DE GONZALES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '42033169',
+                'edad' => 35,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-08 11:05:33',
+                'updated_at' => '2019-04-08 11:05:33',
+                'deleted_at' => NULL,
+                'telefono' => '971362891',
+                'direccion' => 'ASOC POPULAR LOMAS DE ANCON MZ 22 LT 06',
+            ),
+            378 => 
+            array (
+                'id' => 2379,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1319,
+                'nombre' => 'IRMA',
+                'apellido' => 'BUSTAMANTE ROMERO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '77075588',
+                'edad' => 22,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-08 11:12:39',
+                'updated_at' => '2019-04-08 11:12:39',
+                'deleted_at' => NULL,
+                'telefono' => '995809860',
+                'direccion' => 'ASOC VIV MARISCAL CASTILLA MZ G LT 10',
+            ),
+            379 => 
+            array (
+                'id' => 2380,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1319,
+                'nombre' => 'MARILY JARLIER',
+                'apellido' => 'CALIXTO CERVANTES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '11223344',
+                'edad' => 29,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-08 11:17:30',
+                'updated_at' => '2019-04-08 11:20:48',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            380 => 
+            array (
+                'id' => 2381,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1319,
+                'nombre' => 'ADAM',
+                'apellido' => 'ALBUJAR ACUÑA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '13131313',
+                'edad' => 36,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-04-08 11:20:15',
+                'updated_at' => '2019-04-08 11:20:15',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'ASOC VIV BRIZAS DE SANTA ROSA',
+            ),
+            381 => 
+            array (
+                'id' => 2382,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1319,
+                'nombre' => 'KARINA',
+                'apellido' => 'GUTIERREZ SANI',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '47610173',
+                'edad' => 26,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-08 11:33:06',
+                'updated_at' => '2019-04-08 11:33:06',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'ASOC PRO VIV PROFAN PERU MZ D LT 7 SECTOR 2',
+            ),
+            382 => 
+            array (
+                'id' => 2383,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'FIORELLA',
+                'apellido' => 'ADRIAN SILVA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '74543540',
+                'edad' => 18,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-08 11:38:32',
+                'updated_at' => '2019-04-08 11:38:32',
+                'deleted_at' => NULL,
+                'telefono' => '918456798',
+                'direccion' => 'MZ K LT 29 ESTERAS II ANCON',
+            ),
+            383 => 
+            array (
+                'id' => 2384,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 133,
+                'tbldistrito_id' => 1357,
+                'nombre' => 'MARIA YOLANDA',
+                'apellido' => 'FARROÑAN REINOZA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '41673216',
+                'edad' => 36,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-08 11:44:02',
+                'updated_at' => '2019-04-08 11:44:02',
+                'deleted_at' => NULL,
+                'telefono' => '935787633',
+                'direccion' => 'AAHH VIRGEN DE LAS MERCEDES MZ A21 LT 05',
+            ),
+            384 => 
+            array (
+                'id' => 2385,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'ADRIANA JHOSELYN',
+                'apellido' => 'TABOADA TAMAYO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '700421110',
+                'edad' => 26,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-08 11:51:02',
+                'updated_at' => '2019-04-08 11:51:02',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'JR TACNA 530 URB SANTA ROSA',
+            ),
+            385 => 
+            array (
+                'id' => 2386,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'SARA CARMEN',
+                'apellido' => 'LOPEZ TORRES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '06259531',
+                'edad' => 51,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-08 12:07:11',
+                'updated_at' => '2019-04-08 12:07:11',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'AAHH LAS ESTERAS MZ K LT 07',
+            ),
+            386 => 
+            array (
+                'id' => 2387,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'SANDRA ESTHEFANY',
+                'apellido' => 'FLORES LOPEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '70039193',
+                'edad' => 24,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-08 12:09:45',
+                'updated_at' => '2019-04-08 12:09:45',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'AAHH ESTERAS MZ K LT 07',
+            ),
+            387 => 
+            array (
+                'id' => 2388,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'MARLENE',
+                'apellido' => 'FLORES INUACARI',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '42072392',
+                'edad' => 37,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-08 16:20:54',
+                'updated_at' => '2019-04-08 16:20:54',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MZ A LT 03 AA.HH LAS LADERAS PACHACUTEC',
+            ),
+            388 => 
+            array (
+                'id' => 2389,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'GONZALO GUALBERTO',
+                'apellido' => 'CUMPA MIO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '17615818',
+                'edad' => 47,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-04-08 16:39:54',
+                'updated_at' => '2019-04-08 16:39:54',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'LT 17 MZ G AA.HH 4 SUYOS- PACHACUTEC',
+            ),
+            389 => 
+            array (
+                'id' => 2390,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'RAQUEL',
+                'apellido' => 'YLLANEZ TAYPE',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '48917372',
+                'edad' => 27,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-08 16:52:48',
+                'updated_at' => '2019-04-08 16:53:04',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MZ K LY 32 PPN PACHACUTEC SEC E GR E2',
+            ),
+            390 => 
+            array (
+                'id' => 2391,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'STEPHANIE YESENIA',
+                'apellido' => 'VILCAMANGO DIAZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '70015608',
+                'edad' => 27,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-09 08:43:54',
+                'updated_at' => '2019-04-09 08:43:54',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'A.H.R. MI PERU MZ J5 LT 18',
+            ),
+            391 => 
+            array (
+                'id' => 2392,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'SHEYLA ABIGAIL',
+                'apellido' => 'SANTOS ROJAS',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '72480893',
+                'edad' => 22,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-09 09:01:25',
+                'updated_at' => '2019-04-09 09:01:25',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MI PERU',
+            ),
+            392 => 
+            array (
+                'id' => 2393,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1305,
+                'nombre' => 'LINDA MARIELA',
+                'apellido' => 'LOAYZA LLAVILLA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '73442976',
+                'edad' => 21,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-09 09:17:57',
+                'updated_at' => '2019-04-09 09:17:57',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'PROG. SANTA JOSEFINA',
+            ),
+            393 => 
+            array (
+                'id' => 2394,
+                'tbldepartamento_id' => 12,
+                'tblprovincia_id' => 107,
+                'tbldistrito_id' => 1085,
+                'nombre' => 'FREDY LUIS',
+                'apellido' => 'SOTO CORNEJO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '45389986',
+                'edad' => 34,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-04-09 09:28:42',
+                'updated_at' => '2019-04-09 09:28:42',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'AV. HEROES DEL CENEPA NRO.386',
+            ),
+            394 => 
+            array (
+                'id' => 2395,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'ANA CRISTINA',
+                'apellido' => 'ALVITEZ DELGADO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '79136057',
+                'edad' => 0,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-09 09:45:58',
+                'updated_at' => '2019-04-09 09:45:58',
+                'deleted_at' => NULL,
+                'telefono' => '970324180',
+                'direccion' => 'MZ E1 LOT 02 AAHH MI PERU',
+            ),
+            395 => 
+            array (
+                'id' => 2396,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'EDMUNDO EDINSON',
+                'apellido' => 'LOPEZ CASTRO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '40507481',
+                'edad' => 38,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-04-09 09:52:17',
+                'updated_at' => '2019-04-09 09:52:17',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MZ B-6 LT 7 MI PERU',
+            ),
+            396 => 
+            array (
+                'id' => 2397,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'JOHANY',
+                'apellido' => 'RUIZ VEGA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '25725314',
+                'edad' => 47,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-09 09:56:02',
+                'updated_at' => '2019-04-09 09:56:02',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            397 => 
+            array (
+                'id' => 2398,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'T A',
+                'apellido' => 'Q R',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '0000000',
+                'edad' => 4,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-09 09:57:40',
+                'updated_at' => '2019-04-09 09:57:40',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            398 => 
+            array (
+                'id' => 2399,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'SARA DE JESUS',
+                'apellido' => 'RUPAY BECERRA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '25818218',
+                'edad' => 42,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-09 10:05:40',
+                'updated_at' => '2019-04-09 10:05:40',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            399 => 
+            array (
+                'id' => 2400,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'MAGDALENA',
+                'apellido' => 'NAVARRO QUISPE',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '03600826',
+                'edad' => 0,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-09 10:12:53',
+                'updated_at' => '2019-04-09 10:12:53',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            400 => 
+            array (
+                'id' => 2401,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'KAROLAY MARLENY',
+                'apellido' => 'DURAN TTITO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '70988254',
+                'edad' => 26,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-09 10:47:53',
+                'updated_at' => '2019-04-09 10:47:53',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            401 => 
+            array (
+                'id' => 2402,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'PEDRO DELFIN',
+                'apellido' => 'HUAMAN FONSECA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '07406815',
+                'edad' => 69,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-04-09 10:51:17',
+                'updated_at' => '2019-04-09 10:51:17',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            402 => 
+            array (
+                'id' => 2403,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'JAKELINE ELIZABETH',
+                'apellido' => 'HUAYLINOS FERNANDEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '48555989',
+                'edad' => 0,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-09 10:56:16',
+                'updated_at' => '2019-04-09 10:56:16',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            403 => 
+            array (
+                'id' => 2404,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'SILVIA ELIZABETH',
+                'apellido' => 'MONTOYA INUMA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '44699855',
+                'edad' => 33,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-09 11:36:06',
+                'updated_at' => '2019-04-09 11:36:06',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            404 => 
+            array (
+                'id' => 2405,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'MARIA ISABEL',
+                'apellido' => 'MENDEZ SALDARRIAGA DE DIAZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '10480703',
+                'edad' => 45,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-09 11:43:15',
+                'updated_at' => '2019-04-09 11:43:15',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MZ I LT 29 I SEC. AA.HH NUEVO PACHACUTEC',
+            ),
+            405 => 
+            array (
+                'id' => 2406,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1283,
+                'nombre' => 'RUBY',
+                'apellido' => 'VARILLAS FLORES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '10726334',
+                'edad' => 41,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-09 11:47:43',
+                'updated_at' => '2019-04-09 11:48:16',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'ASOC. GIRASOL MZ A LT 09- ATE',
+            ),
+            406 => 
+            array (
+                'id' => 2407,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'YOBANA SOLEDAD',
+                'apellido' => 'PACHECO PORTILLA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '42503462',
+                'edad' => 32,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-09 17:02:55',
+                'updated_at' => '2019-04-09 17:02:55',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            407 => 
+            array (
+                'id' => 2408,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'OCTAVIA',
+                'apellido' => 'LLACCTA ROMERO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '23471457',
+                'edad' => 41,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-10 09:00:37',
+                'updated_at' => '2019-04-10 09:00:37',
+                'deleted_at' => NULL,
+                'telefono' => '949739321',
+                'direccion' => 'ASOC POPULAR LAS LOMAS DE ANCON MZ 64 LT 3',
+            ),
+            408 => 
+            array (
+                'id' => 2409,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'L.A',
+                'apellido' => 'DLC A',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '85649',
+                'edad' => 14,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-10 12:06:07',
+                'updated_at' => '2019-04-10 12:06:07',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            409 => 
+            array (
+                'id' => 2410,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'LUCIA MARILU',
+                'apellido' => 'ALDANA DAMIAN',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '45281888',
+                'edad' => 32,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-10 12:07:33',
+                'updated_at' => '2019-04-10 12:07:33',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            410 => 
+            array (
+                'id' => 2411,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'GRACE NICOLLE',
+                'apellido' => 'BARREDA RODRIGUEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '754419099',
+                'edad' => 27,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-10 12:15:33',
+                'updated_at' => '2019-04-10 12:15:33',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            411 => 
+            array (
+                'id' => 2412,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'GRACIELA',
+                'apellido' => 'MENDOZA VALDEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '45583026',
+                'edad' => 34,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-11 08:42:42',
+                'updated_at' => '2019-04-11 08:42:42',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MZ.M-3 LT.60 ASENT.H.MI PERU AMPLIACION',
+            ),
+            412 => 
+            array (
+                'id' => 2413,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'LESLIE',
+                'apellido' => 'ROMERO TAPIA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '74375121',
+                'edad' => 0,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-11 08:52:31',
+                'updated_at' => '2019-04-11 08:52:31',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MI PERU MZ. M7 LT.1',
+            ),
+            413 => 
+            array (
+                'id' => 2414,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'PRINCESA MILAGROS',
+                'apellido' => 'INGA GONZALES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '45520830',
+                'edad' => 32,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-11 09:08:28',
+                'updated_at' => '2019-04-11 09:08:28',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MI PERU MZ.H-11 LT.41',
+            ),
+            414 => 
+            array (
+                'id' => 2415,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'GUMERCINDA RENEE',
+                'apellido' => 'GONZALES LARA DE SAND',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '25723143',
+                'edad' => 69,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-11 09:13:42',
+                'updated_at' => '2019-04-11 09:13:42',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            415 => 
+            array (
+                'id' => 2416,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'EPIFANIA JULIA',
+                'apellido' => 'MOLINA ESTRADA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '25822441',
+                'edad' => 67,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-11 09:25:38',
+                'updated_at' => '2019-04-11 09:25:38',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'ASENT. H. SAGRADO CORAZON DE JESUS',
+            ),
+            416 => 
+            array (
+                'id' => 2417,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'ANA MARIA',
+                'apellido' => 'CARRASCO LIVIA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '45582498',
+                'edad' => 35,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-11 11:10:59',
+                'updated_at' => '2019-04-11 11:10:59',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MZ B1 LT 02 AA.HH HIROSHIMA',
+            ),
+            417 => 
+            array (
+                'id' => 2418,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'ANA MARIA',
+                'apellido' => 'CARRILLO LIBERATO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '40500745',
+                'edad' => 39,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-11 11:17:14',
+                'updated_at' => '2019-04-11 11:17:14',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MZ A LT 30 AA.HH OASIS DE PACHACUTEC 1 SECTOR',
+            ),
+            418 => 
+            array (
+                'id' => 2419,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'FLOR DE MARIA',
+                'apellido' => 'VALDIVIEZO HUAYAMA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '03238736',
+                'edad' => 42,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-11 11:23:12',
+                'updated_at' => '2019-04-11 11:23:12',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'SECT D MZ T LT 24 GR D1 PPN PACHACUTEC',
+            ),
+            419 => 
+            array (
+                'id' => 2420,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'YOJANA',
+                'apellido' => 'AGUILAR VINCES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '80607361',
+                'edad' => 58,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-11 11:30:15',
+                'updated_at' => '2019-04-11 11:30:15',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MZ O LT 20 2DO SECTOR SAN CARLOS',
+            ),
+            420 => 
+            array (
+                'id' => 2421,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'FELIPA',
+                'apellido' => 'HUAMAN CHUQUICUSMA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '41107537',
+                'edad' => 38,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-11 11:33:53',
+                'updated_at' => '2019-04-11 11:33:53',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MZ N-3 LT 13 PACHACUTEC SECTOR A D.R A-2',
+            ),
+            421 => 
+            array (
+                'id' => 2422,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'MABEL',
+                'apellido' => 'MORALES FLORES',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '43594853',
+                'edad' => 32,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-11 11:37:28',
+                'updated_at' => '2019-04-11 11:37:28',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MZ P LT 6 C.H CIUDADELA PACHACUTEC SECTOR IV',
+            ),
+            422 => 
+            array (
+                'id' => 2423,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'JHONNY BRIAN',
+                'apellido' => 'ZAVALA CALLA',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '75432448',
+                'edad' => 21,
+                'hijos' => 0,
+                'tbltipo_id' => 2,
+                'created_at' => '2019-04-11 11:42:42',
+                'updated_at' => '2019-04-11 11:42:42',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'GRUPO RESIDENCIAL C-3 PACHACUTEC',
+            ),
+            423 => 
+            array (
+                'id' => 2424,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'YULY',
+                'apellido' => 'CALLA VELASQUEZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '43582477',
+                'edad' => 41,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-11 11:44:02',
+                'updated_at' => '2019-04-11 11:44:02',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MZ O LT 19 SECTOR C3 GR. C 3 AA.HH PROY. PILOTO NUEVO PACHACUTEC',
+            ),
+            424 => 
+            array (
+                'id' => 2425,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 695,
+                'nombre' => 'B',
+                'apellido' => 'Z.C',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '56489435',
+                'edad' => 13,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-11 11:46:15',
+                'updated_at' => '2019-04-11 11:46:15',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => 'MZ O LT 19 SECTOR C 3 GR C 3 AA.HH PPN PACHACUTEC',
+            ),
+            425 => 
+            array (
+                'id' => 2426,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'F C',
+                'apellido' => 'V A',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '15151515',
+                'edad' => 12,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-12 12:23:40',
+                'updated_at' => '2019-04-12 12:23:40',
+                'deleted_at' => NULL,
+                'telefono' => '962331061',
+                'direccion' => 'LOMAS DE ANCON MZ 85 LT 1',
+            ),
+            426 => 
+            array (
+                'id' => 2427,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1282,
+                'nombre' => 'LUISA SILVIA',
+                'apellido' => 'BENITES CASTILLO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '06545526',
+                'edad' => 52,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-12 12:32:58',
+                'updated_at' => '2019-04-12 12:32:58',
+                'deleted_at' => NULL,
+                'telefono' => '921923944',
+                'direccion' => 'URB SAN JOSE ANCON MZ N LT 04',
+            ),
+            427 => 
+            array (
+                'id' => 2428,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'SULENKA NICOLE',
+                'apellido' => 'LOPEZ BONIFAZ',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '77613093',
+                'edad' => 18,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-15 08:33:40',
+                'updated_at' => '2019-04-15 08:33:40',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            428 => 
+            array (
+                'id' => 2429,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'YALINA SUZETT',
+                'apellido' => 'MENDOZA CAMPOS',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '41927260',
+                'edad' => 36,
+                'hijos' => 0,
+                'tbltipo_id' => 4,
+                'created_at' => '2019-04-15 08:39:07',
+                'updated_at' => '2019-04-15 08:39:07',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
+            ),
+            429 => 
+            array (
+                'id' => 2430,
+                'tbldepartamento_id' => 7,
+                'tblprovincia_id' => 67,
+                'tbldistrito_id' => 696,
+                'nombre' => 'MABEL MARICIELO',
+                'apellido' => 'PURIZACA HUAMAN',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '76937377',
+                'edad' => 0,
+                'hijos' => 0,
+                'tbltipo_id' => 3,
+                'created_at' => '2019-04-15 08:51:48',
+                'updated_at' => '2019-04-15 08:51:48',
+                'deleted_at' => NULL,
+                'telefono' => NULL,
+                'direccion' => NULL,
             ),
         ));
         
