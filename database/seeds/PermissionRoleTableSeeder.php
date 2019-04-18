@@ -921,6 +921,14 @@ class PermissionRoleTableSeeder extends Seeder
                 'created_at' => '2019-03-04 09:05:53',
                 'updated_at' => '2019-03-04 09:05:53',
             ),
+            113 => 
+            array (
+                'id' => 118,
+                'permission_id' => 70,
+                'role_id' => 4,
+                'created_at' => '2019-03-27 09:55:53',
+                'updated_at' => '2019-03-27 09:55:53',
+            ),
         ));
         
         

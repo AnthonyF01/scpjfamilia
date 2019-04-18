@@ -54,7 +54,7 @@ class RolesTableSeeder extends Seeder
                 'slug' => 'asistente',
                 'description' => 'Asistente',
                 'created_at' => '2019-03-04 09:05:53',
-                'updated_at' => '2019-03-04 09:05:53',
+                'updated_at' => '2019-03-27 09:55:53',
                 'special' => NULL,
             ),
         ));
