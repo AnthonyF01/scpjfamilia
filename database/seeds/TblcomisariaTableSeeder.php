@@ -2006,6 +2006,19 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
             ),
+            153 => 
+            array (
+                'id' => 154,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'nombre' => 'Comisaría de Familia Tacna',
+                'latitud' => '-18.007169654457357',
+                'longitud' => '-70.25565125192117',
+                'created_at' => '2019-04-21 23:33:00',
+                'updated_at' => '2019-04-21 23:33:00',
+                'deleted_at' => NULL,
+                'tipo_int' => 0,
+            ),
         ));
         
         

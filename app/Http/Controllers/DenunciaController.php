@@ -987,6 +987,9 @@ class DenunciaController extends Controller
                           'psicologia' => (!empty($data[14]) && isset($data[14]) && ($data[14]))? $data[14] : null,
                           'tblmodulo_id' => (!empty($data[15]) && isset($data[15]) && ($data[15]))? $data[15] : null,
                           'medida_file' => (!empty($data[16]) && isset($data[16]) && ($data[16]))? $data[16] : null,
+                          'institucion' => (!empty($data[17]) && isset($data[17]) && ($data[17]))? $data[17] : null,
+                          'tbldenuncia_id' => (!empty($data[18]) && isset($data[18]) && ($data[18]))? $data[18] : null,
+                          'fmedida' => (!empty($data[19]) && isset($data[19]) && ($data[19]))? $data[19] : null,
                       ];
 
                       // Si en caso de error de subida del excel o al haber registros repetidos de denuncia (por expediente)
@@ -1031,6 +1034,8 @@ class DenunciaController extends Controller
                                     'tbldepartamento_id' => $datav[7],
                                     'tblprovincia_id' => $datav[8],
                                     'tbldistrito_id' => $datav[9],
+                                    'telefono' => $datav[11],
+                                    'direccion' => $datav[12],
                                 ];
 
 
