@@ -1993,6 +1993,19 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
             ),
+            152 => 
+            array (
+                'id' => 153,
+                'tblmodulo_id' => 33,
+                'tbldepartamento_id' => 7,
+                'nombre' => 'COMISARIA DE MI PERU',
+                'latitud' => NULL,
+                'longitud' => NULL,
+                'created_at' => '2019-03-29 10:37:05',
+                'updated_at' => '2019-03-29 10:37:05',
+                'deleted_at' => NULL,
+                'tipo_int' => 0,
+            ),
         ));
         
         
