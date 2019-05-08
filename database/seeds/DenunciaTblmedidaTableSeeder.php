@@ -1754,6 +1754,672 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
+            193 => 
+            array (
+                'id' => 194,
+                'denuncia_id' => 2650,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            194 => 
+            array (
+                'id' => 195,
+                'denuncia_id' => 1603,
+                'tblmedida_id' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            195 => 
+            array (
+                'id' => 196,
+                'denuncia_id' => 2652,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            196 => 
+            array (
+                'id' => 197,
+                'denuncia_id' => 2652,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            197 => 
+            array (
+                'id' => 198,
+                'denuncia_id' => 2665,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            198 => 
+            array (
+                'id' => 199,
+                'denuncia_id' => 2658,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            199 => 
+            array (
+                'id' => 200,
+                'denuncia_id' => 2660,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            200 => 
+            array (
+                'id' => 201,
+                'denuncia_id' => 2659,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            201 => 
+            array (
+                'id' => 202,
+                'denuncia_id' => 2661,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            202 => 
+            array (
+                'id' => 203,
+                'denuncia_id' => 2653,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            203 => 
+            array (
+                'id' => 204,
+                'denuncia_id' => 2653,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            204 => 
+            array (
+                'id' => 205,
+                'denuncia_id' => 2657,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            205 => 
+            array (
+                'id' => 206,
+                'denuncia_id' => 2654,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            206 => 
+            array (
+                'id' => 207,
+                'denuncia_id' => 2654,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            207 => 
+            array (
+                'id' => 208,
+                'denuncia_id' => 2593,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            208 => 
+            array (
+                'id' => 209,
+                'denuncia_id' => 2593,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            209 => 
+            array (
+                'id' => 210,
+                'denuncia_id' => 2593,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            210 => 
+            array (
+                'id' => 211,
+                'denuncia_id' => 2612,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            211 => 
+            array (
+                'id' => 212,
+                'denuncia_id' => 2612,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            212 => 
+            array (
+                'id' => 213,
+                'denuncia_id' => 2611,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            213 => 
+            array (
+                'id' => 214,
+                'denuncia_id' => 2611,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            214 => 
+            array (
+                'id' => 215,
+                'denuncia_id' => 2611,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            215 => 
+            array (
+                'id' => 216,
+                'denuncia_id' => 2609,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            216 => 
+            array (
+                'id' => 217,
+                'denuncia_id' => 2609,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            217 => 
+            array (
+                'id' => 218,
+                'denuncia_id' => 2647,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            218 => 
+            array (
+                'id' => 219,
+                'denuncia_id' => 2647,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            219 => 
+            array (
+                'id' => 220,
+                'denuncia_id' => 2647,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            220 => 
+            array (
+                'id' => 221,
+                'denuncia_id' => 2647,
+                'tblmedida_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            221 => 
+            array (
+                'id' => 222,
+                'denuncia_id' => 2647,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            222 => 
+            array (
+                'id' => 223,
+                'denuncia_id' => 2691,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            223 => 
+            array (
+                'id' => 224,
+                'denuncia_id' => 2691,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            224 => 
+            array (
+                'id' => 225,
+                'denuncia_id' => 2693,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            225 => 
+            array (
+                'id' => 226,
+                'denuncia_id' => 2693,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            226 => 
+            array (
+                'id' => 227,
+                'denuncia_id' => 2693,
+                'tblmedida_id' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            227 => 
+            array (
+                'id' => 228,
+                'denuncia_id' => 2693,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            228 => 
+            array (
+                'id' => 229,
+                'denuncia_id' => 2693,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            229 => 
+            array (
+                'id' => 230,
+                'denuncia_id' => 2632,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            230 => 
+            array (
+                'id' => 231,
+                'denuncia_id' => 2692,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            231 => 
+            array (
+                'id' => 232,
+                'denuncia_id' => 2692,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            232 => 
+            array (
+                'id' => 233,
+                'denuncia_id' => 2697,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            233 => 
+            array (
+                'id' => 234,
+                'denuncia_id' => 2697,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            234 => 
+            array (
+                'id' => 235,
+                'denuncia_id' => 2696,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            235 => 
+            array (
+                'id' => 236,
+                'denuncia_id' => 2701,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            236 => 
+            array (
+                'id' => 237,
+                'denuncia_id' => 2711,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            237 => 
+            array (
+                'id' => 238,
+                'denuncia_id' => 2711,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            238 => 
+            array (
+                'id' => 239,
+                'denuncia_id' => 2711,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            239 => 
+            array (
+                'id' => 240,
+                'denuncia_id' => 2716,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            240 => 
+            array (
+                'id' => 241,
+                'denuncia_id' => 2716,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            241 => 
+            array (
+                'id' => 242,
+                'denuncia_id' => 2716,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            242 => 
+            array (
+                'id' => 243,
+                'denuncia_id' => 2712,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            243 => 
+            array (
+                'id' => 244,
+                'denuncia_id' => 2712,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            244 => 
+            array (
+                'id' => 245,
+                'denuncia_id' => 2713,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            245 => 
+            array (
+                'id' => 246,
+                'denuncia_id' => 2713,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            246 => 
+            array (
+                'id' => 247,
+                'denuncia_id' => 2713,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            247 => 
+            array (
+                'id' => 248,
+                'denuncia_id' => 2710,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            248 => 
+            array (
+                'id' => 249,
+                'denuncia_id' => 2710,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            249 => 
+            array (
+                'id' => 250,
+                'denuncia_id' => 2710,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            250 => 
+            array (
+                'id' => 251,
+                'denuncia_id' => 2714,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            251 => 
+            array (
+                'id' => 252,
+                'denuncia_id' => 2714,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            252 => 
+            array (
+                'id' => 253,
+                'denuncia_id' => 2714,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            253 => 
+            array (
+                'id' => 254,
+                'denuncia_id' => 2715,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            254 => 
+            array (
+                'id' => 255,
+                'denuncia_id' => 2715,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            255 => 
+            array (
+                'id' => 256,
+                'denuncia_id' => 2709,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            256 => 
+            array (
+                'id' => 257,
+                'denuncia_id' => 2709,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            257 => 
+            array (
+                'id' => 258,
+                'denuncia_id' => 2702,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            258 => 
+            array (
+                'id' => 259,
+                'denuncia_id' => 2702,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            259 => 
+            array (
+                'id' => 260,
+                'denuncia_id' => 2702,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            260 => 
+            array (
+                'id' => 261,
+                'denuncia_id' => 2706,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            261 => 
+            array (
+                'id' => 262,
+                'denuncia_id' => 2706,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            262 => 
+            array (
+                'id' => 263,
+                'denuncia_id' => 2707,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            263 => 
+            array (
+                'id' => 264,
+                'denuncia_id' => 2718,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            264 => 
+            array (
+                'id' => 265,
+                'denuncia_id' => 2719,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            265 => 
+            array (
+                'id' => 266,
+                'denuncia_id' => 2717,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            266 => 
+            array (
+                'id' => 267,
+                'denuncia_id' => 2698,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
         ));
         
         
