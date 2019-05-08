@@ -41,20 +41,6 @@
     @else
       <?php $counter=1; ?>
       @foreach($denuncias as $denuncia)
-        @if ($tdias == '-1')
-          <?php echo "@continue1"; ?>
-          @continue;
-        @else
-          @if ($tdias != '-1') 
-            @if ($denuncia->total <= $tdias)
-              <?php echo "@continue2"; ?>
-              @continue;
-            @else
-              <?php echo "@break"; ?>
-              @break;
-            @endif
-          @endif
-        @endif
         <tr>
           {{-- <td class="middle details-control" data-toggle="1" onclick="showDetalis(this)" style="padding-left: 15px; padding-right: 15px"></td> --}}
           <td class="middle">{{ $counter++ + ( $denuncias->perPage() * ( $denuncias->currentPage() - 1 ) ) }}</td>
@@ -152,22 +138,6 @@
           @endif
 
           <td class="middle">{{ $denuncia->total }}</td>
-          {{-- <td style="padding: 8px 4px;">
-            @if (isset($denuncia->medida_file) && !empty($denuncia->medida_file))
-              <a title="Descargar Medida de Protección" href="{{ $denuncia->medida_file }}" target="_blank" class="btn btn-xs btn-outline-primary"><i class="fa fa-file"></i></a>
-            @else
-              <a href="javascript:void(0)" disabled class="btn btn-xs btn-outline-primary"><i class="fa fa-file-o"></i></a>
-            @endif
-            @can('denuncia.edit')
-              <a href="{{ route('denuncia.edit', $denuncia->id) }}" class="btn btn-xs btn-outline-warning"><i class="glyphicon glyphicon-edit"></i></a>
-            @endcan 
-            @can('denuncia.destroy')
-              <input type="hidden" name="_method" value="delete"/>
-              <a class="btn btn-xs btn-outline-danger" href="javascript:if(confirm('¿Está seguro que desea eliminar este registro?')) ajaxDelete('{{ route('denuncia.destroy', $denuncia->id) }}','{{csrf_token()}}')">
-                  <i class="glyphicon glyphicon-trash"></i>
-              </a>
-            @endcan 
-          </td> --}}
         </tr>
         <tr class="details" style="display: none;">
           <td colspan="17" style="padding:20px;">
@@ -177,7 +147,7 @@
                   <td class="width-20 fweight">Oficio:</td>
                   <td class="width-30">{{ $denuncia->oficio }}</td>
                   <td class="width-20 fweight">Institución:</td>
-                  <td class="width-30">{{ $denuncia->tblcomisaria->nombre }}</td>
+                  <td class="width-30">{{-- {{ $denuncia->tblcomisaria->nombre }} --}}</td>
                 </tr>
                 <tr>
                   <td class="width-20 fweight">Fecha de Denuncia:</td>

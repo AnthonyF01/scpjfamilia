@@ -60,6 +60,11 @@ Route::middleware('auth:api')->get('/denuncia/victima/details', 'Api\DenunciaCon
 Route::middleware('auth:api')->post('/register/registerDeviceToken', 'Api\RegisterController@registerDeviceToken');
 Route::middleware('auth:api')->post('/logout', 'Api\RegisterController@logout');
 
+// aplicacion csjv
+
+// Route::get('/denuncia/search/{expediente?}', 'Api\DenunciaController@findExpediente');
+
+
 Route::group(['prefix' => 'v1','middleware' => 'auth:api'], function () {
     //    Route::resource('task', 'TasksController');
 
