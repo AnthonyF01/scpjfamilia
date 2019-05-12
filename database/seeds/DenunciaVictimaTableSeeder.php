@@ -23121,6 +23121,132 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'updated_at' => '2019-05-07 11:25:39',
                 'deleted_at' => NULL,
             ),
+            66 => 
+            array (
+                'id' => 2567,
+                'denuncia_id' => 2728,
+                'victima_id' => 2511,
+                'created_at' => '2019-05-10 11:24:49',
+                'updated_at' => '2019-05-10 11:24:49',
+                'deleted_at' => NULL,
+            ),
+            67 => 
+            array (
+                'id' => 2568,
+                'denuncia_id' => 2729,
+                'victima_id' => 2512,
+                'created_at' => '2019-05-10 11:32:52',
+                'updated_at' => '2019-05-10 11:32:52',
+                'deleted_at' => NULL,
+            ),
+            68 => 
+            array (
+                'id' => 2569,
+                'denuncia_id' => 2730,
+                'victima_id' => 2513,
+                'created_at' => '2019-05-10 12:03:22',
+                'updated_at' => '2019-05-10 12:03:22',
+                'deleted_at' => NULL,
+            ),
+            69 => 
+            array (
+                'id' => 2570,
+                'denuncia_id' => 2731,
+                'victima_id' => 2514,
+                'created_at' => '2019-05-10 15:29:33',
+                'updated_at' => '2019-05-10 15:29:33',
+                'deleted_at' => NULL,
+            ),
+            70 => 
+            array (
+                'id' => 2571,
+                'denuncia_id' => 2732,
+                'victima_id' => 2515,
+                'created_at' => '2019-05-10 15:38:23',
+                'updated_at' => '2019-05-10 15:38:23',
+                'deleted_at' => NULL,
+            ),
+            71 => 
+            array (
+                'id' => 2572,
+                'denuncia_id' => 2733,
+                'victima_id' => 2516,
+                'created_at' => '2019-05-10 16:00:20',
+                'updated_at' => '2019-05-10 16:00:20',
+                'deleted_at' => NULL,
+            ),
+            72 => 
+            array (
+                'id' => 2573,
+                'denuncia_id' => 2734,
+                'victima_id' => 2517,
+                'created_at' => '2019-05-10 16:02:45',
+                'updated_at' => '2019-05-10 16:02:45',
+                'deleted_at' => NULL,
+            ),
+            73 => 
+            array (
+                'id' => 2574,
+                'denuncia_id' => 2735,
+                'victima_id' => 2518,
+                'created_at' => '2019-05-10 16:14:00',
+                'updated_at' => '2019-05-10 16:14:00',
+                'deleted_at' => NULL,
+            ),
+            74 => 
+            array (
+                'id' => 2575,
+                'denuncia_id' => 2736,
+                'victima_id' => 2519,
+                'created_at' => '2019-05-10 16:22:11',
+                'updated_at' => '2019-05-10 16:22:11',
+                'deleted_at' => NULL,
+            ),
+            75 => 
+            array (
+                'id' => 2576,
+                'denuncia_id' => 2737,
+                'victima_id' => 2520,
+                'created_at' => '2019-05-10 16:27:23',
+                'updated_at' => '2019-05-10 16:27:23',
+                'deleted_at' => NULL,
+            ),
+            76 => 
+            array (
+                'id' => 2577,
+                'denuncia_id' => 2739,
+                'victima_id' => 2023,
+                'created_at' => '2019-05-10 16:33:02',
+                'updated_at' => '2019-05-10 16:33:02',
+                'deleted_at' => NULL,
+            ),
+            77 => 
+            array (
+                'id' => 2578,
+                'denuncia_id' => 2740,
+                'victima_id' => 2522,
+                'created_at' => '2019-05-10 16:40:40',
+                'updated_at' => '2019-05-10 16:40:40',
+                'deleted_at' => NULL,
+            ),
+            78 => 
+            array (
+                'id' => 2579,
+                'denuncia_id' => 2741,
+                'victima_id' => 1979,
+                'created_at' => '2019-05-10 16:42:36',
+                'updated_at' => '2019-05-10 16:42:36',
+                'deleted_at' => NULL,
+            ),
+            79 => 
+            array (
+                'id' => 2580,
+                'denuncia_id' => 2742,
+                'victima_id' => 2523,
+                'created_at' => '2019-05-10 16:54:10',
+                'updated_at' => '2019-05-10 16:54:10',
+                'deleted_at' => NULL,
+            ),
         ));
         
         
