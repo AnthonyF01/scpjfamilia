@@ -126,7 +126,7 @@ class DocumentoController extends Controller
             'numero' => 'required|string|unique:documento,numero',
             'fecha' => 'required|date',
             'tipo' => 'required|string',
-            'file' => 'required|mimes:pdf|max:2048'
+            'file' => 'required|mimes:pdf|max:4098'
         ];
 
         $input = [
@@ -282,11 +282,11 @@ class DocumentoController extends Controller
 
         if (!isset($documento->file) && empty($documento->file) && isset(explode("documento/",$documento->file)[1])) {
             // no existe registro de archivo: se valida el archivo
-            $rules['file'] = 'required|mimes:pdf|max:2048';
+            $rules['file'] = 'required|mimes:pdf|max:4098';
             $input['file'] = $request['file'];
         }else{
             if ($request->file('file') && $request->hasFile('file')) {
-                $rules['file'] = 'required|mimes:pdf|max:2048';
+                $rules['file'] = 'required|mimes:pdf|max:4098';
                 $input['file'] = $request['file'];
             }
         }

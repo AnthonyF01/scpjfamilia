@@ -8,8 +8,12 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Http\UploadedFile;
+use Illuminate\Validation\Rule;
+use File;
 use Auth;
 use PDF;
+use Charts;
+use App\User;
 use App\Models\Documento;
 use App\Models\Denuncia;
 use App\Models\Agresor;
@@ -25,6 +29,7 @@ use App\Models\Tblparentesco;
 use App\Models\Tbldenuncia;
 use App\Models\Tblmedida;
 use App\Models\Tbldocumento;
+use App\Models\Tbldpenal;
 use App\Models\Tbltipo;
 use App\Models\Tblviolencia;
 
@@ -436,6 +441,8 @@ class DenunciaController extends Controller
         $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
+        $tbldpenales = Tbldpenal::with('hijos')->where('nivel',1)->get();
+        $instanciasSS = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','SS')->orderBy('nombre')->pluck('nombre', 'id');
         $medidas = Tblmedida::orderBy('nombre')->pluck('nombre', 'id');
         $violencias = Tblviolencia::orderBy('nombre')->pluck('nombre', 'id');
 
@@ -1290,9 +1297,13 @@ class DenunciaController extends Controller
         $anios = $anios->select(DB::raw("year(fformalizacion) as id, year(fformalizacion) as anio"))
                      ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->orderBy('id','desc')->pluck('anio', 'id');
 
-        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
+        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int',0)->where('color','green')->orderBy('nombre')->pluck('nombre', 'id');
 
-        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','FA')->orwhere('tipo','JM')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','MP')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
 
         if ($request->ajax()) {
 
@@ -2401,15 +2412,18 @@ class DenunciaController extends Controller
         $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->orderBy('nombre')->pluck('nombre', 'id');
         $instituciones = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',1)->orderBy('nombre')->pluck('nombre', 'id');
         $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
-        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)
         ->where(function ($query) {
             $query->where('tipo','FA')->orwhere('tipo','JM')->orwhere('estadistica','1');
         })->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','MP')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PU')->orderBy('nombre')->pluck('nombre', 'id');
         $tdenuncias = Tbldenuncia::orderBy('nombre')->pluck('nombre', 'id');
+        $tbldpenales = Tbldpenal::with('hijos')->where('nivel',1)->get();
+        $instanciasSS = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','SS')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasSSP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','SSP')->orderBy('nombre')->pluck('nombre', 'id');
         $medidas = Tblmedida::orderBy('nombre')->pluck('nombre', 'id');
         $violencias = Tblviolencia::orderBy('nombre')->pluck('nombre', 'id');
 
@@ -2417,7 +2431,7 @@ class DenunciaController extends Controller
         $documentos = Tbldocumento::orderBy('nombre','asc')->pluck('nombre', 'id');
         $tipos = Tbltipo::all()->pluck('nombre', 'id');
 
-        return view('denuncia.denuncia.partials.form', compact('denuncia','comisarias','instituciones','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','medidas','violencias','tdenuncias','departamentos','documentos','tipos'));
+        return view('denuncia.denuncia.partials.form', compact('denuncia','comisarias','instituciones','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tbldpenales','instanciasSS','instanciasSSP','medidas','violencias','tdenuncias','departamentos','documentos','tipos'));
     }
 
     public function ejecucion($id)

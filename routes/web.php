@@ -25,11 +25,13 @@
 /*****************************************/
 
 Route::get('/', function () {
-    // return view('welcome');
     return redirect()->to('/login');
 });
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home',function (){
+    return redirect()->to('/denuncia');
+})->name('home');
 
 Route::middleware(['auth'])->group(function () {
 
@@ -40,6 +42,13 @@ Route::middleware(['auth'])->group(function () {
     // Cargar Victimas y Agresores
     Route::get('getVictima/{id?}', 'VictimaController@getVictima');
     Route::get('getAgresor/{id?}', 'AgresorController@getAgresor');
+
+    Route::get('permisos','PermisosController@index')->name('permisos.index');
+    Route::get('permisos/create','PermisosController@create')->name('permisos.create');
+    Route::post('permisos/store','PermisosController@store')->name('permisos.store');
+    Route::get('permisos/{id}/edit','PermisosController@edit')->name('permisos.edit');
+    Route::put('permisos/{id}','PermisosController@update')->name('permisos.update');
+    Route::delete('permisos/{id}', 'PermisosController@destroy')->name('permisos.destroy');
 
     //Roles
     Route::post('roles/store', 'RoleController@store')->name('roles.store')
@@ -86,6 +95,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('users/{user}/edit', 'UserController@edit')->name('users.edit')
         ->middleware('permission:users.edit');
 
+    Route::post('users-geolocalizacion/{id}','UserController@geolocalizacion');
+    
 
     // Centro de Salud
     Route::post('tblcentrosalud/store', 'TblcentrosaludController@store')->name('centrosalud.store')
@@ -131,6 +142,8 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('tblcomisaria/{comisaria}/edit', 'TblcomisariaController@edit')->name('comisaria.edit')
         ->middleware('permission:comisaria.edit');
+
+    Route::post('tblcomisaria-geolocalizacion/{id}','TblcomisariaController@geolocalizacion');
 
     // Instancias
     Route::post('tblinstancia/store', 'TblinstanciaController@store')->name('instancia.store')
@@ -219,6 +232,25 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('tbltipo/{tipo}/edit', 'TbltipoController@edit')->name('tipo.edit')
         ->middleware('permission:tipo.edit');
+
+    // tipo denuncia penal
+   Route::get('tbldpenal','TbldpenalController@index')->name('tbldpenal.index')
+       ->middleware('permission:tbldpenal.index');
+
+   Route::get('tbldpenal/create', 'TbldpenalController@create')->name('tbldpenal.create')
+       ->middleware('permission:tbldpenal.create');
+
+   Route::get('tbldpenal/{id}/edit', 'TbldpenalController@edit')->name('tbldpenal.edit')
+       ->middleware('permission:tbldpenal.edit');
+
+   Route::delete('tbldpenal/{id}', 'TbldpenalController@destroy')->name('tbldpenal.destroy')
+       ->middleware('permission:tbldpenal.destroy');
+
+   Route::put('tbldpenal/{id}', 'TbldpenalController@update')->name('tbldpenal.update')
+       ->middleware('permission:tbldpenal.edit');
+
+   Route::post('tbldpenal/store', 'TbldpenalController@store')->name('tbldpenal.store')
+       ->middleware('permission:tbldpenal.create');
 
     // Parentescos
     Route::post('tblparentesco/store', 'TblparentescoController@store')->name('parentesco.store')
@@ -397,6 +429,9 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('denuncia/{denuncia}/edit', 'DenunciaController@edit')->name('denuncia.edit')
         ->middleware('permission:denuncia.edit');
+
+    Route::post('denucia-subir-documento/{id}', 'DenunciaController@denunciaSubirDocumento')
+       ->middleware('permission:denuncia.file');
 
     Route::get('denuncia/{denuncia}/ejecucion', 'DenunciaController@ejecucion')->name('denuncia.ejecucion')
         ->middleware('permission:denuncia.ejecucion');

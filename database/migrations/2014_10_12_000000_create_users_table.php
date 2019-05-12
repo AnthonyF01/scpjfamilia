@@ -27,6 +27,8 @@ class CreateUsersTable extends Migration
             $table->string('direccion')->nullable();
             $table->string('fono')->nullable();
             $table->string('imagen')->nullable();
+            $table->string('lat')->nullable();
+            $table->string('lng')->nullable();
             $table->boolean('acceso')->default(1); // usuario web(1) o movil(0)
             $table->rememberToken();
             $table->timestamps();

@@ -251,7 +251,7 @@
     @endif
   </tbody>
 </table>
-{{$tdias}}
+{{-- {{$tdias}} --}}
 <div class="row">
   <div class="col-md-6">
     @if ($denuncias->total() == 0)

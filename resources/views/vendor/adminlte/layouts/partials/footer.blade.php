@@ -9,4 +9,6 @@
 
     <strong>Copyright &copy; {{ date("Y") }} Corte Superior de Justicia</strong> | Todos los Derechos Reservados.
 
+    <span style="float: right;">Desarrollado por Anthony Flores Llantoy.</span>
+
 </footer>

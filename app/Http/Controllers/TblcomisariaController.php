@@ -317,4 +317,14 @@ class TblcomisariaController extends Controller
             'info' => 'Institución eliminada correctamente.',
         ]);
     }
+
+    public function geolocalizacion(Request $request, $id)
+    {
+        $tblcomisaria = Tblcomisaria::find($id);
+        $tblcomisaria->latitud=$request->latitud;
+        $tblcomisaria->longitud=$request->longitud;
+        $tblcomisaria->save();
+        return $tblcomisaria;
+    }
+
 }

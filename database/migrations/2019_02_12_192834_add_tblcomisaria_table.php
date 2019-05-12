@@ -15,6 +15,8 @@ class AddTblcomisariaTable extends Migration
     {
         Schema::table('tblcomisaria', function (Blueprint $table) {
             $table->boolean('tipo_int')->default(0);
+            $table->string('color')->nullable();
+            $table->string('sigla')->nullable();
         });
 
     }

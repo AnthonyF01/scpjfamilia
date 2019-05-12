@@ -1,7 +1,104 @@
+$(document).ready(function() {
+    color_print='#f7ee3aad';
+});
+
+$(document).on('click','a.fa_p',function() {
+    var padre=$(this).parent();
+    var abuelo=$(padre).parent();
+    if (abuelo.hasClass("dd-handle")) {
+        var brother=abuelo.siblings('*');
+        if (brother[0].tagName=='OL') {
+            if ($(this.children).hasClass('fa-minus')) {
+                $(brother[0]).addClass('hide');
+                $(this).html('<span class="fa fa-plus fa-lg"></span>')
+            }
+            else{
+                $(brother[0]).removeClass('hide');
+                $(this).html('<span class="fa fa-minus fa-lg"></span>')
+            }
+        }
+    }
+});
+
+$(document).on('change','#nestable_list input',function() {
+    if ($(this).hasClass('ip')) {
+        var padre=$(this).parent();
+        var abuelo=$(padre).parent();
+        var tatarabuelo=$(abuelo).parent();
+        if (tatarabuelo.hasClass("dd-handle")) {
+            var brother=tatarabuelo.siblings('*');
+            if (brother[0].tagName=='OL') {
+                var hijos=$(brother[0]).find('input');
+                if (hijos.length>0) {
+                    if ($(this).is(":checked")) {
+                        $.each(hijos, function(index, val) {
+                            $(this).prop('checked',true);
+                            if ($(this).hasClass('ip_li')) {
+                                var p=$(this).parent();
+                                var a=$(p).parent();
+                                var t=$(a).parent();
+                                var ta=$(t).parent();
+                                $(ta).css('background-color', color_print);
+                            }
+                        });
+                    }
+                    else{
+                        $.each(hijos, function(index, val) {
+                            $(this).prop('checked',false);
+                            if ($(this).hasClass('ip_li')) {
+                                var p=$(this).parent();
+                                var a=$(p).parent();
+                                var t=$(a).parent();
+                                var ta=$(t).parent();
+                                $(ta).css('background-color', '');
+                            }
+                        });
+                    }
+                }
+            }
+        }
+
+    }
+});
+
+$(document).on('change','#nestable_list input',function() {
+    if ($(this).hasClass('ip_li')) {
+        var p=$(this).parent();
+        var a=$(p).parent();
+        var t=$(a).parent();
+        var ta=$(t).parent();
+        if ($(this).is(":checked")) {
+            $(this).prop('checked',true);
+            $(ta).css('background-color', color_print);
+        }
+        else{
+            $(this).prop('checked',false);
+            $(ta).css('background-color', '');
+        }
+    }
+});
+
+function printInput() {
+    var input=$('#nestable_list').find('input:checked');
+    if (input.length>0) {
+        $.each(input, function(index, val) {
+            if ($(this).hasClass('ip_li')) {
+                var p=$(this).parent();
+                var a=$(p).parent();
+                var t=$(a).parent();
+                var ta=$(t).parent();
+                $(ta).css('background-color', color_print);
+            }
+        });
+    }
+
+}
+
 $(document).on('click', 'a.page-link', function (event) {
     event.preventDefault();
     ajaxLoad($(this).attr('href'));
 });
+
 
 // Carga todas las vistas: index, create, edit.
 function ajaxLoad(filename, content, action = '', message = '') {
@@ -45,8 +142,9 @@ function ajaxLoad(filename, content, action = '', message = '') {
                 $("div#box_message").addClass('show');
                 $("div#message").text(message);
             }else{
-                $('div#box_message').removeClass('show'); 
+                $('div#box_message').removeClass('show');
                 $('div#box_message').addClass('hide');
+                javascript:printInput();
             }
         },
         error: function (xhr, status, error) {

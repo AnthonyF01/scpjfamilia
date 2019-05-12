@@ -1,7 +1,6 @@
 // mostrar los mensajes de registro de vicima, agresor guardados en el localStorage
 $(document).ready(function() {
     debugger
-
     $('#li_create').remove();
     $('#li_edit').remove();
     $('#parent').remove();
@@ -61,6 +60,15 @@ $(document).ready(function() {
         $("div#message").text(data.info);
         sessionStorage.removeItem('ejecucion');
     }
+    if (typeof sessionStorage.ejecucion !== 'undefined' && sessionStorage.ejecucion != '') {
+        var data = JSON.parse(sessionStorage.ejecucion);
+        if (data.status == 'success') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-success"); }
+        if (data.status == 'error') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-error"); }
+        $("div#box_message").removeClass('hide');
+        $("div#box_message").addClass('show');
+        $("div#message").text(data.info);
+        sessionStorage.removeItem('ejecucion');
+    }
     if (typeof sessionStorage.remision !== 'undefined' && sessionStorage.remision != '') {
         var data = JSON.parse(sessionStorage.remision);
         if (data.status == 'success') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-success"); }
@@ -87,6 +95,16 @@ $(document).ready(function() {
         $("div#box_message").addClass('show');
         $("div#message").text(data.info);
         sessionStorage.removeItem('fase4');
+    }
+
+    if (typeof sessionStorage.scaner !== 'undefined' && sessionStorage.scaner != '') {
+        var data = JSON.parse(sessionStorage.scaner);
+        if (data.status == 'success') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-success"); }
+        if (data.status == 'error') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-error"); }
+        $("div#box_message").removeClass('hide');
+        $("div#box_message").addClass('show');
+        $("div#message").text(data.info);
+        sessionStorage.removeItem('scaner');
     }
 
     // Autoload Graphics
@@ -152,7 +170,7 @@ function ajaxLoad(filename, content, action = '', message = '') {
                 $("div#box_message").addClass('show');
                 $("div#message").text(message);
             }else{
-                $('div#box_message').removeClass('show'); 
+                $('div#box_message').removeClass('show');
                 $('div#box_message').addClass('hide');
             }
         },
@@ -166,16 +184,17 @@ $(document).on('submit', 'form', function (event) {
     event.preventDefault();
     debugger
     var form = $(this);
+    var url = form.attr("action");
     var data = new FormData($(this)[0]);
-    
-    // cem 
+
+    // cem
     if (data.has('asistencialegal')) {
         data.set('asistencialegal', $('input[name="asistencialegal"]:checked').length);
     }
     if (data.has('psicologia')) {
         data.set('psicologia', $('input[name="psicologia"]:checked').length);
     }
-    
+
     if (data.has('ministerio')) {
         data.set('ministerio', $('input[name="ministerio"]:checked').length);
     }
@@ -188,7 +207,7 @@ $(document).on('submit', 'form', function (event) {
         data.set('itinerancia', $('input[name="itinerancia"]:checked').length);
     }
 
-    // denuncia 
+    // denuncia
     if (data.has('_institucion')) {
         data.set('institucion', 1);
     }
@@ -198,8 +217,13 @@ $(document).on('submit', 'form', function (event) {
     if (data.has('_fiscalia')) {
         data.set('institucion', 3);
     }
+    if (data.has('_sau')) {
+        data.set('institucion', 4);
+    }
+    if (data.has('_cem')) {
+        data.set('institucion', 5);
+    }
 
-    var url = form.attr("action");
     debugger;
     $.ajax({
         type: form.attr('method'),
@@ -219,7 +243,7 @@ $(document).on('submit', 'form', function (event) {
             } else {
                 // ajaxLoad(data.redirect_url, content='content_ajax', data.type, data.info);
 
-                // guarda en el localStorage los mensajes de registro de victima en la denuncia. 
+                // guarda en el localStorage los mensajes de registro de victima en la denuncia.
                 switch(data.tab){
                     case 'victima':
                         sessionStorage.setItem('victima', JSON.stringify(data));
@@ -247,6 +271,9 @@ $(document).on('submit', 'form', function (event) {
                         break;
                     case 'fase4':
                         sessionStorage.setItem('fase4', JSON.stringify(data));
+                        break
+                    case 'scaner':
+                        sessionStorage.setItem('scaner', JSON.stringify(data));
                         break;
                 }
                 window.location = data.url
@@ -275,6 +302,79 @@ function ajaxDelete(filename, token, content) {
     });
 }
 
+/* registrar victima */
+// function storeVictima() {
+//     var form = $('form#form_victima_modal');
+//     var data = new FormData($('form#form_victima_modal')[0]);
+//     var url = form.attr("action");
+//     debugger;
+//     $.ajax({
+//         type: form.attr('method'),
+//         url: url,
+//         data: data,
+//         cache: false,
+//         contentType: false,
+//         processData: false,
+//         success: function (data) {
+//             debugger;
+//             $('.is-invalid').removeClass('is-invalid');
+//             if (data.fail) {
+//                 for (control in data.errors) {
+//                     $('#' + control).addClass('is-invalid');
+//                     $('#error-' + control).html(data.errors[control]);
+//                 }
+//             } else {
+//                 switch(data.tab){
+//                     case 'victima_modal':
+//                         sessionStorage.setItem('victima_modal', JSON.stringify(data));
+//                         break;
+//                     case 'agresor_modal':
+//                         sessionStorage.setItem('agresor_modal', JSON.stringify(data));
+//                         break;
+//                 }
+//                 if (typeof sessionStorage.victima_modal !== 'undefined' && sessionStorage.victima_modal != '') {
+//                     var data = JSON.parse(sessionStorage.victima_modal);
+//                     if (data.status == 'success') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-success"); }
+//                     if (data.status == 'error') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-error"); }
+//                     $("div#box_message").removeClass('hide');
+//                     $("div#box_message").addClass('show');
+//                     $("div#message").text(data.info);
+//                     sessionStorage.removeItem('victima_modal');
+//                 }
+//                 if (typeof sessionStorage.agresor_modal !== 'undefined' && sessionStorage.agresor_modal != '') {
+//                     var data = JSON.parse(sessionStorage.agresor_modal);
+//                     if (data.status == 'success') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-success"); }
+//                     if (data.status == 'error') { $("div#box_message").find(".alert").removeAttr("class").attr("class","alert alert-error"); }
+//                     $("div#box_message").removeClass('hide');
+//                     $("div#box_message").addClass('show');
+//                     $("div#message").text(data.info);
+//                     sessionStorage.removeItem('agresor_modal');
+//                 }
+//                 $('#myModal1').modal('toggle');
+//                 resetVictima();
+//             }
+//         },
+//         error: function (xhr, textStatus, errorThrown) {
+//             alert("Error: " + errorThrown);
+//         }
+//     });
+//     return false;
+// }
+
+/* limpiar formulario victima */
+// function resetVictima() {
+//     $('form#form_victima_modal').find('span.invalid-feedback').empty();
+//     $('form#form_victima_modal').find('select,input').css({"color":"#555"});
+
+//     $('form#form_victima_modal').trigger("reset");
+//     $("#tblprovincia_id, .tblprovincia_id").empty();
+//     $("#tblprovincia_id, .tblprovincia_id").append("<option value=''>Seleccione una Provincia</option>");
+//     $("#tbldistrito_id, .tbldistrito_id").empty();
+//     $("#tbldistrito_id, .tbldistrito_id").append("<option value=''>Seleccione un Distrito</option>");
+//     $("#tblprovincia_id").attr('disabled', 'disabled');
+//     $("#tbldistrito_id").attr('disabled', 'disabled');
+// }
+
 /* abrir modal */
 function openModal(form,modal,select,funcion){
     debugger
@@ -302,17 +402,17 @@ function openModal(form,modal,select,funcion){
                         if (elemento == 'agresor') {
                             agresor_id = data[item];
                         }
-                    } 
+                    }
                     if (item == 'tbldepartamento_id') {
                         tbldepartamento_id = data[item];
-                    } 
+                    }
                     if (item == 'tblprovincia_id') {
                         tblprovincia_id = data[item];
-                    } 
+                    }
                     if (item == 'tbldistrito_id') {
                         tbldistrito_id = data[item];
                     } else {
-                        $('form#'+form+' #'+item).val(data[item]);                    
+                        $('form#'+form+' #'+item).val(data[item]);
                     }
                 }
 
@@ -348,7 +448,7 @@ function openModal(form,modal,select,funcion){
                     console.log("3");
                     dfd.resolve();
                   }, 1000);
-                }, "third");  
+                }, "third");
 
                 myPlugin.start();
 
@@ -435,7 +535,7 @@ function savePartes(id_form) {
                 }
             } else {
                 // ajaxLoad(data.redirect_url, content='content_ajax', data.type, data.info);
-                // guarda en el localStorage los mensajes de registro de victima en la denuncia. 
+                // guarda en el localStorage los mensajes de registro de victima en la denuncia.
                 switch(data.tab){
                     case 'victima_modal':
                         sessionStorage.setItem('victima_modal', JSON.stringify(data));
@@ -580,10 +680,10 @@ $(document).on('click', 'table.table-cell>tbody>tr', function () {
 
     $('#tblcomisaria_id').select2();
     $('#tblinstancia_id').select2();
-    $("input[name='intfech']").iCheck({ 
+    $("input[name='intfech']").iCheck({
         checkboxClass: 'icheckbox_square-blue',
         radioClass: 'iradio_square-blue',
-        increaseArea: '20%' 
+        increaseArea: '20%'
     });
     $('#dateRange').daterangepicker({
         locale: {
@@ -636,14 +736,14 @@ $(document).on('click', 'table.table-cell>tbody>tr', function () {
     $(document).on('ifChecked', 'input[name="intfech"]', function() {
         debugger
         // alert("ifChecked");
-        var fecha1 = $('#dateRange').val().split(' - ')[0].split('/')[2]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[1]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[0]; 
+        var fecha1 = $('#dateRange').val().split(' - ')[0].split('/')[2]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[1]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[0];
         var fecha2 = $('#dateRange').val().split(' - ')[1].split('/')[2]+'-'+$('#dateRange').val().split(' - ')[1].split('/')[1]+'-'+$('#dateRange').val().split(' - ')[1].split('/')[0];
         showIntFech(fecha1,fecha2,$('input[name="intfech"]:checked').length);
     });
 
     $(document).on('ifUnchecked', 'input[name="intfech"]', function() {
         debugger
-        var fecha1 = $('#dateRange').val().split(' - ')[0].split('/')[2]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[1]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[0]; 
+        var fecha1 = $('#dateRange').val().split(' - ')[0].split('/')[2]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[1]+'-'+$('#dateRange').val().split(' - ')[0].split('/')[0];
         var fecha2 = $('#dateRange').val().split(' - ')[1].split('/')[2]+'-'+$('#dateRange').val().split(' - ')[1].split('/')[1]+'-'+$('#dateRange').val().split(' - ')[1].split('/')[0];
         showIntFech(fecha1,fecha2,$('input[name="intfech"]:checked').length);
     });
@@ -673,18 +773,18 @@ function loadGraph(url,order){
             $('.loading').hide();
             debugger;
             if ( (order) && ($('#mes').val() != null && $('#mes').val() != '' && $('#mes').val() != '0') && ( $('#anio').val() != null && $('#anio').val() != '' && $('#anio').val() != '0') ) {
-                try { 
+                try {
                     graficoMensual.destroy();
                     makeChartMensual(data);
-                } catch(err) {  
+                } catch(err) {
                     makeChartMensual(data);
                 }
             }else{
                 if ( ( $('#anio').val() != null && $('#anio').val() != '' && $('#anio').val() != '0' ) ) {
-                    try { 
+                    try {
                         graficoAnual.destroy();
                         makeChartAnual(data);
-                    } catch(err) {  
+                    } catch(err) {
                         makeChartAnual(data);
                     }
                 }else{
@@ -695,147 +795,6 @@ function loadGraph(url,order){
         error: function (xhr, status, error) {
             alert(xhr.responseText);
         }
-    });
-}
-
-// Graficos
-
-function makeChartAnual(json) {
-    if (typeof json.anio !== 'undefined') {
-        var objectJSON = json;
-        var maxHeight = Math.max.apply(Math,objectJSON.maxHeight);
-        graficoAnual = new Highcharts.Chart({
-            chart: {
-                renderTo: 'graficoAnual',
-                type: 'column'
-            },
-            title: {
-                text: 'Carga por Juzgados Año ' + objectJSON.anio
-            },
-            xAxis: {
-                type: 'category'
-            },
-            credits: {
-                enabled: false
-            },
-            yAxis: {
-                min: 0,
-                max: maxHeight*1.3,
-                title: {
-                    text: 'DENUNCIAS'
-                },
-                visible: false
-
-            },
-            legend: {
-                enabled: false
-            },
-            scrollbar: {
-                enabled: false
-            },
-            plotOptions: {
-                series: {
-                    borderWidth: 0,
-                    dataLabels: {
-                        enabled: true,
-                        format: '{point.y}'
-                    }
-                }
-            },
-
-            tooltip: {
-                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-                pointFormat: '<span style="color:{point.color}">{point.nombre}</span>: <b>{point.y}</b><br/>'
-            },
-
-            "series": [
-                {
-                    "name": "Juzgado",
-                    "colorByPoint": true,
-                    "data": objectJSON.json,
-                },
-            ],
-        });
-    }else{
-        alert('undefined');
-    }
-}
-
-var meses = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
-
-function makeChartMensual(json) {
-    var objectJSON = json;
-    // alert(Math.max.apply(Math,objectJSON.maxHeight));
-    var maxHeight = Math.max.apply(Math,objectJSON.maxHeight);
-    graficoMensual = new Highcharts.Chart({
-        chart: {
-            renderTo: 'graficoMensual',
-            type: 'column'
-        },
-        title: {
-            text: 'Carga por Juzgados Mes ' + meses[objectJSON.mes-1]
-        },
-        // subtitle: {
-        //     text: 'Click para ver Especialistas'
-        // },
-        xAxis: {
-            type: 'category'
-        },
-        credits: {
-            enabled: false
-        },
-        yAxis: {
-            min: 0,
-            max: maxHeight*1.3,
-            title: {
-                text: 'DENUNCIAS'
-            },
-            visible: false
-        },
-        legend: {
-            enabled: false
-        },
-        scrollbar: {
-            enabled: false
-        },
-        plotOptions: {
-            series: {
-                borderWidth: 0,
-                dataLabels: {
-                    enabled: true,
-                    format: '{point.y}'
-                }
-            }
-        },
-
-        tooltip: {
-            headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-            pointFormat: '<span style="color:{point.color}">{point.nombre}</span>: <b>{point.y}</b><br/>'
-        },
-
-        "series": [
-        {
-            "name": "Juzgado",
-            "colorByPoint": true,
-            "data": objectJSON.json
-        },
-        //  grafico circular mensual        
-        // {
-        //     type: 'pie',
-        //     name: 'Atendidos',
-        //     colorByPoint: true,
-        //     data: objectJSON.jsonAT,
-        //     center: [725, -25],
-        //     size: 100,
-        //     dataLabels: {
-        //       enabled: false
-        //     }
-
-        // }
-        ],
-        // "drilldown": {
-        //     "series": objectJSON.jsonDCL
-        // }
     });
 }
 
@@ -985,8 +944,183 @@ function archivoFile(evt) {
     }
 }
 
+function archivoFile2(evt) {
+    var files = evt.target.files; // FileList object
+    var frame=$("#pdf-"+evt.target.name);
+    if (files.length==0) {
+        frame.html('');
+        // frame.addClass('hide');
+    }
+    else{
+        var pdffile_url=URL.createObjectURL(files[0]);
+        frame.html('<iframe src="'+pdffile_url +'" width="100%" style="height: 450px;" frameborder="0"></iframe>');
+        // frame.removeClass('hide');
+    }
+}
+
 $("#registro_file").change(function(event) {
     archivoFile(event);
 });
+
+$("#registro_file2").change(function(event) {
+    archivoFile2(event);
+});
+
+$(document).on('click','.fileinput-remove-button',function (event) {
+    event.preventDefault();
+    var a=$(this).parent();
+    var b=$(a).parent();
+    var c=$(b).parent();
+    var d=$(c).parent();
+    var e=$(d).siblings('*');
+    if ($(e).attr('for')=='registro_file2') {
+        $("#pdf-registro_file2").html('');
+    }
+});
+
+// Graficos
+
+function makeChartAnual(json) {
+    if (typeof json.anio !== 'undefined') {
+        var objectJSON = json;
+        var maxHeight = Math.max.apply(Math,objectJSON.maxHeight);
+        graficoAnual = new Highcharts.Chart({
+            chart: {
+                renderTo: 'graficoAnual',
+                type: 'column'
+            },
+            title: {
+                text: 'Carga por Juzgados Año ' + objectJSON.anio
+            },
+            xAxis: {
+                type: 'category'
+            },
+            credits: {
+                enabled: false
+            },
+            yAxis: {
+                min: 0,
+                max: maxHeight*1.3,
+                title: {
+                    text: 'DENUNCIAS'
+                },
+                visible: false
+
+            },
+            legend: {
+                enabled: false
+            },
+            scrollbar: {
+                enabled: false
+            },
+            plotOptions: {
+                series: {
+                    borderWidth: 0,
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.y}'
+                    }
+                }
+            },
+
+            tooltip: {
+                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+                pointFormat: '<span style="color:{point.color}">{point.nombre}</span>: <b>{point.y}</b><br/>'
+            },
+
+            "series": [
+                {
+                    "name": "Juzgado",
+                    "colorByPoint": true,
+                    "data": objectJSON.json,
+                },
+            ],
+        });
+    }else{
+        alert('undefined');
+    }
+}
+
+var meses = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
+
+function makeChartMensual(json) {
+    var objectJSON = json;
+    console.log(objectJSON.json);
+    // alert(Math.max.apply(Math,objectJSON.maxHeight));
+    var maxHeight = Math.max.apply(Math,objectJSON.maxHeight);
+    graficoMensual = new Highcharts.Chart({
+        chart: {
+            renderTo: 'graficoMensual',
+            type: 'column'
+        },
+        title: {
+            text: 'Carga por Juzgados Mes ' + meses[objectJSON.mes-1]
+        },
+        // subtitle: {
+        //     text: 'Click para ver Especialistas'
+        // },
+        xAxis: {
+            type: 'category'
+        },
+        credits: {
+            enabled: false
+        },
+        yAxis: {
+            min: 0,
+            max: maxHeight*1.3,
+            title: {
+                text: 'DENUNCIAS'
+            },
+            visible: false
+        },
+        legend: {
+            enabled: false
+        },
+        scrollbar: {
+            enabled: false
+        },
+        plotOptions: {
+            series: {
+                borderWidth: 0,
+                dataLabels: {
+                    enabled: true,
+                    format: '{point.y}'
+                }
+            }
+        },
+
+        tooltip: {
+            headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+            pointFormat: '<span style="color:{point.color}">{point.nombre}</span>: <b>{point.y}</b><br/>'
+        },
+
+        "series": [
+        {
+            "name": "Juzgado",
+            "colorByPoint": true,
+            "data": objectJSON.json
+        },
+        //  grafico circular mensual
+        // {
+        //     type: 'pie',
+        //     name: 'Atendidos',
+        //     colorByPoint: true,
+        //     data: objectJSON.jsonAT,
+        //     center: [725, -25],
+        //     size: 100,
+        //     dataLabels: {
+        //       enabled: false
+        //     }
+
+        // }
+        ],
+        // "drilldown": {
+        //     "series": objectJSON.jsonDCL
+        // }
+    });
+}
+
+
+
 
 

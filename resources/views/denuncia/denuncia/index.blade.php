@@ -1,11 +1,11 @@
 @extends('adminlte::layouts.app')
 
 @section('htmlheader_title')
-	Denuncias
+    Denuncias
 @endsection
 
 @section('contentheader_title')
-	Denuncias
+    Denuncias
 @endsection
 
 @section('contentheader_subtitle')
@@ -13,7 +13,7 @@
 @endsection
 
 @section('denuncia')
-	active
+    active
 @endsection
 
 @section('css')
@@ -34,10 +34,10 @@
 @endsection
 
 @section('main-content')
-	
+
 <div class="container-fluid spark-screen">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
 
       <div class="box_plus box_plus-default ">
         <div id="box_plus-title" class="box_plus-heading">
@@ -51,7 +51,7 @@
               @endcan
             </div>
           </div>
-        </div> 
+        </div>
         <div class="box_plus-body">
           <div class="row">
             <div class="col-md-6">
@@ -62,17 +62,17 @@
                     <select name="mes" class="form-control input-sm" id="mes">
                        <option value="0">Elegir Mes</option>
                        <option value="1" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '1') ? 'selected="selected"' : '' ) }}>Enero</option>
-                       <option value="2" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '2') ? 'selected="selected"' : '' ) }}>Febrero</option>  
-                       <option value="3" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '3') ? 'selected="selected"' : '' ) }}>Marzo</option>           
+                       <option value="2" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '2') ? 'selected="selected"' : '' ) }}>Febrero</option>
+                       <option value="3" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '3') ? 'selected="selected"' : '' ) }}>Marzo</option>
                        <option value="4" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '4') ? 'selected="selected"' : '' ) }}>Abril</option>
                        <option value="5" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '5') ? 'selected="selected"' : '' ) }}>Mayo</option>
                        <option value="6" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '6') ? 'selected="selected"' : '' ) }}>Junio</option>
-                       <option value="7" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '7') ? 'selected="selected"' : '' ) }}>Julio</option>  
-                       <option value="8" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '8') ? 'selected="selected"' : '' ) }}>Agosto</option>  
-                       <option value="9" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '9') ? 'selected="selected"' : '' ) }}>Septiembre</option>  
-                       <option value="10" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '10') ? 'selected="selected"' : '' ) }}>Octubre</option>  
-                       <option value="11" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '11') ? 'selected="selected"' : '' ) }}>Noviembre</option> 
-                       <option value="12" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '12') ? 'selected="selected"' : '' ) }}>Diciembre</option>                                                            
+                       <option value="7" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '7') ? 'selected="selected"' : '' ) }}>Julio</option>
+                       <option value="8" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '8') ? 'selected="selected"' : '' ) }}>Agosto</option>
+                       <option value="9" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '9') ? 'selected="selected"' : '' ) }}>Septiembre</option>
+                       <option value="10" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '10') ? 'selected="selected"' : '' ) }}>Octubre</option>
+                       <option value="11" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '11') ? 'selected="selected"' : '' ) }}>Noviembre</option>
+                       <option value="12" {{ ( (isset($request['mes']) && !empty($request['mes']) && $request['mes'] == '12') ? 'selected="selected"' : '' ) }}>Diciembre</option>
                     </select>
                   </div>
                 </div>
@@ -141,7 +141,7 @@
 
               <div class="form-group has-feedback ">
                 <div class="row">
-                  <label for="dni" class="col-sm-4 control-label" style="line-height:30px">Nombre o DNI:</label>
+                  <label for="dni" class="col-sm-4 control-label" style="line-height:30px">DNI:</label>
                   <div class="col-sm-8">
                     <div class="input-group">
                       <input class="form-control input-sm" autofocus="autofocus" id="dni" value="{{ request()->session()->get('dni') }}" onkeydown="if (event.keyCode == 13) ajaxLoad('{{url('denuncia')}}?dni='+this.value)" placeholder="Buscar..." name="dni" type="text"/>
@@ -154,8 +154,8 @@
                   </div>
                 </div>
               </div>
-              
             </div>
+
             <div class="col-md-6">
               <div class="form-group">
                 <div class="row">
@@ -205,16 +205,75 @@
               </div>
             </div>
           </div><br>
-          
+
           <div id="content_ajax">
-            @include('denuncia.denuncia.ajax')  
+            @include('denuncia.denuncia.ajax')
+          </div>
+
+          <div class="modal fade" id="showModalRegistro" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="col-xs-12 col-md-12 col-lg-12">
+                    <div class="row">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true" class="fa fa-times-circle"></span>
+                              </button>
+                              <span id="span-title" style="font-size: 14px"></span>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 hide" id="modal_message">
+                                      <div class="alert alert-warning">
+                                        <button type="button" class="close" onclick="$('div#modal_message').removeClass('show'); $('div#modal_message').addClass('hide');">
+                                          <span aria-hidden="true">×</span>
+                                        </button>
+                                        <div id="show_message"></div>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-sm-12">
+                                        <form id="form-registro_file" onsubmit="return false;">
+                                            <div class="col-md-12 col-lg-12 col-xs-12">
+                                                {!! csrf_field() !!}
+                                                <div class="form-group">
+                                                    <label>Adjuntar Documento</label>
+                                                    <input type="file" name="registro_file" id="registro_file" class="form-control" accept=".pdf">
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12 col-xs-12">
+                                                        <div class="form-group hide" id="pdf-registro_file">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <button disabled="" id="button-registro_file" class="btn btn-sm">
+                                                        </button>
+                                                        <button type="reset" data-dismiss="modal" class="btn btn-danger pull-right btn-sm">
+                                                            <i style="color:white" class="glyphicon glyphicon-remove-sign"></i>
+                                                            Cerrar
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
       </div>
 
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
 
 <div class="loading" style="display: none;">
@@ -228,6 +287,7 @@
 @section('js')
   <script type="text/javascript">
     var url = "{{url('denuncia/getGData')}}";
+    var URLs="{{url('/')}}";
   </script>
   <script src="{{ asset('assests/js/denuncia/denuncia/denuncia.js') }}"></script>
 @endsection

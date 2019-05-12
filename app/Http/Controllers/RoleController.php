@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Caffeinated\Shinobi\Models\Role;
 use App\Models\Role as RoleApp;
+use App\Models\Permiso;
 use Caffeinated\Shinobi\Models\Permission;
 use Illuminate\Support\Facades\Validator;
 
@@ -22,9 +23,9 @@ class RoleController extends Controller
             // $roles = Role::paginate(10);
             // return view('admin.roles.index', compact('roles'));
 
-        // Nueva: Search - Sort 
+        // Nueva: Search - Sort
         $roles = new RoleApp();
-        
+
 
         $request->session()->put('search', $request
             ->has('search') ? $request->get('search') : ($request->session()
@@ -35,7 +36,7 @@ class RoleController extends Controller
 
         $request->session()->put('field', $request
             ->has('field') ? $request->get('field') : ( $request->session()
-            ->has('field') ? ( array_search($request->session()->get('field'), $fillable) ? 
+            ->has('field') ? ( array_search($request->session()->get('field'), $fillable) ?
                 $request->session()->get('field') : 'name' ) : 'name') );
 
 
@@ -45,7 +46,7 @@ class RoleController extends Controller
 
         $request->session()->put('show', $request
             ->has('show') ? $request->get('show') : ($request->session()
-            ->has('show') ? ( is_numeric($request->session()->get('show')) ? 
+            ->has('show') ? ( is_numeric($request->session()->get('show')) ?
               $request->session()->get('show') : '10' ) : '10'));
 
 
@@ -58,7 +59,7 @@ class RoleController extends Controller
             ->paginate($request->session()->get('show'));
 
         if ($request->ajax()) {
-          return view('admin.roles.ajax', compact('roles'));  
+          return view('admin.roles.ajax', compact('roles'));
         } else {
           return view('admin.roles.index', compact('roles'));
         }
@@ -72,14 +73,15 @@ class RoleController extends Controller
     public function create()
     {
         // Forma anterior
-        
+
             // return view('admin.roles.create');
 
         // Con Ajax
 
-        $permissions = Permission::get();
+        // $permissions = Permission::get();
+        $permiso=Permiso::with('permisos')->orderBy('id','asc')->first();
 
-        return view('admin.roles.partials.form_ajax', compact('permissions'));
+        return view('admin.roles.partials.form_ajax', compact('permiso'));
 
     }
 
@@ -116,7 +118,7 @@ class RoleController extends Controller
 
             // el metodo sync solo sirve para tablas realcionadas muchos a muchos
             $role->permissions()->sync($request->get('permissions'));
-    
+
             return response()->json([
                 'type' => 'store',
                 'info' => 'Rol guardado con éxito.',
@@ -137,7 +139,7 @@ class RoleController extends Controller
 
         // return view('admin.roles.show', compact('role'));
 
-        return view('admin.roles.detail', compact('role'));        
+        return view('admin.roles.detail', compact('role'));
     }
 
     /**
@@ -147,7 +149,7 @@ class RoleController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
-    {   
+    {
         // Forma anterior
 
             // $role = Role::findOrFail($id);
@@ -158,9 +160,10 @@ class RoleController extends Controller
 
         $role = Role::findOrFail($id);
 
-        $permissions = Permission::get();
+        // $permissions = Permission::get();
+        $permiso=Permiso::with('permisos')->orderBy('id','asc')->first();
 
-        return view('admin.roles.partials.form_ajax', compact('role', 'permissions'));
+        return view('admin.roles.partials.form_ajax', compact('role', 'permiso'));
 
 
     }
@@ -181,7 +184,7 @@ class RoleController extends Controller
             'slug' => 'required',
             'description' => 'required',
         ];
-        
+
         $input = [
             'name' => $request['name'],
             'slug' => $request['slug'],
@@ -200,7 +203,7 @@ class RoleController extends Controller
 
             // el metodo sync solo sirve para tablas realcionadas muchos a muchos
             $role->permissions()->sync($request->get('permissions'));
-            
+
             return response()->json([
                 'type' => 'update',
                 'info' => 'Rol actualizado con éxito.',

@@ -101,14 +101,14 @@
             </div>
 
                         
-                        <div class="form-group">
-                            @if( !empty($victima['id']) ) 
-                                {!! Form::button("Actualizar",["type" => "submit","id" => "btnSubmitVictima","class"=>"btn btn-warning"])!!}
-                            @else
-                                {!! Form::button("Guardar",["type" => "submit","class"=>"btn btn-primary"])!!}
-                            @endif
-                            <a href="javascript:ajaxLoad('{{ url('/victima') }}')" class="btn btn-default pull-right">Cancelar</a>
-                        </div>
+            <div class="form-group">
+              @if( !empty($victima['id']) ) 
+                {!! Form::button("Actualizar",["type" => "submit","id" => "btnSubmitVictima","class"=>"btn btn-warning"])!!}
+              @else
+                {!! Form::button("Guardar",["type" => "submit","class"=>"btn btn-primary"])!!}
+              @endif
+              <a href="javascript:ajaxLoad('{{ url('/victima') }}')" class="btn btn-default pull-right">Cancelar</a>
+            </div>
                     
           {!! Form::close() !!}
 

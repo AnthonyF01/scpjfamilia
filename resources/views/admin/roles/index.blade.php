@@ -1,15 +1,15 @@
 @extends('adminlte::layouts.app')
 
 @section('htmlheader_title')
-	Roles
+    Roles
 @endsection
 
 @section('contentheader_title')
-	Roles
+    Roles
 @endsection
 
 @section('roles')
-	active
+    active
 @endsection
 
 @section('css')
@@ -26,21 +26,36 @@
       z-index: 2000;
       display: none;
     }
+    .dd-handle{
+      padding-top: 1px;
+      cursor: pointer;
+    }
+    .dd-handle:hover {
+      color: #e52e2ee6;
+    }
+    .dd-handle .fa{
+      border-style: dotted;
+      border-width: thin;
+      margin-right: 5px;
+    }
+    .dd{
+      max-width: 850px;
+    }
   </style>
 @endsection
 
 @section('main-content')
-	
+
 <div class="container-fluid spark-screen">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
-			<div id="content_ajax">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+            <div id="content_ajax">
 
-	    	@include('admin.roles.ajax')	
+            @include('admin.roles.ajax')
 
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="loading" style="display: none;">

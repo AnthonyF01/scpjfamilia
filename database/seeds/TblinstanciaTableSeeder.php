@@ -12,12 +12,12 @@ class TblinstanciaTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('tblinstancia')->delete();
-        
+
         \DB::table('tblinstancia')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'tblmodulo_id' => 30,
@@ -32,7 +32,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2,
                 'tblmodulo_id' => 30,
@@ -47,7 +47,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 3,
                 'tblmodulo_id' => 30,
@@ -62,7 +62,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 4,
                 'tblmodulo_id' => 30,
@@ -77,7 +77,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 5,
                 'tblmodulo_id' => 30,
@@ -92,7 +92,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 6,
                 'tblmodulo_id' => 30,
@@ -107,7 +107,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 7,
                 'tblmodulo_id' => 30,
@@ -117,12 +117,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => 'Juzgado Mixto - MBJ Alto del Alianza',
                 'sigla' => 'JM-AA',
                 'tipo' => 'JM',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 8,
                 'tblmodulo_id' => 30,
@@ -137,7 +137,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 9,
                 'tblmodulo_id' => 30,
@@ -152,7 +152,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 10,
                 'tblmodulo_id' => 30,
@@ -167,7 +167,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 11,
                 'tblmodulo_id' => 30,
@@ -182,7 +182,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 12,
                 'tblmodulo_id' => 30,
@@ -197,7 +197,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 13,
                 'tblmodulo_id' => 30,
@@ -212,7 +212,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 14,
                 'tblmodulo_id' => 30,
@@ -227,7 +227,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 15,
                 'tblmodulo_id' => 30,
@@ -242,7 +242,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 16,
                 'tblmodulo_id' => 30,
@@ -257,7 +257,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 17,
                 'tblmodulo_id' => 30,
@@ -272,7 +272,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 18,
                 'tblmodulo_id' => 30,
@@ -287,7 +287,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 19,
                 'tblmodulo_id' => 30,
@@ -302,7 +302,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            19 => 
+            19 =>
             array (
                 'id' => 20,
                 'tblmodulo_id' => 30,
@@ -317,7 +317,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            20 => 
+            20 =>
             array (
                 'id' => 21,
                 'tblmodulo_id' => 30,
@@ -332,7 +332,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            21 => 
+            21 =>
             array (
                 'id' => 22,
                 'tblmodulo_id' => 30,
@@ -347,7 +347,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            22 => 
+            22 =>
             array (
                 'id' => 23,
                 'tblmodulo_id' => 30,
@@ -362,7 +362,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            23 => 
+            23 =>
             array (
                 'id' => 24,
                 'tblmodulo_id' => 30,
@@ -377,7 +377,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            24 => 
+            24 =>
             array (
                 'id' => 25,
                 'tblmodulo_id' => 30,
@@ -387,12 +387,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => '1° Juzgado de Familia',
                 'sigla' => '1JF',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            25 => 
+            25 =>
             array (
                 'id' => 26,
                 'tblmodulo_id' => 30,
@@ -402,12 +402,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => '2° Juzgado de Familia',
                 'sigla' => '2JF',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            26 => 
+            26 =>
             array (
                 'id' => 27,
                 'tblmodulo_id' => 30,
@@ -417,12 +417,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => 'Juzgado Mixto - Sede Locumba',
                 'sigla' => 'JM-JB',
                 'tipo' => 'JM',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            27 => 
+            27 =>
             array (
                 'id' => 28,
                 'tblmodulo_id' => 30,
@@ -432,12 +432,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => 'Juz. de Familia Tran. - MBJ GAL',
                 'sigla' => 'JFT-GAL',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            28 => 
+            28 =>
             array (
                 'id' => 29,
                 'tblmodulo_id' => 30,
@@ -452,7 +452,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            29 => 
+            29 =>
             array (
                 'id' => 30,
                 'tblmodulo_id' => 30,
@@ -467,7 +467,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            30 => 
+            30 =>
             array (
                 'id' => 31,
                 'tblmodulo_id' => 30,
@@ -482,7 +482,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            31 => 
+            31 =>
             array (
                 'id' => 32,
                 'tblmodulo_id' => 30,
@@ -497,7 +497,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            32 => 
+            32 =>
             array (
                 'id' => 33,
                 'tblmodulo_id' => 30,
@@ -507,12 +507,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => 'Juzgado Mixto - Tarata',
                 'sigla' => 'JM-TA',
                 'tipo' => 'JM',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            33 => 
+            33 =>
             array (
                 'id' => 34,
                 'tblmodulo_id' => 30,
@@ -527,7 +527,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            34 => 
+            34 =>
             array (
                 'id' => 35,
                 'tblmodulo_id' => 30,
@@ -542,7 +542,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            35 => 
+            35 =>
             array (
                 'id' => 36,
                 'tblmodulo_id' => 30,
@@ -557,7 +557,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            36 => 
+            36 =>
             array (
                 'id' => 37,
                 'tblmodulo_id' => 30,
@@ -567,12 +567,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => '3° Juzgado de Familia',
                 'sigla' => '3JF',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            37 => 
+            37 =>
             array (
                 'id' => 38,
                 'tblmodulo_id' => 30,
@@ -582,12 +582,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => '4° Juzgado de Familia',
                 'sigla' => '4JF',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            38 => 
+            38 =>
             array (
                 'id' => 39,
                 'tblmodulo_id' => 30,
@@ -602,7 +602,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            39 => 
+            39 =>
             array (
                 'id' => 40,
                 'tblmodulo_id' => 30,
@@ -617,7 +617,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            40 => 
+            40 =>
             array (
                 'id' => 41,
                 'tblmodulo_id' => 30,
@@ -632,7 +632,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            41 => 
+            41 =>
             array (
                 'id' => 42,
                 'tblmodulo_id' => 30,
@@ -647,7 +647,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            42 => 
+            42 =>
             array (
                 'id' => 43,
                 'tblmodulo_id' => 30,
@@ -662,7 +662,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            43 => 
+            43 =>
             array (
                 'id' => 44,
                 'tblmodulo_id' => 30,
@@ -677,7 +677,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            44 => 
+            44 =>
             array (
                 'id' => 45,
                 'tblmodulo_id' => 30,
@@ -692,7 +692,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            45 => 
+            45 =>
             array (
                 'id' => 46,
                 'tblmodulo_id' => 30,
@@ -707,7 +707,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            46 => 
+            46 =>
             array (
                 'id' => 47,
                 'tblmodulo_id' => 30,
@@ -717,12 +717,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => 'Juzgado Mixto - Candarave',
                 'sigla' => 'JM-CA',
                 'tipo' => 'JM',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            47 => 
+            47 =>
             array (
                 'id' => 48,
                 'tblmodulo_id' => NULL,
@@ -732,12 +732,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => '9° Juzgado de Familia',
                 'sigla' => '9JF',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            48 => 
+            48 =>
             array (
                 'id' => 49,
                 'tblmodulo_id' => NULL,
@@ -747,12 +747,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => '10° Juzgado de Familia',
                 'sigla' => '10JF',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            49 => 
+            49 =>
             array (
                 'id' => 50,
                 'tblmodulo_id' => NULL,
@@ -762,12 +762,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => '11° Juzgado de Familia',
                 'sigla' => '11JF',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            50 => 
+            50 =>
             array (
                 'id' => 51,
                 'tblmodulo_id' => NULL,
@@ -777,12 +777,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => '12° Juzgado de Familia',
                 'sigla' => '12JF',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            51 => 
+            51 =>
             array (
                 'id' => 52,
                 'tblmodulo_id' => NULL,
@@ -792,12 +792,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => '13° Juzgado de Familia',
                 'sigla' => '13JF',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            52 => 
+            52 =>
             array (
                 'id' => 53,
                 'tblmodulo_id' => NULL,
@@ -807,12 +807,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => '14° Juzgado de Familia',
                 'sigla' => '14JF',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            53 => 
+            53 =>
             array (
                 'id' => 54,
                 'tblmodulo_id' => NULL,
@@ -822,12 +822,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => '15° Juzgado de Familia',
                 'sigla' => '15JF',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            54 => 
+            54 =>
             array (
                 'id' => 55,
                 'tblmodulo_id' => NULL,
@@ -837,12 +837,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => '16° Juzgado de Familia',
                 'sigla' => '16JF',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            55 => 
+            55 =>
             array (
                 'id' => 56,
                 'tblmodulo_id' => NULL,
@@ -852,12 +852,12 @@ class TblinstanciaTableSeeder extends Seeder
                 'nombre' => '17° Juzgado de Familia',
                 'sigla' => '17JF',
                 'tipo' => 'FA',
-                'estadistica' => 1,
+                'estadistica' => 0,
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            56 => 
+            56 =>
             array (
                 'id' => 57,
                 'tblmodulo_id' => 33,
@@ -872,7 +872,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => '2019-02-14 23:21:48',
                 'deleted_at' => NULL,
             ),
-            57 => 
+            57 =>
             array (
                 'id' => 58,
                 'tblmodulo_id' => 33,
@@ -887,7 +887,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => '2019-02-14 23:22:21',
                 'deleted_at' => NULL,
             ),
-            58 => 
+            58 =>
             array (
                 'id' => 59,
                 'tblmodulo_id' => 33,
@@ -902,7 +902,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => '2019-02-14 23:22:49',
                 'deleted_at' => NULL,
             ),
-            59 => 
+            59 =>
             array (
                 'id' => 60,
                 'tblmodulo_id' => 33,
@@ -917,7 +917,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => '2019-02-14 23:23:15',
                 'deleted_at' => NULL,
             ),
-            60 => 
+            60 =>
             array (
                 'id' => 61,
                 'tblmodulo_id' => 33,
@@ -932,7 +932,7 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => '2019-02-14 23:23:42',
                 'deleted_at' => NULL,
             ),
-            61 => 
+            61 =>
             array (
                 'id' => 62,
                 'tblmodulo_id' => 33,
@@ -947,8 +947,218 @@ class TblinstanciaTableSeeder extends Seeder
                 'updated_at' => '2019-02-14 23:23:42',
                 'deleted_at' => NULL,
             ),
+            62 =>
+            array (
+                'id' => 63,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Corporativa de Tacna 1°',
+                'sigla' => 'FPC-T1',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:26:06',
+                'updated_at' => '2019-02-18 15:33:15',
+                'deleted_at' => NULL,
+            ),
+            63 =>
+            array (
+                'id' => 64,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Corporativa de Tacna 2°',
+                'sigla' => 'FPC-T2',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:26:07',
+                'updated_at' => '2019-02-18 15:33:07',
+                'deleted_at' => NULL,
+            ),
+            64 =>
+            array (
+                'id' => 65,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Corporativa de Tacna 3°',
+                'sigla' => 'FPC-T3',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:30:54',
+                'updated_at' => '2019-02-18 16:02:42',
+                'deleted_at' => NULL,
+            ),
+            65 =>
+            array (
+                'id' => 66,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Corporativa de Tacna 4°',
+                'sigla' => 'FPC-T4',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:31:23',
+                'updated_at' => '2019-02-18 16:02:57',
+                'deleted_at' => NULL,
+            ),
+            66 =>
+            array (
+                'id' => 67,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Corporativa de Tacna 5°',
+                'sigla' => 'FPC-T5',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:31:44',
+                'updated_at' => '2019-02-18 16:02:22',
+                'deleted_at' => NULL,
+            ),
+            67 =>
+            array (
+                'id' => 68,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Corporativa de Tacna 6°',
+                'sigla' => 'FPC-T6',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:32:21',
+                'updated_at' => '2019-02-18 16:02:48',
+                'deleted_at' => NULL,
+            ),
+            68 =>
+            array (
+                'id' => 69,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Corporativa de Tacna 7°',
+                'sigla' => 'FPC-T7',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:26:06',
+                'updated_at' => '2019-02-18 15:33:15',
+                'deleted_at' => NULL,
+            ),
+            69 =>
+            array (
+                'id' => 70,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Corporativa de Tacna 8°',
+                'sigla' => 'FPC-T8',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:26:06',
+                'updated_at' => '2019-02-18 15:33:15',
+                'deleted_at' => NULL,
+            ),
+            70 =>
+            array (
+                'id' => 71,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Corporativa de Tacna 9°',
+                'sigla' => 'FPC-T9',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:26:06',
+                'updated_at' => '2019-02-18 15:33:15',
+                'deleted_at' => NULL,
+            ),
+            71 =>
+            array (
+                'id' => 72,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Mixta Corporativa de Alto de la Alianza',
+                'sigla' => 'FP-AL',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:26:07',
+                'updated_at' => '2019-02-18 15:33:07',
+                'deleted_at' => NULL,
+            ),
+            72 =>
+            array (
+                'id' => 73,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Mixta Corporativa de Gregorio Albarracín',
+                'sigla' => 'FP-GAL',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:30:54',
+                'updated_at' => '2019-02-18 16:02:42',
+                'deleted_at' => NULL,
+            ),
+            73 =>
+            array (
+                'id' => 74,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Mixta Corporativa de Tarata',
+                'sigla' => 'FP-T',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:31:23',
+                'updated_at' => '2019-02-18 16:02:57',
+                'deleted_at' => NULL,
+            ),
+            74 =>
+            array (
+                'id' => 75,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Mixta Corporativa de Candarave',
+                'sigla' => 'FP-C',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:31:44',
+                'updated_at' => '2019-02-18 16:02:22',
+                'deleted_at' => NULL,
+            ),
+            75 =>
+            array (
+                'id' => 76,
+                'tblmodulo_id' => 30,
+                'tbldepartamento_id' => 23,
+                'tblprovincia_id' => NULL,
+                'tbldistrito_id' => NULL,
+                'nombre' => 'Fiscalía Provincial Mixta Corporativa de Jorge Basadre',
+                'sigla' => 'FP-JB',
+                'tipo' => 'MP',
+                'estadistica' => 0,
+                'created_at' => '2019-02-18 15:32:21',
+                'updated_at' => '2019-02-18 16:02:48',
+                'deleted_at' => NULL,
+            ),
         ));
-        
-        
+
+
     }
 }

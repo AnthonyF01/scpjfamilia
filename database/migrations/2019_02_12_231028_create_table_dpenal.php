@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTblmedidaTable extends Migration
+class CreateTableDpenal extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,14 @@ class CreateTblmedidaTable extends Migration
      */
     public function up()
     {
-        Schema::create('tblmedida', function (Blueprint $table) {
+        Schema::create('tbldpenal', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('nombre');
-            $table->string('sigla')->nullable();
-            $table->text('descripcion')->nullable();
+            $table->text('nombre')->nullable();
+            $table->integer('parent')->nullable();//clave foreanea
+            $table->boolean('nivel')->default(0);//1->padre, 0->hijo
             $table->timestamps();
-            $table->softDeletes();
         });
+
     }
 
     /**
@@ -30,6 +30,6 @@ class CreateTblmedidaTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tblmedida');
+        Schema::dropIfExists('dpenal');
     }
 }

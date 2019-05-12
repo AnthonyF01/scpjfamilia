@@ -3,21 +3,21 @@
     <div class="col-md-8 col-md-offset-2">
       <div class="box_plus box_plus-default ">
         <div id="box_plus-title" class="box_plus-heading">
-        	@if(isset($user) && !empty($user['id']))
-        		Editar Usuario
-	        @else
-        		Crear Usuario
-	        @endif
+          @if(isset($user) && !empty($user['id']))
+            Editar Usuario
+          @else
+            Crear Usuario
+          @endif
         </div>
         <div class="box_plus-body">
 
-        	@if(isset($user) && !empty($user['id']))
-          	{!! Form::model($user, [ 'route' => ['users.update', $user->id], 'method' => 'PUT', 'id'=>'form_user' ]) !!}
-	        @else
-	          {!! Form::open([ 'route' => 'users.store', 'id'=>'form_user' ]) !!}
+          @if(isset($user) && !empty($user['id']))
+            {!! Form::model($user, [ 'route' => ['users.update', $user->id], 'method' => 'PUT', 'id'=>'form_user' ]) !!}
+          @else
+            {!! Form::open([ 'route' => 'users.store', 'id'=>'form_user' ]) !!}
           @endif
 
-						<div class="form-group">
+            <div class="form-group">
               {{ Form::label('imagen', 'Imagen') }}
               <div class="file-loading">
                 <input id="imagen" name="imagen" type="file">
@@ -40,16 +40,21 @@
               <span id="error-direccion" class="invalid-feedback"></span>
             </div>
 
-            <div class="form-group">
-              {{ Form::label('fono', 'Teléfono') }}
-              {{ Form::text('fono', null, ['class' => 'form-control input-sm'.($errors->has('fono')?" is-invalid":""), "autofocus", 'id' => 'fono', 'autocomplete' => 'off']) }}
-              <span id="error-fono" class="invalid-feedback"></span>
-            </div>
-
-            <div class="form-group">
-              {{ Form::label('dni', 'DNI') }}
-              {{ Form::text('dni', null, ['class' => 'form-control input-sm'.($errors->has('dni')?" is-invalid":""), "autofocus", 'id' => 'dni', 'maxlength' => '8', 'autocomplete' => 'off' ]) }}
-              <span id="error-dni" class="invalid-feedback"></span>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  {{ Form::label('fono', 'Teléfono') }}
+                  {{ Form::text('fono', null, ['class' => 'form-control input-sm'.($errors->has('fono')?" is-invalid":""), "autofocus", 'id' => 'fono', 'autocomplete' => 'off']) }}
+                  <span id="error-fono" class="invalid-feedback"></span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  {{ Form::label('dni', 'DNI') }}
+                  {{ Form::text('dni', null, ['class' => 'form-control input-sm'.($errors->has('dni')?" is-invalid":""), "autofocus", 'id' => 'dni', 'maxlength' => '8', 'autocomplete' => 'off' ]) }}
+                  <span id="error-dni" class="invalid-feedback"></span>
+                </div>
+              </div>
             </div>
 
             <div class="form-group">
@@ -61,31 +66,36 @@
               <span id="error-fchnac" class="invalid-feedback"></span>
             </div>
 
-            <div class="form-group">
-              {{ Form::label('Departamento') }}
-              {{ Form::select('tbldepartamento_id', $departamentos, null, array('class'=>'form-control input-sm'.($errors->has('tbldepartamento_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Departamento')) }}
-              <span id="error-tbldepartamento_id" class="invalid-feedback"></span>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  {{ Form::label('Departamento') }}
+                  {{ Form::select('tbldepartamento_id', $departamentos, null, array('class'=>'form-control input-sm'.($errors->has('tbldepartamento_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Departamento')) }}
+                  <span id="error-tbldepartamento_id" class="invalid-feedback"></span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  {{ Form::label('Modulo') }}
+                  {{ Form::select('tblmodulo_id', $modulos, null, array('class'=>'form-control input-sm'.($errors->has('tblmodulo_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Modulo')) }}
+                  <span id="error-tblmodulo_id" class="invalid-feedback"></span>
+                </div>
+              </div>
             </div>
 
             <div class="form-group">
-              {{ Form::label('Modulo') }}
-              {{ Form::select('tblmodulo_id', $modulos, null, array('class'=>'form-control input-sm'.($errors->has('tblmodulo_id')?" is-invalid":""), 'placeholder'=>'Seleccione un Modulo')) }}
-              <span id="error-tblmodulo_id" class="invalid-feedback"></span>
+              {{ Form::label('name', 'Usuario') }}
+              {{ Form::text('name', null, ['class' => 'form-control input-sm'.($errors->has('name')?" is-invalid":""),  "autofocus", 'id' => 'name', (isset($user) && !empty($user['id'])) ? 'disabled' : '']) }}
+              <span id="error-name" class="invalid-feedback"></span>
             </div>
-
-            <div class="form-group">
-							{{ Form::label('name', 'Usuario') }}
-							{{ Form::text('name', null, ['class' => 'form-control input-sm'.($errors->has('name')?" is-invalid":""), 	"autofocus", 'id' => 'name', (isset($user) && !empty($user['id'])) ? 'disabled' : '']) }}
-							<span id="error-name" class="invalid-feedback"></span>
-						</div>
 
             <div class="form-group">
               {{ Form::label('email', 'Email') }}
               {{ Form::text('email', null, ['class' => 'form-control input-sm'.($errors->has('email')?" is-invalid":""),   "autofocus", 'id' => 'email', (isset($user) && !empty($user['id'])) ? 'disabled' : '']) }}
               <span id="error-email" class="invalid-feedback"></span>
             </div>
-            
-            @if( empty($user['id']) ) 
+
+            @if( empty($user['id']) )
               <div class="form-group">
                 {{ Form::label('password', 'Contraseña') }}
                 <div class="input-group date">
@@ -100,36 +110,36 @@
               </div>
             @endif
 
-						<hr>
-						<h3>Lista de roles</h3>
-						<div class="form-group">
-							<ul class="list-unstyled">
-								@foreach($roles as $role)
-							    <li>
-							        <label>
-							        <!-- 'roles[]' => es un array que guardara multiples valores del checkbox -->
-							        <!-- 'null' => no tendra ningun rol marcado por defecto -->
-							        {{ Form::checkbox('roles[]', $role->id, null) }}
-							        {{ $role->name }}
-							        <em>({{ $role->description ?: 'N/A' }})</em>
-							        </label>
-							    </li>
-							    @endforeach
-						    </ul>
-						</div>
-						
-						<div class="form-group">
-							@if( !empty($user['id']) ) 
-								{!! Form::button("Actualizar",["type" => "submit","class"=>"btn btn-warning"])!!}
-							@else
-								{!! Form::button("Guardar",["type" => "submit","class"=>"btn btn-primary"])!!}
-							@endif
-							<a href="javascript:ajaxLoad('{{ url('/users') }}')" class="btn btn-default pull-right">Cancelar</a>
-						</div>
-					
+            <hr>
+            <h3>Lista de roles</h3>
+            <div class="form-group">
+              <ul class="list-unstyled">
+                @foreach($roles as $role)
+                  <li>
+                      <label>
+                      <!-- 'roles[]' => es un array que guardara multiples valores del checkbox -->
+                      <!-- 'null' => no tendra ningun rol marcado por defecto -->
+                      {{ Form::checkbox('roles[]', $role->id, null) }}
+                      {{ $role->name }}
+                      <em>({{ $role->description ?: 'N/A' }})</em>
+                      </label>
+                  </li>
+                  @endforeach
+                </ul>
+            </div>
+
+            <div class="form-group">
+              @if( !empty($user['id']) )
+                {!! Form::button("Actualizar",["type" => "submit","class"=>"btn btn-warning"])!!}
+              @else
+                {!! Form::button("Guardar",["type" => "submit","class"=>"btn btn-primary"])!!}
+              @endif
+              <a href="javascript:ajaxLoad('{{ url('/users') }}')" class="btn btn-default pull-right">Cancelar</a>
+            </div>
+
           {!! Form::close() !!}
 
-				</div>
+        </div>
       </div>
     </div>
   </div>

@@ -1,8 +1,3 @@
-$(document).ready(function() {
-    $('#parent').remove();
-    $(".breadcrumb").append('<li id="parent" class="active"><img style="height: 14px;margin-right: 2px;" src="/assests/img/icons/police-station-o.png"> Instituciones</li>');
-}); 
-
 $(document).on('click', 'a.page-link', function (event) {
     event.preventDefault();
     ajaxLoad($(this).attr('href'));
@@ -16,26 +11,25 @@ function ajaxLoad(filename, content, action = '', message = '') {
         var redirect = "javascript:ajaxLoad(\""+filename.split("tblcomisaria")[0]+"tblcomisaria"+"\")";
         if (filename.indexOf('edit') != -1) {
             $('#parent').remove();
-            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><img style='height: 14px;margin-right: 2px;' src='/assests/img/icons/police-station-o.png'> Instituciones</a></li><li id='li_edit' class='active'><i class='fa fa-edit'></i> Editar Institución</li>");
+            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-medkit'></i> Comisarias</a></li><li id='li_edit' class='active'><i class='fa fa-edit'></i> Editar Comisaria</li>");
         }else if (filename.indexOf('create') != -1) {
             $('#parent').remove();
-            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><img style='height: 14px;margin-right: 2px;' src='/assests/img/icons/police-station-o.png'> Instituciones</a></li><li id='li_create' class='active'><i class='fa fa-edit'></i> Crear Institución</li>");
+            $(".breadcrumb").append("<li id='parent' class='active'><a href='"+redirect+"'><i class='fa fa-medkit'></i> Comisarias</a></li><li id='li_create' class='active'><i class='fa fa-edit'></i> Crear Comisaria</li>");
         }else {
             $('#li_create').remove();
             $('#li_edit').remove();
             $('#parent').remove();
-            $(".breadcrumb").append('<li id="parent" class="active"><img style="height: 14px;margin-right: 2px;" src="/assests/img/icons/police-station-o.png"> Instituciones</li>');
+            $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Comisarias</li>');
         }
     }else{
         $('#li_create').remove();
         $('#li_edit').remove();
         $('#parent').remove();
-        $(".breadcrumb").append('<li id="parent" class="active"><img style="height: 14px;margin-right: 2px;" src="/assests/img/icons/police-station-o.png"> Instituciones</li>');
+        $(".breadcrumb").append('<li id="parent" class="active"><i class="fa fa-gears"></i> Comisarias</li>');
     }
 
     content = typeof content !== 'undefined' ? content : 'content_ajax';
     $('.loading').show();
-    debugger;
     $.ajax({
         type: "GET",
         url: filename,
@@ -50,7 +44,7 @@ function ajaxLoad(filename, content, action = '', message = '') {
                 $("div#box_message").addClass('show');
                 $("div#message").text(message);
             }else{
-                $('div#box_message').removeClass('show'); 
+                $('div#box_message').removeClass('show');
                 $('div#box_message').addClass('hide');
             }
         },
@@ -113,4 +107,108 @@ function showRow(elm) {
     var path = "{{ url('/') }}";
     var str = "/tblcomisaria?show=" + value;
     javascript:ajaxLoad(str);
+}
+
+function showMapSelect(lat,lng,opt,id,name) {
+    var mapa=$("#map");
+    mapa.html(''); //reset mapa
+
+    var show_message=$("#show_message");
+    var modal_message=$("#modal_message");
+    var span =$("#span-title");
+    var geolocalizacion=$("#form-geolocalizacion");
+
+    var option = {lat: lat, lng: lng};
+    if (opt==1) var zoom=17; else var zoom=13;
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: zoom,
+        center: option,
+        clickable:true
+    });
+
+    if (opt==1) {
+        var infoWindow = new google.maps.InfoWindow;
+        var mylatlng = new google.maps.LatLng(lat, lng);
+
+        // Creating a marker and putting it on the map
+        var marker = new google.maps.Marker({
+            position: mylatlng,
+            clickable:true,
+            map:map,
+            draggable: true,
+            animation:google.maps.Animation.DROP,
+        });
+
+        marker.setIcon('/assests/img/icons/red-marker2.png');
+
+        var infowincontent = document.createElement('div');
+
+        var strong = document.createElement('strong');
+        strong.textContent = "Nombre: ";
+        infowincontent.appendChild(strong);
+        var text = document.createElement('text');
+        text.textContent = name;
+        infowincontent.appendChild(text);
+
+        marker.setMap(map);
+        marker.addListener('click', function(event) {
+            infoWindow.setContent(infowincontent);
+            infoWindow.open(map, marker);
+        });
+
+        marker.addListener( 'dragend', function (event){
+            // console.log(this.getPosition().lat());
+            // console.log(this.getPosition().lng());
+            registerPointsMap(this.getPosition().lat(),this.getPosition().lng());
+        });
+
+        map.addListener('click', function(event) {
+            marker.setPosition(new google.maps.LatLng(event.latLng.lat(), event.latLng.lng()))
+            // console.log(event.latLng.lat());
+            // console.log(event.latLng.lng());
+            registerPointsMap(event.latLng.lat(),event.latLng.lng());
+        });
+
+        show_message.html('Seleccione otro punto del mapa para para poder modificar y guardar los cambios en el sistema');
+        modal_message.find(".alert").removeClass('alert-info').addClass('alert-success');
+        span.html('Modificar Ubicación de la Institución (Comisaría o Fiscalía) en el Mapa');
+    }
+    else{
+        map.addListener('click', function(event) {
+            // console.log(name)
+            map.setZoom(17);
+            // console.log(event.latLng.lat());
+            // console.log(event.latLng.lng());
+            registerPointsMap(event.latLng.lat(),event.latLng.lng());
+        });
+
+        show_message.html('Seleccione un punto del mapa para poder registrar en el sistema');
+        modal_message.find(".alert").removeClass('alert-success').addClass('alert-info');
+        span.html('Registrar Ubicación de la Institución (Comisaría o Fiscalía) en el Mapa');
+    }
+
+    geolocalizacion.data("opc",{opt:opt,id:id,name:name});
+    $("#showModalMapa").modal({backdrop: 'static', keyboard: false});
+}
+
+function registerPointsMap(lat,lng) {
+    var token=$("input[name=_token]").val();
+    var geolocalizacion=$("#form-geolocalizacion");
+    var opc=geolocalizacion.data("opc");
+    var route=URLs+'/tblcomisaria-geolocalizacion/'+opc.id;
+    $.ajax({
+        type: 'POST',
+        data: {latitud:lat,longitud:lng, _token: token,opt:opc.opt},
+        url: route,
+        success: function (data) {
+            geolocalizacion.data('opc',{})
+            // $("#showModalMapa").modal('hide');
+            javascript:ajaxLoad(URLs+'/tblcomisaria');
+            showMapSelect(parseFloat(data.latitud),parseFloat(data.longitud),1,data.id,data.nombre);
+        },
+        error: function (xhr, status, error) {
+            alert(xhr.responseText);
+        }
+    });
 }

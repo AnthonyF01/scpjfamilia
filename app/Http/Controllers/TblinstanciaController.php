@@ -8,6 +8,7 @@ use Auth;
 use App\Models\Tblinstancia;
 use App\Models\Tbldepartamento;
 use App\Models\Tblmodulo;
+use App\Models\Tblcomisaria;
 
 class TblinstanciaController extends Controller
 {
@@ -142,6 +143,7 @@ class TblinstanciaController extends Controller
             'nombre' => 'Nombre',
             'sigla' => 'Sigla',
             'tipo' => 'Tipo',
+            'estadistica' => 'Estadística',
             'tbldepartamento_id' => 'Departamento',
             'tblmodulo_id' => 'Modulo',
         );
@@ -150,6 +152,7 @@ class TblinstanciaController extends Controller
             'nombre' => 'required|string',
             'sigla' => 'required|string|unique:tblinstancia',
             'tipo' => 'required|string',
+            'estadistica' => 'required',
             'tbldepartamento_id' => 'required|exists:tbldepartamento,id',
             'tblmodulo_id' => 'nullable|exists:tblmodulo,id',
         ];
@@ -158,6 +161,7 @@ class TblinstanciaController extends Controller
             'nombre' => $request['nombre'],
             'sigla' => $request['sigla'],
             'tipo' => $request['tipo'],
+            'estadistica' => $request['estadistica'],
             'tbldepartamento_id' => $request['tbldepartamento_id'],
             'tblmodulo_id' => $request['tblmodulo_id'],
         ];
@@ -174,6 +178,19 @@ class TblinstanciaController extends Controller
         }else{
 
             $tblinstancia = Tblinstancia::create($input);
+
+            //store tabla tblcomisaria
+            if ($request['tipo']=='MP') {
+                $input2 = [
+                    'nombre' => $request['nombre'],
+                    'sigla' => $request['sigla'],
+                    'color' => 'light_blue',
+                    'tbldepartamento_id' => $request['tbldepartamento_id'],
+                    'tblmodulo_id' => $request['tblmodulo_id'],
+                    'tipo_int' => 1,
+                ];
+                $tblcomisaria=Tblcomisaria::create($input2);
+            }
 
             return response()->json([
                 'type' => 'store',
@@ -250,6 +267,7 @@ class TblinstanciaController extends Controller
             'nombre' => 'Nombre',
             'sigla' => 'Sigla',
             'tipo' => 'Tipo',
+            'estadistica' => 'Estadística',
             'tbldepartamento_id' => 'Departamento',
             'tblmodulo_id' => 'Modulo',
         );
@@ -258,6 +276,7 @@ class TblinstanciaController extends Controller
             'nombre' => 'required|string',
             'sigla' => 'required|string|unique:tblinstancia,sigla,'.$tblinstancia->sigla.',sigla',
             'tipo' => 'required|string',
+            'estadistica' => 'required',
             'tbldepartamento_id' => 'required|exists:tbldepartamento,id',
             'tblmodulo_id' => 'nullable|exists:tblmodulo,id',
         ];
@@ -266,6 +285,7 @@ class TblinstanciaController extends Controller
             'nombre' => $request['nombre'],
             'sigla' => $request['sigla'],
             'tipo' => $request['tipo'],
+            'estadistica' => $request['estadistica'],
             'tbldepartamento_id' => $request['tbldepartamento_id'],
             'tblmodulo_id' => $request['tblmodulo_id'],
         ];
@@ -281,6 +301,31 @@ class TblinstanciaController extends Controller
             ]);
         }else{
 
+            //update tabla tblcomisaria
+            if ($request['tipo']=='MP') {
+                $t=Tblinstancia::find($id);
+                $sigla=$t->sigla;
+                $input2 = [
+                    'nombre' => $request['nombre'],
+                    'sigla' => $request['sigla'],
+                    'color' => 'light_blue',
+                    'tbldepartamento_id' => $request['tbldepartamento_id'],
+                    'tblmodulo_id' => $request['tblmodulo_id'],
+                    'tipo_int' => 1,
+                ];
+                if ($t->tipo=='MP') {
+                    $tblcomisaria=Tblcomisaria::where('nombre', $t->nombre)
+                                            ->where('sigla',$t->sigla)
+                                            ->where('tipo_int',1)
+                                            ->where('tblmodulo_id',$t->tblmodulo_id)
+                                            ->update($input2);
+                }
+                else{
+                    $tblcomisaria=Tblcomisaria::create($input2);
+                }
+            }
+
+            //update tabla tblinstancia
             Tblinstancia::where('id', $id)->update($input);
 
             return response()->json([

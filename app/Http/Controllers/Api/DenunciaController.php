@@ -153,6 +153,7 @@ class DenunciaController extends Controller
             'fauditoria' => $denuncia->fauditoria,
             'calificacion' => $denuncia->calificacion,
             'remitido' => $denuncia->remitido,
+            'medida_file' => $denuncia->medida_file,
         ];
         return response()->json([
             'denuncia' => $element,

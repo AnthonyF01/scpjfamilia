@@ -1,11 +1,11 @@
 @extends('adminlte::layouts.app')
 
 @section('htmlheader_title')
-	Usuarios
+    Usuarios
 @endsection
 
 @section('contentheader_title')
-	Usuarios
+    Usuarios
 @endsection
 
 @section('contentheader_subtitle')
@@ -13,7 +13,7 @@
 @endsection
 
 @section('users')
-	active
+    active
 @endsection
 
 @section('css')
@@ -34,17 +34,17 @@
 @endsection
 
 @section('main-content')
-	
+
 <div class="container-fluid spark-screen">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
-			<div id="content_ajax">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+            <div id="content_ajax">
 
-	    	@include('admin.users.ajax')	
+            @include('admin.users.ajax')
 
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="loading" style="display: none;">
@@ -53,8 +53,51 @@
   <span>Loading</span>
 </div>
 
+<div class="modal fade" id="showModalMapa" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="col-xs-12 col-md-12 col-lg-12">
+          <div class="row">
+              <div class="panel panel-primary">
+                  <div class="panel-heading">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="fa fa-times-circle"></span>
+                    </button>
+                    <span id="span-title" style="font-size: 14px; font-weight: bold"></span>
+                  </div>
+                  <div class="panel-body">
+                      <div class="row">
+                          <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12" id="modal_message">
+                            <div class="alert alert-warning">
+                              <button type="button" class="close" onclick="$('div#modal_message').removeClass('show'); $('div#modal_message').addClass('hide');">
+                                <span aria-hidden="true">×</span>
+                              </button>
+                              <div id="show_message" style="font-weight: bold;"></div>
+                            </div>
+                          </div>
+
+                          <form id="form-geolocalizacion">
+                          </form>
+                          <div class="col-md-12 col-lg-12 col-xs-12">
+                              {!! csrf_field() !!}
+                              <div id="map" style="min-width: 100%; max-width: 100%; height: 450px; margin: 0 auto;">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 @endsection
 
 @section('js')
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqWkugYzfAI4tg9Hy0QkM2xhx6HfNxMkQ"></script>
+  <script type="text/javascript">
+    URLs="{{ url('/') }}";
+  </script>
   <script src="{{ asset('assests/js/admin/users/users.js') }}"></script>
 @endsection

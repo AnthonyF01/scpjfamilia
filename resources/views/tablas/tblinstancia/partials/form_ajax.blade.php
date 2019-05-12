@@ -3,18 +3,18 @@
     <div class="col-md-8 col-md-offset-2">
       <div class="box_plus box_plus-default ">
         <div id="box_plus-title" class="box_plus-heading">
-        	@if(isset($tblinstancia) && !empty($tblinstancia['id']))
-        		Editar Instancia
-	        @else
-        		Crear Instancia
-	        @endif
+          @if(isset($tblinstancia) && !empty($tblinstancia['id']))
+            Editar Instancia
+          @else
+            Crear Instancia
+          @endif
         </div>
         <div class="box_plus-body">
 
-        	@if(isset($tblinstancia) && !empty($tblinstancia['id']))
-          	{!! Form::model($tblinstancia, [ 'route' => ['instancia.update', $tblinstancia->id], 'method' => 'PUT', 'id'=>'form_instancia' ]) !!}
-	        @else
-	          {!! Form::open([ 'route' => 'instancia.store', 'id'=>'form_instancia' ]) !!}
+          @if(isset($tblinstancia) && !empty($tblinstancia['id']))
+            {!! Form::model($tblinstancia, [ 'route' => ['instancia.update', $tblinstancia->id], 'method' => 'PUT', 'id'=>'form_instancia' ]) !!}
+          @else
+            {!! Form::open([ 'route' => 'instancia.store', 'id'=>'form_instancia' ]) !!}
           @endif
 
             <div class="form-group has-feedback {{ $errors->has('nombre')? 'has-error':'' }}">
@@ -29,10 +29,22 @@
               <span id="error-sigla" class="invalid-feedback"></span>
             </div>
 
-            <div class="form-group has-feedback {{ $errors->has('tipo')? 'has-error':'' }}">
-              {{ Form::label('tipo', 'Tipo') }}
-              {{ Form::select('tipo', ['CI'=>'Juzgado Civil','FA'=>'Juzgado de Familia','IP'=>'Juzgado de Investigación Preparatoria','JM'=>'Juzgado Mixto','LA'=>'Juzgado de Trabajo','PL'=>'Juzgado de Paz Letrado','PU'=>'Juzgado Unipersonal','SC'=>'Sala Civil','SL'=>'Sala Laboral ','SP'=>'Sala Penal'], null, array('class'=>'form-control input-sm'.($errors->has('tipo')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo')) }}
-              <span id="error-tipo" class="invalid-feedback"></span>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group has-feedback {{ $errors->has('tipo')? 'has-error':'' }}">
+                  {{ Form::label('tipo', 'Tipo') }}
+                  {{ Form::select('tipo', ['CI'=>'Juzgado Civil','FA'=>'Juzgado de Familia','IP'=>'Juzgado de Investigación Preparatoria','JM'=>'Juzgado Mixto','LA'=>'Juzgado de Trabajo','PL'=>'Juzgado de Paz Letrado','PU'=>'Juzgado Unipersonal','SC'=>'Sala Civil','SL'=>'Sala Laboral ','SP'=>'Sala Penal','SS'=>'Sala Superior','SSP'=>'Sala Suprema Penal','MP'=>'Ministerio Público'], null, array('class'=>'form-control input-sm'.($errors->has('tipo')?" is-invalid":""), 'placeholder'=>'Seleccione un Tipo')) }}
+                  <span id="error-tipo" class="invalid-feedback"></span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group has-feedback {{ $errors->has('estadistica')? 'has-error':'' }}">
+                  {{ Form::label('estadistica', 'Visualizar en Gráfica Estadística ?') }}
+                  {{ Form::select('estadistica', [0=>'NO',1=>'SI'], null, array('class'=>'form-control input-sm'.($errors->has('estadistica')?" is-invalid":""))) }}
+                  <span id="error-estadistica" class="invalid-feedback"></span>
+                </div>
+
+              </div>
             </div>
 
             <div class="form-group">
@@ -59,18 +71,18 @@
               <span id="error-tbldistrito_id" class="invalid-feedback"></span>
             </div> --}}
 
-						<div class="form-group">
-							@if( !empty($tblinstancia['id']) ) 
-								{!! Form::button("Actualizar",["type" => "submit","class"=>"btn btn-warning"])!!}
-							@else
-								{!! Form::button("Guardar",["type" => "submit","class"=>"btn btn-primary"])!!}
-							@endif
-							<a href="javascript:ajaxLoad('{{ url('/tblinstancia') }}')" class="btn btn-default pull-right">Cancelar</a>
-						</div>
-					
+            <div class="form-group">
+              @if( !empty($tblinstancia['id']) )
+                {!! Form::button("Actualizar",["type" => "submit","class"=>"btn btn-warning"])!!}
+              @else
+                {!! Form::button("Guardar",["type" => "submit","class"=>"btn btn-primary"])!!}
+              @endif
+              <a href="javascript:ajaxLoad('{{ url('/tblinstancia') }}')" class="btn btn-default pull-right">Cancelar</a>
+            </div>
+
           {!! Form::close() !!}
 
-				</div>
+        </div>
       </div>
     </div>
   </div>

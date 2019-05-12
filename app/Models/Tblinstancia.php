@@ -21,7 +21,7 @@ class Tblinstancia extends Model
      *
      * @var array
      */
-    protected $fillable = [ 'nombre', 'sigla', 'tblmodulo_id', 'tbldepartamento_id', 'tblprovincia_id', 'tbldistrito_id' ];
+    protected $fillable = [ 'nombre', 'sigla', 'tipo', 'tblmodulo_id', 'tbldepartamento_id', 'tblprovincia_id', 'tbldistrito_id' ];
 
     /**
     * The attributes that aren't mass assignable.
