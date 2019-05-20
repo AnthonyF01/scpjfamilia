@@ -44,10 +44,9 @@
             <li style="font-size: 13px" class="header">MÓDULOS{{-- {{ trans('adminlte_lang::message.header') }} --}}</li>
 
             <!-- Optionally, you can add icons to the links -->
-            <li class="@yield('home')"><a href="{{ url('home') }}"><i class='fa fa-home'></i> <span>
-                {{-- {{ trans('adminlte_lang::message.home') }} --}}
+            {{-- <li class="@yield('home')"><a href="{{ url('home') }}"><i class='fa fa-home'></i> <span>
                 Inicio
-            </span></a></li>
+            </span></a></li> --}}
 
             <li class="treeview @yield('documento') @yield('denuncia') @yield('victima') @yield('agresor') @yield('report') @yield('import') @yield('estadistica')">
                 <a href="javascript:;">

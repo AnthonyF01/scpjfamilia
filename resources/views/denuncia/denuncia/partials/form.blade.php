@@ -169,22 +169,22 @@
                 @endif
               @endcan
               @can('acceso.cem')
-                <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_3" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>CEM</span></a></li>
+                <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_3" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><img style="height: 25px;" title="Centro Emergencia Mujer" src="{{ asset('/assests/img/icons/cem.png') }}">{{-- <i class="fa fa-institution"></i> --}} <span>CEM</span></a></li>
               @endcan
               @can('acceso.denuncia')
                 <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_4" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-user-secret"></i> <span>DENUNCIA</span></a></li>
               @endcan
               @can('acceso.familia')
-                <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_5" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>M. FAMILIA</span></a></li>
+                <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_5" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><img style="height: 25px;" title="Poder Judicial" src="{{ asset('/assests/img/icons/pj.png') }}">{{-- <i class="fa fa-institution"></i> --}} <span title="Modulo Familia">M. FAMILIA</span></a></li>
               @endcan
               @can('acceso.remision')
-                <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_6" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>REMISIÓN</span></a></li>
+                <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_6" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}"><img style="height: 25px;" title="Poder Judicial" src="{{ asset('/assests/img/icons/pj.png') }}">{{-- <i class="fa fa-institution"></i> --}} <span title="FASE I">REMISIÓN</span></a></li>
               @endcan
               @can('acceso.faseii')
-                <li class="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_7" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>FASE III</span></a></li>
+                <li class="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_7" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? 'tab' : '' }}"><img style="height: 25px;" title="Ministerio Público" src="{{ asset('/assests/img/icons/mp.png') }}">{{-- <i class="fa fa-institution"></i> --}} <span title="FASE II-MP">FASE II</span></a></li>
               @endcan
               @can('acceso.faseiii')
-                <li class="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_8" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? 'tab' : '' }}"><i class="fa fa-institution"></i> <span>FASE IV</span></a></li>
+                <li class="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? '' : 'disabled' }}"><a class="menu_tab" href="#tab_8" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id']) && ($denuncia->remitido=='Ministerio Público' || $denuncia->remitido=='Juzgado de Paz Letrado')) ? 'tab' : '' }}"><img style="height: 25px;" title="Poder Judicial" src="{{ asset('/assests/img/icons/pj.png') }}">{{-- <i class="fa fa-institution"></i> --}} <span title="FASE III-NCPP">FASE III</span></a></li>
               @endcan
             </ul>
             <div class="tab-content">
