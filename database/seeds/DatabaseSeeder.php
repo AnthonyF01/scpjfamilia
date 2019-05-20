@@ -47,5 +47,6 @@ class DatabaseSeeder extends Seeder
         $this->call(TblviolenciaTableSeeder::class);
         $this->call(DenunciaTblviolenciaTableSeeder::class);
         $this->call(DenunciaTblmedidaTableSeeder::class);
+        $this->call(DocumentoTableSeeder::class);
     }
 }

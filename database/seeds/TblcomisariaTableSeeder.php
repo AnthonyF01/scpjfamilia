@@ -12,18 +12,17 @@ class TblcomisariaTableSeeder extends Seeder
      */
     public function run()
     {
-
+        
 
         \DB::table('tblcomisaria')->delete();
-
+        
         \DB::table('tblcomisaria')->insert(array (
-            0 =>
+            0 => 
             array (
                 'id' => 1,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'MODULO  GREGORIO ALBARRACIN',
-                'sigla' => 'MDO-GAL',
                 'latitud' => '-18.04321999052861',
                 'longitud' => '-70.25113437612765',
                 'created_at' => NULL,
@@ -31,14 +30,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'yellow',
+                'sigla' => 'MDO-GAL',
             ),
-            1 =>
+            1 => 
             array (
                 'id' => 2,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Poder Judicial',
-                'sigla' => 'OTROS',
                 'latitud' => '-18.010601',
                 'longitud' => '-70.253930',
                 'created_at' => NULL,
@@ -46,14 +45,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'purple',
+                'sigla' => 'OTROS',
             ),
-            2 =>
+            2 => 
             array (
                 'id' => 3,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Gregorio Albarracín',
-                'sigla' => 'C-GAL',
                 'latitud' => '-18.041866',
                 'longitud' => '-70.251253',
                 'created_at' => NULL,
@@ -61,14 +60,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-GAL',
             ),
-            3 =>
+            3 => 
             array (
                 'id' => 4,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Ciudad Nueva',
-                'sigla' => 'C-CN',
                 'latitud' => '-17.984271',
                 'longitud' => '-70.235475',
                 'created_at' => NULL,
@@ -76,14 +75,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-CN',
             ),
-            4 =>
+            4 => 
             array (
                 'id' => 5,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Alto de la Alianza',
-                'sigla' => 'C-AL',
                 'latitud' => '-17.987922',
                 'longitud' => '-70.241195',
                 'created_at' => NULL,
@@ -91,14 +90,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-AL',
             ),
-            5 =>
+            5 => 
             array (
                 'id' => 6,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Central',
-                'sigla' => 'C-C',
                 'latitud' => '-18.014765',
                 'longitud' => '-70.251784',
                 'created_at' => NULL,
@@ -106,14 +105,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-C',
             ),
-            6 =>
+            6 => 
             array (
                 'id' => 7,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Natividad',
-                'sigla' => 'C-N',
                 'latitud' => '-18.011738',
                 'longitud' => '-70.233184',
                 'created_at' => NULL,
@@ -121,14 +120,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-N',
             ),
-            7 =>
+            7 => 
             array (
                 'id' => 8,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Leguía',
-                'sigla' => 'C-L',
                 'latitud' => '-18.034372',
                 'longitud' => '-70.276660',
                 'created_at' => NULL,
@@ -136,14 +135,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-L',
             ),
-            8 =>
+            8 => 
             array (
                 'id' => 9,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Pocollay',
-                'sigla' => 'C-P',
                 'latitud' => '-17.995188',
                 'longitud' => '-70.220063',
                 'created_at' => NULL,
@@ -151,14 +150,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-P',
             ),
-            9 =>
+            9 => 
             array (
                 'id' => 10,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Vigil',
-                'sigla' => 'C-V',
                 'latitud' => '-17.997524',
                 'longitud' => '-70.245652',
                 'created_at' => NULL,
@@ -166,14 +165,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-V',
             ),
-            10 =>
+            10 => 
             array (
                 'id' => 11,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Pachia',
-                'sigla' => 'C-PA',
                 'latitud' => '-17.895296',
                 'longitud' => '-70.152744',
                 'created_at' => NULL,
@@ -181,14 +180,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-PA',
             ),
-            11 =>
+            11 => 
             array (
                 'id' => 12,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Boca del Rio',
-                'sigla' => 'C-BR',
                 'latitud' => '-18.156744',
                 'longitud' => '-70.679107',
                 'created_at' => NULL,
@@ -196,14 +195,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-BR',
             ),
-            12 =>
+            12 => 
             array (
                 'id' => 13,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Calana',
-                'sigla' => 'C-CA',
                 'latitud' => '-17.940560',
                 'longitud' => '-70.186899',
                 'created_at' => NULL,
@@ -211,14 +210,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-CA',
             ),
-            13 =>
+            13 => 
             array (
                 'id' => 14,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Sama las Yaras',
-                'sigla' => 'C-SY',
                 'latitud' => '-17.862860',
                 'longitud' => '-70.560096',
                 'created_at' => NULL,
@@ -226,14 +225,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-SY',
             ),
-            14 =>
+            14 => 
             array (
                 'id' => 15,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Sama Inclan',
-                'sigla' => 'C-SI',
                 'latitud' => '-17.794749',
                 'longitud' => '-70.494779',
                 'created_at' => NULL,
@@ -241,14 +240,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-SI',
             ),
-            15 =>
+            15 => 
             array (
                 'id' => 16,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Ite',
-                'sigla' => 'C-ITE',
                 'latitud' => '-17.861950',
                 'longitud' => '-70.965062',
                 'created_at' => NULL,
@@ -256,14 +255,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'C-ITE',
             ),
-            16 =>
+            16 => 
             array (
                 'id' => 17,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP ANCON',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -271,14 +270,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            17 =>
+            17 => 
             array (
                 'id' => 18,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP VITARTE',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -286,14 +285,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            18 =>
+            18 => 
             array (
                 'id' => 19,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SANTA ROSA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -301,14 +300,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            19 =>
+            19 => 
             array (
                 'id' => 20,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP HUAYCAN',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -316,14 +315,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            20 =>
+            20 => 
             array (
                 'id' => 21,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SALAMANCA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -331,14 +330,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            21 =>
+            21 => 
             array (
                 'id' => 22,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP BARRANCO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -346,14 +345,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            22 =>
+            22 => 
             array (
                 'id' => 23,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP BREÑA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -361,14 +360,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            23 =>
+            23 => 
             array (
                 'id' => 24,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP CARABAYLLO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -376,14 +375,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            24 =>
+            24 => 
             array (
                 'id' => 25,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP EL PROGRESO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -391,14 +390,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            25 =>
+            25 => 
             array (
                 'id' => 26,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SANTA ISABEL',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -406,14 +405,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            26 =>
+            26 => 
             array (
                 'id' => 27,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP CIENEGUILLA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -421,14 +420,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            27 =>
+            27 => 
             array (
                 'id' => 28,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PROT. DE CARRETERAS CIENEGUILLA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -436,14 +435,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            28 =>
+            28 => 
             array (
                 'id' => 29,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP DE LA FAMILIA COMAS COLLIQUE',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -451,14 +450,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            29 =>
+            29 => 
             array (
                 'id' => 30,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SANTA LUZMILA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -466,14 +465,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            30 =>
+            30 => 
             array (
                 'id' => 31,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP TUPAC AMARU',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -481,14 +480,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            31 =>
+            31 => 
             array (
                 'id' => 32,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LA PASCANA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -496,14 +495,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            32 =>
+            32 => 
             array (
                 'id' => 33,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP COMAS COLLIQUE',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -511,14 +510,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            33 =>
+            33 => 
             array (
                 'id' => 34,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP UNIVERSITARIA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -526,14 +525,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            34 =>
+            34 => 
             array (
                 'id' => 35,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP CHACLACAYO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -541,14 +540,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            35 =>
+            35 => 
             array (
                 'id' => 36,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LADERAS DE VILLA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -556,14 +555,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            36 =>
+            36 => 
             array (
                 'id' => 37,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP CHORRILLOS VILLA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -571,14 +570,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            37 =>
+            37 => 
             array (
                 'id' => 38,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP CHORRILLOS',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -586,14 +585,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            38 =>
+            38 => 
             array (
                 'id' => 39,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP CHORRILLOS MATEO PUMACAHUA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -601,14 +600,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            39 =>
+            39 => 
             array (
                 'id' => 40,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN GENARO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -616,14 +615,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            40 =>
+            40 => 
             array (
                 'id' => 41,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP VILLA HERMOSA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -631,14 +630,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            41 =>
+            41 => 
             array (
                 'id' => 42,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP DE LA FAMILIA EL AGUSTINO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -646,14 +645,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            42 =>
+            42 => 
             array (
                 'id' => 43,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP EL AGUSTINO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -661,14 +660,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            43 =>
+            43 => 
             array (
                 'id' => 44,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP EL AGUSTINO SANTOYO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -676,14 +675,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            44 =>
+            44 => 
             array (
                 'id' => 45,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN PEDRO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -691,14 +690,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            45 =>
+            45 => 
             array (
                 'id' => 46,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP EL AGUSTINO SAN CAYETANO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -706,14 +705,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            46 =>
+            46 => 
             array (
                 'id' => 47,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN COSME',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -721,14 +720,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            47 =>
+            47 => 
             array (
                 'id' => 48,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP DE LA FAMILIA INDEPENDENCIA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -736,14 +735,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            48 =>
+            48 => 
             array (
                 'id' => 49,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PAYET',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -751,14 +750,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            49 =>
+            49 => 
             array (
                 'id' => 50,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP TAHUANTISUYO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -766,14 +765,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            50 =>
+            50 => 
             array (
                 'id' => 51,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP INDEPENDENCIA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -781,14 +780,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            51 =>
+            51 => 
             array (
                 'id' => 52,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LA UNIFICADA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -796,14 +795,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            52 =>
+            52 => 
             array (
                 'id' => 53,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP JESÑS MARÑA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -811,14 +810,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            53 =>
+            53 => 
             array (
                 'id' => 54,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SANTA FELICIA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -826,14 +825,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            54 =>
+            54 => 
             array (
                 'id' => 55,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LA MOLINA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -841,14 +840,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            55 =>
+            55 => 
             array (
                 'id' => 56,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LAS PRADERAS',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -856,14 +855,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            56 =>
+            56 => 
             array (
                 'id' => 57,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LA VICTORIA APOLO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -871,14 +870,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            57 =>
+            57 => 
             array (
                 'id' => 58,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LA VICTORIA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -886,14 +885,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            58 =>
+            58 => 
             array (
                 'id' => 59,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PALOMINO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -901,14 +900,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            59 =>
+            59 => 
             array (
                 'id' => 60,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP DE LA FAMILIA BERTHA GONZALES POSADA EYZAGUIRRE',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -916,14 +915,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            60 =>
+            60 => 
             array (
                 'id' => 61,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP MIRONES ALTO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -931,14 +930,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            61 =>
+            61 => 
             array (
                 'id' => 62,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP DE LA FAMILIA MIMPV',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -946,14 +945,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            62 =>
+            62 => 
             array (
                 'id' => 63,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP COTABAMBAS',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -961,14 +960,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            63 =>
+            63 => 
             array (
                 'id' => 64,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN ANDRES',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -976,14 +975,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            64 =>
+            64 => 
             array (
                 'id' => 65,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP MIRONES BAJO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -991,14 +990,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            65 =>
+            65 => 
             array (
                 'id' => 66,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PETIT THOUARS',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1006,14 +1005,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            66 =>
+            66 => 
             array (
                 'id' => 67,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP UNIDAD VECINAL NÑ 3',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1021,14 +1020,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            67 =>
+            67 => 
             array (
                 'id' => 68,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP CONDE DE LA VEGA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1036,14 +1035,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            68 =>
+            68 => 
             array (
                 'id' => 69,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP MONSERRATE',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1051,14 +1050,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            69 =>
+            69 => 
             array (
                 'id' => 70,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP ESPECIAL DE TURISMO LIMA NORTE',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1066,14 +1065,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            70 =>
+            70 => 
             array (
                 'id' => 71,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP ALFONSO UGARTE',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1081,14 +1080,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            71 =>
+            71 => 
             array (
                 'id' => 72,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LINCE',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1096,14 +1095,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            72 =>
+            72 => 
             array (
                 'id' => 73,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SOL DE ORO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1111,14 +1110,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            73 =>
+            73 => 
             array (
                 'id' => 74,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LAURA CALLER IBERICO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1126,14 +1125,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            74 =>
+            74 => 
             array (
                 'id' => 75,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LOS OLIVOS PRO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1141,14 +1140,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            75 =>
+            75 => 
             array (
                 'id' => 76,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LURIGANCHO - HUACHIPA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1156,14 +1155,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            76 =>
+            76 => 
             array (
                 'id' => 77,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP CHOSICA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1171,14 +1170,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            77 =>
+            77 => 
             array (
                 'id' => 78,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LURIN',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1186,14 +1185,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            78 =>
+            78 => 
             array (
                 'id' => 79,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LURIN VILLA ALEJANDRO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1201,14 +1200,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            79 =>
+            79 => 
             array (
                 'id' => 80,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP ESPECIAL DE TURISMO LIMA SUR',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1216,14 +1215,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            80 =>
+            80 => 
             array (
                 'id' => 81,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP MAGDALENA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1231,14 +1230,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            81 =>
+            81 => 
             array (
                 'id' => 82,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN ANTONIO DE MIRAFLORES',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1246,14 +1245,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            82 =>
+            82 => 
             array (
                 'id' => 83,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP MIRAFLORES',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1261,14 +1260,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            83 =>
+            83 => 
             array (
                 'id' => 84,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP MANCHAY',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1276,14 +1275,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            84 =>
+            84 => 
             array (
                 'id' => 85,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PACHACAMAC',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1291,14 +1290,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            85 =>
+            85 => 
             array (
                 'id' => 86,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PUCUSANA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1306,14 +1305,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            86 =>
+            86 => 
             array (
                 'id' => 87,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PUEBLO LIBRE',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1321,14 +1320,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            87 =>
+            87 => 
             array (
                 'id' => 88,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP ZAPALLAL',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1336,14 +1335,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            88 =>
+            88 => 
             array (
                 'id' => 89,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PUENTE PIEDRA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1351,14 +1350,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            89 =>
+            89 => 
             array (
                 'id' => 90,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LA ENSENADA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1366,14 +1365,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            90 =>
+            90 => 
             array (
                 'id' => 91,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PUNTA HERMOSA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1381,14 +1380,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            91 =>
+            91 => 
             array (
                 'id' => 92,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PUNTA NEGRA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1396,14 +1395,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            92 =>
+            92 => 
             array (
                 'id' => 93,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PIEDRA LIZA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1411,14 +1410,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            93 =>
+            93 => 
             array (
                 'id' => 94,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP RIMAC',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1426,14 +1425,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            94 =>
+            94 => 
             array (
                 'id' => 95,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP EL MANZANO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1441,14 +1440,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            95 =>
+            95 => 
             array (
                 'id' => 96,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP RIMAC CIUDAD Y CAMPO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1456,14 +1455,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            96 =>
+            96 => 
             array (
                 'id' => 97,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN BARTOLO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1471,14 +1470,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            97 =>
+            97 => 
             array (
                 'id' => 98,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PROT. DE CARRETERAS SAN BARTOLO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1486,14 +1485,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            98 =>
+            98 => 
             array (
                 'id' => 99,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN BORJA CHACARILLA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1501,14 +1500,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            99 =>
+            99 => 
             array (
                 'id' => 100,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN BORJA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1516,14 +1515,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            100 =>
+            100 => 
             array (
                 'id' => 101,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN ISIDRO - ORRANTIA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1531,14 +1530,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            101 =>
+            101 => 
             array (
                 'id' => 102,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN ISIDRO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1546,14 +1545,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            102 =>
+            102 => 
             array (
                 'id' => 103,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP DE LA FAMILIA CANTO REY',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1561,14 +1560,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            103 =>
+            103 => 
             array (
                 'id' => 104,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP ZARATE',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1576,14 +1575,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            104 =>
+            104 => 
             array (
                 'id' => 105,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SANTA ELIZABETH',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1591,14 +1590,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            105 =>
+            105 => 
             array (
                 'id' => 106,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP BAYOBAR',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1606,14 +1605,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            106 =>
+            106 => 
             array (
                 'id' => 107,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP LA HUAYRONA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1621,14 +1620,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            107 =>
+            107 => 
             array (
                 'id' => 108,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP S.J LURIGANCHO MARISCAL CACERES',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1636,14 +1635,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            108 =>
+            108 => 
             array (
                 'id' => 109,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN JUAN DE LURIGANCHO CAJA DE AGUA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1651,14 +1650,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            109 =>
+            109 => 
             array (
                 'id' => 110,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP CANTO REY',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1666,14 +1665,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            110 =>
+            110 => 
             array (
                 'id' => 111,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP 10 DE OCTUBRE',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1681,14 +1680,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            111 =>
+            111 => 
             array (
                 'id' => 112,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN JUAN DE MIRAFLORES',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1696,14 +1695,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            112 =>
+            112 => 
             array (
                 'id' => 113,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PAMPLONA II',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1711,14 +1710,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            113 =>
+            113 => 
             array (
                 'id' => 114,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP DE LA FAMILIA SAN JUAN DE MIRAFLORES',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1726,14 +1725,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            114 =>
+            114 => 
             array (
                 'id' => 115,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PAMPLONA I',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1741,14 +1740,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            115 =>
+            115 => 
             array (
                 'id' => 116,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN LUIS',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1756,14 +1755,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            116 =>
+            116 => 
             array (
                 'id' => 117,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP YERBATEROS',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1771,14 +1770,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            117 =>
+            117 => 
             array (
                 'id' => 118,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP BARBONCITO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1786,14 +1785,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            118 =>
+            118 => 
             array (
                 'id' => 119,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN MARTIN DE PORRES',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1801,14 +1800,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            119 =>
+            119 => 
             array (
                 'id' => 120,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP CONDEVILLA SEÑOR',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1816,14 +1815,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            120 =>
+            120 => 
             array (
                 'id' => 121,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN MIGUEL MARANGA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1831,14 +1830,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            121 =>
+            121 => 
             array (
                 'id' => 122,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN MIGUEL',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1846,14 +1845,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            122 =>
+            122 => 
             array (
                 'id' => 123,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SANTA ANITA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1861,14 +1860,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            123 =>
+            123 => 
             array (
                 'id' => 124,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SANTA MARIA DEL MAR',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1876,14 +1875,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            124 =>
+            124 => 
             array (
                 'id' => 125,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SANTA ROSA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1891,14 +1890,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            125 =>
+            125 => 
             array (
                 'id' => 126,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP PROT. DE CARRETERAS SANTA ROSA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1906,14 +1905,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            126 =>
+            126 => 
             array (
                 'id' => 127,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP MONTERRICO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1921,14 +1920,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            127 =>
+            127 => 
             array (
                 'id' => 128,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SANTIAGO DE SURCO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1936,14 +1935,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            128 =>
+            128 => 
             array (
                 'id' => 129,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAGITARIO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1951,14 +1950,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            129 =>
+            129 => 
             array (
                 'id' => 130,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SURQUILLO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1966,14 +1965,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            130 =>
+            130 => 
             array (
                 'id' => 131,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP VILLA EL SALVADOR',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1981,14 +1980,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            131 =>
+            131 => 
             array (
                 'id' => 132,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP DE LA FAMILIA VILLA EL SALVADOR',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -1996,14 +1995,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            132 =>
+            132 => 
             array (
                 'id' => 133,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP URB. PACHACAMAC',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -2011,14 +2010,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            133 =>
+            133 => 
             array (
                 'id' => 134,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP JOSE CARLOS MARIATEGUI',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -2026,14 +2025,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            134 =>
+            134 => 
             array (
                 'id' => 135,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP SAN FRANCISCO TABLADA DE LURIN',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -2041,14 +2040,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            135 =>
+            135 => 
             array (
                 'id' => 136,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP VILLA MARIA DEL TRIUNFO',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -2056,14 +2055,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            136 =>
+            136 => 
             array (
                 'id' => 137,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP NUEVA ESPERANZA',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -2071,14 +2070,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            137 =>
+            137 => 
             array (
                 'id' => 138,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CPNP JOSE GALVEZ',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -2086,14 +2085,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            138 =>
+            138 => 
             array (
                 'id' => 139,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'MODULO LIMA ESTE',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -2101,14 +2100,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            139 =>
+            139 => 
             array (
                 'id' => 140,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'MODULO LIMA NORTE',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -2116,14 +2115,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            140 =>
+            140 => 
             array (
                 'id' => 141,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'MODULO LIMA SUR',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -2131,14 +2130,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            141 =>
+            141 => 
             array (
                 'id' => 142,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'SAU',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -2146,14 +2145,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            142 =>
+            142 => 
             array (
                 'id' => 143,
                 'tblmodulo_id' => NULL,
                 'tbldepartamento_id' => 15,
                 'nombre' => 'CEM',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => NULL,
@@ -2161,14 +2160,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => NULL,
             ),
-            143 =>
+            143 => 
             array (
                 'id' => 144,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Corporativa de Tacna 1°',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-18 11:48:03',
@@ -2176,14 +2175,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            144 =>
+            144 => 
             array (
                 'id' => 145,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Corporativa de Tacna 2°',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-18 11:48:43',
@@ -2191,14 +2190,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            145 =>
+            145 => 
             array (
                 'id' => 146,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Corporativa de Tacna 3°',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-18 11:49:14',
@@ -2206,14 +2205,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            146 =>
+            146 => 
             array (
                 'id' => 147,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Corporativa de Tacna 4°',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-18 11:49:43',
@@ -2221,14 +2220,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            147 =>
+            147 => 
             array (
                 'id' => 148,
                 'tblmodulo_id' => 33,
                 'tbldepartamento_id' => 7,
                 'nombre' => 'COMISARIA DE PACHACUTEC',
-                'sigla' => 'CP',
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-17 10:54:07',
@@ -2236,14 +2235,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'CP',
             ),
-            148 =>
+            148 => 
             array (
                 'id' => 149,
                 'tblmodulo_id' => 33,
                 'tbldepartamento_id' => 7,
                 'nombre' => 'COMISARIA DE VENTANILLA',
-                'sigla' => 'CV',
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-17 10:54:31',
@@ -2251,14 +2250,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'CV',
             ),
-            149 =>
+            149 => 
             array (
                 'id' => 150,
                 'tblmodulo_id' => 33,
                 'tbldepartamento_id' => 7,
                 'nombre' => 'COMISARIA VILLA LOS REYES',
-                'sigla' => 'CVR',
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-17 11:41:24',
@@ -2266,14 +2265,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'CVR',
             ),
-            150 =>
+            150 => 
             array (
                 'id' => 151,
                 'tblmodulo_id' => 33,
                 'tbldepartamento_id' => 7,
                 'nombre' => 'COMISARIA DE SANTA ROSA',
-                'sigla' => 'CSR',
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-03-13 15:22:08',
@@ -2281,14 +2280,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'CSR',
             ),
-            151 =>
+            151 => 
             array (
                 'id' => 152,
                 'tblmodulo_id' => 33,
                 'tbldepartamento_id' => 7,
                 'nombre' => 'COMISARIA DE ANCON',
-                'sigla' => 'CA',
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-03-13 15:22:21',
@@ -2296,14 +2295,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'CA',
             ),
-            152 =>
+            152 => 
             array (
                 'id' => 153,
                 'tblmodulo_id' => 33,
                 'tbldepartamento_id' => 7,
                 'nombre' => 'COMISARIA DE MI PERU',
-                'sigla' => 'CMP',
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-03-29 10:37:05',
@@ -2311,15 +2310,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'CMP',
             ),
-
-            153 =>
+            153 => 
             array (
                 'id' => 154,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Corporativa de Tacna 5°',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-18 11:50:12',
@@ -2327,14 +2325,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            154 =>
+            154 => 
             array (
                 'id' => 155,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Corporativa de Tacna 6°',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-18 11:56:53',
@@ -2342,14 +2340,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            155 =>
+            155 => 
             array (
                 'id' => 156,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Corporativa de Tacna 7°',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-21 14:36:20',
@@ -2357,14 +2355,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            156 =>
+            156 => 
             array (
                 'id' => 157,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Corporativa de Tacna 8°',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-21 14:38:06',
@@ -2372,14 +2370,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            157 =>
+            157 => 
             array (
                 'id' => 158,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Corporativa de Tacna 9°',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-03-08 13:22:38',
@@ -2387,14 +2385,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            158 =>
+            158 => 
             array (
                 'id' => 159,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Mixta Corporativa de Alto de la Alianza',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-03-08 13:24:40',
@@ -2402,14 +2400,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            159 =>
+            159 => 
             array (
                 'id' => 160,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Mixta Corporativa de AGregorio Albarracín',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-03-08 13:34:20',
@@ -2417,14 +2415,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            160 =>
+            160 => 
             array (
                 'id' => 161,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Mixta Corporativa de Tarata',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-18 11:49:43',
@@ -2432,14 +2430,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            161 =>
+            161 => 
             array (
                 'id' => 162,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Mixta Corporativa de Candarave',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-18 11:50:12',
@@ -2447,14 +2445,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            162 =>
+            162 => 
             array (
                 'id' => 163,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Fiscalía Provincial Mixta Corporativa de Jorge Basadre',
-                'sigla' => NULL,
                 'latitud' => NULL,
                 'longitud' => NULL,
                 'created_at' => '2019-02-18 11:56:53',
@@ -2462,14 +2460,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 1,
                 'color' => 'light_blue',
+                'sigla' => NULL,
             ),
-            163 =>
+            163 => 
             array (
                 'id' => 164,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'CENTRO EMERGENCIA MUJER TACNA',
-                'sigla' => 'CEM-TACNA',
                 'latitud' => '-18.011341582086402',
                 'longitud' => '-70.25054355844418',
                 'created_at' => '2019-02-21 14:36:20',
@@ -2477,14 +2475,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'red',
+                'sigla' => 'CEM-TACNA',
             ),
-            164 =>
+            164 => 
             array (
                 'id' => 165,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'Minestrio Público Tacna',
-                'sigla' => 'MP',
                 'latitud' => '-18.0108211',
                 'longitud' => '-70.2540033',
                 'created_at' => '2019-02-21 14:38:06',
@@ -2492,14 +2490,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'blue',
+                'sigla' => 'MP',
             ),
-            165 =>
+            165 => 
             array (
                 'id' => 166,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'CENTRO EMERGENCIA MUJER GAL',
-                'sigla' => 'CEM-GAL',
                 'latitud' => '-18.041986503754533',
                 'longitud' => '-70.25125025169348',
                 'created_at' => '2019-03-08 13:22:38',
@@ -2507,14 +2505,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'red',
+                'sigla' => 'CEM-GAL',
             ),
-            166 =>
+            166 => 
             array (
                 'id' => 167,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'CENTRO EMERGENCIA MUJER CIUDAD NUEVA',
-                'sigla' => 'CEM-CN',
                 'latitud' => '-17.984370341976753',
                 'longitud' => '-70.23550628987459',
                 'created_at' => '2019-03-08 13:24:40',
@@ -2522,14 +2520,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'red',
+                'sigla' => 'CEM-CN',
             ),
-            167 =>
+            167 => 
             array (
                 'id' => 168,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'MODULO ALTO DE LA ALIANZA',
-                'sigla' => 'MDO-AA',
                 'latitud' => '-17.98810082861647',
                 'longitud' => '-70.24017069769707',
                 'created_at' => '2019-03-08 13:34:20',
@@ -2537,14 +2535,14 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'yellow',
+                'sigla' => 'MDO-AA',
             ),
-            168 =>
+            168 => 
             array (
                 'id' => 169,
                 'tblmodulo_id' => 30,
                 'tbldepartamento_id' => 23,
                 'nombre' => 'COMISARIA DE FAMILIA TACNA',
-                'sigla' => 'CF',
                 'latitud' => '-18.007169654457357',
                 'longitud' => '-70.25565125192117',
                 'created_at' => '2019-03-18 13:06:35',
@@ -2552,9 +2550,10 @@ class TblcomisariaTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'tipo_int' => 0,
                 'color' => 'green',
+                'sigla' => 'CF',
             ),
         ));
-
-
+        
+        
     }
 }
