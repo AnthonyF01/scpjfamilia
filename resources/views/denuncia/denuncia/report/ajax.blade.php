@@ -2,10 +2,10 @@
   <thead>
     <tr>
       <th class="header" width="10px"></th>
-      <th class="header" colspan="6">FASE I: LEY 30364</th>
+      <th class="header" colspan="6">LEY 30364</th>
+      <th class="header" colspan="2">FASE I</th>
       <th class="header" colspan="2">FASE II</th>
       <th class="header" colspan="2">FASE III</th>
-      <th class="header" colspan="2">FASE IV</th>
       <th class="header" rowspan="3">TOTAL</th>
     </tr>
     <tr>

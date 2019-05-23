@@ -96,37 +96,37 @@
                         <label class="">
                           <div class="icheckbox_square-blue" style="position: relative;">
                             {!! Form::checkbox('formalizacion', null, null) !!}
-                          </div> Fase I: Formalizacion
+                          </div> Módulo Familia: Formalización
                         </label>
                       </div>
                       <div class="checkbox icheck">
                         <label class="">
                           <div class="icheckbox_square-blue" style="position: relative;">
                             {!! Form::checkbox('audiencia', null, null) !!}
-                          </div> Fase I: Audiencia
+                          </div> Módulo Familia: Audiencia
                         </label>
                       </div>
                       <div class="checkbox icheck">
                         <label class="">
                           <div class="icheckbox_square-blue" style="position: relative;">
                             {!! Form::checkbox('remision', null, null) !!}
-                          </div> Fase II: Remision
+                          </div> Fase I: Remision
                         </label>
                       </div>
-                      {{-- <div class="checkbox icheck">
+                      <div class="checkbox icheck">
                         <label class="">
                           <div class="icheckbox_square-blue" style="position: relative;">
                             {!! Form::checkbox('denuncia', null, null) !!}
-                          </div> Fase III: Remision Denuncia
+                          </div> Fase II: Ministerio Publico
                         </label>
                       </div>
                       <div class="checkbox icheck">
                         <label class="">
                           <div class="icheckbox_square-blue" style="position: relative;">
                             {!! Form::checkbox('juzgado', null, null) !!}
-                          </div> Fase IV: Remision Juzgado
+                          </div> Fase III: NCPP
                         </label>
-                      </div> --}}
+                      </div>
                     </div>
                   </div>
                 </div>

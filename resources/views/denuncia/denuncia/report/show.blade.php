@@ -209,7 +209,7 @@
   </style>
 
   <style>
-    @page { margin-top: 100px; margin-bottom: 50px; margin-left: 50px; margin-right: 50px;}
+    @page { margin-top: 95px; margin-bottom: 50px; margin-left: 40px; margin-right: 40px;}
     #header { position: fixed; left: 0px; top: -90px; right: 0px; height: 80px; text-align: center; }
     #footer { position: fixed; left: 0px; bottom: -50px; right: 0px; height: 50px; }
     #footer .page:after { content: counter(page); }
@@ -217,6 +217,10 @@
   
 </head>
 <body>
+
+  <?php 
+    $meses = array('ENERO','FEBRERO','MARZO','ABRIL','MAYO','JUNIO','JULIO','AGOSTO','SETIEMBRE','OCTUBRE','NOMVIEMBRE','DICIEMBRE');
+  ?>
 
   <div id="header">
     <table class="encabezado" width='100%' style='border-bottom: 2px solid; margin-top: 0px; margin-bottom: 10px;' id='encabezado' border='0'>
@@ -256,7 +260,7 @@
     <div class="both"></div>
 
     <div class="div-table">
-      <div class="div-cell cell-7" style="">
+      <div class="div-cell cell-7" style="padding: 0px;">
         <div class="div-table">
           <div class="div-cell cell-3" style="">
             <p style="font-weight: bold; margin: 0px;">JUZGADO<span style="float: right;">:</span></p>
@@ -272,7 +276,7 @@
           </div>
         </div>
       </div>
-      <div class="div-cell cell-5" style=" ">
+      <div class="div-cell cell-5" style="padding: 0px;">
         <div class="div-table">
           <div class="div-cell cell-5" style="">
             <p style="font-weight: bold; margin: 0px;">AÑO<span style="float: right;">:</span></p>
@@ -282,7 +286,7 @@
           </div>
           <div class="div-cell cell-7" style="">
             <p style="margin: 0px;">{{ ($filters['anio']!='0')?$filters['anio']:'No seleccionado' }}</p>
-            <p style="margin: 0px;">{{ ($filters['mes']!='0')?$filters['mes']:'No seleccionado' }}</p>
+            <p style="margin: 0px;">{{ ($filters['mes']!='0')?$meses[($filters['mes']-1)]:'No seleccionado' }}</p>
             <p style="margin: 0px;">{{ ($filters['fecha1']!='' && $filters['fecha2']!='')?$filters['fecha1']." - ".$filters['fecha2']:'No proveido' }}</p>
             <p style="margin: 0px;">{{ ($filters['victima']!='0')?'Victima,':'' }} {{ ($filters['agresor']!='0')?'Agresor':'' }} {{ ($filters['victima']=='0' && $filters['agresor']=='0')?'Ninguno':'' }}</p>
           </div>
@@ -290,7 +294,7 @@
       </div>
     </div>
   
-    <table class="table table-striped table-hover table-cell table-lg" style="width: 1010px; margin-right: 5px; margin-left: 5px; page-break-inside: auto; page-break-before: avoid;">
+    <table class="table table-striped table-hover table-cell table-lg" style="width: 970px; margin-top: 10px; margin-right: 5px; margin-left: 5px; page-break-inside: auto; page-break-before: avoid;">
       <thead>
         <tr>
           <th class="header" width="10px"></th>
@@ -311,17 +315,17 @@
         </tr>
         <tr>
           <th class="modHeader" width="10px">#</th>
-          <th class="modHeader" style="width: 80px" title="Fecha de Formalizacion">F. Form.</th>
+          <th class="modHeader" style="width: 60px" title="Fecha de Formalizacion">F. Form.</th>
           <th class="modHeader" style="width: 20px" title="Días Formalizacion">D.F.</th>
-          <th class="modHeader" style="width: 80px">Expediente</th>
+          <th class="modHeader" style="width: 160px">Expediente</th>
           <th class="modHeader" style="width: 50px">Juzgado</th>
-          <th class="modHeader" style="width: 80px" title="Fecha de Audiencia">F. Aud.</th>
+          <th class="modHeader" style="width: 60px" title="Fecha de Audiencia">F. Aud.</th>
           <th class="modHeader" style="width: 20px" title="Días Audiencia">D.A.</th>
-          <th class="modHeader" style="width: 175px">Lugar</th>
+          <th class="modHeader" style="width: 100px">Lugar</th>
           <th class="modHeader" style="width: 20px" title="Días Remisión">D.R.</th>
-          <th class="modHeader" style="width: 80px" title="Fecha Denuncia">F. Den.</th>
+          <th class="modHeader" style="width: 60px" title="Fecha Denuncia">F. Den.</th>
           <th class="modHeader" style="width: 20px" title="Días Denuncia">D.D.</th>
-          <th class="modHeader" style="width: 80px" title="Fecha Juzgado">F. Juz.</th>
+          <th class="modHeader" style="width: 60px" title="Fecha Juzgado">F. Juz.</th>
           <th class="modHeader" style="width: 20px" title="Días Juzgado">D.J.</th>
         </tr>
       </thead>

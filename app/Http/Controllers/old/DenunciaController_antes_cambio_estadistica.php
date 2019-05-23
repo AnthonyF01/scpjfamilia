@@ -1299,12 +1299,8 @@ class DenunciaController extends Controller
 
         $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int',0)->where('color','green')->orderBy('nombre')->pluck('nombre', 'id');
 
-        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)
-        ->where(function ($query) {
-            $query->where('tipo','FA')->orwhere('tipo','JM')->orwhere('estadistica','1');
-        })->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
-        dd($instanciasPL);
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','FA')->orwhere('tipo','JM')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','MP')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
@@ -1532,7 +1528,6 @@ class DenunciaController extends Controller
                 $chartSA->dataset('Total', 'pie', $agresoresSArr['values'])
                         ->options([
                             'color' => ['rgb(127,127,127)'],
-                            'height'=>250,
                         ]);
 
                 // Parentesco con el agresor
@@ -1557,7 +1552,7 @@ class DenunciaController extends Controller
                 $sqlPPA .= ") as ad1, (
                         select dad1.* from denuncia_agresor as dad1
                         join denuncia d on d.id = dad1.denuncia_id
-                        where d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL and d.tblmodulo_id=".Auth::user()->tblmodulo_id."
+                        where d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL and d.tblmodulo_id=30
                         AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlPPA .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1619,7 +1614,7 @@ class DenunciaController extends Controller
                     $graphGenerated = '3';
                 }
 
-                return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias', 'instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','hHTotal','vDTotal','chartCV','chartPV','pATotal','chartSA','chartPPA','idChartArr','request','graphGenerated'));
+                return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias', 'hHTotal','vDTotal','chartCV','chartPV','pATotal','chartSA','chartPPA','idChartArr','request','graphGenerated'));
 
             }
 
@@ -1679,112 +1674,6 @@ class DenunciaController extends Controller
                 $denunciaP = DB::select(DB::raw($sqlDP));
 
                 $DPTotal = $denunciaP[0]->total;
-
-                // Audiencias Judiciales
-               $sqlAJ = "SELECT count(d.faudiencia) as total from denuncia d
-                       where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
-                       AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
-               if (isset($request['faudiencia']) && !empty($request['faudiencia'])) {
-                   $sqlAJ .= " and month(d.faudiencia)=".$request['faudiencia']." ";
-               }
-               if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
-                   $sqlAJ .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
-               }
-               if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
-                   $sqlAJ .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
-               }
- 
-               $audienciaJud = DB::select(DB::raw($sqlAJ));
- 
-               $AJTotal = $audienciaJud[0]->total;
- 
-               // FASE II
-               $sqlF2 = "SELECT count(d.fremisiond) as total from denuncia d
-                       where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
-                       AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
-               if (isset($request['remitido']) && !empty($request['remitido'])) {
-                   $sqlF2.=" and d.remitido='".$request['remitido']."' ";
-               }
-               else{
-                   $sqlF2.="and (d.remitido='Ministerio Público' OR d.remitido='Juzgado de Paz Letrado') ";
-               }
- 
-               if (isset($request['fremisiond']) && !empty($request['fremisiond'])) {
-                   $sqlF2 .= " and month(d.fremisiond)=".$request['fremisiond']." ";
-               }
-               if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
-                   $sqlF2 .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
-               }
-               if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
-                   $sqlF2 .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
-               }
-               if( isset($request['dependenciad']) && !empty($request['dependenciad']) ){
-                   $sqlF2 .= " and d.dependenciad='".$request['dependenciad']."' ";
-               }
- 
-               $fase2 = DB::select(DB::raw($sqlF2));
- 
-               $F2Total = $fase2[0]->total;
- 
-               // FASE III etapa 1
-               $sqlF31 = "SELECT count(d.fjip) as total from denuncia d
-                       where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
-                       AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
-               if (isset($request['remitido']) && !empty($request['remitido'])) {
-                   $sqlF31.=" and d.remitido='".$request['remitido']."' ";
-               }
-               else{
-                   $sqlF31.="and (d.remitido='Ministerio Público' OR d.remitido='Juzgado de Paz Letrado') ";
-               }
- 
-               if (isset($request['fjip']) && !empty($request['fjip'])) {
-                   $sqlF31 .= " and month(d.fjip)=".$request['fjip']." ";
-               }
-               if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
-                   $sqlF31 .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
-               }
-               if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
-                   $sqlF31 .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
-               }
-               if( isset($request['dependenciad']) && !empty($request['dependenciad']) ){
-                   $sqlF31 .= " and d.dependenciad='".$request['dependenciad']."' ";
-               }
-               if( isset($request['jip']) && !empty($request['jip']) ){
-                   $sqlF31 .= " and d.jip='".$request['jip']."' ";
-               }
- 
-               $fase31 = DB::select(DB::raw($sqlF31));
- 
-               $F31Total = $fase31[0]->total;
- 
-               // FASE III etapa 1
-               $sqlF32 = "SELECT count(d.fjip) as total from denuncia d
-                       where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
-                       AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
-               if (isset($request['remitido']) && !empty($request['remitido'])) {
-                   $sqlF32.=" and d.remitido='".$request['remitido']."' ";
-               }
-               else{
-                   $sqlF32.="and (d.remitido='Ministerio Público' OR d.remitido='Juzgado de Paz Letrado') ";
-               }
- 
-               if (isset($request['fjip']) && !empty($request['fjip'])) {
-                   $sqlF32 .= " and month(d.fjip)=".$request['fjip']." ";
-               }
-               if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
-                   $sqlF32 .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
-               }
-               if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
-                   $sqlF32 .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
-               }
-               if( isset($request['dependenciad']) && !empty($request['dependenciad']) ){
-                   $sqlF32 .= " and d.dependenciad='".$request['dependenciad']."' ";
-               }
-               if( isset($request['jip']) && !empty($request['jip']) ){
-                   $sqlF32 .= " and d.jip='".$request['jip']."' ";
-               }
-               $fase32 = DB::select(DB::raw($sqlF32));
-               $F32Total = $fase32[0]->total;
 
                 //  Valoración de Denuncias
                 $sqlV = "SELECT distinct tbld.nombre, ifnull(count(d.tbldenuncia_id),0) as total
@@ -1863,46 +1752,6 @@ class DenunciaController extends Controller
                     $chartMP['maxHeight'] = $maxHeight;
                     $chartMP['anio'] = $request['anio'];
                 }
-
-                //  Distribución de carga por dependencias (comisarias e instituciones)
-               $sqlDCD = "SELECT distinct tblc.nombre, tblc.sigla, ifnull(count(d.tblcomisaria_id),0) as total
-                           FROM  tblcomisaria as tblc
-                           left join (
-                               select *  from denuncia as d
-                               where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
-                               AND extract(year FROM fformalizacion) = ".$request['anio']." ";
-               if (isset($request['mes']) && !empty($request['mes'])) {
-                   $sqlDCD .= " and month(d.fformalizacion)=".$request['mes']." ";
-               }
-               if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
-                   $sqlDCD .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
-               }
-               if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
-                   $sqlDCD .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
-               }
-               $sqlDCD.= ") as d on d.tblcomisaria_id=tblc.id
-                       WHERE tblc.tipo_int=0 and tblc.color='green' and tblc.tblmodulo_id=".Auth::user()->tblmodulo_id."
-                       group by tblc.nombre order by total desc";
-               $distribucionDen = DB::select(DB::raw($sqlDCD));
-               // dd($distribucionDen);
-               $chartDCD = array();
-               $distribucionDenArr = [];
-               foreach ($distribucionDen as $r) {
-                   $distribucionDenArr[] = [
-                       'nombre'=>$r->nombre,
-                       'name'=>$r->sigla,
-                       'y'=>(int)$r->total,
-                   ];
-                   $maxHeight2[] = (int)$r->total;
-               }
-               if (isset($maxHeight) && !empty($maxHeight)) {
-                   $chartDCD['json'] = $distribucionDenArr;
-                   $chartDCD['maxHeight'] = $maxHeight2;
-                   $chartDCD['anio'] = $request['anio'];
-               }
-               //Obtener toda las comisarías
-               $ubicaciones=Tblcomisaria::where('tblmodulo_id',auth()->user()->tblmodulo_id)->where('tipo_int',0)->get();
-               $ubicaciones->toArray();
 
                 // Calificacion Denuncias
                 $sqlCDN = "SELECT distinct cl.calificacion, count(cld.calificacion) as total from (
@@ -1995,11 +1844,7 @@ class DenunciaController extends Controller
                     }
                 }else{
                     if (isset($request['anio']) && !empty($request['anio'])) {
-                        if (!isset($denunciaPL[0]->total) && empty($denunciaPL[0]->total)) {
-                            $PNPTotalAnual = 0;
-                        }else{
-                            $PNPTotalAnual = $denunciaPL[0]->total;
-                        }
+                        $PNPTotal = $denunciaPL[0]->total;
                     }
                 }
 
@@ -2009,8 +1854,7 @@ class DenunciaController extends Controller
                                 when d.fformalizacion is not NULL then
                                     case
                                         when d.faudiencia is not NULL then DATEDIFF(d.faudiencia,d.fformalizacion)
-                                        else DATEDIFF(now(),d.fformalizacion)
-                                        -- else 0
+                                        else 0
                                     end
                                 when d.fformalizacion is NULL then '0' end
                             ) as dias_modulo from denuncia d
@@ -2018,9 +1862,6 @@ class DenunciaController extends Controller
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlMVF .= " and month(d.fformalizacion)=".$request['mes']." ";
-                }
-                if (isset($request['faudiencia']) && !empty($request['faudiencia'])) {
-                    $sqlMVF .= " and month(d.faudiencia)=".$request['faudiencia']." ";
                 }
                 if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
                     $sqlMVF .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
@@ -2041,11 +1882,7 @@ class DenunciaController extends Controller
                     }
                 }else{
                     if (isset($request['anio']) && !empty($request['anio'])) {
-                        if (!isset($moduloVF[0]->total) && empty($moduloVF[0]->total)) {
-                            $MVFTotalAnual = 0;
-                        }else{
-                            $MVFTotalAnual = $moduloVF[0]->total;
-                        }
+                        $MVFTotal = $moduloVF[0]->total;
                     }
                 }
 
@@ -2096,12 +1933,6 @@ class DenunciaController extends Controller
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlREM .= " and month(d.fformalizacion)=".$request['mes']." ";
                 }
-                if (isset($request['faudiencia']) && !empty($request['faudiencia'])) {
-                    $sqlMVF .= " and month(d.faudiencia)=".$request['faudiencia']." ";
-                }
-                if (isset($request['fremision']) && !empty($request['fremision'])) {
-                   $sqlREM .= " and month(d.fremision)=".$request['fremision']." ";
-                }
                 if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
                     $sqlREM .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
                 }
@@ -2117,197 +1948,6 @@ class DenunciaController extends Controller
                     $REMTotal = 0;
                 }else{
                     $REMTotal = (double)$remision[0]->promedio;
-                }
-
-                //fase II Ministerio Público
-               $sqlFaseII="SELECT sum(a.faseii) as suma, avg(a.faseii) as promedio, count(*) as total FROM
-                               (
-                                   SELECT(
-                                            CASE
-                                               WHEN d.faudiencia is not NULL THEN
-                                                   CASE
-                                                       WHEN d.fremision is not NULL THEN
-                                                           CASE
-                                                               WHEN d.fremisiond is not NULL THEN DATEDIFF(d.fremisiond,d.fremision)
-                                                               ELSE DATEDIFF(now(),d.fremision)
-                                                           END
-                                                       ELSE 0
-                                                   END
-                                               ELSE 0
-                                            END
-                                           ) AS faseii FROM denuncia d
-                                           WHERE d.tblmodulo_id=".Auth::user()->tblmodulo_id." AND d.fdenuncia is not null AND d.fformalizacion is not null
-                                           AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
-               if (isset($request['remitido']) && !empty($request['remitido'])) {
-                   $sqlFaseII.=" and d.remitido='".$request['remitido']."' ";
-               }
-               else{
-                   $sqlFaseII.="and (d.remitido='Ministerio Público' OR d.remitido='Juzgado de Paz Letrado') ";
-               }
-               if (isset($request['mes']) && !empty($request['mes'])) {
-                   $sqlFaseII .= " and month(d.fformalizacion)=".$request['mes']." ";
-               }
-               if (isset($request['faudiencia']) && !empty($request['faudiencia'])) {
-                   $sqlMVF .= " and month(d.faudiencia)=".$request['faudiencia']." ";
-               }
-               if (isset($request['fremision']) && !empty($request['fremision'])) {
-                   $sqlREM .= " and month(d.fremision)=".$request['fremision']." ";
-               }
-               if (isset($request['fremisiond']) && !empty($request['fremisiond'])) {
-                   $sqlFaseII .= " and month(d.fremisiond)=".$request['fremisiond']." ";
-               }
-               if( isset($request['dependenciad']) && !empty($request['dependenciad']) ){
-                   $sqlFaseII .= " and d.dependenciad='".$request['dependenciad']."' ";
-               }
-               if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
-                   $sqlFaseII .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
-               }
-               if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
-                   $sqlFaseII .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
-               }
-               if( isset($request['dependenciad']) && !empty($request['dependenciad']) ){
-                   $sqlFaseII .= " and d.dependenciad='".$request['dependenciad']."' ";
-               }
-               $sqlFaseII .= "  ) as a ";
-               $faseii = DB::select(DB::raw($sqlFaseII));
-               if (!isset($faseii[0]->promedio) && empty($faseii[0]->promedio)) {
-                   $FASEIItotal = 0;
-               }else{
-                   $FASEIItotal = (double)$faseii[0]->promedio;
-               }
-               //fase III Etapa 1
-               $sqlFase31="SELECT sum(a.fase31) as suma, avg(a.fase31) as promedio, count(*) as total FROM
-                               (
-                                   SELECT(
-                                           CASE
-                                               WHEN d.fremision is not NULL THEN
-                                                   CASE
-                                                       WHEN d.fremisiond is not NULL THEN
-                                                           CASE
-                                                               WHEN d.fjip is not NULL THEN DATEDIFF(d.fjip,d.fremisiond)
-                                                               ELSE DATEDIFF(now(),d.fremisiond)
-                                                           END
-                                                       ELSE 0
-                                                   END
-                                               ELSE 0
-                                           END
-                                          ) AS fase31 FROM denuncia d
-                                           WHERE d.tblmodulo_id=".Auth::user()->tblmodulo_id." AND d.fdenuncia is not null AND d.fformalizacion is not null
-                                           AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
-               if (isset($request['remitido']) && !empty($request['remitido'])) {
-                   $sqlFase31.=" and d.remitido='".$request['remitido']."' ";
-               }
-               else{
-                   $sqlFase31.="and (d.remitido='Ministerio Público' OR d.remitido='Juzgado de Paz Letrado') ";
-               }
-               if (isset($request['mes']) && !empty($request['mes'])) {
-                   $sqlFase31 .= " and month(d.fformalizacion)=".$request['mes']." ";
-               }
-               if (isset($request['faudiencia']) && !empty($request['faudiencia'])) {
-                   $sqlMVF .= " and month(d.faudiencia)=".$request['faudiencia']." ";
-               }
-               if (isset($request['fremision']) && !empty($request['fremision'])) {
-                   $sqlREM .= " and month(d.fremision)=".$request['fremision']." ";
-               }
-               if (isset($request['fremisiond']) && !empty($request['fremisiond'])) {
-                   $sqlFase31 .= " and month(d.fremisiond)=".$request['fremisiond']." ";
-               }
-               if (isset($request['fjip']) && !empty($request['fjip'])) {
-                   $sqlFase31 .= " and month(d.fjip)=".$request['fjip']." ";
-               }
-               if( isset($request['dependenciad']) && !empty($request['dependenciad']) ){
-                   $sqlFase31 .= " and d.dependenciad='".$request['dependenciad']."' ";
-               }
-               if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
-                   $sqlFase31 .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
-               }
-               if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
-                   $sqlFase31 .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
-               }
-               if( isset($request['dependenciad']) && !empty($request['dependenciad']) ){
-                   $sqlFaseII .= " and d.dependenciad='".$request['dependenciad']."' ";
-               }
-               if( isset($request['jip']) && !empty($request['jip']) ){
-                   $sqlFaseII .= " and d.jip='".$request['jip']."' ";
-               }
-               $sqlFase31 .= "  ) as a ";
-               $fase31 = DB::select(DB::raw($sqlFase31));
-               if (!isset($fase31[0]->promedio) && empty($fase31[0]->promedio)) {
-                   $FASE31total = 0;
-               }else{
-                   $FASE31total = (double)$fase31[0]->promedio;
-               }
-               //fase III Etapa 2
-               $sqlFase32="SELECT sum(a.fase32) as suma, avg(a.fase32) as promedio, count(*) as total FROM
-                               (
-                                   SELECT(
-                                           CASE
-                                               WHEN d.fremision is not NULL THEN
-                                                   CASE
-                                                       WHEN d.fremisiond is not NULL THEN
-                                                           CASE
-                                                               WHEN d.fjip is not NULL THEN
-                                                                   CASE
-                                                                       WHEN d.fremisionj is not NULL THEN DATEDIFF(d.fremisionj,d.fjip)
-                                                                       ELSE DATEDIFF(now(),d.fjip)
-                                                                   END
-                                                               ELSE 0
-                                                           END
-                                                       ELSE 0
-                                                   END
-                                               ELSE 0
-                                           END
-                                          ) AS fase32 FROM denuncia d
-                                           WHERE d.tblmodulo_id=".Auth::user()->tblmodulo_id." AND d.fdenuncia is not null AND d.fformalizacion is not null
-                                           AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
-               if (isset($request['remitido']) && !empty($request['remitido'])) {
-                   $sqlFase32.=" and d.remitido='".$request['remitido']."' ";
-               }
-               else{
-                   $sqlFase32.="and (d.remitido='Ministerio Público' OR d.remitido='Juzgado de Paz Letrado') ";
-               }
-               if (isset($request['mes']) && !empty($request['mes'])) {
-                   $sqlFase32 .= " and month(d.fformalizacion)=".$request['mes']." ";
-               }
-               if (isset($request['faudiencia']) && !empty($request['faudiencia'])) {
-                   $sqlMVF .= " and month(d.faudiencia)=".$request['faudiencia']." ";
-               }
-               if (isset($request['fremision']) && !empty($request['fremision'])) {
-                   $sqlREM .= " and month(d.fremision)=".$request['fremision']." ";
-               }
-               if (isset($request['fremisiond']) && !empty($request['fremisiond'])) {
-                   $sqlFase32 .= " and month(d.fremisiond)=".$request['fremisiond']." ";
-               }
-               if (isset($request['fjip']) && !empty($request['fjip'])) {
-                   $sqlFase32 .= " and month(d.fjip)=".$request['fjip']." ";
-               }
-               if (isset($request['fremisionj']) && !empty($request['fremisionj'])) {
-                   $sqlFase32 .= " and month(d.fremisionj)=".$request['fremisionj']." ";
-               }
-               if( isset($request['dependenciad']) && !empty($request['dependenciad']) ){
-                   $sqlFase32 .= " and d.dependenciad='".$request['dependenciad']."' ";
-               }
-               if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
-                   $sqlFase32 .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
-               }
-               if( isset($request['tblcomisaria_id']) && !empty($request['tblcomisaria_id']) ){
-                   $sqlFase32 .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
-               }
-               if( isset($request['juzgamiento']) && !empty($request['juzgamiento']) ){
-                   $sqlFaseII .= " and d.juzgamiento='".$request['juzgamiento']."' ";
-               }
-               if( isset($request['jip']) && !empty($request['jip']) ){
-                   $sqlFaseII .= " and d.jip='".$request['jip']."' ";
-               }
-               if( isset($request['jip']) && !empty($request['jip']) ){
-                   $sqlFaseII .= " and d.jip='".$request['jip']."' ";
-               }
-               $sqlFase32 .= "  ) as a ";
-               $fase32 = DB::select(DB::raw($sqlFase32));
-               if (!isset($fase32[0]->promedio) && empty($fase32[0]->promedio)) {
-                   $FASE32total = 0;
-               }else{
-                   $FASE32total = (double)$fase32[0]->promedio;
                 }
 
                 // Cuadro de ingreso
@@ -2654,7 +2294,7 @@ class DenunciaController extends Controller
                     $idChartArr[] = $chartCDN->id;
                     $idChartArr[] = $chartVAR->id;
                     $idChartArr = json_encode($idChartArr);
-                    return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','ApTotal','AlTotal','DPTotal','AJTotal','F2Total','F31Total','F32Total','chartCDN','PNPTotal','MVFTotal','DRTotal','REMTotal','FASEIItotal','FASE31total','FASE32total','chartVAR','idChartArr','request','graphGenerated','chartV','chartMP'));
+                    return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','ApTotal','AlTotal','DPTotal','chartCDN','calificacionDenArr','AJTotal','PNPTotal','MVFTotal','DRTotal','REMTotal','chartVAR','idChartArr','request','graphGenerated','chartV','chartMP'));
                 }
 
                 if (isset($request['graph4']) && !empty($request['graph4']) && $request['graph4'] != '0') {
@@ -2664,7 +2304,7 @@ class DenunciaController extends Controller
                     $idChartArr[] = $chartTTC->id;
                     // $idChartArr[] = "ttramite";         // id del grafico generado manualmente
                     $idChartArr = json_encode($idChartArr);
-                    return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','DPTotal','chartCID','ApTotal','AlTotal','DPTotal','AJTotal','F2Total','F31Total','F32Total','MINTotal','idChartArr','request','graphGenerated','chartV','chartTTC','chartMP','chartDCD','ubicaciones','PNPTotal','MVFTotal','DRTotal','REMTotal','FASEIItotal','FASE31total','FASE32total'));
+                    return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','DPTotal','chartCID','chartTTC','PNPTotal','MVFTotal','PSCEMTotal','ALCEMTotal','MINTotal','idChartArr','request','graphGenerated'));
                 }
 
 
@@ -2675,7 +2315,7 @@ class DenunciaController extends Controller
                 $chart->dataset('My dataset', 'line', [1, 2, 3, 4]);
                 $chart->dataset('My dataset 2', 'line', [4, 3, 2, 1]);
 
-                return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','chart','request','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP'));
+                return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','chart','request'));
             }
 
         }
@@ -2777,7 +2417,6 @@ class DenunciaController extends Controller
             $query->where('tipo','FA')->orwhere('tipo','JM')->orwhere('estadistica','1');
         })->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
-        // dd($instanciasPL);
         $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','MP')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PU')->orderBy('nombre')->pluck('nombre', 'id');
