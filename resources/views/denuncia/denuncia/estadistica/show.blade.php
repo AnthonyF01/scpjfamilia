@@ -116,6 +116,16 @@
       line-height: 1.42857143;
     }
 
+    .tape {
+        margin: 40px 0px;
+        line-height: 40px;  
+        font-size: 20px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        vertical-align: middle;
+    }
+
 
     /*------- table-cell -------*/
 
@@ -362,6 +372,57 @@
       border-radius: 60px;
     }
 
+    .strong {
+      border-top: 1px solid #ff8f00f7;
+    }
+    .h6 {
+      font-size: 12px !important;
+      margin-bottom: 10px !important;
+      margin-top: 10px !important;
+    }
+
+    .pj {
+      background-color: #951307;
+    }
+
+    .orange {
+      background-color: #f39c12;
+    }
+
+    .suma {
+      background-color: #333;
+    }
+
+    .adjust {
+      /*font-size: 10px !important;
+      width: 70px !important;
+      height: 70px !important;
+      line-height: 10px !important;
+      border-top-left-radius: 50px !important;
+      border-top-right-radius: 50px !important;
+      border-bottom-left-radius: 50px !important;
+      border-bottom-right-radius: 50px !important;
+      -webkit-border-radius: 50px !important;
+      -moz-border-radius: 50px !important;*/
+      margin: 30px auto 0 auto;
+      font-size: 25px;
+      font-weight: bold;
+      width: 70px;
+      height: 70px;
+      line-height: 70px;
+      vertical-align: middle;
+      -webkit-border-radius: 35px;
+      -moz-border-radius: 35px;
+      border-radius: 35px;
+    }
+
+    table.table-cell>thead>tr>th {
+        background-color: #255997 !important;
+        border: 1px solid #255997 !important;
+        padding: 3px !important;
+    }
+
+
   </style>
 
   <style>
@@ -444,14 +505,167 @@
         <div class="div-cell cell-2 nplr">
           <div class="box bbox_bl">
             <center><h3 class="headBox color_bl black">SEXO</h3></center>
-            <div class="bodyGraph" style="padding-left: 1px; padding-right: 1px"><img style="" class="img2" src="{{ $splitImg[2] }}" height="75%" width="auto"></div>
+            <div class="bodyGraph" style="margin-left: 2px; margin-right: 1px; padding-left: 1px; padding-right: 1px"><img style="" class="img2" src="{{ $splitImg[2] }}" height="75%" width="auto"></div>
           </div>
         </div>
       </div>
     @endif
 
     @if ($request['graph'] == '2')
-      <br>
+      <h3 class="tape" style="margin-bottom:0">Tiempo de Tramite</h3>
+      <div class="table-responsive">
+        <table class="table table-cell" style="width: 100%; font-size: 12px;">
+          <thead>
+            <tr>
+              <th style="font-size: 13px;" colspan="6" rowspan="2" class="header v-align">FASE I</th>
+              <th style="font-size: 13px;" rowspan="2" class="header v-align">FASE II</th>
+              <th style="font-size: 13px;" colspan="2" class="header">FASE III</th>
+              <th style="font-size: 13px;" rowspan="2" class="header v-align">Total</th>
+            </tr>
+            <tr>
+              <th style="font-size: 13px;" class="header">Etapa 1</th>
+              <th style="font-size: 13px;" class="header">Etapa 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                  <h6 class="center h6">
+                    <strong>PNP</strong>
+                  </h6>
+                @if (isset($request['PNPTotal']) || $request['PNPTotal'] == 0)
+                  <div class=" adjust center green color_bl">{{ round($request['PNPTotal'],1) }}</div>
+                @endif
+              </td>
+              <td>
+                <div class="signo center"><i class="fa fa-plus"></i></div>
+              </td>
+              <td>
+                  <h6 class="center h6">
+                    <strong>Módulo VF</strong>
+                  </h6>
+                @if (isset($request['MVFTotal']) || $request['MVFTotal'] == 0)
+                  <div class=" adjust center pink color_bl">{{ round($request['MVFTotal'],1) }}</div>
+                @endif
+              </td>
+              <td>
+                <div class="signo center"><i class="fa fa-arrow-right"></i></div>
+              </td>
+              <td>
+                  <h6 class="center h6">
+                    <strong class="strong">Duración</strong>
+                  </h6>
+                @if (isset($request['DRTotal']) || $request['DRTotal'] == 0)
+                  <div class=" adjust center blue color_bl">{{ round($request['PNPTotal'],1)+round($request['MVFTotal'],1) }}</div>
+                @endif
+              </td>
+              <td>
+                  <h6 class="center h6">
+                    <strong class="strong">Remisión</strong>
+                  </h6>
+                @if (isset($request['REMTotal']) || $request['REMTotal'] == 0)
+                  <div class=" adjust center pj color_bl">{{ round($request['REMTotal'],1) }}</div>
+                @endif
+              </td>
+              <td>
+                  <h6 class="center h6">
+                    <strong class="strong">M. Público</strong>
+                  </h6>
+                @if (isset($request['FASEIItotal']) || $request['FASEIItotal'] == 0)
+                  <div class=" adjust center orange color_bl">{{ round($request['FASEIItotal'],1) }}</div>
+                @endif
+              </td>
+              <td>
+                  <h6 class="center h6">
+                    <strong class="strong">JIP</strong>
+                  </h6>
+                @if (isset($request['FASE31total']) || $request['FASE31total'] == 0)
+                  <div class=" adjust center pj color_bl">{{ round($request['FASE31total'],1) }}</div>
+                @endif
+              </td>
+              <td>
+                  <h6 class="center h6">
+                    <strong class="strong">Juzgamiento</strong>
+                  </h6>
+                @if (isset($request['FASE32total']) || $request['FASE32total'] == 0)
+                  <div class=" adjust center pj color_bl">  {{ round($request['FASE32total'],1) }}</div>
+                @endif
+              </td>
+              <td>
+                <h6 class="center h6">
+                    <strong>Suma</strong>
+                </h6>
+                <div class=" adjust center suma color_bl">{{ round($request['PNPTotal'],1)+round($request['MVFTotal'],1)+round($request['REMTotal'],1)+round($request['FASEIItotal'],1)+round($request['FASE31total'],1)+round($request['FASE32total'],1) }}</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="tape" style="margin-bottom:0">Carga laboral</h3>
+      <div class="table-responsive">
+        <table class="table table-cell" style="width: 100%; font-size: 12px;">
+          <thead>
+            <tr>
+              <th style="font-size: 13px;" colspan="2" class="header v-align">CEM</th>
+              <th style="font-size: 13px;" colspan="2" class="header v-align">FASE I</th>
+              <th style="font-size: 13px;" rowspan="2" class="header v-align">FASE II</th>
+              <th style="font-size: 13px;" colspan="2" class="header">FASE III</th>
+            </tr>
+            <tr>
+              <th style="font-size: 13px;" class="header">Atención Psicológica</th>
+              <th style="font-size: 13px;" class="header">Atención legal</th>
+              <th style="font-size: 13px;" class="header">Denuncia Policial</th>
+              <th style="font-size: 13px;" class="header">M. Familia</th>
+              <th style="font-size: 13px;" class="header">Etapa 1</th>
+              <th style="font-size: 13px;" class="header">Etapa 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                @if (isset($request['ApTotal']) || $request['ApTotal'] == 0)
+                  <div class="circle adjust center red color_bl">{{ $request['ApTotal'] }}</div>
+                @endif
+              </td>
+              <td>
+                @if (isset($request['AlTotal']) || $request['AlTotal'] == 0)
+                  <div class="circle adjust center red color_bl">{{  $request['AlTotal'] }}</div>
+                @endif
+              </td>
+              <td>
+                @if (isset($request['DPTotal']) || $request['DPTotal'] == 0)
+                  <div class="circle adjust center green color_bl">{{  $request['DPTotal'] }}</div>
+                @endif
+              </td>
+              <td>
+                @if (isset($request['AJTotal']) || $request['AJTotal'] == 0)
+                  <div class="circle adjust center pink color_bl">{{  $request['AJTotal'] }}</div>
+                @endif
+              </td>
+              <td>
+                @if (isset($request['F2Total']) || $request['F2Total'] == 0)
+                  <div class="circle adjust center orange color_bl">{{ $request['F2Total'] }}</div>
+                @endif
+              </td>
+              <td>
+                @if (isset($request['F31Total']) || $request['F31Total'] == 0)
+                  <div class="circle adjust center pj color_bl">{{ $request['F31Total'] }}</div>
+                @endif
+              </td>
+              <td>
+                @if (isset($request['F32Total']) || $request['F32Total'] == 0)
+                  <div class="circle adjust center pj color_bl">{{ $request['F32Total'] }}</div>
+                @endif
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+
+      {{-- <br>
       <div class="div-table" style="margin-bottom: 20px;">
         <div class="div-cell cell-2 nplr">
           <div class="box ">
@@ -473,8 +687,7 @@
         </div>
         <div class="div-cell cell-2 nplr">
           <div class="box  ">
-            <center><h4 class="headBox min  blank">CALIFICACION {{-- DENUNCIAS --}}</h4></center>
-            {{-- <div class="boxBody color_bl"><h2 style="margin-top: 80px">{{ $request['AJTotal'] }}</h2></div> --}}
+            <center><h4 class="headBox min  blank">CALIFICACION</h4></center>
             <div class="bodyGraph" ><img class="img2" src="{{ $splitImg[0] }}" height="auto" width="100%" style="margin-top: 5px"></div>
           </div>
         </div>
@@ -527,7 +740,7 @@
             <div class=" center"><div class="cadjust blue color_bl">{{ $request['REMTotal'] }}</div></div>
           </div>
         </div>
-      </div>
+      </div> --}}
     @endif
 
     @if ($request['graph'] == '4')

@@ -2651,8 +2651,8 @@ class DenunciaController extends Controller
                 if (isset($request['graph2']) && !empty($request['graph2']) && $request['graph2'] != '0'){
                     $graphGenerated = '2';
                     // array de ids de las graficas
-                    $idChartArr[] = $chartCDN->id;
-                    $idChartArr[] = $chartVAR->id;
+                    $idChartArr[] = $chartV->id;
+                    // $idChartArr[] = $chartCDN->id;
                     $idChartArr = json_encode($idChartArr);
                     return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','ApTotal','AlTotal','DPTotal','AJTotal','F2Total','F31Total','F32Total','chartCDN','PNPTotal','MVFTotal','DRTotal','REMTotal','FASEIItotal','FASE31total','FASE32total','chartVAR','idChartArr','request','graphGenerated','chartV','chartMP'));
                 }

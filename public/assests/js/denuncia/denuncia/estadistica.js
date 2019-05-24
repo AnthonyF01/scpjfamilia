@@ -68,6 +68,9 @@ function ajaxLoadPDF(filename, array, token) {
         data.append('MVFTotal',MVFTotal);
         data.append('DRTotal',DRTotal);
         data.append('REMTotal',REMTotal);
+        data.append('F2Total',F2Total);
+        data.append('F31Total',F31Total);
+        data.append('F32Total',F32Total);
     }
     if ($('input[name=graph3]:checked').length) {
         data.append('graph', 3);

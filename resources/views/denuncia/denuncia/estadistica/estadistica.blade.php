@@ -100,6 +100,15 @@
     }
 
     .circle {
+      /*margin: 0 auto 0 auto;
+      font-size: 40px;
+      font-weight: bold;
+      width: 70px;
+      height: 70px;
+      line-height: 70px;
+      vertical-align: middle;
+      border-radius: 170px;
+      box-shadow:4px 0 10px black;*/
       margin: 0 auto 0 auto;
       font-size: 40px;
       font-weight: bold;
@@ -108,7 +117,7 @@
       line-height: 70px;
       vertical-align: middle;
       border-radius: 170px;
-      box-shadow:4px 0 10px black;
+      box-shadow: 4px 0 10px black;
     }
 
     .circle_1 {
@@ -118,11 +127,23 @@
       line-height: 100px;
     }
 
+    .pj {
+      background-color: #951307;
+    }
+
+    .orange {
+      background-color: #f39c12;
+    }
+
+    .suma {
+      background-color: #333;
+    }
+
     .adjust {
-      font-size: 25px;
-      width: 70px;
-      height: 70px;
-      line-height: 70px;
+      font-size: 25px !important;
+      width: 70px !important;
+      height: 70px !important;
+      line-height: 70px !important;
     }
 
     .signo {
@@ -605,156 +626,160 @@
                   </div>
                 @endif
                 @if ($graphGenerated == '2')
-                  <h3 class="tape" style="margin-bottom:0">Tiempo de Tramite</h3>
-                  <div class="table-responsive">
-                    <table class="table table-cell">
-                      <thead>
-                        <tr>
-                          <th colspan="6" rowspan="2" class="header v-align">FASE I</th>
-                          <th rowspan="2" class="header v-align">FASE II</th>
-                          <th colspan="2" class="header">FASE III</th>
-                          <th rowspan="2" class="header v-align">Total</th>
-                        </tr>
-                        <tr>
-                          <th class="header">Etapa 1</th>
-                          <th class="header">Etapa 2</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            @if (isset($PNPTotal))
+
+                  <div id="printable">
+                    <h3 class="tape" style="margin-bottom:0">Tiempo de Tramite</h3>
+                    <div class="table-responsive">
+                      <table class="table table-cell">
+                        <thead>
+                          <tr>
+                            <th colspan="6" rowspan="2" class="header v-align">FASE I</th>
+                            <th rowspan="2" class="header v-align">FASE II</th>
+                            <th colspan="2" class="header">FASE III</th>
+                            <th rowspan="2" class="header v-align">Total</th>
+                          </tr>
+                          <tr>
+                            <th class="header">Etapa 1</th>
+                            <th class="header">Etapa 2</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              @if (isset($PNPTotal))
+                                <h6 class="center">
+                                  <strong>PNP</strong>
+                                </h6>
+                                <div class="circle adjust center green color_bl">{{ round($PNPTotal,1) }}</div>
+                              @endif
+                            </td>
+                            <td>
+                              <div class="signo center"><i class="fa fa-plus"></i></div>
+                            </td>
+                            <td>
+                              @if (isset($MVFTotal))
+                                <h6 class="center">
+                                  <strong>Módulo VF</strong>
+                                </h6>
+                                <div class="circle adjust center pink color_bl">{{ round($MVFTotal,1) }}</div>
+                              @endif
+                            </td>
+                            <td>
+                              <div class="signo center"><i class="fa fa-arrow-right"></i></div>
+                            </td>
+                            <td>
+                              @if (isset($DRTotal))
+                                <h6 class="center">
+                                  <strong class="strong">Duración</strong>
+                                </h6>
+                                <div class="circle adjust center blue color_bl">{{ round($PNPTotal,1)+round($MVFTotal,1) }}</div>
+                              @endif
+                            </td>
+                            <td>
+                              @if (isset($REMTotal))
+                                <h6 class="center">
+                                  <strong class="strong">Remisión</strong>
+                                </h6>
+                                <div class="circle adjust center pj color_bl">{{ round($REMTotal,1) }}</div>
+                              @endif
+                            </td>
+                            <td>
+                              @if (isset($FASEIItotal))
+                                <h6 class="center">
+                                  <strong class="strong">M. Público</strong>
+                                </h6>
+                                <div class="circle adjust center orange color_bl">{{ round($FASEIItotal,1) }}</div>
+                              @endif
+                            </td>
+                            <td>
+                              @if (isset($FASE31total))
+                                <h6 class="center">
+                                  <strong class="strong">JIP</strong>
+                                </h6>
+                                <div class="circle adjust center pj color_bl">{{ round($FASE31total,1) }}</div>
+                              @endif
+                            </td>
+                            <td>
+                              @if (isset($FASE32total))
+                                <h6 class="center">
+                                  <strong class="strong">Juzgamiento</strong>
+                                </h6>
+                                <div class="circle adjust center pj color_bl">{{ round($FASE32total,1) }}</div>
+                              @endif
+                            </td>
+                            <td>
                               <h6 class="center">
-                                <strong>PNP</strong>
+                                  <strong>Suma</strong>
                               </h6>
-                              <div class="circle adjust center green color_bl">{{ round($PNPTotal,1) }}</div>
-                            @endif
-                          </td>
-                          <td>
-                            <div class="signo center"><i class="fa fa-plus"></i></div>
-                          </td>
-                          <td>
-                            @if (isset($MVFTotal))
-                              <h6 class="center">
-                                <strong>Módulo VF</strong>
-                              </h6>
-                              <div class="circle adjust center pink color_bl">{{ round($MVFTotal,1) }}</div>
-                            @endif
-                          </td>
-                          <td>
-                            <div class="signo center"><i class="fa fa-arrow-right"></i></div>
-                          </td>
-                          <td>
-                            @if (isset($DRTotal))
-                              <h6 class="center">
-                                <strong class="strong">Duración</strong>
-                              </h6>
-                              <div class="circle adjust center blue color_bl">{{ round($PNPTotal,1)+round($MVFTotal,1) }}</div>
-                            @endif
-                          </td>
-                          <td>
-                            @if (isset($REMTotal))
-                              <h6 class="center">
-                                <strong class="strong">Remisión</strong>
-                              </h6>
-                              <div class="circle adjust center pj color_bl">{{ round($REMTotal,1) }}</div>
-                            @endif
-                          </td>
-                          <td>
-                            @if (isset($FASEIItotal))
-                              <h6 class="center">
-                                <strong class="strong">M. Público</strong>
-                              </h6>
-                              <div class="circle adjust center orange color_bl">{{ round($FASEIItotal,1) }}</div>
-                            @endif
-                          </td>
-                          <td>
-                            @if (isset($FASE31total))
-                              <h6 class="center">
-                                <strong class="strong">JIP</strong>
-                              </h6>
-                              <div class="circle adjust center pj color_bl">{{ round($FASE31total,1) }}</div>
-                            @endif
-                          </td>
-                          <td>
-                            @if (isset($FASE32total))
-                              <h6 class="center">
-                                <strong class="strong">Juzgamiento</strong>
-                              </h6>
-                              <div class="circle adjust center pj color_bl">{{ round($FASE32total,1) }}</div>
-                            @endif
-                          </td>
-                          <td>
-                            <h6 class="center">
-                                <strong>Suma</strong>
-                            </h6>
-                            <div class="circle adjust center suma color_bl">{{ round($PNPTotal,1)+round($MVFTotal,1)+round($REMTotal,1)+round($FASEIItotal,1)+round($FASE31total,1)+round($FASE32total,1) }}</div>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
+                              <div class="circle adjust center suma color_bl">{{ round($PNPTotal,1)+round($MVFTotal,1)+round($REMTotal,1)+round($FASEIItotal,1)+round($FASE31total,1)+round($FASE32total,1) }}</div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                    <h3 class="tape" style="margin-bottom:0">Carga laboral</h3>
+                    <div class="table-responsive">
+                      <table class="table table-cell">
+                        <thead>
+                          <tr>
+                            <th colspan="2" class="header v-align">CEM</th>
+                            <th colspan="2" class="header v-align">FASE I</th>
+                            <th rowspan="2" class="header v-align">FASE II</th>
+                            <th colspan="2" class="header">FASE III</th>
+                          </tr>
+                          <tr>
+                            <th class="header">Atención Psicológica</th>
+                            <th class="header">Atención legal</th>
+                            <th class="header">Denuncia Policial</th>
+                            <th class="header">M. Familia</th>
+                            <th class="header">Etapa 1</th>
+                            <th class="header">Etapa 2</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              @if (isset($ApTotal))
+                                <div class="circle adjust center red color_bl">{{ $ApTotal }}</div>
+                              @endif
+                            </td>
+                            <td>
+                              @if (isset($AlTotal))
+                                <div class="circle adjust center red color_bl">{{  $AlTotal }}</div>
+                              @endif
+                            </td>
+                            <td>
+                              @if (isset($DPTotal))
+                                <div class="circle adjust center green color_bl">{{  $DPTotal }}</div>
+                              @endif
+                            </td>
+                            <td>
+                              @if (isset($AJTotal))
+                                <div class="circle adjust center pink color_bl">{{  $AJTotal }}</div>
+                              @endif
+                            </td>
+                            <td>
+                              @if (isset($F2Total))
+                                <div class="circle adjust center orange color_bl">{{ $F2Total }}</div>
+                              @endif
+                            </td>
+                            <td>
+                              @if (isset($F31Total))
+                                <div class="circle adjust center pj color_bl">{{ $F31Total }}</div>
+                              @endif
+                            </td>
+                            <td>
+                              @if (isset($F32Total))
+                                <div class="circle adjust center pj color_bl">{{ $F32Total }}</div>
+                              @endif
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
 
-                  <h3 class="tape" style="margin-bottom:0">Carga laboral</h3>
-                  <div class="table-responsive">
-                    <table class="table table-cell">
-                      <thead>
-                        <tr>
-                          <th colspan="2" class="header v-align">CEM</th>
-                          <th colspan="2" class="header v-align">FASE I</th>
-                          <th rowspan="2" class="header v-align">FASE II</th>
-                          <th colspan="2" class="header">FASE III</th>
-                        </tr>
-                        <tr>
-                          <th class="header">Atención Psicológica</th>
-                          <th class="header">Atención legal</th>
-                          <th class="header">Denuncia Policial</th>
-                          <th class="header">M. Familia</th>
-                          <th class="header">Etapa 1</th>
-                          <th class="header">Etapa 2</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            @if (isset($ApTotal))
-                              <div class="circle adjust center red color_bl">{{ $ApTotal }}</div>
-                            @endif
-                          </td>
-                          <td>
-                            @if (isset($AlTotal))
-                              <div class="circle adjust center red color_bl">{{  $AlTotal }}</div>
-                            @endif
-                          </td>
-                          <td>
-                            @if (isset($DPTotal))
-                              <div class="circle adjust center green color_bl">{{  $DPTotal }}</div>
-                            @endif
-                          </td>
-                          <td>
-                            @if (isset($AJTotal))
-                              <div class="circle adjust center pink color_bl">{{  $AJTotal }}</div>
-                            @endif
-                          </td>
-                          <td>
-                            @if (isset($F2Total))
-                              <div class="circle adjust center orange color_bl">{{ $F2Total }}</div>
-                            @endif
-                          </td>
-                          <td>
-                            @if (isset($F31Total))
-                              <div class="circle adjust center pj color_bl">{{ $F31Total }}</div>
-                            @endif
-                          </td>
-                          <td>
-                            @if (isset($F32Total))
-                              <div class="circle adjust center pj color_bl">{{ $F32Total }}</div>
-                            @endif
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
                   <br><br>
                   <div class="panel panel-info">
                     <div class="panel-heading" align="center">
@@ -785,6 +810,7 @@
                       </div>
                     </div>
                   </div>
+
                 @endif
                 @if ($graphGenerated == '4')
                   <div class="row">
@@ -843,22 +869,22 @@
                         <tbody>
                           <tr>
                             <td>
-                              @if (isset($PNPTotal))
+                              @if (isset($PNPTotalAnual))
                                 <h6 class="center">
                                   <strong>PNP</strong>
                                 </h6>
-                                <div class="circle adjust center green color_bl">{{ round($PNPTotal,1) }}</div>
+                                <div class="circle adjust center green color_bl">{{ round($PNPTotalAnual,1) }}</div>
                               @endif
                             </td>
                             <td>
                               <div class="signo center"><i class="fa fa-plus"></i></div>
                             </td>
                             <td>
-                              @if (isset($MVFTotal))
+                              @if (isset($MVFTotalAnual))
                                 <h6 class="center">
                                   <strong>Módulo VF</strong>
                                 </h6>
-                                <div class="circle adjust center pink color_bl">{{ round($MVFTotal,1) }}</div>
+                                <div class="circle adjust center pink color_bl">{{ round($MVFTotalAnual,1) }}</div>
                               @endif
                             </td>
                             <td>
@@ -1513,6 +1539,16 @@
         var MVFTotal = '{{ ( isset($MVFTotal) && !empty($MVFTotal)) ? $MVFTotal : 0 }}';
         var DRTotal = '{{ ( isset($DRTotal) && !empty($DRTotal)) ? $DRTotal : 0 }}';
         var REMTotal = '{{ ( isset($REMTotal) && !empty($REMTotal)) ? $REMTotal : 0 }}';
+
+        // ultimas modificaciones - henry
+        var FASEIItotal = '{{ ( isset($FASEIItotal) && !empty($FASEIItotal)) ? $FASEIItotal : 0 }}';
+        var FASE31total = '{{ ( isset($FASE31total) && !empty($FASE31total)) ? $FASE31total : 0 }}';
+        var FASE32total = '{{ ( isset($FASE32total) && !empty($FASE32total)) ? $FASE32total : 0 }}';
+        
+        var F2Total = '{{ ( isset($F2Total) && !empty($F2Total)) ? $F2Total : 0 }}';
+        var F31Total = '{{ ( isset($F31Total) && !empty($F31Total)) ? $F31Total : 0 }}';
+        var F32Total = '{{ ( isset($F32Total) && !empty($F32Total)) ? $F32Total : 0 }}';
+
     }
     if ($('input[name=graph3]:checked').length) {
         var hHTotal = '{{ ( isset($hHTotal) && !empty($hHTotal)) ? $hHTotal : 0 }}';
@@ -1520,7 +1556,7 @@
         var pATotal = '{{ ( isset($pATotal) && !empty($pATotal)) ? $pATotal : 0 }}';
     }
     if ($('input[name=graph4]:checked').length) {
-        var PNPTotal = '{{ ( isset($PNPTotal) && !empty($PNPTotal)) ? $PNPTotal : 0 }}';
+        var PNPTotal = '{{ ( isset($PNPTotalAnual) && !empty($PNPTotalAnual)) ? $PNPTotalAnual : 0 }}';
         var MVFTotal = '{{ ( isset($MVFTotal) && !empty($MVFTotal)) ? $MVFTotal : 0 }}';
         var PSCEMTotal = '{{ ( isset($PSCEMTotal) && !empty($PSCEMTotal)) ? $PSCEMTotal : 0 }}';
         var ALCEMTotal = '{{ ( isset($ALCEMTotal) && !empty($ALCEMTotal)) ? $ALCEMTotal : 0 }}';
