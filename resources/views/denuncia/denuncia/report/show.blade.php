@@ -251,7 +251,7 @@
   <div id="content">
     
     <div style="page-break-after: avoid; text-align: center; margin-top: 20px;">
-      <img src="{{base_path()}}\public\img\pjlogo.png" height="50px" width="50px" style="display: flex;">
+      <img src="{{base_path().'\public\img\pjlogo.png'}}" height="50px" width="50px" style="display: flex;">
       <h3>MODULO DE VIOLENCIA FAMILIAR - {{Auth::user()->tblmodulo->nombre}}</h3>
     </div>
 
