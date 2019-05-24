@@ -9,8 +9,6 @@
       font-family: serif;
     }
 
-    /* table-cell */
-
     table.table-cell{
       border-spacing: 2px;
       border-collapse: separate;

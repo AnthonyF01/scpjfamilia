@@ -17,6 +17,7 @@
 @endsection
 
 @section('css')
+
   <style>
     .loading {
       background: lightgrey;
@@ -31,6 +32,7 @@
       display: none;
     }
   </style>
+  
 @endsection
 
 @section('main-content')

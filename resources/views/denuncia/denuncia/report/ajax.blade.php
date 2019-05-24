@@ -42,6 +42,7 @@
       <?php $counter=1; ?>
       @foreach($denuncias as $denuncia)
         <tr>
+            
           {{-- <td class="middle details-control" data-toggle="1" onclick="showDetalis(this)" style="padding-left: 15px; padding-right: 15px"></td> --}}
           <td class="middle">{{ $counter++ + ( $denuncias->perPage() * ( $denuncias->currentPage() - 1 ) ) }}</td>
           {{-- <td class="middle modContent">@if ($denuncia->registro) <small class="label bg-green">si</small> @else <small class="label bg-red">no</small> @endif</td> --}}
