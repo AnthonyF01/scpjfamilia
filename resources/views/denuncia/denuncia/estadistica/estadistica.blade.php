@@ -89,11 +89,11 @@
 
     .circle2 {
       margin: 0 auto 0 auto;
-      font-size: 40px;
+      font-size: 35px;
       font-weight: bold;
-      width: 235px;
-      height: 235px;
-      line-height: 235px;
+      width: 175px;
+      height: 175px;
+      line-height: 175px;
       vertical-align: middle;
       border-radius: 170px;
       box-shadow:4px 0 10px black;
@@ -109,6 +109,13 @@
       vertical-align: middle;
       border-radius: 170px;
       box-shadow:4px 0 10px black;
+    }
+
+    .circle_1 {
+      width: 100px !important;
+      height: 100px !important;
+      font-size: 25px;
+      line-height: 100px;
     }
 
     .adjust {
@@ -528,7 +535,7 @@
                             <h4 class="center" style="z-index: 1;position: absolute;top: 0px;width: 94%;">
                               <strong>Características de las Víctimas</strong>
                             </h4>
-                            <div style="margin-top: 10px;"></div>
+                            <div style="margin-top: 50px;"></div>
                             {!! $chartCV->container() !!}
                             {!! $chartCV->script() !!}
                           @endif
@@ -538,7 +545,7 @@
                             <h4 class="center" style="z-index: 1;position: absolute;top: 0px;width: 94%;">
                               <strong>Distribución de edades de las Víctimas</strong>
                             </h4>
-                            <div style="margin-top: 10px;"></div>
+                            <div style="margin-top: 50px;"></div>
                             {!! $chartPV->container() !!}
                             {!! $chartPV->script() !!}
                           @endif
@@ -549,17 +556,17 @@
                       <div class="row">
                         @if (isset($vDTotal))
                           <h4 class="center" style="margin-bottom: 16px;">
-                            <strong>Victimas denunciantes</strong>
+                            <strong>Víctimas denunciantes</strong>
                           </h4>
-                          <div class="circle center red color_bl">{{ $vDTotal }}</div>
+                          <div class="circle circle_1 center red color_bl">{{ $vDTotal }}</div>
                         @endif
-                      </div> <br><br><br>
+                      </div> <br><br>
                       <div class="row">
                         @if (isset($hHTotal))
                           <h4 class="center" style="margin-bottom: 16px;">
-                            <strong>Hijos de las victimas</strong>
+                            <strong>Hijos de las víctimas</strong>
                           </h4>
-                          <div class="circle center red color_bl">{{ $hHTotal }}</div>
+                          <div class="circle circle_1 center red color_bl">{{ $hHTotal }}</div>
                         @endif
                       </div>
                     </div>
@@ -575,12 +582,12 @@
                         {!! $chartPPA->script() !!}
                       @endif
                     </div>
-                    <div class="col-sm-12" style="margin-top:-70px">
+                    <div class="col-sm-12" style="margin-top:0px">
                       <div class="row">
                         <div class="col-sm-6">
                           @if (isset($chartSA) && !empty($chartSA))
-                            <h3 class="center" style="z-index: 1;position: absolute;width: 94%;">Sexo de los agresores</h3>
-                            <div style="margin-top: 10px;"></div>
+                            <h3 class="center" style="z-index: 1;position: absolute;width: 100%;">Sexo de los agresores</h3>
+                            <div style="margin-top: 30px;"></div>
                             <div>
                               {!! $chartSA->container() !!}
                               {!! $chartSA->script() !!}
@@ -1416,8 +1423,16 @@
         $("#fasseiii").show()
       @else
         $("#faseii").hide();
-        $("#fasseiii").hide()
+        $("#fasseiii").hide();
       @endif
+
+      // graficos
+      var chartCV = '{{ ( isset($chartCV->id) && !empty($chartCV->id) ) ? $chartCV->id : 0 }}';
+      var chartPV = '{{ ( isset($chartPV->id) && !empty($chartPV->id) ) ? $chartPV->id : 0 }}';
+
+      $("#"+chartCV).css('height','inherit');
+      $("#"+chartPV).css('height','inherit');
+
     });
   </script>
 
@@ -1513,6 +1528,7 @@
     }
 
     window.imgArr = [];
+    
     function svgString2Image(svgID, width, height, format, mode) {
 
       format = format ? format : 'png';
@@ -1541,7 +1557,7 @@
       var url = DOMURL.createObjectURL(svg);
 
       image.onload = function () {
-          context.clearRect(0, 0, width, height);
+          // context.clearRect(0, 0, width, height);
           context.drawImage(image, 0, 0, width, height);
           var pngData = canvas.toDataURL('image/' + format);
           window.imgArr.push(pngData);
@@ -1730,14 +1746,14 @@
     {{-- Ajustar los graficos --}}
     var chartCDN = '{{ ( isset($chartCDN->id) && !empty($chartCDN->id) ) ? $chartCDN->id : 0 }}';
     var chartVAR = '{{ ( isset($chartVAR->id) && !empty($chartVAR->id) ) ? $chartVAR->id : 0 }}';
-    $(".sidebar-toggle").on('click', function(){
+    /*$(".sidebar-toggle").on('click', function(){
       if ((typeof chartCDN !== 'undefined' && chartCDN!= '0') && (typeof chartVAR !== 'undefined' && chartVAR != '0')) {
         setTimeout(function () {
           $('#'+chartCDN).highcharts().reflow();
           $('#'+chartVAR).highcharts().reflow();
         },200);
       }
-    });
+    });*/
   </script>
 
 @endsection

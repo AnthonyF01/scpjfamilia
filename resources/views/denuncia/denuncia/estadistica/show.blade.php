@@ -298,15 +298,17 @@
     .bodyGraph {
       max-height: 225px;
       overflow:hidden;
+      align-items: center;
+      text-align: center;
     }
 
     .bodyGraph img {
-      margin-top: -30px;
-      margin-bottom: -10; 
+      margin-top: 0px;
+      margin-bottom: 0px; 
     }
 
     .bodyGraph img.img1 {
-      margin-top: -20px;
+      margin-top: -10px;
       margin-bottom: -5; 
     }
 
@@ -408,11 +410,11 @@
         </div>
         <div class="div-cell cell-4 nplr">
           <center><h3 class="headGraph color_rd">CARACTERISTICAS DE LA VICTIMA</h3></center>
-          <div class="bodyGraph"><img src="{{ $splitImg[0] }}" height="auto" width="100%"></div>
+          <div class="bodyGraph"><img style="" src="{{ $splitImg[0] }}" height="90%" width="90%"></div>
         </div>
         <div class="div-cell cell-4 nplr">
           <center><h3 class="headGraph color_rd">EDAD DE LA VICTIMA</h3></center>
-          <div class="bodyGraph"><img src="{{ $splitImg[1] }}" height="auto" width="100%"></div>
+          <div class="bodyGraph"><img style="" src="{{ $splitImg[1] }}" height="90%" width="90%"></div>
         </div>
         <div class="div-cell cell-2 nplr">
           <div class="box bbox_rd red color_bl">
@@ -442,7 +444,7 @@
         <div class="div-cell cell-2 nplr">
           <div class="box bbox_bl">
             <center><h3 class="headBox color_bl black">SEXO</h3></center>
-            <div class="bodyGraph" style="padding-left: 1px; padding-right: 1px"><img class="img2" src="{{ $splitImg[2] }}" height="auto" width="100%"></div>
+            <div class="bodyGraph" style="padding-left: 1px; padding-right: 1px"><img style="" class="img2" src="{{ $splitImg[2] }}" height="75%" width="auto"></div>
           </div>
         </div>
       </div>

@@ -1304,7 +1304,6 @@ class DenunciaController extends Controller
             $query->where('tipo','FA')->orwhere('tipo','JM')->orwhere('estadistica','1');
         })->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
-        dd($instanciasPL);
         $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','MP')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
@@ -1399,7 +1398,7 @@ class DenunciaController extends Controller
                 }
 
                 $chartCV = new ExampleChart;
-                $chartCV->displayYAxes(false)->displayXAxes(true,'red','15px')->displayLegend(false)->plotOpt(true, 'column');
+                $chartCV->heightChart('300px')->displayYAxes(false)->displayXAxes(true,'red','15px')->displayLegend(false)->plotOpt(true, 'column');
                 $chartCV->labels($victimasCarArr['keys']);
                 $chartCV->dataset('Caracteristica', 'column', $victimasCarArr['values'])
                         ->options([
@@ -1456,11 +1455,12 @@ class DenunciaController extends Controller
                 }
 
                 $chartPV = new ExampleChart;
-                $chartPV->displayYAxes(false)->displayXAxes(true,'red','15px')->displayLegend(false)->plotOpt(true, 'column');
+                $chartPV->heightChart('300px')->displayYAxes(false)->displayXAxes(true,'red','15px')->displayLegend(false)->plotOpt(true, 'column');
                 $chartPV->labels($victimasPVArr['keys']);
                 $chartPV->dataset('Edad', 'column', $victimasPVArr['values'])
                         ->options([
                             'color' => 'rgb(203,0,0)',
+                            'height'=>300,
                         ]);
 
                 // Presuntos Agresores
@@ -1517,7 +1517,7 @@ class DenunciaController extends Controller
                 }
 
                 $chartSA = new ExampleChart;
-                $chartSA->legendStyle(true)->displayYAxes(false)->displayLegend(true)->chartPieM(true);
+                $chartSA->heightChart('300px')->legendStyle_var(false,'15px')->displayYAxes(false)->displayLegend(true)->chartPieM(true);
                 if ($i == 0) {
                     $agresoresSArr['keys'][] = 'Masculino';
                     $agresoresSArr['values'][] = 0;
@@ -1532,7 +1532,7 @@ class DenunciaController extends Controller
                 $chartSA->dataset('Total', 'pie', $agresoresSArr['values'])
                         ->options([
                             'color' => ['rgb(127,127,127)'],
-                            'height'=>250,
+                            'height'=>300,
                         ]);
 
                 // Parentesco con el agresor
@@ -1594,7 +1594,7 @@ class DenunciaController extends Controller
                 }
 
                 $chartPPA = new ExampleChart;
-                $chartPPA->heightChart('300px')->displayYAxes(false)->displayXAxes(true,'blak','11px')->displayLegend(false)->plotOpt(true, 'column');
+                $chartPPA->heightChart('350px')->displayYAxes(false)->displayXAxes(true,'blak','11px')->displayLegend(false)->plotOpt(true, 'column');
                 $chartPPA->labels($agresoresPPAArr['keys']);
                 $chartPPA->dataset('Parentesco', 'column', $agresoresPPAArr['values'])
                         ->options([

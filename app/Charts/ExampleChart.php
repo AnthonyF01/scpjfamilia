@@ -27,6 +27,17 @@ class ExampleChart extends Chart
         ]);
     }
 
+    public function legendStyle_var(bool $var, string $size)
+    {
+        return $this->options([
+            'legend' => [
+                'itemStyle' => [
+                    'fontSize' => $size
+                ],
+            ]
+        ]);
+    }
+
     public function heightChart(string $height)
     {
         return $this->options([
@@ -153,8 +164,8 @@ class ExampleChart extends Chart
                     'dataLabels' => [
                         'allowOverlap' => $var,
                         'enabled' => $var,
-                        'distance' => -60,
-                        'format' => '<b style="font-size:2.5em; color:#fff;">{point.y}</b>', 
+                        'distance' => -45,
+                        'format' => '<b style="font-size:20px; color:#fff;">{point.y}</b>', 
                     ],
                     'showInLegend'=> $var
                 ]
