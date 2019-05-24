@@ -381,7 +381,7 @@
     ?>
     
     <div style="page-break-after: avoid; text-align: center; margin-top: 20px;">
-      <img src="{{base_path()}}\public\img\pjlogo.png" height="50px" width="50px" style="display: flex;">
+      <img src="{{base_path().'\public\img\pjlogo.png'}}" height="50px" width="50px" style="display: flex;">
       <h4 style="margin: 0px">MODULO DE VIOLENCIA FAMILIAR - {{Auth::user()->tblmodulo->nombre}}</h4>
       <h4 style="margin: 0px">PERIODO DE GESTION {{ ( isset($request['mes']) && !empty($request['mes']) ) ? $mes[$request['mes']-1]." - ".$request['anio'] : $request['anio'] }}</h4>
       @if ($request['graph'] == '1')
