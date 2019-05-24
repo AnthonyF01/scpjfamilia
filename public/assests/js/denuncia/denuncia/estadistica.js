@@ -71,6 +71,9 @@ function ajaxLoadPDF(filename, array, token) {
         data.append('F2Total',F2Total);
         data.append('F31Total',F31Total);
         data.append('F32Total',F32Total);
+        data.append('FASEIItotal',FASEIItotal);
+        data.append('FASE31total',FASE31total);
+        data.append('FASE32total',FASE32total);
     }
     if ($('input[name=graph3]:checked').length) {
         data.append('graph', 3);

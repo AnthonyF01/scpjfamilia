@@ -1996,9 +1996,9 @@ class DenunciaController extends Controller
                 }else{
                     if (isset($request['anio']) && !empty($request['anio'])) {
                         if (!isset($denunciaPL[0]->total) && empty($denunciaPL[0]->total)) {
-                            $PNPTotalAnual = 0;
+                            $PNPTotal = 0;
                         }else{
-                            $PNPTotalAnual = $denunciaPL[0]->total;
+                            $PNPTotal = $denunciaPL[0]->total;
                         }
                     }
                 }
@@ -2042,9 +2042,9 @@ class DenunciaController extends Controller
                 }else{
                     if (isset($request['anio']) && !empty($request['anio'])) {
                         if (!isset($moduloVF[0]->total) && empty($moduloVF[0]->total)) {
-                            $MVFTotalAnual = 0;
+                            $MVFTotal = 0;
                         }else{
-                            $MVFTotalAnual = $moduloVF[0]->total;
+                            $MVFTotal = $moduloVF[0]->total;
                         }
                     }
                 }
