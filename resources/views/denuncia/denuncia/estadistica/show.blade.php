@@ -377,8 +377,8 @@
     }
     .h6 {
       font-size: 12px !important;
-      margin-bottom: 10px !important;
-      margin-top: 10px !important;
+      margin-bottom: 5px !important;
+      margin-top: 5px !important;
     }
 
     .pj {
@@ -404,7 +404,7 @@
       border-bottom-right-radius: 50px !important;
       -webkit-border-radius: 50px !important;
       -moz-border-radius: 50px !important;*/
-      margin: 30px auto 0 auto;
+      margin: 15px auto 0 auto;
       font-size: 25px;
       font-weight: bold;
       width: 70px;
@@ -414,6 +414,10 @@
       -webkit-border-radius: 35px;
       -moz-border-radius: 35px;
       border-radius: 35px;
+    }
+
+    .add {
+      margin: 5px auto 0 auto !important;
     }
 
     table.table-cell>thead>tr>th {
@@ -442,7 +446,7 @@
     ?>
     
     <div style="page-break-after: avoid; text-align: center; margin-top: 20px;">
-      <img src="{{base_path().'\public\img\pjlogo.png'}}" height="50px" width="50px" style="display: flex;">
+      <img src="{{base_path().'/public/img/pjlogo.png'}}" height="50px" width="50px" style="display: flex;">
       <h4 style="margin: 0px">MODULO DE VIOLENCIA FAMILIAR - {{Auth::user()->tblmodulo->nombre}}</h4>
       <h4 style="margin: 0px">PERIODO DE GESTION {{ ( isset($request['mes']) && !empty($request['mes']) ) ? $mes[$request['mes']-1]." - ".$request['anio'] : $request['anio'] }}</h4>
       @if ($request['graph'] == '1')
@@ -512,7 +516,8 @@
     @endif
 
     @if ($request['graph'] == '2')
-      <h3 class="tape" style="margin-bottom:0">Tiempo de Tramite</h3>
+    <br>
+      <h3 class="tape" style="margin-top: -1px; margin-bottom:0">Tiempo de Tramite</h3>
       <div class="table-responsive">
         <table class="table table-cell" style="width: 100%; font-size: 12px;">
           <thead>
@@ -538,7 +543,7 @@
                 @endif
               </td>
               <td>
-                <div class="signo center"><i class="fa fa-plus"></i></div>
+                <div class="signo center" style="font-size: 25px; font-weight: 700">+</div>
               </td>
               <td>
                   <h6 class="center h6">
@@ -549,7 +554,7 @@
                 @endif
               </td>
               <td>
-                <div class="signo center"><i class="fa fa-arrow-right"></i></div>
+                <div class="signo center" style="font-size: 25px; font-weight: 700">=</div>
               </td>
               <td>
                   <h6 class="center h6">
@@ -601,7 +606,7 @@
           </tbody>
         </table>
       </div>
-
+      <br>
       <h3 class="tape" style="margin-bottom:0">Carga laboral</h3>
       <div class="table-responsive">
         <table class="table table-cell" style="width: 100%; font-size: 12px;">
@@ -625,37 +630,37 @@
             <tr>
               <td>
                 @if (isset($request['ApTotal']) || $request['ApTotal'] == 0)
-                  <div class="circle adjust center red color_bl">{{ $request['ApTotal'] }}</div>
+                  <div class="circle adjust add center red color_bl">{{ $request['ApTotal'] }}</div>
                 @endif
               </td>
               <td>
                 @if (isset($request['AlTotal']) || $request['AlTotal'] == 0)
-                  <div class="circle adjust center red color_bl">{{  $request['AlTotal'] }}</div>
+                  <div class="circle adjust add center red color_bl">{{  $request['AlTotal'] }}</div>
                 @endif
               </td>
               <td>
                 @if (isset($request['DPTotal']) || $request['DPTotal'] == 0)
-                  <div class="circle adjust center green color_bl">{{  $request['DPTotal'] }}</div>
+                  <div class="circle adjust add center green color_bl">{{  $request['DPTotal'] }}</div>
                 @endif
               </td>
               <td>
                 @if (isset($request['AJTotal']) || $request['AJTotal'] == 0)
-                  <div class="circle adjust center pink color_bl">{{  $request['AJTotal'] }}</div>
+                  <div class="circle adjust add center pink color_bl">{{  $request['AJTotal'] }}</div>
                 @endif
               </td>
               <td>
                 @if (isset($request['F2Total']) || $request['F2Total'] == 0)
-                  <div class="circle adjust center orange color_bl">{{ $request['F2Total'] }}</div>
+                  <div class="circle adjust add center orange color_bl">{{ $request['F2Total'] }}</div>
                 @endif
               </td>
               <td>
                 @if (isset($request['F31Total']) || $request['F31Total'] == 0)
-                  <div class="circle adjust center pj color_bl">{{ $request['F31Total'] }}</div>
+                  <div class="circle adjust add center pj color_bl">{{ $request['F31Total'] }}</div>
                 @endif
               </td>
               <td>
                 @if (isset($request['F32Total']) || $request['F32Total'] == 0)
-                  <div class="circle adjust center pj color_bl">{{ $request['F32Total'] }}</div>
+                  <div class="circle adjust add center pj color_bl">{{ $request['F32Total'] }}</div>
                 @endif
               </td>
             </tr>
@@ -745,13 +750,13 @@
 
     @if ($request['graph'] == '4')
       <div class="div-table" style="margin-bottom: 20px;">
-        <div class="div-cell cell-6 nplr">
+        <div class="div-cell cell-6 nplr" style="border: 1px solid #000">
           <center><h3 class="headGraph color_bk">INGRESO DE DENUNCIAS LEY Nº 30364</h3></center>
-          <div><img class="img3" src="{{ $splitImg[0] }}" height="auto" width="100%"></div>
+          <center><div><img style="margin-top: -15px" class="img3" src="{{ $splitImg[0] }}" height="350px" width="80%"></div></center>
         </div>
-        <div class="div-cell cell-6 nplr">
+        <div class="div-cell cell-6 nplr" style="border: 1px solid #000">
           <center><h3 class="headGraph color_bk">TIEMPOS DE TRÁMITE DE DENUNCIAS LEY Nº 30364</h3></center>
-          <div><img class="img3" src="{{ $splitImg[1] }}" height="auto" width="100%"></div>
+          <center><div><img style="margin-top: -15px" class="img3" src="{{ $splitImg[1] }}" height="350px" width="80%"></div></center>
         </div>
       </div>
 

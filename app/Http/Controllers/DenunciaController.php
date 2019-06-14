@@ -1300,8 +1300,8 @@ class DenunciaController extends Controller
         $anios = new Denuncia();
 
         $anios = $anios->select(DB::raw("year(fformalizacion) as id, year(fformalizacion) as anio"))
-                     ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->orderBy('id','desc')->pluck('anio', 'id');
-
+                     ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->whereNotNull('fformalizacion')->orderBy('id','desc')->pluck('anio', 'id');
+                     
         $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int',0)->where('color','green')->orderBy('nombre')->pluck('nombre', 'id');
 
         $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)
@@ -1830,12 +1830,10 @@ class DenunciaController extends Controller
                         ]);
 
                 //  Tipos de Medida de Protección de Denuncias
-                $sqlMP = "SELECT distinct tblm.nombre, tblm.sigla, ifnull(count(d.tblmedida_id),0) as total
-                            from  tblmedida as tblm
-                            left join (
-                                select *  from denuncia as d
-                                where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
-                                AND extract(year FROM fformalizacion) = ".$request['anio']." ";
+                $sqlMP = "select distinct tm.id, tm.sigla, tm.nombre, count(dtm.denuncia_id) as total from tblmedida tm
+                    left join (
+                        select id, tblmedida_id, denuncia_id from denuncia_tblmedida where denuncia_id in ( select id from denuncia d where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.medida_file is not null and d.deleted_at is null
+                    AND extract(year FROM fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlMP .= " and month(d.fformalizacion)=".$request['mes']." ";
                 }
@@ -1846,8 +1844,9 @@ class DenunciaController extends Controller
                     $sqlMP .= " and d.tblcomisaria_id='".$request['tblcomisaria_id']."' ";
                 }
 
-                $sqlMP.= ") as d on d.tblmedida_id=tblm.id
-                        group by tblm.nombre order by tblm.id";
+                $sqlMP.= ")
+                    ) dtm on dtm.tblmedida_id=tm.id
+                    group by tm.id";
 
                 $medidaDen = DB::select(DB::raw($sqlMP));
 
@@ -2409,7 +2408,7 @@ class DenunciaController extends Controller
                         }
                         if ($_aux == 1) {
                             $celeridadArr['keys'][] = $mesesL[$i];
-                            $celeridadArr['values'][] = (double)$_total;
+                            $celeridadArr['values'][] = round((double)$_total, 2);
                         }else{
                             $celeridadArr['keys'][] = $mesesL[$i];
                             $celeridadArr['values'][] = null;
