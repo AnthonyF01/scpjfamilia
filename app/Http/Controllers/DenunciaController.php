@@ -1301,7 +1301,7 @@ class DenunciaController extends Controller
 
         $anios = $anios->select(DB::raw("year(fformalizacion) as id, year(fformalizacion) as anio"))
                      ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->whereNotNull('fformalizacion')->orderBy('id','desc')->pluck('anio', 'id');
-                     
+
         $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int',0)->where('color','green')->orderBy('nombre')->pluck('nombre', 'id');
 
         $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)
@@ -1867,6 +1867,27 @@ class DenunciaController extends Controller
                     $chartMP['maxHeight'] = $maxHeight;
                     $chartMP['anio'] = $request['anio'];
                 }
+
+                $_medidaDenArr = [];
+
+                for ($i=0; $i < count($medidaDenArr); $i++) {
+                    if (count($medidaDenArr) > 0) {
+                        $_medidaDenArr['keys'][] = $medidaDenArr[$i]['name'];
+                        $_medidaDenArr['values'][] = $medidaDenArr[$i]['y'];
+                    }else{
+                        $_medidaDenArr['keys'][] = $$medidaDenArr[$i]['name'];
+                        $_medidaDenArr['values'][] = null;
+                    }
+                }
+
+                $chartMPC = new ExampleChart;
+                $chartMPC->legendStyle(true)->displayYAxes(false)->displayXAxes(true,'black','15px')->displayLegend(false)->plotOpt(true, 'column');
+                $chartMPC->labels($_medidaDenArr['keys']);
+                $chartMPC->dataset('Total', 'column', $_medidaDenArr['values'])
+                         ->options([
+                            'color' => 'rgb(255,51,153)',
+                            'fontSize' => '20px',
+                         ]);
 
                 //  Distribución de carga por dependencias (comisarias e instituciones)
                $sqlDCD = "SELECT distinct tblc.nombre, tblc.sigla, ifnull(count(d.tblcomisaria_id),0) as total
@@ -2666,6 +2687,10 @@ class DenunciaController extends Controller
                     // array de ids de las graficas
                     $idChartArr[] = $chartCID->id;
                     $idChartArr[] = $chartTTC->id;
+                    $idChartArr[] = $chartV->id;
+                    // $idChartArr[] = $chartMPC->id;
+                    $idChartArr[] = 'graficoAnualMedida';
+                    $idChartArr[] = 'graficoAnualDependencia';
                     // $idChartArr[] = "ttramite";         // id del grafico generado manualmente
                     $idChartArr = json_encode($idChartArr);
                     return view('denuncia.denuncia.estadistica.estadistica', compact('anios','comisarias','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','DPTotal','chartCID','ApTotal','AlTotal','DPTotal','AJTotal','F2Total','F31Total','F32Total','MINTotal','idChartArr','request','graphGenerated','chartV','chartTTC','chartMP','chartDCD','ubicaciones','PNPTotal','MVFTotal','DRTotal','REMTotal','FASEIItotal','FASE31total','FASE32total'));
@@ -2708,7 +2733,6 @@ class DenunciaController extends Controller
                         $pdf = PDF::loadHTML($view);
                         $pdf->setPaper('A4', 'landscape');
                         return $pdf->stream();
-
                         break;
 
                     case '2':
@@ -2737,7 +2761,6 @@ class DenunciaController extends Controller
                         $pdf = PDF::loadHTML($view);
                         $pdf->setPaper('A4', 'landscape');
                         return $pdf->stream();
-
                         break;
 
                     case '4':
@@ -2752,7 +2775,6 @@ class DenunciaController extends Controller
                         $pdf = PDF::loadHTML($view);
                         $pdf->setPaper('A4', 'landscape');
                         return $pdf->stream();
-                        break;
                         break;
 
                     default:

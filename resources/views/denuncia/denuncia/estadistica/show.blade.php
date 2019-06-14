@@ -426,6 +426,10 @@
         padding: 3px !important;
     }
 
+    .page-break {
+        page-break-after: always;
+    }
+
 
   </style>
 
@@ -901,18 +905,22 @@
         </table>
       </div>
 
-      {{-- <div class="div-table" style="margin-bottom: 20px;">
+      <div class="page-break"></div>
+
+      {{-- graficas --}}
+
+      <div class="div-table" style="margin-bottom: 20px;">
         <div class="div-cell cell-6 nplr">
           <center><h3 class="headGraph color_bk">INGRESO DE DENUNCIAS LEY Nº 30364</h3></center>
-          <center><div><img style="margin-top: -15px" class="img3" src="{{ $splitImg[0] }}" height="325px" width="80%"></div></center>
+          <center><div><img class="img3" src="{{ $splitImg[0] }}" height="325px" width="80%"></div></center>
         </div>
         <div class="div-cell cell-6 nplr">
           <center><h3 class="headGraph color_bk">TIEMPOS DE TRÁMITE DE DENUNCIAS LEY Nº 30364</h3></center>
-          <center><div><img style="margin-top: -15px" class="img3" src="{{ $splitImg[1] }}" height="325px" width="80%"></div></center>
+          <center><div><img class="img3" src="{{ $splitImg[1] }}" height="325px" width="80%"></div></center>
         </div>
       </div>
 
-      <div class="both"></div>
+      {{-- <div class="both"></div>
 
       <hr style="margin:0px">
       <hr style="margin-bottom:0px; border-width: 2px">
@@ -975,6 +983,11 @@
           </div>
         </div>
       </div> --}}
+      <br>
+
+      <img class="img3" src="{{ $splitImg[2] }}" height="auto" width="200px">
+      <img class="img3" src="{{ $splitImg[3] }}" height="auto" width="600px">
+      <img class="img3" src="{{ $splitImg[4] }}" height="auto" width="600px">
 
     @endif
 
