@@ -2002,7 +2002,7 @@ class DenunciaController extends Controller
                         if (!isset($denunciaPL[0]->total) && empty($denunciaPL[0]->total)) {
                             $PNPTotal = 0;
                         }else{
-                            $PNPTotal = $denunciaPL[0]->total;
+                            $PNPTotal = (double)$denunciaPL[0]->promedio;
                         }
                     }
                 }
@@ -2048,7 +2048,7 @@ class DenunciaController extends Controller
                         if (!isset($moduloVF[0]->total) && empty($moduloVF[0]->total)) {
                             $MVFTotal = 0;
                         }else{
-                            $MVFTotal = $moduloVF[0]->total;
+                            $MVFTotal = (double)$moduloVF[0]->promedio;
                         }
                     }
                 }

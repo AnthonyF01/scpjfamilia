@@ -83,11 +83,24 @@ function ajaxLoadPDF(filename, array, token) {
     }
     if ($('input[name=graph4]:checked').length) {
         data.append('graph', 4);
-        data.append('PNPTotal',PNPTotal);
-        data.append('MVFTotal',MVFTotal);
         data.append('PSCEMTotal',PSCEMTotal);
         data.append('ALCEMTotal',ALCEMTotal);
         data.append('MINTotal',MINTotal);
+
+        data.append('ApTotal',ApTotal);
+        data.append('AlTotal',AlTotal);
+        data.append('DPTotal',DPTotal);
+        data.append('AJTotal',AJTotal);
+        data.append('PNPTotal',PNPTotal);
+        data.append('MVFTotal',MVFTotal);
+        data.append('DRTotal',DRTotal);
+        data.append('REMTotal',REMTotal);
+        data.append('F2Total',F2Total);
+        data.append('F31Total',F31Total);
+        data.append('F32Total',F32Total);
+        data.append('FASEIItotal',FASEIItotal);
+        data.append('FASE31total',FASE31total);
+        data.append('FASE32total',FASE32total);
     }
 
     data.append('_token',token);

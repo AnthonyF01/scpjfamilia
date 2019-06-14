@@ -869,22 +869,22 @@
                         <tbody>
                           <tr>
                             <td>
-                              @if (isset($PNPTotalAnual))
+                              @if (isset($PNPTotal))
                                 <h6 class="center">
                                   <strong>PNP</strong>
                                 </h6>
-                                <div class="circle adjust center green color_bl">{{ round($PNPTotalAnual,1) }}</div>
+                                <div class="circle adjust center green color_bl">{{ round($PNPTotal,1) }}</div>
                               @endif
                             </td>
                             <td>
                               <div class="signo center"><i class="fa fa-plus"></i></div>
                             </td>
                             <td>
-                              @if (isset($MVFTotalAnual))
+                              @if (isset($MVFTotal))
                                 <h6 class="center">
                                   <strong>Módulo VF</strong>
                                 </h6>
-                                <div class="circle adjust center pink color_bl">{{ round($MVFTotalAnual,1) }}</div>
+                                <div class="circle adjust center pink color_bl">{{ round($MVFTotal,1) }}</div>
                               @endif
                             </td>
                             <td>
@@ -1556,11 +1556,27 @@
         var pATotal = '{{ ( isset($pATotal) && !empty($pATotal)) ? $pATotal : 0 }}';
     }
     if ($('input[name=graph4]:checked').length) {
-        var PNPTotal = '{{ ( isset($PNPTotalAnual) && !empty($PNPTotalAnual)) ? $PNPTotalAnual : 0 }}';
-        var MVFTotal = '{{ ( isset($MVFTotal) && !empty($MVFTotal)) ? $MVFTotal : 0 }}';
         var PSCEMTotal = '{{ ( isset($PSCEMTotal) && !empty($PSCEMTotal)) ? $PSCEMTotal : 0 }}';
         var ALCEMTotal = '{{ ( isset($ALCEMTotal) && !empty($ALCEMTotal)) ? $ALCEMTotal : 0 }}';
         var MINTotal = '{{ ( isset($MINTotal) && !empty($MINTotal)) ? $MINTotal : 0 }}';
+
+        var ApTotal = '{{ ( isset($ApTotal) && !empty($ApTotal)) ? $ApTotal : 0 }}';
+        var AlTotal = '{{ ( isset($AlTotal) && !empty($AlTotal)) ? $AlTotal : 0 }}';
+        var DPTotal = '{{ ( isset($DPTotal) && !empty($DPTotal)) ? $DPTotal : 0 }}';
+        var AJTotal = '{{ ( isset($AJTotal) && !empty($AJTotal)) ? $AJTotal : 0 }}';
+        var PNPTotal = '{{ ( isset($PNPTotal) && !empty($PNPTotal)) ? $PNPTotal : 0 }}';
+        var MVFTotal = '{{ ( isset($MVFTotal) && !empty($MVFTotal)) ? $MVFTotal : 0 }}';
+        var DRTotal = '{{ ( isset($DRTotal) && !empty($DRTotal)) ? $DRTotal : 0 }}';
+        var REMTotal = '{{ ( isset($REMTotal) && !empty($REMTotal)) ? $REMTotal : 0 }}';
+
+        // ultimas modificaciones - henry
+        var FASEIItotal = '{{ ( isset($FASEIItotal) && !empty($FASEIItotal)) ? $FASEIItotal : 0 }}';
+        var FASE31total = '{{ ( isset($FASE31total) && !empty($FASE31total)) ? $FASE31total : 0 }}';
+        var FASE32total = '{{ ( isset($FASE32total) && !empty($FASE32total)) ? $FASE32total : 0 }}';
+        
+        var F2Total = '{{ ( isset($F2Total) && !empty($F2Total)) ? $F2Total : 0 }}';
+        var F31Total = '{{ ( isset($F31Total) && !empty($F31Total)) ? $F31Total : 0 }}';
+        var F32Total = '{{ ( isset($F32Total) && !empty($F32Total)) ? $F32Total : 0 }}';
     }
 
     window.imgArr = [];
