@@ -791,7 +791,6 @@
                       <div class="row">
                         <div class="col-sm-4" style="border-right: 1px solid #ccc">
                           @if (isset($chartV) && !empty($chartV))
-
                             <h4 class="center" style="z-index: 1;position: absolute;top: 0px;width: 100%;">
                               <strong>Valoración Denuncia</strong>
                             </h4>
@@ -803,6 +802,10 @@
 
                         <div class="col-sm-8">
                           @if (isset($chartMP) && !empty($chartMP))
+                            <h4 class="center" style="z-index: 1;position: absolute;top: 0px;width: 100%;">
+                              <strong>Carga de Medidas de Protección</strong>
+                            </h4>
+                            <div style="margin-top: 10px;"></div>
                             <div id="graficoMensualMedida" style="min-width: 100%; max-width: 100%; height: auto; margin: 0 auto;">
                             </div>
                           @endif
@@ -1021,7 +1024,6 @@
                       <div class="row">
                         <div class="col-sm-4" style="border-right: 1px solid #ccc">
                           @if (isset($chartV) && !empty($chartV))
-
                             <h4 class="center" style="z-index: 1;position: absolute;top: 0px;width: 100%;">
                               <strong>Valoración Denuncia</strong>
                             </h4>
@@ -1033,6 +1035,10 @@
 
                         <div class="col-sm-8">
                           @if (isset($chartMP) && !empty($chartMP))
+                            <h4 class="center" style="z-index: 1;position: absolute;top: 0px;width: 100%;">
+                              <strong>Carga de Medidas de Protección</strong>
+                            </h4>
+                            <div style="margin-top: 10px;"></div>
                             <div id="graficoAnualMedida" style="min-width: 100%; max-width: 100%; height: auto; margin: 0 auto;">
                             </div>
                           @endif
@@ -1113,6 +1119,7 @@
 
           @if (isset($ubicaciones) && !empty($ubicaciones))
             function initMap() {
+              debugger
               var jsonMAP={!! json_encode($ubicaciones) !!}
 
               // Posición
@@ -1189,7 +1196,8 @@
                       type: 'column'
                   },
                   title: {
-                      text: graficoID == 'graficoAnualMedida' ? ('<strong>Carga Medidas de Protección por Año ' + objectJSON.anio+'</strong>') : (graficoID == 'graficoMensualMedida' ? '<strong>Carga Medidas de Protección Mensual ' : '')
+                      // text: graficoID == 'graficoAnualMedida' ? ('<strong>Carga Medidas de Protección por Año ' + objectJSON.anio+'</strong>') : (graficoID == 'graficoMensualMedida' ? '<strong>Carga Medidas de Protección Mensual ' : '')
+                      text: null
                   },
                   xAxis: {
                       type: 'category'
@@ -1199,7 +1207,7 @@
                   },
                   yAxis: {
                       min: 0,
-                      max: maxHeight*1.3,
+                      max: maxHeight*1.1,
                       title: {
                           text: graficoID == 'graficoAnualMedida' ? 'Eje (Y) - Medidas de Protección' : ''
                       },

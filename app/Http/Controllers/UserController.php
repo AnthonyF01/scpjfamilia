@@ -428,4 +428,13 @@ class UserController extends Controller
             'info' => 'Usuario eliminado correctamente.',
         ]);
     }
+
+    public function geolocalizacion(Request $request,$id)
+    {
+        $user = User::find($id);
+        $user->lat=$request->lat;
+        $user->lng=$request->lng;
+        $user->save();
+        return $user;
+    }
 }

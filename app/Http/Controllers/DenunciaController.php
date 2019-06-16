@@ -415,7 +415,7 @@ class DenunciaController extends Controller
         $anios = new Denuncia();
 
         $anios = $anios->select(DB::raw("year(fformalizacion) as id, year(fformalizacion) as anio"))
-                     ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->orderBy('id','desc')->pluck('anio', 'id');
+                     ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->whereNotNull('fformalizacion')->orderBy('id','desc')->pluck('anio', 'id');
 
         if ($request->ajax()) {
           return view('denuncia.denuncia.ajax', compact('denuncias','comisarias','instancias','anios'));
@@ -639,9 +639,9 @@ class DenunciaController extends Controller
         $anios = new Denuncia();
 
         $anios = $anios->select(DB::raw("year(fformalizacion) as id, year(fformalizacion) as anio"))
-                     ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->orderBy('id','desc')->pluck('anio', 'id');
+                     ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->whereNotNull('fformalizacion')->orderBy('id','desc')->pluck('anio', 'id');
 
-        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
+        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int',0)->where('color','green')->orderBy('nombre')->pluck('nombre', 'id');
 
         // $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
 
@@ -2416,6 +2416,7 @@ class DenunciaController extends Controller
                 $mesesL = array('ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC');
 
                 $celeridadArr = [];
+                $heightTTCArr = [];
 
                 for ($i=0; $i < count($meses); $i++) {
                     if (count($celeridad) > 0) {
@@ -2430,6 +2431,7 @@ class DenunciaController extends Controller
                         if ($_aux == 1) {
                             $celeridadArr['keys'][] = $mesesL[$i];
                             $celeridadArr['values'][] = round((double)$_total, 2);
+                            $heightTTCArr[] = round((double)$_total, 2);
                         }else{
                             $celeridadArr['keys'][] = $mesesL[$i];
                             $celeridadArr['values'][] = null;
@@ -2440,8 +2442,10 @@ class DenunciaController extends Controller
                     }
                 }
 
+                $maxHeightTTC = max($heightTTCArr)*1.1;
+
                 $chartTTC = new ExampleChart;
-                $chartTTC->legendStyle(true)->displayYAxes(false)->displayXAxes(true,'black','15px')->displayLegend(false)->plotOpt(true, 'column');
+                $chartTTC->legendStyle(true)->displayYAxes(false)->heightYAxis($maxHeightTTC)->displayXAxes(true,'black','15px')->displayLegend(false)->plotOpt(true, 'column');
                 $chartTTC->labels($celeridadArr['keys']);
                 $chartTTC->dataset('Total', 'column', $celeridadArr['values'])
                          ->options([

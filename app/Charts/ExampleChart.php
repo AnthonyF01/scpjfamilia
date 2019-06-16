@@ -84,6 +84,15 @@ class ExampleChart extends Chart
         ]);
     }
 
+    public function heightYAxis(int $max)
+    {
+        return $this->options([
+            'yAxis' => [
+                'max' => $max,
+            ],
+        ]);
+    }
+
     public function plotOpt(bool $var, string $type)
     {
         if ($type == 'line') {

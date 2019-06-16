@@ -912,11 +912,22 @@
       <div class="div-table" style="margin-bottom: 20px;">
         <div class="div-cell cell-6 nplr">
           <center><h3 class="headGraph color_bk">INGRESO DE DENUNCIAS LEY Nº 30364</h3></center>
-          <center><div><img class="img3" src="{{ $splitImg[0] }}" height="325px" width="80%"></div></center>
+          <center><div><img style="border: 1px solid #ccc" class="img3" src="{{ $splitImg[0] }}" height="auto" width="80%"></div></center>
         </div>
         <div class="div-cell cell-6 nplr">
           <center><h3 class="headGraph color_bk">TIEMPOS DE TRÁMITE DE DENUNCIAS LEY Nº 30364</h3></center>
-          <center><div><img class="img3" src="{{ $splitImg[1] }}" height="325px" width="80%"></div></center>
+          <center><div><img style="border: 1px solid #ccc" class="img3" src="{{ $splitImg[1] }}" height="auto" width="80%"></div></center>
+        </div>
+      </div>
+
+      <div class="div-table" style="margin-bottom: 20px;">
+        <div class="div-cell cell-6 nplr">
+          <center><h3 class="headGraph color_bk">Valoracion Denuncia</h3></center>
+          <center><div><img style="border: 1px solid #ccc" class="img3" src="{{ $splitImg[2] }}" height="auto" width="200px"></div></center>
+        </div>
+        <div class="div-cell cell-6 nplr">
+          <center><h3 class="headGraph color_bk">Carga de Medidas de Protección</h3></center>
+          <center><div><img style="border: 1px solid #ccc" class="img3" src="{{ $splitImg[3] }}" height="auto" width="400px"></div></center>
         </div>
       </div>
 
@@ -985,9 +996,9 @@
       </div> --}}
       <br>
 
-      <img class="img3" src="{{ $splitImg[2] }}" height="auto" width="200px">
-      <img class="img3" src="{{ $splitImg[3] }}" height="auto" width="600px">
-      <img class="img3" src="{{ $splitImg[4] }}" height="auto" width="600px">
+      
+      
+      <img style="border: 1px solid #ccc" class="img3" src="{{ $splitImg[4] }}" height="auto" width="600px">
 
     @endif
 
