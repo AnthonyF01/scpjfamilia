@@ -1792,9 +1792,9 @@ class DenunciaController extends Controller
                $F32Total = $fase32[0]->total;
 
                 //  Valoración de Denuncias
-                $sqlV = "SELECT distinct tbld.nombre, ifnull(count(d.tbldenuncia_id),0) as total
+                $sqlV = "SELECT distinct tbld.nombre, (case when tbld.nombre = 'Leve' then 'LEV' when tbld.nombre = 'Moderado' then 'MOD' when tbld.nombre = 'Severo' then 'SEV' end) as sigla, ifnull(count(d.tbldenuncia_id),0) as total
                             from  tbldenuncia as tbld
-                            left join (
+                                left join (
                                 select *  from denuncia as d
                                 where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
                                 AND extract(year FROM fformalizacion) = ".$request['anio']." ";
@@ -1816,12 +1816,12 @@ class DenunciaController extends Controller
                 $valoracionDenArr = [];
 
                 for ($i=0; $i < count($valoracionDen); $i++) {
-                    $valoracionDenArr['keys'][] = $valoracionDen[$i]->nombre;
+                    $valoracionDenArr['keys'][] = $valoracionDen[$i]->sigla;
                     $valoracionDenArr['values'][] = $valoracionDen[$i]->total;
                 }
 
                 $chartV = new ExampleChart;
-                $chartV->displayYAxes(false)->displayXAxes(true,'#000000','11px')->displayLegend(false)->plotOpt(true, 'column');
+                $chartV->heightChart(300)->displayYAxes(false)->displayXAxes(true,'#000000','11px')->displayLegend(false)->plotOpt(true, 'column');
                 $chartV->labels($valoracionDenArr['keys']);
                 $chartV->dataset('Total', 'column', $valoracionDenArr['values'])
                         ->options([
@@ -2354,9 +2354,11 @@ class DenunciaController extends Controller
                 $ingreso = DB::select(DB::raw($sqlCID));
 
                 $meses = array(1,2,3,4,5,6,7,8,9,10,11,12);
-                $mesesL = array('ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC');
+                // $mesesL = array('ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC');
+                $mesesL = array('EN','FE','MA','AB','MY','JN','JL','AG','SE','OC','NO','DI');
 
                 $ingresoArr = [];
+                $heightCIDArr = [];
 
                 for ($i=0; $i < count($meses); $i++) {
                     if (count($ingreso) > 0) {
@@ -2371,6 +2373,7 @@ class DenunciaController extends Controller
                         if ($_aux == 1) {
                             $ingresoArr['keys'][] = $mesesL[$i];
                             $ingresoArr['values'][] = (int)$_total;
+                            $heightCIDArr[] = (int)$_total;
                         }else{
                             $ingresoArr['keys'][] = $mesesL[$i];
                             $ingresoArr['values'][] = null;
@@ -2381,8 +2384,10 @@ class DenunciaController extends Controller
                     }
                 }
 
+                $maxHeightCID = max($heightCIDArr)*1.1;
+
                 $chartCID = new ExampleChart;
-                $chartCID->legendStyle(true)->displayYAxes(false)->displayXAxes(true,'black','15px')->displayLegend(false)->plotOpt(true, 'line');
+                $chartCID->legendStyle(true)->displayYAxes(false)->heightYAxis($maxHeightCID)->displayXAxes(true,'black','15px')->displayLegend(false)->plotOpt(true, 'line');
                 $chartCID->labels($ingresoArr['keys']);
                 $chartCID->dataset('Total', 'line', $ingresoArr['values']);
 
@@ -2413,7 +2418,8 @@ class DenunciaController extends Controller
                 $celeridad = DB::select(DB::raw($sqlTTC));
 
                 $meses = array(1,2,3,4,5,6,7,8,9,10,11,12);
-                $mesesL = array('ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC');
+                // $mesesL = array('ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC');
+                $mesesL = array('EN','FE','MA','AB','MY','JN','JL','AG','SE','OC','NO','DI');
 
                 $celeridadArr = [];
                 $heightTTCArr = [];

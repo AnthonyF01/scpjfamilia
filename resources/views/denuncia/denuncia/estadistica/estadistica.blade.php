@@ -789,7 +789,7 @@
                     </div>
                     <div class="panel-body">
                       <div class="row">
-                        <div class="col-sm-4" style="border-right: 1px solid #ccc">
+                        <div class="col-sm-3" style="margin-bottom: -100px">
                           @if (isset($chartV) && !empty($chartV))
                             <h4 class="center" style="z-index: 1;position: absolute;top: 0px;width: 100%;">
                               <strong>Valoración Denuncia</strong>
@@ -800,7 +800,7 @@
                           @endif
                         </div>
 
-                        <div class="col-sm-8">
+                        <div class="col-sm-9" style="border-right: 1px solid #ccc">
                           @if (isset($chartMP) && !empty($chartMP))
                             <h4 class="center" style="z-index: 1;position: absolute;top: 0px;width: 100%;">
                               <strong>Carga de Medidas de Protección</strong>
@@ -1022,7 +1022,7 @@
                     </div>
                     <div class="panel-body">
                       <div class="row">
-                        <div class="col-sm-4" style="border-right: 1px solid #ccc">
+                        <div class="col-sm-3" style="margin-bottom: -100px">
                           @if (isset($chartV) && !empty($chartV))
                             <h4 class="center" style="z-index: 1;position: absolute;top: 0px;width: 100%;">
                               <strong>Valoración Denuncia</strong>
@@ -1033,7 +1033,7 @@
                           @endif
                         </div>
 
-                        <div class="col-sm-8">
+                        <div class="col-sm-9" style="border-left: 1px solid #ccc">
                           @if (isset($chartMP) && !empty($chartMP))
                             <h4 class="center" style="z-index: 1;position: absolute;top: 0px;width: 100%;">
                               <strong>Carga de Medidas de Protección</strong>
@@ -1068,7 +1068,7 @@
                   <div class="panel panel-info">
                     <div class="panel-heading" align="center">
                       <span style="font-size: 16px">
-                        <strong>Mapa de las Instituciones e Comisarías</strong>
+                        <strong>Mapa de las Instituciones y Comisarías</strong>
                       </span>
                     </div>
                     <div class="panel-body">
@@ -1193,6 +1193,7 @@
               graficoAnual = new Highcharts.Chart({
                   chart: {
                       renderTo: graficoID,
+                      height: 300,
                       type: 'column'
                   },
                   title: {

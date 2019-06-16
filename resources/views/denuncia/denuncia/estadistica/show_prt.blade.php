@@ -789,7 +789,7 @@
 
     @if ($request['graph'] == '4')
 
-      <h3 class="tape" style="margin-top: -1px; margin-bottom:0">Tiempo de Tramite</h3>
+      {{-- <h3 class="tape" style="margin-top: -1px; margin-bottom:0">Tiempo de Tramite</h3>
       <div class="table-responsive">
         <table class="table table-cell" style="width: 100%; font-size: 12px;">
           <thead>
@@ -940,28 +940,20 @@
         </table>
       </div>
 
-      <div class="page-break"></div>
+      <div class="page-break"></div> --}}
 
       {{-- graficas --}}
 
       <div class="div-table" style="margin-bottom: 20px;">
-        <div class="div-cell cell-4 nplr" style="margin-left: 10px">
+        <div class="div-cell cell-4 nplr" style="border: 1px solid #ccc">
           <center><h4 class="headGraph color_bk">INGRESO DE DENUNCIAS LEY Nº 30364</h4></center>
-          <center><div><img style="" class="img3" src="{{ $splitImg[0] }}" height="230px" width="100%"></div></center>
+          <center><div><img style="border: 1px solid #ccc" class="img3" src="{{ $splitImg[0] }}" height="230px" width="100%"></div></center>
           <center><h4 style="margin-top: 10px" class="headGraph color_bk">TIEMPOS DE TRÁMITE DE DENUNCIAS LEY Nº 30364</h4></center>
-          <center><div><img style="" class="img3" src="{{ $splitImg[1] }}" height="230px" width="100%"></div></center>
+          <center><div><img style="border: 1px solid #ccc" class="img3" src="{{ $splitImg[1] }}" height="230px" width="100%"></div></center>
         </div>
-        <div class="div-cell cell-8 nplr" style="">
-          <div class="div-table" style="margin-bottom: 20px;">
-            <div class="div-cell cell-3 nplr">
-              <center><h3 class="headGraph color_bk">Valoración Denuncia</h3></center>
-              <center><div><img style="" class="img3" src="{{ $splitImg[2] }}" height="230px" width="100%"></div></center>
-            </div>
-            <div class="div-cell cell-9 nplr">
-              <center><h3 class="headGraph color_bk">Carga de Medidas de Protección</h3></center>
-              <center><div><img style="" class="img3" src="{{ $splitImg[3] }}" height="230px" width="100%"></div></center>
-            </div>
-          </div>
+        <div class="div-cell cell-8 nplr">
+          <center><h3 class="headGraph color_bk">Carga de Medidas de Protección</h3></center>
+          <center><div><img style="border: 1px solid #ccc" class="img3" src="{{ $splitImg[3] }}" height="230px" width="auto"></div></center>
         </div>
       </div>
 
@@ -975,8 +967,6 @@
           <center><div><img style="border: 1px solid #ccc" class="img3" src="{{ $splitImg[3] }}" height="auto" width="400px"></div></center>
         </div>
       </div> --}}
-
-
 
       {{-- <div class="both"></div>
 
