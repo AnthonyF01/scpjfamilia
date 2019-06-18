@@ -25,6 +25,7 @@ class DatabaseSeeder extends Seeder
         $this->call(TbldenunciaTableSeeder::class);
         $this->call(TblmedidaTableSeeder::class);
         $this->call(TbldpenalTableSeeder::class);
+        $this->call(TblviolenciaTableSeeder::class);
         $this->call(UsersTableSeeder::class);
         $this->call(PermissionsTableSeeder::class);
         $this->call(RolesTableSeeder::class);
@@ -44,11 +45,11 @@ class DatabaseSeeder extends Seeder
         // $this->call(DenunciaTableSeeder::class);
         // $this->call(DenunciaVictimaTableSeeder::class);
         // $this->call(DenunciaAgresorTableSeeder::class);
-        $this->call(TblviolenciaTableSeeder::class);
+        
         $this->call(DenunciaTblviolenciaTableSeeder::class);
         $this->call(DenunciaTblmedidaTableSeeder::class);
+        // $this->call(DenunciaTbldenunciaTableSeeder::class);
         $this->call(DocumentoTableSeeder::class);
-        $this->call(DenunciaTbldenunciaTableSeeder::class);
         $this->call(PermissionUserTableSeeder::class);
     }
 }
