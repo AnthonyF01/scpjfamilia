@@ -34,7 +34,7 @@ class RolesTableSeeder extends Seeder
                 'slug' => 'adminmodulo',
                 'description' => 'Administrador de Modulo',
                 'created_at' => '2019-02-06 19:13:41',
-                'updated_at' => '2019-03-17 22:29:12',
+                'updated_at' => '2019-06-04 15:12:40',
                 'special' => NULL,
             ),
             2 => 
@@ -54,7 +54,7 @@ class RolesTableSeeder extends Seeder
                 'slug' => 'asistente',
                 'description' => 'Asistente',
                 'created_at' => '2019-04-23 08:09:23',
-                'updated_at' => '2019-04-23 08:21:19',
+                'updated_at' => '2019-06-04 15:12:56',
                 'special' => NULL,
             ),
         ));
