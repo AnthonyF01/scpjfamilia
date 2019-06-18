@@ -50,6 +50,6 @@ class DatabaseSeeder extends Seeder
         $this->call(DenunciaTblmedidaTableSeeder::class);
         // $this->call(DenunciaTbldenunciaTableSeeder::class);
         $this->call(DocumentoTableSeeder::class);
-        $this->call(PermissionUserTableSeeder::class);
+        // $this->call(PermissionUserTableSeeder::class);
     }
 }
