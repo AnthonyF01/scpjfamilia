@@ -58135,6 +58135,40 @@ class AgresorTableSeeder extends Seeder
                 'updated_at' => '2019-06-17 16:10:34',
                 'deleted_at' => NULL,
             ),
+            418 => 
+            array (
+                'id' => 3419,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1319,
+                'nombre' => 'WALTER RUBÉN',
+                'apellido' => 'RAMIREZ MAMANI.',
+                'tbldocumento_id' => 2,
+                'nro_doc' => '05060807',
+                'sexo' => 'Masculino',
+                'telefono' => NULL,
+                'direccion' => 'A.H EL GOLF DE SANTA ROSA - SANTA ROSA',
+                'created_at' => '2019-06-17 21:08:10',
+                'updated_at' => '2019-06-17 21:08:10',
+                'deleted_at' => NULL,
+            ),
+            419 => 
+            array (
+                'id' => 3420,
+                'tbldepartamento_id' => 15,
+                'tblprovincia_id' => 128,
+                'tbldistrito_id' => 1323,
+                'nombre' => 'JUAN CARLOS',
+                'apellido' => 'QUIROZ ROMERO',
+                'tbldocumento_id' => 2,
+                'nro_doc' => 'kInoFIVS1B1560825133047',
+                'sexo' => 'Masculino',
+                'telefono' => NULL,
+                'direccion' => 'CALLE GENERAL 2QA-07 P.JOVEN TABLADA DE LURIN',
+                'created_at' => '2019-06-17 21:28:36',
+                'updated_at' => '2019-06-17 21:28:36',
+                'deleted_at' => NULL,
+            ),
         ));
         
         

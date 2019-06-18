@@ -33214,6 +33214,33 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'updated_at' => '2019-06-17 18:35:10',
                 'deleted_at' => NULL,
             ),
+            187 => 
+            array (
+                'id' => 3688,
+                'denuncia_id' => 3441,
+                'victima_id' => 3264,
+                'created_at' => '2019-06-17 21:05:05',
+                'updated_at' => '2019-06-17 21:05:05',
+                'deleted_at' => NULL,
+            ),
+            188 => 
+            array (
+                'id' => 3689,
+                'denuncia_id' => 3442,
+                'victima_id' => 3263,
+                'created_at' => '2019-06-17 21:14:24',
+                'updated_at' => '2019-06-17 21:14:24',
+                'deleted_at' => NULL,
+            ),
+            189 => 
+            array (
+                'id' => 3690,
+                'denuncia_id' => 3442,
+                'victima_id' => 3265,
+                'created_at' => '2019-06-17 21:18:16',
+                'updated_at' => '2019-06-17 21:18:16',
+                'deleted_at' => NULL,
+            ),
         ));
         
         

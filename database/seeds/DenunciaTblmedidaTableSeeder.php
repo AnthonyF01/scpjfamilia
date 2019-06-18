@@ -16259,6 +16259,60 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
+            304 => 
+            array (
+                'id' => 1809,
+                'denuncia_id' => 3113,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            305 => 
+            array (
+                'id' => 1810,
+                'denuncia_id' => 3441,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            306 => 
+            array (
+                'id' => 1811,
+                'denuncia_id' => 3441,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            307 => 
+            array (
+                'id' => 1812,
+                'denuncia_id' => 3442,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            308 => 
+            array (
+                'id' => 1813,
+                'denuncia_id' => 3442,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            309 => 
+            array (
+                'id' => 1814,
+                'denuncia_id' => 2960,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
         ));
         
         

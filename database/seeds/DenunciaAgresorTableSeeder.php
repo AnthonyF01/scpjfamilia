@@ -38181,6 +38181,26 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'updated_at' => '2019-06-17 17:07:36',
                 'deleted_at' => NULL,
             ),
+            315 => 
+            array (
+                'id' => 3816,
+                'denuncia_id' => 3441,
+                'agresor_id' => 3419,
+                'tblparentesco_id' => 2,
+                'created_at' => '2019-06-17 21:08:38',
+                'updated_at' => '2019-06-17 21:08:38',
+                'deleted_at' => NULL,
+            ),
+            316 => 
+            array (
+                'id' => 3817,
+                'denuncia_id' => 3442,
+                'agresor_id' => 3420,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-06-17 21:28:47',
+                'updated_at' => '2019-06-17 21:28:47',
+                'deleted_at' => NULL,
+            ),
         ));
         
         

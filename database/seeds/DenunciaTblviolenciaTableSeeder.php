@@ -16277,6 +16277,42 @@ class DenunciaTblviolenciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
+            306 => 
+            array (
+                'id' => 1811,
+                'denuncia_id' => 3113,
+                'tblviolencia_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            307 => 
+            array (
+                'id' => 1812,
+                'denuncia_id' => 3113,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            308 => 
+            array (
+                'id' => 1813,
+                'denuncia_id' => 3441,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            309 => 
+            array (
+                'id' => 1814,
+                'denuncia_id' => 3442,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
         ));
         
         
