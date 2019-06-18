@@ -16313,6 +16313,186 @@ class DenunciaTblviolenciaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
+            310 => 
+            array (
+                'id' => 1815,
+                'denuncia_id' => 3443,
+                'tblviolencia_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            311 => 
+            array (
+                'id' => 1816,
+                'denuncia_id' => 3444,
+                'tblviolencia_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            312 => 
+            array (
+                'id' => 1817,
+                'denuncia_id' => 1528,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            313 => 
+            array (
+                'id' => 1818,
+                'denuncia_id' => 3445,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            314 => 
+            array (
+                'id' => 1819,
+                'denuncia_id' => 3446,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            315 => 
+            array (
+                'id' => 1820,
+                'denuncia_id' => 3447,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            316 => 
+            array (
+                'id' => 1821,
+                'denuncia_id' => 3448,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            317 => 
+            array (
+                'id' => 1822,
+                'denuncia_id' => 3449,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            318 => 
+            array (
+                'id' => 1823,
+                'denuncia_id' => 1532,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            319 => 
+            array (
+                'id' => 1824,
+                'denuncia_id' => 1629,
+                'tblviolencia_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            320 => 
+            array (
+                'id' => 1825,
+                'denuncia_id' => 1744,
+                'tblviolencia_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            321 => 
+            array (
+                'id' => 1826,
+                'denuncia_id' => 1693,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            322 => 
+            array (
+                'id' => 1827,
+                'denuncia_id' => 1582,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            323 => 
+            array (
+                'id' => 1828,
+                'denuncia_id' => 1621,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            324 => 
+            array (
+                'id' => 1829,
+                'denuncia_id' => 3450,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            325 => 
+            array (
+                'id' => 1830,
+                'denuncia_id' => 1625,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            326 => 
+            array (
+                'id' => 1831,
+                'denuncia_id' => 3451,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            327 => 
+            array (
+                'id' => 1832,
+                'denuncia_id' => 3452,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            328 => 
+            array (
+                'id' => 1833,
+                'denuncia_id' => 3453,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            329 => 
+            array (
+                'id' => 1834,
+                'denuncia_id' => 1677,
+                'tblviolencia_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
         ));
         
         

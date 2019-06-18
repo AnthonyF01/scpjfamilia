@@ -11502,8 +11502,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1303,
                 'victima_id' => 1276,
                 'created_at' => '2019-03-08 06:13:05',
-                'updated_at' => '2019-03-08 06:13:05',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 08:39:59',
+                'deleted_at' => '2019-06-18 08:39:59',
             ),
             276 => 
             array (
@@ -11538,8 +11538,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1307,
                 'victima_id' => 1280,
                 'created_at' => '2019-03-08 06:13:05',
-                'updated_at' => '2019-03-08 06:13:05',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:08:57',
+                'deleted_at' => '2019-06-18 12:08:57',
             ),
             280 => 
             array (
@@ -11583,8 +11583,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1312,
                 'victima_id' => 1285,
                 'created_at' => '2019-03-08 06:13:05',
-                'updated_at' => '2019-03-08 06:13:05',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:01:56',
+                'deleted_at' => '2019-06-18 12:01:56',
             ),
             285 => 
             array (
@@ -11646,8 +11646,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1319,
                 'victima_id' => 1292,
                 'created_at' => '2019-03-08 06:13:05',
-                'updated_at' => '2019-03-08 06:13:05',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:04:32',
+                'deleted_at' => '2019-06-18 12:04:32',
             ),
             292 => 
             array (
@@ -11727,8 +11727,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1326,
                 'victima_id' => 1301,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:05:52',
+                'deleted_at' => '2019-06-18 12:05:52',
             ),
             301 => 
             array (
@@ -11790,8 +11790,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1333,
                 'victima_id' => 1308,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:09:20',
+                'deleted_at' => '2019-06-18 12:09:20',
             ),
             308 => 
             array (
@@ -11835,8 +11835,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1340,
                 'victima_id' => 1312,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:11:18',
+                'deleted_at' => '2019-06-18 12:11:18',
             ),
             313 => 
             array (
@@ -11880,8 +11880,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1346,
                 'victima_id' => 1317,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:11:48',
+                'deleted_at' => '2019-06-18 12:11:48',
             ),
             318 => 
             array (
@@ -11889,8 +11889,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1346,
                 'victima_id' => 1318,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:11:48',
+                'deleted_at' => '2019-06-18 12:11:48',
             ),
             319 => 
             array (
@@ -11943,8 +11943,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1352,
                 'victima_id' => 1324,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 13:01:33',
+                'deleted_at' => '2019-06-18 13:01:33',
             ),
             325 => 
             array (
@@ -11952,8 +11952,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1353,
                 'victima_id' => 1325,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 13:01:39',
+                'deleted_at' => '2019-06-18 13:01:39',
             ),
             326 => 
             array (
@@ -11997,8 +11997,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1358,
                 'victima_id' => 1330,
                 'created_at' => '2019-03-08 06:13:07',
-                'updated_at' => '2019-03-08 06:13:07',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:19:50',
+                'deleted_at' => '2019-06-18 12:19:50',
             ),
             331 => 
             array (
@@ -12042,8 +12042,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1363,
                 'victima_id' => 1335,
                 'created_at' => '2019-03-08 06:13:07',
-                'updated_at' => '2019-03-08 06:13:07',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:20:16',
+                'deleted_at' => '2019-06-18 12:20:16',
             ),
             336 => 
             array (
@@ -12105,8 +12105,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1370,
                 'victima_id' => 1342,
                 'created_at' => '2019-03-08 06:13:07',
-                'updated_at' => '2019-03-08 06:13:07',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:20:28',
+                'deleted_at' => '2019-06-18 12:20:28',
             ),
             343 => 
             array (
@@ -12150,8 +12150,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1375,
                 'victima_id' => 1347,
                 'created_at' => '2019-03-08 06:13:07',
-                'updated_at' => '2019-03-08 06:13:07',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:21:21',
+                'deleted_at' => '2019-06-18 12:21:21',
             ),
             348 => 
             array (
@@ -12186,8 +12186,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1380,
                 'victima_id' => 1351,
                 'created_at' => '2019-03-08 06:13:07',
-                'updated_at' => '2019-03-08 06:13:07',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:30:40',
+                'deleted_at' => '2019-06-18 12:30:40',
             ),
             352 => 
             array (
@@ -12231,8 +12231,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1385,
                 'victima_id' => 1356,
                 'created_at' => '2019-03-08 06:13:07',
-                'updated_at' => '2019-03-08 06:13:07',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:31:22',
+                'deleted_at' => '2019-06-18 12:31:22',
             ),
             357 => 
             array (
@@ -12276,8 +12276,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1390,
                 'victima_id' => 1361,
                 'created_at' => '2019-03-08 06:13:07',
-                'updated_at' => '2019-03-08 06:13:07',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:31:36',
+                'deleted_at' => '2019-06-18 12:31:36',
             ),
             362 => 
             array (
@@ -12321,8 +12321,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1395,
                 'victima_id' => 1366,
                 'created_at' => '2019-03-08 06:13:08',
-                'updated_at' => '2019-03-08 06:13:08',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:32:42',
+                'deleted_at' => '2019-06-18 12:32:42',
             ),
             367 => 
             array (
@@ -12330,8 +12330,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1395,
                 'victima_id' => 1367,
                 'created_at' => '2019-03-08 06:13:08',
-                'updated_at' => '2019-03-08 06:13:08',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:32:42',
+                'deleted_at' => '2019-06-18 12:32:42',
             ),
             368 => 
             array (
@@ -12366,8 +12366,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1400,
                 'victima_id' => 1371,
                 'created_at' => '2019-03-08 06:13:08',
-                'updated_at' => '2019-03-08 06:13:08',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:33:00',
+                'deleted_at' => '2019-06-18 12:33:00',
             ),
             372 => 
             array (
@@ -12411,8 +12411,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1405,
                 'victima_id' => 1376,
                 'created_at' => '2019-03-08 06:13:08',
-                'updated_at' => '2019-03-08 06:13:08',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:35:16',
+                'deleted_at' => '2019-06-18 12:35:16',
             ),
             377 => 
             array (
@@ -12456,8 +12456,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1410,
                 'victima_id' => 1381,
                 'created_at' => '2019-03-08 06:13:08',
-                'updated_at' => '2019-03-08 06:13:08',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:41:33',
+                'deleted_at' => '2019-06-18 12:41:33',
             ),
             382 => 
             array (
@@ -12465,8 +12465,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1411,
                 'victima_id' => 1382,
                 'created_at' => '2019-03-08 06:13:08',
-                'updated_at' => '2019-03-08 06:13:08',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:44:21',
+                'deleted_at' => '2019-06-18 12:44:21',
             ),
             383 => 
             array (
@@ -12492,8 +12492,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1415,
                 'victima_id' => 1385,
                 'created_at' => '2019-03-08 06:13:08',
-                'updated_at' => '2019-03-08 06:13:08',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:36:27',
+                'deleted_at' => '2019-06-18 12:36:27',
             ),
             386 => 
             array (
@@ -12537,8 +12537,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1420,
                 'victima_id' => 1390,
                 'created_at' => '2019-03-08 06:13:08',
-                'updated_at' => '2019-03-08 06:13:08',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:36:57',
+                'deleted_at' => '2019-06-18 12:36:57',
             ),
             391 => 
             array (
@@ -12582,8 +12582,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1425,
                 'victima_id' => 1395,
                 'created_at' => '2019-03-08 06:13:08',
-                'updated_at' => '2019-03-08 06:13:08',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:37:49',
+                'deleted_at' => '2019-06-18 12:37:49',
             ),
             396 => 
             array (
@@ -12627,8 +12627,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1430,
                 'victima_id' => 1400,
                 'created_at' => '2019-03-08 06:13:09',
-                'updated_at' => '2019-03-08 06:13:09',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:38:00',
+                'deleted_at' => '2019-06-18 12:38:00',
             ),
             401 => 
             array (
@@ -12672,8 +12672,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1435,
                 'victima_id' => 1405,
                 'created_at' => '2019-03-08 06:13:09',
-                'updated_at' => '2019-03-08 06:13:09',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:38:11',
+                'deleted_at' => '2019-06-18 12:38:11',
             ),
             406 => 
             array (
@@ -12717,8 +12717,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1440,
                 'victima_id' => 1410,
                 'created_at' => '2019-03-08 06:13:09',
-                'updated_at' => '2019-03-08 06:13:09',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:40:07',
+                'deleted_at' => '2019-06-18 12:40:07',
             ),
             411 => 
             array (
@@ -12762,8 +12762,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1445,
                 'victima_id' => 1415,
                 'created_at' => '2019-03-08 06:13:09',
-                'updated_at' => '2019-03-08 06:13:09',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:40:34',
+                'deleted_at' => '2019-06-18 12:40:34',
             ),
             416 => 
             array (
@@ -12807,8 +12807,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1450,
                 'victima_id' => 1420,
                 'created_at' => '2019-03-08 06:13:09',
-                'updated_at' => '2019-03-08 06:13:09',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:54:49',
+                'deleted_at' => '2019-06-18 12:54:49',
             ),
             421 => 
             array (
@@ -12816,8 +12816,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1451,
                 'victima_id' => 1421,
                 'created_at' => '2019-03-08 06:13:09',
-                'updated_at' => '2019-03-08 06:13:09',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:54:53',
+                'deleted_at' => '2019-06-18 12:54:53',
             ),
             422 => 
             array (
@@ -13700,8 +13700,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1548,
                 'victima_id' => 1519,
                 'created_at' => '2019-03-08 06:13:12',
-                'updated_at' => '2019-03-08 06:13:12',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 14:24:52',
+                'deleted_at' => '2019-06-18 14:24:52',
             ),
             20 => 
             array (
@@ -13709,8 +13709,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1548,
                 'victima_id' => 1520,
                 'created_at' => '2019-03-08 06:13:12',
-                'updated_at' => '2019-03-08 06:13:12',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 14:24:52',
+                'deleted_at' => '2019-06-18 14:24:52',
             ),
             21 => 
             array (
@@ -14015,8 +14015,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1582,
                 'victima_id' => 1554,
                 'created_at' => '2019-03-08 06:13:13',
-                'updated_at' => '2019-03-08 06:13:13',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 15:54:58',
+                'deleted_at' => '2019-06-18 15:54:58',
             ),
             55 => 
             array (
@@ -14339,8 +14339,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1617,
                 'victima_id' => 1590,
                 'created_at' => '2019-03-08 06:13:14',
-                'updated_at' => '2019-03-08 06:13:14',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 16:05:41',
+                'deleted_at' => '2019-06-18 16:05:41',
             ),
             91 => 
             array (
@@ -14384,8 +14384,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1621,
                 'victima_id' => 1595,
                 'created_at' => '2019-03-08 06:13:14',
-                'updated_at' => '2019-03-08 06:13:14',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 16:09:39',
+                'deleted_at' => '2019-06-18 16:09:39',
             ),
             96 => 
             array (
@@ -14636,8 +14636,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 1649,
                 'victima_id' => 1623,
                 'created_at' => '2019-03-08 06:13:15',
-                'updated_at' => '2019-03-08 06:13:15',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 12:17:23',
+                'deleted_at' => '2019-06-18 12:17:23',
             ),
             124 => 
             array (
@@ -17561,8 +17561,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 2044,
                 'victima_id' => 1941,
                 'created_at' => '2019-03-08 06:14:22',
-                'updated_at' => '2019-03-08 06:14:22',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 13:02:34',
+                'deleted_at' => '2019-06-18 13:02:34',
             ),
             449 => 
             array (
@@ -17570,8 +17570,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 2045,
                 'victima_id' => 1942,
                 'created_at' => '2019-03-08 06:14:22',
-                'updated_at' => '2019-03-08 06:14:22',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 13:09:41',
+                'deleted_at' => '2019-06-18 13:09:41',
             ),
             450 => 
             array (
@@ -17579,8 +17579,8 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'denuncia_id' => 2046,
                 'victima_id' => 1943,
                 'created_at' => '2019-03-08 06:14:23',
-                'updated_at' => '2019-03-08 06:14:23',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-18 13:17:00',
+                'deleted_at' => '2019-06-18 13:17:00',
             ),
             451 => 
             array (
@@ -33239,6 +33239,150 @@ class DenunciaVictimaTableSeeder extends Seeder
                 'victima_id' => 3265,
                 'created_at' => '2019-06-17 21:18:16',
                 'updated_at' => '2019-06-17 21:18:16',
+                'deleted_at' => NULL,
+            ),
+            190 => 
+            array (
+                'id' => 3691,
+                'denuncia_id' => 3443,
+                'victima_id' => 3266,
+                'created_at' => '2019-06-18 10:13:16',
+                'updated_at' => '2019-06-18 10:13:16',
+                'deleted_at' => NULL,
+            ),
+            191 => 
+            array (
+                'id' => 3692,
+                'denuncia_id' => 3444,
+                'victima_id' => 3267,
+                'created_at' => '2019-06-18 10:24:18',
+                'updated_at' => '2019-06-18 10:24:18',
+                'deleted_at' => NULL,
+            ),
+            192 => 
+            array (
+                'id' => 3693,
+                'denuncia_id' => 3445,
+                'victima_id' => 3268,
+                'created_at' => '2019-06-18 10:50:51',
+                'updated_at' => '2019-06-18 10:50:51',
+                'deleted_at' => NULL,
+            ),
+            193 => 
+            array (
+                'id' => 3694,
+                'denuncia_id' => 3446,
+                'victima_id' => 2384,
+                'created_at' => '2019-06-18 11:06:21',
+                'updated_at' => '2019-06-18 11:06:21',
+                'deleted_at' => NULL,
+            ),
+            194 => 
+            array (
+                'id' => 3695,
+                'denuncia_id' => 3447,
+                'victima_id' => 3269,
+                'created_at' => '2019-06-18 11:14:23',
+                'updated_at' => '2019-06-18 11:14:23',
+                'deleted_at' => NULL,
+            ),
+            195 => 
+            array (
+                'id' => 3696,
+                'denuncia_id' => 3447,
+                'victima_id' => 3270,
+                'created_at' => '2019-06-18 11:17:03',
+                'updated_at' => '2019-06-18 11:17:03',
+                'deleted_at' => NULL,
+            ),
+            196 => 
+            array (
+                'id' => 3697,
+                'denuncia_id' => 3448,
+                'victima_id' => 3271,
+                'created_at' => '2019-06-18 11:27:50',
+                'updated_at' => '2019-06-18 11:27:50',
+                'deleted_at' => NULL,
+            ),
+            197 => 
+            array (
+                'id' => 3698,
+                'denuncia_id' => 3449,
+                'victima_id' => 3272,
+                'created_at' => '2019-06-18 11:38:26',
+                'updated_at' => '2019-06-18 11:38:26',
+                'deleted_at' => NULL,
+            ),
+            198 => 
+            array (
+                'id' => 3699,
+                'denuncia_id' => 3449,
+                'victima_id' => 3273,
+                'created_at' => '2019-06-18 11:45:52',
+                'updated_at' => '2019-06-18 11:45:52',
+                'deleted_at' => NULL,
+            ),
+            199 => 
+            array (
+                'id' => 3700,
+                'denuncia_id' => 1582,
+                'victima_id' => 1554,
+                'created_at' => '2019-06-18 15:55:04',
+                'updated_at' => '2019-06-18 15:55:04',
+                'deleted_at' => NULL,
+            ),
+            200 => 
+            array (
+                'id' => 3701,
+                'denuncia_id' => 1621,
+                'victima_id' => 1595,
+                'created_at' => '2019-06-18 16:09:44',
+                'updated_at' => '2019-06-18 16:09:44',
+                'deleted_at' => NULL,
+            ),
+            201 => 
+            array (
+                'id' => 3702,
+                'denuncia_id' => 3450,
+                'victima_id' => 3274,
+                'created_at' => '2019-06-18 16:23:31',
+                'updated_at' => '2019-06-18 16:23:31',
+                'deleted_at' => NULL,
+            ),
+            202 => 
+            array (
+                'id' => 3703,
+                'denuncia_id' => 3451,
+                'victima_id' => 3275,
+                'created_at' => '2019-06-18 16:42:17',
+                'updated_at' => '2019-06-18 16:42:17',
+                'deleted_at' => NULL,
+            ),
+            203 => 
+            array (
+                'id' => 3704,
+                'denuncia_id' => 3452,
+                'victima_id' => 3276,
+                'created_at' => '2019-06-18 16:54:04',
+                'updated_at' => '2019-06-18 16:54:04',
+                'deleted_at' => NULL,
+            ),
+            204 => 
+            array (
+                'id' => 3705,
+                'denuncia_id' => 3452,
+                'victima_id' => 3277,
+                'created_at' => '2019-06-18 16:55:43',
+                'updated_at' => '2019-06-18 16:55:43',
+                'deleted_at' => NULL,
+            ),
+            205 => 
+            array (
+                'id' => 3706,
+                'denuncia_id' => 3453,
+                'victima_id' => 3278,
+                'created_at' => '2019-06-18 17:13:29',
+                'updated_at' => '2019-06-18 17:13:29',
                 'deleted_at' => NULL,
             ),
         ));
