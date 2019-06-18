@@ -3167,7 +3167,7 @@ class DenunciaController extends Controller
 
                 $rules = [
                     'tblinstancia_id' => 'required|exists:tblinstancia,id',
-                    'expediente' => 'required|string|unique:denuncia,expediente,'.$denuncia->expediente.',expediente',
+                    'expediente' => 'required|string|min:26|max:40|unique:denuncia,expediente,'.$denuncia->expediente.',expediente',
                     'fformalizacion' => 'required|date',
                     // 'tblmedida_id' => 'nullable|exists:tblmedida,id',
                     'tblmedida_id' => 'nullable|array|min:1',
