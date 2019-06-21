@@ -1197,7 +1197,6 @@
                       type: 'column'
                   },
                   title: {
-                      // text: graficoID == 'graficoAnualMedida' ? ('<strong>Carga Medidas de Protección por Año ' + objectJSON.anio+'</strong>') : (graficoID == 'graficoMensualMedida' ? '<strong>Carga Medidas de Protección Mensual ' : '')
                       text: null
                   },
                   xAxis: {
