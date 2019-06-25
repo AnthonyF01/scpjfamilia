@@ -5403,15 +5403,6 @@ class DenunciaTblmedidaTableSeeder extends Seeder
             ),
             98 => 
             array (
-                'id' => 602,
-                'denuncia_id' => 2210,
-                'tblmedida_id' => 12,
-                'created_at' => NULL,
-                'updated_at' => NULL,
-                'deleted_at' => NULL,
-            ),
-            99 => 
-            array (
                 'id' => 603,
                 'denuncia_id' => 1705,
                 'tblmedida_id' => 12,
@@ -5419,7 +5410,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            100 => 
+            99 => 
             array (
                 'id' => 604,
                 'denuncia_id' => 1705,
@@ -5428,7 +5419,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            101 => 
+            100 => 
             array (
                 'id' => 605,
                 'denuncia_id' => 1708,
@@ -5437,7 +5428,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            102 => 
+            101 => 
             array (
                 'id' => 606,
                 'denuncia_id' => 1708,
@@ -5446,7 +5437,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            103 => 
+            102 => 
             array (
                 'id' => 607,
                 'denuncia_id' => 1708,
@@ -5455,7 +5446,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            104 => 
+            103 => 
             array (
                 'id' => 608,
                 'denuncia_id' => 2912,
@@ -5464,7 +5455,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            105 => 
+            104 => 
             array (
                 'id' => 609,
                 'denuncia_id' => 1711,
@@ -5473,7 +5464,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            106 => 
+            105 => 
             array (
                 'id' => 610,
                 'denuncia_id' => 1714,
@@ -5482,7 +5473,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            107 => 
+            106 => 
             array (
                 'id' => 611,
                 'denuncia_id' => 1717,
@@ -5491,7 +5482,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            108 => 
+            107 => 
             array (
                 'id' => 612,
                 'denuncia_id' => 1723,
@@ -5500,7 +5491,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            109 => 
+            108 => 
             array (
                 'id' => 613,
                 'denuncia_id' => 1729,
@@ -5509,7 +5500,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            110 => 
+            109 => 
             array (
                 'id' => 614,
                 'denuncia_id' => 1732,
@@ -5518,7 +5509,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            111 => 
+            110 => 
             array (
                 'id' => 615,
                 'denuncia_id' => 1732,
@@ -5527,7 +5518,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            112 => 
+            111 => 
             array (
                 'id' => 616,
                 'denuncia_id' => 1732,
@@ -5536,7 +5527,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            113 => 
+            112 => 
             array (
                 'id' => 617,
                 'denuncia_id' => 1732,
@@ -5545,7 +5536,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            114 => 
+            113 => 
             array (
                 'id' => 618,
                 'denuncia_id' => 1732,
@@ -5554,7 +5545,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            115 => 
+            114 => 
             array (
                 'id' => 619,
                 'denuncia_id' => 1735,
@@ -5563,7 +5554,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            116 => 
+            115 => 
             array (
                 'id' => 620,
                 'denuncia_id' => 1735,
@@ -5572,7 +5563,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            117 => 
+            116 => 
             array (
                 'id' => 621,
                 'denuncia_id' => 1741,
@@ -5581,7 +5572,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            118 => 
+            117 => 
             array (
                 'id' => 622,
                 'denuncia_id' => 1741,
@@ -5590,7 +5581,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            119 => 
+            118 => 
             array (
                 'id' => 623,
                 'denuncia_id' => 1744,
@@ -5599,7 +5590,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            120 => 
+            119 => 
             array (
                 'id' => 624,
                 'denuncia_id' => 1744,
@@ -5608,7 +5599,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            121 => 
+            120 => 
             array (
                 'id' => 625,
                 'denuncia_id' => 1744,
@@ -5617,7 +5608,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            122 => 
+            121 => 
             array (
                 'id' => 626,
                 'denuncia_id' => 1750,
@@ -5626,7 +5617,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            123 => 
+            122 => 
             array (
                 'id' => 627,
                 'denuncia_id' => 1750,
@@ -5635,7 +5626,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            124 => 
+            123 => 
             array (
                 'id' => 628,
                 'denuncia_id' => 1750,
@@ -5644,7 +5635,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            125 => 
+            124 => 
             array (
                 'id' => 629,
                 'denuncia_id' => 1753,
@@ -5653,7 +5644,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            126 => 
+            125 => 
             array (
                 'id' => 630,
                 'denuncia_id' => 1756,
@@ -5662,7 +5653,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            127 => 
+            126 => 
             array (
                 'id' => 631,
                 'denuncia_id' => 1756,
@@ -5671,7 +5662,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            128 => 
+            127 => 
             array (
                 'id' => 632,
                 'denuncia_id' => 1756,
@@ -5680,7 +5671,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            129 => 
+            128 => 
             array (
                 'id' => 633,
                 'denuncia_id' => 1930,
@@ -5689,7 +5680,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            130 => 
+            129 => 
             array (
                 'id' => 634,
                 'denuncia_id' => 1930,
@@ -5698,7 +5689,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            131 => 
+            130 => 
             array (
                 'id' => 635,
                 'denuncia_id' => 1930,
@@ -5707,7 +5698,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            132 => 
+            131 => 
             array (
                 'id' => 636,
                 'denuncia_id' => 2478,
@@ -5716,7 +5707,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            133 => 
+            132 => 
             array (
                 'id' => 637,
                 'denuncia_id' => 2487,
@@ -5725,7 +5716,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            134 => 
+            133 => 
             array (
                 'id' => 638,
                 'denuncia_id' => 2487,
@@ -5734,7 +5725,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            135 => 
+            134 => 
             array (
                 'id' => 639,
                 'denuncia_id' => 2487,
@@ -5743,7 +5734,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            136 => 
+            135 => 
             array (
                 'id' => 640,
                 'denuncia_id' => 2487,
@@ -5752,7 +5743,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            137 => 
+            136 => 
             array (
                 'id' => 641,
                 'denuncia_id' => 2212,
@@ -5761,7 +5752,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            138 => 
+            137 => 
             array (
                 'id' => 642,
                 'denuncia_id' => 2214,
@@ -5770,7 +5761,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            139 => 
+            138 => 
             array (
                 'id' => 643,
                 'denuncia_id' => 2214,
@@ -5779,7 +5770,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            140 => 
+            139 => 
             array (
                 'id' => 644,
                 'denuncia_id' => 2206,
@@ -5788,7 +5779,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            141 => 
+            140 => 
             array (
                 'id' => 645,
                 'denuncia_id' => 2206,
@@ -5797,7 +5788,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            142 => 
+            141 => 
             array (
                 'id' => 646,
                 'denuncia_id' => 2206,
@@ -5806,7 +5797,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            143 => 
+            142 => 
             array (
                 'id' => 647,
                 'denuncia_id' => 2206,
@@ -5815,7 +5806,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            144 => 
+            143 => 
             array (
                 'id' => 648,
                 'denuncia_id' => 2208,
@@ -5824,7 +5815,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            145 => 
+            144 => 
             array (
                 'id' => 649,
                 'denuncia_id' => 2208,
@@ -5833,7 +5824,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            146 => 
+            145 => 
             array (
                 'id' => 650,
                 'denuncia_id' => 2216,
@@ -5842,7 +5833,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            147 => 
+            146 => 
             array (
                 'id' => 651,
                 'denuncia_id' => 2218,
@@ -5851,7 +5842,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            148 => 
+            147 => 
             array (
                 'id' => 652,
                 'denuncia_id' => 2218,
@@ -5860,7 +5851,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            149 => 
+            148 => 
             array (
                 'id' => 653,
                 'denuncia_id' => 2220,
@@ -5869,7 +5860,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            150 => 
+            149 => 
             array (
                 'id' => 654,
                 'denuncia_id' => 1702,
@@ -5878,7 +5869,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            151 => 
+            150 => 
             array (
                 'id' => 655,
                 'denuncia_id' => 2934,
@@ -5887,7 +5878,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            152 => 
+            151 => 
             array (
                 'id' => 656,
                 'denuncia_id' => 2934,
@@ -5896,7 +5887,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            153 => 
+            152 => 
             array (
                 'id' => 657,
                 'denuncia_id' => 2934,
@@ -5905,7 +5896,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            154 => 
+            153 => 
             array (
                 'id' => 658,
                 'denuncia_id' => 2943,
@@ -5914,7 +5905,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            155 => 
+            154 => 
             array (
                 'id' => 659,
                 'denuncia_id' => 2943,
@@ -5923,7 +5914,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            156 => 
+            155 => 
             array (
                 'id' => 660,
                 'denuncia_id' => 2943,
@@ -5932,7 +5923,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            157 => 
+            156 => 
             array (
                 'id' => 661,
                 'denuncia_id' => 2941,
@@ -5941,7 +5932,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            158 => 
+            157 => 
             array (
                 'id' => 662,
                 'denuncia_id' => 2941,
@@ -5950,7 +5941,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            159 => 
+            158 => 
             array (
                 'id' => 663,
                 'denuncia_id' => 2941,
@@ -5959,7 +5950,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            160 => 
+            159 => 
             array (
                 'id' => 664,
                 'denuncia_id' => 2946,
@@ -5968,7 +5959,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            161 => 
+            160 => 
             array (
                 'id' => 665,
                 'denuncia_id' => 2946,
@@ -5977,7 +5968,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            162 => 
+            161 => 
             array (
                 'id' => 666,
                 'denuncia_id' => 2946,
@@ -5986,7 +5977,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            163 => 
+            162 => 
             array (
                 'id' => 667,
                 'denuncia_id' => 2947,
@@ -5995,7 +5986,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            164 => 
+            163 => 
             array (
                 'id' => 668,
                 'denuncia_id' => 2951,
@@ -6004,7 +5995,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            165 => 
+            164 => 
             array (
                 'id' => 669,
                 'denuncia_id' => 2951,
@@ -6013,7 +6004,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            166 => 
+            165 => 
             array (
                 'id' => 670,
                 'denuncia_id' => 2952,
@@ -6022,7 +6013,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            167 => 
+            166 => 
             array (
                 'id' => 671,
                 'denuncia_id' => 2952,
@@ -6031,7 +6022,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            168 => 
+            167 => 
             array (
                 'id' => 672,
                 'denuncia_id' => 2959,
@@ -6040,7 +6031,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            169 => 
+            168 => 
             array (
                 'id' => 673,
                 'denuncia_id' => 2959,
@@ -6049,7 +6040,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            170 => 
+            169 => 
             array (
                 'id' => 674,
                 'denuncia_id' => 2959,
@@ -6058,7 +6049,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            171 => 
+            170 => 
             array (
                 'id' => 675,
                 'denuncia_id' => 2959,
@@ -6067,7 +6058,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            172 => 
+            171 => 
             array (
                 'id' => 676,
                 'denuncia_id' => 2959,
@@ -6076,7 +6067,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            173 => 
+            172 => 
             array (
                 'id' => 677,
                 'denuncia_id' => 2962,
@@ -6085,7 +6076,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            174 => 
+            173 => 
             array (
                 'id' => 678,
                 'denuncia_id' => 2962,
@@ -6094,7 +6085,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            175 => 
+            174 => 
             array (
                 'id' => 679,
                 'denuncia_id' => 2962,
@@ -6103,7 +6094,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            176 => 
+            175 => 
             array (
                 'id' => 680,
                 'denuncia_id' => 2957,
@@ -6112,7 +6103,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            177 => 
+            176 => 
             array (
                 'id' => 681,
                 'denuncia_id' => 2957,
@@ -6121,7 +6112,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            178 => 
+            177 => 
             array (
                 'id' => 682,
                 'denuncia_id' => 2963,
@@ -6130,7 +6121,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            179 => 
+            178 => 
             array (
                 'id' => 683,
                 'denuncia_id' => 2963,
@@ -6139,7 +6130,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            180 => 
+            179 => 
             array (
                 'id' => 684,
                 'denuncia_id' => 2965,
@@ -6148,7 +6139,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            181 => 
+            180 => 
             array (
                 'id' => 685,
                 'denuncia_id' => 2965,
@@ -6157,7 +6148,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            182 => 
+            181 => 
             array (
                 'id' => 686,
                 'denuncia_id' => 2968,
@@ -6166,7 +6157,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            183 => 
+            182 => 
             array (
                 'id' => 687,
                 'denuncia_id' => 2968,
@@ -6175,7 +6166,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            184 => 
+            183 => 
             array (
                 'id' => 688,
                 'denuncia_id' => 2968,
@@ -6184,7 +6175,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            185 => 
+            184 => 
             array (
                 'id' => 689,
                 'denuncia_id' => 2969,
@@ -6193,7 +6184,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            186 => 
+            185 => 
             array (
                 'id' => 690,
                 'denuncia_id' => 2972,
@@ -6202,7 +6193,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            187 => 
+            186 => 
             array (
                 'id' => 691,
                 'denuncia_id' => 2972,
@@ -6211,7 +6202,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            188 => 
+            187 => 
             array (
                 'id' => 692,
                 'denuncia_id' => 2972,
@@ -6220,7 +6211,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            189 => 
+            188 => 
             array (
                 'id' => 693,
                 'denuncia_id' => 2973,
@@ -6229,7 +6220,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            190 => 
+            189 => 
             array (
                 'id' => 694,
                 'denuncia_id' => 2973,
@@ -6238,7 +6229,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            191 => 
+            190 => 
             array (
                 'id' => 695,
                 'denuncia_id' => 2973,
@@ -6247,7 +6238,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            192 => 
+            191 => 
             array (
                 'id' => 696,
                 'denuncia_id' => 2973,
@@ -6256,7 +6247,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            193 => 
+            192 => 
             array (
                 'id' => 697,
                 'denuncia_id' => 2973,
@@ -6265,7 +6256,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            194 => 
+            193 => 
             array (
                 'id' => 698,
                 'denuncia_id' => 2974,
@@ -6274,7 +6265,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            195 => 
+            194 => 
             array (
                 'id' => 699,
                 'denuncia_id' => 2974,
@@ -6283,7 +6274,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            196 => 
+            195 => 
             array (
                 'id' => 700,
                 'denuncia_id' => 2976,
@@ -6292,7 +6283,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            197 => 
+            196 => 
             array (
                 'id' => 701,
                 'denuncia_id' => 2976,
@@ -6301,7 +6292,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            198 => 
+            197 => 
             array (
                 'id' => 702,
                 'denuncia_id' => 2976,
@@ -6310,7 +6301,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            199 => 
+            198 => 
             array (
                 'id' => 703,
                 'denuncia_id' => 2977,
@@ -6319,7 +6310,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            200 => 
+            199 => 
             array (
                 'id' => 704,
                 'denuncia_id' => 2977,
@@ -6328,7 +6319,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            201 => 
+            200 => 
             array (
                 'id' => 705,
                 'denuncia_id' => 2980,
@@ -6337,7 +6328,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            202 => 
+            201 => 
             array (
                 'id' => 706,
                 'denuncia_id' => 2980,
@@ -6346,7 +6337,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            203 => 
+            202 => 
             array (
                 'id' => 707,
                 'denuncia_id' => 2980,
@@ -6355,7 +6346,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            204 => 
+            203 => 
             array (
                 'id' => 708,
                 'denuncia_id' => 2981,
@@ -6364,7 +6355,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            205 => 
+            204 => 
             array (
                 'id' => 709,
                 'denuncia_id' => 2982,
@@ -6373,7 +6364,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            206 => 
+            205 => 
             array (
                 'id' => 710,
                 'denuncia_id' => 2982,
@@ -6382,7 +6373,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            207 => 
+            206 => 
             array (
                 'id' => 711,
                 'denuncia_id' => 2983,
@@ -6391,7 +6382,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            208 => 
+            207 => 
             array (
                 'id' => 712,
                 'denuncia_id' => 2983,
@@ -6400,7 +6391,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            209 => 
+            208 => 
             array (
                 'id' => 713,
                 'denuncia_id' => 2983,
@@ -6409,7 +6400,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            210 => 
+            209 => 
             array (
                 'id' => 714,
                 'denuncia_id' => 2979,
@@ -6418,7 +6409,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            211 => 
+            210 => 
             array (
                 'id' => 715,
                 'denuncia_id' => 2979,
@@ -6427,7 +6418,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            212 => 
+            211 => 
             array (
                 'id' => 716,
                 'denuncia_id' => 2979,
@@ -6436,7 +6427,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            213 => 
+            212 => 
             array (
                 'id' => 717,
                 'denuncia_id' => 2979,
@@ -6445,7 +6436,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            214 => 
+            213 => 
             array (
                 'id' => 718,
                 'denuncia_id' => 2984,
@@ -6454,7 +6445,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            215 => 
+            214 => 
             array (
                 'id' => 719,
                 'denuncia_id' => 2984,
@@ -6463,7 +6454,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            216 => 
+            215 => 
             array (
                 'id' => 720,
                 'denuncia_id' => 2984,
@@ -6472,7 +6463,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            217 => 
+            216 => 
             array (
                 'id' => 721,
                 'denuncia_id' => 2985,
@@ -6481,7 +6472,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            218 => 
+            217 => 
             array (
                 'id' => 722,
                 'denuncia_id' => 2985,
@@ -6490,7 +6481,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            219 => 
+            218 => 
             array (
                 'id' => 723,
                 'denuncia_id' => 2985,
@@ -6499,7 +6490,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            220 => 
+            219 => 
             array (
                 'id' => 724,
                 'denuncia_id' => 2988,
@@ -6508,7 +6499,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            221 => 
+            220 => 
             array (
                 'id' => 725,
                 'denuncia_id' => 2988,
@@ -6517,7 +6508,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            222 => 
+            221 => 
             array (
                 'id' => 726,
                 'denuncia_id' => 2988,
@@ -6526,7 +6517,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            223 => 
+            222 => 
             array (
                 'id' => 727,
                 'denuncia_id' => 2989,
@@ -6535,7 +6526,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            224 => 
+            223 => 
             array (
                 'id' => 728,
                 'denuncia_id' => 2989,
@@ -6544,7 +6535,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            225 => 
+            224 => 
             array (
                 'id' => 729,
                 'denuncia_id' => 2993,
@@ -6553,7 +6544,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            226 => 
+            225 => 
             array (
                 'id' => 730,
                 'denuncia_id' => 2993,
@@ -6562,7 +6553,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            227 => 
+            226 => 
             array (
                 'id' => 731,
                 'denuncia_id' => 2993,
@@ -6571,7 +6562,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            228 => 
+            227 => 
             array (
                 'id' => 732,
                 'denuncia_id' => 2995,
@@ -6580,7 +6571,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            229 => 
+            228 => 
             array (
                 'id' => 733,
                 'denuncia_id' => 2995,
@@ -6589,7 +6580,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            230 => 
+            229 => 
             array (
                 'id' => 734,
                 'denuncia_id' => 2995,
@@ -6598,7 +6589,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            231 => 
+            230 => 
             array (
                 'id' => 735,
                 'denuncia_id' => 2995,
@@ -6607,7 +6598,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            232 => 
+            231 => 
             array (
                 'id' => 736,
                 'denuncia_id' => 2937,
@@ -6616,7 +6607,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            233 => 
+            232 => 
             array (
                 'id' => 737,
                 'denuncia_id' => 2937,
@@ -6625,7 +6616,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            234 => 
+            233 => 
             array (
                 'id' => 738,
                 'denuncia_id' => 2938,
@@ -6634,7 +6625,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            235 => 
+            234 => 
             array (
                 'id' => 739,
                 'denuncia_id' => 2938,
@@ -6643,7 +6634,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            236 => 
+            235 => 
             array (
                 'id' => 740,
                 'denuncia_id' => 2938,
@@ -6652,7 +6643,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            237 => 
+            236 => 
             array (
                 'id' => 741,
                 'denuncia_id' => 2939,
@@ -6661,7 +6652,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            238 => 
+            237 => 
             array (
                 'id' => 742,
                 'denuncia_id' => 2925,
@@ -6670,7 +6661,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            239 => 
+            238 => 
             array (
                 'id' => 743,
                 'denuncia_id' => 2925,
@@ -6679,7 +6670,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            240 => 
+            239 => 
             array (
                 'id' => 744,
                 'denuncia_id' => 2925,
@@ -6688,7 +6679,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            241 => 
+            240 => 
             array (
                 'id' => 745,
                 'denuncia_id' => 2925,
@@ -6697,7 +6688,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            242 => 
+            241 => 
             array (
                 'id' => 746,
                 'denuncia_id' => 2924,
@@ -6706,7 +6697,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            243 => 
+            242 => 
             array (
                 'id' => 747,
                 'denuncia_id' => 2924,
@@ -6715,7 +6706,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            244 => 
+            243 => 
             array (
                 'id' => 748,
                 'denuncia_id' => 2924,
@@ -6724,7 +6715,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            245 => 
+            244 => 
             array (
                 'id' => 749,
                 'denuncia_id' => 2924,
@@ -6733,7 +6724,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            246 => 
+            245 => 
             array (
                 'id' => 750,
                 'denuncia_id' => 2935,
@@ -6742,7 +6733,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            247 => 
+            246 => 
             array (
                 'id' => 751,
                 'denuncia_id' => 2935,
@@ -6751,7 +6742,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            248 => 
+            247 => 
             array (
                 'id' => 752,
                 'denuncia_id' => 2935,
@@ -6760,7 +6751,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            249 => 
+            248 => 
             array (
                 'id' => 753,
                 'denuncia_id' => 2935,
@@ -6769,7 +6760,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            250 => 
+            249 => 
             array (
                 'id' => 754,
                 'denuncia_id' => 2931,
@@ -6778,7 +6769,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            251 => 
+            250 => 
             array (
                 'id' => 755,
                 'denuncia_id' => 2904,
@@ -6787,7 +6778,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            252 => 
+            251 => 
             array (
                 'id' => 756,
                 'denuncia_id' => 2904,
@@ -6796,7 +6787,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            253 => 
+            252 => 
             array (
                 'id' => 757,
                 'denuncia_id' => 2903,
@@ -6805,7 +6796,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            254 => 
+            253 => 
             array (
                 'id' => 758,
                 'denuncia_id' => 2903,
@@ -6814,7 +6805,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            255 => 
+            254 => 
             array (
                 'id' => 759,
                 'denuncia_id' => 2903,
@@ -6823,7 +6814,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            256 => 
+            255 => 
             array (
                 'id' => 760,
                 'denuncia_id' => 2900,
@@ -6832,7 +6823,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            257 => 
+            256 => 
             array (
                 'id' => 761,
                 'denuncia_id' => 2900,
@@ -6841,7 +6832,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            258 => 
+            257 => 
             array (
                 'id' => 762,
                 'denuncia_id' => 3009,
@@ -6850,7 +6841,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            259 => 
+            258 => 
             array (
                 'id' => 763,
                 'denuncia_id' => 3009,
@@ -6859,7 +6850,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            260 => 
+            259 => 
             array (
                 'id' => 764,
                 'denuncia_id' => 3016,
@@ -6868,7 +6859,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            261 => 
+            260 => 
             array (
                 'id' => 765,
                 'denuncia_id' => 3016,
@@ -6877,7 +6868,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            262 => 
+            261 => 
             array (
                 'id' => 766,
                 'denuncia_id' => 3016,
@@ -6886,7 +6877,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            263 => 
+            262 => 
             array (
                 'id' => 767,
                 'denuncia_id' => 3018,
@@ -6895,7 +6886,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            264 => 
+            263 => 
             array (
                 'id' => 768,
                 'denuncia_id' => 3018,
@@ -6904,7 +6895,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            265 => 
+            264 => 
             array (
                 'id' => 769,
                 'denuncia_id' => 3018,
@@ -6913,7 +6904,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            266 => 
+            265 => 
             array (
                 'id' => 770,
                 'denuncia_id' => 3029,
@@ -6922,7 +6913,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            267 => 
+            266 => 
             array (
                 'id' => 771,
                 'denuncia_id' => 3033,
@@ -6931,7 +6922,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            268 => 
+            267 => 
             array (
                 'id' => 772,
                 'denuncia_id' => 3022,
@@ -6940,7 +6931,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            269 => 
+            268 => 
             array (
                 'id' => 773,
                 'denuncia_id' => 3022,
@@ -6949,7 +6940,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            270 => 
+            269 => 
             array (
                 'id' => 774,
                 'denuncia_id' => 3035,
@@ -6958,7 +6949,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            271 => 
+            270 => 
             array (
                 'id' => 775,
                 'denuncia_id' => 3036,
@@ -6967,7 +6958,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            272 => 
+            271 => 
             array (
                 'id' => 776,
                 'denuncia_id' => 3036,
@@ -6976,7 +6967,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            273 => 
+            272 => 
             array (
                 'id' => 777,
                 'denuncia_id' => 3036,
@@ -6985,7 +6976,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            274 => 
+            273 => 
             array (
                 'id' => 778,
                 'denuncia_id' => 3037,
@@ -6994,7 +6985,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            275 => 
+            274 => 
             array (
                 'id' => 779,
                 'denuncia_id' => 2720,
@@ -7003,7 +6994,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            276 => 
+            275 => 
             array (
                 'id' => 780,
                 'denuncia_id' => 2720,
@@ -7012,7 +7003,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            277 => 
+            276 => 
             array (
                 'id' => 781,
                 'denuncia_id' => 2920,
@@ -7021,7 +7012,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            278 => 
+            277 => 
             array (
                 'id' => 782,
                 'denuncia_id' => 2921,
@@ -7030,7 +7021,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            279 => 
+            278 => 
             array (
                 'id' => 783,
                 'denuncia_id' => 2910,
@@ -7039,7 +7030,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            280 => 
+            279 => 
             array (
                 'id' => 784,
                 'denuncia_id' => 2909,
@@ -7048,7 +7039,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            281 => 
+            280 => 
             array (
                 'id' => 785,
                 'denuncia_id' => 2909,
@@ -7057,7 +7048,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            282 => 
+            281 => 
             array (
                 'id' => 786,
                 'denuncia_id' => 2908,
@@ -7066,7 +7057,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            283 => 
+            282 => 
             array (
                 'id' => 787,
                 'denuncia_id' => 2908,
@@ -7075,7 +7066,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            284 => 
+            283 => 
             array (
                 'id' => 788,
                 'denuncia_id' => 2908,
@@ -7084,7 +7075,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            285 => 
+            284 => 
             array (
                 'id' => 789,
                 'denuncia_id' => 3039,
@@ -7093,7 +7084,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            286 => 
+            285 => 
             array (
                 'id' => 790,
                 'denuncia_id' => 3040,
@@ -7102,7 +7093,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            287 => 
+            286 => 
             array (
                 'id' => 791,
                 'denuncia_id' => 3041,
@@ -7111,7 +7102,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            288 => 
+            287 => 
             array (
                 'id' => 792,
                 'denuncia_id' => 3045,
@@ -7120,7 +7111,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            289 => 
+            288 => 
             array (
                 'id' => 793,
                 'denuncia_id' => 3047,
@@ -7129,7 +7120,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            290 => 
+            289 => 
             array (
                 'id' => 794,
                 'denuncia_id' => 3047,
@@ -7138,7 +7129,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            291 => 
+            290 => 
             array (
                 'id' => 795,
                 'denuncia_id' => 3047,
@@ -7147,7 +7138,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            292 => 
+            291 => 
             array (
                 'id' => 796,
                 'denuncia_id' => 3050,
@@ -7156,7 +7147,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            293 => 
+            292 => 
             array (
                 'id' => 797,
                 'denuncia_id' => 3051,
@@ -7165,7 +7156,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            294 => 
+            293 => 
             array (
                 'id' => 798,
                 'denuncia_id' => 3051,
@@ -7174,7 +7165,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            295 => 
+            294 => 
             array (
                 'id' => 799,
                 'denuncia_id' => 3055,
@@ -7183,7 +7174,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            296 => 
+            295 => 
             array (
                 'id' => 800,
                 'denuncia_id' => 3055,
@@ -7192,7 +7183,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            297 => 
+            296 => 
             array (
                 'id' => 801,
                 'denuncia_id' => 3055,
@@ -7201,7 +7192,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            298 => 
+            297 => 
             array (
                 'id' => 802,
                 'denuncia_id' => 3056,
@@ -7210,7 +7201,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            299 => 
+            298 => 
             array (
                 'id' => 803,
                 'denuncia_id' => 3056,
@@ -7219,7 +7210,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            300 => 
+            299 => 
             array (
                 'id' => 804,
                 'denuncia_id' => 3056,
@@ -7228,7 +7219,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            301 => 
+            300 => 
             array (
                 'id' => 805,
                 'denuncia_id' => 3057,
@@ -7237,7 +7228,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            302 => 
+            301 => 
             array (
                 'id' => 806,
                 'denuncia_id' => 3058,
@@ -7246,7 +7237,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            303 => 
+            302 => 
             array (
                 'id' => 807,
                 'denuncia_id' => 3059,
@@ -7255,7 +7246,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            304 => 
+            303 => 
             array (
                 'id' => 808,
                 'denuncia_id' => 3060,
@@ -7264,7 +7255,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            305 => 
+            304 => 
             array (
                 'id' => 809,
                 'denuncia_id' => 3061,
@@ -7273,7 +7264,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            306 => 
+            305 => 
             array (
                 'id' => 810,
                 'denuncia_id' => 3065,
@@ -7282,7 +7273,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            307 => 
+            306 => 
             array (
                 'id' => 811,
                 'denuncia_id' => 3065,
@@ -7291,7 +7282,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            308 => 
+            307 => 
             array (
                 'id' => 812,
                 'denuncia_id' => 3065,
@@ -7300,7 +7291,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            309 => 
+            308 => 
             array (
                 'id' => 813,
                 'denuncia_id' => 3066,
@@ -7309,7 +7300,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            310 => 
+            309 => 
             array (
                 'id' => 814,
                 'denuncia_id' => 3066,
@@ -7318,7 +7309,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            311 => 
+            310 => 
             array (
                 'id' => 815,
                 'denuncia_id' => 3066,
@@ -7327,7 +7318,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            312 => 
+            311 => 
             array (
                 'id' => 816,
                 'denuncia_id' => 3066,
@@ -7336,7 +7327,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            313 => 
+            312 => 
             array (
                 'id' => 817,
                 'denuncia_id' => 3067,
@@ -7345,7 +7336,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            314 => 
+            313 => 
             array (
                 'id' => 818,
                 'denuncia_id' => 3067,
@@ -7354,7 +7345,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            315 => 
+            314 => 
             array (
                 'id' => 819,
                 'denuncia_id' => 3067,
@@ -7363,7 +7354,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            316 => 
+            315 => 
             array (
                 'id' => 820,
                 'denuncia_id' => 3067,
@@ -7372,7 +7363,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            317 => 
+            316 => 
             array (
                 'id' => 821,
                 'denuncia_id' => 3068,
@@ -7381,7 +7372,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            318 => 
+            317 => 
             array (
                 'id' => 822,
                 'denuncia_id' => 3070,
@@ -7390,7 +7381,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            319 => 
+            318 => 
             array (
                 'id' => 823,
                 'denuncia_id' => 3070,
@@ -7399,7 +7390,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            320 => 
+            319 => 
             array (
                 'id' => 824,
                 'denuncia_id' => 3070,
@@ -7408,7 +7399,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            321 => 
+            320 => 
             array (
                 'id' => 825,
                 'denuncia_id' => 3072,
@@ -7417,7 +7408,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            322 => 
+            321 => 
             array (
                 'id' => 826,
                 'denuncia_id' => 3072,
@@ -7426,7 +7417,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            323 => 
+            322 => 
             array (
                 'id' => 827,
                 'denuncia_id' => 3072,
@@ -7435,7 +7426,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            324 => 
+            323 => 
             array (
                 'id' => 828,
                 'denuncia_id' => 3073,
@@ -7444,7 +7435,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            325 => 
+            324 => 
             array (
                 'id' => 829,
                 'denuncia_id' => 3074,
@@ -7453,7 +7444,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            326 => 
+            325 => 
             array (
                 'id' => 830,
                 'denuncia_id' => 3074,
@@ -7462,7 +7453,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            327 => 
+            326 => 
             array (
                 'id' => 831,
                 'denuncia_id' => 3074,
@@ -7471,7 +7462,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            328 => 
+            327 => 
             array (
                 'id' => 832,
                 'denuncia_id' => 3074,
@@ -7480,7 +7471,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            329 => 
+            328 => 
             array (
                 'id' => 833,
                 'denuncia_id' => 3076,
@@ -7489,7 +7480,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            330 => 
+            329 => 
             array (
                 'id' => 834,
                 'denuncia_id' => 3076,
@@ -7498,7 +7489,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            331 => 
+            330 => 
             array (
                 'id' => 835,
                 'denuncia_id' => 3076,
@@ -7507,7 +7498,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            332 => 
+            331 => 
             array (
                 'id' => 836,
                 'denuncia_id' => 3076,
@@ -7516,7 +7507,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            333 => 
+            332 => 
             array (
                 'id' => 837,
                 'denuncia_id' => 3076,
@@ -7525,7 +7516,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            334 => 
+            333 => 
             array (
                 'id' => 838,
                 'denuncia_id' => 1772,
@@ -7534,7 +7525,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            335 => 
+            334 => 
             array (
                 'id' => 839,
                 'denuncia_id' => 3077,
@@ -7543,7 +7534,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            336 => 
+            335 => 
             array (
                 'id' => 840,
                 'denuncia_id' => 3077,
@@ -7552,7 +7543,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            337 => 
+            336 => 
             array (
                 'id' => 841,
                 'denuncia_id' => 3077,
@@ -7561,7 +7552,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            338 => 
+            337 => 
             array (
                 'id' => 842,
                 'denuncia_id' => 3077,
@@ -7570,7 +7561,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            339 => 
+            338 => 
             array (
                 'id' => 843,
                 'denuncia_id' => 1397,
@@ -7579,7 +7570,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            340 => 
+            339 => 
             array (
                 'id' => 844,
                 'denuncia_id' => 3078,
@@ -7588,7 +7579,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            341 => 
+            340 => 
             array (
                 'id' => 845,
                 'denuncia_id' => 3078,
@@ -7597,7 +7588,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            342 => 
+            341 => 
             array (
                 'id' => 846,
                 'denuncia_id' => 3078,
@@ -7606,7 +7597,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            343 => 
+            342 => 
             array (
                 'id' => 847,
                 'denuncia_id' => 3079,
@@ -7615,7 +7606,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            344 => 
+            343 => 
             array (
                 'id' => 848,
                 'denuncia_id' => 3079,
@@ -7624,7 +7615,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            345 => 
+            344 => 
             array (
                 'id' => 849,
                 'denuncia_id' => 3079,
@@ -7633,7 +7624,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            346 => 
+            345 => 
             array (
                 'id' => 850,
                 'denuncia_id' => 3079,
@@ -7642,7 +7633,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            347 => 
+            346 => 
             array (
                 'id' => 851,
                 'denuncia_id' => 1614,
@@ -7651,7 +7642,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            348 => 
+            347 => 
             array (
                 'id' => 852,
                 'denuncia_id' => 1614,
@@ -7660,7 +7651,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            349 => 
+            348 => 
             array (
                 'id' => 853,
                 'denuncia_id' => 3080,
@@ -7669,7 +7660,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            350 => 
+            349 => 
             array (
                 'id' => 854,
                 'denuncia_id' => 2207,
@@ -7678,7 +7669,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            351 => 
+            350 => 
             array (
                 'id' => 855,
                 'denuncia_id' => 2207,
@@ -7687,7 +7678,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            352 => 
+            351 => 
             array (
                 'id' => 856,
                 'denuncia_id' => 2207,
@@ -7696,7 +7687,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            353 => 
+            352 => 
             array (
                 'id' => 857,
                 'denuncia_id' => 3082,
@@ -7705,7 +7696,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            354 => 
+            353 => 
             array (
                 'id' => 858,
                 'denuncia_id' => 3082,
@@ -7714,7 +7705,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            355 => 
+            354 => 
             array (
                 'id' => 859,
                 'denuncia_id' => 3082,
@@ -7723,7 +7714,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            356 => 
+            355 => 
             array (
                 'id' => 860,
                 'denuncia_id' => 3082,
@@ -7732,7 +7723,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            357 => 
+            356 => 
             array (
                 'id' => 861,
                 'denuncia_id' => 3085,
@@ -7741,7 +7732,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            358 => 
+            357 => 
             array (
                 'id' => 862,
                 'denuncia_id' => 2151,
@@ -7750,7 +7741,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            359 => 
+            358 => 
             array (
                 'id' => 863,
                 'denuncia_id' => 2151,
@@ -7759,7 +7750,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            360 => 
+            359 => 
             array (
                 'id' => 864,
                 'denuncia_id' => 2682,
@@ -7768,7 +7759,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            361 => 
+            360 => 
             array (
                 'id' => 865,
                 'denuncia_id' => 2682,
@@ -7777,7 +7768,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            362 => 
+            361 => 
             array (
                 'id' => 866,
                 'denuncia_id' => 2682,
@@ -7786,7 +7777,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            363 => 
+            362 => 
             array (
                 'id' => 867,
                 'denuncia_id' => 3086,
@@ -7795,7 +7786,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            364 => 
+            363 => 
             array (
                 'id' => 868,
                 'denuncia_id' => 2119,
@@ -7804,7 +7795,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            365 => 
+            364 => 
             array (
                 'id' => 869,
                 'denuncia_id' => 2119,
@@ -7813,7 +7804,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            366 => 
+            365 => 
             array (
                 'id' => 870,
                 'denuncia_id' => 3088,
@@ -7822,7 +7813,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            367 => 
+            366 => 
             array (
                 'id' => 871,
                 'denuncia_id' => 3088,
@@ -7831,7 +7822,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            368 => 
+            367 => 
             array (
                 'id' => 872,
                 'denuncia_id' => 3088,
@@ -7840,7 +7831,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            369 => 
+            368 => 
             array (
                 'id' => 873,
                 'denuncia_id' => 2070,
@@ -7849,7 +7840,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            370 => 
+            369 => 
             array (
                 'id' => 874,
                 'denuncia_id' => 2672,
@@ -7858,7 +7849,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            371 => 
+            370 => 
             array (
                 'id' => 875,
                 'denuncia_id' => 2672,
@@ -7867,7 +7858,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            372 => 
+            371 => 
             array (
                 'id' => 876,
                 'denuncia_id' => 2615,
@@ -7876,7 +7867,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            373 => 
+            372 => 
             array (
                 'id' => 877,
                 'denuncia_id' => 2615,
@@ -7885,7 +7876,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            374 => 
+            373 => 
             array (
                 'id' => 878,
                 'denuncia_id' => 3090,
@@ -7894,7 +7885,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            375 => 
+            374 => 
             array (
                 'id' => 879,
                 'denuncia_id' => 2559,
@@ -7903,7 +7894,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            376 => 
+            375 => 
             array (
                 'id' => 880,
                 'denuncia_id' => 2559,
@@ -7912,7 +7903,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            377 => 
+            376 => 
             array (
                 'id' => 881,
                 'denuncia_id' => 2559,
@@ -7921,7 +7912,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            378 => 
+            377 => 
             array (
                 'id' => 882,
                 'denuncia_id' => 2547,
@@ -7930,7 +7921,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            379 => 
+            378 => 
             array (
                 'id' => 883,
                 'denuncia_id' => 2547,
@@ -7939,7 +7930,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            380 => 
+            379 => 
             array (
                 'id' => 884,
                 'denuncia_id' => 3093,
@@ -7948,7 +7939,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            381 => 
+            380 => 
             array (
                 'id' => 885,
                 'denuncia_id' => 3093,
@@ -7957,7 +7948,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            382 => 
+            381 => 
             array (
                 'id' => 886,
                 'denuncia_id' => 3093,
@@ -7966,7 +7957,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            383 => 
+            382 => 
             array (
                 'id' => 887,
                 'denuncia_id' => 3092,
@@ -7975,7 +7966,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            384 => 
+            383 => 
             array (
                 'id' => 888,
                 'denuncia_id' => 2552,
@@ -7984,7 +7975,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            385 => 
+            384 => 
             array (
                 'id' => 889,
                 'denuncia_id' => 2552,
@@ -7993,7 +7984,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            386 => 
+            385 => 
             array (
                 'id' => 890,
                 'denuncia_id' => 2179,
@@ -8002,7 +7993,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            387 => 
+            386 => 
             array (
                 'id' => 891,
                 'denuncia_id' => 2179,
@@ -8011,7 +8002,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            388 => 
+            387 => 
             array (
                 'id' => 892,
                 'denuncia_id' => 2185,
@@ -8020,7 +8011,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            389 => 
+            388 => 
             array (
                 'id' => 893,
                 'denuncia_id' => 2185,
@@ -8029,7 +8020,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            390 => 
+            389 => 
             array (
                 'id' => 894,
                 'denuncia_id' => 3097,
@@ -8038,7 +8029,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            391 => 
+            390 => 
             array (
                 'id' => 895,
                 'denuncia_id' => 3097,
@@ -8047,7 +8038,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            392 => 
+            391 => 
             array (
                 'id' => 896,
                 'denuncia_id' => 3097,
@@ -8056,7 +8047,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            393 => 
+            392 => 
             array (
                 'id' => 897,
                 'denuncia_id' => 3097,
@@ -8065,7 +8056,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            394 => 
+            393 => 
             array (
                 'id' => 898,
                 'denuncia_id' => 3096,
@@ -8074,7 +8065,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            395 => 
+            394 => 
             array (
                 'id' => 899,
                 'denuncia_id' => 3099,
@@ -8083,7 +8074,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            396 => 
+            395 => 
             array (
                 'id' => 900,
                 'denuncia_id' => 3101,
@@ -8092,7 +8083,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            397 => 
+            396 => 
             array (
                 'id' => 901,
                 'denuncia_id' => 3101,
@@ -8101,7 +8092,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            398 => 
+            397 => 
             array (
                 'id' => 902,
                 'denuncia_id' => 3101,
@@ -8110,7 +8101,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            399 => 
+            398 => 
             array (
                 'id' => 903,
                 'denuncia_id' => 3102,
@@ -8119,7 +8110,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            400 => 
+            399 => 
             array (
                 'id' => 904,
                 'denuncia_id' => 3103,
@@ -8128,7 +8119,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            401 => 
+            400 => 
             array (
                 'id' => 905,
                 'denuncia_id' => 3106,
@@ -8137,7 +8128,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            402 => 
+            401 => 
             array (
                 'id' => 906,
                 'denuncia_id' => 3109,
@@ -8146,7 +8137,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            403 => 
+            402 => 
             array (
                 'id' => 907,
                 'denuncia_id' => 3122,
@@ -8155,7 +8146,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            404 => 
+            403 => 
             array (
                 'id' => 908,
                 'denuncia_id' => 3122,
@@ -8164,7 +8155,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            405 => 
+            404 => 
             array (
                 'id' => 909,
                 'denuncia_id' => 3120,
@@ -8173,7 +8164,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            406 => 
+            405 => 
             array (
                 'id' => 910,
                 'denuncia_id' => 3120,
@@ -8182,7 +8173,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            407 => 
+            406 => 
             array (
                 'id' => 911,
                 'denuncia_id' => 3120,
@@ -8191,7 +8182,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            408 => 
+            407 => 
             array (
                 'id' => 912,
                 'denuncia_id' => 3123,
@@ -8200,7 +8191,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            409 => 
+            408 => 
             array (
                 'id' => 913,
                 'denuncia_id' => 3123,
@@ -8209,7 +8200,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            410 => 
+            409 => 
             array (
                 'id' => 914,
                 'denuncia_id' => 3125,
@@ -8218,7 +8209,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            411 => 
+            410 => 
             array (
                 'id' => 915,
                 'denuncia_id' => 3125,
@@ -8227,7 +8218,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            412 => 
+            411 => 
             array (
                 'id' => 916,
                 'denuncia_id' => 3125,
@@ -8236,7 +8227,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            413 => 
+            412 => 
             array (
                 'id' => 917,
                 'denuncia_id' => 3127,
@@ -8245,7 +8236,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            414 => 
+            413 => 
             array (
                 'id' => 918,
                 'denuncia_id' => 3127,
@@ -8254,7 +8245,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            415 => 
+            414 => 
             array (
                 'id' => 919,
                 'denuncia_id' => 3127,
@@ -8263,7 +8254,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            416 => 
+            415 => 
             array (
                 'id' => 920,
                 'denuncia_id' => 3124,
@@ -8272,7 +8263,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            417 => 
+            416 => 
             array (
                 'id' => 921,
                 'denuncia_id' => 3124,
@@ -8281,7 +8272,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            418 => 
+            417 => 
             array (
                 'id' => 922,
                 'denuncia_id' => 3124,
@@ -8290,7 +8281,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            419 => 
+            418 => 
             array (
                 'id' => 923,
                 'denuncia_id' => 3124,
@@ -8299,7 +8290,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            420 => 
+            419 => 
             array (
                 'id' => 924,
                 'denuncia_id' => 3128,
@@ -8308,7 +8299,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            421 => 
+            420 => 
             array (
                 'id' => 925,
                 'denuncia_id' => 3128,
@@ -8317,7 +8308,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            422 => 
+            421 => 
             array (
                 'id' => 926,
                 'denuncia_id' => 3128,
@@ -8326,7 +8317,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            423 => 
+            422 => 
             array (
                 'id' => 927,
                 'denuncia_id' => 3128,
@@ -8335,7 +8326,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            424 => 
+            423 => 
             array (
                 'id' => 928,
                 'denuncia_id' => 3129,
@@ -8344,7 +8335,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            425 => 
+            424 => 
             array (
                 'id' => 929,
                 'denuncia_id' => 3129,
@@ -8353,7 +8344,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            426 => 
+            425 => 
             array (
                 'id' => 930,
                 'denuncia_id' => 3130,
@@ -8362,7 +8353,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            427 => 
+            426 => 
             array (
                 'id' => 931,
                 'denuncia_id' => 3130,
@@ -8371,7 +8362,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            428 => 
+            427 => 
             array (
                 'id' => 932,
                 'denuncia_id' => 3130,
@@ -8380,7 +8371,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            429 => 
+            428 => 
             array (
                 'id' => 933,
                 'denuncia_id' => 3130,
@@ -8389,7 +8380,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            430 => 
+            429 => 
             array (
                 'id' => 934,
                 'denuncia_id' => 3131,
@@ -8398,7 +8389,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            431 => 
+            430 => 
             array (
                 'id' => 935,
                 'denuncia_id' => 3131,
@@ -8407,7 +8398,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            432 => 
+            431 => 
             array (
                 'id' => 936,
                 'denuncia_id' => 3131,
@@ -8416,7 +8407,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            433 => 
+            432 => 
             array (
                 'id' => 937,
                 'denuncia_id' => 3133,
@@ -8425,7 +8416,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            434 => 
+            433 => 
             array (
                 'id' => 938,
                 'denuncia_id' => 3134,
@@ -8434,7 +8425,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            435 => 
+            434 => 
             array (
                 'id' => 939,
                 'denuncia_id' => 3135,
@@ -8443,7 +8434,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            436 => 
+            435 => 
             array (
                 'id' => 940,
                 'denuncia_id' => 3136,
@@ -8452,7 +8443,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            437 => 
+            436 => 
             array (
                 'id' => 941,
                 'denuncia_id' => 3137,
@@ -8461,7 +8452,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            438 => 
+            437 => 
             array (
                 'id' => 942,
                 'denuncia_id' => 3137,
@@ -8470,7 +8461,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            439 => 
+            438 => 
             array (
                 'id' => 943,
                 'denuncia_id' => 3137,
@@ -8479,7 +8470,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            440 => 
+            439 => 
             array (
                 'id' => 944,
                 'denuncia_id' => 3137,
@@ -8488,7 +8479,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            441 => 
+            440 => 
             array (
                 'id' => 945,
                 'denuncia_id' => 3138,
@@ -8497,7 +8488,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            442 => 
+            441 => 
             array (
                 'id' => 946,
                 'denuncia_id' => 3138,
@@ -8506,7 +8497,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            443 => 
+            442 => 
             array (
                 'id' => 947,
                 'denuncia_id' => 3138,
@@ -8515,7 +8506,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            444 => 
+            443 => 
             array (
                 'id' => 948,
                 'denuncia_id' => 3148,
@@ -8524,7 +8515,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            445 => 
+            444 => 
             array (
                 'id' => 949,
                 'denuncia_id' => 3148,
@@ -8533,7 +8524,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            446 => 
+            445 => 
             array (
                 'id' => 950,
                 'denuncia_id' => 3148,
@@ -8542,7 +8533,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            447 => 
+            446 => 
             array (
                 'id' => 951,
                 'denuncia_id' => 3151,
@@ -8551,7 +8542,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            448 => 
+            447 => 
             array (
                 'id' => 952,
                 'denuncia_id' => 3151,
@@ -8560,7 +8551,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            449 => 
+            448 => 
             array (
                 'id' => 953,
                 'denuncia_id' => 3152,
@@ -8569,7 +8560,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            450 => 
+            449 => 
             array (
                 'id' => 954,
                 'denuncia_id' => 3152,
@@ -8578,7 +8569,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            451 => 
+            450 => 
             array (
                 'id' => 955,
                 'denuncia_id' => 3152,
@@ -8587,7 +8578,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            452 => 
+            451 => 
             array (
                 'id' => 956,
                 'denuncia_id' => 3152,
@@ -8596,7 +8587,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            453 => 
+            452 => 
             array (
                 'id' => 957,
                 'denuncia_id' => 3156,
@@ -8605,7 +8596,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            454 => 
+            453 => 
             array (
                 'id' => 958,
                 'denuncia_id' => 3156,
@@ -8614,7 +8605,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            455 => 
+            454 => 
             array (
                 'id' => 959,
                 'denuncia_id' => 3156,
@@ -8623,7 +8614,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            456 => 
+            455 => 
             array (
                 'id' => 960,
                 'denuncia_id' => 3156,
@@ -8632,7 +8623,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            457 => 
+            456 => 
             array (
                 'id' => 961,
                 'denuncia_id' => 3159,
@@ -8641,7 +8632,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            458 => 
+            457 => 
             array (
                 'id' => 962,
                 'denuncia_id' => 3169,
@@ -8650,7 +8641,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            459 => 
+            458 => 
             array (
                 'id' => 963,
                 'denuncia_id' => 3169,
@@ -8659,7 +8650,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            460 => 
+            459 => 
             array (
                 'id' => 964,
                 'denuncia_id' => 3169,
@@ -8668,7 +8659,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            461 => 
+            460 => 
             array (
                 'id' => 965,
                 'denuncia_id' => 3169,
@@ -8677,7 +8668,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            462 => 
+            461 => 
             array (
                 'id' => 966,
                 'denuncia_id' => 2641,
@@ -8686,7 +8677,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            463 => 
+            462 => 
             array (
                 'id' => 967,
                 'denuncia_id' => 2641,
@@ -8695,7 +8686,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            464 => 
+            463 => 
             array (
                 'id' => 968,
                 'denuncia_id' => 2679,
@@ -8704,7 +8695,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            465 => 
+            464 => 
             array (
                 'id' => 969,
                 'denuncia_id' => 2679,
@@ -8713,7 +8704,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            466 => 
+            465 => 
             array (
                 'id' => 970,
                 'denuncia_id' => 3171,
@@ -8722,7 +8713,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            467 => 
+            466 => 
             array (
                 'id' => 971,
                 'denuncia_id' => 1730,
@@ -8731,7 +8722,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            468 => 
+            467 => 
             array (
                 'id' => 972,
                 'denuncia_id' => 1730,
@@ -8740,7 +8731,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            469 => 
+            468 => 
             array (
                 'id' => 973,
                 'denuncia_id' => 1730,
@@ -8749,7 +8740,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            470 => 
+            469 => 
             array (
                 'id' => 974,
                 'denuncia_id' => 3172,
@@ -8758,7 +8749,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            471 => 
+            470 => 
             array (
                 'id' => 975,
                 'denuncia_id' => 1427,
@@ -8767,7 +8758,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            472 => 
+            471 => 
             array (
                 'id' => 976,
                 'denuncia_id' => 1427,
@@ -8776,7 +8767,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            473 => 
+            472 => 
             array (
                 'id' => 977,
                 'denuncia_id' => 1427,
@@ -8785,7 +8776,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            474 => 
+            473 => 
             array (
                 'id' => 978,
                 'denuncia_id' => 3173,
@@ -8794,7 +8785,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            475 => 
+            474 => 
             array (
                 'id' => 979,
                 'denuncia_id' => 3173,
@@ -8803,7 +8794,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            476 => 
+            475 => 
             array (
                 'id' => 980,
                 'denuncia_id' => 3173,
@@ -8812,7 +8803,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            477 => 
+            476 => 
             array (
                 'id' => 981,
                 'denuncia_id' => 1447,
@@ -8821,7 +8812,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            478 => 
+            477 => 
             array (
                 'id' => 982,
                 'denuncia_id' => 1447,
@@ -8830,7 +8821,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            479 => 
+            478 => 
             array (
                 'id' => 983,
                 'denuncia_id' => 3178,
@@ -8839,7 +8830,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            480 => 
+            479 => 
             array (
                 'id' => 984,
                 'denuncia_id' => 3178,
@@ -8848,7 +8839,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            481 => 
+            480 => 
             array (
                 'id' => 985,
                 'denuncia_id' => 3175,
@@ -8857,7 +8848,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            482 => 
+            481 => 
             array (
                 'id' => 986,
                 'denuncia_id' => 3179,
@@ -8866,7 +8857,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            483 => 
+            482 => 
             array (
                 'id' => 987,
                 'denuncia_id' => 3180,
@@ -8875,7 +8866,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            484 => 
+            483 => 
             array (
                 'id' => 988,
                 'denuncia_id' => 3180,
@@ -8884,7 +8875,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            485 => 
+            484 => 
             array (
                 'id' => 989,
                 'denuncia_id' => 3180,
@@ -8893,7 +8884,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            486 => 
+            485 => 
             array (
                 'id' => 990,
                 'denuncia_id' => 3180,
@@ -8902,7 +8893,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            487 => 
+            486 => 
             array (
                 'id' => 991,
                 'denuncia_id' => 2134,
@@ -8911,7 +8902,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            488 => 
+            487 => 
             array (
                 'id' => 992,
                 'denuncia_id' => 3184,
@@ -8920,7 +8911,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            489 => 
+            488 => 
             array (
                 'id' => 993,
                 'denuncia_id' => 3184,
@@ -8929,7 +8920,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            490 => 
+            489 => 
             array (
                 'id' => 994,
                 'denuncia_id' => 3184,
@@ -8938,7 +8929,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            491 => 
+            490 => 
             array (
                 'id' => 995,
                 'denuncia_id' => 3185,
@@ -8947,7 +8938,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            492 => 
+            491 => 
             array (
                 'id' => 996,
                 'denuncia_id' => 3185,
@@ -8956,7 +8947,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            493 => 
+            492 => 
             array (
                 'id' => 997,
                 'denuncia_id' => 3185,
@@ -8965,7 +8956,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            494 => 
+            493 => 
             array (
                 'id' => 998,
                 'denuncia_id' => 3185,
@@ -8974,7 +8965,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            495 => 
+            494 => 
             array (
                 'id' => 999,
                 'denuncia_id' => 3186,
@@ -8983,7 +8974,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            496 => 
+            495 => 
             array (
                 'id' => 1000,
                 'denuncia_id' => 3188,
@@ -8992,7 +8983,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            497 => 
+            496 => 
             array (
                 'id' => 1001,
                 'denuncia_id' => 3187,
@@ -9001,7 +8992,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            498 => 
+            497 => 
             array (
                 'id' => 1002,
                 'denuncia_id' => 3187,
@@ -9010,7 +9001,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            499 => 
+            498 => 
             array (
                 'id' => 1003,
                 'denuncia_id' => 3187,
@@ -9019,9 +9010,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-        ));
-        \DB::table('denuncia_tblmedida')->insert(array (
-            0 => 
+            499 => 
             array (
                 'id' => 1004,
                 'denuncia_id' => 3187,
@@ -9030,7 +9019,9 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            1 => 
+        ));
+        \DB::table('denuncia_tblmedida')->insert(array (
+            0 => 
             array (
                 'id' => 1005,
                 'denuncia_id' => 3187,
@@ -9039,7 +9030,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            2 => 
+            1 => 
             array (
                 'id' => 1006,
                 'denuncia_id' => 3191,
@@ -9048,7 +9039,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            3 => 
+            2 => 
             array (
                 'id' => 1007,
                 'denuncia_id' => 3191,
@@ -9057,7 +9048,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            4 => 
+            3 => 
             array (
                 'id' => 1008,
                 'denuncia_id' => 3191,
@@ -9066,7 +9057,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            5 => 
+            4 => 
             array (
                 'id' => 1009,
                 'denuncia_id' => 3191,
@@ -9075,7 +9066,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            6 => 
+            5 => 
             array (
                 'id' => 1010,
                 'denuncia_id' => 3190,
@@ -9084,7 +9075,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            7 => 
+            6 => 
             array (
                 'id' => 1011,
                 'denuncia_id' => 3194,
@@ -9093,7 +9084,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            8 => 
+            7 => 
             array (
                 'id' => 1012,
                 'denuncia_id' => 3198,
@@ -9102,7 +9093,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            9 => 
+            8 => 
             array (
                 'id' => 1013,
                 'denuncia_id' => 3195,
@@ -9111,7 +9102,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            10 => 
+            9 => 
             array (
                 'id' => 1014,
                 'denuncia_id' => 3195,
@@ -9120,7 +9111,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            11 => 
+            10 => 
             array (
                 'id' => 1015,
                 'denuncia_id' => 3195,
@@ -9129,7 +9120,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            12 => 
+            11 => 
             array (
                 'id' => 1016,
                 'denuncia_id' => 3200,
@@ -9138,7 +9129,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            13 => 
+            12 => 
             array (
                 'id' => 1017,
                 'denuncia_id' => 3201,
@@ -9147,7 +9138,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            14 => 
+            13 => 
             array (
                 'id' => 1018,
                 'denuncia_id' => 3201,
@@ -9156,7 +9147,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            15 => 
+            14 => 
             array (
                 'id' => 1019,
                 'denuncia_id' => 3201,
@@ -9165,7 +9156,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            16 => 
+            15 => 
             array (
                 'id' => 1020,
                 'denuncia_id' => 3202,
@@ -9174,7 +9165,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            17 => 
+            16 => 
             array (
                 'id' => 1021,
                 'denuncia_id' => 3205,
@@ -9183,7 +9174,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            18 => 
+            17 => 
             array (
                 'id' => 1022,
                 'denuncia_id' => 3205,
@@ -9192,7 +9183,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            19 => 
+            18 => 
             array (
                 'id' => 1023,
                 'denuncia_id' => 3205,
@@ -9201,7 +9192,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            20 => 
+            19 => 
             array (
                 'id' => 1024,
                 'denuncia_id' => 3207,
@@ -9210,7 +9201,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            21 => 
+            20 => 
             array (
                 'id' => 1025,
                 'denuncia_id' => 3208,
@@ -9219,7 +9210,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            22 => 
+            21 => 
             array (
                 'id' => 1026,
                 'denuncia_id' => 3208,
@@ -9228,7 +9219,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            23 => 
+            22 => 
             array (
                 'id' => 1027,
                 'denuncia_id' => 3208,
@@ -9237,7 +9228,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            24 => 
+            23 => 
             array (
                 'id' => 1028,
                 'denuncia_id' => 3211,
@@ -9246,7 +9237,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            25 => 
+            24 => 
             array (
                 'id' => 1029,
                 'denuncia_id' => 3211,
@@ -9255,7 +9246,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            26 => 
+            25 => 
             array (
                 'id' => 1030,
                 'denuncia_id' => 3211,
@@ -9264,7 +9255,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            27 => 
+            26 => 
             array (
                 'id' => 1031,
                 'denuncia_id' => 3211,
@@ -9273,7 +9264,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            28 => 
+            27 => 
             array (
                 'id' => 1032,
                 'denuncia_id' => 3212,
@@ -9282,7 +9273,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            29 => 
+            28 => 
             array (
                 'id' => 1033,
                 'denuncia_id' => 3212,
@@ -9291,7 +9282,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            30 => 
+            29 => 
             array (
                 'id' => 1034,
                 'denuncia_id' => 3212,
@@ -9300,7 +9291,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            31 => 
+            30 => 
             array (
                 'id' => 1035,
                 'denuncia_id' => 3215,
@@ -9309,7 +9300,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            32 => 
+            31 => 
             array (
                 'id' => 1036,
                 'denuncia_id' => 3215,
@@ -9318,7 +9309,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            33 => 
+            32 => 
             array (
                 'id' => 1037,
                 'denuncia_id' => 3215,
@@ -9327,7 +9318,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            34 => 
+            33 => 
             array (
                 'id' => 1038,
                 'denuncia_id' => 3215,
@@ -9336,7 +9327,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            35 => 
+            34 => 
             array (
                 'id' => 1039,
                 'denuncia_id' => 2561,
@@ -9345,7 +9336,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            36 => 
+            35 => 
             array (
                 'id' => 1040,
                 'denuncia_id' => 2561,
@@ -9354,7 +9345,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            37 => 
+            36 => 
             array (
                 'id' => 1041,
                 'denuncia_id' => 2560,
@@ -9363,7 +9354,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            38 => 
+            37 => 
             array (
                 'id' => 1042,
                 'denuncia_id' => 2560,
@@ -9372,7 +9363,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            39 => 
+            38 => 
             array (
                 'id' => 1043,
                 'denuncia_id' => 2555,
@@ -9381,7 +9372,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            40 => 
+            39 => 
             array (
                 'id' => 1044,
                 'denuncia_id' => 2555,
@@ -9390,7 +9381,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            41 => 
+            40 => 
             array (
                 'id' => 1045,
                 'denuncia_id' => 2554,
@@ -9399,7 +9390,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            42 => 
+            41 => 
             array (
                 'id' => 1046,
                 'denuncia_id' => 2554,
@@ -9408,7 +9399,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            43 => 
+            42 => 
             array (
                 'id' => 1047,
                 'denuncia_id' => 3216,
@@ -9417,7 +9408,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            44 => 
+            43 => 
             array (
                 'id' => 1048,
                 'denuncia_id' => 3216,
@@ -9426,7 +9417,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            45 => 
+            44 => 
             array (
                 'id' => 1049,
                 'denuncia_id' => 3216,
@@ -9435,7 +9426,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            46 => 
+            45 => 
             array (
                 'id' => 1050,
                 'denuncia_id' => 3218,
@@ -9444,7 +9435,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            47 => 
+            46 => 
             array (
                 'id' => 1051,
                 'denuncia_id' => 3218,
@@ -9453,7 +9444,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            48 => 
+            47 => 
             array (
                 'id' => 1052,
                 'denuncia_id' => 3218,
@@ -9462,7 +9453,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            49 => 
+            48 => 
             array (
                 'id' => 1053,
                 'denuncia_id' => 3218,
@@ -9471,7 +9462,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            50 => 
+            49 => 
             array (
                 'id' => 1054,
                 'denuncia_id' => 3222,
@@ -9480,7 +9471,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            51 => 
+            50 => 
             array (
                 'id' => 1055,
                 'denuncia_id' => 3222,
@@ -9489,7 +9480,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            52 => 
+            51 => 
             array (
                 'id' => 1056,
                 'denuncia_id' => 3222,
@@ -9498,7 +9489,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            53 => 
+            52 => 
             array (
                 'id' => 1057,
                 'denuncia_id' => 3222,
@@ -9507,7 +9498,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            54 => 
+            53 => 
             array (
                 'id' => 1058,
                 'denuncia_id' => 3222,
@@ -9516,7 +9507,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            55 => 
+            54 => 
             array (
                 'id' => 1059,
                 'denuncia_id' => 3222,
@@ -9525,7 +9516,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            56 => 
+            55 => 
             array (
                 'id' => 1060,
                 'denuncia_id' => 3229,
@@ -9534,7 +9525,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            57 => 
+            56 => 
             array (
                 'id' => 1061,
                 'denuncia_id' => 3229,
@@ -9543,7 +9534,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            58 => 
+            57 => 
             array (
                 'id' => 1062,
                 'denuncia_id' => 3229,
@@ -9552,7 +9543,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            59 => 
+            58 => 
             array (
                 'id' => 1063,
                 'denuncia_id' => 3229,
@@ -9561,7 +9552,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            60 => 
+            59 => 
             array (
                 'id' => 1064,
                 'denuncia_id' => 3229,
@@ -9570,7 +9561,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            61 => 
+            60 => 
             array (
                 'id' => 1065,
                 'denuncia_id' => 3232,
@@ -9579,7 +9570,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            62 => 
+            61 => 
             array (
                 'id' => 1066,
                 'denuncia_id' => 3232,
@@ -9588,7 +9579,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            63 => 
+            62 => 
             array (
                 'id' => 1067,
                 'denuncia_id' => 3233,
@@ -9597,7 +9588,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            64 => 
+            63 => 
             array (
                 'id' => 1068,
                 'denuncia_id' => 3233,
@@ -9606,7 +9597,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            65 => 
+            64 => 
             array (
                 'id' => 1069,
                 'denuncia_id' => 3234,
@@ -9615,7 +9606,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            66 => 
+            65 => 
             array (
                 'id' => 1070,
                 'denuncia_id' => 3234,
@@ -9624,7 +9615,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            67 => 
+            66 => 
             array (
                 'id' => 1071,
                 'denuncia_id' => 3235,
@@ -9633,7 +9624,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            68 => 
+            67 => 
             array (
                 'id' => 1072,
                 'denuncia_id' => 3235,
@@ -9642,7 +9633,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            69 => 
+            68 => 
             array (
                 'id' => 1073,
                 'denuncia_id' => 3235,
@@ -9651,7 +9642,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            70 => 
+            69 => 
             array (
                 'id' => 1074,
                 'denuncia_id' => 3237,
@@ -9660,7 +9651,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            71 => 
+            70 => 
             array (
                 'id' => 1075,
                 'denuncia_id' => 3237,
@@ -9669,7 +9660,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            72 => 
+            71 => 
             array (
                 'id' => 1076,
                 'denuncia_id' => 2655,
@@ -9678,7 +9669,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            73 => 
+            72 => 
             array (
                 'id' => 1077,
                 'denuncia_id' => 3238,
@@ -9687,7 +9678,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            74 => 
+            73 => 
             array (
                 'id' => 1078,
                 'denuncia_id' => 3238,
@@ -9696,7 +9687,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            75 => 
+            74 => 
             array (
                 'id' => 1079,
                 'denuncia_id' => 3238,
@@ -9705,7 +9696,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            76 => 
+            75 => 
             array (
                 'id' => 1080,
                 'denuncia_id' => 3239,
@@ -9714,7 +9705,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            77 => 
+            76 => 
             array (
                 'id' => 1081,
                 'denuncia_id' => 3239,
@@ -9723,7 +9714,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            78 => 
+            77 => 
             array (
                 'id' => 1082,
                 'denuncia_id' => 3241,
@@ -9732,7 +9723,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            79 => 
+            78 => 
             array (
                 'id' => 1083,
                 'denuncia_id' => 3241,
@@ -9741,7 +9732,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            80 => 
+            79 => 
             array (
                 'id' => 1084,
                 'denuncia_id' => 3242,
@@ -9750,7 +9741,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            81 => 
+            80 => 
             array (
                 'id' => 1085,
                 'denuncia_id' => 3242,
@@ -9759,7 +9750,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            82 => 
+            81 => 
             array (
                 'id' => 1086,
                 'denuncia_id' => 3089,
@@ -9768,7 +9759,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            83 => 
+            82 => 
             array (
                 'id' => 1087,
                 'denuncia_id' => 3089,
@@ -9777,7 +9768,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            84 => 
+            83 => 
             array (
                 'id' => 1088,
                 'denuncia_id' => 3089,
@@ -9786,7 +9777,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            85 => 
+            84 => 
             array (
                 'id' => 1089,
                 'denuncia_id' => 3089,
@@ -9795,7 +9786,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            86 => 
+            85 => 
             array (
                 'id' => 1090,
                 'denuncia_id' => 3243,
@@ -9804,7 +9795,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            87 => 
+            86 => 
             array (
                 'id' => 1091,
                 'denuncia_id' => 3243,
@@ -9813,7 +9804,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            88 => 
+            87 => 
             array (
                 'id' => 1092,
                 'denuncia_id' => 3244,
@@ -9822,7 +9813,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            89 => 
+            88 => 
             array (
                 'id' => 1093,
                 'denuncia_id' => 3244,
@@ -9831,7 +9822,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            90 => 
+            89 => 
             array (
                 'id' => 1094,
                 'denuncia_id' => 3244,
@@ -9840,7 +9831,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            91 => 
+            90 => 
             array (
                 'id' => 1095,
                 'denuncia_id' => 3244,
@@ -9849,7 +9840,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            92 => 
+            91 => 
             array (
                 'id' => 1096,
                 'denuncia_id' => 3245,
@@ -9858,7 +9849,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            93 => 
+            92 => 
             array (
                 'id' => 1097,
                 'denuncia_id' => 3245,
@@ -9867,7 +9858,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            94 => 
+            93 => 
             array (
                 'id' => 1098,
                 'denuncia_id' => 3246,
@@ -9876,7 +9867,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            95 => 
+            94 => 
             array (
                 'id' => 1099,
                 'denuncia_id' => 3246,
@@ -9885,7 +9876,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            96 => 
+            95 => 
             array (
                 'id' => 1100,
                 'denuncia_id' => 3247,
@@ -9894,7 +9885,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            97 => 
+            96 => 
             array (
                 'id' => 1101,
                 'denuncia_id' => 3247,
@@ -9903,7 +9894,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            98 => 
+            97 => 
             array (
                 'id' => 1102,
                 'denuncia_id' => 3248,
@@ -9912,7 +9903,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            99 => 
+            98 => 
             array (
                 'id' => 1103,
                 'denuncia_id' => 3248,
@@ -9921,7 +9912,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            100 => 
+            99 => 
             array (
                 'id' => 1104,
                 'denuncia_id' => 3249,
@@ -9930,7 +9921,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            101 => 
+            100 => 
             array (
                 'id' => 1105,
                 'denuncia_id' => 3251,
@@ -9939,7 +9930,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            102 => 
+            101 => 
             array (
                 'id' => 1106,
                 'denuncia_id' => 3251,
@@ -9948,7 +9939,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            103 => 
+            102 => 
             array (
                 'id' => 1107,
                 'denuncia_id' => 1301,
@@ -9957,7 +9948,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            104 => 
+            103 => 
             array (
                 'id' => 1108,
                 'denuncia_id' => 1301,
@@ -9966,7 +9957,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            105 => 
+            104 => 
             array (
                 'id' => 1109,
                 'denuncia_id' => 2566,
@@ -9975,7 +9966,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            106 => 
+            105 => 
             array (
                 'id' => 1110,
                 'denuncia_id' => 2566,
@@ -9984,7 +9975,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            107 => 
+            106 => 
             array (
                 'id' => 1111,
                 'denuncia_id' => 2646,
@@ -9993,7 +9984,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            108 => 
+            107 => 
             array (
                 'id' => 1112,
                 'denuncia_id' => 2646,
@@ -10002,7 +9993,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            109 => 
+            108 => 
             array (
                 'id' => 1113,
                 'denuncia_id' => 2527,
@@ -10011,7 +10002,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            110 => 
+            109 => 
             array (
                 'id' => 1114,
                 'denuncia_id' => 2527,
@@ -10020,7 +10011,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            111 => 
+            110 => 
             array (
                 'id' => 1115,
                 'denuncia_id' => 1372,
@@ -10029,7 +10020,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            112 => 
+            111 => 
             array (
                 'id' => 1116,
                 'denuncia_id' => 1372,
@@ -10038,7 +10029,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            113 => 
+            112 => 
             array (
                 'id' => 1117,
                 'denuncia_id' => 1480,
@@ -10047,7 +10038,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            114 => 
+            113 => 
             array (
                 'id' => 1118,
                 'denuncia_id' => 1480,
@@ -10056,7 +10047,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            115 => 
+            114 => 
             array (
                 'id' => 1119,
                 'denuncia_id' => 1703,
@@ -10065,7 +10056,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            116 => 
+            115 => 
             array (
                 'id' => 1120,
                 'denuncia_id' => 1703,
@@ -10074,7 +10065,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            117 => 
+            116 => 
             array (
                 'id' => 1121,
                 'denuncia_id' => 1712,
@@ -10083,7 +10074,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            118 => 
+            117 => 
             array (
                 'id' => 1122,
                 'denuncia_id' => 1712,
@@ -10092,7 +10083,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            119 => 
+            118 => 
             array (
                 'id' => 1123,
                 'denuncia_id' => 1709,
@@ -10101,7 +10092,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            120 => 
+            119 => 
             array (
                 'id' => 1124,
                 'denuncia_id' => 1721,
@@ -10110,7 +10101,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            121 => 
+            120 => 
             array (
                 'id' => 1125,
                 'denuncia_id' => 1721,
@@ -10119,7 +10110,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            122 => 
+            121 => 
             array (
                 'id' => 1126,
                 'denuncia_id' => 1736,
@@ -10128,7 +10119,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            123 => 
+            122 => 
             array (
                 'id' => 1127,
                 'denuncia_id' => 1736,
@@ -10137,7 +10128,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            124 => 
+            123 => 
             array (
                 'id' => 1128,
                 'denuncia_id' => 1745,
@@ -10146,7 +10137,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            125 => 
+            124 => 
             array (
                 'id' => 1129,
                 'denuncia_id' => 1745,
@@ -10155,7 +10146,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            126 => 
+            125 => 
             array (
                 'id' => 1130,
                 'denuncia_id' => 1456,
@@ -10164,7 +10155,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            127 => 
+            126 => 
             array (
                 'id' => 1131,
                 'denuncia_id' => 1456,
@@ -10173,7 +10164,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            128 => 
+            127 => 
             array (
                 'id' => 1132,
                 'denuncia_id' => 1464,
@@ -10182,7 +10173,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            129 => 
+            128 => 
             array (
                 'id' => 1133,
                 'denuncia_id' => 1464,
@@ -10191,7 +10182,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            130 => 
+            129 => 
             array (
                 'id' => 1134,
                 'denuncia_id' => 1760,
@@ -10200,7 +10191,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            131 => 
+            130 => 
             array (
                 'id' => 1135,
                 'denuncia_id' => 1775,
@@ -10209,7 +10200,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            132 => 
+            131 => 
             array (
                 'id' => 1136,
                 'denuncia_id' => 1468,
@@ -10218,7 +10209,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            133 => 
+            132 => 
             array (
                 'id' => 1137,
                 'denuncia_id' => 1468,
@@ -10227,7 +10218,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            134 => 
+            133 => 
             array (
                 'id' => 1138,
                 'denuncia_id' => 2048,
@@ -10236,7 +10227,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            135 => 
+            134 => 
             array (
                 'id' => 1139,
                 'denuncia_id' => 2048,
@@ -10245,7 +10236,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            136 => 
+            135 => 
             array (
                 'id' => 1140,
                 'denuncia_id' => 2048,
@@ -10254,7 +10245,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            137 => 
+            136 => 
             array (
                 'id' => 1141,
                 'denuncia_id' => 1529,
@@ -10263,7 +10254,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            138 => 
+            137 => 
             array (
                 'id' => 1142,
                 'denuncia_id' => 1529,
@@ -10272,7 +10263,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            139 => 
+            138 => 
             array (
                 'id' => 1143,
                 'denuncia_id' => 2056,
@@ -10281,7 +10272,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            140 => 
+            139 => 
             array (
                 'id' => 1144,
                 'denuncia_id' => 2062,
@@ -10290,7 +10281,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            141 => 
+            140 => 
             array (
                 'id' => 1145,
                 'denuncia_id' => 2062,
@@ -10299,7 +10290,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            142 => 
+            141 => 
             array (
                 'id' => 1146,
                 'denuncia_id' => 2062,
@@ -10308,7 +10299,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            143 => 
+            142 => 
             array (
                 'id' => 1147,
                 'denuncia_id' => 2092,
@@ -10317,7 +10308,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            144 => 
+            143 => 
             array (
                 'id' => 1148,
                 'denuncia_id' => 2092,
@@ -10326,7 +10317,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            145 => 
+            144 => 
             array (
                 'id' => 1149,
                 'denuncia_id' => 2107,
@@ -10335,7 +10326,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            146 => 
+            145 => 
             array (
                 'id' => 1150,
                 'denuncia_id' => 1537,
@@ -10344,7 +10335,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            147 => 
+            146 => 
             array (
                 'id' => 1151,
                 'denuncia_id' => 1537,
@@ -10353,7 +10344,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            148 => 
+            147 => 
             array (
                 'id' => 1152,
                 'denuncia_id' => 2110,
@@ -10362,7 +10353,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            149 => 
+            148 => 
             array (
                 'id' => 1153,
                 'denuncia_id' => 2110,
@@ -10371,7 +10362,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            150 => 
+            149 => 
             array (
                 'id' => 1154,
                 'denuncia_id' => 1724,
@@ -10380,7 +10371,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            151 => 
+            150 => 
             array (
                 'id' => 1155,
                 'denuncia_id' => 1724,
@@ -10389,7 +10380,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            152 => 
+            151 => 
             array (
                 'id' => 1156,
                 'denuncia_id' => 1572,
@@ -10398,7 +10389,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            153 => 
+            152 => 
             array (
                 'id' => 1157,
                 'denuncia_id' => 1572,
@@ -10407,7 +10398,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            154 => 
+            153 => 
             array (
                 'id' => 1158,
                 'denuncia_id' => 2125,
@@ -10416,7 +10407,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            155 => 
+            154 => 
             array (
                 'id' => 1159,
                 'denuncia_id' => 2131,
@@ -10425,7 +10416,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            156 => 
+            155 => 
             array (
                 'id' => 1160,
                 'denuncia_id' => 2131,
@@ -10434,7 +10425,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            157 => 
+            156 => 
             array (
                 'id' => 1161,
                 'denuncia_id' => 2053,
@@ -10443,7 +10434,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            158 => 
+            157 => 
             array (
                 'id' => 1162,
                 'denuncia_id' => 2053,
@@ -10452,7 +10443,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            159 => 
+            158 => 
             array (
                 'id' => 1163,
                 'denuncia_id' => 2732,
@@ -10461,7 +10452,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            160 => 
+            159 => 
             array (
                 'id' => 1164,
                 'denuncia_id' => 2549,
@@ -10470,7 +10461,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            161 => 
+            160 => 
             array (
                 'id' => 1165,
                 'denuncia_id' => 2549,
@@ -10479,7 +10470,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            162 => 
+            161 => 
             array (
                 'id' => 1166,
                 'denuncia_id' => 2558,
@@ -10488,7 +10479,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            163 => 
+            162 => 
             array (
                 'id' => 1167,
                 'denuncia_id' => 2558,
@@ -10497,7 +10488,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            164 => 
+            163 => 
             array (
                 'id' => 1168,
                 'denuncia_id' => 2886,
@@ -10506,7 +10497,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            165 => 
+            164 => 
             array (
                 'id' => 1169,
                 'denuncia_id' => 2886,
@@ -10515,7 +10506,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            166 => 
+            165 => 
             array (
                 'id' => 1170,
                 'denuncia_id' => 2886,
@@ -10524,7 +10515,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            167 => 
+            166 => 
             array (
                 'id' => 1171,
                 'denuncia_id' => 2884,
@@ -10533,7 +10524,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            168 => 
+            167 => 
             array (
                 'id' => 1172,
                 'denuncia_id' => 2887,
@@ -10542,7 +10533,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            169 => 
+            168 => 
             array (
                 'id' => 1173,
                 'denuncia_id' => 2885,
@@ -10551,7 +10542,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            170 => 
+            169 => 
             array (
                 'id' => 1174,
                 'denuncia_id' => 2885,
@@ -10560,7 +10551,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            171 => 
+            170 => 
             array (
                 'id' => 1175,
                 'denuncia_id' => 2695,
@@ -10569,7 +10560,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            172 => 
+            171 => 
             array (
                 'id' => 1176,
                 'denuncia_id' => 3150,
@@ -10578,7 +10569,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            173 => 
+            172 => 
             array (
                 'id' => 1177,
                 'denuncia_id' => 3154,
@@ -10587,7 +10578,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            174 => 
+            173 => 
             array (
                 'id' => 1178,
                 'denuncia_id' => 2764,
@@ -10596,7 +10587,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            175 => 
+            174 => 
             array (
                 'id' => 1179,
                 'denuncia_id' => 3199,
@@ -10605,7 +10596,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            176 => 
+            175 => 
             array (
                 'id' => 1180,
                 'denuncia_id' => 1686,
@@ -10614,7 +10605,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            177 => 
+            176 => 
             array (
                 'id' => 1181,
                 'denuncia_id' => 3226,
@@ -10623,7 +10614,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            178 => 
+            177 => 
             array (
                 'id' => 1182,
                 'denuncia_id' => 3226,
@@ -10632,7 +10623,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            179 => 
+            178 => 
             array (
                 'id' => 1183,
                 'denuncia_id' => 1650,
@@ -10641,7 +10632,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            180 => 
+            179 => 
             array (
                 'id' => 1184,
                 'denuncia_id' => 1650,
@@ -10650,7 +10641,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            181 => 
+            180 => 
             array (
                 'id' => 1185,
                 'denuncia_id' => 2656,
@@ -10659,7 +10650,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            182 => 
+            181 => 
             array (
                 'id' => 1186,
                 'denuncia_id' => 1690,
@@ -10668,7 +10659,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            183 => 
+            182 => 
             array (
                 'id' => 1187,
                 'denuncia_id' => 1690,
@@ -10677,7 +10668,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            184 => 
+            183 => 
             array (
                 'id' => 1188,
                 'denuncia_id' => 2526,
@@ -10686,7 +10677,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            185 => 
+            184 => 
             array (
                 'id' => 1189,
                 'denuncia_id' => 2526,
@@ -10695,7 +10686,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            186 => 
+            185 => 
             array (
                 'id' => 1190,
                 'denuncia_id' => 2542,
@@ -10704,7 +10695,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            187 => 
+            186 => 
             array (
                 'id' => 1191,
                 'denuncia_id' => 2542,
@@ -10713,7 +10704,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            188 => 
+            187 => 
             array (
                 'id' => 1192,
                 'denuncia_id' => 3146,
@@ -10722,7 +10713,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            189 => 
+            188 => 
             array (
                 'id' => 1193,
                 'denuncia_id' => 3153,
@@ -10731,7 +10722,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            190 => 
+            189 => 
             array (
                 'id' => 1194,
                 'denuncia_id' => 3196,
@@ -10740,7 +10731,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            191 => 
+            190 => 
             array (
                 'id' => 1195,
                 'denuncia_id' => 2567,
@@ -10749,7 +10740,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            192 => 
+            191 => 
             array (
                 'id' => 1196,
                 'denuncia_id' => 2567,
@@ -10758,7 +10749,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            193 => 
+            192 => 
             array (
                 'id' => 1197,
                 'denuncia_id' => 2568,
@@ -10767,7 +10758,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            194 => 
+            193 => 
             array (
                 'id' => 1198,
                 'denuncia_id' => 2568,
@@ -10776,7 +10767,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            195 => 
+            194 => 
             array (
                 'id' => 1199,
                 'denuncia_id' => 2205,
@@ -10785,7 +10776,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            196 => 
+            195 => 
             array (
                 'id' => 1200,
                 'denuncia_id' => 2205,
@@ -10794,7 +10785,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            197 => 
+            196 => 
             array (
                 'id' => 1201,
                 'denuncia_id' => 1634,
@@ -10803,7 +10794,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            198 => 
+            197 => 
             array (
                 'id' => 1202,
                 'denuncia_id' => 1634,
@@ -10812,7 +10803,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            199 => 
+            198 => 
             array (
                 'id' => 1203,
                 'denuncia_id' => 1634,
@@ -10821,7 +10812,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            200 => 
+            199 => 
             array (
                 'id' => 1204,
                 'denuncia_id' => 3262,
@@ -10830,7 +10821,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            201 => 
+            200 => 
             array (
                 'id' => 1205,
                 'denuncia_id' => 3262,
@@ -10839,7 +10830,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            202 => 
+            201 => 
             array (
                 'id' => 1206,
                 'denuncia_id' => 3262,
@@ -10848,7 +10839,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            203 => 
+            202 => 
             array (
                 'id' => 1207,
                 'denuncia_id' => 1407,
@@ -10857,7 +10848,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            204 => 
+            203 => 
             array (
                 'id' => 1208,
                 'denuncia_id' => 1407,
@@ -10866,7 +10857,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            205 => 
+            204 => 
             array (
                 'id' => 1209,
                 'denuncia_id' => 1407,
@@ -10875,7 +10866,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            206 => 
+            205 => 
             array (
                 'id' => 1210,
                 'denuncia_id' => 1476,
@@ -10884,7 +10875,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            207 => 
+            206 => 
             array (
                 'id' => 1211,
                 'denuncia_id' => 1476,
@@ -10893,7 +10884,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            208 => 
+            207 => 
             array (
                 'id' => 1212,
                 'denuncia_id' => 1476,
@@ -10902,7 +10893,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            209 => 
+            208 => 
             array (
                 'id' => 1213,
                 'denuncia_id' => 3266,
@@ -10911,7 +10902,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            210 => 
+            209 => 
             array (
                 'id' => 1214,
                 'denuncia_id' => 3266,
@@ -10920,7 +10911,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            211 => 
+            210 => 
             array (
                 'id' => 1215,
                 'denuncia_id' => 3267,
@@ -10929,7 +10920,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            212 => 
+            211 => 
             array (
                 'id' => 1216,
                 'denuncia_id' => 3267,
@@ -10938,7 +10929,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            213 => 
+            212 => 
             array (
                 'id' => 1217,
                 'denuncia_id' => 3267,
@@ -10947,7 +10938,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            214 => 
+            213 => 
             array (
                 'id' => 1218,
                 'denuncia_id' => 1437,
@@ -10956,7 +10947,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            215 => 
+            214 => 
             array (
                 'id' => 1219,
                 'denuncia_id' => 1437,
@@ -10965,7 +10956,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            216 => 
+            215 => 
             array (
                 'id' => 1220,
                 'denuncia_id' => 3270,
@@ -10974,7 +10965,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            217 => 
+            216 => 
             array (
                 'id' => 1221,
                 'denuncia_id' => 3270,
@@ -10983,7 +10974,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            218 => 
+            217 => 
             array (
                 'id' => 1222,
                 'denuncia_id' => 1360,
@@ -10992,7 +10983,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            219 => 
+            218 => 
             array (
                 'id' => 1223,
                 'denuncia_id' => 1360,
@@ -11001,7 +10992,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            220 => 
+            219 => 
             array (
                 'id' => 1224,
                 'denuncia_id' => 1309,
@@ -11010,7 +11001,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            221 => 
+            220 => 
             array (
                 'id' => 1225,
                 'denuncia_id' => 1309,
@@ -11019,7 +11010,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            222 => 
+            221 => 
             array (
                 'id' => 1226,
                 'denuncia_id' => 1355,
@@ -11028,7 +11019,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            223 => 
+            222 => 
             array (
                 'id' => 1227,
                 'denuncia_id' => 1355,
@@ -11037,7 +11028,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            224 => 
+            223 => 
             array (
                 'id' => 1228,
                 'denuncia_id' => 1355,
@@ -11046,7 +11037,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            225 => 
+            224 => 
             array (
                 'id' => 1229,
                 'denuncia_id' => 2104,
@@ -11055,7 +11046,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            226 => 
+            225 => 
             array (
                 'id' => 1230,
                 'denuncia_id' => 2089,
@@ -11064,7 +11055,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            227 => 
+            226 => 
             array (
                 'id' => 1231,
                 'denuncia_id' => 2089,
@@ -11073,7 +11064,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            228 => 
+            227 => 
             array (
                 'id' => 1232,
                 'denuncia_id' => 2080,
@@ -11082,7 +11073,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            229 => 
+            228 => 
             array (
                 'id' => 1233,
                 'denuncia_id' => 2080,
@@ -11091,7 +11082,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            230 => 
+            229 => 
             array (
                 'id' => 1234,
                 'denuncia_id' => 2059,
@@ -11100,7 +11091,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            231 => 
+            230 => 
             array (
                 'id' => 1235,
                 'denuncia_id' => 2055,
@@ -11109,7 +11100,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            232 => 
+            231 => 
             array (
                 'id' => 1236,
                 'denuncia_id' => 2055,
@@ -11118,7 +11109,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            233 => 
+            232 => 
             array (
                 'id' => 1237,
                 'denuncia_id' => 1646,
@@ -11127,7 +11118,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            234 => 
+            233 => 
             array (
                 'id' => 1238,
                 'denuncia_id' => 1646,
@@ -11136,7 +11127,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            235 => 
+            234 => 
             array (
                 'id' => 1239,
                 'denuncia_id' => 2051,
@@ -11145,7 +11136,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            236 => 
+            235 => 
             array (
                 'id' => 1240,
                 'denuncia_id' => 2051,
@@ -11154,7 +11145,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            237 => 
+            236 => 
             array (
                 'id' => 1241,
                 'denuncia_id' => 2051,
@@ -11163,7 +11154,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            238 => 
+            237 => 
             array (
                 'id' => 1242,
                 'denuncia_id' => 1618,
@@ -11172,7 +11163,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            239 => 
+            238 => 
             array (
                 'id' => 1243,
                 'denuncia_id' => 1766,
@@ -11181,7 +11172,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            240 => 
+            239 => 
             array (
                 'id' => 1244,
                 'denuncia_id' => 1682,
@@ -11190,7 +11181,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            241 => 
+            240 => 
             array (
                 'id' => 1245,
                 'denuncia_id' => 1682,
@@ -11199,7 +11190,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            242 => 
+            241 => 
             array (
                 'id' => 1246,
                 'denuncia_id' => 1654,
@@ -11208,7 +11199,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            243 => 
+            242 => 
             array (
                 'id' => 1247,
                 'denuncia_id' => 1654,
@@ -11217,7 +11208,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            244 => 
+            243 => 
             array (
                 'id' => 1248,
                 'denuncia_id' => 1654,
@@ -11226,7 +11217,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            245 => 
+            244 => 
             array (
                 'id' => 1249,
                 'denuncia_id' => 1715,
@@ -11235,7 +11226,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            246 => 
+            245 => 
             array (
                 'id' => 1250,
                 'denuncia_id' => 1715,
@@ -11244,7 +11235,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            247 => 
+            246 => 
             array (
                 'id' => 1251,
                 'denuncia_id' => 1763,
@@ -11253,7 +11244,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            248 => 
+            247 => 
             array (
                 'id' => 1252,
                 'denuncia_id' => 1763,
@@ -11262,7 +11253,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            249 => 
+            248 => 
             array (
                 'id' => 1253,
                 'denuncia_id' => 1484,
@@ -11271,7 +11262,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            250 => 
+            249 => 
             array (
                 'id' => 1254,
                 'denuncia_id' => 1484,
@@ -11280,7 +11271,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            251 => 
+            250 => 
             array (
                 'id' => 1255,
                 'denuncia_id' => 1706,
@@ -11289,7 +11280,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            252 => 
+            251 => 
             array (
                 'id' => 1256,
                 'denuncia_id' => 2098,
@@ -11298,7 +11289,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            253 => 
+            252 => 
             array (
                 'id' => 1257,
                 'denuncia_id' => 2098,
@@ -11307,7 +11298,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            254 => 
+            253 => 
             array (
                 'id' => 1258,
                 'denuncia_id' => 2049,
@@ -11316,7 +11307,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            255 => 
+            254 => 
             array (
                 'id' => 1259,
                 'denuncia_id' => 1742,
@@ -11325,7 +11316,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            256 => 
+            255 => 
             array (
                 'id' => 1260,
                 'denuncia_id' => 1742,
@@ -11334,7 +11325,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            257 => 
+            256 => 
             array (
                 'id' => 1261,
                 'denuncia_id' => 1772,
@@ -11343,7 +11334,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            258 => 
+            257 => 
             array (
                 'id' => 1262,
                 'denuncia_id' => 2047,
@@ -11352,7 +11343,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            259 => 
+            258 => 
             array (
                 'id' => 1263,
                 'denuncia_id' => 1674,
@@ -11361,7 +11352,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            260 => 
+            259 => 
             array (
                 'id' => 1264,
                 'denuncia_id' => 2122,
@@ -11370,7 +11361,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            261 => 
+            260 => 
             array (
                 'id' => 1265,
                 'denuncia_id' => 2122,
@@ -11379,7 +11370,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            262 => 
+            261 => 
             array (
                 'id' => 1266,
                 'denuncia_id' => 1670,
@@ -11388,7 +11379,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            263 => 
+            262 => 
             array (
                 'id' => 1267,
                 'denuncia_id' => 1670,
@@ -11397,7 +11388,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            264 => 
+            263 => 
             array (
                 'id' => 1268,
                 'denuncia_id' => 2116,
@@ -11406,7 +11397,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            265 => 
+            264 => 
             array (
                 'id' => 1269,
                 'denuncia_id' => 2116,
@@ -11415,7 +11406,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            266 => 
+            265 => 
             array (
                 'id' => 1270,
                 'denuncia_id' => 2086,
@@ -11424,7 +11415,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            267 => 
+            266 => 
             array (
                 'id' => 1271,
                 'denuncia_id' => 2086,
@@ -11433,7 +11424,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            268 => 
+            267 => 
             array (
                 'id' => 1272,
                 'denuncia_id' => 1642,
@@ -11442,7 +11433,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            269 => 
+            268 => 
             array (
                 'id' => 1273,
                 'denuncia_id' => 1642,
@@ -11451,7 +11442,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            270 => 
+            269 => 
             array (
                 'id' => 1274,
                 'denuncia_id' => 2074,
@@ -11460,7 +11451,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            271 => 
+            270 => 
             array (
                 'id' => 1275,
                 'denuncia_id' => 2074,
@@ -11469,7 +11460,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            272 => 
+            271 => 
             array (
                 'id' => 1276,
                 'denuncia_id' => 1630,
@@ -11478,7 +11469,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            273 => 
+            272 => 
             array (
                 'id' => 1277,
                 'denuncia_id' => 1630,
@@ -11487,7 +11478,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            274 => 
+            273 => 
             array (
                 'id' => 1278,
                 'denuncia_id' => 2143,
@@ -11496,7 +11487,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            275 => 
+            274 => 
             array (
                 'id' => 1279,
                 'denuncia_id' => 1591,
@@ -11505,7 +11496,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            276 => 
+            275 => 
             array (
                 'id' => 1280,
                 'denuncia_id' => 1591,
@@ -11514,7 +11505,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            277 => 
+            276 => 
             array (
                 'id' => 1281,
                 'denuncia_id' => 2095,
@@ -11523,7 +11514,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            278 => 
+            277 => 
             array (
                 'id' => 1282,
                 'denuncia_id' => 2095,
@@ -11532,7 +11523,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            279 => 
+            278 => 
             array (
                 'id' => 1283,
                 'denuncia_id' => 2141,
@@ -11541,7 +11532,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            280 => 
+            279 => 
             array (
                 'id' => 1284,
                 'denuncia_id' => 2072,
@@ -11550,7 +11541,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            281 => 
+            280 => 
             array (
                 'id' => 1285,
                 'denuncia_id' => 2072,
@@ -11559,7 +11550,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            282 => 
+            281 => 
             array (
                 'id' => 1286,
                 'denuncia_id' => 2060,
@@ -11568,7 +11559,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            283 => 
+            282 => 
             array (
                 'id' => 1287,
                 'denuncia_id' => 2057,
@@ -11577,7 +11568,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            284 => 
+            283 => 
             array (
                 'id' => 1288,
                 'denuncia_id' => 2057,
@@ -11586,7 +11577,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            285 => 
+            284 => 
             array (
                 'id' => 1289,
                 'denuncia_id' => 1778,
@@ -11595,7 +11586,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            286 => 
+            285 => 
             array (
                 'id' => 1290,
                 'denuncia_id' => 1778,
@@ -11604,7 +11595,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            287 => 
+            286 => 
             array (
                 'id' => 1291,
                 'denuncia_id' => 1727,
@@ -11613,7 +11604,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            288 => 
+            287 => 
             array (
                 'id' => 1292,
                 'denuncia_id' => 1727,
@@ -11622,7 +11613,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            289 => 
+            288 => 
             array (
                 'id' => 1293,
                 'denuncia_id' => 1727,
@@ -11631,7 +11622,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            290 => 
+            289 => 
             array (
                 'id' => 1294,
                 'denuncia_id' => 1727,
@@ -11640,7 +11631,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            291 => 
+            290 => 
             array (
                 'id' => 1295,
                 'denuncia_id' => 2054,
@@ -11649,7 +11640,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            292 => 
+            291 => 
             array (
                 'id' => 1296,
                 'denuncia_id' => 1754,
@@ -11658,7 +11649,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            293 => 
+            292 => 
             array (
                 'id' => 1297,
                 'denuncia_id' => 1754,
@@ -11667,7 +11658,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            294 => 
+            293 => 
             array (
                 'id' => 1298,
                 'denuncia_id' => 1754,
@@ -11676,7 +11667,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            295 => 
+            294 => 
             array (
                 'id' => 1299,
                 'denuncia_id' => 2523,
@@ -11685,7 +11676,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            296 => 
+            295 => 
             array (
                 'id' => 1300,
                 'denuncia_id' => 2534,
@@ -11694,7 +11685,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            297 => 
+            296 => 
             array (
                 'id' => 1301,
                 'denuncia_id' => 3278,
@@ -11703,7 +11694,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            298 => 
+            297 => 
             array (
                 'id' => 1302,
                 'denuncia_id' => 1541,
@@ -11712,7 +11703,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            299 => 
+            298 => 
             array (
                 'id' => 1303,
                 'denuncia_id' => 1541,
@@ -11721,7 +11712,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            300 => 
+            299 => 
             array (
                 'id' => 1304,
                 'denuncia_id' => 1541,
@@ -11730,7 +11721,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            301 => 
+            300 => 
             array (
                 'id' => 1305,
                 'denuncia_id' => 1610,
@@ -11739,7 +11730,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            302 => 
+            301 => 
             array (
                 'id' => 1306,
                 'denuncia_id' => 1638,
@@ -11748,7 +11739,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            303 => 
+            302 => 
             array (
                 'id' => 1307,
                 'denuncia_id' => 1638,
@@ -11757,7 +11748,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            304 => 
+            303 => 
             array (
                 'id' => 1308,
                 'denuncia_id' => 1626,
@@ -11766,7 +11757,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            305 => 
+            304 => 
             array (
                 'id' => 1309,
                 'denuncia_id' => 1626,
@@ -11775,7 +11766,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            306 => 
+            305 => 
             array (
                 'id' => 1310,
                 'denuncia_id' => 1622,
@@ -11784,7 +11775,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            307 => 
+            306 => 
             array (
                 'id' => 1311,
                 'denuncia_id' => 1678,
@@ -11793,7 +11784,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            308 => 
+            307 => 
             array (
                 'id' => 1312,
                 'denuncia_id' => 1678,
@@ -11802,7 +11793,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            309 => 
+            308 => 
             array (
                 'id' => 1313,
                 'denuncia_id' => 1678,
@@ -11811,7 +11802,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            310 => 
+            309 => 
             array (
                 'id' => 1314,
                 'denuncia_id' => 1598,
@@ -11820,7 +11811,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            311 => 
+            310 => 
             array (
                 'id' => 1315,
                 'denuncia_id' => 1510,
@@ -11829,7 +11820,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            312 => 
+            311 => 
             array (
                 'id' => 1316,
                 'denuncia_id' => 1506,
@@ -11838,7 +11829,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            313 => 
+            312 => 
             array (
                 'id' => 1317,
                 'denuncia_id' => 1506,
@@ -11847,7 +11838,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            314 => 
+            313 => 
             array (
                 'id' => 1318,
                 'denuncia_id' => 2565,
@@ -11856,7 +11847,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            315 => 
+            314 => 
             array (
                 'id' => 1319,
                 'denuncia_id' => 1460,
@@ -11865,7 +11856,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            316 => 
+            315 => 
             array (
                 'id' => 1320,
                 'denuncia_id' => 1472,
@@ -11874,7 +11865,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            317 => 
+            316 => 
             array (
                 'id' => 1321,
                 'denuncia_id' => 1472,
@@ -11883,7 +11874,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            318 => 
+            317 => 
             array (
                 'id' => 1322,
                 'denuncia_id' => 1488,
@@ -11892,7 +11883,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            319 => 
+            318 => 
             array (
                 'id' => 1323,
                 'denuncia_id' => 1488,
@@ -11901,7 +11892,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            320 => 
+            319 => 
             array (
                 'id' => 1324,
                 'denuncia_id' => 1491,
@@ -11910,7 +11901,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            321 => 
+            320 => 
             array (
                 'id' => 1325,
                 'denuncia_id' => 1304,
@@ -11919,7 +11910,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            322 => 
+            321 => 
             array (
                 'id' => 1326,
                 'denuncia_id' => 1304,
@@ -11928,7 +11919,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            323 => 
+            322 => 
             array (
                 'id' => 1327,
                 'denuncia_id' => 1321,
@@ -11937,7 +11928,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            324 => 
+            323 => 
             array (
                 'id' => 1328,
                 'denuncia_id' => 1321,
@@ -11946,7 +11937,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            325 => 
+            324 => 
             array (
                 'id' => 1329,
                 'denuncia_id' => 1377,
@@ -11955,7 +11946,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            326 => 
+            325 => 
             array (
                 'id' => 1330,
                 'denuncia_id' => 1377,
@@ -11964,7 +11955,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            327 => 
+            326 => 
             array (
                 'id' => 1331,
                 'denuncia_id' => 1402,
@@ -11973,7 +11964,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            328 => 
+            327 => 
             array (
                 'id' => 1332,
                 'denuncia_id' => 1402,
@@ -11982,7 +11973,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            329 => 
+            328 => 
             array (
                 'id' => 1333,
                 'denuncia_id' => 1432,
@@ -11991,7 +11982,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            330 => 
+            329 => 
             array (
                 'id' => 1334,
                 'denuncia_id' => 1432,
@@ -12000,7 +11991,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            331 => 
+            330 => 
             array (
                 'id' => 1335,
                 'denuncia_id' => 3279,
@@ -12009,7 +12000,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            332 => 
+            331 => 
             array (
                 'id' => 1336,
                 'denuncia_id' => 3280,
@@ -12018,7 +12009,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            333 => 
+            332 => 
             array (
                 'id' => 1337,
                 'denuncia_id' => 3281,
@@ -12027,7 +12018,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            334 => 
+            333 => 
             array (
                 'id' => 1338,
                 'denuncia_id' => 3015,
@@ -12036,7 +12027,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            335 => 
+            334 => 
             array (
                 'id' => 1339,
                 'denuncia_id' => 3015,
@@ -12045,7 +12036,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            336 => 
+            335 => 
             array (
                 'id' => 1340,
                 'denuncia_id' => 3020,
@@ -12054,7 +12045,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            337 => 
+            336 => 
             array (
                 'id' => 1341,
                 'denuncia_id' => 3020,
@@ -12063,7 +12054,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            338 => 
+            337 => 
             array (
                 'id' => 1342,
                 'denuncia_id' => 3027,
@@ -12072,7 +12063,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            339 => 
+            338 => 
             array (
                 'id' => 1343,
                 'denuncia_id' => 2644,
@@ -12081,7 +12072,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            340 => 
+            339 => 
             array (
                 'id' => 1344,
                 'denuncia_id' => 2678,
@@ -12090,7 +12081,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            341 => 
+            340 => 
             array (
                 'id' => 1345,
                 'denuncia_id' => 3282,
@@ -12099,7 +12090,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            342 => 
+            341 => 
             array (
                 'id' => 1346,
                 'denuncia_id' => 2668,
@@ -12108,7 +12099,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            343 => 
+            342 => 
             array (
                 'id' => 1348,
                 'denuncia_id' => 2680,
@@ -12117,7 +12108,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            344 => 
+            343 => 
             array (
                 'id' => 1349,
                 'denuncia_id' => 2680,
@@ -12126,7 +12117,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            345 => 
+            344 => 
             array (
                 'id' => 1350,
                 'denuncia_id' => 2680,
@@ -12135,7 +12126,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            346 => 
+            345 => 
             array (
                 'id' => 1351,
                 'denuncia_id' => 2674,
@@ -12144,7 +12135,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            347 => 
+            346 => 
             array (
                 'id' => 1352,
                 'denuncia_id' => 2677,
@@ -12153,7 +12144,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            348 => 
+            347 => 
             array (
                 'id' => 1353,
                 'denuncia_id' => 2677,
@@ -12162,7 +12153,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            349 => 
+            348 => 
             array (
                 'id' => 1354,
                 'denuncia_id' => 2675,
@@ -12171,7 +12162,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            350 => 
+            349 => 
             array (
                 'id' => 1355,
                 'denuncia_id' => 2675,
@@ -12180,7 +12171,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            351 => 
+            350 => 
             array (
                 'id' => 1356,
                 'denuncia_id' => 2683,
@@ -12189,7 +12180,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            352 => 
+            351 => 
             array (
                 'id' => 1357,
                 'denuncia_id' => 2683,
@@ -12198,7 +12189,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            353 => 
+            352 => 
             array (
                 'id' => 1358,
                 'denuncia_id' => 3277,
@@ -12207,7 +12198,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            354 => 
+            353 => 
             array (
                 'id' => 1359,
                 'denuncia_id' => 2670,
@@ -12216,7 +12207,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            355 => 
+            354 => 
             array (
                 'id' => 1360,
                 'denuncia_id' => 2670,
@@ -12225,7 +12216,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            356 => 
+            355 => 
             array (
                 'id' => 1361,
                 'denuncia_id' => 2669,
@@ -12234,7 +12225,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            357 => 
+            356 => 
             array (
                 'id' => 1362,
                 'denuncia_id' => 2669,
@@ -12243,7 +12234,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            358 => 
+            357 => 
             array (
                 'id' => 1363,
                 'denuncia_id' => 3283,
@@ -12252,7 +12243,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            359 => 
+            358 => 
             array (
                 'id' => 1364,
                 'denuncia_id' => 3283,
@@ -12261,7 +12252,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            360 => 
+            359 => 
             array (
                 'id' => 1365,
                 'denuncia_id' => 3283,
@@ -12270,7 +12261,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            361 => 
+            360 => 
             array (
                 'id' => 1366,
                 'denuncia_id' => 2614,
@@ -12279,7 +12270,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            362 => 
+            361 => 
             array (
                 'id' => 1367,
                 'denuncia_id' => 2629,
@@ -12288,7 +12279,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            363 => 
+            362 => 
             array (
                 'id' => 1368,
                 'denuncia_id' => 2629,
@@ -12297,7 +12288,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            364 => 
+            363 => 
             array (
                 'id' => 1369,
                 'denuncia_id' => 2629,
@@ -12306,7 +12297,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            365 => 
+            364 => 
             array (
                 'id' => 1370,
                 'denuncia_id' => 2629,
@@ -12315,7 +12306,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            366 => 
+            365 => 
             array (
                 'id' => 1371,
                 'denuncia_id' => 2643,
@@ -12324,7 +12315,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            367 => 
+            366 => 
             array (
                 'id' => 1372,
                 'denuncia_id' => 2642,
@@ -12333,7 +12324,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            368 => 
+            367 => 
             array (
                 'id' => 1373,
                 'denuncia_id' => 2642,
@@ -12342,7 +12333,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            369 => 
+            368 => 
             array (
                 'id' => 1374,
                 'denuncia_id' => 2593,
@@ -12351,7 +12342,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            370 => 
+            369 => 
             array (
                 'id' => 1375,
                 'denuncia_id' => 3110,
@@ -12360,7 +12351,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            371 => 
+            370 => 
             array (
                 'id' => 1376,
                 'denuncia_id' => 3284,
@@ -12369,7 +12360,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            372 => 
+            371 => 
             array (
                 'id' => 1377,
                 'denuncia_id' => 3285,
@@ -12378,7 +12369,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            373 => 
+            372 => 
             array (
                 'id' => 1378,
                 'denuncia_id' => 3286,
@@ -12387,7 +12378,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            374 => 
+            373 => 
             array (
                 'id' => 1379,
                 'denuncia_id' => 3287,
@@ -12396,7 +12387,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            375 => 
+            374 => 
             array (
                 'id' => 1380,
                 'denuncia_id' => 3288,
@@ -12405,7 +12396,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            376 => 
+            375 => 
             array (
                 'id' => 1381,
                 'denuncia_id' => 3288,
@@ -12414,7 +12405,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            377 => 
+            376 => 
             array (
                 'id' => 1382,
                 'denuncia_id' => 3288,
@@ -12423,7 +12414,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            378 => 
+            377 => 
             array (
                 'id' => 1383,
                 'denuncia_id' => 3288,
@@ -12432,7 +12423,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            379 => 
+            378 => 
             array (
                 'id' => 1384,
                 'denuncia_id' => 3289,
@@ -12441,7 +12432,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            380 => 
+            379 => 
             array (
                 'id' => 1385,
                 'denuncia_id' => 2628,
@@ -12450,7 +12441,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            381 => 
+            380 => 
             array (
                 'id' => 1386,
                 'denuncia_id' => 3290,
@@ -12459,7 +12450,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            382 => 
+            381 => 
             array (
                 'id' => 1387,
                 'denuncia_id' => 3291,
@@ -12468,7 +12459,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            383 => 
+            382 => 
             array (
                 'id' => 1388,
                 'denuncia_id' => 3292,
@@ -12477,7 +12468,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            384 => 
+            383 => 
             array (
                 'id' => 1389,
                 'denuncia_id' => 3292,
@@ -12486,7 +12477,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            385 => 
+            384 => 
             array (
                 'id' => 1390,
                 'denuncia_id' => 3293,
@@ -12495,7 +12486,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            386 => 
+            385 => 
             array (
                 'id' => 1391,
                 'denuncia_id' => 3294,
@@ -12504,7 +12495,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            387 => 
+            386 => 
             array (
                 'id' => 1392,
                 'denuncia_id' => 3295,
@@ -12513,7 +12504,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            388 => 
+            387 => 
             array (
                 'id' => 1393,
                 'denuncia_id' => 3295,
@@ -12522,7 +12513,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            389 => 
+            388 => 
             array (
                 'id' => 1394,
                 'denuncia_id' => 3296,
@@ -12531,7 +12522,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            390 => 
+            389 => 
             array (
                 'id' => 1395,
                 'denuncia_id' => 3297,
@@ -12540,7 +12531,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            391 => 
+            390 => 
             array (
                 'id' => 1396,
                 'denuncia_id' => 3297,
@@ -12549,7 +12540,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            392 => 
+            391 => 
             array (
                 'id' => 1397,
                 'denuncia_id' => 3308,
@@ -12558,7 +12549,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            393 => 
+            392 => 
             array (
                 'id' => 1398,
                 'denuncia_id' => 3308,
@@ -12567,7 +12558,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            394 => 
+            393 => 
             array (
                 'id' => 1399,
                 'denuncia_id' => 3309,
@@ -12576,7 +12567,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            395 => 
+            394 => 
             array (
                 'id' => 1400,
                 'denuncia_id' => 3309,
@@ -12585,7 +12576,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            396 => 
+            395 => 
             array (
                 'id' => 1401,
                 'denuncia_id' => 3309,
@@ -12594,7 +12585,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            397 => 
+            396 => 
             array (
                 'id' => 1402,
                 'denuncia_id' => 3312,
@@ -12603,7 +12594,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            398 => 
+            397 => 
             array (
                 'id' => 1403,
                 'denuncia_id' => 3313,
@@ -12612,7 +12603,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            399 => 
+            398 => 
             array (
                 'id' => 1404,
                 'denuncia_id' => 3314,
@@ -12621,7 +12612,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            400 => 
+            399 => 
             array (
                 'id' => 1405,
                 'denuncia_id' => 3315,
@@ -12630,7 +12621,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            401 => 
+            400 => 
             array (
                 'id' => 1406,
                 'denuncia_id' => 3318,
@@ -12639,7 +12630,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            402 => 
+            401 => 
             array (
                 'id' => 1407,
                 'denuncia_id' => 3319,
@@ -12648,7 +12639,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            403 => 
+            402 => 
             array (
                 'id' => 1408,
                 'denuncia_id' => 3322,
@@ -12657,7 +12648,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            404 => 
+            403 => 
             array (
                 'id' => 1409,
                 'denuncia_id' => 3323,
@@ -12666,7 +12657,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            405 => 
+            404 => 
             array (
                 'id' => 1410,
                 'denuncia_id' => 3324,
@@ -12675,7 +12666,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            406 => 
+            405 => 
             array (
                 'id' => 1411,
                 'denuncia_id' => 3324,
@@ -12684,7 +12675,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            407 => 
+            406 => 
             array (
                 'id' => 1412,
                 'denuncia_id' => 3325,
@@ -12693,7 +12684,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            408 => 
+            407 => 
             array (
                 'id' => 1413,
                 'denuncia_id' => 3325,
@@ -12702,7 +12693,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            409 => 
+            408 => 
             array (
                 'id' => 1414,
                 'denuncia_id' => 3326,
@@ -12711,7 +12702,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            410 => 
+            409 => 
             array (
                 'id' => 1415,
                 'denuncia_id' => 3327,
@@ -12720,7 +12711,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            411 => 
+            410 => 
             array (
                 'id' => 1416,
                 'denuncia_id' => 3328,
@@ -12729,7 +12720,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            412 => 
+            411 => 
             array (
                 'id' => 1417,
                 'denuncia_id' => 3328,
@@ -12738,7 +12729,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            413 => 
+            412 => 
             array (
                 'id' => 1418,
                 'denuncia_id' => 3329,
@@ -12747,7 +12738,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            414 => 
+            413 => 
             array (
                 'id' => 1419,
                 'denuncia_id' => 3329,
@@ -12756,7 +12747,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            415 => 
+            414 => 
             array (
                 'id' => 1420,
                 'denuncia_id' => 3330,
@@ -12765,7 +12756,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            416 => 
+            415 => 
             array (
                 'id' => 1421,
                 'denuncia_id' => 3330,
@@ -12774,7 +12765,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            417 => 
+            416 => 
             array (
                 'id' => 1422,
                 'denuncia_id' => 3332,
@@ -12783,7 +12774,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            418 => 
+            417 => 
             array (
                 'id' => 1423,
                 'denuncia_id' => 2630,
@@ -12792,7 +12783,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            419 => 
+            418 => 
             array (
                 'id' => 1424,
                 'denuncia_id' => 2630,
@@ -12801,7 +12792,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            420 => 
+            419 => 
             array (
                 'id' => 1425,
                 'denuncia_id' => 3334,
@@ -12810,7 +12801,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            421 => 
+            420 => 
             array (
                 'id' => 1426,
                 'denuncia_id' => 3334,
@@ -12819,7 +12810,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            422 => 
+            421 => 
             array (
                 'id' => 1427,
                 'denuncia_id' => 3034,
@@ -12828,7 +12819,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            423 => 
+            422 => 
             array (
                 'id' => 1428,
                 'denuncia_id' => 3034,
@@ -12837,7 +12828,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            424 => 
+            423 => 
             array (
                 'id' => 1429,
                 'denuncia_id' => 3030,
@@ -12846,7 +12837,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            425 => 
+            424 => 
             array (
                 'id' => 1430,
                 'denuncia_id' => 3026,
@@ -12855,7 +12846,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            426 => 
+            425 => 
             array (
                 'id' => 1431,
                 'denuncia_id' => 3335,
@@ -12864,7 +12855,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            427 => 
+            426 => 
             array (
                 'id' => 1432,
                 'denuncia_id' => 3335,
@@ -12873,7 +12864,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            428 => 
+            427 => 
             array (
                 'id' => 1433,
                 'denuncia_id' => 3336,
@@ -12882,7 +12873,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            429 => 
+            428 => 
             array (
                 'id' => 1434,
                 'denuncia_id' => 3336,
@@ -12891,7 +12882,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            430 => 
+            429 => 
             array (
                 'id' => 1435,
                 'denuncia_id' => 3337,
@@ -12900,7 +12891,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            431 => 
+            430 => 
             array (
                 'id' => 1436,
                 'denuncia_id' => 3338,
@@ -12909,7 +12900,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            432 => 
+            431 => 
             array (
                 'id' => 1437,
                 'denuncia_id' => 3338,
@@ -12918,7 +12909,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            433 => 
+            432 => 
             array (
                 'id' => 1438,
                 'denuncia_id' => 3339,
@@ -12927,7 +12918,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            434 => 
+            433 => 
             array (
                 'id' => 1439,
                 'denuncia_id' => 3340,
@@ -12936,7 +12927,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            435 => 
+            434 => 
             array (
                 'id' => 1440,
                 'denuncia_id' => 3340,
@@ -12945,7 +12936,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            436 => 
+            435 => 
             array (
                 'id' => 1441,
                 'denuncia_id' => 3340,
@@ -12954,7 +12945,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            437 => 
+            436 => 
             array (
                 'id' => 1442,
                 'denuncia_id' => 3340,
@@ -12963,7 +12954,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            438 => 
+            437 => 
             array (
                 'id' => 1443,
                 'denuncia_id' => 3343,
@@ -12972,7 +12963,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            439 => 
+            438 => 
             array (
                 'id' => 1444,
                 'denuncia_id' => 3341,
@@ -12981,7 +12972,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            440 => 
+            439 => 
             array (
                 'id' => 1445,
                 'denuncia_id' => 3341,
@@ -12990,7 +12981,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            441 => 
+            440 => 
             array (
                 'id' => 1446,
                 'denuncia_id' => 3341,
@@ -12999,7 +12990,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            442 => 
+            441 => 
             array (
                 'id' => 1447,
                 'denuncia_id' => 3032,
@@ -13008,7 +12999,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            443 => 
+            442 => 
             array (
                 'id' => 1448,
                 'denuncia_id' => 3032,
@@ -13017,7 +13008,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            444 => 
+            443 => 
             array (
                 'id' => 1449,
                 'denuncia_id' => 3032,
@@ -13026,7 +13017,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            445 => 
+            444 => 
             array (
                 'id' => 1450,
                 'denuncia_id' => 3024,
@@ -13035,7 +13026,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            446 => 
+            445 => 
             array (
                 'id' => 1451,
                 'denuncia_id' => 3024,
@@ -13044,7 +13035,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            447 => 
+            446 => 
             array (
                 'id' => 1452,
                 'denuncia_id' => 3024,
@@ -13053,7 +13044,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            448 => 
+            447 => 
             array (
                 'id' => 1453,
                 'denuncia_id' => 3028,
@@ -13062,7 +13053,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            449 => 
+            448 => 
             array (
                 'id' => 1454,
                 'denuncia_id' => 2936,
@@ -13071,7 +13062,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            450 => 
+            449 => 
             array (
                 'id' => 1455,
                 'denuncia_id' => 2945,
@@ -13080,7 +13071,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            451 => 
+            450 => 
             array (
                 'id' => 1456,
                 'denuncia_id' => 2956,
@@ -13089,7 +13080,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            452 => 
+            451 => 
             array (
                 'id' => 1457,
                 'denuncia_id' => 3012,
@@ -13098,7 +13089,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            453 => 
+            452 => 
             array (
                 'id' => 1458,
                 'denuncia_id' => 3031,
@@ -13107,7 +13098,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            454 => 
+            453 => 
             array (
                 'id' => 1459,
                 'denuncia_id' => 3031,
@@ -13116,7 +13107,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            455 => 
+            454 => 
             array (
                 'id' => 1460,
                 'denuncia_id' => 3031,
@@ -13125,7 +13116,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            456 => 
+            455 => 
             array (
                 'id' => 1461,
                 'denuncia_id' => 3019,
@@ -13134,7 +13125,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            457 => 
+            456 => 
             array (
                 'id' => 1462,
                 'denuncia_id' => 3019,
@@ -13143,7 +13134,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            458 => 
+            457 => 
             array (
                 'id' => 1463,
                 'denuncia_id' => 3019,
@@ -13152,7 +13143,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            459 => 
+            458 => 
             array (
                 'id' => 1464,
                 'denuncia_id' => 3344,
@@ -13161,7 +13152,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            460 => 
+            459 => 
             array (
                 'id' => 1465,
                 'denuncia_id' => 3344,
@@ -13170,7 +13161,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            461 => 
+            460 => 
             array (
                 'id' => 1466,
                 'denuncia_id' => 3344,
@@ -13179,7 +13170,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            462 => 
+            461 => 
             array (
                 'id' => 1467,
                 'denuncia_id' => 3345,
@@ -13188,7 +13179,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            463 => 
+            462 => 
             array (
                 'id' => 1468,
                 'denuncia_id' => 3345,
@@ -13197,7 +13188,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            464 => 
+            463 => 
             array (
                 'id' => 1469,
                 'denuncia_id' => 3345,
@@ -13206,7 +13197,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            465 => 
+            464 => 
             array (
                 'id' => 1470,
                 'denuncia_id' => 3346,
@@ -13215,7 +13206,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            466 => 
+            465 => 
             array (
                 'id' => 1471,
                 'denuncia_id' => 3346,
@@ -13224,7 +13215,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            467 => 
+            466 => 
             array (
                 'id' => 1472,
                 'denuncia_id' => 3346,
@@ -13233,7 +13224,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            468 => 
+            467 => 
             array (
                 'id' => 1473,
                 'denuncia_id' => 3347,
@@ -13242,7 +13233,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            469 => 
+            468 => 
             array (
                 'id' => 1474,
                 'denuncia_id' => 3347,
@@ -13251,7 +13242,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            470 => 
+            469 => 
             array (
                 'id' => 1475,
                 'denuncia_id' => 3348,
@@ -13260,7 +13251,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            471 => 
+            470 => 
             array (
                 'id' => 1476,
                 'denuncia_id' => 3348,
@@ -13269,7 +13260,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            472 => 
+            471 => 
             array (
                 'id' => 1477,
                 'denuncia_id' => 3348,
@@ -13278,7 +13269,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            473 => 
+            472 => 
             array (
                 'id' => 1478,
                 'denuncia_id' => 2907,
@@ -13287,7 +13278,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            474 => 
+            473 => 
             array (
                 'id' => 1479,
                 'denuncia_id' => 2906,
@@ -13296,7 +13287,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            475 => 
+            474 => 
             array (
                 'id' => 1480,
                 'denuncia_id' => 2902,
@@ -13305,7 +13296,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            476 => 
+            475 => 
             array (
                 'id' => 1481,
                 'denuncia_id' => 2901,
@@ -13314,7 +13305,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            477 => 
+            476 => 
             array (
                 'id' => 1482,
                 'denuncia_id' => 2905,
@@ -13323,7 +13314,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            478 => 
+            477 => 
             array (
                 'id' => 1483,
                 'denuncia_id' => 2905,
@@ -13332,7 +13323,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            479 => 
+            478 => 
             array (
                 'id' => 1484,
                 'denuncia_id' => 2919,
@@ -13341,7 +13332,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            480 => 
+            479 => 
             array (
                 'id' => 1485,
                 'denuncia_id' => 3349,
@@ -13350,7 +13341,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            481 => 
+            480 => 
             array (
                 'id' => 1486,
                 'denuncia_id' => 3349,
@@ -13359,7 +13350,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            482 => 
+            481 => 
             array (
                 'id' => 1487,
                 'denuncia_id' => 3350,
@@ -13368,7 +13359,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            483 => 
+            482 => 
             array (
                 'id' => 1488,
                 'denuncia_id' => 3350,
@@ -13377,7 +13368,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            484 => 
+            483 => 
             array (
                 'id' => 1489,
                 'denuncia_id' => 3351,
@@ -13386,7 +13377,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            485 => 
+            484 => 
             array (
                 'id' => 1490,
                 'denuncia_id' => 3351,
@@ -13395,7 +13386,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            486 => 
+            485 => 
             array (
                 'id' => 1491,
                 'denuncia_id' => 3352,
@@ -13404,7 +13395,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            487 => 
+            486 => 
             array (
                 'id' => 1492,
                 'denuncia_id' => 3352,
@@ -13413,7 +13404,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            488 => 
+            487 => 
             array (
                 'id' => 1493,
                 'denuncia_id' => 3353,
@@ -13422,7 +13413,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            489 => 
+            488 => 
             array (
                 'id' => 1494,
                 'denuncia_id' => 3353,
@@ -13431,7 +13422,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            490 => 
+            489 => 
             array (
                 'id' => 1495,
                 'denuncia_id' => 3354,
@@ -13440,7 +13431,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            491 => 
+            490 => 
             array (
                 'id' => 1496,
                 'denuncia_id' => 3354,
@@ -13449,7 +13440,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            492 => 
+            491 => 
             array (
                 'id' => 1497,
                 'denuncia_id' => 3354,
@@ -13458,7 +13449,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            493 => 
+            492 => 
             array (
                 'id' => 1498,
                 'denuncia_id' => 3355,
@@ -13467,7 +13458,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            494 => 
+            493 => 
             array (
                 'id' => 1499,
                 'denuncia_id' => 3356,
@@ -13476,7 +13467,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            495 => 
+            494 => 
             array (
                 'id' => 1500,
                 'denuncia_id' => 3357,
@@ -13485,7 +13476,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            496 => 
+            495 => 
             array (
                 'id' => 1501,
                 'denuncia_id' => 3357,
@@ -13494,7 +13485,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            497 => 
+            496 => 
             array (
                 'id' => 1502,
                 'denuncia_id' => 3358,
@@ -13503,7 +13494,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            498 => 
+            497 => 
             array (
                 'id' => 1503,
                 'denuncia_id' => 3359,
@@ -13512,7 +13503,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            499 => 
+            498 => 
             array (
                 'id' => 1504,
                 'denuncia_id' => 3359,
@@ -13521,9 +13512,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-        ));
-        \DB::table('denuncia_tblmedida')->insert(array (
-            0 => 
+            499 => 
             array (
                 'id' => 1505,
                 'denuncia_id' => 3360,
@@ -13532,7 +13521,9 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            1 => 
+        ));
+        \DB::table('denuncia_tblmedida')->insert(array (
+            0 => 
             array (
                 'id' => 1506,
                 'denuncia_id' => 3361,
@@ -13541,7 +13532,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            2 => 
+            1 => 
             array (
                 'id' => 1507,
                 'denuncia_id' => 3361,
@@ -13550,7 +13541,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            3 => 
+            2 => 
             array (
                 'id' => 1508,
                 'denuncia_id' => 3363,
@@ -13559,7 +13550,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            4 => 
+            3 => 
             array (
                 'id' => 1509,
                 'denuncia_id' => 3363,
@@ -13568,7 +13559,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            5 => 
+            4 => 
             array (
                 'id' => 1510,
                 'denuncia_id' => 3364,
@@ -13577,7 +13568,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            6 => 
+            5 => 
             array (
                 'id' => 1511,
                 'denuncia_id' => 3364,
@@ -13586,7 +13577,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            7 => 
+            6 => 
             array (
                 'id' => 1512,
                 'denuncia_id' => 3365,
@@ -13595,7 +13586,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            8 => 
+            7 => 
             array (
                 'id' => 1513,
                 'denuncia_id' => 3365,
@@ -13604,7 +13595,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            9 => 
+            8 => 
             array (
                 'id' => 1514,
                 'denuncia_id' => 3366,
@@ -13613,7 +13604,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            10 => 
+            9 => 
             array (
                 'id' => 1515,
                 'denuncia_id' => 3366,
@@ -13622,7 +13613,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            11 => 
+            10 => 
             array (
                 'id' => 1516,
                 'denuncia_id' => 3366,
@@ -13631,7 +13622,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            12 => 
+            11 => 
             array (
                 'id' => 1517,
                 'denuncia_id' => 3367,
@@ -13640,7 +13631,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            13 => 
+            12 => 
             array (
                 'id' => 1518,
                 'denuncia_id' => 2631,
@@ -13649,7 +13640,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            14 => 
+            13 => 
             array (
                 'id' => 1519,
                 'denuncia_id' => 2631,
@@ -13658,7 +13649,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            15 => 
+            14 => 
             array (
                 'id' => 1520,
                 'denuncia_id' => 2591,
@@ -13667,7 +13658,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            16 => 
+            15 => 
             array (
                 'id' => 1521,
                 'denuncia_id' => 2591,
@@ -13676,7 +13667,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            17 => 
+            16 => 
             array (
                 'id' => 1522,
                 'denuncia_id' => 2594,
@@ -13685,7 +13676,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            18 => 
+            17 => 
             array (
                 'id' => 1523,
                 'denuncia_id' => 2594,
@@ -13694,7 +13685,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            19 => 
+            18 => 
             array (
                 'id' => 1524,
                 'denuncia_id' => 2105,
@@ -13703,7 +13694,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            20 => 
+            19 => 
             array (
                 'id' => 1525,
                 'denuncia_id' => 2105,
@@ -13712,7 +13703,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            21 => 
+            20 => 
             array (
                 'id' => 1526,
                 'denuncia_id' => 2114,
@@ -13721,7 +13712,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            22 => 
+            21 => 
             array (
                 'id' => 1527,
                 'denuncia_id' => 2099,
@@ -13730,7 +13721,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            23 => 
+            22 => 
             array (
                 'id' => 1528,
                 'denuncia_id' => 2075,
@@ -13739,7 +13730,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            24 => 
+            23 => 
             array (
                 'id' => 1529,
                 'denuncia_id' => 2093,
@@ -13748,7 +13739,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            25 => 
+            24 => 
             array (
                 'id' => 1530,
                 'denuncia_id' => 2090,
@@ -13757,7 +13748,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            26 => 
+            25 => 
             array (
                 'id' => 1531,
                 'denuncia_id' => 2081,
@@ -13766,7 +13757,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            27 => 
+            26 => 
             array (
                 'id' => 1532,
                 'denuncia_id' => 1804,
@@ -13775,7 +13766,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            28 => 
+            27 => 
             array (
                 'id' => 1533,
                 'denuncia_id' => 1807,
@@ -13784,7 +13775,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            29 => 
+            28 => 
             array (
                 'id' => 1534,
                 'denuncia_id' => 1807,
@@ -13793,7 +13784,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            30 => 
+            29 => 
             array (
                 'id' => 1535,
                 'denuncia_id' => 1807,
@@ -13802,7 +13793,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            31 => 
+            30 => 
             array (
                 'id' => 1536,
                 'denuncia_id' => 1807,
@@ -13811,7 +13802,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            32 => 
+            31 => 
             array (
                 'id' => 1537,
                 'denuncia_id' => 1813,
@@ -13820,7 +13811,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            33 => 
+            32 => 
             array (
                 'id' => 1538,
                 'denuncia_id' => 2063,
@@ -13829,7 +13820,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            34 => 
+            33 => 
             array (
                 'id' => 1539,
                 'denuncia_id' => 2120,
@@ -13838,7 +13829,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            35 => 
+            34 => 
             array (
                 'id' => 1540,
                 'denuncia_id' => 2129,
@@ -13847,7 +13838,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            36 => 
+            35 => 
             array (
                 'id' => 1541,
                 'denuncia_id' => 2132,
@@ -13856,7 +13847,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            37 => 
+            36 => 
             array (
                 'id' => 1542,
                 'denuncia_id' => 1692,
@@ -13865,7 +13856,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            38 => 
+            37 => 
             array (
                 'id' => 1543,
                 'denuncia_id' => 1795,
@@ -13874,7 +13865,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            39 => 
+            38 => 
             array (
                 'id' => 1544,
                 'denuncia_id' => 2069,
@@ -13883,7 +13874,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            40 => 
+            39 => 
             array (
                 'id' => 1545,
                 'denuncia_id' => 2084,
@@ -13892,7 +13883,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            41 => 
+            40 => 
             array (
                 'id' => 1546,
                 'denuncia_id' => 2102,
@@ -13901,7 +13892,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            42 => 
+            41 => 
             array (
                 'id' => 1547,
                 'denuncia_id' => 1672,
@@ -13910,7 +13901,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            43 => 
+            42 => 
             array (
                 'id' => 1548,
                 'denuncia_id' => 1672,
@@ -13919,7 +13910,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            44 => 
+            43 => 
             array (
                 'id' => 1549,
                 'denuncia_id' => 1648,
@@ -13928,7 +13919,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            45 => 
+            44 => 
             array (
                 'id' => 1550,
                 'denuncia_id' => 1632,
@@ -13937,7 +13928,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            46 => 
+            45 => 
             array (
                 'id' => 1551,
                 'denuncia_id' => 1609,
@@ -13946,7 +13937,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            47 => 
+            46 => 
             array (
                 'id' => 1552,
                 'denuncia_id' => 1606,
@@ -13955,7 +13946,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            48 => 
+            47 => 
             array (
                 'id' => 1553,
                 'denuncia_id' => 1600,
@@ -13964,7 +13955,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            49 => 
+            48 => 
             array (
                 'id' => 1554,
                 'denuncia_id' => 1593,
@@ -13973,7 +13964,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            50 => 
+            49 => 
             array (
                 'id' => 1555,
                 'denuncia_id' => 2135,
@@ -13982,7 +13973,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            51 => 
+            50 => 
             array (
                 'id' => 1556,
                 'denuncia_id' => 2135,
@@ -13991,7 +13982,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            52 => 
+            51 => 
             array (
                 'id' => 1557,
                 'denuncia_id' => 2140,
@@ -14000,7 +13991,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            53 => 
+            52 => 
             array (
                 'id' => 1558,
                 'denuncia_id' => 2140,
@@ -14009,7 +14000,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            54 => 
+            53 => 
             array (
                 'id' => 1559,
                 'denuncia_id' => 2174,
@@ -14018,7 +14009,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            55 => 
+            54 => 
             array (
                 'id' => 1560,
                 'denuncia_id' => 2157,
@@ -14027,7 +14018,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            56 => 
+            55 => 
             array (
                 'id' => 1561,
                 'denuncia_id' => 2180,
@@ -14036,7 +14027,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            57 => 
+            56 => 
             array (
                 'id' => 1562,
                 'denuncia_id' => 3370,
@@ -14045,7 +14036,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            58 => 
+            57 => 
             array (
                 'id' => 1563,
                 'denuncia_id' => 3371,
@@ -14054,7 +14045,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            59 => 
+            58 => 
             array (
                 'id' => 1564,
                 'denuncia_id' => 3372,
@@ -14063,7 +14054,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            60 => 
+            59 => 
             array (
                 'id' => 1565,
                 'denuncia_id' => 3373,
@@ -14072,7 +14063,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            61 => 
+            60 => 
             array (
                 'id' => 1566,
                 'denuncia_id' => 3374,
@@ -14081,7 +14072,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            62 => 
+            61 => 
             array (
                 'id' => 1567,
                 'denuncia_id' => 3375,
@@ -14090,7 +14081,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            63 => 
+            62 => 
             array (
                 'id' => 1568,
                 'denuncia_id' => 3376,
@@ -14099,7 +14090,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            64 => 
+            63 => 
             array (
                 'id' => 1569,
                 'denuncia_id' => 3377,
@@ -14108,7 +14099,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            65 => 
+            64 => 
             array (
                 'id' => 1570,
                 'denuncia_id' => 3378,
@@ -14117,7 +14108,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            66 => 
+            65 => 
             array (
                 'id' => 1571,
                 'denuncia_id' => 3379,
@@ -14126,7 +14117,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            67 => 
+            66 => 
             array (
                 'id' => 1572,
                 'denuncia_id' => 3380,
@@ -14135,7 +14126,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            68 => 
+            67 => 
             array (
                 'id' => 1573,
                 'denuncia_id' => 3381,
@@ -14144,7 +14135,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            69 => 
+            68 => 
             array (
                 'id' => 1574,
                 'denuncia_id' => 2621,
@@ -14153,7 +14144,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            70 => 
+            69 => 
             array (
                 'id' => 1575,
                 'denuncia_id' => 2636,
@@ -14162,7 +14153,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            71 => 
+            70 => 
             array (
                 'id' => 1576,
                 'denuncia_id' => 2663,
@@ -14171,7 +14162,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            72 => 
+            71 => 
             array (
                 'id' => 1577,
                 'denuncia_id' => 2734,
@@ -14180,7 +14171,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            73 => 
+            72 => 
             array (
                 'id' => 1578,
                 'denuncia_id' => 2755,
@@ -14189,7 +14180,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            74 => 
+            73 => 
             array (
                 'id' => 1579,
                 'denuncia_id' => 2735,
@@ -14198,7 +14189,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            75 => 
+            74 => 
             array (
                 'id' => 1580,
                 'denuncia_id' => 2760,
@@ -14207,7 +14198,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            76 => 
+            75 => 
             array (
                 'id' => 1581,
                 'denuncia_id' => 1449,
@@ -14216,7 +14207,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            77 => 
+            76 => 
             array (
                 'id' => 1582,
                 'denuncia_id' => 1482,
@@ -14225,7 +14216,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            78 => 
+            77 => 
             array (
                 'id' => 1583,
                 'denuncia_id' => 1493,
@@ -14234,7 +14225,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            79 => 
+            78 => 
             array (
                 'id' => 1584,
                 'denuncia_id' => 1501,
@@ -14243,7 +14234,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            80 => 
+            79 => 
             array (
                 'id' => 1585,
                 'denuncia_id' => 1535,
@@ -14252,7 +14243,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            81 => 
+            80 => 
             array (
                 'id' => 1586,
                 'denuncia_id' => 1551,
@@ -14261,7 +14252,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            82 => 
+            81 => 
             array (
                 'id' => 1587,
                 'denuncia_id' => 3388,
@@ -14270,7 +14261,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            83 => 
+            82 => 
             array (
                 'id' => 1588,
                 'denuncia_id' => 1547,
@@ -14279,7 +14270,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            84 => 
+            83 => 
             array (
                 'id' => 1589,
                 'denuncia_id' => 1578,
@@ -14288,7 +14279,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            85 => 
+            84 => 
             array (
                 'id' => 1590,
                 'denuncia_id' => 1357,
@@ -14297,7 +14288,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            86 => 
+            85 => 
             array (
                 'id' => 1591,
                 'denuncia_id' => 1357,
@@ -14306,7 +14297,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            87 => 
+            86 => 
             array (
                 'id' => 1592,
                 'denuncia_id' => 1357,
@@ -14315,7 +14306,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            88 => 
+            87 => 
             array (
                 'id' => 1593,
                 'denuncia_id' => 1384,
@@ -14324,7 +14315,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            89 => 
+            88 => 
             array (
                 'id' => 1594,
                 'denuncia_id' => 1389,
@@ -14333,7 +14324,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            90 => 
+            89 => 
             array (
                 'id' => 1595,
                 'denuncia_id' => 1399,
@@ -14342,7 +14333,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            91 => 
+            90 => 
             array (
                 'id' => 1596,
                 'denuncia_id' => 1419,
@@ -14351,7 +14342,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            92 => 
+            91 => 
             array (
                 'id' => 1597,
                 'denuncia_id' => 1419,
@@ -14360,7 +14351,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            93 => 
+            92 => 
             array (
                 'id' => 1598,
                 'denuncia_id' => 1434,
@@ -14369,7 +14360,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            94 => 
+            93 => 
             array (
                 'id' => 1599,
                 'denuncia_id' => 1466,
@@ -14378,7 +14369,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            95 => 
+            94 => 
             array (
                 'id' => 1600,
                 'denuncia_id' => 1466,
@@ -14387,7 +14378,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            96 => 
+            95 => 
             array (
                 'id' => 1601,
                 'denuncia_id' => 1508,
@@ -14396,7 +14387,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            97 => 
+            96 => 
             array (
                 'id' => 1602,
                 'denuncia_id' => 1512,
@@ -14405,7 +14396,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            98 => 
+            97 => 
             array (
                 'id' => 1603,
                 'denuncia_id' => 1585,
@@ -14414,7 +14405,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            99 => 
+            98 => 
             array (
                 'id' => 1604,
                 'denuncia_id' => 1616,
@@ -14423,7 +14414,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            100 => 
+            99 => 
             array (
                 'id' => 1605,
                 'denuncia_id' => 1616,
@@ -14432,7 +14423,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            101 => 
+            100 => 
             array (
                 'id' => 1606,
                 'denuncia_id' => 1668,
@@ -14441,7 +14432,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            102 => 
+            101 => 
             array (
                 'id' => 1607,
                 'denuncia_id' => 1668,
@@ -14450,7 +14441,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            103 => 
+            102 => 
             array (
                 'id' => 1608,
                 'denuncia_id' => 1684,
@@ -14459,7 +14450,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            104 => 
+            103 => 
             array (
                 'id' => 1609,
                 'denuncia_id' => 1684,
@@ -14468,7 +14459,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            105 => 
+            104 => 
             array (
                 'id' => 1610,
                 'denuncia_id' => 1798,
@@ -14477,7 +14468,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            106 => 
+            105 => 
             array (
                 'id' => 1611,
                 'denuncia_id' => 1798,
@@ -14486,7 +14477,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            107 => 
+            106 => 
             array (
                 'id' => 1612,
                 'denuncia_id' => 1798,
@@ -14495,7 +14486,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            108 => 
+            107 => 
             array (
                 'id' => 1613,
                 'denuncia_id' => 1801,
@@ -14504,7 +14495,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            109 => 
+            108 => 
             array (
                 'id' => 1614,
                 'denuncia_id' => 1801,
@@ -14513,7 +14504,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            110 => 
+            109 => 
             array (
                 'id' => 1615,
                 'denuncia_id' => 1801,
@@ -14522,7 +14513,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            111 => 
+            110 => 
             array (
                 'id' => 1616,
                 'denuncia_id' => 1810,
@@ -14531,7 +14522,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            112 => 
+            111 => 
             array (
                 'id' => 1617,
                 'denuncia_id' => 1810,
@@ -14540,7 +14531,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            113 => 
+            112 => 
             array (
                 'id' => 1618,
                 'denuncia_id' => 1810,
@@ -14549,7 +14540,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            114 => 
+            113 => 
             array (
                 'id' => 1619,
                 'denuncia_id' => 1816,
@@ -14558,7 +14549,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            115 => 
+            114 => 
             array (
                 'id' => 1620,
                 'denuncia_id' => 1816,
@@ -14567,7 +14558,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            116 => 
+            115 => 
             array (
                 'id' => 1621,
                 'denuncia_id' => 2061,
@@ -14576,7 +14567,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            117 => 
+            116 => 
             array (
                 'id' => 1622,
                 'denuncia_id' => 2061,
@@ -14585,7 +14576,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            118 => 
+            117 => 
             array (
                 'id' => 1623,
                 'denuncia_id' => 2061,
@@ -14594,7 +14585,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            119 => 
+            118 => 
             array (
                 'id' => 1624,
                 'denuncia_id' => 2065,
@@ -14603,7 +14594,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            120 => 
+            119 => 
             array (
                 'id' => 1625,
                 'denuncia_id' => 2067,
@@ -14612,7 +14603,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            121 => 
+            120 => 
             array (
                 'id' => 1626,
                 'denuncia_id' => 2067,
@@ -14621,7 +14612,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            122 => 
+            121 => 
             array (
                 'id' => 1627,
                 'denuncia_id' => 2067,
@@ -14630,7 +14621,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            123 => 
+            122 => 
             array (
                 'id' => 1628,
                 'denuncia_id' => 2067,
@@ -14639,7 +14630,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            124 => 
+            123 => 
             array (
                 'id' => 1629,
                 'denuncia_id' => 2071,
@@ -14648,7 +14639,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            125 => 
+            124 => 
             array (
                 'id' => 1630,
                 'denuncia_id' => 2071,
@@ -14657,7 +14648,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            126 => 
+            125 => 
             array (
                 'id' => 1631,
                 'denuncia_id' => 2071,
@@ -14666,7 +14657,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            127 => 
+            126 => 
             array (
                 'id' => 1632,
                 'denuncia_id' => 2071,
@@ -14675,7 +14666,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            128 => 
+            127 => 
             array (
                 'id' => 1633,
                 'denuncia_id' => 2078,
@@ -14684,7 +14675,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            129 => 
+            128 => 
             array (
                 'id' => 1634,
                 'denuncia_id' => 2108,
@@ -14693,7 +14684,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            130 => 
+            129 => 
             array (
                 'id' => 1635,
                 'denuncia_id' => 2108,
@@ -14702,7 +14693,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            131 => 
+            130 => 
             array (
                 'id' => 1636,
                 'denuncia_id' => 2108,
@@ -14711,7 +14702,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            132 => 
+            131 => 
             array (
                 'id' => 1637,
                 'denuncia_id' => 2108,
@@ -14720,7 +14711,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            133 => 
+            132 => 
             array (
                 'id' => 1638,
                 'denuncia_id' => 2126,
@@ -14729,7 +14720,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            134 => 
+            133 => 
             array (
                 'id' => 1639,
                 'denuncia_id' => 2126,
@@ -14738,7 +14729,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            135 => 
+            134 => 
             array (
                 'id' => 1640,
                 'denuncia_id' => 3390,
@@ -14747,7 +14738,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            136 => 
+            135 => 
             array (
                 'id' => 1641,
                 'denuncia_id' => 3391,
@@ -14756,7 +14747,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            137 => 
+            136 => 
             array (
                 'id' => 1642,
                 'denuncia_id' => 3392,
@@ -14765,7 +14756,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            138 => 
+            137 => 
             array (
                 'id' => 1643,
                 'denuncia_id' => 2162,
@@ -14774,7 +14765,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            139 => 
+            138 => 
             array (
                 'id' => 1644,
                 'denuncia_id' => 2177,
@@ -14783,7 +14774,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            140 => 
+            139 => 
             array (
                 'id' => 1645,
                 'denuncia_id' => 2616,
@@ -14792,7 +14783,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            141 => 
+            140 => 
             array (
                 'id' => 1646,
                 'denuncia_id' => 2617,
@@ -14801,7 +14792,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            142 => 
+            141 => 
             array (
                 'id' => 1647,
                 'denuncia_id' => 2618,
@@ -14810,7 +14801,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            143 => 
+            142 => 
             array (
                 'id' => 1648,
                 'denuncia_id' => 2620,
@@ -14819,7 +14810,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            144 => 
+            143 => 
             array (
                 'id' => 1649,
                 'denuncia_id' => 2622,
@@ -14828,7 +14819,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            145 => 
+            144 => 
             array (
                 'id' => 1650,
                 'denuncia_id' => 2625,
@@ -14837,7 +14828,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            146 => 
+            145 => 
             array (
                 'id' => 1651,
                 'denuncia_id' => 2637,
@@ -14846,7 +14837,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            147 => 
+            146 => 
             array (
                 'id' => 1652,
                 'denuncia_id' => 2651,
@@ -14855,7 +14846,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            148 => 
+            147 => 
             array (
                 'id' => 1653,
                 'denuncia_id' => 2649,
@@ -14864,7 +14855,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            149 => 
+            148 => 
             array (
                 'id' => 1654,
                 'denuncia_id' => 2662,
@@ -14873,7 +14864,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            150 => 
+            149 => 
             array (
                 'id' => 1655,
                 'denuncia_id' => 2664,
@@ -14882,7 +14873,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            151 => 
+            150 => 
             array (
                 'id' => 1656,
                 'denuncia_id' => 2699,
@@ -14891,7 +14882,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            152 => 
+            151 => 
             array (
                 'id' => 1657,
                 'denuncia_id' => 2705,
@@ -14900,7 +14891,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            153 => 
+            152 => 
             array (
                 'id' => 1658,
                 'denuncia_id' => 2721,
@@ -14909,7 +14900,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            154 => 
+            153 => 
             array (
                 'id' => 1659,
                 'denuncia_id' => 2619,
@@ -14918,7 +14909,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            155 => 
+            154 => 
             array (
                 'id' => 1660,
                 'denuncia_id' => 2733,
@@ -14927,7 +14918,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            156 => 
+            155 => 
             array (
                 'id' => 1661,
                 'denuncia_id' => 2740,
@@ -14936,7 +14927,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            157 => 
+            156 => 
             array (
                 'id' => 1662,
                 'denuncia_id' => 2757,
@@ -14945,7 +14936,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            158 => 
+            157 => 
             array (
                 'id' => 1663,
                 'denuncia_id' => 3397,
@@ -14954,7 +14945,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            159 => 
+            158 => 
             array (
                 'id' => 1664,
                 'denuncia_id' => 3398,
@@ -14963,7 +14954,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            160 => 
+            159 => 
             array (
                 'id' => 1665,
                 'denuncia_id' => 3399,
@@ -14972,7 +14963,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            161 => 
+            160 => 
             array (
                 'id' => 1666,
                 'denuncia_id' => 2600,
@@ -14981,7 +14972,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            162 => 
+            161 => 
             array (
                 'id' => 1667,
                 'denuncia_id' => 3402,
@@ -14990,7 +14981,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            163 => 
+            162 => 
             array (
                 'id' => 1668,
                 'denuncia_id' => 3403,
@@ -14999,7 +14990,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            164 => 
+            163 => 
             array (
                 'id' => 1669,
                 'denuncia_id' => 3404,
@@ -15008,7 +14999,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            165 => 
+            164 => 
             array (
                 'id' => 1670,
                 'denuncia_id' => 3405,
@@ -15017,7 +15008,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            166 => 
+            165 => 
             array (
                 'id' => 1671,
                 'denuncia_id' => 3406,
@@ -15026,7 +15017,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            167 => 
+            166 => 
             array (
                 'id' => 1672,
                 'denuncia_id' => 3407,
@@ -15035,7 +15026,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            168 => 
+            167 => 
             array (
                 'id' => 1673,
                 'denuncia_id' => 3408,
@@ -15044,7 +15035,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            169 => 
+            168 => 
             array (
                 'id' => 1674,
                 'denuncia_id' => 3409,
@@ -15053,7 +15044,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            170 => 
+            169 => 
             array (
                 'id' => 1675,
                 'denuncia_id' => 3410,
@@ -15062,7 +15053,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            171 => 
+            170 => 
             array (
                 'id' => 1676,
                 'denuncia_id' => 3410,
@@ -15071,7 +15062,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            172 => 
+            171 => 
             array (
                 'id' => 1677,
                 'denuncia_id' => 3411,
@@ -15080,7 +15071,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            173 => 
+            172 => 
             array (
                 'id' => 1678,
                 'denuncia_id' => 3412,
@@ -15089,7 +15080,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            174 => 
+            173 => 
             array (
                 'id' => 1679,
                 'denuncia_id' => 3414,
@@ -15098,7 +15089,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            175 => 
+            174 => 
             array (
                 'id' => 1680,
                 'denuncia_id' => 1306,
@@ -15107,7 +15098,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            176 => 
+            175 => 
             array (
                 'id' => 1681,
                 'denuncia_id' => 1317,
@@ -15116,7 +15107,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            177 => 
+            176 => 
             array (
                 'id' => 1682,
                 'denuncia_id' => 1311,
@@ -15125,7 +15116,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            178 => 
+            177 => 
             array (
                 'id' => 1683,
                 'denuncia_id' => 1332,
@@ -15134,7 +15125,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            179 => 
+            178 => 
             array (
                 'id' => 1684,
                 'denuncia_id' => 1339,
@@ -15143,7 +15134,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            180 => 
+            179 => 
             array (
                 'id' => 1685,
                 'denuncia_id' => 1351,
@@ -15152,7 +15143,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            181 => 
+            180 => 
             array (
                 'id' => 1686,
                 'denuncia_id' => 1362,
@@ -15161,7 +15152,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            182 => 
+            181 => 
             array (
                 'id' => 1687,
                 'denuncia_id' => 1369,
@@ -15170,7 +15161,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            183 => 
+            182 => 
             array (
                 'id' => 1688,
                 'denuncia_id' => 1374,
@@ -15179,7 +15170,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            184 => 
+            183 => 
             array (
                 'id' => 1689,
                 'denuncia_id' => 1379,
@@ -15188,7 +15179,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            185 => 
+            184 => 
             array (
                 'id' => 1690,
                 'denuncia_id' => 1379,
@@ -15197,7 +15188,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            186 => 
+            185 => 
             array (
                 'id' => 1691,
                 'denuncia_id' => 1394,
@@ -15206,7 +15197,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            187 => 
+            186 => 
             array (
                 'id' => 1692,
                 'denuncia_id' => 3415,
@@ -15215,7 +15206,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            188 => 
+            187 => 
             array (
                 'id' => 1693,
                 'denuncia_id' => 3415,
@@ -15224,7 +15215,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            189 => 
+            188 => 
             array (
                 'id' => 1694,
                 'denuncia_id' => 1414,
@@ -15233,7 +15224,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            190 => 
+            189 => 
             array (
                 'id' => 1695,
                 'denuncia_id' => 1424,
@@ -15242,7 +15233,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            191 => 
+            190 => 
             array (
                 'id' => 1696,
                 'denuncia_id' => 1429,
@@ -15251,7 +15242,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            192 => 
+            191 => 
             array (
                 'id' => 1697,
                 'denuncia_id' => 1439,
@@ -15260,7 +15251,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            193 => 
+            192 => 
             array (
                 'id' => 1698,
                 'denuncia_id' => 1444,
@@ -15269,7 +15260,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            194 => 
+            193 => 
             array (
                 'id' => 1699,
                 'denuncia_id' => 1454,
@@ -15278,7 +15269,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            195 => 
+            194 => 
             array (
                 'id' => 1700,
                 'denuncia_id' => 1458,
@@ -15287,7 +15278,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            196 => 
+            195 => 
             array (
                 'id' => 1701,
                 'denuncia_id' => 1470,
@@ -15296,7 +15287,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            197 => 
+            196 => 
             array (
                 'id' => 1702,
                 'denuncia_id' => 1474,
@@ -15305,7 +15296,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            198 => 
+            197 => 
             array (
                 'id' => 1703,
                 'denuncia_id' => 1486,
@@ -15314,7 +15305,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            199 => 
+            198 => 
             array (
                 'id' => 1704,
                 'denuncia_id' => 1489,
@@ -15323,7 +15314,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            200 => 
+            199 => 
             array (
                 'id' => 1705,
                 'denuncia_id' => 1497,
@@ -15332,7 +15323,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            201 => 
+            200 => 
             array (
                 'id' => 1706,
                 'denuncia_id' => 1581,
@@ -15341,7 +15332,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            202 => 
+            201 => 
             array (
                 'id' => 1707,
                 'denuncia_id' => 1515,
@@ -15350,7 +15341,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            203 => 
+            202 => 
             array (
                 'id' => 1708,
                 'denuncia_id' => 1515,
@@ -15359,7 +15350,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            204 => 
+            203 => 
             array (
                 'id' => 1709,
                 'denuncia_id' => 1515,
@@ -15368,7 +15359,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            205 => 
+            204 => 
             array (
                 'id' => 1710,
                 'denuncia_id' => 1515,
@@ -15377,7 +15368,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            206 => 
+            205 => 
             array (
                 'id' => 1711,
                 'denuncia_id' => 1519,
@@ -15386,7 +15377,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            207 => 
+            206 => 
             array (
                 'id' => 1712,
                 'denuncia_id' => 1325,
@@ -15395,7 +15386,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            208 => 
+            207 => 
             array (
                 'id' => 1713,
                 'denuncia_id' => 1345,
@@ -15404,7 +15395,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            209 => 
+            208 => 
             array (
                 'id' => 1714,
                 'denuncia_id' => 1409,
@@ -15413,7 +15404,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            210 => 
+            209 => 
             array (
                 'id' => 1715,
                 'denuncia_id' => 1409,
@@ -15422,7 +15413,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            211 => 
+            210 => 
             array (
                 'id' => 1716,
                 'denuncia_id' => 1504,
@@ -15431,7 +15422,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            212 => 
+            211 => 
             array (
                 'id' => 1717,
                 'denuncia_id' => 1523,
@@ -15440,7 +15431,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            213 => 
+            212 => 
             array (
                 'id' => 1718,
                 'denuncia_id' => 1523,
@@ -15449,7 +15440,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            214 => 
+            213 => 
             array (
                 'id' => 1719,
                 'denuncia_id' => 1527,
@@ -15458,7 +15449,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            215 => 
+            214 => 
             array (
                 'id' => 1720,
                 'denuncia_id' => 1527,
@@ -15467,7 +15458,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            216 => 
+            215 => 
             array (
                 'id' => 1721,
                 'denuncia_id' => 1780,
@@ -15476,7 +15467,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            217 => 
+            216 => 
             array (
                 'id' => 1722,
                 'denuncia_id' => 1680,
@@ -15485,7 +15476,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            218 => 
+            217 => 
             array (
                 'id' => 1723,
                 'denuncia_id' => 1676,
@@ -15494,7 +15485,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            219 => 
+            218 => 
             array (
                 'id' => 1724,
                 'denuncia_id' => 1664,
@@ -15503,7 +15494,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            220 => 
+            219 => 
             array (
                 'id' => 1725,
                 'denuncia_id' => 1640,
@@ -15512,7 +15503,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            221 => 
+            220 => 
             array (
                 'id' => 1726,
                 'denuncia_id' => 1597,
@@ -15521,7 +15512,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            222 => 
+            221 => 
             array (
                 'id' => 1727,
                 'denuncia_id' => 1589,
@@ -15530,7 +15521,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            223 => 
+            222 => 
             array (
                 'id' => 1728,
                 'denuncia_id' => 1555,
@@ -15539,7 +15530,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            224 => 
+            223 => 
             array (
                 'id' => 1729,
                 'denuncia_id' => 1555,
@@ -15548,7 +15539,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            225 => 
+            224 => 
             array (
                 'id' => 1730,
                 'denuncia_id' => 1543,
@@ -15557,7 +15548,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            226 => 
+            225 => 
             array (
                 'id' => 1731,
                 'denuncia_id' => 1531,
@@ -15566,7 +15557,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            227 => 
+            226 => 
             array (
                 'id' => 1732,
                 'denuncia_id' => 1539,
@@ -15575,7 +15566,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            228 => 
+            227 => 
             array (
                 'id' => 1733,
                 'denuncia_id' => 1539,
@@ -15584,7 +15575,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            229 => 
+            228 => 
             array (
                 'id' => 1734,
                 'denuncia_id' => 1620,
@@ -15593,7 +15584,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            230 => 
+            229 => 
             array (
                 'id' => 1735,
                 'denuncia_id' => 1558,
@@ -15602,7 +15593,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            231 => 
+            230 => 
             array (
                 'id' => 1736,
                 'denuncia_id' => 1558,
@@ -15611,7 +15602,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            232 => 
+            231 => 
             array (
                 'id' => 1737,
                 'denuncia_id' => 1570,
@@ -15620,7 +15611,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            233 => 
+            232 => 
             array (
                 'id' => 1738,
                 'denuncia_id' => 1574,
@@ -15629,7 +15620,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            234 => 
+            233 => 
             array (
                 'id' => 1739,
                 'denuncia_id' => 3416,
@@ -15638,7 +15629,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            235 => 
+            234 => 
             array (
                 'id' => 1740,
                 'denuncia_id' => 3416,
@@ -15647,7 +15638,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            236 => 
+            235 => 
             array (
                 'id' => 1741,
                 'denuncia_id' => 1628,
@@ -15656,7 +15647,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            237 => 
+            236 => 
             array (
                 'id' => 1742,
                 'denuncia_id' => 1644,
@@ -15665,7 +15656,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            238 => 
+            237 => 
             array (
                 'id' => 1743,
                 'denuncia_id' => 2073,
@@ -15674,7 +15665,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            239 => 
+            238 => 
             array (
                 'id' => 1744,
                 'denuncia_id' => 2073,
@@ -15683,7 +15674,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            240 => 
+            239 => 
             array (
                 'id' => 1745,
                 'denuncia_id' => 2073,
@@ -15692,7 +15683,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            241 => 
+            240 => 
             array (
                 'id' => 1746,
                 'denuncia_id' => 2087,
@@ -15701,7 +15692,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            242 => 
+            241 => 
             array (
                 'id' => 1747,
                 'denuncia_id' => 3257,
@@ -15710,7 +15701,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            243 => 
+            242 => 
             array (
                 'id' => 1748,
                 'denuncia_id' => 3257,
@@ -15719,7 +15710,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            244 => 
+            243 => 
             array (
                 'id' => 1749,
                 'denuncia_id' => 3256,
@@ -15728,7 +15719,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            245 => 
+            244 => 
             array (
                 'id' => 1750,
                 'denuncia_id' => 3256,
@@ -15737,7 +15728,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            246 => 
+            245 => 
             array (
                 'id' => 1751,
                 'denuncia_id' => 3256,
@@ -15746,7 +15737,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            247 => 
+            246 => 
             array (
                 'id' => 1752,
                 'denuncia_id' => 3259,
@@ -15755,7 +15746,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            248 => 
+            247 => 
             array (
                 'id' => 1753,
                 'denuncia_id' => 3144,
@@ -15764,7 +15755,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            249 => 
+            248 => 
             array (
                 'id' => 1754,
                 'denuncia_id' => 3260,
@@ -15773,7 +15764,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            250 => 
+            249 => 
             array (
                 'id' => 1755,
                 'denuncia_id' => 3265,
@@ -15782,7 +15773,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            251 => 
+            250 => 
             array (
                 'id' => 1756,
                 'denuncia_id' => 3276,
@@ -15791,7 +15782,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            252 => 
+            251 => 
             array (
                 'id' => 1757,
                 'denuncia_id' => 3271,
@@ -15800,7 +15791,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            253 => 
+            252 => 
             array (
                 'id' => 1758,
                 'denuncia_id' => 3271,
@@ -15809,7 +15800,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            254 => 
+            253 => 
             array (
                 'id' => 1759,
                 'denuncia_id' => 3273,
@@ -15818,7 +15809,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            255 => 
+            254 => 
             array (
                 'id' => 1760,
                 'denuncia_id' => 3273,
@@ -15827,7 +15818,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            256 => 
+            255 => 
             array (
                 'id' => 1761,
                 'denuncia_id' => 3274,
@@ -15836,7 +15827,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            257 => 
+            256 => 
             array (
                 'id' => 1762,
                 'denuncia_id' => 3274,
@@ -15845,7 +15836,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            258 => 
+            257 => 
             array (
                 'id' => 1763,
                 'denuncia_id' => 3269,
@@ -15854,7 +15845,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            259 => 
+            258 => 
             array (
                 'id' => 1764,
                 'denuncia_id' => 2138,
@@ -15863,7 +15854,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            260 => 
+            259 => 
             array (
                 'id' => 1765,
                 'denuncia_id' => 2138,
@@ -15872,7 +15863,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            261 => 
+            260 => 
             array (
                 'id' => 1766,
                 'denuncia_id' => 2138,
@@ -15881,7 +15872,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            262 => 
+            261 => 
             array (
                 'id' => 1767,
                 'denuncia_id' => 2152,
@@ -15890,7 +15881,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            263 => 
+            262 => 
             array (
                 'id' => 1768,
                 'denuncia_id' => 2159,
@@ -15899,7 +15890,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            264 => 
+            263 => 
             array (
                 'id' => 1769,
                 'denuncia_id' => 2171,
@@ -15908,7 +15899,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            265 => 
+            264 => 
             array (
                 'id' => 1770,
                 'denuncia_id' => 2183,
@@ -15917,7 +15908,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            266 => 
+            265 => 
             array (
                 'id' => 1771,
                 'denuncia_id' => 3417,
@@ -15926,7 +15917,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            267 => 
+            266 => 
             array (
                 'id' => 1772,
                 'denuncia_id' => 3418,
@@ -15935,7 +15926,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            268 => 
+            267 => 
             array (
                 'id' => 1773,
                 'denuncia_id' => 3418,
@@ -15944,7 +15935,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            269 => 
+            268 => 
             array (
                 'id' => 1774,
                 'denuncia_id' => 3419,
@@ -15953,7 +15944,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            270 => 
+            269 => 
             array (
                 'id' => 1775,
                 'denuncia_id' => 3421,
@@ -15962,7 +15953,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            271 => 
+            270 => 
             array (
                 'id' => 1776,
                 'denuncia_id' => 3422,
@@ -15971,7 +15962,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            272 => 
+            271 => 
             array (
                 'id' => 1777,
                 'denuncia_id' => 3423,
@@ -15980,7 +15971,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            273 => 
+            272 => 
             array (
                 'id' => 1778,
                 'denuncia_id' => 3424,
@@ -15989,7 +15980,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            274 => 
+            273 => 
             array (
                 'id' => 1779,
                 'denuncia_id' => 3425,
@@ -15998,7 +15989,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            275 => 
+            274 => 
             array (
                 'id' => 1780,
                 'denuncia_id' => 3427,
@@ -16007,7 +15998,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            276 => 
+            275 => 
             array (
                 'id' => 1781,
                 'denuncia_id' => 3428,
@@ -16016,7 +16007,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            277 => 
+            276 => 
             array (
                 'id' => 1782,
                 'denuncia_id' => 3429,
@@ -16025,7 +16016,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            278 => 
+            277 => 
             array (
                 'id' => 1783,
                 'denuncia_id' => 3430,
@@ -16034,7 +16025,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            279 => 
+            278 => 
             array (
                 'id' => 1784,
                 'denuncia_id' => 3431,
@@ -16043,7 +16034,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            280 => 
+            279 => 
             array (
                 'id' => 1785,
                 'denuncia_id' => 2194,
@@ -16052,7 +16043,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            281 => 
+            280 => 
             array (
                 'id' => 1786,
                 'denuncia_id' => 3432,
@@ -16061,7 +16052,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            282 => 
+            281 => 
             array (
                 'id' => 1787,
                 'denuncia_id' => 3433,
@@ -16070,7 +16061,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            283 => 
+            282 => 
             array (
                 'id' => 1788,
                 'denuncia_id' => 3434,
@@ -16079,7 +16070,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            284 => 
+            283 => 
             array (
                 'id' => 1789,
                 'denuncia_id' => 3384,
@@ -16088,7 +16079,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            285 => 
+            284 => 
             array (
                 'id' => 1790,
                 'denuncia_id' => 3385,
@@ -16097,7 +16088,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            286 => 
+            285 => 
             array (
                 'id' => 1791,
                 'denuncia_id' => 1927,
@@ -16106,7 +16097,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            287 => 
+            286 => 
             array (
                 'id' => 1792,
                 'denuncia_id' => 3263,
@@ -16115,7 +16106,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            288 => 
+            287 => 
             array (
                 'id' => 1793,
                 'denuncia_id' => 1498,
@@ -16124,7 +16115,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            289 => 
+            288 => 
             array (
                 'id' => 1794,
                 'denuncia_id' => 3435,
@@ -16133,7 +16124,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            290 => 
+            289 => 
             array (
                 'id' => 1795,
                 'denuncia_id' => 3435,
@@ -16142,7 +16133,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            291 => 
+            290 => 
             array (
                 'id' => 1796,
                 'denuncia_id' => 3436,
@@ -16151,7 +16142,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            292 => 
+            291 => 
             array (
                 'id' => 1797,
                 'denuncia_id' => 3436,
@@ -16160,7 +16151,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            293 => 
+            292 => 
             array (
                 'id' => 1798,
                 'denuncia_id' => 3437,
@@ -16169,7 +16160,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            294 => 
+            293 => 
             array (
                 'id' => 1799,
                 'denuncia_id' => 3437,
@@ -16178,7 +16169,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            295 => 
+            294 => 
             array (
                 'id' => 1800,
                 'denuncia_id' => 3437,
@@ -16187,7 +16178,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            296 => 
+            295 => 
             array (
                 'id' => 1801,
                 'denuncia_id' => 2994,
@@ -16196,7 +16187,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            297 => 
+            296 => 
             array (
                 'id' => 1802,
                 'denuncia_id' => 3438,
@@ -16205,7 +16196,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            298 => 
+            297 => 
             array (
                 'id' => 1803,
                 'denuncia_id' => 3049,
@@ -16214,7 +16205,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            299 => 
+            298 => 
             array (
                 'id' => 1804,
                 'denuncia_id' => 2990,
@@ -16223,7 +16214,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            300 => 
+            299 => 
             array (
                 'id' => 1805,
                 'denuncia_id' => 2966,
@@ -16232,7 +16223,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            301 => 
+            300 => 
             array (
                 'id' => 1806,
                 'denuncia_id' => 3439,
@@ -16241,7 +16232,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            302 => 
+            301 => 
             array (
                 'id' => 1807,
                 'denuncia_id' => 3439,
@@ -16250,7 +16241,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            303 => 
+            302 => 
             array (
                 'id' => 1808,
                 'denuncia_id' => 3439,
@@ -16259,7 +16250,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            304 => 
+            303 => 
             array (
                 'id' => 1809,
                 'denuncia_id' => 3113,
@@ -16268,7 +16259,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            305 => 
+            304 => 
             array (
                 'id' => 1810,
                 'denuncia_id' => 3441,
@@ -16277,7 +16268,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            306 => 
+            305 => 
             array (
                 'id' => 1811,
                 'denuncia_id' => 3441,
@@ -16286,7 +16277,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            307 => 
+            306 => 
             array (
                 'id' => 1812,
                 'denuncia_id' => 3442,
@@ -16295,7 +16286,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            308 => 
+            307 => 
             array (
                 'id' => 1813,
                 'denuncia_id' => 3442,
@@ -16304,7 +16295,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            309 => 
+            308 => 
             array (
                 'id' => 1814,
                 'denuncia_id' => 2960,
@@ -16313,7 +16304,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            310 => 
+            309 => 
             array (
                 'id' => 1815,
                 'denuncia_id' => 3023,
@@ -16322,7 +16313,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            311 => 
+            310 => 
             array (
                 'id' => 1816,
                 'denuncia_id' => 3023,
@@ -16331,7 +16322,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            312 => 
+            311 => 
             array (
                 'id' => 1817,
                 'denuncia_id' => 3021,
@@ -16340,7 +16331,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            313 => 
+            312 => 
             array (
                 'id' => 1818,
                 'denuncia_id' => 3021,
@@ -16349,7 +16340,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            314 => 
+            313 => 
             array (
                 'id' => 1819,
                 'denuncia_id' => 1303,
@@ -16358,7 +16349,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            315 => 
+            314 => 
             array (
                 'id' => 1820,
                 'denuncia_id' => 1571,
@@ -16367,7 +16358,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            316 => 
+            315 => 
             array (
                 'id' => 1821,
                 'denuncia_id' => 3017,
@@ -16376,7 +16367,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            317 => 
+            316 => 
             array (
                 'id' => 1822,
                 'denuncia_id' => 3017,
@@ -16385,7 +16376,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            318 => 
+            317 => 
             array (
                 'id' => 1823,
                 'denuncia_id' => 3443,
@@ -16394,7 +16385,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            319 => 
+            318 => 
             array (
                 'id' => 1824,
                 'denuncia_id' => 3443,
@@ -16403,7 +16394,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            320 => 
+            319 => 
             array (
                 'id' => 1825,
                 'denuncia_id' => 3443,
@@ -16412,7 +16403,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            321 => 
+            320 => 
             array (
                 'id' => 1826,
                 'denuncia_id' => 3443,
@@ -16421,7 +16412,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            322 => 
+            321 => 
             array (
                 'id' => 1827,
                 'denuncia_id' => 3444,
@@ -16430,7 +16421,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            323 => 
+            322 => 
             array (
                 'id' => 1828,
                 'denuncia_id' => 3444,
@@ -16439,7 +16430,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            324 => 
+            323 => 
             array (
                 'id' => 1829,
                 'denuncia_id' => 3445,
@@ -16448,7 +16439,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            325 => 
+            324 => 
             array (
                 'id' => 1830,
                 'denuncia_id' => 3445,
@@ -16457,7 +16448,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            326 => 
+            325 => 
             array (
                 'id' => 1831,
                 'denuncia_id' => 3445,
@@ -16466,7 +16457,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            327 => 
+            326 => 
             array (
                 'id' => 1832,
                 'denuncia_id' => 3446,
@@ -16475,7 +16466,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            328 => 
+            327 => 
             array (
                 'id' => 1833,
                 'denuncia_id' => 3447,
@@ -16484,7 +16475,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            329 => 
+            328 => 
             array (
                 'id' => 1834,
                 'denuncia_id' => 3447,
@@ -16493,7 +16484,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            330 => 
+            329 => 
             array (
                 'id' => 1835,
                 'denuncia_id' => 3448,
@@ -16502,7 +16493,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            331 => 
+            330 => 
             array (
                 'id' => 1836,
                 'denuncia_id' => 3449,
@@ -16511,7 +16502,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            332 => 
+            331 => 
             array (
                 'id' => 1837,
                 'denuncia_id' => 3449,
@@ -16520,7 +16511,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            333 => 
+            332 => 
             array (
                 'id' => 1838,
                 'denuncia_id' => 3449,
@@ -16529,7 +16520,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            334 => 
+            333 => 
             array (
                 'id' => 1839,
                 'denuncia_id' => 3449,
@@ -16538,7 +16529,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            335 => 
+            334 => 
             array (
                 'id' => 1840,
                 'denuncia_id' => 1312,
@@ -16547,7 +16538,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            336 => 
+            335 => 
             array (
                 'id' => 1841,
                 'denuncia_id' => 1376,
@@ -16556,7 +16547,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            337 => 
+            336 => 
             array (
                 'id' => 1842,
                 'denuncia_id' => 1441,
@@ -16565,7 +16556,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            338 => 
+            337 => 
             array (
                 'id' => 1843,
                 'denuncia_id' => 1463,
@@ -16574,7 +16565,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            339 => 
+            338 => 
             array (
                 'id' => 1844,
                 'denuncia_id' => 1532,
@@ -16583,7 +16574,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            340 => 
+            339 => 
             array (
                 'id' => 1845,
                 'denuncia_id' => 1575,
@@ -16592,7 +16583,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            341 => 
+            340 => 
             array (
                 'id' => 1846,
                 'denuncia_id' => 1579,
@@ -16601,7 +16592,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            342 => 
+            341 => 
             array (
                 'id' => 1847,
                 'denuncia_id' => 1759,
@@ -16610,7 +16601,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            343 => 
+            342 => 
             array (
                 'id' => 1848,
                 'denuncia_id' => 1738,
@@ -16619,7 +16610,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            344 => 
+            343 => 
             array (
                 'id' => 1849,
                 'denuncia_id' => 1693,
@@ -16628,7 +16619,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            345 => 
+            344 => 
             array (
                 'id' => 1850,
                 'denuncia_id' => 1582,
@@ -16637,7 +16628,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            346 => 
+            345 => 
             array (
                 'id' => 1851,
                 'denuncia_id' => 1621,
@@ -16646,7 +16637,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            347 => 
+            346 => 
             array (
                 'id' => 1852,
                 'denuncia_id' => 3450,
@@ -16655,7 +16646,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            348 => 
+            347 => 
             array (
                 'id' => 1853,
                 'denuncia_id' => 1625,
@@ -16664,7 +16655,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            349 => 
+            348 => 
             array (
                 'id' => 1854,
                 'denuncia_id' => 3451,
@@ -16673,7 +16664,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            350 => 
+            349 => 
             array (
                 'id' => 1855,
                 'denuncia_id' => 3452,
@@ -16682,7 +16673,7 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            351 => 
+            350 => 
             array (
                 'id' => 1856,
                 'denuncia_id' => 3453,
@@ -16691,10 +16682,3144 @@ class DenunciaTblmedidaTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            352 => 
+            351 => 
             array (
                 'id' => 1857,
                 'denuncia_id' => 1677,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            352 => 
+            array (
+                'id' => 1858,
+                'denuncia_id' => 1302,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            353 => 
+            array (
+                'id' => 1859,
+                'denuncia_id' => 1302,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            354 => 
+            array (
+                'id' => 1860,
+                'denuncia_id' => 1302,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            355 => 
+            array (
+                'id' => 1861,
+                'denuncia_id' => 1310,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            356 => 
+            array (
+                'id' => 1862,
+                'denuncia_id' => 1310,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            357 => 
+            array (
+                'id' => 1863,
+                'denuncia_id' => 1310,
+                'tblmedida_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            358 => 
+            array (
+                'id' => 1864,
+                'denuncia_id' => 1310,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            359 => 
+            array (
+                'id' => 1865,
+                'denuncia_id' => 1310,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            360 => 
+            array (
+                'id' => 1866,
+                'denuncia_id' => 1323,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            361 => 
+            array (
+                'id' => 1867,
+                'denuncia_id' => 1337,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            362 => 
+            array (
+                'id' => 1868,
+                'denuncia_id' => 1344,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            363 => 
+            array (
+                'id' => 1869,
+                'denuncia_id' => 1344,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            364 => 
+            array (
+                'id' => 1870,
+                'denuncia_id' => 1350,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            365 => 
+            array (
+                'id' => 1871,
+                'denuncia_id' => 1350,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            366 => 
+            array (
+                'id' => 1872,
+                'denuncia_id' => 1350,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            367 => 
+            array (
+                'id' => 1873,
+                'denuncia_id' => 1356,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            368 => 
+            array (
+                'id' => 1874,
+                'denuncia_id' => 1361,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            369 => 
+            array (
+                'id' => 1876,
+                'denuncia_id' => 1367,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            370 => 
+            array (
+                'id' => 1877,
+                'denuncia_id' => 1373,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            371 => 
+            array (
+                'id' => 1878,
+                'denuncia_id' => 1378,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            372 => 
+            array (
+                'id' => 1879,
+                'denuncia_id' => 1378,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            373 => 
+            array (
+                'id' => 1880,
+                'denuncia_id' => 1378,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            374 => 
+            array (
+                'id' => 1881,
+                'denuncia_id' => 1383,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            375 => 
+            array (
+                'id' => 1882,
+                'denuncia_id' => 1388,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            376 => 
+            array (
+                'id' => 1883,
+                'denuncia_id' => 1388,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            377 => 
+            array (
+                'id' => 1884,
+                'denuncia_id' => 1388,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            378 => 
+            array (
+                'id' => 1885,
+                'denuncia_id' => 1393,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            379 => 
+            array (
+                'id' => 1886,
+                'denuncia_id' => 1398,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            380 => 
+            array (
+                'id' => 1887,
+                'denuncia_id' => 1403,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            381 => 
+            array (
+                'id' => 1888,
+                'denuncia_id' => 1403,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            382 => 
+            array (
+                'id' => 1889,
+                'denuncia_id' => 1403,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            383 => 
+            array (
+                'id' => 1890,
+                'denuncia_id' => 1408,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            384 => 
+            array (
+                'id' => 1891,
+                'denuncia_id' => 1408,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            385 => 
+            array (
+                'id' => 1892,
+                'denuncia_id' => 1408,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            386 => 
+            array (
+                'id' => 1893,
+                'denuncia_id' => 1413,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            387 => 
+            array (
+                'id' => 1894,
+                'denuncia_id' => 1413,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            388 => 
+            array (
+                'id' => 1895,
+                'denuncia_id' => 1413,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            389 => 
+            array (
+                'id' => 1896,
+                'denuncia_id' => 1418,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            390 => 
+            array (
+                'id' => 1897,
+                'denuncia_id' => 1418,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            391 => 
+            array (
+                'id' => 1898,
+                'denuncia_id' => 1418,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            392 => 
+            array (
+                'id' => 1899,
+                'denuncia_id' => 1423,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            393 => 
+            array (
+                'id' => 1900,
+                'denuncia_id' => 1428,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            394 => 
+            array (
+                'id' => 1901,
+                'denuncia_id' => 1433,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            395 => 
+            array (
+                'id' => 1902,
+                'denuncia_id' => 1433,
+                'tblmedida_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            396 => 
+            array (
+                'id' => 1903,
+                'denuncia_id' => 1433,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            397 => 
+            array (
+                'id' => 1904,
+                'denuncia_id' => 1438,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            398 => 
+            array (
+                'id' => 1905,
+                'denuncia_id' => 1438,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            399 => 
+            array (
+                'id' => 1906,
+                'denuncia_id' => 1438,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            400 => 
+            array (
+                'id' => 1907,
+                'denuncia_id' => 1443,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            401 => 
+            array (
+                'id' => 1908,
+                'denuncia_id' => 1448,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            402 => 
+            array (
+                'id' => 1909,
+                'denuncia_id' => 1448,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            403 => 
+            array (
+                'id' => 1910,
+                'denuncia_id' => 1448,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            404 => 
+            array (
+                'id' => 1911,
+                'denuncia_id' => 1453,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            405 => 
+            array (
+                'id' => 1912,
+                'denuncia_id' => 1453,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            406 => 
+            array (
+                'id' => 1913,
+                'denuncia_id' => 1453,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            407 => 
+            array (
+                'id' => 1914,
+                'denuncia_id' => 1457,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            408 => 
+            array (
+                'id' => 1915,
+                'denuncia_id' => 1457,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            409 => 
+            array (
+                'id' => 1916,
+                'denuncia_id' => 1461,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            410 => 
+            array (
+                'id' => 1917,
+                'denuncia_id' => 1465,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            411 => 
+            array (
+                'id' => 1918,
+                'denuncia_id' => 1469,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            412 => 
+            array (
+                'id' => 1919,
+                'denuncia_id' => 1477,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            413 => 
+            array (
+                'id' => 1920,
+                'denuncia_id' => 1477,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            414 => 
+            array (
+                'id' => 1921,
+                'denuncia_id' => 1477,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            415 => 
+            array (
+                'id' => 1922,
+                'denuncia_id' => 1627,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            416 => 
+            array (
+                'id' => 1923,
+                'denuncia_id' => 1631,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            417 => 
+            array (
+                'id' => 1924,
+                'denuncia_id' => 1639,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            418 => 
+            array (
+                'id' => 1925,
+                'denuncia_id' => 1639,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            419 => 
+            array (
+                'id' => 1926,
+                'denuncia_id' => 1639,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            420 => 
+            array (
+                'id' => 1927,
+                'denuncia_id' => 1758,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            421 => 
+            array (
+                'id' => 1928,
+                'denuncia_id' => 1761,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            422 => 
+            array (
+                'id' => 1929,
+                'denuncia_id' => 1761,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            423 => 
+            array (
+                'id' => 1930,
+                'denuncia_id' => 1761,
+                'tblmedida_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            424 => 
+            array (
+                'id' => 1931,
+                'denuncia_id' => 1761,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            425 => 
+            array (
+                'id' => 1932,
+                'denuncia_id' => 1770,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            426 => 
+            array (
+                'id' => 1933,
+                'denuncia_id' => 2879,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            427 => 
+            array (
+                'id' => 1934,
+                'denuncia_id' => 2879,
+                'tblmedida_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            428 => 
+            array (
+                'id' => 1935,
+                'denuncia_id' => 2879,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            429 => 
+            array (
+                'id' => 1936,
+                'denuncia_id' => 2879,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            430 => 
+            array (
+                'id' => 1937,
+                'denuncia_id' => 3213,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            431 => 
+            array (
+                'id' => 1938,
+                'denuncia_id' => 3213,
+                'tblmedida_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            432 => 
+            array (
+                'id' => 1939,
+                'denuncia_id' => 3213,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            433 => 
+            array (
+                'id' => 1940,
+                'denuncia_id' => 2374,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            434 => 
+            array (
+                'id' => 1941,
+                'denuncia_id' => 2374,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            435 => 
+            array (
+                'id' => 1942,
+                'denuncia_id' => 2374,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            436 => 
+            array (
+                'id' => 1943,
+                'denuncia_id' => 2374,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            437 => 
+            array (
+                'id' => 1944,
+                'denuncia_id' => 2378,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            438 => 
+            array (
+                'id' => 1945,
+                'denuncia_id' => 2378,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            439 => 
+            array (
+                'id' => 1946,
+                'denuncia_id' => 2378,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            440 => 
+            array (
+                'id' => 1947,
+                'denuncia_id' => 3204,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            441 => 
+            array (
+                'id' => 1948,
+                'denuncia_id' => 3139,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            442 => 
+            array (
+                'id' => 1949,
+                'denuncia_id' => 2970,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            443 => 
+            array (
+                'id' => 1950,
+                'denuncia_id' => 2970,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            444 => 
+            array (
+                'id' => 1951,
+                'denuncia_id' => 2970,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            445 => 
+            array (
+                'id' => 1952,
+                'denuncia_id' => 2970,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            446 => 
+            array (
+                'id' => 1953,
+                'denuncia_id' => 2953,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            447 => 
+            array (
+                'id' => 1954,
+                'denuncia_id' => 2953,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            448 => 
+            array (
+                'id' => 1955,
+                'denuncia_id' => 2953,
+                'tblmedida_id' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            449 => 
+            array (
+                'id' => 1956,
+                'denuncia_id' => 2953,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            450 => 
+            array (
+                'id' => 1957,
+                'denuncia_id' => 2913,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            451 => 
+            array (
+                'id' => 1958,
+                'denuncia_id' => 2913,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            452 => 
+            array (
+                'id' => 1959,
+                'denuncia_id' => 2913,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            453 => 
+            array (
+                'id' => 1960,
+                'denuncia_id' => 2914,
+                'tblmedida_id' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            454 => 
+            array (
+                'id' => 1961,
+                'denuncia_id' => 2933,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            455 => 
+            array (
+                'id' => 1962,
+                'denuncia_id' => 3454,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            456 => 
+            array (
+                'id' => 1963,
+                'denuncia_id' => 3454,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            457 => 
+            array (
+                'id' => 1964,
+                'denuncia_id' => 3454,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            458 => 
+            array (
+                'id' => 1965,
+                'denuncia_id' => 3454,
+                'tblmedida_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            459 => 
+            array (
+                'id' => 1966,
+                'denuncia_id' => 3454,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            460 => 
+            array (
+                'id' => 1967,
+                'denuncia_id' => 3393,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            461 => 
+            array (
+                'id' => 1968,
+                'denuncia_id' => 3383,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            462 => 
+            array (
+                'id' => 1969,
+                'denuncia_id' => 3396,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            463 => 
+            array (
+                'id' => 1970,
+                'denuncia_id' => 3459,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            464 => 
+            array (
+                'id' => 1971,
+                'denuncia_id' => 3457,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            465 => 
+            array (
+                'id' => 1972,
+                'denuncia_id' => 3387,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            466 => 
+            array (
+                'id' => 1973,
+                'denuncia_id' => 3395,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            467 => 
+            array (
+                'id' => 1974,
+                'denuncia_id' => 3394,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            468 => 
+            array (
+                'id' => 1975,
+                'denuncia_id' => 1562,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            469 => 
+            array (
+                'id' => 1976,
+                'denuncia_id' => 2096,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            470 => 
+            array (
+                'id' => 1977,
+                'denuncia_id' => 2117,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            471 => 
+            array (
+                'id' => 1978,
+                'denuncia_id' => 3261,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            472 => 
+            array (
+                'id' => 1979,
+                'denuncia_id' => 1657,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            473 => 
+            array (
+                'id' => 1980,
+                'denuncia_id' => 1747,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            474 => 
+            array (
+                'id' => 1981,
+                'denuncia_id' => 1720,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            475 => 
+            array (
+                'id' => 1982,
+                'denuncia_id' => 2708,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            476 => 
+            array (
+                'id' => 1983,
+                'denuncia_id' => 2704,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            477 => 
+            array (
+                'id' => 1984,
+                'denuncia_id' => 2703,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            478 => 
+            array (
+                'id' => 1985,
+                'denuncia_id' => 2703,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            479 => 
+            array (
+                'id' => 1986,
+                'denuncia_id' => 2689,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            480 => 
+            array (
+                'id' => 1987,
+                'denuncia_id' => 2689,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            481 => 
+            array (
+                'id' => 1988,
+                'denuncia_id' => 2689,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            482 => 
+            array (
+                'id' => 1989,
+                'denuncia_id' => 2689,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            483 => 
+            array (
+                'id' => 1990,
+                'denuncia_id' => 2610,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            484 => 
+            array (
+                'id' => 1991,
+                'denuncia_id' => 2648,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            485 => 
+            array (
+                'id' => 1992,
+                'denuncia_id' => 2648,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            486 => 
+            array (
+                'id' => 1993,
+                'denuncia_id' => 2648,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            487 => 
+            array (
+                'id' => 1994,
+                'denuncia_id' => 2489,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            488 => 
+            array (
+                'id' => 1995,
+                'denuncia_id' => 2476,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            489 => 
+            array (
+                'id' => 1996,
+                'denuncia_id' => 2476,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            490 => 
+            array (
+                'id' => 1997,
+                'denuncia_id' => 2476,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            491 => 
+            array (
+                'id' => 1998,
+                'denuncia_id' => 2240,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            492 => 
+            array (
+                'id' => 1999,
+                'denuncia_id' => 2240,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            493 => 
+            array (
+                'id' => 2000,
+                'denuncia_id' => 2240,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            494 => 
+            array (
+                'id' => 2001,
+                'denuncia_id' => 2234,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            495 => 
+            array (
+                'id' => 2002,
+                'denuncia_id' => 2226,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            496 => 
+            array (
+                'id' => 2003,
+                'denuncia_id' => 2227,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            497 => 
+            array (
+                'id' => 2004,
+                'denuncia_id' => 2200,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            498 => 
+            array (
+                'id' => 2005,
+                'denuncia_id' => 2210,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            499 => 
+            array (
+                'id' => 2006,
+                'denuncia_id' => 2184,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+        ));
+        \DB::table('denuncia_tblmedida')->insert(array (
+            0 => 
+            array (
+                'id' => 2007,
+                'denuncia_id' => 2186,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            1 => 
+            array (
+                'id' => 2008,
+                'denuncia_id' => 2204,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            2 => 
+            array (
+                'id' => 2009,
+                'denuncia_id' => 2175,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            3 => 
+            array (
+                'id' => 2010,
+                'denuncia_id' => 2160,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            4 => 
+            array (
+                'id' => 2011,
+                'denuncia_id' => 2163,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            5 => 
+            array (
+                'id' => 2012,
+                'denuncia_id' => 3469,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            6 => 
+            array (
+                'id' => 2013,
+                'denuncia_id' => 3469,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            7 => 
+            array (
+                'id' => 2014,
+                'denuncia_id' => 2088,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            8 => 
+            array (
+                'id' => 2015,
+                'denuncia_id' => 3468,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            9 => 
+            array (
+                'id' => 2016,
+                'denuncia_id' => 3468,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            10 => 
+            array (
+                'id' => 2017,
+                'denuncia_id' => 3467,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            11 => 
+            array (
+                'id' => 2018,
+                'denuncia_id' => 3465,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            12 => 
+            array (
+                'id' => 2019,
+                'denuncia_id' => 2097,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            13 => 
+            array (
+                'id' => 2020,
+                'denuncia_id' => 3464,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            14 => 
+            array (
+                'id' => 2021,
+                'denuncia_id' => 3463,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            15 => 
+            array (
+                'id' => 2022,
+                'denuncia_id' => 3463,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            16 => 
+            array (
+                'id' => 2023,
+                'denuncia_id' => 3463,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            17 => 
+            array (
+                'id' => 2024,
+                'denuncia_id' => 1827,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            18 => 
+            array (
+                'id' => 2025,
+                'denuncia_id' => 3470,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            19 => 
+            array (
+                'id' => 2026,
+                'denuncia_id' => 3470,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            20 => 
+            array (
+                'id' => 2027,
+                'denuncia_id' => 3470,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            21 => 
+            array (
+                'id' => 2028,
+                'denuncia_id' => 2076,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            22 => 
+            array (
+                'id' => 2029,
+                'denuncia_id' => 1799,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            23 => 
+            array (
+                'id' => 2030,
+                'denuncia_id' => 1817,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            24 => 
+            array (
+                'id' => 2031,
+                'denuncia_id' => 1781,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            25 => 
+            array (
+                'id' => 2032,
+                'denuncia_id' => 1791,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            26 => 
+            array (
+                'id' => 2033,
+                'denuncia_id' => 1726,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            27 => 
+            array (
+                'id' => 2034,
+                'denuncia_id' => 3333,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            28 => 
+            array (
+                'id' => 2035,
+                'denuncia_id' => 3298,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            29 => 
+            array (
+                'id' => 2036,
+                'denuncia_id' => 3369,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            30 => 
+            array (
+                'id' => 2037,
+                'denuncia_id' => 2676,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            31 => 
+            array (
+                'id' => 2038,
+                'denuncia_id' => 2676,
+                'tblmedida_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            32 => 
+            array (
+                'id' => 2039,
+                'denuncia_id' => 2684,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            33 => 
+            array (
+                'id' => 2040,
+                'denuncia_id' => 2684,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            34 => 
+            array (
+                'id' => 2041,
+                'denuncia_id' => 2686,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            35 => 
+            array (
+                'id' => 2042,
+                'denuncia_id' => 2686,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            36 => 
+            array (
+                'id' => 2043,
+                'denuncia_id' => 2686,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            37 => 
+            array (
+                'id' => 2044,
+                'denuncia_id' => 2685,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            38 => 
+            array (
+                'id' => 2045,
+                'denuncia_id' => 2685,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            39 => 
+            array (
+                'id' => 2046,
+                'denuncia_id' => 2681,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            40 => 
+            array (
+                'id' => 2047,
+                'denuncia_id' => 2681,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            41 => 
+            array (
+                'id' => 2048,
+                'denuncia_id' => 2681,
+                'tblmedida_id' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            42 => 
+            array (
+                'id' => 2049,
+                'denuncia_id' => 2666,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            43 => 
+            array (
+                'id' => 2050,
+                'denuncia_id' => 2666,
+                'tblmedida_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            44 => 
+            array (
+                'id' => 2051,
+                'denuncia_id' => 2633,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            45 => 
+            array (
+                'id' => 2052,
+                'denuncia_id' => 2633,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            46 => 
+            array (
+                'id' => 2053,
+                'denuncia_id' => 2634,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            47 => 
+            array (
+                'id' => 2054,
+                'denuncia_id' => 3471,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            48 => 
+            array (
+                'id' => 2055,
+                'denuncia_id' => 3472,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            49 => 
+            array (
+                'id' => 2056,
+                'denuncia_id' => 3472,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            50 => 
+            array (
+                'id' => 2057,
+                'denuncia_id' => 2584,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            51 => 
+            array (
+                'id' => 2058,
+                'denuncia_id' => 2584,
+                'tblmedida_id' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            52 => 
+            array (
+                'id' => 2059,
+                'denuncia_id' => 3473,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            53 => 
+            array (
+                'id' => 2060,
+                'denuncia_id' => 3474,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            54 => 
+            array (
+                'id' => 2061,
+                'denuncia_id' => 2563,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            55 => 
+            array (
+                'id' => 2062,
+                'denuncia_id' => 2533,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            56 => 
+            array (
+                'id' => 2063,
+                'denuncia_id' => 2533,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            57 => 
+            array (
+                'id' => 2064,
+                'denuncia_id' => 2537,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            58 => 
+            array (
+                'id' => 2065,
+                'denuncia_id' => 2545,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            59 => 
+            array (
+                'id' => 2066,
+                'denuncia_id' => 2550,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            60 => 
+            array (
+                'id' => 2067,
+                'denuncia_id' => 2550,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            61 => 
+            array (
+                'id' => 2068,
+                'denuncia_id' => 2550,
+                'tblmedida_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            62 => 
+            array (
+                'id' => 2069,
+                'denuncia_id' => 2573,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            63 => 
+            array (
+                'id' => 2070,
+                'denuncia_id' => 2145,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            64 => 
+            array (
+                'id' => 2071,
+                'denuncia_id' => 2145,
+                'tblmedida_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            65 => 
+            array (
+                'id' => 2072,
+                'denuncia_id' => 1769,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            66 => 
+            array (
+                'id' => 2073,
+                'denuncia_id' => 1387,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            67 => 
+            array (
+                'id' => 2074,
+                'denuncia_id' => 1387,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            68 => 
+            array (
+                'id' => 2075,
+                'denuncia_id' => 1349,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            69 => 
+            array (
+                'id' => 2076,
+                'denuncia_id' => 3214,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            70 => 
+            array (
+                'id' => 2077,
+                'denuncia_id' => 3214,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            71 => 
+            array (
+                'id' => 2078,
+                'denuncia_id' => 3214,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            72 => 
+            array (
+                'id' => 2079,
+                'denuncia_id' => 3214,
+                'tblmedida_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            73 => 
+            array (
+                'id' => 2080,
+                'denuncia_id' => 3214,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            74 => 
+            array (
+                'id' => 2081,
+                'denuncia_id' => 3214,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            75 => 
+            array (
+                'id' => 2082,
+                'denuncia_id' => 1773,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            76 => 
+            array (
+                'id' => 2083,
+                'denuncia_id' => 1776,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            77 => 
+            array (
+                'id' => 2084,
+                'denuncia_id' => 1776,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            78 => 
+            array (
+                'id' => 2085,
+                'denuncia_id' => 1779,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            79 => 
+            array (
+                'id' => 2086,
+                'denuncia_id' => 1783,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            80 => 
+            array (
+                'id' => 2087,
+                'denuncia_id' => 1785,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            81 => 
+            array (
+                'id' => 2088,
+                'denuncia_id' => 1786,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            82 => 
+            array (
+                'id' => 2089,
+                'denuncia_id' => 1790,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            83 => 
+            array (
+                'id' => 2090,
+                'denuncia_id' => 1790,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            84 => 
+            array (
+                'id' => 2091,
+                'denuncia_id' => 1790,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            85 => 
+            array (
+                'id' => 2092,
+                'denuncia_id' => 1792,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            86 => 
+            array (
+                'id' => 2093,
+                'denuncia_id' => 1794,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            87 => 
+            array (
+                'id' => 2094,
+                'denuncia_id' => 1794,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            88 => 
+            array (
+                'id' => 2095,
+                'denuncia_id' => 1794,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            89 => 
+            array (
+                'id' => 2096,
+                'denuncia_id' => 1797,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            90 => 
+            array (
+                'id' => 2097,
+                'denuncia_id' => 1800,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            91 => 
+            array (
+                'id' => 2098,
+                'denuncia_id' => 1803,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            92 => 
+            array (
+                'id' => 2099,
+                'denuncia_id' => 1803,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            93 => 
+            array (
+                'id' => 2100,
+                'denuncia_id' => 1803,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            94 => 
+            array (
+                'id' => 2101,
+                'denuncia_id' => 1803,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            95 => 
+            array (
+                'id' => 2102,
+                'denuncia_id' => 1803,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            96 => 
+            array (
+                'id' => 2103,
+                'denuncia_id' => 1806,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            97 => 
+            array (
+                'id' => 2104,
+                'denuncia_id' => 1806,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            98 => 
+            array (
+                'id' => 2105,
+                'denuncia_id' => 1806,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            99 => 
+            array (
+                'id' => 2106,
+                'denuncia_id' => 1809,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            100 => 
+            array (
+                'id' => 2107,
+                'denuncia_id' => 1812,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            101 => 
+            array (
+                'id' => 2108,
+                'denuncia_id' => 1812,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            102 => 
+            array (
+                'id' => 2109,
+                'denuncia_id' => 1812,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            103 => 
+            array (
+                'id' => 2110,
+                'denuncia_id' => 1815,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            104 => 
+            array (
+                'id' => 2111,
+                'denuncia_id' => 1822,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            105 => 
+            array (
+                'id' => 2112,
+                'denuncia_id' => 1822,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            106 => 
+            array (
+                'id' => 2113,
+                'denuncia_id' => 1822,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            107 => 
+            array (
+                'id' => 2114,
+                'denuncia_id' => 1822,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            108 => 
+            array (
+                'id' => 2115,
+                'denuncia_id' => 1824,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            109 => 
+            array (
+                'id' => 2116,
+                'denuncia_id' => 1824,
+                'tblmedida_id' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            110 => 
+            array (
+                'id' => 2117,
+                'denuncia_id' => 1824,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            111 => 
+            array (
+                'id' => 2118,
+                'denuncia_id' => 1824,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            112 => 
+            array (
+                'id' => 2119,
+                'denuncia_id' => 1826,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            113 => 
+            array (
+                'id' => 2120,
+                'denuncia_id' => 1828,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            114 => 
+            array (
+                'id' => 2121,
+                'denuncia_id' => 1830,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            115 => 
+            array (
+                'id' => 2122,
+                'denuncia_id' => 1830,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            116 => 
+            array (
+                'id' => 2123,
+                'denuncia_id' => 1830,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            117 => 
+            array (
+                'id' => 2124,
+                'denuncia_id' => 1833,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            118 => 
+            array (
+                'id' => 2125,
+                'denuncia_id' => 1834,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            119 => 
+            array (
+                'id' => 2126,
+                'denuncia_id' => 1834,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            120 => 
+            array (
+                'id' => 2127,
+                'denuncia_id' => 1834,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            121 => 
+            array (
+                'id' => 2128,
+                'denuncia_id' => 1835,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            122 => 
+            array (
+                'id' => 2129,
+                'denuncia_id' => 1835,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            123 => 
+            array (
+                'id' => 2130,
+                'denuncia_id' => 1835,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            124 => 
+            array (
+                'id' => 2131,
+                'denuncia_id' => 1836,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            125 => 
+            array (
+                'id' => 2132,
+                'denuncia_id' => 1838,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            126 => 
+            array (
+                'id' => 2133,
+                'denuncia_id' => 1838,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            127 => 
+            array (
+                'id' => 2134,
+                'denuncia_id' => 1838,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            128 => 
+            array (
+                'id' => 2135,
+                'denuncia_id' => 1839,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            129 => 
+            array (
+                'id' => 2136,
+                'denuncia_id' => 1839,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            130 => 
+            array (
+                'id' => 2137,
+                'denuncia_id' => 1839,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            131 => 
+            array (
+                'id' => 2138,
+                'denuncia_id' => 1839,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            132 => 
+            array (
+                'id' => 2139,
+                'denuncia_id' => 1842,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            133 => 
+            array (
+                'id' => 2140,
+                'denuncia_id' => 1842,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            134 => 
+            array (
+                'id' => 2141,
+                'denuncia_id' => 1842,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            135 => 
+            array (
+                'id' => 2142,
+                'denuncia_id' => 1843,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            136 => 
+            array (
+                'id' => 2143,
+                'denuncia_id' => 1843,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            137 => 
+            array (
+                'id' => 2144,
+                'denuncia_id' => 1843,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            138 => 
+            array (
+                'id' => 2145,
+                'denuncia_id' => 1844,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            139 => 
+            array (
+                'id' => 2146,
+                'denuncia_id' => 1844,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            140 => 
+            array (
+                'id' => 2147,
+                'denuncia_id' => 1844,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            141 => 
+            array (
+                'id' => 2148,
+                'denuncia_id' => 1844,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            142 => 
+            array (
+                'id' => 2149,
+                'denuncia_id' => 1845,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            143 => 
+            array (
+                'id' => 2150,
+                'denuncia_id' => 1846,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            144 => 
+            array (
+                'id' => 2151,
+                'denuncia_id' => 1846,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            145 => 
+            array (
+                'id' => 2152,
+                'denuncia_id' => 1846,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            146 => 
+            array (
+                'id' => 2153,
+                'denuncia_id' => 1847,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            147 => 
+            array (
+                'id' => 2154,
+                'denuncia_id' => 1848,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            148 => 
+            array (
+                'id' => 2155,
+                'denuncia_id' => 1848,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            149 => 
+            array (
+                'id' => 2156,
+                'denuncia_id' => 1848,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            150 => 
+            array (
+                'id' => 2157,
+                'denuncia_id' => 1850,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            151 => 
+            array (
+                'id' => 2158,
+                'denuncia_id' => 1851,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            152 => 
+            array (
+                'id' => 2159,
+                'denuncia_id' => 1853,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            153 => 
+            array (
+                'id' => 2160,
+                'denuncia_id' => 1854,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            154 => 
+            array (
+                'id' => 2162,
+                'denuncia_id' => 1855,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            155 => 
+            array (
+                'id' => 2163,
+                'denuncia_id' => 1855,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            156 => 
+            array (
+                'id' => 2164,
+                'denuncia_id' => 1855,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            157 => 
+            array (
+                'id' => 2165,
+                'denuncia_id' => 1855,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            158 => 
+            array (
+                'id' => 2166,
+                'denuncia_id' => 1856,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            159 => 
+            array (
+                'id' => 2167,
+                'denuncia_id' => 1857,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            160 => 
+            array (
+                'id' => 2168,
+                'denuncia_id' => 1858,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            161 => 
+            array (
+                'id' => 2169,
+                'denuncia_id' => 1859,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            162 => 
+            array (
+                'id' => 2170,
+                'denuncia_id' => 1859,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            163 => 
+            array (
+                'id' => 2171,
+                'denuncia_id' => 1859,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            164 => 
+            array (
+                'id' => 2172,
+                'denuncia_id' => 1859,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            165 => 
+            array (
+                'id' => 2173,
+                'denuncia_id' => 1859,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            166 => 
+            array (
+                'id' => 2174,
+                'denuncia_id' => 1860,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            167 => 
+            array (
+                'id' => 2175,
+                'denuncia_id' => 1861,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            168 => 
+            array (
+                'id' => 2176,
+                'denuncia_id' => 1862,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            169 => 
+            array (
+                'id' => 2177,
+                'denuncia_id' => 1863,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            170 => 
+            array (
+                'id' => 2178,
+                'denuncia_id' => 1863,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            171 => 
+            array (
+                'id' => 2179,
+                'denuncia_id' => 1863,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            172 => 
+            array (
+                'id' => 2180,
+                'denuncia_id' => 1864,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            173 => 
+            array (
+                'id' => 2181,
+                'denuncia_id' => 1864,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            174 => 
+            array (
+                'id' => 2182,
+                'denuncia_id' => 1864,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            175 => 
+            array (
+                'id' => 2183,
+                'denuncia_id' => 1865,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            176 => 
+            array (
+                'id' => 2184,
+                'denuncia_id' => 1866,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            177 => 
+            array (
+                'id' => 2185,
+                'denuncia_id' => 1867,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            178 => 
+            array (
+                'id' => 2186,
+                'denuncia_id' => 1868,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            179 => 
+            array (
+                'id' => 2187,
+                'denuncia_id' => 1868,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            180 => 
+            array (
+                'id' => 2188,
+                'denuncia_id' => 1868,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            181 => 
+            array (
+                'id' => 2189,
+                'denuncia_id' => 1869,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            182 => 
+            array (
+                'id' => 2190,
+                'denuncia_id' => 1870,
+                'tblmedida_id' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            183 => 
+            array (
+                'id' => 2191,
+                'denuncia_id' => 1895,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            184 => 
+            array (
+                'id' => 2192,
+                'denuncia_id' => 1895,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            185 => 
+            array (
+                'id' => 2193,
+                'denuncia_id' => 1895,
+                'tblmedida_id' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            186 => 
+            array (
+                'id' => 2194,
+                'denuncia_id' => 1895,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            187 => 
+            array (
+                'id' => 2195,
+                'denuncia_id' => 1896,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            188 => 
+            array (
+                'id' => 2196,
+                'denuncia_id' => 1896,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            189 => 
+            array (
+                'id' => 2197,
+                'denuncia_id' => 1896,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            190 => 
+            array (
+                'id' => 2198,
+                'denuncia_id' => 1933,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            191 => 
+            array (
+                'id' => 2199,
+                'denuncia_id' => 1933,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            192 => 
+            array (
+                'id' => 2200,
+                'denuncia_id' => 1933,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            193 => 
+            array (
+                'id' => 2201,
+                'denuncia_id' => 1933,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            194 => 
+            array (
+                'id' => 2202,
+                'denuncia_id' => 1934,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            195 => 
+            array (
+                'id' => 2203,
+                'denuncia_id' => 1934,
+                'tblmedida_id' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            196 => 
+            array (
+                'id' => 2204,
+                'denuncia_id' => 1935,
+                'tblmedida_id' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            197 => 
+            array (
+                'id' => 2205,
+                'denuncia_id' => 1935,
+                'tblmedida_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            198 => 
+            array (
+                'id' => 2206,
+                'denuncia_id' => 1935,
+                'tblmedida_id' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            199 => 
+            array (
+                'id' => 2207,
+                'denuncia_id' => 1936,
                 'tblmedida_id' => 12,
                 'created_at' => NULL,
                 'updated_at' => NULL,

@@ -944,8 +944,8 @@ class TblinstanciaTableSeeder extends Seeder
                 'tipo' => 'CI',
                 'estadistica' => 1,
                 'created_at' => '2019-02-14 23:23:42',
-                'updated_at' => '2019-02-14 23:23:42',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-20 20:17:31',
+                'deleted_at' => '2019-06-20 20:17:31',
             ),
             62 => 
             array (

@@ -9816,8 +9816,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 969,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:05',
-                'updated_at' => '2019-03-08 06:13:05',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:49:41',
+                'deleted_at' => '2019-06-22 14:49:41',
             ),
             480 => 
             array (
@@ -9886,8 +9886,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 976,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:05',
-                'updated_at' => '2019-03-08 06:13:05',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-19 08:34:23',
+                'deleted_at' => '2019-06-19 08:34:23',
             ),
             487 => 
             array (
@@ -9926,8 +9926,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 980,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:05',
-                'updated_at' => '2019-03-08 06:13:05',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:49:48',
+                'deleted_at' => '2019-06-22 14:49:48',
             ),
             491 => 
             array (
@@ -10006,8 +10006,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 988,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:05',
-                'updated_at' => '2019-03-08 06:13:05',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:49:57',
+                'deleted_at' => '2019-06-22 14:49:57',
             ),
             499 => 
             array (
@@ -10016,8 +10016,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 989,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:05',
-                'updated_at' => '2019-03-08 06:13:05',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:49:57',
+                'deleted_at' => '2019-06-22 14:49:57',
             ),
         ));
         \DB::table('denuncia_agresor')->insert(array (
@@ -10028,8 +10028,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 990,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:05',
-                'updated_at' => '2019-03-08 06:13:05',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:49:57',
+                'deleted_at' => '2019-06-22 14:49:57',
             ),
             1 => 
             array (
@@ -10038,8 +10038,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 991,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:05',
-                'updated_at' => '2019-03-08 06:13:05',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:49:57',
+                'deleted_at' => '2019-06-22 14:49:57',
             ),
             2 => 
             array (
@@ -10088,8 +10088,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 996,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:05',
-                'updated_at' => '2019-03-08 06:13:05',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 08:20:16',
+                'deleted_at' => '2019-06-21 08:20:16',
             ),
             7 => 
             array (
@@ -10168,8 +10168,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1004,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:49:24',
+                'deleted_at' => '2019-06-22 14:49:24',
             ),
             15 => 
             array (
@@ -10278,8 +10278,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1015,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:49:33',
+                'deleted_at' => '2019-06-22 14:49:33',
             ),
             26 => 
             array (
@@ -10458,8 +10458,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1033,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:56:54',
+                'deleted_at' => '2019-06-22 14:56:54',
             ),
             44 => 
             array (
@@ -10468,8 +10468,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1034,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:56:54',
+                'deleted_at' => '2019-06-22 14:56:54',
             ),
             45 => 
             array (
@@ -10538,8 +10538,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1041,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:41:47',
+                'deleted_at' => '2019-06-22 14:41:47',
             ),
             52 => 
             array (
@@ -10548,8 +10548,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1042,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:41:47',
+                'deleted_at' => '2019-06-22 14:41:47',
             ),
             53 => 
             array (
@@ -10608,8 +10608,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1048,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:06',
-                'updated_at' => '2019-03-08 06:13:06',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:41:27',
+                'deleted_at' => '2019-06-22 14:41:27',
             ),
             59 => 
             array (
@@ -10768,8 +10768,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1064,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:07',
-                'updated_at' => '2019-03-08 06:13:07',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:37:57',
+                'deleted_at' => '2019-06-22 14:37:57',
             ),
             75 => 
             array (
@@ -10988,8 +10988,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1086,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:07',
-                'updated_at' => '2019-03-08 06:13:07',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:36:55',
+                'deleted_at' => '2019-06-22 14:36:55',
             ),
             97 => 
             array (
@@ -11248,8 +11248,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1112,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:08',
-                'updated_at' => '2019-03-08 06:13:08',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 08:28:56',
+                'deleted_at' => '2019-06-21 08:28:56',
             ),
             123 => 
             array (
@@ -11258,8 +11258,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1113,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:08',
-                'updated_at' => '2019-03-08 06:13:08',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 08:35:28',
+                'deleted_at' => '2019-06-21 08:35:28',
             ),
             124 => 
             array (
@@ -11338,8 +11338,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1120,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:08',
-                'updated_at' => '2019-03-08 06:13:08',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:33:35',
+                'deleted_at' => '2019-06-22 14:33:35',
             ),
             132 => 
             array (
@@ -11388,8 +11388,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1125,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:08',
-                'updated_at' => '2019-03-08 06:13:08',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:33:51',
+                'deleted_at' => '2019-06-22 14:33:51',
             ),
             137 => 
             array (
@@ -11798,8 +11798,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1166,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:09',
-                'updated_at' => '2019-03-08 06:13:09',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:25:02',
+                'deleted_at' => '2019-06-22 14:25:02',
             ),
             178 => 
             array (
@@ -12078,8 +12078,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1193,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:10',
-                'updated_at' => '2019-03-08 06:13:10',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 08:37:09',
+                'deleted_at' => '2019-06-21 08:37:09',
             ),
             206 => 
             array (
@@ -12118,8 +12118,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1197,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:10',
-                'updated_at' => '2019-03-08 06:13:10',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-19 12:11:17',
+                'deleted_at' => '2019-06-19 12:11:17',
             ),
             210 => 
             array (
@@ -12278,8 +12278,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1213,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:10',
-                'updated_at' => '2019-03-08 06:13:10',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-19 12:13:20',
+                'deleted_at' => '2019-06-19 12:13:20',
             ),
             226 => 
             array (
@@ -12318,8 +12318,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1217,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:10',
-                'updated_at' => '2019-03-08 06:13:10',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:32:09',
+                'deleted_at' => '2019-06-22 14:32:09',
             ),
             230 => 
             array (
@@ -12438,8 +12438,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1229,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:11',
-                'updated_at' => '2019-03-08 06:13:11',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:25:37',
+                'deleted_at' => '2019-06-22 14:25:37',
             ),
             242 => 
             array (
@@ -12578,8 +12578,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1243,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:11',
-                'updated_at' => '2019-03-08 06:13:11',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:24:26',
+                'deleted_at' => '2019-06-22 14:24:26',
             ),
             256 => 
             array (
@@ -12628,8 +12628,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1248,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:11',
-                'updated_at' => '2019-03-08 06:13:11',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:24:40',
+                'deleted_at' => '2019-06-22 14:24:40',
             ),
             261 => 
             array (
@@ -12678,8 +12678,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1253,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:11',
-                'updated_at' => '2019-03-08 06:13:11',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:24:03',
+                'deleted_at' => '2019-06-22 14:24:03',
             ),
             266 => 
             array (
@@ -12718,8 +12718,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1257,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:11',
-                'updated_at' => '2019-03-08 06:13:11',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 10:08:48',
+                'deleted_at' => '2019-06-21 10:08:48',
             ),
             270 => 
             array (
@@ -13008,8 +13008,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1286,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:12',
-                'updated_at' => '2019-03-08 06:13:12',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:20:53',
+                'deleted_at' => '2019-06-22 14:20:53',
             ),
             299 => 
             array (
@@ -13048,8 +13048,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1290,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:12',
-                'updated_at' => '2019-03-08 06:13:12',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:21:24',
+                'deleted_at' => '2019-06-22 14:21:24',
             ),
             303 => 
             array (
@@ -13128,8 +13128,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1298,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:12',
-                'updated_at' => '2019-03-08 06:13:12',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:21:37',
+                'deleted_at' => '2019-06-22 14:21:37',
             ),
             311 => 
             array (
@@ -13238,8 +13238,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1309,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:12',
-                'updated_at' => '2019-03-08 06:13:12',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 08:38:17',
+                'deleted_at' => '2019-06-21 08:38:17',
             ),
             322 => 
             array (
@@ -13338,8 +13338,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1319,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:13',
-                'updated_at' => '2019-03-08 06:13:13',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:20:19',
+                'deleted_at' => '2019-06-22 14:20:19',
             ),
             332 => 
             array (
@@ -13468,8 +13468,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1332,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:13',
-                'updated_at' => '2019-03-08 06:13:13',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:19:36',
+                'deleted_at' => '2019-06-22 14:19:36',
             ),
             345 => 
             array (
@@ -13658,8 +13658,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1351,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:13',
-                'updated_at' => '2019-03-08 06:13:13',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:17:00',
+                'deleted_at' => '2019-06-22 14:17:00',
             ),
             364 => 
             array (
@@ -13738,8 +13738,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1359,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:14',
-                'updated_at' => '2019-03-08 06:13:14',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 08:47:43',
+                'deleted_at' => '2019-06-21 08:47:43',
             ),
             372 => 
             array (
@@ -13938,8 +13938,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1378,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:14',
-                'updated_at' => '2019-03-08 06:13:14',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 08:48:11',
+                'deleted_at' => '2019-06-21 08:48:11',
             ),
             392 => 
             array (
@@ -14078,8 +14078,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1392,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:14',
-                'updated_at' => '2019-03-08 06:13:14',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 08:48:34',
+                'deleted_at' => '2019-06-21 08:48:34',
             ),
             406 => 
             array (
@@ -14248,8 +14248,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1409,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:15',
-                'updated_at' => '2019-03-08 06:13:15',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 08:48:55',
+                'deleted_at' => '2019-06-21 08:48:55',
             ),
             423 => 
             array (
@@ -14288,8 +14288,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1413,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:15',
-                'updated_at' => '2019-03-08 06:13:15',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 08:49:05',
+                'deleted_at' => '2019-06-21 08:49:05',
             ),
             427 => 
             array (
@@ -14298,8 +14298,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1414,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:15',
-                'updated_at' => '2019-03-08 06:13:15',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 08:49:05',
+                'deleted_at' => '2019-06-21 08:49:05',
             ),
             428 => 
             array (
@@ -14308,8 +14308,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1415,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:15',
-                'updated_at' => '2019-03-08 06:13:15',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 08:49:05',
+                'deleted_at' => '2019-06-21 08:49:05',
             ),
             429 => 
             array (
@@ -14328,8 +14328,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1417,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:15',
-                'updated_at' => '2019-03-08 06:13:15',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:12:59',
+                'deleted_at' => '2019-06-22 14:12:59',
             ),
             431 => 
             array (
@@ -14418,8 +14418,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1426,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:15',
-                'updated_at' => '2019-03-08 06:13:15',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:12:41',
+                'deleted_at' => '2019-06-22 14:12:41',
             ),
             440 => 
             array (
@@ -14458,8 +14458,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1430,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:15',
-                'updated_at' => '2019-03-08 06:13:15',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 10:18:25',
+                'deleted_at' => '2019-06-21 10:18:25',
             ),
             444 => 
             array (
@@ -14468,8 +14468,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1431,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:15',
-                'updated_at' => '2019-03-08 06:13:15',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 10:18:25',
+                'deleted_at' => '2019-06-21 10:18:25',
             ),
             445 => 
             array (
@@ -14478,8 +14478,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1432,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:15',
-                'updated_at' => '2019-03-08 06:13:15',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 10:18:25',
+                'deleted_at' => '2019-06-21 10:18:25',
             ),
             446 => 
             array (
@@ -14508,8 +14508,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1434,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:16',
-                'updated_at' => '2019-03-08 06:13:16',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 10:19:11',
+                'deleted_at' => '2019-06-21 10:19:11',
             ),
             449 => 
             array (
@@ -14688,8 +14688,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1452,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:16',
-                'updated_at' => '2019-03-08 06:13:16',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 08:49:43',
+                'deleted_at' => '2019-06-21 08:49:43',
             ),
             467 => 
             array (
@@ -14768,8 +14768,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1460,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:16',
-                'updated_at' => '2019-03-08 06:13:16',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:10:32',
+                'deleted_at' => '2019-06-22 14:10:32',
             ),
             475 => 
             array (
@@ -14828,8 +14828,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1433,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:16',
-                'updated_at' => '2019-03-08 06:13:16',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:10:14',
+                'deleted_at' => '2019-06-22 14:10:14',
             ),
             481 => 
             array (
@@ -15008,8 +15008,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1483,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:17',
-                'updated_at' => '2019-03-08 06:13:17',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 10:37:55',
+                'deleted_at' => '2019-06-21 10:37:55',
             ),
             499 => 
             array (
@@ -15018,8 +15018,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1484,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:17',
-                'updated_at' => '2019-03-08 06:13:17',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:08:56',
+                'deleted_at' => '2019-06-22 14:08:56',
             ),
         ));
         \DB::table('denuncia_agresor')->insert(array (
@@ -15040,8 +15040,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1486,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:17',
-                'updated_at' => '2019-03-08 06:13:17',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 10:56:56',
+                'deleted_at' => '2019-06-21 10:56:56',
             ),
             2 => 
             array (
@@ -15110,8 +15110,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1493,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:17',
-                'updated_at' => '2019-03-08 06:13:17',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 16:13:01',
+                'deleted_at' => '2019-06-21 16:13:01',
             ),
             9 => 
             array (
@@ -15120,8 +15120,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1494,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:17',
-                'updated_at' => '2019-03-08 06:13:17',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 16:15:36',
+                'deleted_at' => '2019-06-21 16:15:36',
             ),
             10 => 
             array (
@@ -15130,8 +15130,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1495,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:17',
-                'updated_at' => '2019-03-08 06:13:17',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 16:19:34',
+                'deleted_at' => '2019-06-21 16:19:34',
             ),
             11 => 
             array (
@@ -15290,8 +15290,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1511,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:18',
-                'updated_at' => '2019-03-08 06:13:18',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:05:32',
+                'deleted_at' => '2019-06-22 14:05:32',
             ),
             27 => 
             array (
@@ -15390,8 +15390,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1521,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:18',
-                'updated_at' => '2019-03-08 06:13:18',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:04:50',
+                'deleted_at' => '2019-06-22 14:04:50',
             ),
             37 => 
             array (
@@ -15490,8 +15490,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1530,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:18',
-                'updated_at' => '2019-03-08 06:13:18',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:03:08',
+                'deleted_at' => '2019-06-22 14:03:08',
             ),
             47 => 
             array (
@@ -15690,8 +15690,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1550,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:19',
-                'updated_at' => '2019-03-08 06:13:19',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 15:44:31',
+                'deleted_at' => '2019-06-21 15:44:31',
             ),
             67 => 
             array (
@@ -15780,8 +15780,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1559,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:19',
-                'updated_at' => '2019-03-08 06:13:19',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 15:50:14',
+                'deleted_at' => '2019-06-21 15:50:14',
             ),
             76 => 
             array (
@@ -15800,8 +15800,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1165,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:19',
-                'updated_at' => '2019-03-08 06:13:19',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 15:46:10',
+                'deleted_at' => '2019-06-21 15:46:10',
             ),
             78 => 
             array (
@@ -15860,8 +15860,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1566,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:19',
-                'updated_at' => '2019-03-08 06:13:19',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 15:58:33',
+                'deleted_at' => '2019-06-21 15:58:33',
             ),
             84 => 
             array (
@@ -15870,8 +15870,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1567,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:19',
-                'updated_at' => '2019-03-08 06:13:19',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 16:00:03',
+                'deleted_at' => '2019-06-21 16:00:03',
             ),
             85 => 
             array (
@@ -15960,8 +15960,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1575,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:19',
-                'updated_at' => '2019-03-08 06:13:19',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 15:37:31',
+                'deleted_at' => '2019-06-21 15:37:31',
             ),
             94 => 
             array (
@@ -16160,8 +16160,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1595,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:20',
-                'updated_at' => '2019-03-08 06:13:20',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 15:39:34',
+                'deleted_at' => '2019-06-21 15:39:34',
             ),
             114 => 
             array (
@@ -16230,8 +16230,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1602,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:20',
-                'updated_at' => '2019-03-08 06:13:20',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-24 11:19:44',
+                'deleted_at' => '2019-06-24 11:19:44',
             ),
             121 => 
             array (
@@ -16260,8 +16260,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1605,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:20',
-                'updated_at' => '2019-03-08 06:13:20',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-24 11:24:29',
+                'deleted_at' => '2019-06-24 11:24:29',
             ),
             124 => 
             array (
@@ -16380,8 +16380,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1617,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:20',
-                'updated_at' => '2019-03-08 06:13:20',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 15:21:08',
+                'deleted_at' => '2019-06-21 15:21:08',
             ),
             136 => 
             array (
@@ -16390,8 +16390,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1618,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:20',
-                'updated_at' => '2019-03-08 06:13:20',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 15:28:31',
+                'deleted_at' => '2019-06-21 15:28:31',
             ),
             137 => 
             array (
@@ -16560,8 +16560,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1635,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:20',
-                'updated_at' => '2019-03-08 06:13:20',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-24 12:24:12',
+                'deleted_at' => '2019-06-24 12:24:12',
             ),
             154 => 
             array (
@@ -17040,8 +17040,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1683,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:21',
-                'updated_at' => '2019-03-08 06:13:21',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-25 09:29:18',
+                'deleted_at' => '2019-06-25 09:29:18',
             ),
             202 => 
             array (
@@ -17060,8 +17060,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1685,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:21',
-                'updated_at' => '2019-03-08 06:13:21',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-25 09:30:31',
+                'deleted_at' => '2019-06-25 09:30:31',
             ),
             204 => 
             array (
@@ -17070,8 +17070,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1686,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:21',
-                'updated_at' => '2019-03-08 06:13:21',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-25 09:30:31',
+                'deleted_at' => '2019-06-25 09:30:31',
             ),
             205 => 
             array (
@@ -17430,8 +17430,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1722,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:22',
-                'updated_at' => '2019-03-08 06:13:22',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-25 09:30:46',
+                'deleted_at' => '2019-06-25 09:30:46',
             ),
             241 => 
             array (
@@ -18120,8 +18120,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1787,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:23',
-                'updated_at' => '2019-03-08 06:13:23',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-25 09:47:15',
+                'deleted_at' => '2019-06-25 09:47:15',
             ),
             310 => 
             array (
@@ -18190,8 +18190,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1794,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:23',
-                'updated_at' => '2019-03-08 06:13:23',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-25 09:48:16',
+                'deleted_at' => '2019-06-25 09:48:16',
             ),
             317 => 
             array (
@@ -18200,8 +18200,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1795,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:23',
-                'updated_at' => '2019-03-08 06:13:23',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-25 09:48:16',
+                'deleted_at' => '2019-06-25 09:48:16',
             ),
             318 => 
             array (
@@ -18210,8 +18210,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1796,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:23',
-                'updated_at' => '2019-03-08 06:13:23',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-25 10:09:08',
+                'deleted_at' => '2019-06-25 10:09:08',
             ),
             319 => 
             array (
@@ -18220,8 +18220,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1797,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:23',
-                'updated_at' => '2019-03-08 06:13:23',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-25 10:03:15',
+                'deleted_at' => '2019-06-25 10:03:15',
             ),
             320 => 
             array (
@@ -18230,8 +18230,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1798,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:13:23',
-                'updated_at' => '2019-03-08 06:13:23',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-25 10:05:46',
+                'deleted_at' => '2019-06-25 10:05:46',
             ),
             321 => 
             array (
@@ -19510,8 +19510,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1925,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:22',
-                'updated_at' => '2019-03-08 06:14:22',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:03:40',
+                'deleted_at' => '2019-06-22 14:03:40',
             ),
             449 => 
             array (
@@ -19520,8 +19520,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1926,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:22',
-                'updated_at' => '2019-03-08 06:14:22',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:03:40',
+                'deleted_at' => '2019-06-22 14:03:40',
             ),
             450 => 
             array (
@@ -19530,8 +19530,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1927,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:22',
-                'updated_at' => '2019-03-08 06:14:22',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 14:36:41',
+                'deleted_at' => '2019-06-22 14:36:41',
             ),
             451 => 
             array (
@@ -19770,8 +19770,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1950,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:23',
-                'updated_at' => '2019-03-08 06:14:23',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:50:21',
+                'deleted_at' => '2019-06-22 13:50:21',
             ),
             475 => 
             array (
@@ -20122,8 +20122,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1984,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:23',
-                'updated_at' => '2019-03-08 06:14:23',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:48:59',
+                'deleted_at' => '2019-06-22 13:48:59',
             ),
             10 => 
             array (
@@ -20202,8 +20202,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1992,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:24',
-                'updated_at' => '2019-03-08 06:14:24',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 14:57:54',
+                'deleted_at' => '2019-06-21 14:57:54',
             ),
             18 => 
             array (
@@ -20342,8 +20342,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2006,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:24',
-                'updated_at' => '2019-03-08 06:14:24',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 14:56:49',
+                'deleted_at' => '2019-06-21 14:56:49',
             ),
             32 => 
             array (
@@ -20482,8 +20482,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2019,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:24',
-                'updated_at' => '2019-03-08 06:14:24',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 09:04:04',
+                'deleted_at' => '2019-06-21 09:04:04',
             ),
             46 => 
             array (
@@ -20642,8 +20642,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2034,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:25',
-                'updated_at' => '2019-03-08 06:14:25',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 09:09:37',
+                'deleted_at' => '2019-06-21 09:09:37',
             ),
             62 => 
             array (
@@ -20692,8 +20692,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2039,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:25',
-                'updated_at' => '2019-03-08 06:14:25',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:45:18',
+                'deleted_at' => '2019-06-22 13:45:18',
             ),
             67 => 
             array (
@@ -20742,8 +20742,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2043,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:25',
-                'updated_at' => '2019-03-08 06:14:25',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 14:45:51',
+                'deleted_at' => '2019-06-21 14:45:51',
             ),
             72 => 
             array (
@@ -20812,8 +20812,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1592,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:25',
-                'updated_at' => '2019-03-08 06:14:25',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 14:41:44',
+                'deleted_at' => '2019-06-21 14:41:44',
             ),
             79 => 
             array (
@@ -20822,8 +20822,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2050,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:25',
-                'updated_at' => '2019-03-08 06:14:25',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:41:06',
+                'deleted_at' => '2019-06-22 13:41:06',
             ),
             80 => 
             array (
@@ -20922,8 +20922,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2057,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:25',
-                'updated_at' => '2019-03-08 06:14:25',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:37:49',
+                'deleted_at' => '2019-06-22 13:37:49',
             ),
             90 => 
             array (
@@ -20932,8 +20932,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2058,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:25',
-                'updated_at' => '2019-03-08 06:14:25',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:37:49',
+                'deleted_at' => '2019-06-22 13:37:49',
             ),
             91 => 
             array (
@@ -20962,8 +20962,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2061,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:25',
-                'updated_at' => '2019-03-08 06:14:25',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:38:26',
+                'deleted_at' => '2019-06-22 13:38:26',
             ),
             94 => 
             array (
@@ -21022,8 +21022,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2067,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:25',
-                'updated_at' => '2019-03-08 06:14:25',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:31:35',
+                'deleted_at' => '2019-06-22 13:31:35',
             ),
             100 => 
             array (
@@ -21032,8 +21032,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2068,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:25',
-                'updated_at' => '2019-03-08 06:14:25',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 09:11:29',
+                'deleted_at' => '2019-06-21 09:11:29',
             ),
             101 => 
             array (
@@ -21132,8 +21132,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2078,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:25',
-                'updated_at' => '2019-03-08 06:14:25',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:27:59',
+                'deleted_at' => '2019-06-22 13:27:59',
             ),
             111 => 
             array (
@@ -21142,8 +21142,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 1339,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:25',
-                'updated_at' => '2019-03-08 06:14:25',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 09:10:55',
+                'deleted_at' => '2019-06-21 09:10:55',
             ),
             112 => 
             array (
@@ -21162,8 +21162,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2080,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:28:06',
+                'deleted_at' => '2019-06-22 13:28:06',
             ),
             114 => 
             array (
@@ -21172,8 +21172,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2081,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 09:11:08',
+                'deleted_at' => '2019-06-21 09:11:08',
             ),
             115 => 
             array (
@@ -21192,8 +21192,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2083,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:30:09',
+                'deleted_at' => '2019-06-22 13:30:09',
             ),
             117 => 
             array (
@@ -21432,8 +21432,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2001,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:24:57',
+                'deleted_at' => '2019-06-22 13:24:57',
             ),
             141 => 
             array (
@@ -21442,8 +21442,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2105,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:24:57',
+                'deleted_at' => '2019-06-22 13:24:57',
             ),
             142 => 
             array (
@@ -21462,8 +21462,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2107,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:16:41',
+                'deleted_at' => '2019-06-22 13:16:41',
             ),
             144 => 
             array (
@@ -21482,8 +21482,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2109,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:17:14',
+                'deleted_at' => '2019-06-22 13:17:14',
             ),
             146 => 
             array (
@@ -21492,8 +21492,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2110,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:17:14',
+                'deleted_at' => '2019-06-22 13:17:14',
             ),
             147 => 
             array (
@@ -21512,8 +21512,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2112,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:07:51',
+                'deleted_at' => '2019-06-22 13:07:51',
             ),
             149 => 
             array (
@@ -21522,8 +21522,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2113,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 13:09:17',
+                'deleted_at' => '2019-06-21 13:09:17',
             ),
             150 => 
             array (
@@ -21532,8 +21532,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2114,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:14:36',
+                'deleted_at' => '2019-06-22 13:14:36',
             ),
             151 => 
             array (
@@ -21572,8 +21572,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2118,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 12:58:52',
+                'deleted_at' => '2019-06-21 12:58:52',
             ),
             155 => 
             array (
@@ -21622,8 +21622,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2123,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 13:20:15',
+                'deleted_at' => '2019-06-21 13:20:15',
             ),
             160 => 
             array (
@@ -21652,8 +21652,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2126,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:26',
-                'updated_at' => '2019-03-08 06:14:26',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:05:18',
+                'deleted_at' => '2019-06-22 13:05:18',
             ),
             163 => 
             array (
@@ -21912,8 +21912,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2151,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:27',
-                'updated_at' => '2019-03-08 06:14:27',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 12:45:26',
+                'deleted_at' => '2019-06-21 12:45:26',
             ),
             189 => 
             array (
@@ -24682,8 +24682,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2418,
                 'tblparentesco_id' => 9,
                 'created_at' => '2019-03-08 06:14:31',
-                'updated_at' => '2019-03-08 06:14:31',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-19 15:19:39',
+                'deleted_at' => '2019-06-19 15:19:39',
             ),
             466 => 
             array (
@@ -25914,8 +25914,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2525,
                 'tblparentesco_id' => 2,
                 'created_at' => '2019-03-13 16:16:54',
-                'updated_at' => '2019-03-13 16:16:54',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-21 12:20:46',
+                'deleted_at' => '2019-06-21 12:20:46',
             ),
             89 => 
             array (
@@ -26394,8 +26394,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2095,
                 'tblparentesco_id' => 4,
                 'created_at' => '2019-03-27 09:31:19',
-                'updated_at' => '2019-03-27 09:31:19',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:29:25',
+                'deleted_at' => '2019-06-22 13:29:25',
             ),
             137 => 
             array (
@@ -26614,8 +26614,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2594,
                 'tblparentesco_id' => 6,
                 'created_at' => '2019-03-27 15:10:44',
-                'updated_at' => '2019-03-27 15:10:44',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 12:59:13',
+                'deleted_at' => '2019-06-22 12:59:13',
             ),
             159 => 
             array (
@@ -26634,8 +26634,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2103,
                 'tblparentesco_id' => 4,
                 'created_at' => '2019-03-27 15:20:07',
-                'updated_at' => '2019-03-27 15:20:07',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:23:04',
+                'deleted_at' => '2019-06-22 13:23:04',
             ),
             161 => 
             array (
@@ -26644,8 +26644,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 2101,
                 'tblparentesco_id' => 1,
                 'created_at' => '2019-03-27 15:29:41',
-                'updated_at' => '2019-03-27 15:29:41',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-22 13:18:01',
+                'deleted_at' => '2019-06-22 13:18:01',
             ),
             162 => 
             array (
@@ -31316,8 +31316,8 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'agresor_id' => 3009,
                 'tblparentesco_id' => 1,
                 'created_at' => '2019-05-25 13:37:21',
-                'updated_at' => '2019-05-25 13:37:21',
-                'deleted_at' => NULL,
+                'updated_at' => '2019-06-19 16:20:52',
+                'deleted_at' => '2019-06-19 16:20:52',
             ),
             129 => 
             array (
@@ -38369,6 +38369,556 @@ class DenunciaAgresorTableSeeder extends Seeder
                 'tblparentesco_id' => 1,
                 'created_at' => '2019-06-18 17:18:57',
                 'updated_at' => '2019-06-18 17:18:57',
+                'deleted_at' => NULL,
+            ),
+            334 => 
+            array (
+                'id' => 3835,
+                'denuncia_id' => 3454,
+                'agresor_id' => 3433,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-06-19 18:48:53',
+                'updated_at' => '2019-06-19 18:50:55',
+                'deleted_at' => '2019-06-19 18:50:55',
+            ),
+            335 => 
+            array (
+                'id' => 3836,
+                'denuncia_id' => 3454,
+                'agresor_id' => 3433,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-06-19 18:51:05',
+                'updated_at' => '2019-06-19 18:51:05',
+                'deleted_at' => NULL,
+            ),
+            336 => 
+            array (
+                'id' => 3837,
+                'denuncia_id' => 3455,
+                'agresor_id' => 3434,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-06-20 12:37:30',
+                'updated_at' => '2019-06-20 12:37:30',
+                'deleted_at' => NULL,
+            ),
+            337 => 
+            array (
+                'id' => 3838,
+                'denuncia_id' => 3456,
+                'agresor_id' => 3435,
+                'tblparentesco_id' => 3,
+                'created_at' => '2019-06-20 12:56:22',
+                'updated_at' => '2019-06-20 12:56:22',
+                'deleted_at' => NULL,
+            ),
+            338 => 
+            array (
+                'id' => 3839,
+                'denuncia_id' => 3457,
+                'agresor_id' => 3436,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-06-20 13:09:26',
+                'updated_at' => '2019-06-20 13:09:26',
+                'deleted_at' => NULL,
+            ),
+            339 => 
+            array (
+                'id' => 3840,
+                'denuncia_id' => 3457,
+                'agresor_id' => 3437,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-06-20 13:17:50',
+                'updated_at' => '2019-06-20 13:17:50',
+                'deleted_at' => NULL,
+            ),
+            340 => 
+            array (
+                'id' => 3841,
+                'denuncia_id' => 3458,
+                'agresor_id' => 3437,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-06-20 13:19:03',
+                'updated_at' => '2019-06-20 13:19:03',
+                'deleted_at' => NULL,
+            ),
+            341 => 
+            array (
+                'id' => 3842,
+                'denuncia_id' => 3459,
+                'agresor_id' => 3438,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-06-20 13:24:11',
+                'updated_at' => '2019-06-20 13:24:11',
+                'deleted_at' => NULL,
+            ),
+            342 => 
+            array (
+                'id' => 3843,
+                'denuncia_id' => 3460,
+                'agresor_id' => 3439,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-06-20 13:28:33',
+                'updated_at' => '2019-06-20 13:28:33',
+                'deleted_at' => NULL,
+            ),
+            343 => 
+            array (
+                'id' => 3844,
+                'denuncia_id' => 1404,
+                'agresor_id' => 2013,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-06-21 08:29:19',
+                'updated_at' => '2019-06-21 08:35:28',
+                'deleted_at' => '2019-06-21 08:35:28',
+            ),
+            344 => 
+            array (
+                'id' => 3845,
+                'denuncia_id' => 3461,
+                'agresor_id' => 1009,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-06-21 09:40:19',
+                'updated_at' => '2019-06-21 09:40:19',
+                'deleted_at' => NULL,
+            ),
+            345 => 
+            array (
+                'id' => 3846,
+                'denuncia_id' => 3462,
+                'agresor_id' => 3440,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-06-21 09:45:17',
+                'updated_at' => '2019-06-21 09:45:17',
+                'deleted_at' => NULL,
+            ),
+            346 => 
+            array (
+                'id' => 3847,
+                'denuncia_id' => 3463,
+                'agresor_id' => 3441,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-06-21 09:56:02',
+                'updated_at' => '2019-06-21 09:56:02',
+                'deleted_at' => NULL,
+            ),
+            347 => 
+            array (
+                'id' => 3848,
+                'denuncia_id' => 3463,
+                'agresor_id' => 3442,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-06-21 09:56:16',
+                'updated_at' => '2019-06-21 09:56:16',
+                'deleted_at' => NULL,
+            ),
+            348 => 
+            array (
+                'id' => 3849,
+                'denuncia_id' => 3464,
+                'agresor_id' => 3443,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-06-21 10:02:27',
+                'updated_at' => '2019-06-21 10:02:27',
+                'deleted_at' => NULL,
+            ),
+            349 => 
+            array (
+                'id' => 3850,
+                'denuncia_id' => 3465,
+                'agresor_id' => 3444,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-06-21 10:07:08',
+                'updated_at' => '2019-06-21 10:07:08',
+                'deleted_at' => NULL,
+            ),
+            350 => 
+            array (
+                'id' => 3851,
+                'denuncia_id' => 1717,
+                'agresor_id' => 1483,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-06-21 10:38:52',
+                'updated_at' => '2019-06-21 10:38:52',
+                'deleted_at' => NULL,
+            ),
+            351 => 
+            array (
+                'id' => 3852,
+                'denuncia_id' => 1720,
+                'agresor_id' => 1486,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-06-21 10:57:08',
+                'updated_at' => '2019-06-21 10:57:08',
+                'deleted_at' => NULL,
+            ),
+            352 => 
+            array (
+                'id' => 3853,
+                'denuncia_id' => 3466,
+                'agresor_id' => 3445,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-06-21 11:10:34',
+                'updated_at' => '2019-06-21 11:10:34',
+                'deleted_at' => NULL,
+            ),
+            353 => 
+            array (
+                'id' => 3854,
+                'denuncia_id' => 3467,
+                'agresor_id' => 3446,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-06-21 11:19:32',
+                'updated_at' => '2019-06-21 11:19:32',
+                'deleted_at' => NULL,
+            ),
+            354 => 
+            array (
+                'id' => 3855,
+                'denuncia_id' => 3468,
+                'agresor_id' => 3447,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-06-21 11:22:56',
+                'updated_at' => '2019-06-21 11:22:56',
+                'deleted_at' => NULL,
+            ),
+            355 => 
+            array (
+                'id' => 3856,
+                'denuncia_id' => 3469,
+                'agresor_id' => 3448,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-06-21 11:26:43',
+                'updated_at' => '2019-06-21 11:26:43',
+                'deleted_at' => NULL,
+            ),
+            356 => 
+            array (
+                'id' => 3857,
+                'denuncia_id' => 3470,
+                'agresor_id' => 3449,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-06-21 11:40:47',
+                'updated_at' => '2019-06-21 11:40:47',
+                'deleted_at' => NULL,
+            ),
+            357 => 
+            array (
+                'id' => 3858,
+                'denuncia_id' => 2476,
+                'agresor_id' => 2525,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-06-21 12:20:58',
+                'updated_at' => '2019-06-21 12:20:58',
+                'deleted_at' => NULL,
+            ),
+            358 => 
+            array (
+                'id' => 3859,
+                'denuncia_id' => 2200,
+                'agresor_id' => 2118,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-06-21 12:59:05',
+                'updated_at' => '2019-06-21 12:59:05',
+                'deleted_at' => NULL,
+            ),
+            359 => 
+            array (
+                'id' => 3860,
+                'denuncia_id' => 2204,
+                'agresor_id' => 2123,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-06-21 13:20:27',
+                'updated_at' => '2019-06-21 13:22:53',
+                'deleted_at' => '2019-06-21 13:22:53',
+            ),
+            360 => 
+            array (
+                'id' => 3861,
+                'denuncia_id' => 2204,
+                'agresor_id' => 2123,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-06-21 13:23:05',
+                'updated_at' => '2019-06-21 13:23:05',
+                'deleted_at' => NULL,
+            ),
+            361 => 
+            array (
+                'id' => 3862,
+                'denuncia_id' => 2088,
+                'agresor_id' => 1992,
+                'tblparentesco_id' => 7,
+                'created_at' => '2019-06-21 14:58:08',
+                'updated_at' => '2019-06-21 14:58:08',
+                'deleted_at' => NULL,
+            ),
+            362 => 
+            array (
+                'id' => 3863,
+                'denuncia_id' => 2097,
+                'agresor_id' => 1550,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-06-21 15:04:02',
+                'updated_at' => '2019-06-21 15:04:48',
+                'deleted_at' => '2019-06-21 15:04:48',
+            ),
+            363 => 
+            array (
+                'id' => 3864,
+                'denuncia_id' => 2097,
+                'agresor_id' => 2006,
+                'tblparentesco_id' => 3,
+                'created_at' => '2019-06-21 15:06:22',
+                'updated_at' => '2019-06-21 15:06:22',
+                'deleted_at' => NULL,
+            ),
+            364 => 
+            array (
+                'id' => 3865,
+                'denuncia_id' => 1827,
+                'agresor_id' => 1617,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-06-21 15:21:25',
+                'updated_at' => '2019-06-21 15:21:25',
+                'deleted_at' => NULL,
+            ),
+            365 => 
+            array (
+                'id' => 3866,
+                'denuncia_id' => 1827,
+                'agresor_id' => 1618,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-06-21 15:28:41',
+                'updated_at' => '2019-06-21 15:28:41',
+                'deleted_at' => NULL,
+            ),
+            366 => 
+            array (
+                'id' => 3867,
+                'denuncia_id' => 1799,
+                'agresor_id' => 1575,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-06-21 15:37:42',
+                'updated_at' => '2019-06-21 15:37:42',
+                'deleted_at' => NULL,
+            ),
+            367 => 
+            array (
+                'id' => 3868,
+                'denuncia_id' => 1781,
+                'agresor_id' => 1559,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-06-21 15:50:22',
+                'updated_at' => '2019-06-21 15:50:22',
+                'deleted_at' => NULL,
+            ),
+            368 => 
+            array (
+                'id' => 3869,
+                'denuncia_id' => 1791,
+                'agresor_id' => 2687,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-06-21 15:58:43',
+                'updated_at' => '2019-06-21 16:00:55',
+                'deleted_at' => '2019-06-21 16:00:55',
+            ),
+            369 => 
+            array (
+                'id' => 3870,
+                'denuncia_id' => 1791,
+                'agresor_id' => 1567,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-06-21 16:00:16',
+                'updated_at' => '2019-06-21 16:00:38',
+                'deleted_at' => '2019-06-21 16:00:38',
+            ),
+            370 => 
+            array (
+                'id' => 3871,
+                'denuncia_id' => 1791,
+                'agresor_id' => 1567,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-06-21 16:00:46',
+                'updated_at' => '2019-06-21 16:00:46',
+                'deleted_at' => NULL,
+            ),
+            371 => 
+            array (
+                'id' => 3872,
+                'denuncia_id' => 1791,
+                'agresor_id' => 2687,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-06-21 16:01:06',
+                'updated_at' => '2019-06-21 16:01:06',
+                'deleted_at' => NULL,
+            ),
+            372 => 
+            array (
+                'id' => 3873,
+                'denuncia_id' => 1726,
+                'agresor_id' => 1493,
+                'tblparentesco_id' => 6,
+                'created_at' => '2019-06-21 16:13:09',
+                'updated_at' => '2019-06-21 16:13:09',
+                'deleted_at' => NULL,
+            ),
+            373 => 
+            array (
+                'id' => 3874,
+                'denuncia_id' => 1726,
+                'agresor_id' => 1494,
+                'tblparentesco_id' => 6,
+                'created_at' => '2019-06-21 16:15:46',
+                'updated_at' => '2019-06-21 16:15:46',
+                'deleted_at' => NULL,
+            ),
+            374 => 
+            array (
+                'id' => 3875,
+                'denuncia_id' => 1726,
+                'agresor_id' => 1495,
+                'tblparentesco_id' => 6,
+                'created_at' => '2019-06-21 16:19:43',
+                'updated_at' => '2019-06-21 16:19:43',
+                'deleted_at' => NULL,
+            ),
+            375 => 
+            array (
+                'id' => 3876,
+                'denuncia_id' => 3471,
+                'agresor_id' => 2632,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-06-22 11:48:07',
+                'updated_at' => '2019-06-22 11:48:07',
+                'deleted_at' => NULL,
+            ),
+            376 => 
+            array (
+                'id' => 3877,
+                'denuncia_id' => 3472,
+                'agresor_id' => 3450,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-06-22 11:57:52',
+                'updated_at' => '2019-06-22 11:57:52',
+                'deleted_at' => NULL,
+            ),
+            377 => 
+            array (
+                'id' => 3878,
+                'denuncia_id' => 3473,
+                'agresor_id' => 3451,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-06-22 12:15:01',
+                'updated_at' => '2019-06-22 12:15:01',
+                'deleted_at' => NULL,
+            ),
+            378 => 
+            array (
+                'id' => 3879,
+                'denuncia_id' => 3473,
+                'agresor_id' => 3452,
+                'tblparentesco_id' => 8,
+                'created_at' => '2019-06-22 12:17:22',
+                'updated_at' => '2019-06-22 12:17:22',
+                'deleted_at' => NULL,
+            ),
+            379 => 
+            array (
+                'id' => 3880,
+                'denuncia_id' => 3474,
+                'agresor_id' => 3259,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-06-22 12:30:04',
+                'updated_at' => '2019-06-22 12:30:04',
+                'deleted_at' => NULL,
+            ),
+            380 => 
+            array (
+                'id' => 3881,
+                'denuncia_id' => 3475,
+                'agresor_id' => 2820,
+                'tblparentesco_id' => 1,
+                'created_at' => '2019-06-22 15:09:18',
+                'updated_at' => '2019-06-22 15:09:18',
+                'deleted_at' => NULL,
+            ),
+            381 => 
+            array (
+                'id' => 3882,
+                'denuncia_id' => 3476,
+                'agresor_id' => 3453,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-06-24 13:19:46',
+                'updated_at' => '2019-06-24 13:19:46',
+                'deleted_at' => NULL,
+            ),
+            382 => 
+            array (
+                'id' => 3883,
+                'denuncia_id' => 3477,
+                'agresor_id' => 3151,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-06-24 14:40:53',
+                'updated_at' => '2019-06-24 14:40:53',
+                'deleted_at' => NULL,
+            ),
+            383 => 
+            array (
+                'id' => 3884,
+                'denuncia_id' => 3478,
+                'agresor_id' => 3454,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-06-24 14:50:33',
+                'updated_at' => '2019-06-24 14:50:33',
+                'deleted_at' => NULL,
+            ),
+            384 => 
+            array (
+                'id' => 3885,
+                'denuncia_id' => 3478,
+                'agresor_id' => 3455,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-06-24 14:51:53',
+                'updated_at' => '2019-06-24 14:51:53',
+                'deleted_at' => NULL,
+            ),
+            385 => 
+            array (
+                'id' => 3886,
+                'denuncia_id' => 3478,
+                'agresor_id' => 3456,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-06-24 14:52:11',
+                'updated_at' => '2019-06-24 14:52:11',
+                'deleted_at' => NULL,
+            ),
+            386 => 
+            array (
+                'id' => 3887,
+                'denuncia_id' => 3479,
+                'agresor_id' => 3457,
+                'tblparentesco_id' => 4,
+                'created_at' => '2019-06-24 14:58:34',
+                'updated_at' => '2019-06-24 14:58:34',
+                'deleted_at' => NULL,
+            ),
+            387 => 
+            array (
+                'id' => 3888,
+                'denuncia_id' => 1934,
+                'agresor_id' => 1798,
+                'tblparentesco_id' => 5,
+                'created_at' => '2019-06-25 10:07:21',
+                'updated_at' => '2019-06-25 10:07:21',
+                'deleted_at' => NULL,
+            ),
+            388 => 
+            array (
+                'id' => 3889,
+                'denuncia_id' => 1933,
+                'agresor_id' => 1796,
+                'tblparentesco_id' => 9,
+                'created_at' => '2019-06-25 10:09:17',
+                'updated_at' => '2019-06-25 10:09:17',
                 'deleted_at' => NULL,
             ),
         ));
