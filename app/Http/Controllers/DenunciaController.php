@@ -405,9 +405,9 @@ class DenunciaController extends Controller
 
         // dd($request->session()->get('fecha1'), $request->session()->get('fecha2'));
 
-        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->orderBy('nombre')->pluck('nombre', 'id');
+        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->whereNull('deleted_at')->where('tipo_int','=',0)->orderBy('nombre')->pluck('nombre', 'id');
 
-        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->whereNull('deleted_at')->where('tblmodulo_id',Auth::user()->tblmodulo_id)
         ->where(function ($query) {
             $query->where('tipo','FA')->orwhere('tipo','JM')->orwhere('estadistica','1');
         })->orderBy('nombre')->pluck('nombre', 'id');

@@ -1529,6 +1529,42 @@ class PermissionsTableSeeder extends Seeder
                 'permiso' => 0,
                 'nivel' => 0,
             ),
+            126 => 
+            array (
+                'id' => 127,
+                'name' => 'Informe de Asistencia Legal',
+                'slug' => 'acceso.ilegal',
+                'description' => 'Permite subir el documento escaneado de Asistencia Legal',
+                'created_at' => '2019-06-24 18:07:03',
+                'updated_at' => '2019-06-24 18:07:03',
+                'depende_de' => 102,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),
+            127 => 
+            array (
+                'id' => 128,
+                'name' => 'Informe de Asistencia Psocológica',
+                'slug' => 'acceso.ipsocologica',
+                'description' => 'Permite subir el documento escaneado de Asistencia Psocológica',
+                'created_at' => '2019-06-24 18:07:03',
+                'updated_at' => '2019-06-24 18:07:03',
+                'depende_de' => 102,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),
+            128 => 
+            array (
+                'id' => 129,
+                'name' => 'Informe de Asistencia Social',
+                'slug' => 'acceso.isocial',
+                'description' => 'Permite subir el documento escaneado de Asistencia Social',
+                'created_at' => '2019-06-24 18:07:03',
+                'updated_at' => '2019-06-24 18:07:03',
+                'depende_de' => 102,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),
         ));
         
         

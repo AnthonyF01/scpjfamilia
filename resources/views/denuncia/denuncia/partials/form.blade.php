@@ -402,7 +402,7 @@
                 <!-- /.tab-pane -->
                 <div class="tab-pane" id="tab_3">
                   <div class="row">
-                    <div class="col-sm-8 col-sm-offset-1">
+                    <div class="col-sm-10 col-sm-offset-1">
                       @if(isset($denuncia) && !empty($denuncia['id']))
                         {!! Form::model($denuncia, [ 'route' => ['denuncia.update', $denuncia->id], 'method' => 'PUT', 'id'=>'form_cem' ]) !!}
                       @else
@@ -435,6 +435,35 @@
                                   </div> Psicología
                                 </label>
                               </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-offset-2 col-sm-8">
+                            <br>
+                            {{ Form::label('exp', 'Informe de Asistencia Legal', ['class' => 'lbldenh control-label']) }}
+                            <div class="form-group has-feedback {{ $errors->has('expediente')? 'has-error':'' }}">
+                              {{ Form::label('expediente', 'Expediente:', ['class' => 'lbldens control-label']) }}
+                              {{ Form::text('expediente', null, ['class' => 'form-control input-sm'.($errors->has('expediente')?" is-invalid":""), "autofocus", 'id' => 'expediente', 'autocomplete' => 'off']) }}
+                              <span id="error-expediente" class="invalid-feedback"></span>
+                            </div>
+                            <div class="form-group">
+                              {{ Form::label('fdenuncia', 'Fecha de Denuncia:', ['class' => 'lbldens control-label']) }}
+                              <div class="input-group date">
+                                <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                                {{ Form::text('fdenuncia', null, ['class' => 'form-control input-sm datepicker'.($errors->has('fdenuncia')?" is-invalid":""), "autofocus", 'id' => 'fdenuncia', 'autocomplete' => 'off', 'data-date-end-date'=>"0d"]) }}
+                              </div>
+                              <span id="error-fdenuncia" class="invalid-feedback"></span>
+                            </div>
+                            <div class="form-group">
+                              {{ Form::label('registro_file', 'Archivo de Registro:', ['class' => 'lbldens control-label']) }}
+                              <div class="file-loading">
+                                <input id="registro_file" name="registro_file" type="file">
+                              </div>
+                              @if (isset($denuncia->registro_file) && !empty($denuncia->registro_file))
+                                <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> <a href="{{ url($denuncia->registro_file) }}" target="_blank">{{ explode("denuncia/",$denuncia->registro_file)[1] }}</a></span><br>
+                              @endif
+                              <span id="error-registro_file" class="invalid-feedback"></span>
                             </div>
                           </div>
                         </div>
