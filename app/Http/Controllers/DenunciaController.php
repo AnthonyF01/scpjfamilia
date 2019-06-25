@@ -1826,14 +1826,18 @@ class DenunciaController extends Controller
                 $valoracionDen = DB::select(DB::raw($sqlV));
 
                 $valoracionDenArr = [];
+                $maxHeightVArr = [];
 
                 for ($i=0; $i < count($valoracionDen); $i++) {
                     $valoracionDenArr['keys'][] = $valoracionDen[$i]->sigla;
                     $valoracionDenArr['values'][] = $valoracionDen[$i]->total;
+                    $maxHeightVArr[] = (int)$valoracionDen[$i]->total;
                 }
 
+                $maxHeightV = max($maxHeightVArr)*1.25;
+
                 $chartV = new ExampleChart;
-                $chartV->heightChart(300)->displayYAxes(false)->displayXAxes(true,'#000000','11px')->displayLegend(false)->plotOpt(true, 'column');
+                $chartV->heightChart(300)->heightYAxis($maxHeightV)->displayYAxes(false)->displayXAxes(true,'#000000','11px')->displayLegend(false)->plotOpt(true, 'column');
                 $chartV->labels($valoracionDenArr['keys']);
                 $chartV->dataset('Total', 'column', $valoracionDenArr['values'])
                         ->options([
@@ -2692,8 +2696,6 @@ class DenunciaController extends Controller
                         ->options([
                             'color' => ['rgb(203,0,0)','rgb(0,0,0)'],
                         ]);
-
-
 
                 if (isset($request['graph2']) && !empty($request['graph2']) && $request['graph2'] != '0'){
                     $graphGenerated = '2';

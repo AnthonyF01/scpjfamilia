@@ -21,7 +21,7 @@ class TblmedidaTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'nombre' => 'Retiro del agresor del domicilio',
-                'sigla' => NULL,
+                'sigla' => 'RAD',
                 'descripcion' => NULL,
                 'created_at' => '2019-02-14 01:03:01',
                 'updated_at' => '2019-03-06 16:44:23',
@@ -31,7 +31,7 @@ class TblmedidaTableSeeder extends Seeder
             array (
                 'id' => 2,
                 'nombre' => 'Impedimento de acercamiento o proximidad a la víctima',
-                'sigla' => NULL,
+                'sigla' => 'IPV',
                 'descripcion' => NULL,
                 'created_at' => '2019-02-14 01:03:05',
                 'updated_at' => '2019-03-06 16:44:30',
@@ -41,7 +41,7 @@ class TblmedidaTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'nombre' => 'Prohibición de comunicación con la víctima',
-                'sigla' => NULL,
+                'sigla' => 'PCV',
                 'descripcion' => NULL,
                 'created_at' => '2019-02-14 01:03:14',
                 'updated_at' => '2019-03-06 16:44:37',
@@ -51,7 +51,7 @@ class TblmedidaTableSeeder extends Seeder
             array (
                 'id' => 4,
                 'nombre' => 'Prohibición del derecho de tenencia y porte de armas para el agresor',
-                'sigla' => NULL,
+                'sigla' => 'PPA',
                 'descripcion' => NULL,
                 'created_at' => '2019-03-06 16:44:45',
                 'updated_at' => '2019-03-06 16:44:45',
@@ -61,7 +61,7 @@ class TblmedidaTableSeeder extends Seeder
             array (
                 'id' => 5,
                 'nombre' => 'Inventario de bienes',
-                'sigla' => NULL,
+                'sigla' => 'IBN',
                 'descripcion' => NULL,
                 'created_at' => '2019-03-06 16:44:59',
                 'updated_at' => '2019-03-06 16:44:59',
@@ -71,7 +71,7 @@ class TblmedidaTableSeeder extends Seeder
             array (
                 'id' => 6,
                 'nombre' => 'Asignación económica de emergencia',
-                'sigla' => NULL,
+                'sigla' => 'AEE',
                 'descripcion' => NULL,
                 'created_at' => '2019-03-06 16:45:03',
                 'updated_at' => '2019-03-06 16:45:03',
@@ -81,7 +81,7 @@ class TblmedidaTableSeeder extends Seeder
             array (
                 'id' => 7,
                 'nombre' => 'Prohibición de disponer de los bienes muebles o inmuebles comunes',
-                'sigla' => NULL,
+                'sigla' => 'PDM',
                 'descripcion' => NULL,
                 'created_at' => '2019-03-06 16:45:15',
                 'updated_at' => '2019-03-06 16:45:15',
@@ -91,7 +91,7 @@ class TblmedidaTableSeeder extends Seeder
             array (
                 'id' => 8,
                 'nombre' => 'Prohibición a la persona denunciada de retirar del cuidado del grupo familiar a los niños, niñas, adolescentes u otras personas en situación de vulnerabilidad',
-                'sigla' => NULL,
+                'sigla' => 'PRN',
                 'descripcion' => NULL,
                 'created_at' => '2019-03-06 16:45:41',
                 'updated_at' => '2019-03-06 16:45:41',
@@ -101,7 +101,7 @@ class TblmedidaTableSeeder extends Seeder
             array (
                 'id' => 9,
                 'nombre' => 'Tratamiento reeducativo o terapéutico para el agresor',
-                'sigla' => NULL,
+                'sigla' => 'TTA',
                 'descripcion' => NULL,
                 'created_at' => '2019-03-06 16:45:55',
                 'updated_at' => '2019-03-06 16:45:55',
@@ -111,7 +111,7 @@ class TblmedidaTableSeeder extends Seeder
             array (
                 'id' => 10,
                 'nombre' => 'Tratamiento psicológico para la víctima',
-                'sigla' => NULL,
+                'sigla' => 'TPV',
                 'descripcion' => NULL,
                 'created_at' => '2019-03-06 16:46:04',
                 'updated_at' => '2019-03-06 16:46:04',
@@ -121,7 +121,7 @@ class TblmedidaTableSeeder extends Seeder
             array (
                 'id' => 11,
                 'nombre' => 'Albergue de la víctima en un establecimiento en el que se garantice su seguridad',
-                'sigla' => NULL,
+                'sigla' => 'AVE',
                 'descripcion' => NULL,
                 'created_at' => '2019-03-06 16:46:10',
                 'updated_at' => '2019-03-06 16:46:10',
@@ -131,7 +131,7 @@ class TblmedidaTableSeeder extends Seeder
             array (
                 'id' => 12,
                 'nombre' => 'Cualquier otra medida de protección requerida',
-                'sigla' => NULL,
+                'sigla' => 'CMP',
                 'descripcion' => NULL,
                 'created_at' => '2019-03-06 16:46:18',
                 'updated_at' => '2019-03-06 16:46:18',
@@ -141,7 +141,7 @@ class TblmedidaTableSeeder extends Seeder
             array (
                 'id' => 13,
                 'nombre' => 'No dictar medidas de protección',
-                'sigla' => NULL,
+                'sigla' => 'NMP',
                 'descripcion' => NULL,
                 'created_at' => '2019-05-29 17:15:52',
                 'updated_at' => '2019-06-15 21:14:12',
