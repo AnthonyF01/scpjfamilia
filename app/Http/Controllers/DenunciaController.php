@@ -1392,6 +1392,7 @@ class DenunciaController extends Controller
                 $victimasCar = DB::select(DB::raw($sqlCV));
 
                 $victimasCarArr = [];
+                $maxHeightCVArr = [];
 
                 for ($i=0; $i < count($victimasCar); $i++) {
                     if ($victimasCar[$i]->nombre == 'Adulto Mayor') {
@@ -1400,10 +1401,13 @@ class DenunciaController extends Controller
                         $victimasCarArr['keys'][] = $victimasCar[$i]->nombre;
                     }
                     $victimasCarArr['values'][] = $victimasCar[$i]->total;
+                    $maxHeightCVArr[] = (int)$victimasCar[$i]->total;
                 }
 
+                $maxHeightCV = max($maxHeightCVArr)*1.1;
+
                 $chartCV = new ExampleChart;
-                $chartCV->heightChart('300px')->displayYAxes(false)->displayXAxes(true,'red','15px')->displayLegend(false)->plotOpt(true, 'column');
+                $chartCV->heightChart('300px')->heightYAxis($maxHeightCV)->displayYAxes(false)->displayXAxes(true,'red','15px')->displayLegend(false)->plotOpt(true, 'column');
                 $chartCV->labels($victimasCarArr['keys']);
                 $chartCV->dataset('Caracteristica', 'column', $victimasCarArr['values'])
                         ->options([
@@ -1453,14 +1457,18 @@ class DenunciaController extends Controller
                 $victimasPV = DB::select(DB::raw($sqlPV));
 
                 $victimasPVArr = [];
+                $maxHeightPVArr = [];
 
                 for ($i=0; $i < count($victimasPV); $i++) {
                     $victimasPVArr['keys'][] = $victimasPV[$i]->edad_fr;
                     $victimasPVArr['values'][] = $victimasPV[$i]->total;
+                    $maxHeightPVArr[] = (int)$victimasPV[$i]->total;
                 }
 
+                $maxHeightPV = max($maxHeightPVArr)*1.1;
+
                 $chartPV = new ExampleChart;
-                $chartPV->heightChart('300px')->displayYAxes(false)->displayXAxes(true,'red','15px')->displayLegend(false)->plotOpt(true, 'column');
+                $chartPV->heightChart('300px')->heightYAxis($maxHeightPV)->displayYAxes(false)->displayXAxes(true,'red','15px')->displayLegend(false)->plotOpt(true, 'column');
                 $chartPV->labels($victimasPVArr['keys']);
                 $chartPV->dataset('Edad', 'column', $victimasPVArr['values'])
                         ->options([
@@ -1584,6 +1592,7 @@ class DenunciaController extends Controller
                 $agresoresPPA = DB::select(DB::raw($sqlPPA));
 
                 $agresoresPPAArr = [];
+                $maxHeightPPAArr = [];
 
                 for ($i=0; $i < count($agresoresPPA); $i++) {
                     if ($agresoresPPA[$i]->nombre == 'Padastro(Ma)') {
@@ -1596,10 +1605,13 @@ class DenunciaController extends Controller
                         $agresoresPPAArr['keys'][] = $agresoresPPA[$i]->nombre;
                     }
                     $agresoresPPAArr['values'][] = $agresoresPPA[$i]->total;
+                    $maxHeightPPAArr[] = (int)$agresoresPPA[$i]->total;
                 }
 
+                $maxHeightPPA = max($maxHeightPPAArr)*1.1;
+
                 $chartPPA = new ExampleChart;
-                $chartPPA->heightChart('350px')->displayYAxes(false)->displayXAxes(true,'blak','11px')->displayLegend(false)->plotOpt(true, 'column');
+                $chartPPA->heightChart('350px')->heightYAxis($maxHeightPPA)->displayYAxes(false)->displayXAxes(true,'blak','11px')->displayLegend(false)->plotOpt(true, 'column');
                 $chartPPA->labels($agresoresPPAArr['keys']);
                 $chartPPA->dataset('Parentesco', 'column', $agresoresPPAArr['values'])
                         ->options([
