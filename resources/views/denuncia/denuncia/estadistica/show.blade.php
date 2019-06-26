@@ -944,7 +944,8 @@
 
       {{-- graficas --}}
 
-      <div class="div-table" style="margin-bottom: 20px;">
+      {{-- 2606 --}}
+      {{-- <div class="div-table" style="margin-bottom: 20px;">
         <div class="div-cell cell-4 nplr" style="margin-left: 10px">
           <center><h4 class="headGraph color_bk">INGRESO DE DENUNCIAS LEY Nº 30364</h4></center>
           <center><div><img style="" class="img3" src="{{ $splitImg[0] }}" height="230px" width="100%"></div></center>
@@ -962,6 +963,28 @@
               <center><div><img style="" class="img3" src="{{ $splitImg[3] }}" height="230px" width="100%"></div></center>
             </div>
           </div>
+        </div>
+      </div> --}}
+
+      <div class="div-table" style="margin-bottom: 20px;">
+        <div class="div-cell cell-6 nplr">
+          <center><h4 class="headGraph color_bk">INGRESO DE DENUNCIAS LEY Nº 30364</h4></center>
+          <center><div><img style="" class="img3" src="{{ $splitImg[0] }}" height="230px" width="auto"></div></center>
+        </div>
+        <div class="div-cell cell-6 nplr" style="">
+          <center><h4 class="headGraph color_bk">TIEMPOS DE TRÁMITE DE DENUNCIAS LEY Nº 30364</h4></center>
+          <center><div><img style="" class="img3" src="{{ $splitImg[1] }}" height="230px" width="auto"></div></center>
+        </div>
+      </div>
+
+      <div class="div-table">
+        <div class="div-cell cell-3 nplr">
+          <center><h3 class="headGraph color_bk">Valoración Denuncia</h3></center>
+          <center><div><img style="" class="img3" src="{{ $splitImg[2] }}" height="230px" width="auto"></div></center>
+        </div>
+        <div class="div-cell cell-9 nplr">
+          <center><h3 class="headGraph color_bk">Carga de Medidas de Protección</h3></center>
+          <center><div><img style="" class="img3" src="{{ $splitImg[3] }}" height="230px" width="auto"></div></center>
         </div>
       </div>
 
