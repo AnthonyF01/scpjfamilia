@@ -281,7 +281,7 @@
     }
 
     .box {
-      height: 265px;
+      height: 255px;
     }
 
     .bbox_rd {
@@ -505,7 +505,7 @@
     <div class="both"></div>
     
     @if ($request['graph'] == '1' || $request['graph'] == '3')
-      <div class="div-table" style="margin-bottom: 20px;">
+      <div class="div-table" style="margin-bottom: 10px;">
         <div class="div-cell cell-2 nplr">
           <div class="box bbox_rd">
             <center><h3 class="headBox color_bl red">VICTIMAS</h3></center>
@@ -514,11 +514,11 @@
         </div>
         <div class="div-cell cell-4 nplr">
           <center><h3 class="headGraph color_rd">CARACTERISTICAS DE LA VICTIMA</h3></center>
-          <div class="bodyGraph"><img style="" src="{{ $splitImg[0] }}" height="90%" width="90%"></div>
+          <div class="bodyGraph"><img style="" src="{{ $splitImg[0] }}" height="85%" width="85%"></div>
         </div>
         <div class="div-cell cell-4 nplr">
           <center><h3 class="headGraph color_rd">EDAD DE LA VICTIMA</h3></center>
-          <div class="bodyGraph"><img style="" src="{{ $splitImg[1] }}" height="90%" width="90%"></div>
+          <div class="bodyGraph"><img style="" src="{{ $splitImg[1] }}" height="85%" width="85%"></div>
         </div>
         <div class="div-cell cell-2 nplr">
           <div class="box bbox_rd red color_bl">
