@@ -438,7 +438,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="row">
+                        {{-- <div class="row">
                           <div class="col-md-offset-2 col-sm-8">
                             <br>
                             {{ Form::label('exp', 'Informe de Asistencia Legal', ['class' => 'lbldenh control-label']) }}
@@ -466,7 +466,7 @@
                               <span id="error-registro_file" class="invalid-feedback"></span>
                             </div>
                           </div>
-                        </div>
+                        </div> --}}
                         <div class="col-sm-4 col-sm-offset-4">
                           <button class="btn btn-outline-primary btn-sm" type="submit"><i class="fa fa-save"></i> Actualizar</button>
                         </div>
