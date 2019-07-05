@@ -514,8 +514,8 @@
                         <div class="social" {{ (isset($denuncia->social) && !empty($denuncia->social) && $denuncia->social == '1') ? "style=display:initial" : "style=display:none" }}>
                           <div class="row">
                             <div class="col-md-offset-2 col-sm-8">
-                              <br>
-                              {{ Form::label('exp', 'Informe Social', ['class' => 'lbldenh control-label']) }}
+                              <br> 
+                              {{ Form::label('exp', 'Informe de Asistencia Social', ['class' => 'lbldenh control-label']) }}
                               <div class="form-group has-feedback {{ $errors->has('informes')? 'has-error':'' }}">
                                 {{ Form::label('informes', 'Informe:', ['class' => 'lbldens control-label']) }}
                                 {{ Form::text('informes', null, ['class' => 'form-control input-sm'.($errors->has('informes')?" is-invalid":""), "autofocus", 'id' => 'informes', 'autocomplete' => 'off']) }}

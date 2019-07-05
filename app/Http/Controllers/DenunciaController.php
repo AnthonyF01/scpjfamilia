@@ -3069,7 +3069,7 @@ class DenunciaController extends Controller
                     $input = parent::array_push_assoc($input, 'informeps_file', $request['informeps_file']);
                 }
 
-                if ($request['social'] == '1') {
+                if ($request['social'] == '1') { 
                     $rules = parent::array_push_assoc($rules, 'informes', 'required|string');
                     $rules = parent::array_push_assoc($rules, 'finformes', 'required|date');
                     $rules = parent::array_push_assoc($rules, 'informes_file', 'required|mimes:pdf,doc,docx|max:4096');
