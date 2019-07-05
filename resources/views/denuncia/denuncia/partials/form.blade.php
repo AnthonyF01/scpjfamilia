@@ -421,7 +421,7 @@
                                     @else
                                       {!! Form::checkbox('asistencialegal', null, null,['class' => 'icheckjs']) !!}
                                     @endif
-                                  </div> Asistencia Legal
+                                  </div> Informe de Asistencia Legal
                                 </label>
                               </div>
                               <div class="checkbox icheck">
@@ -432,41 +432,116 @@
                                     @else
                                       {!! Form::checkbox('psicologia', null, null,['class' => 'icheckjs']) !!}
                                     @endif
-                                  </div> Psicología
+                                  </div> Informe de Asistencia Psicológica
+                                </label>
+                              </div>
+                              <div class="checkbox icheck">
+                                <label class="">
+                                  <div class="icheckbox_square-blue" style="position: relative;">
+                                    @if(isset($denuncia) && !empty($denuncia['id']))
+                                      {!! Form::checkbox('social', $denuncia->social, null,['class' => 'icheckjs']) !!}
+                                    @else
+                                      {!! Form::checkbox('social', null, null,['class' => 'icheckjs']) !!}
+                                    @endif
+                                  </div> Informe de Asistencia Social
                                 </label>
                               </div>
                             </div>
                           </div>
                         </div>
-                        {{-- <div class="row">
-                          <div class="col-md-offset-2 col-sm-8">
-                            <br>
-                            {{ Form::label('exp', 'Informe de Asistencia Legal', ['class' => 'lbldenh control-label']) }}
-                            <div class="form-group has-feedback {{ $errors->has('expediente')? 'has-error':'' }}">
-                              {{ Form::label('expediente', 'Expediente:', ['class' => 'lbldens control-label']) }}
-                              {{ Form::text('expediente', null, ['class' => 'form-control input-sm'.($errors->has('expediente')?" is-invalid":""), "autofocus", 'id' => 'expediente', 'autocomplete' => 'off']) }}
-                              <span id="error-expediente" class="invalid-feedback"></span>
-                            </div>
-                            <div class="form-group">
-                              {{ Form::label('fdenuncia', 'Fecha de Denuncia:', ['class' => 'lbldens control-label']) }}
-                              <div class="input-group date">
-                                <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
-                                {{ Form::text('fdenuncia', null, ['class' => 'form-control input-sm datepicker'.($errors->has('fdenuncia')?" is-invalid":""), "autofocus", 'id' => 'fdenuncia', 'autocomplete' => 'off', 'data-date-end-date'=>"0d"]) }}
+                        <div class="asistencialegal" {{ (isset($denuncia->asistencialegal) && !empty($denuncia->asistencialegal) && $denuncia->asistencialegal == '1') ? "style=display:initial" : "style=display:none" }}>
+                          <div class="row">
+                            <div class="col-md-offset-2 col-sm-8">
+                              <br>
+                              {{ Form::label('exp', 'Informe de Asistencia Legal', ['class' => 'lbldenh control-label']) }}
+                              <div class="form-group has-feedback {{ $errors->has('informeal')? 'has-error':'' }}">
+                                {{ Form::label('informeal', 'Informe:', ['class' => 'lbldens control-label']) }}
+                                {{ Form::text('informeal', null, ['class' => 'form-control input-sm'.($errors->has('informeal')?" is-invalid":""), "autofocus", 'id' => 'informeal', 'autocomplete' => 'off']) }}
+                                <span id="error-informeal" class="invalid-feedback"></span>
                               </div>
-                              <span id="error-fdenuncia" class="invalid-feedback"></span>
-                            </div>
-                            <div class="form-group">
-                              {{ Form::label('registro_file', 'Archivo de Registro:', ['class' => 'lbldens control-label']) }}
-                              <div class="file-loading">
-                                <input id="registro_file" name="registro_file" type="file">
+                              <div class="form-group">
+                                {{ Form::label('finformeal', 'Fecha de Informe:', ['class' => 'lbldens control-label']) }}
+                                <div class="input-group date">
+                                  <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                                  {{ Form::text('finformeal', null, ['class' => 'form-control input-sm datepicker'.($errors->has('finformeal')?" is-invalid":""), "autofocus", 'id' => 'finformeal', 'autocomplete' => 'off', 'data-date-end-date'=>"0d"]) }}
+                                </div>
+                                <span id="error-finformeal" class="invalid-feedback"></span>
                               </div>
-                              @if (isset($denuncia->registro_file) && !empty($denuncia->registro_file))
-                                <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> <a href="{{ url($denuncia->registro_file) }}" target="_blank">{{ explode("denuncia/",$denuncia->registro_file)[1] }}</a></span><br>
-                              @endif
-                              <span id="error-registro_file" class="invalid-feedback"></span>
+                              <div class="form-group">
+                                {{ Form::label('informeal_file', 'Archivo de Informe:', ['class' => 'lbldens control-label']) }}
+                                <div class="file-loading">
+                                  <input id="informeal_file" name="informeal_file" type="file">
+                                </div>
+                                @if (isset($denuncia->informeal_file) && !empty($denuncia->informeal_file))
+                                  <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> <a href="{{ url($denuncia->informeal_file) }}" target="_blank">{{ explode("informe/informeal/",$denuncia->informeal_file)[1] }}</a></span><br>
+                                @endif
+                                <span id="error-informeal_file" class="invalid-feedback"></span>
+                              </div>
                             </div>
                           </div>
-                        </div> --}}
+                        </div>
+                        <div class="psicologia" {{ (isset($denuncia->psicologia) && !empty($denuncia->psicologia) && $denuncia->psicologia == '1') ? "style=display:initial" : "style=display:none" }}>
+                          <div class="row">
+                            <div class="col-md-offset-2 col-sm-8">
+                              <br>
+                              {{ Form::label('exp', 'Informe de Asistencia Psicológica', ['class' => 'lbldenh control-label']) }}
+                              <div class="form-group has-feedback {{ $errors->has('informeps')? 'has-error':'' }}">
+                                {{ Form::label('informeps', 'Informe:', ['class' => 'lbldens control-label']) }}
+                                {{ Form::text('informeps', null, ['class' => 'form-control input-sm'.($errors->has('informeps')?" is-invalid":""), "autofocus", 'id' => 'informeps', 'autocomplete' => 'off']) }}
+                                <span id="error-informeps" class="invalid-feedback"></span>
+                              </div>
+                              <div class="form-group">
+                                {{ Form::label('finformeps', 'Fecha de Informe:', ['class' => 'lbldens control-label']) }}
+                                <div class="input-group date">
+                                  <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                                  {{ Form::text('finformeps', null, ['class' => 'form-control input-sm datepicker'.($errors->has('finformeps')?" is-invalid":""), "autofocus", 'id' => 'finformeps', 'autocomplete' => 'off', 'data-date-end-date'=>"0d"]) }}
+                                </div>
+                                <span id="error-finformeps" class="invalid-feedback"></span>
+                              </div>
+                              <div class="form-group">
+                                {{ Form::label('informeps_file', 'Archivo de Informe:', ['class' => 'lbldens control-label']) }}
+                                <div class="file-loading">
+                                  <input id="informeps_file" name="informeps_file" type="file">
+                                </div>
+                                @if (isset($denuncia->informeps_file) && !empty($denuncia->informeps_file))
+                                  <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> <a href="{{ url($denuncia->informeps_file) }}" target="_blank">{{ explode("informe/informeps/",$denuncia->informeps_file)[1] }}</a></span><br>
+                                @endif
+                                <span id="error-informeps_file" class="invalid-feedback"></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="social" {{ (isset($denuncia->social) && !empty($denuncia->social) && $denuncia->social == '1') ? "style=display:initial" : "style=display:none" }}>
+                          <div class="row">
+                            <div class="col-md-offset-2 col-sm-8">
+                              <br>
+                              {{ Form::label('exp', 'Informe Social', ['class' => 'lbldenh control-label']) }}
+                              <div class="form-group has-feedback {{ $errors->has('informes')? 'has-error':'' }}">
+                                {{ Form::label('informes', 'Informe:', ['class' => 'lbldens control-label']) }}
+                                {{ Form::text('informes', null, ['class' => 'form-control input-sm'.($errors->has('informes')?" is-invalid":""), "autofocus", 'id' => 'informes', 'autocomplete' => 'off']) }}
+                                <span id="error-informes" class="invalid-feedback"></span>
+                              </div>
+                              <div class="form-group">
+                                {{ Form::label('finformes', 'Fecha de Informe:', ['class' => 'lbldens control-label']) }}
+                                <div class="input-group date">
+                                  <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                                  {{ Form::text('finformes', null, ['class' => 'form-control input-sm datepicker'.($errors->has('finformes')?" is-invalid":""), "autofocus", 'id' => 'finformes', 'autocomplete' => 'off', 'data-date-end-date'=>"0d"]) }}
+                                </div>
+                                <span id="error-finformes" class="invalid-feedback"></span>
+                              </div>
+                              <div class="form-group">
+                                {{ Form::label('informes_file', 'Archivo de Informe:', ['class' => 'lbldens control-label']) }}
+                                <div class="file-loading">
+                                  <input id="informes_file" name="informes_file" type="file">
+                                </div>
+                                @if (isset($denuncia->informes_file) && !empty($denuncia->informes_file))
+                                  <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> <a href="{{ url($denuncia->informes_file) }}" target="_blank">{{ explode("informe/informes/",$denuncia->informes_file)[1] }}</a></span><br>
+                                @endif
+                                <span id="error-informes_file" class="invalid-feedback"></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                         <div class="col-sm-4 col-sm-offset-4">
                           <button class="btn btn-outline-primary btn-sm" type="submit"><i class="fa fa-save"></i> Actualizar</button>
                         </div>
@@ -1703,7 +1778,50 @@
       radioClass: 'iradio_square-blue',
       increaseArea: '20%' // optional
     });
-    // seleccionar solo un checkbox
+
+    $('input[name=asistencialegal]').on('ifChecked', function() {
+      console.log("asistencialegal");
+      $(".asistencialegal").removeClass('hide');
+      $(".asistencialegal").addClass('show');
+      // $(".psicologia").removeClass('show');
+      // $(".psicologia").addClass('hide');
+      // $(".social").removeClass('show');
+      // $(".social").addClass('hide');
+    });
+    $('input[name=asistencialegal]').on('ifUnchecked', function(event){
+      $(".asistencialegal").removeClass('show');
+      $(".asistencialegal").addClass('hide');
+    });
+    $('input[name=psicologia]').on('ifChecked', function() {
+      console.log("psicologia");
+      // $(".asistencialegal").removeClass('show');
+      // $(".asistencialegal").addClass('hide');
+      $(".psicologia").removeClass('hide');
+      $(".psicologia").addClass('show');
+      // $(".social").removeClass('show');
+      // $(".social").addClass('hide');
+    });
+
+    $('input[name=psicologia]').on('ifUnchecked', function(event){
+      $(".psicologia").removeClass('show');
+      $(".psicologia").addClass('hide');
+    });
+    $('input[name=social]').on('ifChecked', function() {
+      console.log("social");
+      // $(".asistencialegal").removeClass('show');
+      // $(".asistencialegal").addClass('hide');
+      // $(".psicologia").removeClass('show');
+      // $(".psicologia").addClass('hide');
+      $(".social").removeClass('hide');
+      $(".social").addClass('show');
+    });
+
+    $('input[name=social]').on('ifUnchecked', function(event){
+      $(".social").removeClass('show');
+      $(".social").addClass('hide');
+    });
+
+    // seleccionar solo un checkbox - denuncia
     $('input.chkICheck').on('ifChecked', function() {
       console.log("checked");
       $('input.chkICheck').not(this).iCheck('uncheck');
@@ -1812,6 +1930,42 @@
     $('#tblfiscalia_id').select2();
     $('#tblinstancia_id').select2();
     $('#tbldpenal_id').select2();
+    $('#informeal_file').fileinput({
+      theme: 'fa',
+      language: 'es',
+      showUpload: false,
+      showCaption: true,
+      showClose: true,
+      showBrowse: true,
+      showUploadedThumbs: false,
+      showPreview: false,
+      // uploadUrl: '#',
+      allowedFileExtensions: ['pdf','doc','docx']
+    });
+    $('#informeps_file').fileinput({
+      theme: 'fa',
+      language: 'es',
+      showUpload: false,
+      showCaption: true,
+      showClose: true,
+      showBrowse: true,
+      showUploadedThumbs: false,
+      showPreview: false,
+      // uploadUrl: '#',
+      allowedFileExtensions: ['pdf','doc','docx']
+    });
+    $('#informes_file').fileinput({
+      theme: 'fa',
+      language: 'es',
+      showUpload: false,
+      showCaption: true,
+      showClose: true,
+      showBrowse: true,
+      showUploadedThumbs: false,
+      showPreview: false,
+      // uploadUrl: '#',
+      allowedFileExtensions: ['pdf','doc','docx']
+    });
     $('#medida_file').fileinput({
       theme: 'fa',
       language: 'es',

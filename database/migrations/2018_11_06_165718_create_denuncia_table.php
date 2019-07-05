@@ -30,7 +30,17 @@ class CreateDenunciaTable extends Migration
             $table->boolean('ministerio')->nullable()->default(0);
             $table->integer('tblinstancia_id')->unsigned()->nullable();
             $table->boolean('asistencialegal')->nullable()->default(0);     // cem
+            $table->string('informeal',50)->nullable();                     // cem - al   
+            $table->date('finformeal')->nullable();                         // cem - al
+            $table->string('informeal_file',100)->nullable();                // cem - al
             $table->boolean('psicologia')->nullable()->default(0);          // cem
+            $table->string('informeps',50)->nullable();                     // cem - ps   
+            $table->date('finformeps')->nullable();                         // cem - ps
+            $table->string('informeps_file',100)->nullable();                // cem - ps
+            $table->boolean('social')->nullable()->default(0);              // cem
+            $table->string('informes',50)->nullable();                     // cem - s   
+            $table->date('finformes')->nullable();                         // cem - s
+            $table->string('informes_file',100)->nullable();                // cem - s
 
             $table->integer('dependenciad')->unsigned()->nullable();
             $table->string('expediented',50)->nullable();       // fase 3   

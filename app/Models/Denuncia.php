@@ -77,6 +77,21 @@ class Denuncia extends Model
         return (isset($value) && !empty($value)) ? date('d/m/Y',strtotime($value)) : '';
     }
 
+    public function getFinformealAttribute($value)
+    {
+        return (isset($value) && !empty($value)) ? date('d/m/Y',strtotime($value)) : '';
+    }
+
+    public function getFinformepsAttribute($value)
+    {
+        return (isset($value) && !empty($value)) ? date('d/m/Y',strtotime($value)) : '';
+    }
+
+    public function getFinformesAttribute($value)
+    {
+        return (isset($value) && !empty($value)) ? date('d/m/Y',strtotime($value)) : '';
+    }
+
     public function tblmedida ()
     {
         return $this->belongsTo(Tblmedida::class);  // !importante - Para los modelos  =>  Category::class

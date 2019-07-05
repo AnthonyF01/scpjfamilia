@@ -2982,16 +2982,211 @@ class DenunciaController extends Controller
                 }
             }
             if ($request['action'] == 'cem') {
-                $denuncia->asistencialegal = $request['asistencialegal'];
-                $denuncia->psicologia = $request['psicologia'];
-                $denuncia->save();
-                return response()->json([
-                    'tab' => 'cem',
-                    'type' => 'update',
-                    'status' => 'success',
-                    'info' => 'Parametro(s) CEM registrado(s) en la denuncia.',
-                    'url'  => route('denuncia.edit', ['id' => $denuncia->id ]),
-                ]);
+
+                if ($request['finformeal'] != '') {
+                    $request->merge([ 'finformeal' => date('Y-m-d',strtotime(str_replace('/', '-', $request['finformeal']))) ]);
+                }
+                if ($request['finformeps'] != '') {
+                    $request->merge([ 'finformeps' => date('Y-m-d',strtotime(str_replace('/', '-', $request['finformeps']))) ]);
+                }
+                if ($request['finformes'] != '') {
+                    $request->merge([ 'finformes' => date('Y-m-d',strtotime(str_replace('/', '-', $request['finformes']))) ]);
+                }
+
+                $messages = array(
+                    'required' => ':attribute es obligatorio.',
+                    'email'    => ':attribute debe ser un e-mail válido.',
+                    'min'      => ':attribute debe tener :min caracteres como mínimo.',
+                    'max'      => [
+                        'numeric' => 'The :attribute may not be greater than :max.',
+                        'file'    => ':attribute no puede superar los :max kilobytes.',
+                        'string'  => ':attribute debe tener :max caracteres como máximo.',
+                        'array'   => 'The :attribute may not have more than :max items.',
+                    ],
+                    'numeric'  => ':attribute debe ser numérico.',
+                    'image'    => ':attribute debe ser un archivo imagen.',
+                    'mimes'    => ':attribute debe ser un archivo de tipo :values.',
+                    'uploaded' => ':attribute no pudo ser cargado.',
+                );
+
+                $attributes = array(
+                    'informeal' => 'Informe de Asistencia Legal',
+                    'finformeal' => 'Fecha de Informe de Asistencia Legal',
+                    'informeal_file' => 'Archivo de Informe de Asistencia Legal',
+                    'informeps' => 'Informe de Asistencia Psicológica',
+                    'finformeps' => 'Fecha de Informe de Asistencia Psicológica',
+                    'informeps_file' => 'Archivo de Informe de Asistencia Psicológica',
+                    'informes' => 'Informe de Asistencia Social',
+                    'finformes' => 'Fecha de Informe de Asistencia Social',
+                    'informes_file' => 'Archivo de Informe de Asistencia Social',
+                );
+
+                $rules = [
+                    'asistencialegal' => 'nullable|in:1,0',
+                    'psicologia' => 'nullable|in:1,0',
+                    'social' => 'nullable|in:1,0',
+                    // 'informeal' => 'required_if:asistencialegal,==,1|string',
+                    // 'finformeal' => 'required_if:asistencialegal,==,1|date',
+                    // 'informeal_file' => 'required_if:asistencialegal,==,1|mimes:pdf,doc,docx|max:4096',
+                    // 'informeps' => 'required_if:psicologia,==,1|string',
+                    // 'finformeps' => 'required_if:psicologia,==,1|date',
+                    // 'informeps_file' => 'required_if:psicologia,==,1|mimes:pdf,doc,docx|max:4096',
+                    // 'informes' => 'required_if:social,==,1|string',
+                    // 'finformes' => 'required_if:social,==,1|date',
+                    // 'informes_file' => 'required_if:social,==,1|mimes:pdf,doc,docx|max:4096',
+                ];
+
+                $input = [
+                    'asistencialegal' => $request['asistencialegal'],
+                    'psicologia' => $request['psicologia'],
+                    'social' => $request['social'],
+                    // 'informeal' => $request['informeal'],
+                    // 'finformeal' => $request['finformeal'],
+                    // 'informeal_file' => $request['informeal_file'],
+                    // 'informeps' => $request['informeps'],
+                    // 'finformeps' => $request['finformeps'],
+                    // 'informeps_file' => $request['informeps_file'],
+                    // 'informes' => $request['informes'],
+                    // 'finformes' => $request['finformes'],
+                    // 'informes_file' => $request['informes_file'],
+                ];
+
+                if ($request['asistencialegal'] == '1') {
+                    $rules = parent::array_push_assoc($rules, 'informeal', 'required|string');
+                    $rules = parent::array_push_assoc($rules, 'finformeal', 'required|date');
+                    $rules = parent::array_push_assoc($rules, 'informeal_file', 'required|mimes:pdf,doc,docx|max:4096');
+                    $input = parent::array_push_assoc($input, 'informeal', $request['informeal']);
+                    $input = parent::array_push_assoc($input, 'finformeal', $request['finformeal']);
+                    $input = parent::array_push_assoc($input, 'informeal_file', $request['informeal_file']);
+                }
+
+                if ($request['psicologia'] == '1') {
+                    $rules = parent::array_push_assoc($rules, 'informeps', 'required|string');
+                    $rules = parent::array_push_assoc($rules, 'finformeps', 'required|date');
+                    $rules = parent::array_push_assoc($rules, 'informeps_file', 'required|mimes:pdf,doc,docx|max:4096');
+                    $input = parent::array_push_assoc($input, 'informeps', $request['informeps']);
+                    $input = parent::array_push_assoc($input, 'finformeps', $request['finformeps']);
+                    $input = parent::array_push_assoc($input, 'informeps_file', $request['informeps_file']);
+                }
+
+                if ($request['social'] == '1') {
+                    $rules = parent::array_push_assoc($rules, 'informes', 'required|string');
+                    $rules = parent::array_push_assoc($rules, 'finformes', 'required|date');
+                    $rules = parent::array_push_assoc($rules, 'informes_file', 'required|mimes:pdf,doc,docx|max:4096');
+                    $input = parent::array_push_assoc($input, 'informes', $request['informes']);
+                    $input = parent::array_push_assoc($input, 'finformes', $request['finformes']);
+                    $input = parent::array_push_assoc($input, 'informes_file', $request['informes_file']);
+                }
+
+                $validator = Validator::make($input, $rules, $messages);
+
+                $validator->setAttributeNames($attributes);
+
+                if ($validator->fails()){
+                    return response()->json([
+                      'fail' => true,
+                      'errors' => $validator->errors()
+                    ]);
+                }else{
+
+                    if ($request->file('informeal_file') && $request->hasFile('informeal_file')) {
+                        $filename = $request->file('informeal_file')->getClientOriginalName();
+                        $filetype = $request->file('informeal_file')->getClientOriginalExtension();
+                        $public_path = public_path();
+                        $public_path = str_replace("\\", "/", $public_path);
+                        $path = $public_path.'/img/informe/informeal/';
+                        if (!file_exists($path)) { // crea el directorio si no existe
+                            mkdir($path, 0777, true); // todos los permisos
+                        }
+
+                        // elimina el arhivo si existe
+                        if (file_exists($public_path.$denuncia->informeal_file) && isset($denuncia->informeal_file) && !empty($denuncia->informeal_file)) {
+                            unlink($public_path.$denuncia->informeal_file);
+                        }
+
+                        $file_name = 'informeal_file_'.$request['informeal'].'_'.$denuncia->expediente.'_'.time().'.'.$filetype;
+
+                        $request->file('informeal_file')->move($path,$file_name);
+
+                        $fakepath = '/img/informe/informeal/'.$file_name;
+                        $informeal_file = $fakepath;
+                    }
+
+                    if ($request->file('informeps_file') && $request->hasFile('informeps_file')) {
+                        $filename = $request->file('informeps_file')->getClientOriginalName();
+                        $filetype = $request->file('informeps_file')->getClientOriginalExtension();
+                        $public_path = public_path();
+                        $public_path = str_replace("\\", "/", $public_path);
+                        $path = $public_path.'/img/informe/informeps/';
+                        if (!file_exists($path)) { // crea el directorio si no existe
+                            mkdir($path, 0777, true); // todos los permisos
+                        }
+
+                        // elimina el arhivo si existe
+                        if (file_exists($public_path.$denuncia->informeps_file) && isset($denuncia->informeps_file) && !empty($denuncia->informeps_file)) {
+                            unlink($public_path.$denuncia->informeps_file);
+                        }
+
+                        $file_name = 'informeps_file_'.$request['informeps'].'_'.$denuncia->expediente.'_'.time().'.'.$filetype;
+
+                        $request->file('informeps_file')->move($path,$file_name);
+
+                        $fakepath = '/img/informe/informeps/'.$file_name;
+                        $informeps_file = $fakepath;
+                    }
+
+                    if ($request->file('informes_file') && $request->hasFile('informes_file')) {
+                        $filename = $request->file('informes_file')->getClientOriginalName();
+                        $filetype = $request->file('informes_file')->getClientOriginalExtension();
+                        $public_path = public_path();
+                        $public_path = str_replace("\\", "/", $public_path);
+                        $path = $public_path.'/img/informe/informes/';
+                        if (!file_exists($path)) { // crea el directorio si no existe
+                            mkdir($path, 0777, true); // todos los permisos
+                        }
+
+                        // elimina el arhivo si existe
+                        if (file_exists($public_path.$denuncia->informes_file) && isset($denuncia->informes_file) && !empty($denuncia->informes_file)) {
+                            unlink($public_path.$denuncia->informes_file);
+                        }
+
+                        $file_name = 'informes_file_'.$request['informes'].'_'.$denuncia->expediente.'_'.time().'.'.$filetype;
+
+                        $request->file('informes_file')->move($path,$file_name);
+
+                        $fakepath = '/img/informe/informes/'.$file_name;
+                        $informes_file = $fakepath;
+                    }
+
+                    $denuncia->asistencialegal = $request['asistencialegal'];
+                    $denuncia->psicologia = $request['psicologia'];
+                    $denuncia->social = $request['social'];
+                    $denuncia->informeal = $request['informeal'];
+                    $denuncia->finformeal = $request['finformeal'];
+                    if (isset($informeal_file) && !empty($informeal_file) && $informeal_file != '') {
+                        $denuncia->informeal_file = $informeal_file;
+                    }
+                    $denuncia->informeps = $request['informeps'];
+                    $denuncia->finformeps = $request['finformeps'];
+                    if (isset($informeps_file) && !empty($informeps_file) && $informeps_file != '') {
+                        $denuncia->informeps_file = $informeps_file;
+                    }
+                    $denuncia->informes = $request['informes'];
+                    $denuncia->finformes = $request['finformes'];
+                    if (isset($informes_file) && !empty($informes_file) && $informes_file != '') {
+                        $denuncia->informes_file = $informes_file;
+                    }
+                    $denuncia->save();
+
+                    return response()->json([
+                        'tab' => 'cem',
+                        'type' => 'update',
+                        'status' => 'success',
+                        'info' => 'Parametro(s) CEM registrado(s) en la denuncia.',
+                        'url'  => route('denuncia.edit', ['id' => $denuncia->id ]),
+                    ]);
+                }
+
             }
             if ($request['action'] == 'denuncia') {
 
@@ -3013,7 +3208,7 @@ class DenunciaController extends Controller
                     ],
                     'numeric'  => ':attribute debe ser numérico.',
                     'image'    => ':attribute debe ser un archivo imagen.',
-                    'mimes'    => ':attribute debe ser un archivo de tipo: valores.',
+                    'mimes'    => ':attribute debe ser un archivo de tipo :values.',
                     'uploaded' => ':attribute no pudo ser cargado.',
                 );
 
@@ -3163,7 +3358,7 @@ class DenunciaController extends Controller
                     'unique'   => ':attribute ya ha sido registrado.',
                     'numeric'  => ':attribute debe ser numérico.',
                     'image'    => ':attribute debe ser un archivo imagen.',
-                    'mimes'    => ':attribute debe ser un archivo de tipo: valores.',
+                    'mimes'    => ':attribute debe ser un archivo de tipo :values.',
                 );
 
                 $attributes = array(
@@ -3273,7 +3468,7 @@ class DenunciaController extends Controller
                     'max'      => ':attribute debe tener :max caracteres como máximo.',
                     'numeric'  => ':attribute debe ser numérico.',
                     'image'    => ':attribute debe ser un archivo imagen.',
-                    'mimes'    => ':attribute debe ser un archivo de tipo: valores.',
+                    'mimes'    => ':attribute debe ser un archivo de tipo :values.',
                 );
 
                 $attributes = array(
@@ -3330,7 +3525,7 @@ class DenunciaController extends Controller
                     'max'      => ':attribute debe tener :max caracteres como máximo.',
                     'numeric'  => ':attribute debe ser numérico.',
                     'image'    => ':attribute debe ser un archivo imagen.',
-                    'mimes'    => ':attribute debe ser un archivo de tipo: valores.',
+                    'mimes'    => ':attribute debe ser un archivo de tipo :values.',
                 );
 
                 $attributes = array(
@@ -3393,7 +3588,7 @@ class DenunciaController extends Controller
                     'max'      => ':attribute debe tener :max caracteres como máximo.',
                     'numeric'  => ':attribute debe ser numérico.',
                     'image'    => ':attribute debe ser un archivo imagen.',
-                    'mimes'    => ':attribute debe ser un archivo de tipo: valores.',
+                    'mimes'    => ':attribute debe ser un archivo de tipo :values.',
                 );
 
                 $attributes = array(
@@ -3468,7 +3663,7 @@ class DenunciaController extends Controller
                     'unique'   => ':attribute ya ha sido registrado.',
                     'numeric'  => ':attribute debe ser numérico.',
                     'image'    => ':attribute debe ser un archivo imagen.',
-                    'mimes'    => ':attribute debe ser un archivo de tipo: valores.',
+                    'mimes'    => ':attribute debe ser un archivo de tipo :values.',
                 );
 
                 $attributes = array(
@@ -3594,7 +3789,7 @@ class DenunciaController extends Controller
         $messages = array(
             'required' => ':attribute es obligatorio.',
             'image'    => ':attribute debe ser un archivo imagen.',
-            'mimes'    => ':attribute debe ser un archivo de tipo: valores.',
+            'mimes'    => ':attribute debe ser un archivo de tipo :values.',
             'max'      => [
                 'file'    => ':attribute no puede superar los :max kilobytes seleccione otro documento.',
                 'array'   => 'The :attribute may not have more than :max items.',

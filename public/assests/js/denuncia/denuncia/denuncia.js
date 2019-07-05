@@ -194,6 +194,9 @@ $(document).on('submit', 'form', function (event) {
     if (data.has('psicologia')) {
         data.set('psicologia', $('input[name="psicologia"]:checked').length);
     }
+    if (data.has('social')) {
+        data.set('social', $('input[name="social"]:checked').length);
+    }
 
     if (data.has('ministerio')) {
         data.set('ministerio', $('input[name="ministerio"]:checked').length);
