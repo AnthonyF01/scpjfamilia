@@ -449,7 +449,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="asistencialegal" {{ (isset($denuncia->asistencialegal) && !empty($denuncia->asistencialegal) && $denuncia->asistencialegal == '1') ? "style=display:initial" : "style=display:none" }}>
+                        {{-- <div class="asistencialegal" {{ (isset($denuncia->asistencialegal) && !empty($denuncia->asistencialegal) && $denuncia->asistencialegal == '1') ? "style=display:initial" : "style=display:none" }}>
                           <div class="row">
                             <div class="col-md-offset-2 col-sm-8">
                               <br>
@@ -541,7 +541,7 @@
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div> --}}
                         <div class="col-sm-4 col-sm-offset-4">
                           <button class="btn btn-outline-primary btn-sm" type="submit"><i class="fa fa-save"></i> Actualizar</button>
                         </div>
