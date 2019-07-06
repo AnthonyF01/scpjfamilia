@@ -2983,7 +2983,21 @@ class DenunciaController extends Controller
             }
             if ($request['action'] == 'cem') {
 
-                if ($request['finformeal'] != '') {
+                $denuncia->asistencialegal = $request['asistencialegal'];
+                $denuncia->psicologia = $request['psicologia'];
+                $denuncia->social = $request['social'];
+                $denuncia->save();
+
+                return response()->json([
+                    'tab' => 'cem',
+                    'type' => 'update',
+                    'status' => 'success',
+                    'info' => 'Parametro(s) CEM registrado(s) en la denuncia.',
+                    'url'  => route('denuncia.edit', ['id' => $denuncia->id ]),
+                ]);
+
+
+                /*if ($request['finformeal'] != '') {
                     $request->merge([ 'finformeal' => date('Y-m-d',strtotime(str_replace('/', '-', $request['finformeal']))) ]);
                 }
                 if ($request['finformeps'] != '') {
@@ -3185,7 +3199,7 @@ class DenunciaController extends Controller
                         'info' => 'Parametro(s) CEM registrado(s) en la denuncia.',
                         'url'  => route('denuncia.edit', ['id' => $denuncia->id ]),
                     ]);
-                }
+                }*/
 
             }
             if ($request['action'] == 'denuncia') {
