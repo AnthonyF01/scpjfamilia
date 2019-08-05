@@ -167,6 +167,25 @@ class DenunciaController extends Controller
                 when fformalizacion is NULL then -1
             end) daud,
 
+            (
+                (case
+                    when fdenuncia is not NULL then
+                        case
+                            when fformalizacion is not NULL then DATEDIFF(fformalizacion,fdenuncia)
+                            else DATEDIFF(now(),fdenuncia)
+                        end
+                    when fdenuncia is NULL then 0
+                end) +
+                (case
+                    when fformalizacion is not NULL then
+                        case
+                            when faudiencia is not NULL then DATEDIFF(faudiencia,fformalizacion)
+                            else DATEDIFF(now(),fformalizacion)
+                        end
+                    when fformalizacion is NULL then 0
+                end)
+            ) total1,
+
             (case
                 when faudiencia is not NULL then
                     case
@@ -184,6 +203,25 @@ class DenunciaController extends Controller
                     end
                 when fremision is NULL then -1
             end) dden,
+
+            (
+                (case
+                    when faudiencia is not NULL then
+                        case
+                            when fremision is not NULL then DATEDIFF(fremision,faudiencia)
+                            else DATEDIFF(now(),faudiencia)
+                        end
+                    when faudiencia is NULL then 0
+                end) +
+                (case
+                    when fremision is not NULL then
+                        case
+                            when fremisiond is not NULL then DATEDIFF(fremisiond,fremision)
+                            else DATEDIFF(now(),fremision)
+                        end
+                    when fremision is NULL then 0
+                end)
+            ) total2,
 
             (case
                 when fremisiond is not NULL then
@@ -218,13 +256,39 @@ class DenunciaController extends Controller
                             else DATEDIFF(now(),faudiencia)
                         end
                     when faudiencia is NULL then 0
+                end) +
+                (case
+                    when fremision is not NULL then
+                        case
+                            when fremisiond is not NULL then DATEDIFF(fremisiond,fremision)
+                            else DATEDIFF(now(),fremision)
+                        end
+                    when fremision is NULL then 0
+                end) +
+                (case
+                    when fremisiond is not NULL then
+                        case
+                            when fremisionj is not NULL then DATEDIFF(fremisionj,fremisiond)
+                            else DATEDIFF(now(),fremisiond)
+                        end
+                    when fremisiond is NULL then 0
                 end)
             ) total,
 
             (case
                 when registro_file is not NULL then 1
                 when registro_file is NULL then 0
-            end) registro"
+            end) registro,
+
+            (case
+                when cem_file is not NULL then 1
+                when cem_file is NULL then 0
+            end) cem,
+
+            (case
+                when medicina_file is not NULL then 1
+                when medicina_file is NULL then 0
+            end) medicina"
         ));
 
 

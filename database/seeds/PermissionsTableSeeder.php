@@ -1529,12 +1529,12 @@ class PermissionsTableSeeder extends Seeder
                 'permiso' => 0,
                 'nivel' => 0,
             ),
-            126 => 
+            /*126 => 
             array (
                 'id' => 127,
-                'name' => 'Informe de Asistencia Legal',
+                'name' => 'Informe de Asistencia Legal - CEM',
                 'slug' => 'acceso.ilegal',
-                'description' => 'Permite subir el documento escaneado de Asistencia Legal',
+                'description' => 'Permite subir el documento escaneado de Asistencia Legal - CEM',
                 'created_at' => '2019-06-24 18:07:03',
                 'updated_at' => '2019-06-24 18:07:03',
                 'depende_de' => 102,
@@ -1544,9 +1544,9 @@ class PermissionsTableSeeder extends Seeder
             127 => 
             array (
                 'id' => 128,
-                'name' => 'Informe de Asistencia Psocológica',
+                'name' => 'Informe de Asistencia Psocológica - CEM',
                 'slug' => 'acceso.ipsocologica',
-                'description' => 'Permite subir el documento escaneado de Asistencia Psocológica',
+                'description' => 'Permite subir el documento escaneado de Asistencia Psocológica - CEM',
                 'created_at' => '2019-06-24 18:07:03',
                 'updated_at' => '2019-06-24 18:07:03',
                 'depende_de' => 102,
@@ -1556,12 +1556,36 @@ class PermissionsTableSeeder extends Seeder
             128 => 
             array (
                 'id' => 129,
-                'name' => 'Informe de Asistencia Social',
+                'name' => 'Informe de Asistencia Social - CEM',
                 'slug' => 'acceso.isocial',
-                'description' => 'Permite subir el documento escaneado de Asistencia Social',
+                'description' => 'Permite subir el documento escaneado de Asistencia Social - CEM',
                 'created_at' => '2019-06-24 18:07:03',
                 'updated_at' => '2019-06-24 18:07:03',
                 'depende_de' => 102,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),*/
+            126 => 
+            array (
+                'id' => 127,
+                'name' => 'Subir documento de informe cem',
+                'slug' => 'denuncia.filecem',
+                'description' => 'Podría subir documento de informe cem de una denuncia del sistema',
+                'created_at' => '2019-02-06 19:13:00',
+                'updated_at' => '2019-02-06 19:13:00',
+                'depende_de' => 72,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),
+            127 => 
+            array (
+                'id' => 128,
+                'name' => 'Subir documento de informe de medicina legal',
+                'slug' => 'denuncia.fileml',
+                'description' => 'Podría subir documento de informe de medicina legal de una denuncia del sistema',
+                'created_at' => '2019-02-06 19:13:00',
+                'updated_at' => '2019-02-06 19:13:00',
+                'depende_de' => 72,
                 'permiso' => 0,
                 'nivel' => 0,
             ),

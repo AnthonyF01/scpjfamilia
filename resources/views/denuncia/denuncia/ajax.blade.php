@@ -1,36 +1,48 @@
-<table class="table table-striped table-hover table-cell table-lg">
+<table class="table table-striped table-hover table-cell table-lg" style="font-size: 11px !important;">
   <thead>
     <tr>
       <th class="header" width="10px"></th>
       {{-- <th class="header" width="10px"></th> --}}
       <th class="header" width="10px"></th>
-      <th class="header" colspan="8">FASE I: LEY 30364</th>
+      <th class="header" width="10px"></th>
+      <th class="header" width="10px"></th>
+      <th class="header" colspan="9">FASE I: LEY 30364</th>
       {{-- <th class="header" colspan="2">FASE II</th> --}}
-      <th class="header" colspan="2">FASE II</th>
+      <th class="header" colspan="3">FASE II</th>
       <th class="header" colspan="2">FASE III</th>
-      <th class="header" rowspan="3">TOTAL</th>
+      <th class="header" rowspan="3">T</th>
       <th rowspan="3" style="text-align: center;">ACCION</th>
     </tr>
     <tr>
       <th class="header" width="10px"></th>
       {{-- <th class="header" width="10px"></th> --}}
       <th class="header" width="10px"></th>
+      <th class="header" width="10px"></th>
+      <th class="header" width="10px"></th>
       <th class="header" colspan="2">FORMALIZACION</th>
       <th class="header" colspan="2">EXPEDIENTE</th>
       <th class="header" colspan="2">AUDIENCIA</th>
+      <th class="header" colspan="1"></th>
       <th class="header" colspan="2">REMISION</th>
       <th class="header" colspan="2">DENUNCIA</th>
+      <th class="header" colspan="1"></th>
       <th class="header" colspan="2">JUZGADO</th>
     </tr>
     <tr>
       <th class="modHeader" width="10px"></th>
       {{-- <th class="modHeader" width="10px">#</th> --}}
-      <th class="modHeader" width="10px" title="Archivo de Registro" style="text-align: center;">
+      <th class="modHeader" width="10px" title="Archivo de Denuncia" style="text-align: center;">
+        <i style="margin-right: 2px" class="fa fa-file"></i>
+      </th>
+      <th class="modHeader" width="10px" title="Informe CEM" style="text-align: center;">
+        <i style="margin-right: 2px" class="fa fa-file"></i>
+      </th>
+      <th class="modHeader" width="10px" title="Informe Medicina Legal" style="text-align: center;">
         <i style="margin-right: 2px" class="fa fa-file"></i>
       </th>
 
       <th class="modHeader" title="Fecha de Formalizacion">
-        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=fformalizacion&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">F. Form. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=fformalizacion&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">F. F. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
 
@@ -40,12 +52,12 @@
       </th>
 
       <th class="modHeader">
-        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=expediente&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Expediente <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=expediente&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">NRO. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
 
       <th class="modHeader">
-        <a class="btn-block" href="javascript:ajaxLoad('{{url('tblinstancia?field=tblcomisaria_id&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Juzgado <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+        <a class="btn-block" href="javascript:ajaxLoad('{{url('tblinstancia?field=tblcomisaria_id&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">JUZ. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
 
@@ -56,6 +68,11 @@
 
       <th class="modHeader" title="Días Audiencia">
         <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=daud&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">D.A. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+        </a>
+      </th>
+
+      <th class="modHeader" title="Total 1">
+        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=total1&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">T1 <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
 
@@ -76,6 +93,11 @@
 
       <th class="modHeader" title="Días Denuncia">
         <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=dden&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">D.D. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+        </a>
+      </th>
+
+      <th class="modHeader" title="Total 2">
+        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=total2&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">T2 <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
 
@@ -113,9 +135,57 @@
                 </button>
               @endif
             @else
-              <small class="label bg-red">SR</small>
+              {{-- <small class="label bg-red">SR</small> --}}
+              @if (isset($denuncia->registro_file) && !empty($denuncia->registro_file))
+                <a title="Descargar Archivo de Registro Policial" href="{{ $denuncia->registro_file }}" target="_blank" class="btn btn-xs btn-outline-primary"><i class="fa fa-download"></i></a>
+              @else
+                <a href="javascript:void(0)" disabled class="btn btn-xs btn-outline-primary"><i class="fa fa-file-o"></i></a>
+              @endif
             @endcan
           </td>
+
+          <td class="middle modContent">
+            @can('denuncia.filecem')
+              @if ($denuncia->cem)
+                <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->cem_file) }}',1,{{ $denuncia->id }})" title="Ver o Modificar Informe CEM">
+                  <i style="margin-right: 2px" class="fa fa-folder"></i>
+                </button>
+              @else
+                <button class="btn btn-xs btn-outline-info" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }})" title="Subir Informe CEM">
+                  <i style="margin-right: 2px" class="fa fa-upload"></i>
+                </button>
+              @endif
+            @else
+              {{-- <small class="label bg-red">SR</small> --}}
+              @if (isset($denuncia->cem_file) && !empty($denuncia->cem_file))
+                <a title="Descargar Informe CEM" href="{{ $denuncia->cem_file }}" target="_blank" class="btn btn-xs btn-outline-primary"><i class="fa fa-download"></i></a>
+              @else
+                <a href="javascript:void(0)" disabled class="btn btn-xs btn-outline-primary"><i class="fa fa-file-o"></i></a>
+              @endif
+            @endcan
+          </td>
+          
+          <td class="middle modContent">
+            @can('denuncia.fileml')
+              @if ($denuncia->medicina)
+                <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->registro_file) }}',1,{{ $denuncia->id }})" title="Ver o Modificar Informe de Medicina Legal">
+                  <i style="margin-right: 2px" class="fa fa-folder"></i>
+                </button>
+              @else
+                <button class="btn btn-xs btn-outline-info" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }})" title="Subir Informe de Medicina Legal">
+                  <i style="margin-right: 2px" class="fa fa-upload"></i>
+                </button>
+              @endif
+            @else
+              {{-- <small class="label bg-red">SR</small> --}}
+              @if (isset($denuncia->cem_file) && !empty($denuncia->cem_file))
+                <a title="Descargar Informe de Medicina Legal" href="{{ $denuncia->cem_file }}" target="_blank" class="btn btn-xs btn-outline-primary"><i class="fa fa-download"></i></a>
+              @else
+                <a href="javascript:void(0)" disabled class="btn btn-xs btn-outline-primary"><i class="fa fa-file-o"></i></a>
+              @endif
+            @endcan
+          </td>
+          
           <td class="middle">{{ $denuncia->fformalizacion }}</td>
 
           {{-- <td class="middle"><small class="label bg-green">{{ $denuncia->dform }}</small></td> --}}
@@ -135,7 +205,7 @@
             @endif
           @endif
 
-          <td class="middle">{{ $denuncia->expediente }}</td>
+          <td class="middle">{{ substr($denuncia->expediente,0,-19) }}</td>
           <td class="middle" title="{{ $denuncia->tblinstancia ? $denuncia->tblinstancia->nombre : ''}}">{{ $denuncia->tblinstancia ? $denuncia->tblinstancia->sigla : ''}}</td>
           <td class="middle">{{ (isset($denuncia->faudiencia) && !empty($denuncia->faudiencia)) ? $denuncia->faudiencia : '-' }}</td>
 
@@ -155,6 +225,8 @@
               @endif
             @endif
           @endif
+
+          <td class="middle">{{ $denuncia->total1 }}</td>
 
           <td class="middle">{{ (isset($denuncia->remitido) && !empty($denuncia->remitido)) ? $denuncia->remitido : '-' }}</td>
 
@@ -193,6 +265,8 @@
               @endif
             @endif
           @endif
+
+          <td class="middle">{{ $denuncia->total2 }}</td>
 
           <td class="middle">{{ (isset($denuncia->fremisionj) && !empty($denuncia->fremisionj)) ? $denuncia->fremisionj : '-' }}</td>
 
@@ -242,7 +316,7 @@
           </td>
         </tr>
         <tr class="details" style="display: none;">
-          <td colspan="16" style="padding:20px;">
+          <td colspan="20" style="padding:20px;">
             <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
               <div class="row">
                 <div class="panel panel-primary">
