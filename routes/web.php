@@ -234,23 +234,23 @@ Route::middleware(['auth'])->group(function () {
         ->middleware('permission:tipo.edit');
 
     // tipo denuncia penal
-   Route::get('tbldpenal','TbldpenalController@index')->name('tbldpenal.index')
-       ->middleware('permission:tbldpenal.index');
+   // Route::get('tbldpenal','TbldpenalController@index')->name('tbldpenal.index')
+   //     ->middleware('permission:tbldpenal.index');
 
-   Route::get('tbldpenal/create', 'TbldpenalController@create')->name('tbldpenal.create')
-       ->middleware('permission:tbldpenal.create');
+   // Route::get('tbldpenal/create', 'TbldpenalController@create')->name('tbldpenal.create')
+   //     ->middleware('permission:tbldpenal.create');
 
-   Route::get('tbldpenal/{id}/edit', 'TbldpenalController@edit')->name('tbldpenal.edit')
-       ->middleware('permission:tbldpenal.edit');
+   // Route::get('tbldpenal/{id}/edit', 'TbldpenalController@edit')->name('tbldpenal.edit')
+   //     ->middleware('permission:tbldpenal.edit');
 
-   Route::delete('tbldpenal/{id}', 'TbldpenalController@destroy')->name('tbldpenal.destroy')
-       ->middleware('permission:tbldpenal.destroy');
+   // Route::delete('tbldpenal/{id}', 'TbldpenalController@destroy')->name('tbldpenal.destroy')
+   //     ->middleware('permission:tbldpenal.destroy');
 
-   Route::put('tbldpenal/{id}', 'TbldpenalController@update')->name('tbldpenal.update')
-       ->middleware('permission:tbldpenal.edit');
+   // Route::put('tbldpenal/{id}', 'TbldpenalController@update')->name('tbldpenal.update')
+   //     ->middleware('permission:tbldpenal.edit');
 
-   Route::post('tbldpenal/store', 'TbldpenalController@store')->name('tbldpenal.store')
-       ->middleware('permission:tbldpenal.create');
+   // Route::post('tbldpenal/store', 'TbldpenalController@store')->name('tbldpenal.store')
+   //     ->middleware('permission:tbldpenal.create');
 
     // Parentescos
     Route::post('tblparentesco/store', 'TblparentescoController@store')->name('parentesco.store')

@@ -31,7 +31,8 @@ Route::get('/checkConnection', function (){
     ],200);
 });
 
-/*******************/ /* no se usa el controlador por defecto de laravel passport */
+/*******************/ 
+/* no se usa el controlador por defecto de laravel passport */
 
 // se comento "Passport::routes();" de AuthServiceProvider.php
 
