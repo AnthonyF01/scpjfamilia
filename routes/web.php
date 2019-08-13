@@ -388,6 +388,9 @@ Route::middleware(['auth'])->group(function () {
         ->middleware('permission:ddocumento.verificar');
 
     // Denuncias
+
+    Route::get('denuncia/autocomplete','DenunciaController@autocomplete');
+
     Route::get('denuncia/getGData', 'DenunciaController@getGData')->name('denuncia.getGData')
         ->middleware('permission:denuncia.getGData');
 

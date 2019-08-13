@@ -1589,6 +1589,68 @@ class PermissionsTableSeeder extends Seeder
                 'permiso' => 0,
                 'nivel' => 0,
             ),
+
+
+            128 => 
+            array (
+                'id' => 129,
+                'name' => 'Denuncia - Comisaria',
+                'slug' => 'acceso.denuncia.comisaria',
+                'description' => 'Seleccionar la Comisaria',
+                'created_at' => '2019-02-06 19:13:00',
+                'updated_at' => '2019-02-06 19:13:00',
+                'depende_de' => 106,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),
+            129 => 
+            array (
+                'id' => 130,
+                'name' => 'Denuncia - Modulo',
+                'slug' => 'acceso.denuncia.modulo',
+                'description' => 'Seleccionar el Modulo',
+                'created_at' => '2019-02-06 19:13:00',
+                'updated_at' => '2019-02-06 19:13:00',
+                'depende_de' => 106,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),
+            130 => 
+            array (
+                'id' => 131,
+                'name' => 'Denuncia - Fiscalia',
+                'slug' => 'acceso.denuncia.fiscalia',
+                'description' => 'Seleccionar Fiscalia',
+                'created_at' => '2019-02-06 19:13:00',
+                'updated_at' => '2019-02-06 19:13:00',
+                'depende_de' => 106,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),
+            131 => 
+            array (
+                'id' => 132,
+                'name' => 'Denuncia - SAU',
+                'slug' => 'acceso.denuncia.sau',
+                'description' => 'Seleccionar SAU',
+                'created_at' => '2019-02-06 19:13:00',
+                'updated_at' => '2019-02-06 19:13:00',
+                'depende_de' => 106,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),
+            132 => 
+            array (
+                'id' => 133,
+                'name' => 'Denuncia - CEM',
+                'slug' => 'acceso.denuncia.cem',
+                'description' => 'Seleccionar CEM',
+                'created_at' => '2019-02-06 19:13:00',
+                'updated_at' => '2019-02-06 19:13:00',
+                'depende_de' => 106,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),
         ));
         
         

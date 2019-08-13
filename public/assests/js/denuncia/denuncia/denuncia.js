@@ -116,6 +116,31 @@ $(document).ready(function() {
 
 });
 
+// autocomplete select2
+$('#selectVictima').select2({ // SELECT CLASS
+    placeholder: 'Buscar por DNI, Nombre y Apellido ...',
+    ajax: {
+      url: '/denuncia/autocomplete',
+      dataType: 'json',
+      delay: 250,
+      processResults: function (data) {
+        return {
+          results:  $.map(data, function (item) {
+                return {
+                    id: item.nro_doc,
+                    text: item.nro_doc+" | "+item.nombre+" "+item.apellido
+                }
+            })
+        };
+      },
+      cache: true
+    }
+});
+$('#selectVictima').on('change', function(event) {
+    var selectedVictima = $(this).find('option:selected').val();
+    ajaxLoad('/denuncia?dni='+selectedVictima);
+});
+
 // paginadores
 $(document).on('click', 'a.page-link', function (event) {
     event.preventDefault();
@@ -801,7 +826,7 @@ function loadGraph(url,order){
     });
 }
 
-function showDocumentoPolicial(url,s,id) {
+function showDocumentoPolicial(url,s,id,title) {
     var form=$("#form-registro_file");
     var frame=$("#pdf-registro_file");
     var span=$("#span-title");
@@ -824,13 +849,13 @@ function showDocumentoPolicial(url,s,id) {
     }
 
     if (s==0) {
-        span.html('<strong>Subir Documento Registro Policial</strong>');
+        span.html('<strong>Subir Documento de '+title+'</strong>');
         button.html('<span class="glyphicon glyphicon-plus"></span> Subir Documento')
                                 .removeClass('btn-success')
                                 .addClass('btn-primary');
     }
     else{
-        span.html('<strong>Modificar Documento Registro Policial</strong>');
+        span.html('<strong>Modificar Documento de '+title+'</strong>');
         button.html('<span class="glyphicon glyphicon-check"></span> Modificar Documento')
                                 .removeClass('btn-primary')
                                 .addClass('btn-success');

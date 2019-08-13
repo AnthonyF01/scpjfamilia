@@ -459,7 +459,7 @@ class DenunciaController extends Controller
         // dd($denuncias->toSql());
         // dd($denuncias->toSql(), $denuncias->getBindings());
 
-
+        $denuncias->groupBy('denuncia.id');
         $denuncias = $denuncias
             ->orderBy($request->session()->get('field'), $request->session()->get('sort'))
             ->paginate($request->session()->get('show'));
@@ -649,6 +649,21 @@ class DenunciaController extends Controller
     public function show($id)
     {
 
+    }
+
+    public function autocomplete(Request $request)
+    {
+        $data = [];
+
+        if($request->has('q')){
+            $search = $request->q;
+            $sql = "SELECT DISTINCT v.id,v.nombre,v.apellido,v.nro_doc,v.name1,v.name2 FROM ( select id,nombre,apellido,nro_doc,CONCAT(nombre,' ',apellido) as name1,CONCAT(apellido,' ',nombre) as name2 from victima ) as v WHERE v.nombre LIKE '%$search%' OR (v.nombre LIKE '%$search%' OR v.apellido LIKE '%$search%' OR v.nro_doc LIKE '%$search%' OR v.name1 LIKE '%$search%' OR v.name2 LIKE '%$search%') ORDER BY v.nombre ASC limit 5";
+
+            $data = DB::select( DB::raw($sql) );
+
+        }
+
+        return response()->json($data);
     }
     
     public function getGData(Request $request)

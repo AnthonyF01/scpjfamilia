@@ -161,9 +161,9 @@
               @can('acceso.scaner')
                 @if (auth()->user()->id!=1)
                   <li class="{{ (isset($denuncia) && !empty($denuncia['id'])) ? '' : 'disabled' }}">
-                    <a class="menu_tab" title="Scanear registro policial" href="#tab_9" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}">
+                    <a class="menu_tab" title="Escanear registro policial" href="#tab_9" data-toggle="{{ (isset($denuncia) && !empty($denuncia['id'])) ? 'tab' : '' }}">
                       <i class="glyphicon glyphicon-print"></i>
-                      <span>SCANEAR</span>
+                      <span>ESCANEAR</span>
                     </a>
                   </li>
                 @endif
@@ -355,8 +355,30 @@
                         @else
                           {!! Form::open([ 'route' => 'denuncia.store', 'id'=>'form_scaner' ]) !!}
                         @endif
-                          <input type="hidden" name="action" value="scaner">
-                          <div class="form-group">
+                          <div class="row">
+                            <div class="col-md-offset-2 col-sm-8">
+                              <input type="hidden" name="action" value="scaner">
+                              <div class="form-group">
+                                {{ Form::label('registro_file', 'Archivo de Registro:', ['class' => 'lbldens control-label']) }}
+                                <div class="file-loading">
+                                  <input id="registro_file" name="registro_file" type="file">
+                                </div>
+                                @if (isset($denuncia->registro_file) && !empty($denuncia->registro_file))
+                                  <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> <a href="{{ url($denuncia->registro_file) }}" target="_blank">{{ explode("denuncia/",$denuncia->registro_file)[1] }}</a></span><br>
+                                @endif
+                                <span id="error-registro_file" class="invalid-feedback"></span>
+                              </div>
+                              <div class="form-group">
+                                {{ Form::label('fdenuncia', 'Fecha de Denuncia:', ['class' => 'lbldens control-label', 'style' => 'line-height:30px']) }}
+                                <div class="input-group date">
+                                  <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                                  {{ Form::text('fdenuncia', null, ['class' => 'form-control input-sm datepicker'.($errors->has('fdenuncia')?" is-invalid":""), 'id' => 'fdenuncia', 'autocomplete' => 'off', 'data-date-end-date'=>"0d"]) }}
+                                </div>
+                                <span id="error-fdenuncia" class="invalid-feedback"></span>
+                              </div>
+                            </div>
+                          </div>
+                          {{-- <div class="form-group">
                             <div class="row">
                               {{ Form::label('registro_file2', 'Archivo de Registro:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
                               <div class="col-sm-8">
@@ -374,20 +396,8 @@
                                 </div>
                               </div>
                             </div>
-                          </div>
+                          </div> --}}
 
-                          <div class="form-group">
-                            <div class="row">
-                              {{ Form::label('fdenuncia', 'Fecha de Denuncia:', ['class' => 'col-sm-4 control-label', 'style' => 'line-height:30px']) }}
-                              <div class="col-sm-8">
-                                <div class="input-group date">
-                                  <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
-                                  {{ Form::text('fdenuncia', null, ['class' => 'form-control input-sm datepicker'.($errors->has('fdenuncia')?" is-invalid":""), 'id' => 'fdenuncia', 'autocomplete' => 'off', 'data-date-end-date'=>"0d"]) }}
-                                </div>
-                                <span id="error-fdenuncia" class="invalid-feedback"></span>
-                              </div>
-                            </div>
-                          </div>
                           <div class="col-sm-4 col-sm-offset-4">
                             <button class="btn btn-outline-primary btn-sm" type="submit"><i class="fa fa-save"></i> Actualizar</button>
                           </div>
@@ -584,71 +594,81 @@
                             <div class="form-group">
                               {{ Form::label('tblcomisaria_id', 'Institución:', ['class' => 'lbldens control-label']) }}
                               <div class="row">
-                                <div class="col-md-3">
-                                  <div class="checkbox icheck" style="margin-top: 5px">
-                                    <label class="">
-                                      <div class="icheckbox_square-blue" style="position: relative;">
-                                        @if(isset($denuncia) && !empty($denuncia['id']))
-                                          {!! Form::checkbox('_institucion', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '1') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
-                                        @else
-                                          {!! Form::checkbox('_institucion', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '1') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
-                                        @endif
-                                      </div> Comisaria
-                                    </label>
+                                @can('acceso.denuncia.comisaria')
+                                  <div class="col-md-3">
+                                    <div class="checkbox icheck" style="margin-top: 5px">
+                                      <label class="">
+                                        <div class="icheckbox_square-blue" style="position: relative;">
+                                          @if(isset($denuncia) && !empty($denuncia['id']))
+                                            {!! Form::checkbox('_institucion', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '1') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
+                                          @else
+                                            {!! Form::checkbox('_institucion', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '1') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
+                                          @endif
+                                        </div> Comisaria
+                                      </label>
+                                    </div>
                                   </div>
-                                </div>
-                                <div class="col-md-2">
-                                  <div class="checkbox icheck" style="margin-top: 5px">
-                                    <label class="">
-                                      <div class="icheckbox_square-blue" style="position: relative;">
-                                        @if(isset($denuncia) && !empty($denuncia['id']))
-                                          {!! Form::checkbox('_modulo', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '2') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
-                                        @else
-                                          {!! Form::checkbox('_modulo', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '2') ? ['class'=>'chkICheck', 'icheckjs checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
-                                        @endif
-                                      </div> Modulo
-                                    </label>
+                                @endcan
+                                @can('acceso.denuncia.modulo')
+                                  <div class="col-md-2">
+                                    <div class="checkbox icheck" style="margin-top: 5px">
+                                      <label class="">
+                                        <div class="icheckbox_square-blue" style="position: relative;">
+                                          @if(isset($denuncia) && !empty($denuncia['id']))
+                                            {!! Form::checkbox('_modulo', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '2') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
+                                          @else
+                                            {!! Form::checkbox('_modulo', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '2') ? ['class'=>'chkICheck', 'icheckjs checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
+                                          @endif
+                                        </div> Modulo
+                                      </label>
+                                    </div>
                                   </div>
-                                </div>
-                                <div class="col-md-3">
-                                  <div class="checkbox icheck" style="margin-top: 5px">
-                                    <label class="">
-                                      <div class="icheckbox_square-blue" style="position: relative;">
-                                        @if(isset($denuncia) && !empty($denuncia['id']))
-                                          {!! Form::checkbox('_fiscalia', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
-                                        @else
-                                          {!! Form::checkbox('_fiscalia', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
-                                        @endif
-                                      </div> Fiscalia
-                                    </label>
+                                @endcan
+                                @can('acceso.denuncia.fiscalia')
+                                  <div class="col-md-3">
+                                    <div class="checkbox icheck" style="margin-top: 5px">
+                                      <label class="">
+                                        <div class="icheckbox_square-blue" style="position: relative;">
+                                          @if(isset($denuncia) && !empty($denuncia['id']))
+                                            {!! Form::checkbox('_fiscalia', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
+                                          @else
+                                            {!! Form::checkbox('_fiscalia', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '3') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
+                                          @endif
+                                        </div> Fiscalia
+                                      </label>
+                                    </div>
                                   </div>
-                                </div>
-                                <div class="col-md-2">
-                                  <div class="checkbox icheck" style="margin-top: 5px">
-                                    <label class="">
-                                      <div class="icheckbox_square-blue" style="position: relative;">
-                                        @if(isset($denuncia) && !empty($denuncia['id']))
-                                          {!! Form::checkbox('_sau', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '4') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
-                                        @else
-                                          {!! Form::checkbox('_sau', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '4') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
-                                        @endif
-                                      </div> SAU
-                                    </label>
+                                @endcan
+                                @can('acceso.denuncia.sau')
+                                  <div class="col-md-2">
+                                    <div class="checkbox icheck" style="margin-top: 5px">
+                                      <label class="">
+                                        <div class="icheckbox_square-blue" style="position: relative;">
+                                          @if(isset($denuncia) && !empty($denuncia['id']))
+                                            {!! Form::checkbox('_sau', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '4') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
+                                          @else
+                                            {!! Form::checkbox('_sau', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '4') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
+                                          @endif
+                                        </div> SAU
+                                      </label>
+                                    </div>
                                   </div>
-                                </div>
-                                <div class="col-md-2">
-                                  <div class="checkbox icheck" style="margin-top: 5px">
-                                    <label class="">
-                                      <div class="icheckbox_square-blue" style="position: relative;">
-                                        @if(isset($denuncia) && !empty($denuncia['id']))
-                                          {!! Form::checkbox('_cem', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '5') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
-                                        @else
-                                          {!! Form::checkbox('_cem', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '5') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
-                                        @endif
-                                      </div> CEM
-                                    </label>
+                                @endcan
+                                @can('acceso.denuncia.cem')
+                                  <div class="col-md-2">
+                                    <div class="checkbox icheck" style="margin-top: 5px">
+                                      <label class="">
+                                        <div class="icheckbox_square-blue" style="position: relative;">
+                                          @if(isset($denuncia) && !empty($denuncia['id']))
+                                            {!! Form::checkbox('_cem', $denuncia->institucion, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '5') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'icheckjs chkICheck']) !!}
+                                          @else
+                                            {!! Form::checkbox('_cem', null, null, (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '5') ? ['class'=>'icheckjs chkICheck', 'checked'=>'checked'] : ['class'=>'chkICheck']) !!}
+                                          @endif
+                                        </div> CEM
+                                      </label>
+                                    </div>
                                   </div>
-                                </div>
+                                @endcan
                               </div>
                               <div class="comisaria" {{ (isset($denuncia->institucion) && !empty($denuncia->institucion) && $denuncia->institucion == '1') ? "style=display:initial" : "style=display:none" }} >
                                 {{ Form::select('tblcomisaria_id', $comisarias, null, array('class'=>'form-control input-sm'.($errors->has('tblcomisaria_id')?" is-invalid":""), 'placeholder'=>'Seleccione una Comisaria', 'style'=>'width: 100%')) }}
@@ -706,7 +726,7 @@
 
                             <br>
                             {{ Form::label('exp', 'Información Adicional', ['class' => 'lbldenh control-label']) }}
-                            <div class="form-group">
+                            {{-- <div class="form-group">
                               {{ Form::label('registro_file', 'Archivo de Registro:', ['class' => 'lbldens control-label']) }}
                               <div class="file-loading">
                                 <input id="registro_file" name="registro_file" type="file">
@@ -715,7 +735,7 @@
                                 <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> <a href="{{ url($denuncia->registro_file) }}" target="_blank">{{ explode("denuncia/",$denuncia->registro_file)[1] }}</a></span><br>
                               @endif
                               <span id="error-registro_file" class="invalid-feedback"></span>
-                            </div>
+                            </div> --}}
                             <div class="form-group has-feedback {{ $errors->has('observacion')? 'has-error':'' }}">
                               {{ Form::label('observacion', 'Observaciones:', ['class' => 'lbldens control-label']) }}
                               <div class="input-group">

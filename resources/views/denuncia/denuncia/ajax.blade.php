@@ -126,11 +126,11 @@
           <td class="middle modContent">
             @can('denuncia.file')
               @if ($denuncia->registro)
-                <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->registro_file) }}',1,{{ $denuncia->id }})" title="Ver o Modificar Archivo de Registro Policial">
+                <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->registro_file) }}',1,{{ $denuncia->id }},'Registro Policial')" title="Ver o Modificar Archivo de Registro Policial">
                   <i style="margin-right: 2px" class="fa fa-folder"></i>
                 </button>
               @else
-                <button class="btn btn-xs btn-outline-info" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }})" title="Subir Archivo de Registro Policial">
+                <button class="btn btn-xs btn-outline-info" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }},'Registro Policial')" title="Subir Archivo de Registro Policial">
                   <i style="margin-right: 2px" class="fa fa-upload"></i>
                 </button>
               @endif
@@ -147,11 +147,11 @@
           <td class="middle modContent">
             @can('denuncia.filecem')
               @if ($denuncia->cem)
-                <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->cem_file) }}',1,{{ $denuncia->id }})" title="Ver o Modificar Informe CEM">
+                <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->cem_file) }}',1,{{ $denuncia->id }},'Informe CEM')" title="Ver o Modificar Informe CEM">
                   <i style="margin-right: 2px" class="fa fa-folder"></i>
                 </button>
               @else
-                <button class="btn btn-xs btn-outline-info" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }})" title="Subir Informe CEM">
+                <button class="btn btn-xs btn-outline-info" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }},'Informe CEM')" title="Subir Informe CEM">
                   <i style="margin-right: 2px" class="fa fa-upload"></i>
                 </button>
               @endif
@@ -168,11 +168,11 @@
           <td class="middle modContent">
             @can('denuncia.fileml')
               @if ($denuncia->medicina)
-                <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->registro_file) }}',1,{{ $denuncia->id }})" title="Ver o Modificar Informe de Medicina Legal">
+                <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->registro_file) }}',1,{{ $denuncia->id }},'Informe de Medicina')" title="Ver o Modificar Informe de Medicina Legal">
                   <i style="margin-right: 2px" class="fa fa-folder"></i>
                 </button>
               @else
-                <button class="btn btn-xs btn-outline-info" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }})" title="Subir Informe de Medicina Legal">
+                <button class="btn btn-xs btn-outline-info" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }},'Informe de Medicina')" title="Subir Informe de Medicina Legal">
                   <i style="margin-right: 2px" class="fa fa-upload"></i>
                 </button>
               @endif

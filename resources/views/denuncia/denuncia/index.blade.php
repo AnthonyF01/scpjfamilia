@@ -203,6 +203,16 @@
                   </div>
                 </div>
               </div>
+
+              <div class="form-group has-feedback ">
+                <div class="row">
+                  <label for="dni" class="col-sm-4 control-label" style="line-height:30px">DNI:</label>
+                  <div class="col-sm-8">
+                    <select id="selectVictima" class="form-control" name="selectVictima"></select>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div><br>
 
