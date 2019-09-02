@@ -41,7 +41,7 @@
         </div> 
       </div>
     </div><br>
-    <table class="table table-striped table-hover table-cell">
+    <table class="table table-striped table-hover table-cell mdc-table">
       <thead>
         <tr>
           <th width="10px">#</th>
@@ -74,22 +74,22 @@
           <?php $counter=1; ?>
           @foreach($roles as $role)
             <tr>
-              <td class="middle">{{ $counter++ + ( $roles->perPage() * ( $roles->currentPage() - 1 ) ) }}</td>
-              <td class="middle">{{ $role->name }}</td>
-              <td class="middle">{{ $role->description }}</td>
+              <td class="middle" data-label="#">{{ $counter++ + ( $roles->perPage() * ( $roles->currentPage() - 1 ) ) }}</td>
+              <td class="middle" data-label="Rol">{{ $role->name }}</td>
+              <td class="middle" data-label="Descripción">{{ $role->description }}</td>
               {{-- @can('roles.show')
-                <td width="10px">
+              <td width="10px" data-label="Accion">
                   <!-- <a href="{{ route('roles.show', $role->id) }}" class="btn btn-xs btn-default">Ver</a> -->
                   <a href="javascript:ajaxLoad('{{ route('roles.show', $role->id) }}')" class="btn btn-xs btn-outline-info"><i class="fa fa-eye"></i></a>
                 </td>
               @endcan  --}}
               @can('roles.edit')
-                <td width="10px">
+              <td width="10px" data-label="Accion">
                   <a href="javascript:ajaxLoad('{{ route('roles.edit', $role->id) }}')" class="btn btn-xs btn-outline-warning"><i class="glyphicon glyphicon-edit"></i></a>
                 </td>
               @endcan 
               @can('roles.destroy')
-                <td width="10px">
+              <td width="10px"  data-label="Accion">
 
                   <input type="hidden" name="_method" value="delete"/>
                   <a class="btn btn-xs btn-outline-danger" href="javascript:if(confirm('¿Está seguro que desea eliminar este registro?')) ajaxDelete('{{ route('roles.destroy', $role->id) }}','{{csrf_token()}}')">

@@ -91,10 +91,10 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-6" style="border-right: 1px solid #ccc">
+            <div class="col-sm-6 col-xs-12" style="border-right: 1px solid #ccc">
               <div id="graficoMensual" style="min-width: 100%; max-width: 100%; height: auto; margin: 0 auto;"></div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 col-xs-12">
               <div id="graficoAnual" style="min-width: 100%; max-width: 100%; height: auto; margin: 0 auto;"></div>
             </div>
           </div>

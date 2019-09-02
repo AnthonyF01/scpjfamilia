@@ -39,7 +39,7 @@
         </div> 
       </div>
     </div><br>
-    <table class="table table-striped table-hover table-cell">
+    <table class="table table-striped table-hover table-cell mdc-table">
       <thead>
         <tr>
           <th width="10px">#</th>
@@ -90,14 +90,14 @@
           <?php $counter=1; ?>
           @foreach($victimas as $victima)
             <tr>
-              <td class="middle">{{ $counter++ + ( $victimas->perPage() * ( $victimas->currentPage() - 1 ) ) }}</td>
-              <td class="middle">{{ $victima->nombre }}</td>
-              <td class="middle">{{ $victima->apellido }}</td>
-              <td class="middle">{{ $victima->nro_doc }}</td>
-              <td class="middle">{{ $victima->tbltipo->nombre }}</td>
-              <td class="middle">{{ $victima->tbldepartamento->nombre }}</td>
+              <td class="middle" data-label="#">{{ $counter++ + ( $victimas->perPage() * ( $victimas->currentPage() - 1 ) ) }}</td>
+              <td class="middle" data-label="Nombre">{{ $victima->nombre }}</td>
+              <td class="middle" data-label="Apellido">{{ $victima->apellido }}</td>
+              <td class="middle" data-label="Documento">{{ $victima->nro_doc }}</td>
+              <td class="middle" data-label="Tipo">{{ $victima->tbltipo->nombre }}</td>
+              <td class="middle" data-label="Departamento">{{ $victima->tbldepartamento->nombre }}</td>
               {{-- @can('victima.show')
-                <td width="10px">
+                <td width="10px" data-label="Accion">
                   <!-- <a href="{{ route('victima.show', $victima->id) }}" class="btn btn-sm btn-default">Ver</a> -->
                   <a href="javascript:ajaxLoad('{{ route('victima.show', $victima->id) }}')" class="btn btn-xs btn-outline-info protip" data-pt-title="Mostrar" data-pt-scheme="info" data-pt-position="left" data-pt-size="small"><i class="fa fa-eye"></i></a>
                 </td>

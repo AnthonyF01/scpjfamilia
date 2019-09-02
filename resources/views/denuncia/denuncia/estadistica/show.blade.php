@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
   <style type="text/css">
 
     body {
       font-size: 12px;
       /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
-      font-family: 'Source Sans Pro',sans-serif;
+      font-family: 'Roboto', sans-serif;
     }
 
     /* table-cell */
@@ -469,10 +470,10 @@
   </div>
 
   <div id="footer">
-    <table width="100%" style="border-top: 2px solid; vertical-align: bottom; font-family: serif; font-size: 10pt; color: #000000; font-weight: bold; font-style: italic;">
+    <table width="100%" style="border-top: 2px solid; vertical-align: bottom; font-family: sans-serif; font-size: 10px; color: #000000; font-weight: 500;">
       <tr>
-        <td width="33%"><span style="font-weight: bold; font-style: italic;"><?php echo date("d/m/Y"); ?></span></td>
-        <td width="33%" align="center" style="font-weight: bold; font-style: italic;"><span class="page"></td>
+        <td width="33%"><span style="font-weight: 400;"><?php echo date("d/m/Y"); ?></span></td>
+        <td width="33%" align="center" style="font-weight: 400;"><span class="page"></td>
         <td width="33%" style="text-align: right; ">Reporte Ley Nº 30364</td>
       </tr>
     </table>
@@ -948,7 +949,8 @@
       {{-- <div class="div-table" style="margin-bottom: 20px;">
         <div class="div-cell cell-4 nplr" style="margin-left: 10px">
           <center><h4 class="headGraph color_bk">INGRESO DE DENUNCIAS LEY Nº 30364</h4></center>
-          <center><div><img style="" class="img3" src="{{ $splitImg[0] }}" height="230px" width="100%"></div></center>
+          <center><div><img style="" class="img3" src="
+            " height="230px" width="100%"></div></center>
           <center><h4 style="margin-top: 10px" class="headGraph color_bk">TIEMPOS DE TRÁMITE DE DENUNCIAS LEY Nº 30364</h4></center>
           <center><div><img style="" class="img3" src="{{ $splitImg[1] }}" height="230px" width="100%"></div></center>
         </div>

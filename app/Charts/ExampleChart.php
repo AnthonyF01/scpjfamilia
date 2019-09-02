@@ -66,8 +66,7 @@ class ExampleChart extends Chart
                 'labels' => [
                     'style' => [
                         'color' => $color,
-                        'fontWeight' => 'bold',
-                        'fontSize' => $size,
+                        'fontSize' => '14px',
                         'textTransform' => 'uppercase',
                     ]
                 ]
@@ -104,14 +103,14 @@ class ExampleChart extends Chart
                 ],
                 'plotOptions' => [
                     'series'=> [
-                        'color' => 'rgb(255,51,153)',
+                        'color' => 'rgb(0,166,216)',
                         'borderWidth'=> 0,
                         'dataLabels'=> [
                             'allowOverlap'=> $var,
                             'enabled'=> $var,
                             'style' => [
-                                'fontWeight' => 'bold',
-                                'fontSize' => '15px',
+                                'fontWeight' => '400',
+                                'fontSize' => '13px',
                                 'textTransform' => 'uppercase',
                             ]
                         ]
@@ -143,18 +142,19 @@ class ExampleChart extends Chart
             return $this->options([
                 'plotOptions' => [
                     'series'=> [
+                        'color' => 'rgb(0,166,216)',
                         'borderWidth'=> 0,
                         'dataLabels'=> [
                             'allowOverlap'=> $var,
                             'enabled'=> $var,
                             'style' => [
-                                'fontWeight' => 'bold',
-                                'fontSize' => '15px',
+                                'fontWeight' => '400',
+                                'fontSize' => '13px',
                                 'textTransform' => 'uppercase',
                             ]
                         ]
                     ]
-                ],
+                ]
             ]);
         }
     }

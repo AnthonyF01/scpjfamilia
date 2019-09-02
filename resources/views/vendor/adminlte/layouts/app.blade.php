@@ -47,7 +47,7 @@ desired effect
 
         {{-- @include('adminlte::layouts.partials.contentheader') --}}
 
-        <ol class="breadcrumb" style="padding: 15px 20px; margin: 0px;">
+        <ol class="breadcrumb" style="padding: 15px 20px; margin: 0px;border-bottom: 1px solid #d0d0d0;">
             <li>
                 <a href="{{ url('/home') }}"><i class="fa fa-home"></i> Inicio</a>
             </li>
@@ -57,7 +57,7 @@ desired effect
             </li>
         </ol>
 
-        <div style="box-shadow: inset 0 5px 10px -5px rgba(0,0,0,0.9);">
+        <div>
 
             <!-- Main content -->
             <section class="content">

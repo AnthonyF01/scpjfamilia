@@ -39,7 +39,7 @@
         </div> 
       </div>
     </div><br>
-    <table class="table table-striped table-hover table-cell">
+    <table class="table table-striped table-hover table-cell mdc-table">
       <thead>
         <tr>
           <th width="10px">#</th>
@@ -87,12 +87,12 @@
           <?php $counter=1; ?>
           @foreach($agresores as $agresor)
             <tr>
-              <td class="middle">{{ $counter++ + ( $agresores->perPage() * ( $agresores->currentPage() - 1 ) ) }}</td>
-              <td class="middle">{{ $agresor->nombre }}</td>
-              <td class="middle">{{ $agresor->apellido }}</td>
-              <td class="middle">{{ $agresor->nro_doc }}</td>
-              <td class="middle">{{ $agresor->sexo }}</td>
-              <td class="middle">{{ $agresor->tbldepartamento->nombre }}</td>
+              <td class="middle" data-label="#">{{ $counter++ + ( $agresores->perPage() * ( $agresores->currentPage() - 1 ) ) }}</td>
+              <td class="middle" data-label="Nombre">{{ $agresor->nombre }}</td>
+              <td class="middle" data-label="Apellido">{{ $agresor->apellido }}</td>
+              <td class="middle" data-label="Documento">{{ $agresor->nro_doc }}</td>
+              <td class="middle" data-label="Sexo">{{ $agresor->sexo }}</td>
+              <td class="middle" data-label="Departamento">{{ $agresor->tbldepartamento->nombre }}</td>
               {{-- @can('agresor.show')
                 <td width="10px">
                   <!-- <a href="{{ route('agresor.show', $agresor->id) }}" class="btn btn-sm btn-default">Ver</a> -->

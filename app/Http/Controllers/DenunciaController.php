@@ -1920,8 +1920,8 @@ class DenunciaController extends Controller
                 $chartV->labels($valoracionDenArr['keys']);
                 $chartV->dataset('Total', 'column', $valoracionDenArr['values'])
                         ->options([
-                            'color' => 'rgb(110,255,51)',
-                            'fontSize' => '15px',
+                            'color' => 'rgb(100,136,234)',
+                            'fontSize' => '13px',
                         ]);
 
                 //  Tipos de Medida de Protección de Denuncias
@@ -1980,8 +1980,8 @@ class DenunciaController extends Controller
                 $chartMPC->labels($_medidaDenArr['keys']);
                 $chartMPC->dataset('Total', 'column', $_medidaDenArr['values'])
                          ->options([
-                            'color' => 'rgb(255,51,153)',
-                            'fontSize' => '20px',
+                            'color' => 'rgb(0,166,216)',
+                            'fontSize' => '15px',
                          ]);
 
                 //  Distribución de carga por dependencias (comisarias e instituciones)
@@ -2060,7 +2060,7 @@ class DenunciaController extends Controller
                 $chartCDN->labels($calificacionDenArr['keys']);
                 $chartCDN->dataset('Total', 'pie', $calificacionDenArr['values'])
                         ->options([
-                            'color' => ['rgb(255,51,153)','rgb(203,0,0)'],
+                            'color' => ['rgb(0,166,216)','rgb(203,0,0)'],
                         ]);
 
                 // Audiencias Judiciales
@@ -2486,8 +2486,9 @@ class DenunciaController extends Controller
                 $chartCID->labels($ingresoArr['keys']);
                 $chartCID->dataset('Total', 'line', $ingresoArr['values']);
 
-                // Tiempos de tramites de denuncias - Tiempo de celeridad
-                $sqlTTC = "SELECT distinct mes, sum(a.duracion) as suma, avg(a.duracion) as promedio from (
+                // TTD - Tiempo de celeridad
+                $sqlTTC = "SELECT distinct mes, sum(a.duracion) as suma, avg(case when
+                a.duracion <> 0 then a.duracion else null end) as promedio from (
                         select extract(month FROM d.fformalizacion) as mes, (case
                         when d.fdenuncia is not NULL then
                             case
@@ -2518,13 +2519,13 @@ class DenunciaController extends Controller
 
                 $celeridadArr = [];
                 $heightTTCArr = [];
-
                 for ($i=0; $i < count($meses); $i++) {
                     if (count($celeridad) > 0) {
                         $_aux = 0;
                         for ($j=0; $j < count($celeridad); $j++) {
                             if ($meses[$i] == $celeridad[$j]->mes) {
                                 $_total = $celeridad[$j]->promedio;
+
                                 $_aux = 1;
                                 $j = count($celeridad);
                             }
@@ -2544,13 +2545,13 @@ class DenunciaController extends Controller
                 }
 
                 $maxHeightTTC = max($heightTTCArr)*1.1;
-
+                // ttdl chart
                 $chartTTC = new ExampleChart;
                 $chartTTC->legendStyle(true)->displayYAxes(false)->heightYAxis($maxHeightTTC)->displayXAxes(true,'black','15px')->displayLegend(false)->plotOpt(true, 'column');
                 $chartTTC->labels($celeridadArr['keys']);
                 $chartTTC->dataset('Total', 'column', $celeridadArr['values'])
                          ->options([
-                            'color' => 'rgb(255,51,153)',
+                            'color' => 'rgb(192,209,249)',
                             'fontSize' => '20px',
                          ]);
 

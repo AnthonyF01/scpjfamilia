@@ -39,7 +39,7 @@
         </div>
       </div>
     </div><br>
-    <table class="table table-striped table-hover table-cell">
+    <table class="table table-striped table-hover table-cell mdc-table">
       <thead>
         <tr>
           <th width="10px">#</th>
@@ -84,16 +84,16 @@
           <?php $counter=1; ?>
           @foreach($users as $user)
             <tr>
-              <td class="middle">{{ $counter++ + ( $users->perPage() * ( $users->currentPage() - 1 ) ) }}</td>
-              <td class="middle">{{ $user->nombre }}</td>
-              <td class="middle">{{ $user->email }}</td>
-              <td class="middle">{{ $user->fono }}</td>
-              <td class="middle">{{ $user->name }}</td>
+              <td class="middle" data-label="#">{{ $counter++ + ( $users->perPage() * ( $users->currentPage() - 1 ) ) }}</td>
+              <td class="middle" data-label="Nombre">{{ $user->nombre }}</td>
+              <td class="middle" data-label="Email">{{ $user->email }}</td>
+              <td class="middle" data-label="Telefono">{{ $user->fono }}</td>
+              <td class="middle" data-label="Usuario">{{ $user->name }}</td>
               {{-- @can('users.show')
-                <td width="10px">
+              <td width="10px" data-label="Accion">
                   <!-- <a href="{{ route('users.show', $user->id) }}" class="btn btn-sm btn-default">Ver</a> -->
                   <a href="javascript:ajaxLoad('{{ route('users.show', $user->id) }}')" class="btn btn-xs btn-outline-info protip" data-pt-title="Mostrar" data-pt-scheme="info" data-pt-position="left" data-pt-size="small"><i class="fa fa-eye"></i></a>
-                </td>
+              </td>
               @endcan --}}
               <td width="10px">
                 @if (!empty($user->lat)&&!empty($user->lng))

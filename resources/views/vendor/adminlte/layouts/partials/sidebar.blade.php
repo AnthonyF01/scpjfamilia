@@ -72,7 +72,7 @@
                                 <li class="@yield('victima')"><a href="{{ route('victima.index') }}"><i class="fa fa-user"></i> Victimas</a></li>
                             @endcan
                             @can ('agresor.index')
-                                <li class="@yield('agresor')"><a href="{{ route('agresor.index') }}"><img style="height: 14px;margin-right: 6px;" src="{{ asset('/assests/img/icons/human-skull.png') }}"> Agresores</a></li>
+                                <li class="@yield('agresor')"><a href="{{ route('agresor.index') }}"><img style="height: 14px;margin-right: 6px;" src="{{ asset('/assests/img/icons/human-skull-o.png') }}"> Agresores</a></li>
                             @endcan
                         </ul>
                     </li>

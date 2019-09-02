@@ -1011,14 +1011,24 @@ $(document).on('click','.fileinput-remove-button',function (event) {
 function makeChartAnual(json) {
     if (typeof json.anio !== 'undefined') {
         var objectJSON = json;
+        // objectJSON.sort(function(a, b){
+        //     if(a > b){
+
+        //     }
+        // });
         var maxHeight = Math.max.apply(Math,objectJSON.maxHeight);
+        var x = json.json;
+        x.sort(function(a, b){
+            {return a.y - b.y}
+        });
         graficoAnual = new Highcharts.Chart({
             chart: {
                 renderTo: 'graficoAnual',
                 type: 'column'
             },
             title: {
-                text: 'Carga por Juzgados Año ' + objectJSON.anio
+                text: 'Carga por Juzgados Año ' + objectJSON.anio,
+                style: {"fontFamily":"Roboto", "fontSize":"16px", "fontWeight":"500"}
             },
             xAxis: {
                 type: 'category'
@@ -1033,7 +1043,6 @@ function makeChartAnual(json) {
                     text: 'DENUNCIAS'
                 },
                 visible: false
-
             },
             legend: {
                 enabled: false
@@ -1048,7 +1057,14 @@ function makeChartAnual(json) {
                         enabled: true,
                         format: '{point.y}'
                     }
-                }
+                },
+                column:{ dataLabels: {
+                    style:{
+                        fontSize: '13px',
+                        fontFamily: 'Roboto',
+                        fontWeight: '400'
+                    }
+                }}
             },
 
             tooltip: {
@@ -1060,9 +1076,9 @@ function makeChartAnual(json) {
                 {
                     "name": "Juzgado",
                     "colorByPoint": true,
-                    "data": objectJSON.json,
+                    "data": x,
                 },
-            ],
+            ]
         });
     }else{
         alert('undefined');
@@ -1075,6 +1091,10 @@ function makeChartMensual(json) {
     var objectJSON = json;
     console.log(objectJSON.json);
     // alert(Math.max.apply(Math,objectJSON.maxHeight));
+    var x = json.json;
+    x.sort(function(a, b){
+            {return a.y - b.y}
+    });
     var maxHeight = Math.max.apply(Math,objectJSON.maxHeight);
     graficoMensual = new Highcharts.Chart({
         chart: {
@@ -1082,7 +1102,8 @@ function makeChartMensual(json) {
             type: 'column'
         },
         title: {
-            text: 'Carga por Juzgados Mes ' + meses[objectJSON.mes-1]
+            text: 'Carga por Juzgados Mes ' + meses[objectJSON.mes-1],
+            style: {"fontFamily":"Roboto", "fontSize":"16px", "fontWeight":"500"}
         },
         // subtitle: {
         //     text: 'Click para ver Especialistas'
@@ -1114,11 +1135,18 @@ function makeChartMensual(json) {
                     enabled: true,
                     format: '{point.y}'
                 }
-            }
+            },
+                column:{ dataLabels: {
+                    style:{
+                        fontSize: '13px',
+                        fontFamily: 'Roboto',
+                        fontWeight: '400'
+                    }
+            }}
         },
 
         tooltip: {
-            headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+            headerFormat: '<span style="font-size:11px,font-family:roboto,font-weigth: 400;">{series.name}</span><br>',
             pointFormat: '<span style="color:{point.color}">{point.nombre}</span>: <b>{point.y}</b><br/>'
         },
 
@@ -1126,7 +1154,7 @@ function makeChartMensual(json) {
         {
             "name": "Juzgado",
             "colorByPoint": true,
-            "data": objectJSON.json
+            "data": x
         },
         //  grafico circular mensual
         // {

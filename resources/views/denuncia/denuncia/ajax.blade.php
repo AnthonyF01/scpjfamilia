@@ -1,4 +1,4 @@
-<table class="table table-striped table-hover table-cell table-lg" style="font-size: 11px !important;">
+<table class="table table-striped table-hover table-cell table-lg mdc-table" style="font-size: 11px !important;">
   <thead>
     <tr>
       <th class="header" width="10px"></th>
@@ -121,9 +121,9 @@
       <?php $counter=1; ?>
       @foreach($denuncias as $denuncia)
         <tr>
-          <td class="middle details-control" data-toggle="1" onclick="showDetalis(this)" style="padding-left: 15px; padding-right: 15px"></td>
+          <td class="middle details-control" data-toggle="1" onclick="showDetalis(this)" style="padding-left: 15px; padding-right: 15px" data-label="Ver detalles"></td>
           {{-- <td class="middle">{{ $counter++ + ( $denuncias->perPage() * ( $denuncias->currentPage() - 1 ) ) }}</td> --}}
-          <td class="middle modContent">
+          <td class="middle modContent" data-label="Subir archivo de registro policial">
             @can('denuncia.file')
               @if ($denuncia->registro)
                 <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->registro_file) }}',1,{{ $denuncia->id }},'Registro Policial')" title="Ver o Modificar Archivo de Registro Policial">
@@ -144,7 +144,7 @@
             @endcan
           </td>
 
-          <td class="middle modContent">
+          <td class="middle modContent" data-label="Informe CEM">
             @can('denuncia.filecem')
               @if ($denuncia->cem)
                 <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->cem_file) }}',1,{{ $denuncia->id }},'Informe CEM')" title="Ver o Modificar Informe CEM">
@@ -165,7 +165,7 @@
             @endcan
           </td>
           
-          <td class="middle modContent">
+          <td class="middle modContent" data-label="Informe Medicina Legal">
             @can('denuncia.fileml')
               @if ($denuncia->medicina)
                 <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->registro_file) }}',1,{{ $denuncia->id }},'Informe de Medicina')" title="Ver o Modificar Informe de Medicina Legal">
@@ -186,109 +186,109 @@
             @endcan
           </td>
           
-          <td class="middle">{{ $denuncia->fformalizacion }}</td>
+          <td class="middle" data-label="Fecha de Formalización">{{ $denuncia->fformalizacion }}</td>
 
-          {{-- <td class="middle"><small class="label bg-green">{{ $denuncia->dform }}</small></td> --}}
+          {{-- <td class="middle" data-label="Dias de Formalización"><small class="label bg-green">{{ $denuncia->dform }}</small></td> --}}
           @if ($denuncia->dform >= 0)
             @if (isset($denuncia->fformalizacion) && !empty($denuncia->fformalizacion))
-              <td class="middle"><small class="label bg-green">{{ $denuncia->dform }}</small></td>
+              <td class="middle" data-label="Dias de Formalización"><small class="label bg-green">{{ $denuncia->dform }}</small></td>
             @else
-              <td class="middle" title="Fecha Formalización no está registrado"><small class="label bg-red">{{ $denuncia->dform }}</small></td>
+              <td class="middle" title="Fecha Formalización no está registrado" data-label="Dias de Formalización"><small class="label bg-red">{{ $denuncia->dform }}</small></td>
             @endif
           @else
             @if ($denuncia->dform == -1 && empty($denuncia->fdenuncia))
-              <td class="middle" title="Fecha Denuncia no está registrado"><small class="label bg-red">SFI</small></td>
+              <td class="middle" title="Fecha Denuncia no está registrado" data-label="Dias de Formalización"><small class="label bg-red">SFI</small></td>
             @else
               @if ($denuncia->dform <= -1 && !empty($denuncia->fdenuncia)))
-                <td class="middle" title="Fecha Denuncia es mayor que Fecha Formalización"><small class="label bg-red">{{ $denuncia->dform }}</small></td>
+                <td class="middle" title="Fecha Denuncia es mayor que Fecha Formalización" data-label="Dias de Formalización"><small class="label bg-red">{{ $denuncia->dform }}</small></td>
               @endif
             @endif
           @endif
 
-          <td class="middle">{{ substr($denuncia->expediente,0,-19) }}</td>
-          <td class="middle" title="{{ $denuncia->tblinstancia ? $denuncia->tblinstancia->nombre : ''}}">{{ $denuncia->tblinstancia ? $denuncia->tblinstancia->sigla : ''}}</td>
-          <td class="middle">{{ (isset($denuncia->faudiencia) && !empty($denuncia->faudiencia)) ? $denuncia->faudiencia : '-' }}</td>
+          <td class="middle" data-label="Numero">{{ substr($denuncia->expediente,0,-19) }}</td>
+          <td class="middle" title="{{ $denuncia->tblinstancia ? $denuncia->tblinstancia->nombre : ''}}" data-label="Instancia">{{ $denuncia->tblinstancia ? $denuncia->tblinstancia->sigla : ''}}</td>
+          <td class="middle" data-label="Fecha de Audiencia">{{ (isset($denuncia->faudiencia) && !empty($denuncia->faudiencia)) ? $denuncia->faudiencia : '-' }}</td>
 
-          {{-- <td class="middle">{{ $denuncia->daud }}</td> --}}
+          {{-- <td class="middle" data-label="Dias de audiencia">{{ $denuncia->daud }}</td> --}}
           @if ($denuncia->daud >= 0)
             @if (isset($denuncia->faudiencia) && !empty($denuncia->faudiencia))
-              <td class="middle"><small class="label bg-green">{{ $denuncia->daud }}</small></td>
+              <td class="middle" data-label="Dias de audiencia"><small class="label bg-green">{{ $denuncia->daud }}</small></td>
             @else
-              <td class="middle" title="Fecha Audiencia no está registrado"><small class="label bg-red">{{ $denuncia->daud }}</small></td>
+              <td class="middle" title="Fecha Audiencia no está registrado" data-label="Dias de audiencia"><small class="label bg-red">{{ $denuncia->daud }}</small></td>
             @endif
           @else
             @if ($denuncia->daud == -1 && empty($denuncia->fformalizacion))
-              <td class="middle" title="Fecha Formalización no está registrado"><small class="label bg-red">SFI</small></td>
+              <td class="middle" title="Fecha Formalización no está registrado" data-label="Dias de audiencia"><small class="label bg-red">SFI</small></td>
             @else
               @if ($denuncia->daud <= -1 && !empty($denuncia->fformalizacion)))
-                <td class="middle" title="Fecha Formalización es mayor que Fecha Audiencia"><small class="label bg-red">{{ $denuncia->daud }}</small></td>
+                <td class="middle" title="Fecha Formalización es mayor que Fecha Audiencia" data-label="Dias de audiencia"><small class="label bg-red">{{ $denuncia->daud }}</small></td>
               @endif
             @endif
           @endif
 
-          <td class="middle">{{ $denuncia->total1 }}</td>
+          <td class="middle" data-label="Total 1">{{ $denuncia->total1 }}</td>
 
-          <td class="middle">{{ (isset($denuncia->remitido) && !empty($denuncia->remitido)) ? $denuncia->remitido : '-' }}</td>
+          <td class="middle" data-label="Lugar">{{ (isset($denuncia->remitido) && !empty($denuncia->remitido)) ? $denuncia->remitido : '-' }}</td>
 
-          {{-- <td class="middle">{{ $denuncia->drem }}</td> --}}
+          {{-- <td class="middle" data-label="Dias de remision">{{ $denuncia->drem }}</td> --}}
           @if ($denuncia->drem >= 0)
             @if (isset($denuncia->fremision) && !empty($denuncia->fremision))
-              <td class="middle"><small class="label bg-green">{{ $denuncia->drem }}</small></td>
+              <td class="middle" data-label="Dias de remision"><small class="label bg-green">{{ $denuncia->drem }}</small></td>
             @else
-              <td class="middle" title="Fecha Remisión no está registrado"><small class="label bg-red">{{ $denuncia->drem }}</small></td>
+              <td class="middle" title="Fecha Remisión no está registrado" data-label="Dias de remision"><small class="label bg-red">{{ $denuncia->drem }}</small></td>
             @endif
           @else
             @if ($denuncia->drem == -1 && empty($denuncia->faudiencia))
-              <td class="middle" title="Fecha Audiencia no está registrado"><small class="label bg-red">SFI</small></td>
+              <td class="middle" title="Fecha Audiencia no está registrado"><small class="label bg-red" data-label="Dias de remision">SFI</small></td>
             @else
               @if ($denuncia->drem <= -1 && !empty($denuncia->faudiencia)))
-                <td class="middle" title="Fecha Audiencia es mayor que Fecha Remisión"><small class="label bg-red">{{ $denuncia->drem }}</small></td>
+                <td class="middle" title="Fecha Audiencia es mayor que Fecha Remisión" data-label="Dias de remision"><small class="label bg-red">{{ $denuncia->drem }}</small></td>
               @endif
             @endif
           @endif
 
-          <td class="middle">{{ (isset($denuncia->fremisiond) && !empty($denuncia->fremisiond)) ? $denuncia->fremisiond : '-' }}</td>
+          <td class="middle" data-label="Fecha de denuncia">{{ (isset($denuncia->fremisiond) && !empty($denuncia->fremisiond)) ? $denuncia->fremisiond : '-' }}</td>
 
-          {{-- <td class="middle">{{ $denuncia->dden }}</td> --}}
+          {{-- <td class="middle" data-label="Dias de denuncia">{{ $denuncia->dden }}</td> --}}
           @if ($denuncia->dden >= 0)
             @if (isset($denuncia->fremisiond) && !empty($denuncia->fremisiond))
-              <td class="middle"><small class="label bg-green">{{ $denuncia->dden }}</small></td>
+              <td class="middle" data-label="Dias de denuncia"><small class="label bg-green">{{ $denuncia->dden }}</small></td>
             @else
-              <td class="middle" title="Fecha Remisión Denuncia no está registrado"><small class="label bg-red">{{ $denuncia->dden }}</small></td>
+              <td class="middle" title="Fecha Remisión Denuncia no está registrado" data-label="Dias de denuncia"><small class="label bg-red">{{ $denuncia->dden }}</small></td>
             @endif
           @else
             @if ($denuncia->dden == -1 && empty($denuncia->fremision))
-              <td class="middle" title="Fecha Remisión no está registrado"><small class="label bg-red">SFI</small></td>
+              <td class="middle" title="Fecha Remisión no está registrado" data-label="Dias de denuncia"><small class="label bg-red">SFI</small></td>
             @else
               @if ($denuncia->dden <= -1 && !empty($denuncia->fremision)))
-                <td class="middle" title="Fecha Remisión es mayor que Fecha Remisión Denuncia"><small class="label bg-red">{{ $denuncia->dden }}</small></td>
+                <td class="middle" title="Fecha Remisión es mayor que Fecha Remisión Denuncia" data-label="Dias de denuncia"><small class="label bg-red">{{ $denuncia->dden }}</small></td>
               @endif
             @endif
           @endif
 
-          <td class="middle">{{ $denuncia->total2 }}</td>
+          <td class="middle" data-label="Total 2">{{ $denuncia->total2 }}</td>
 
-          <td class="middle">{{ (isset($denuncia->fremisionj) && !empty($denuncia->fremisionj)) ? $denuncia->fremisionj : '-' }}</td>
+          <td class="middle" data-label="Fecha Juzgado">{{ (isset($denuncia->fremisionj) && !empty($denuncia->fremisionj)) ? $denuncia->fremisionj : '-' }}</td>
 
-          {{-- <td class="middle">{{ $denuncia->djuz }}</td> --}}
+          {{-- <td class="middle" data-label="Dias Juzgado">{{ $denuncia->djuz }}</td> --}}
           @if ($denuncia->djuz >= 0)
             @if (isset($denuncia->fremisionj) && !empty($denuncia->fremisionj))
-              <td class="middle"><small class="label bg-green">{{ $denuncia->djuz }}</small></td>
+              <td class="middle" data-label="Dias Juzgado"><small class="label bg-green">{{ $denuncia->djuz }}</small></td>
             @else
-              <td class="middle" title="Fecha Remisión Juzgado no está registrado"><small class="label bg-red">{{ $denuncia->djuz }}</small></td>
+              <td class="middle" title="Fecha Remisión Juzgado no está registrado" data-label="Dias Juzgado"><small class="label bg-red">{{ $denuncia->djuz }}</small></td>
             @endif
           @else
             @if ($denuncia->djuz == -1 && empty($denuncia->fremisiond))
-              <td class="middle" title="Fecha Remisión Denuncia no está registrado"><small class="label bg-red">SFI</small></td>
+              <td class="middle" title="Fecha Remisión Denuncia no está registrado" data-label="Dias Juzgado"><small class="label bg-red">SFI</small></td>
             @else
               @if ($denuncia->djuz <= -1 && !empty($denuncia->fremisiond)))
-                <td class="middle" title="Fecha Remisión Denuncia es mayor que Fecha Remisión Juzgado"><small class="label bg-red">{{ $denuncia->djuz }}</small></td>
+                <td class="middle" title="Fecha Remisión Denuncia es mayor que Fecha Remisión Juzgado" data-label="Dias Juzgado"><small class="label bg-red">{{ $denuncia->djuz }}</small></td>
               @endif
             @endif
           @endif
 
-          <td class="middle">{{ $denuncia->total }}</td>
-          <td style="text-align: center; padding: 8px 4px;">
+          <td class="middle" data-label="Total">{{ $denuncia->total }}</td>
+          <td style="text-align: center; padding: 8px 4px;" data-label="Acciones">
             @if (isset($denuncia->medida_file) && !empty($denuncia->medida_file))
               <a title="Descargar Medida de Protección" href="{{ $denuncia->medida_file }}" target="_blank" class="btn btn-xs btn-outline-primary"><i class="fa fa-download"></i></a>
             @else

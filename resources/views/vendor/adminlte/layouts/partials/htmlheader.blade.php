@@ -141,6 +141,8 @@
 
     {{-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic"> --}}
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+
     <link href="{{ asset('/assests/icon/themify-icons/themify-icons.css') }}" rel="stylesheet">
 
     <!-- <link href="{{ asset('/assests/css/adminLTE_bt4fix.css') }}" rel="stylesheet" type="text/css" /> -->
@@ -161,7 +163,9 @@
 
     <link href="{{ asset('/assests/css/main.css') }}" rel="stylesheet" type="text/css" />
 
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/prototype1.css') }}">
 
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/prototype2.css') }}">
 
     <!-- <script>
         //See https://laracasts.com/discuss/channels/vue/use-trans-in-vuejs

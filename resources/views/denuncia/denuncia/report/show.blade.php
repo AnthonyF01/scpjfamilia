@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
   <style type="text/css">
 
     body {
       font-size: 12px;
       /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
-      font-family: serif;
+      font-family: "Roboto";
     }
 
     table.table-cell{
@@ -239,7 +240,7 @@
     </table>
   </div>
   <div id="footer">
-    <table width="100%" style="border-top: 2px solid; vertical-align: bottom; font-family: serif; font-size: 10pt; color: #000000; font-weight: bold; font-style: italic;">
+    <table width="100%" style="border-top: 2px solid; vertical-align: bottom; font-family: roboto; font-size: 10pt; color: #000000; font-weight: bold; font-style: italic;">
       <tr>
         <td width="33%"><span style="font-weight: bold; font-style: italic;"><?php echo date("d/m/Y"); ?></span></td>
         <td width="33%" align="center" style="font-weight: bold; font-style: italic;"><span class="page"></td>

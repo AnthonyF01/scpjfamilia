@@ -856,7 +856,7 @@
                       </span>
                     </div>
                     <div class="panel-body">
-                      <table class="table table-cell">
+                      <table class="table table-cell mdc-table">
                         <thead>
                           <tr>
                             <th colspan="6" rowspan="2" class="header v-align">FASE I</th>
@@ -953,7 +953,7 @@
                     </div>
                     <div class="panel-body">
                       <div class="table-responsive">
-                        <table class="table table-cell">
+                        <table class="table table-cell mdc-table">
                           <thead>
                             <tr>
                               <th colspan="2" class="header v-align">CEM</th>
@@ -1190,6 +1190,10 @@
           if (typeof json.anio !== 'undefined') {
               var objectJSON = json;
               var maxHeight = Math.max.apply(Math,objectJSON.maxHeight);
+              var x = json.json;
+              x.sort(function(a, b){
+                  {return a.y - b.y}
+              });
               graficoAnual = new Highcharts.Chart({
                   chart: {
                       renderTo: graficoID,
@@ -1227,19 +1231,26 @@
                               enabled: true,
                               format: '{point.y}'
                           }
-                      }
+                      },
+                      column:{ dataLabels: {
+                          style:{
+                              fontSize: '13px',
+                              fontFamily: 'Roboto',
+                              fontWeight: '400'
+                          }
+                      }}
                   },
 
                   tooltip: {
-                      headerFormat: '<span style="font-size:11px;font-weight:bold;">{series.name}</span><br>',
-                      pointFormat: '<span style="color:{point.color}">{point.nombre}</span>: <b>{point.y}</b><br/>'
+                      headerFormat: '<span style="font-size:11px;">{series.name}</span><br>',
+                      pointFormat: '<span style="color:{point.color}">{point.nombre}</span>:{point.y}<br/>'
                   },
 
                   "series": [
                       {
                           "name": graficoID== 'graficoAnualMedida' ?  "Medida de Protección" : "Comisaría o Institución",
                           "colorByPoint": true,
-                          "data": objectJSON.json,
+                          "data": x,
                       },
                   ],
               });
@@ -1247,7 +1258,7 @@
               alert('undefined');
           }
       }
-
+      console.log(json);
       var ttr = '{{ (isset($ttramite) && !empty($ttramite)) ? $ttramite : '' }}';
       var ttrarr = ttr.split(',&quot;b&quot;:');
       ttrarr[0] = ttrarr[0].replace('{&quot;a&quot;:', '');
@@ -1261,16 +1272,12 @@
       for(i=0;i<ttr1.length;i++) { if(ttr1[i]=='null'){ ttr1[i] = null; }else{ ttr1[i] = parseFloat(ttr1[i]); } }
       for(i=0;i<ttr2.length;i++) { if(ttr2[i]=='null'){ ttr2[i] = null; }else{ ttr2[i] = parseFloat(ttr2[i]); } }
 
+      console.log(ttr1);
+      console.log(ttr2);
+
       ttramite = new Highcharts.Chart({
           chart: {
               renderTo: 'ttramite',
-              // backgroundColor: {
-              //     linearGradient: [0, 0, 500, 500],
-              //     stops: [
-              //         [0, 'rgb(255, 255, 255)'],
-              //         [1, '#bbb']
-              //     ]
-              // },
               type: 'column'
           },
 
@@ -1291,14 +1298,11 @@
           xAxis: {
               // categories: ['Apples', 'Oranges', 'Pears', 'Grapes', 'Bananas']
               categories: ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC'],
-              lineColor: 'transparent',
-              tickColor: 'transparent',
               labels : {
                 style : {
-                  color : '#000',
-                  fontWeight : 'bold',
-                  fontSize : '15px',
-                  textTransform : 'uppercase',
+                  fontFamily: 'Roboto',
+                  fontWeight : '400',
+                  fontSize : '13px'
                 }
               }
           },
@@ -1321,9 +1325,6 @@
           },
 
           plotOptions: {
-              column: {
-                  stacking: 'normal'
-              },
               series: {
                 pointWidth: 45,
                 borderWidth: 0,
@@ -1332,12 +1333,19 @@
                   enabled: true,
                   style: {
                     textOutline: false,
-                    fontWeight: 'bold',
-                    fontSize: '14px',
-                    color: '#fff',
-                    textTransform: 'uppercase',
+                    fontWeight: '400',
+                    fontSize: '13px',
                   }
                 }
+              },
+              column: {dataLabels: {
+                  style:{
+                        fontSize: '13px',
+                        fontFamily: 'Roboto',
+                        fontWeight: '400'
+                    }
+                  },
+                  stacking: 'normal'
               }
           },
 
@@ -1345,13 +1353,13 @@
               name: 'MVF',
               data: ttr2,
               // data: [null,null,null,null,16.25, 8, 6, 7.25, 9,null,null,null],
-              color: 'rgb(255, 51, 153)',
+              color: '#000',
               /* stack: 'male' */
           }, {
               name: 'PNP',
               // data: [null,null,null,null,14.25, 12, 16, 15.75, 15,null,null,null],
               data: ttr1,
-              color: 'rgb(0, 177, 71)',
+              color: '#000',
               /* stack: 'male' */
           }/*, {
               name: 'Jane',
