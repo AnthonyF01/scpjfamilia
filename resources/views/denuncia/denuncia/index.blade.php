@@ -36,8 +36,8 @@
 @section('main-content')
 
 <div class="container-fluid spark-screen">
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
 
       <div class="box_plus box_plus-default ">
         <div id="box_plus-title" class="box_plus-heading">
@@ -225,54 +225,54 @@
               <div class="modal-content">
                 <div class="col-xs-12 col-md-12 col-lg-12">
                     <div class="row">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true" class="fa fa-times-circle"></span>
-                              </button>
-                              <span id="span-title" style="font-size: 14px"></span>
-                            </div>
-                            <div class="panel-body">
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 hide" id="modal_message">
-                                      <div class="alert alert-warning">
-                                        <button type="button" class="close" onclick="$('div#modal_message').removeClass('show'); $('div#modal_message').addClass('hide');">
-                                          <span aria-hidden="true">×</span>
-                                        </button>
-                                        <div id="show_message"></div>
-                                      </div>
+                      <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true" class="fa fa-times-circle"></span>
+                            </button>
+                            <span id="span-title" style="font-size: 14px"></span>
+                          </div>
+                          <div class="panel-body">
+                              <div class="row">
+                                  <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 hide" id="modal_message">
+                                    <div class="alert alert-warning">
+                                      <button type="button" class="close" onclick="$('div#modal_message').removeClass('show'); $('div#modal_message').addClass('hide');">
+                                        <span aria-hidden="true">×</span>
+                                      </button>
+                                      <div id="show_message"></div>
                                     </div>
+                                  </div>
 
-                                    <div class="col-sm-12">
-                                        <form id="form-registro_file" onsubmit="return false;">
-                                            <div class="col-md-12 col-lg-12 col-xs-12">
-                                                {!! csrf_field() !!}
-                                                <div class="form-group">
-                                                    <label>Adjuntar Documento</label>
-                                                    <input type="file" name="registro_file" id="registro_file" class="form-control" accept=".pdf">
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-sm-12 col-xs-12">
-                                                        <div class="form-group hide" id="pdf-registro_file">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-sm-12">
-                                                        <button disabled="" id="button-registro_file" class="btn btn-sm">
-                                                        </button>
-                                                        <button type="reset" data-dismiss="modal" class="btn btn-danger pull-right btn-sm">
-                                                            <i style="color:white" class="glyphicon glyphicon-remove-sign"></i>
-                                                            Cerrar
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                  <div class="col-sm-12">
+                                      <form id="form-registro_file" onsubmit="return false;">
+                                          <div class="col-md-12 col-lg-12 col-xs-12">
+                                              {!! csrf_field() !!}
+                                              <div class="form-group">
+                                                  <label>Adjuntar Documento</label>
+                                                  <input type="file" name="registro_file" id="registro_file" class="form-control" accept=".pdf">
+                                              </div>
+                                              <div class="row">
+                                                  <div class="col-sm-12 col-xs-12">
+                                                      <div class="form-group hide" id="pdf-registro_file">
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="row">
+                                                  <div class="col-sm-12">
+                                                      <button disabled="" id="button-registro_file" class="btn btn-sm">
+                                                      </button>
+                                                      <button type="reset" data-dismiss="modal" class="btn btn-danger pull-right btn-sm">
+                                                          <i style="color:white" class="glyphicon glyphicon-remove-sign"></i>
+                                                          Cerrar
+                                                      </button>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </form>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
                     </div>
                 </div>
               </div>
@@ -282,8 +282,8 @@
         </div>
       </div>
 
-        </div>
     </div>
+  </div>
 </div>
 
 <div class="loading" style="display: none;">
