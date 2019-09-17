@@ -1510,15 +1510,15 @@
             return false;
           }
           if ($("#fremisiond").val()!='0') {
-            alert("La selección del Mes para Fase II no corresponde en la generación de gráficos anuale.");
+            alert("La selección del Mes para Fase II no corresponde en la generación de gráficos anuales.");
             return false;
           }
           if ($("#fjip").val()!='0') {
-            alert("La selección del Mes para Fase III Etapa 1 no corresponde en la generación de gráficos anuale.");
+            alert("La selección del Mes para Fase III Etapa 1 no corresponde en la generación de gráficos anuales.");
             return false;
           }
           if ($("#fremisionj").val()!='0') {
-            alert("La selección del Mes para Fase III Etapa2 no corresponde en la generación de gráficos anuale.");
+            alert("La selección del Mes para Fase III Etapa2 no corresponde en la generación de gráficos anuales.");
             return false;
           }
           event.currentTarget.submit();
@@ -1806,6 +1806,14 @@
     {{-- Ajustar los graficos --}}
     var chartCDN = '{{ ( isset($chartCDN->id) && !empty($chartCDN->id) ) ? $chartCDN->id : 0 }}';
     var chartVAR = '{{ ( isset($chartVAR->id) && !empty($chartVAR->id) ) ? $chartVAR->id : 0 }}';
+    /*$(".sidebar-toggle").on('click', function(){
+      if ((typeof chartCDN !== 'undefined' && chartCDN!= '0') && (typeof chartVAR !== 'undefined' && chartVAR != '0')) {
+        setTimeout(function () {
+          $('#'+chartCDN).highcharts().reflow();
+          $('#'+chartVAR).highcharts().reflow();
+        },200);
+      }
+    });*/
     /*$(".sidebar-toggle").on('click', function(){
       if ((typeof chartCDN !== 'undefined' && chartCDN!= '0') && (typeof chartVAR !== 'undefined' && chartVAR != '0')) {
         setTimeout(function () {
