@@ -959,7 +959,7 @@
 
       {{-- <div class="div-table" style="margin-bottom: 20px;">
         <div class="div-cell cell-6 nplr">
-          <center><h3 class="headGraph color_bk">Valoracion Denuncia</h3></center>
+          <center><h3 class="headGraph color_bk">Valoración Denuncia</h3></center>
           <center><div><img style="border: 1px solid #ccc" class="img3" src="{{ $splitImg[2] }}" height="auto" width="200px"></div></center>
         </div>
         <div class="div-cell cell-6 nplr">
