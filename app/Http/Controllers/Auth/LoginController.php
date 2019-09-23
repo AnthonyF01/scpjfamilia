@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use DB;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
@@ -31,7 +32,15 @@ class LoginController extends Controller
      */
     public function showLoginForm()
     {
-        return view('adminlte::auth.login');
+        $sql = "SELECT dp.nombre,COUNT(de.id) AS total, DATEDIFF(de.fformalizacion, de.fdenuncia) AS tramite 
+        FROM tbldepartamento AS dp 
+        LEFT OUTER JOIN tblcomisaria AS co ON dp.id = co.tbldepartamento_id 
+        LEFT OUTER JOIN denuncia AS de ON de.tblcomisaria_id = co.id 
+        GROUP BY dp.id";
+
+        $departamento = DB::select($sql);
+        return view('adminlte::auth.login', ['deps' => $departamento]);
+        //return view('adminlte::auth.login');
     }
 
     /**
@@ -58,7 +67,7 @@ class LoginController extends Controller
      */
     public function username()
     {
-        return config('auth.providers.users.field','email');
+        return config('auth.providers.users.field', 'email');
     }
 
     /**
@@ -70,7 +79,7 @@ class LoginController extends Controller
     protected function attemptLogin(Request $request)
     {
         if ($this->username() === 'email') return $this->attemptLoginAtAuthenticatesUsers($request);
-        if ( ! $this->attemptLoginAtAuthenticatesUsers($request)) {
+        if (!$this->attemptLoginAtAuthenticatesUsers($request)) {
             return $this->attempLoginUsingUsernameAsAnEmail($request);
         }
         return false;
@@ -86,8 +95,7 @@ class LoginController extends Controller
     {
         return $this->guard()->attempt(
             ['email' => $request->input('username'), 'password' => $request->input('password')],
-            $request->has('remember'));
+            $request->has('remember')
+        );
     }
-
-
 }
