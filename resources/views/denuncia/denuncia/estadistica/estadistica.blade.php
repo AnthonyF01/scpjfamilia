@@ -127,6 +127,13 @@
       line-height: 100px;
     }
 
+    .circle_2 {
+      width: 100px !important;
+      height: 100px !important;
+      font-size: 16px;
+      line-height: 100px;
+    }
+
     .pj {
       background-color: #951307;
     }
@@ -587,7 +594,7 @@
                           <h4 class="center" style="margin-bottom: 16px;">
                             <strong>Hijos de las víctimas</strong>
                           </h4>
-                          <div class="circle circle_1 center red color_bl">{{ $hHTotal }}</div>
+                          <div class="circle circle_2 center red color_bl">{{ $hHTotal }}</div>
                         @endif
                       </div>
                     </div>
@@ -1475,6 +1482,8 @@
       $("#"+chartCV).css('height','inherit');
       $("#"+chartPV).css('height','inherit');
 
+      //resize circle_2
+      resetTextSize();
     });
   </script>
 
@@ -1807,6 +1816,36 @@
             break;
         }
 
+    }
+
+    //function set_text_size
+    function resetTextSize(){
+      //circle_1
+      var length = $(".circle_1").text().length;
+      if (length > 9){
+        $(".circle_1").css("font-size", "14px");
+      }else if(length == 9){
+        $(".circle_1").css("font-size", "16px");
+      }else if(length == 8){
+        $(".circle_1").css("font-size", "19px");
+      }else if(length == 7){
+        $(".circle_1").css("font-size", "22px");
+      }else if(length <= 6){
+        $(".circle_1").css("font-size", "25px");
+      }
+      //circle_2
+      var length2 = $(".circle_2").text().length;
+      if (length2 > 9){
+        $(".circle_2").css("font-size", "14px");
+      }else if(length2 == 9){
+        $(".circle_2").css("font-size", "16px");
+      }else if(length2 == 8){
+        $(".circle_2").css("font-size", "19px");
+      }else if(length2 == 7){
+        $(".circle_2").css("font-size", "22px");
+      }else if(length2 <= 6){
+        $(".circle_2").css("font-size", "25px");
+      }
     }
   </script>
 

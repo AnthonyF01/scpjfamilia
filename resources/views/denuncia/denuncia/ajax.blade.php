@@ -32,13 +32,16 @@
       <th class="modHeader" width="10px"></th>
       {{-- <th class="modHeader" width="10px">#</th> --}}
       <th class="modHeader" width="10px" title="Archivo de Denuncia" style="text-align: center;">
-        <i style="margin-right: 2px" class="fa fa-file"></i>
+        PNP
+        {{-- <i style="margin-right: 2px" class="fa fa-file"></i> --}}
       </th>
       <th class="modHeader" width="10px" title="Informe CEM" style="text-align: center;">
-        <i style="margin-right: 2px" class="fa fa-file"></i>
+        CEM
+        {{-- <i style="margin-right: 2px" class="fa fa-file"></i> --}}
       </th>
       <th class="modHeader" width="10px" title="Informe Medicina Legal" style="text-align: center;">
-        <i style="margin-right: 2px" class="fa fa-file"></i>
+        IML  
+        {{-- <i style="margin-right: 2px" class="fa fa-file"></i> --}}
       </th>
 
       <th class="modHeader" title="Fecha de Formalizacion">
@@ -126,20 +129,20 @@
           <td class="middle modContent" data-label="Subir archivo de registro policial">
             @can('denuncia.file')
               @if ($denuncia->registro)
-                <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->registro_file) }}',1,{{ $denuncia->id }},'Registro Policial')" title="Ver o Modificar Archivo de Registro Policial">
+                <button class="btn btn-xs btn-outline-success" onclick="showDocumentoPolicial('{{ url($denuncia->registro_file) }}',1,{{ $denuncia->id }},'Registro Policial')" title="Ver o Modificar Archivo de Registro Policial">
                   <i style="margin-right: 2px" class="fa fa-folder"></i>
                 </button>
               @else
-                <button class="btn btn-xs btn-outline-info" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }},'Registro Policial')" title="Subir Archivo de Registro Policial">
+                <button class="btn btn-xs btn-outline-success" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }},'Registro Policial')" title="Subir Archivo de Registro Policial">
                   <i style="margin-right: 2px" class="fa fa-upload"></i>
                 </button>
               @endif
             @else
               {{-- <small class="label bg-red">SR</small> --}}
               @if (isset($denuncia->registro_file) && !empty($denuncia->registro_file))
-                <a title="Descargar Archivo de Registro Policial" href="{{ $denuncia->registro_file }}" target="_blank" class="btn btn-xs btn-outline-primary"><i class="fa fa-download"></i></a>
+                <a title="Descargar Archivo de Registro Policial" href="{{ $denuncia->registro_file }}" target="_blank" class="btn btn-xs btn-outline-success"><i class="fa fa-download"></i></a>
               @else
-                <a href="javascript:void(0)" disabled class="btn btn-xs btn-outline-primary"><i class="fa fa-file-o"></i></a>
+                <a href="javascript:void(0)" disabled class="btn btn-xs btn-outline-sucess" title="Ud. no tiene este permiso"><i class="fa fa-times"></i></a>
               @endif
             @endcan
           </td>
@@ -147,20 +150,20 @@
           <td class="middle modContent" data-label="Informe CEM">
             @can('denuncia.filecem')
               @if ($denuncia->cem)
-                <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->cem_file) }}',1,{{ $denuncia->id }},'Informe CEM')" title="Ver o Modificar Informe CEM">
+                <button class="btn btn-xs btn-outline-danger" onclick="showDocumentoPolicial('{{ url($denuncia->cem_file) }}',1,{{ $denuncia->id }},'Informe CEM')" title="Ver o Modificar Informe CEM">
                   <i style="margin-right: 2px" class="fa fa-folder"></i>
                 </button>
               @else
-                <button class="btn btn-xs btn-outline-info" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }},'Informe CEM')" title="Subir Informe CEM">
+                <button class="btn btn-xs btn-outline-danger" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }},'Informe CEM')" title="Subir Informe CEM">
                   <i style="margin-right: 2px" class="fa fa-upload"></i>
                 </button>
               @endif
             @else
               {{-- <small class="label bg-red">SR</small> --}}
               @if (isset($denuncia->cem_file) && !empty($denuncia->cem_file))
-                <a title="Descargar Informe CEM" href="{{ $denuncia->cem_file }}" target="_blank" class="btn btn-xs btn-outline-primary"><i class="fa fa-download"></i></a>
+                <a title="Descargar Informe CEM" href="{{ $denuncia->cem_file }}" target="_blank" class="btn btn-xs btn-outline-danger"><i class="fa fa-download"></i></a>
               @else
-                <a href="javascript:void(0)" disabled class="btn btn-xs btn-outline-primary"><i class="fa fa-file-o"></i></a>
+                <a href="javascript:void(0)" disabled class="btn btn-xs btn-outline-danger" title="Ud. no tiene este permiso"><i class="fa fa-times"></i></a>
               @endif
             @endcan
           </td>
@@ -168,11 +171,11 @@
           <td class="middle modContent" data-label="Informe Medicina Legal">
             @can('denuncia.fileml')
               @if ($denuncia->medicina)
-                <button class="btn btn-xs btn-outline-warning" onclick="showDocumentoPolicial('{{ url($denuncia->registro_file) }}',1,{{ $denuncia->id }},'Informe de Medicina')" title="Ver o Modificar Informe de Medicina Legal">
+                <button class="btn btn-xs btn-outline-primary" onclick="showDocumentoPolicial('{{ url($denuncia->registro_file) }}',1,{{ $denuncia->id }},'Informe de Medicina')" title="Ver o Modificar Informe de Medicina Legal">
                   <i style="margin-right: 2px" class="fa fa-folder"></i>
                 </button>
               @else
-                <button class="btn btn-xs btn-outline-info" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }},'Informe de Medicina')" title="Subir Informe de Medicina Legal">
+                <button class="btn btn-xs btn-outline-primary" onclick="showDocumentoPolicial('',0,{{ $denuncia->id }},'Informe de Medicina')" title="Subir Informe de Medicina Legal">
                   <i style="margin-right: 2px" class="fa fa-upload"></i>
                 </button>
               @endif
@@ -181,7 +184,7 @@
               @if (isset($denuncia->cem_file) && !empty($denuncia->cem_file))
                 <a title="Descargar Informe de Medicina Legal" href="{{ $denuncia->cem_file }}" target="_blank" class="btn btn-xs btn-outline-primary"><i class="fa fa-download"></i></a>
               @else
-                <a href="javascript:void(0)" disabled class="btn btn-xs btn-outline-primary"><i class="fa fa-file-o"></i></a>
+                <a href="javascript:void(0)" disabled class="btn btn-xs btn-outline-primary"  title="Ud. no tiene este permiso"><i class="fa fa-times"></i></a>
               @endif
             @endcan
           </td>
