@@ -208,7 +208,7 @@
             @endif
           @endif
 
-          <td class="middle" data-label="Numero">{{ substr($denuncia->expediente,0,-19) }}</td>
+          <td class="middle" data-label="Numero">{{ substr($denuncia->expediente,0,((strpos($denuncia->expediente, '-') + 1) - strlen($denuncia->expediente))) }}</td>
           <td class="middle" title="{{ $denuncia->tblinstancia ? $denuncia->tblinstancia->nombre : ''}}" data-label="Instancia">{{ $denuncia->tblinstancia ? $denuncia->tblinstancia->sigla : ''}}</td>
           <td class="middle" data-label="Fecha de Audiencia">{{ (isset($denuncia->faudiencia) && !empty($denuncia->faudiencia)) ? $denuncia->faudiencia : '-' }}</td>
 
