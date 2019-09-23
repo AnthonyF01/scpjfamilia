@@ -2487,8 +2487,7 @@ class DenunciaController extends Controller
                 $chartCID->dataset('Total', 'line', $ingresoArr['values']);
 
                 // TTD - Tiempo de celeridad
-                $sqlTTC = "SELECT distinct mes, sum(a.duracion) as suma, avg(case when
-                a.duracion <> 0 then a.duracion else null end) as promedio from (
+                $sqlTTC = "SELECT distinct mes, sum(a.duracion) as suma, avg(case when a.duracion <> 0 then a.duracion else null end) as promedio from (
                         select extract(month FROM d.fformalizacion) as mes, (case
                         when d.fdenuncia is not NULL then
                             case
