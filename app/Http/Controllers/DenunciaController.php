@@ -340,14 +340,12 @@ class DenunciaController extends Controller
               $request->session()->get('checked') : '0' ) : '0'));
 
         $request->session()->put('fecha1', $request
-            ->has('fecha1') ? $request->get('fecha1') : ($request->session()
-            ->has('fecha1') ? ( is_numeric($request->session()->get('fecha1')) ?
-              $request->session()->get('fecha1') : date('Y-m-d') ) : date('Y-m-d')));
+            ->has('fecha1') ? $request->get('fecha1') : ( $request->session()
+            ->has('fecha1') ? $request->session()->get('fecha1') : date('Y-m-d') ));
 
         $request->session()->put('fecha2', $request
-            ->has('fecha2') ? $request->get('fecha2') : ($request->session()
-            ->has('fecha2') ? ( is_numeric($request->session()->get('fecha2')) ?
-              $request->session()->get('fecha2') : date('Y-m-d') ) : date('Y-m-d')));
+            ->has('fecha2') ? $request->get('fecha2') : ( $request->session()
+            ->has('fecha2') ? $request->session()->get('fecha2') : date('Y-m-d') ));
 
         $search=$request->session()->get('search');
 

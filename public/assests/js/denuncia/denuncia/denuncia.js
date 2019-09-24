@@ -147,8 +147,8 @@ $(document).on('click', 'a.page-link', function (event) {
     ajaxLoad($(this).attr('href'));
 });
 
-var Fecha1 = moment().tz("America/Lima").format("YYYY-MM-DD");
-var Fecha2 = moment().tz("America/Lima").format("YYYY-MM-DD");
+var Fecha1 = moment(date1).tz("America/Lima").format("YYYY-MM-DD");
+var Fecha2 = moment(date2).tz("America/Lima").format("YYYY-MM-DD");
 
 // Carga todas las vistas: index, create, edit.
 function ajaxLoad(filename, content, action = '', message = '') {
@@ -650,8 +650,8 @@ function showEstado(elm) {
 
 /* Intervalo de fechas */
 function showIntFech(fecha1, fecha2, checked) {
-    Fecha1 = fecha1;
-    Fecha2 = fecha2;
+    // Fecha1 = fecha1;
+    // Fecha2 = fecha2;
     var str = "/denuncia?fecha1="+fecha1+"&fecha2="+fecha2+"&checked="+checked;
     javascript:ajaxLoad(str);
 }
