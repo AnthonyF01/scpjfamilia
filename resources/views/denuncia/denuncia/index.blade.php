@@ -42,7 +42,7 @@
       <div class="box_plus box_plus-default ">
         <div id="box_plus-title" class="box_plus-heading">
           <div class="row">
-            <div class="col-md-6"><i class="fa fa-list-ul"></i> Denuncias - {{ request()->session()->get('fecha1') }}</div>
+            <div class="col-md-6"><i class="fa fa-list-ul"></i> Denuncias</div>
             <div class="col-md-6">
               @can('denuncia.create')
                 <a href="{{ route('denuncia.create') }}" class="btn btn-xs btn-outline-primary pull-right">
