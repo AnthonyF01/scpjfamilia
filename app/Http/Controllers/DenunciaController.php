@@ -303,10 +303,14 @@ class DenunciaController extends Controller
             ->has('dni') ? $request->get('dni') : ($request->session()
             ->has('dni') ? $request->session()->get('dni') : ''));
 
+        // $request->session()->put('field', $request
+        //     ->has('field') ? $request->get('field') : ( $request->session()
+        //     ->has('field') ? ( array_search($request->session()->get('field'), $fillable) ?
+        //         $request->session()->get('field') : 'expediente' ) : 'expediente') );
+
         $request->session()->put('field', $request
             ->has('field') ? $request->get('field') : ( $request->session()
-            ->has('field') ? ( array_search($request->session()->get('field'), $fillable) ?
-                $request->session()->get('field') : 'expediente' ) : 'expediente') );
+            ->has('field') ? $request->session()->get('field') : 'expediente') );
 
         $request->session()->put('sort', $request
             ->has('sort') ? $request->get('sort') : ($request->session()
@@ -455,7 +459,7 @@ class DenunciaController extends Controller
 
 
         // dd($denuncias->toSql());
-        // dd($denuncias->toSql(), $denuncias->getBindings());
+        // dd($request->session()->get('field'), $request->session()->get('sort'),$request->session()->get('show'),$denuncias->toSql(), $denuncias->getBindings());
 
         $denuncias->groupBy('denuncia.id');
         $denuncias = $denuncias
@@ -467,6 +471,8 @@ class DenunciaController extends Controller
 
         // dd($request->session()->get('fecha1'), $request->session()->get('fecha2'));
 
+        // dd($request->session()->get('field'), $request->session()->get('sort'));
+
         $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->whereNull('deleted_at')->where('tipo_int','=',0)->orderBy('nombre')->pluck('nombre', 'id');
 
         $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->whereNull('deleted_at')->where('tblmodulo_id',Auth::user()->tblmodulo_id)
@@ -477,7 +483,7 @@ class DenunciaController extends Controller
         $anios = new Denuncia();
 
         $anios = $anios->select(DB::raw("year(fformalizacion) as id, year(fformalizacion) as anio"))
-                     ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->whereNotNull('fformalizacion')->orderBy('id','desc')->pluck('anio', 'id');
+                     ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->whereNotNull('fformalizacion')->whereNull('deleted_at')->orderBy('id','desc')->pluck('anio', 'id');
 
         if ($request->ajax()) {
           return view('denuncia.denuncia.ajax', compact('denuncias','comisarias','instancias','anios'));
@@ -494,28 +500,28 @@ class DenunciaController extends Controller
     public function create()
     {
 
-        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->orderBy('nombre')->pluck('nombre', 'id');
-        $instituciones = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',1)->orderBy('nombre')->pluck('nombre', 'id');
+        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instituciones = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',1)->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
         $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
-        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->whereNull('deleted_at')
         ->where(function ($query) {
             $query->where('tipo','FA')->orwhere('tipo','JM')->orwhere('estadistica','1');
         })->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PL')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
         // dd($instanciasPL);
-        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','MP')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PU')->orderBy('nombre')->pluck('nombre', 'id');
-        $tdenuncias = Tbldenuncia::orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','MP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','IP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PU')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $tdenuncias = Tbldenuncia::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
         $tbldpenales = Tbldpenal::with('hijos')->where('nivel',1)->get();
-        $instanciasSS = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','SS')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasSSP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','SSP')->orderBy('nombre')->pluck('nombre', 'id');
-        $medidas = Tblmedida::orderBy('nombre')->pluck('nombre', 'id');
-        $violencias = Tblviolencia::orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasSS = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','SS')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasSSP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','SSP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $medidas = Tblmedida::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
+        $violencias = Tblviolencia::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
 
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
-        $documentos = Tbldocumento::orderBy('nombre','asc')->pluck('nombre', 'id');
-        $tipos = Tbltipo::all()->pluck('nombre', 'id');
+        $departamentos = Tbldepartamento::whereNull('deleted_at')->pluck('nombre', 'id');
+        $documentos = Tbldocumento::orderBy('nombre','asc')->whereNull('deleted_at')->pluck('nombre', 'id');
+        $tipos = Tbltipo::whereNull('deleted_at')->pluck('nombre', 'id');
 
         return view('denuncia.denuncia.partials.form', compact('denuncia','comisarias','instituciones','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tbldpenales','instanciasSS','instanciasSSP','medidas','violencias','tdenuncias','departamentos','documentos','tipos'));
 
@@ -672,7 +678,7 @@ class DenunciaController extends Controller
         if (isset($request['mes']) && !empty($request['mes'])) {
           $sql .= " AND month(d.fformalizacion) = ".$request['mes']." ";
         }
-        $sql .= " ) as d on d.tblinstancia_id=ti.id where ti.deleted_at is null and ti.tbldepartamento_id = ".Auth::user()->tbldepartamento_id." and (ti.tipo = 'FA' or ti.tipo = 'JM' or ti.estadistica = '1') group by ti.nombre order by ti.nombre ";
+        $sql .= " and d.deleted_at is null) as d on d.tblinstancia_id=ti.id where ti.deleted_at is null and ti.tbldepartamento_id = ".Auth::user()->tbldepartamento_id." and (ti.tipo = 'FA' or ti.tipo = 'JM' or ti.estadistica = '1') group by ti.nombre order by ti.nombre ";
         $instancia = DB::select(DB::raw($sql));
 
         $data = array();
@@ -716,13 +722,13 @@ class DenunciaController extends Controller
         $anios = new Denuncia();
 
         $anios = $anios->select(DB::raw("year(fformalizacion) as id, year(fformalizacion) as anio"))
-                     ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->whereNotNull('fformalizacion')->orderBy('id','desc')->pluck('anio', 'id');
+                     ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->whereNotNull('fformalizacion')->whereNull('deleted_at')->orderBy('id','desc')->pluck('anio', 'id');
 
-        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int',0)->where('color','green')->orderBy('nombre')->pluck('nombre', 'id');
+        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int',0)->where('color','green')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
 
         // $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->orderBy('nombre')->pluck('nombre', 'id');
 
-        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->whereNull('deleted_at')
         ->where(function ($query) {
             $query->where('tipo','FA')->orwhere('tipo','JM')->orwhere('estadistica','1');
         })->orderBy('nombre')->pluck('nombre', 'id');
@@ -800,7 +806,8 @@ class DenunciaController extends Controller
 
             $denuncias = $denuncias
             ->where('expediente', 'like', '%' . $request['search'] . '%')
-            ->where('tblmodulo_id', Auth::user()->tblmodulo_id);
+            ->where('tblmodulo_id', Auth::user()->tblmodulo_id)
+            ->whereNull('deleted_at');
 
             // if ($request['tdias'] != '') {
             //     $denuncias = $denuncias->having('total', '<=', $request['tdias']);
@@ -880,7 +887,7 @@ class DenunciaController extends Controller
                             where d.tblmodulo_id=".Auth::user()->tblmodulo_id."
                             GROUP by da.agresor_id HAVING COUNT(d.id) > 1
                         ) as tag on tag.agresor_id=da.agresor_id
-                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id."
+                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.deleted_at is null
                     ) ctag
                 "),'ctag.id','=','denuncia.id');
             }
@@ -897,7 +904,7 @@ class DenunciaController extends Controller
                             where d.tblmodulo_id=".Auth::user()->tblmodulo_id."
                             GROUP by dv.victima_id HAVING COUNT(d.id) > 1
                         ) as tvc on tvc.victima_id=dv.victima_id
-                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id."
+                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.deleted_at is null
                     ) ctvc
                 "),'ctvc.id','=','denuncia.id');
             }
@@ -1377,18 +1384,18 @@ class DenunciaController extends Controller
         $anios = new Denuncia();
 
         $anios = $anios->select(DB::raw("year(fformalizacion) as id, year(fformalizacion) as anio"))
-                     ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->whereNotNull('fformalizacion')->orderBy('id','desc')->pluck('anio', 'id');
+                     ->where('tblmodulo_id', Auth::user()->tblmodulo_id)->whereNotNull('fformalizacion')->whereNull('deleted_at')->orderBy('id','desc')->pluck('anio', 'id');
 
-        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int',0)->where('color','green')->orderBy('nombre')->pluck('nombre', 'id');
+        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int',0)->where('color','green')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
 
-        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->whereNull('deleted_at')
         ->where(function ($query) {
             $query->where('tipo','FA')->orwhere('tipo','JM')->orwhere('estadistica','1');
         })->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','MP')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PL')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','MP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
 
         if ($request->ajax()) {
 
@@ -1402,7 +1409,7 @@ class DenunciaController extends Controller
                 $sqlVD = "SELECT count(*) as total from ( SELECT distinct v.id,v.nombre,v.nro_doc from denuncia d
                     join denuncia_victima vd on d.id = vd.denuncia_id
                     join victima v on v.id = vd.victima_id
-                    where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL AND year(d.fformalizacion) = ".$request['anio']." ";
+                    where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.deleted_at is null and d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL AND year(d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlVD .= " and month(d.fformalizacion)=".$request['mes']." ";
                 }
@@ -1426,6 +1433,7 @@ class DenunciaController extends Controller
                                 join victima v on v.id = vd.victima_id
                                 where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL
                                 and d.fformalizacion IS NOT NULL
+                                and d.deleted_at is null
                                 AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlHV .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1450,7 +1458,10 @@ class DenunciaController extends Controller
                                 select distinct v.id,v.nombre,v.nro_doc from denuncia d
                                 join denuncia_victima vd on d.id = vd.denuncia_id
                                 join victima v on v.id = vd.victima_id
-                                where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL
+                                where d.tblmodulo_id=".Auth::user()->tblmodulo_id." 
+                                and d.fdenuncia IS NOT NULL 
+                                and d.fformalizacion IS NOT NULL
+                                and d.deleted_at is null
                                 AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlCV .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1507,7 +1518,10 @@ class DenunciaController extends Controller
                                     select distinct v.id,v.nombre,v.nro_doc from denuncia d
                                     join denuncia_victima vd on d.id = vd.denuncia_id
                                     join victima v on v.id= vd.victima_id
-                                    where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL
+                                    where d.tblmodulo_id=".Auth::user()->tblmodulo_id." 
+                                    and d.fdenuncia IS NOT NULL 
+                                    and d.fformalizacion IS NOT NULL
+                                    and d.deleted_at is null
                                     AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlPV .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1558,8 +1572,11 @@ class DenunciaController extends Controller
                         select distinct a.id,a.nombre,a.nro_doc from denuncia d
                         join denuncia_agresor ad on d.id = ad.denuncia_id
                         join agresor a on a.id = ad.agresor_id
-                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL
-                        and d.fformalizacion IS NOT NULL AND year(d.fformalizacion) = ".$request['anio']." ";
+                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." 
+                        and d.fdenuncia IS NOT NULL
+                        and d.fformalizacion IS NOT NULL 
+                        and d.deleted_at is null
+                        AND year(d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlPA .= " and month(d.fformalizacion)=".$request['mes']." ";
                 }
@@ -1581,8 +1598,10 @@ class DenunciaController extends Controller
                             select distinct a.id,a.nombre,a.nro_doc from denuncia d
                             join denuncia_agresor ad on d.id = ad.denuncia_id
                             join agresor a on a.id = ad.agresor_id
-                            where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia IS NOT NULL
+                            where d.tblmodulo_id=".Auth::user()->tblmodulo_id." 
+                            and d.fdenuncia IS NOT NULL
                             and d.fformalizacion IS NOT NULL
+                            and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlSA .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1631,8 +1650,10 @@ class DenunciaController extends Controller
                         from (
                             select dad.* from denuncia_agresor as dad
                             join denuncia d on d.id = dad.denuncia_id
-                            where d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL
+                            where d.fdenuncia IS NOT NULL 
+                            and d.fformalizacion IS NOT NULL
                             and d.tblmodulo_id=".Auth::user()->tblmodulo_id."
+                            and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlPPA .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1647,7 +1668,7 @@ class DenunciaController extends Controller
                 $sqlPPA .= ") as ad1, (
                         select dad1.* from denuncia_agresor as dad1
                         join denuncia d on d.id = dad1.denuncia_id
-                        where d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL and d.tblmodulo_id=".Auth::user()->tblmodulo_id."
+                        where d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL and d.deleted_at is null and d.tblmodulo_id=".Auth::user()->tblmodulo_id."
                         AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlPPA .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1722,8 +1743,7 @@ class DenunciaController extends Controller
 
                 // Atencion Psicologica
                 $sqlAp = "SELECT count(d.psicologia) as total from denuncia d
-                    where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.psicologia = '1' and d.fdenuncia is not null and d.fformalizacion is not null
-                    AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
+                    where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.psicologia = '1' and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlAp .= " and month(d.fformalizacion)=".$request['mes']." ";
                 }
@@ -1740,8 +1760,7 @@ class DenunciaController extends Controller
 
                 // Asistencia legal
                 $sqlAl = "SELECT count(d.asistencialegal) as total from denuncia d
-                    where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.asistencialegal = '1' and d.fdenuncia is not null and d.fformalizacion is not null
-                    AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
+                    where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.asistencialegal = '1' and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlAl .= " and month(d.fformalizacion)=".$request['mes']." ";
                 }
@@ -1758,8 +1777,7 @@ class DenunciaController extends Controller
 
                 // Denuncia Policial
                 $sqlDP = "SELECT count(*) as total from denuncia d
-                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
-                        AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
+                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlDP .= " and month(d.fformalizacion)=".$request['mes']." ";
                 }
@@ -1776,7 +1794,7 @@ class DenunciaController extends Controller
 
                 // Audiencias Judiciales
                $sqlAJ = "SELECT count(d.faudiencia) as total from denuncia d
-                       where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                       where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                        AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                if (isset($request['faudiencia']) && !empty($request['faudiencia'])) {
                    $sqlAJ .= " and month(d.faudiencia)=".$request['faudiencia']." ";
@@ -1794,7 +1812,7 @@ class DenunciaController extends Controller
  
                // FASE II
                $sqlF2 = "SELECT count(d.fremisiond) as total from denuncia d
-                       where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                       where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                        AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                if (isset($request['remitido']) && !empty($request['remitido'])) {
                    $sqlF2.=" and d.remitido='".$request['remitido']."' ";
@@ -1822,7 +1840,7 @@ class DenunciaController extends Controller
  
                // FASE III etapa 1
                $sqlF31 = "SELECT count(d.fjip) as total from denuncia d
-                       where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                       where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                        AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                if (isset($request['remitido']) && !empty($request['remitido'])) {
                    $sqlF31.=" and d.remitido='".$request['remitido']."' ";
@@ -1853,7 +1871,7 @@ class DenunciaController extends Controller
  
                // FASE III etapa 1
                $sqlF32 = "SELECT count(d.fjip) as total from denuncia d
-                       where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                       where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                        AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                if (isset($request['remitido']) && !empty($request['remitido'])) {
                    $sqlF32.=" and d.remitido='".$request['remitido']."' ";
@@ -1885,7 +1903,7 @@ class DenunciaController extends Controller
                             from  tbldenuncia as tbld
                                 left join (
                                 select *  from denuncia as d
-                                where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                                where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                                 AND extract(year FROM fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlV .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -1987,7 +2005,7 @@ class DenunciaController extends Controller
                            FROM  tblcomisaria as tblc
                            left join (
                                select *  from denuncia as d
-                               where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                               where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                                AND extract(year FROM fformalizacion) = ".$request['anio']." ";
                if (isset($request['mes']) && !empty($request['mes'])) {
                    $sqlDCD .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2025,7 +2043,7 @@ class DenunciaController extends Controller
                 // Calificacion Denuncias
                 $sqlCDN = "SELECT distinct cl.calificacion, count(cld.calificacion) as total from (
                             select d.calificacion from denuncia d
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                             and (d.calificacion = 'Ha lugar' or d.calificacion = 'No ha lugar')
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
@@ -2063,7 +2081,7 @@ class DenunciaController extends Controller
 
                 // Audiencias Judiciales
                 $sqlAJ = "SELECT count(*) as total from denuncia d
-                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                         AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlAJ .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2089,7 +2107,7 @@ class DenunciaController extends Controller
                                     end
                                 when d.fdenuncia is NULL then 0 end
                             ) as dias_pnp_den from denuncia d
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlPNP .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2132,7 +2150,7 @@ class DenunciaController extends Controller
                                     end
                                 when d.fformalizacion is NULL then '0' end
                             ) as dias_modulo from denuncia d
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlMVF .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2177,7 +2195,7 @@ class DenunciaController extends Controller
                                     end
                                 when d.fdenuncia is NULL then '0' end
                             ) as duracion from denuncia d
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlDR .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2209,7 +2227,7 @@ class DenunciaController extends Controller
                                     end
                                 when d.faudiencia is NULL then '0' end
                             ) as remison from denuncia d
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlREM .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2254,7 +2272,7 @@ class DenunciaController extends Controller
                                                ELSE 0
                                             END
                                            ) AS faseii FROM denuncia d
-                                           WHERE d.tblmodulo_id=".Auth::user()->tblmodulo_id." AND d.fdenuncia is not null AND d.fformalizacion is not null
+                                           WHERE d.tblmodulo_id=".Auth::user()->tblmodulo_id." AND d.fdenuncia is not null AND d.fformalizacion is not null and d.deleted_at is null
                                            AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                if (isset($request['remitido']) && !empty($request['remitido'])) {
                    $sqlFaseII.=" and d.remitido='".$request['remitido']."' ";
@@ -2310,7 +2328,7 @@ class DenunciaController extends Controller
                                                ELSE 0
                                            END
                                           ) AS fase31 FROM denuncia d
-                                           WHERE d.tblmodulo_id=".Auth::user()->tblmodulo_id." AND d.fdenuncia is not null AND d.fformalizacion is not null
+                                           WHERE d.tblmodulo_id=".Auth::user()->tblmodulo_id." AND d.fdenuncia is not null AND d.fformalizacion is not null and d.deleted_at is null
                                            AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                if (isset($request['remitido']) && !empty($request['remitido'])) {
                    $sqlFase31.=" and d.remitido='".$request['remitido']."' ";
@@ -2376,7 +2394,7 @@ class DenunciaController extends Controller
                                                ELSE 0
                                            END
                                           ) AS fase32 FROM denuncia d
-                                           WHERE d.tblmodulo_id=".Auth::user()->tblmodulo_id." AND d.fdenuncia is not null AND d.fformalizacion is not null
+                                           WHERE d.tblmodulo_id=".Auth::user()->tblmodulo_id." AND d.fdenuncia is not null AND d.fformalizacion is not null and d.deleted_at is null
                                            AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                if (isset($request['remitido']) && !empty($request['remitido'])) {
                    $sqlFase32.=" and d.remitido='".$request['remitido']."' ";
@@ -2430,7 +2448,7 @@ class DenunciaController extends Controller
 
                 // Cuadro de ingreso
                 $sqlCID = "SELECT distinct extract(month FROM d.fformalizacion) as mes, count(*) as total from denuncia d
-                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                         AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlCID .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2494,7 +2512,7 @@ class DenunciaController extends Controller
                             end
                         when d.fdenuncia is NULL then 0 end
                         ) as duracion from denuncia d
-                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                         AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlTTC .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2529,7 +2547,7 @@ class DenunciaController extends Controller
                         }
                         if ($_aux == 1) {
                             $celeridadArr['keys'][] = $mesesL[$i];
-                            $celeridadArr['values'][] = round((double)$_total, 2);
+                            $celeridadArr['values'][] = round((double)$_total, 1);
                             $heightTTCArr[] = round((double)$_total, 2);
                         }else{
                             $celeridadArr['keys'][] = $mesesL[$i];
@@ -2563,7 +2581,7 @@ class DenunciaController extends Controller
                                         end
                                     when d.fdenuncia is NULL then 0 end
                                 ) as dias_pnp_den  from denuncia d
-                                where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                                where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                                 AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
                     $sqlTT1 .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
@@ -2605,7 +2623,7 @@ class DenunciaController extends Controller
                                         end
                                     when d.fformalizacion is NULL then '0' end
                                 ) as dias_modulo from denuncia d
-                                where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                                where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                                 AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if( isset($request['tblinstancia_id']) && !empty($request['tblinstancia_id']) ){
                     $sqlTT2 .= " and d.tblinstancia_id='".$request['tblinstancia_id']."' ";
@@ -2643,7 +2661,7 @@ class DenunciaController extends Controller
 
                 // PS-CEM
                 $sqlPSCEM = "SELECT sum(d.psicologia) as total from denuncia d
-                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                         AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlPSCEM .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2665,7 +2683,7 @@ class DenunciaController extends Controller
 
                 // AL-CEM
                 $sqlALCEM = "SELECT sum(asistencialegal) as total from denuncia d
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlALCEM .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2687,7 +2705,7 @@ class DenunciaController extends Controller
 
                 // Ministerio
                 $sqlALMIN = "SELECT sum(ministerio) as total from denuncia d
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlALMIN .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2711,7 +2729,7 @@ class DenunciaController extends Controller
                 // Agresor
                 $sqlAR = "SELECT count(*) total from ( SELECT da.agresor_id, count(d.id) from denuncia_agresor da
                             join denuncia d on d.id=da.denuncia_id
-                            where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                            where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlAR .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2736,7 +2754,7 @@ class DenunciaController extends Controller
                 // Victima
                 $sqlVR = "SELECT count(*) total from ( select dv.victima_id, count(d.id) from denuncia_victima dv
                         join denuncia d on d.id=dv.denuncia_id
-                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null
+                        where d.tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlVR .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2896,28 +2914,28 @@ class DenunciaController extends Controller
     public function edit($id)
     {
         $denuncia = Denuncia::findOrFail($id);
-        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->orderBy('nombre')->pluck('nombre', 'id');
-        $instituciones = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',1)->orderBy('nombre')->pluck('nombre', 'id');
+        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instituciones = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',1)->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
         $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
-        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->whereNull('deleted_at')
         ->where(function ($query) {
             $query->where('tipo','FA')->orwhere('tipo','JM')->orwhere('estadistica','1');
         })->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PL')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
         // dd($instanciasPL);
-        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','MP')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PU')->orderBy('nombre')->pluck('nombre', 'id');
-        $tdenuncias = Tbldenuncia::orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','MP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','IP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PU')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $tdenuncias = Tbldenuncia::whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
         $tbldpenales = Tbldpenal::with('hijos')->where('nivel',1)->get();
-        $instanciasSS = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','SS')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasSSP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','SSP')->orderBy('nombre')->pluck('nombre', 'id');
-        $medidas = Tblmedida::orderBy('nombre')->pluck('nombre', 'id');
-        $violencias = Tblviolencia::orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasSS = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','SS')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasSSP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','SSP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $medidas = Tblmedida::whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $violencias = Tblviolencia::whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
 
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
-        $documentos = Tbldocumento::orderBy('nombre','asc')->pluck('nombre', 'id');
-        $tipos = Tbltipo::all()->pluck('nombre', 'id');
+        $departamentos = Tbldepartamento::whereNull('deleted_at')->pluck('nombre', 'id');
+        $documentos = Tbldocumento::whereNull('deleted_at')->orderBy('nombre','asc')->pluck('nombre', 'id');
+        $tipos = Tbltipo::whereNull('deleted_at')->pluck('nombre', 'id');
 
         return view('denuncia.denuncia.partials.form', compact('denuncia','comisarias','instituciones','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tbldpenales','instanciasSS','instanciasSSP','medidas','violencias','tdenuncias','departamentos','documentos','tipos'));
     }
@@ -2925,19 +2943,19 @@ class DenunciaController extends Controller
     public function ejecucion($id)
     {
         $denuncia = Denuncia::findOrFail($id);
-        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->orderBy('nombre')->pluck('nombre', 'id');
-        $instituciones = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',1)->orderBy('nombre')->pluck('nombre', 'id');
+        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instituciones = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',1)->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
         $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
-        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','FA')->orwhere('tipo','JM')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->orderBy('nombre')->pluck('nombre', 'id');
-        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->orderBy('nombre')->pluck('nombre', 'id');
-        $tdenuncias = Tbldenuncia::orderBy('nombre')->pluck('nombre', 'id');
+        $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','FA')->whereNull('deleted_at')->orwhere('tipo','JM')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasPL = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','PL')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','IP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo','JP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $tdenuncias = Tbldenuncia::whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
 
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
-        $documentos = Tbldocumento::orderBy('nombre','asc')->pluck('nombre', 'id');
-        $tipos = Tbltipo::all()->pluck('nombre', 'id');
+        $departamentos = Tbldepartamento::whereNull('deleted_at')->pluck('nombre', 'id');
+        $documentos = Tbldocumento::whereNull('deleted_at')->orderBy('nombre','asc')->pluck('nombre', 'id');
+        $tipos = Tbltipo::whereNull('deleted_at')->pluck('nombre', 'id');
 
         return view('denuncia.denuncia.partials.ejecucion', compact('denuncia','comisarias','instituciones','instancias','instanciasPL','instanciasMIN','instanciasJIP','instanciasJP','parentescos','tdenuncias','departamentos','documentos','tipos'));
     }

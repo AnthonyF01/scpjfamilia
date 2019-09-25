@@ -61,7 +61,7 @@
     }
 
     table.table-cell>tbody {
-      color: #5e5d52;
+      color: #4B4949;
     }
 
     table.table-cell>tbody>tr:nth-of-type(odd) {
@@ -227,8 +227,8 @@
         <td id='col_1' >
           <p class="line">
             Poder Judicial del Perú - {{ucfirst(strtolower(Auth::user()->tblmodulo->nombre))}}<br>
-            Calle Inclán Esq. Presbítero Andía s/n, Cercado, Tacna<br>
-            Central Telefónica: 052-583200<br>
+            {{-- Calle Inclán Esq. Presbítero Andía s/n, Cercado, Tacna<br>
+            Central Telefónica: 052-583200<br> --}}
           </p>
         </td>
         <td id='col_2' align='right'>
@@ -293,7 +293,7 @@
       </div>
     </div>
   
-    <table class="table table-striped table-hover table-cell table-lg" style="width: 970px; margin-top: 10px; margin-right: 5px; margin-left: 5px; page-break-inside: auto; page-break-before: avoid;">
+    <table class="table table-striped table-hover table-cell table-lg" style="width: 950px; margin-top: 10px; margin-right: 5px; margin-left: 5px; page-break-inside: auto; page-break-before: avoid;">
       <thead>
         <tr>
           <th class="header" width="10px"></th>
@@ -316,7 +316,7 @@
           <th class="modHeader" width="10px">#</th>
           <th class="modHeader" style="width: 60px" title="Fecha de Formalizacion">F. Form.</th>
           <th class="modHeader" style="width: 20px" title="Días Formalizacion">D.F.</th>
-          <th class="modHeader" style="width: 160px">Expediente</th>
+          <th class="modHeader" style="width: 60px">Expediente</th>
           <th class="modHeader" style="width: 50px">Juzgado</th>
           <th class="modHeader" style="width: 60px" title="Fecha de Audiencia">F. Aud.</th>
           <th class="modHeader" style="width: 20px" title="Días Audiencia">D.A.</th>
@@ -356,7 +356,7 @@
                 @endif
               @endif
 
-              <td class="middle">{{ $denuncia->expediente }}</td>
+              <td class="middle">{{ substr($denuncia->expediente,0,((strpos($denuncia->expediente, '-') + 5) - strlen($denuncia->expediente))) }}</td>
               <td class="middle" title="{{ $denuncia->tblinstancia->nombre }}">{{ $denuncia->tblinstancia->sigla }}</td>
               <td class="middle">{{ (isset($denuncia->faudiencia) && !empty($denuncia->faudiencia)) ? $denuncia->faudiencia : '-' }}</td>
 
@@ -431,6 +431,33 @@
               @endif
 
               <td class="middle">{{ $denuncia->total }}</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="13">
+                <div class="div-table" style="margin: 0px; padding: 0px; border-top: 1px solid #ccc;">
+                  <div class="div-cell cell-6" style="font-weight: bold; text-align: center; padding: 0px; margin: 0px;">
+                    Victimas
+                  </div>
+                  <div class="div-cell cell-6" style="font-weight: bold; text-align: center; padding: 0px; margin: 0px;">
+                    Agresores
+                  </div>
+                </div>
+                <div class="div-table" style="margin: 0px; padding: 0px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+                  <div class="div-cell cell-6" style="padding: 0px !important; margin: 0px !important;">
+                    @foreach ($denuncia->victimas as $victima)
+                      {{-- <td colspan="2">{{ $victima->nro_doc }}</td> --}}
+                      <p style="margin: 0px">{{ $victima->nombre }} {{ $victima->apellido }}</p>
+                    @endforeach
+                  </div>
+                  <div class="div-cell cell-6" style="padding: 0px !important; margin: 0px !important;">
+                    @foreach ($denuncia->agresores as $agresor)
+                      {{-- <td colspan="2">{{ $agresor->nro_doc }}</td> --}}
+                      <p style="margin: 0px">{{ $agresor->nombre }} {{ $agresor->apellido }}</p>
+                    @endforeach
+                  </div>
+                </div>
+              </td>
             </tr>
           @endforeach
         @endif
