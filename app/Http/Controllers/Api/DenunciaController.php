@@ -93,7 +93,7 @@ class DenunciaController extends Controller
     {
 
         if ($dni != '') {
-            $sql = " SELECT d.* from denuncia d join denuncia_victima dv on d.id=dv.denuncia_id join victima v on v.id=dv.victima_id where v.nro_doc = '".$dni."' and ( d.medida_file != '' or d.medida_file is not null) ";
+            $sql = " SELECT d.* from denuncia d join denuncia_victima dv on d.id=dv.denuncia_id join victima v on v.id=dv.victima_id where d.deleted_at is null and v.nro_doc = '".$dni."' and ( d.medida_file != '' or d.medida_file is not null) ";
             $filtro = DB::select(DB::raw($sql));
 
             if (count($filtro)>0) {
@@ -131,7 +131,7 @@ class DenunciaController extends Controller
     public function detailsVictimaExp(Request $request)
     {
         Log::info('search victima: ', ['request' => $request->all(),'request_user' => $request->user()]);
-        $sql = " SELECT d.* from denuncia d join denuncia_victima dv on d.id=dv.denuncia_id join victima v on v.id=dv.victima_id where v.nro_doc = '".$request->user()->dni."' and ( d.medida_file != '' or d.medida_file is not null) ";
+        $sql = " SELECT d.* from denuncia d join denuncia_victima dv on d.id=dv.denuncia_id join victima v on v.id=dv.victima_id where d.deleted_at is null and v.nro_doc = '".$request->user()->dni."' and ( d.medida_file != '' or d.medida_file is not null) ";
         $filtro = DB::select(DB::raw($sql));
 
         return response()->json([

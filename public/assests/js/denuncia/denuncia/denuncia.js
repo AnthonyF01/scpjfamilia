@@ -147,8 +147,14 @@ $(document).on('click', 'a.page-link', function (event) {
     ajaxLoad($(this).attr('href'));
 });
 
-var Fecha1 = moment(date1).tz("America/Lima").format("YYYY-MM-DD");
-var Fecha2 = moment(date2).tz("America/Lima").format("YYYY-MM-DD");
+if ((typeof date1 !== 'undefined' && date1 != '') && (typeof date2 !== 'undefined' && date2 != '')) {
+    var Fecha1 = moment(date1).tz("America/Lima").format("YYYY-MM-DD");
+    var Fecha2 = moment(date2).tz("America/Lima").format("YYYY-MM-DD");
+} else {
+    var Fecha1 = moment().tz("America/Lima").format("YYYY-MM-DD");
+    var Fecha2 = moment().tz("America/Lima").format("YYYY-MM-DD");
+}
+
 
 // Carga todas las vistas: index, create, edit.
 function ajaxLoad(filename, content, action = '', message = '') {
