@@ -303,14 +303,14 @@ class DenunciaController extends Controller
             ->has('dni') ? $request->get('dni') : ($request->session()
             ->has('dni') ? $request->session()->get('dni') : ''));
 
-        // $request->session()->put('field', $request
-        //     ->has('field') ? $request->get('field') : ( $request->session()
-        //     ->has('field') ? ( array_search($request->session()->get('field'), $fillable) ?
-        //         $request->session()->get('field') : 'expediente' ) : 'expediente') );
-
         $request->session()->put('field', $request
             ->has('field') ? $request->get('field') : ( $request->session()
-            ->has('field') ? $request->session()->get('field') : 'expediente') );
+            ->has('field') ? ( array_search($request->session()->get('field'), $fillable) ?
+                $request->session()->get('field') : 'expediente' ) : 'expediente') );
+
+        // $request->session()->put('field', $request
+        //     ->has('field') ? $request->get('field') : ( $request->session()
+        //     ->has('field') ? $request->session()->get('field') : 'expediente') );
 
         $request->session()->put('sort', $request
             ->has('sort') ? $request->get('sort') : ($request->session()
