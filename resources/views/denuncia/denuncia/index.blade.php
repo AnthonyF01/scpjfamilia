@@ -13,7 +13,7 @@
 @endsection
 
 @section('denuncia')
-    active
+    active 
 @endsection
 
 @section('css')

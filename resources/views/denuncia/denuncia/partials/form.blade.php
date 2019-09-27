@@ -43,7 +43,7 @@
       float: right;
       line-height: 25px;
       margin-left: 10px;
-    }
+    } 
     label {
       font-weight: bold;
       text-align: right;
