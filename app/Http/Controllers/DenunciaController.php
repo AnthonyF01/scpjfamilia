@@ -36,7 +36,7 @@ use App\Models\Tblviolencia;
 use App\Charts\ExampleChart;
 
 // use Charts;
-
+ 
 class DenunciaController extends Controller
 {
     /**
