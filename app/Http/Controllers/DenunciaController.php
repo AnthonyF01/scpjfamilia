@@ -464,7 +464,7 @@ class DenunciaController extends Controller
         $denuncias->groupBy('denuncia.id');
         $denuncias = $denuncias
             ->orderBy($request->session()->get('field'), $request->session()->get('sort'))
-            ->paginate($request->session()->get('show'));
+            ->paginate($request->session()->get('show'));  
 
 
         // dd($denuncias);
