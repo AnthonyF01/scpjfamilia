@@ -588,7 +588,7 @@ class DenunciaController extends Controller
                         'tblmodulo_id' => Auth::user()->tblmodulo_id,
                         'codigo' => $code,
                     ]);
-                    
+
                     $input['denuncia_id'] = $denuncia->id;
                     $denuncia_victima = DenunciaVictima::create($input);
 
@@ -3021,6 +3021,20 @@ class DenunciaController extends Controller
         $denuncia = Denuncia::find($id);
 
         if (isset($request['action']) && !empty($request['action'])) {
+
+
+            if (!isset($denuncia->codigo) && empty($denuncia->codigo)) {
+                $count = DB::table('denuncia')->selectRaw('COUNT(*) AS cant')->whereNull('deleted_at')->pluck('cant');
+                $sql = "select lpad(".($count[0]+1).",10,'0') as suffix";
+                $codigo = DB::select(DB::raw($sql));
+                $code = 'DEN'.$codigo[0]->suffix;
+
+                $denuncia->codigo = $code;
+                $denuncia->save();
+            }else{
+
+            }
+
             if ($request['action'] == 'victima') {
                 // las victimas son unicas por cada denuncia
                 if ($denuncia->denunciavictimas()->where('denuncia_id',$denuncia->id)->where('victima_id',$request['victima_id'])->get()->count() > 0) {
@@ -3363,7 +3377,6 @@ class DenunciaController extends Controller
                         'url'  => route('denuncia.edit', ['id' => $denuncia->id ]),
                     ]);
                 }*/
-
             }
             if ($request['action'] == 'denuncia') {
 
@@ -3815,6 +3828,7 @@ class DenunciaController extends Controller
 
                 }
             }
+
         }
 
     }
