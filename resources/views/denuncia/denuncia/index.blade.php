@@ -46,7 +46,7 @@
             <div class="col-md-6">
               @can('denuncia.create')
                 <a href="{{ route('denuncia.create') }}" class="btn btn-xs btn-outline-primary pull-right">
-                  <i class="fa fa-plus"></i> Agregar
+                  <i class="fa fa-plus"></i> Agregar Nuevo Registro de Denuncia
                 </a>
               @endcan
             </div>
@@ -224,56 +224,94 @@
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="col-xs-12 col-md-12 col-lg-12">
-                    <div class="row">
-                      <div class="panel panel-default">
-                          <div class="panel-heading">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true" class="fa fa-times-circle"></span>
-                            </button>
-                            <span id="span-title" style="font-size: 14px"></span>
+                  <div class="row">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true" class="fa fa-times-circle"></span>
+                        </button>
+                        <span id="span-title" style="font-size: 14px"></span>
+                      </div>
+                      <div class="panel-body" style="padding: 15px">
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 hide" id="modal_message">
+                            <div class="alert alert-warning">
+                              <button type="button" class="close" onclick="$('div#modal_message').removeClass('show'); $('div#modal_message').addClass('hide');">
+                                <span aria-hidden="true">×</span>
+                              </button>
+                              <div id="show_message"></div>
+                            </div>
                           </div>
-                          <div class="panel-body">
-                              <div class="row">
-                                  <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12 hide" id="modal_message">
-                                    <div class="alert alert-warning">
-                                      <button type="button" class="close" onclick="$('div#modal_message').removeClass('show'); $('div#modal_message').addClass('hide');">
-                                        <span aria-hidden="true">×</span>
-                                      </button>
-                                      <div id="show_message"></div>
+
+                          <div class="col-sm-12">
+                            <form id="form-file" onsubmit="return false;">
+                              <div class="col-md-12 col-lg-12 col-xs-12">
+                                {!! csrf_field() !!}
+                                <div class="form-group">
+                                  <label>Adjuntar Documento</label>
+                                  <input type="file" name="document_file" id="document_file" class="form-control" accept=".pdf">
+                                </div>
+                                <div class="row">
+                                  <div class="col-sm-12 col-xs-12">
+                                    <div class="form-group hide" id="pdf-document_file">
                                     </div>
                                   </div>
-
+                                </div>
+                                <div class="row">
                                   <div class="col-sm-12">
-                                      <form id="form-registro_file" onsubmit="return false;">
-                                          <div class="col-md-12 col-lg-12 col-xs-12">
-                                              {!! csrf_field() !!}
-                                              <div class="form-group">
-                                                  <label>Adjuntar Documento</label>
-                                                  <input type="file" name="registro_file" id="registro_file" class="form-control" accept=".pdf">
-                                              </div>
-                                              <div class="row">
-                                                  <div class="col-sm-12 col-xs-12">
-                                                      <div class="form-group hide" id="pdf-registro_file">
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                              <div class="row">
-                                                  <div class="col-sm-12">
-                                                      <button disabled="" id="button-registro_file" class="btn btn-sm">
-                                                      </button>
-                                                      <button type="reset" data-dismiss="modal" class="btn btn-danger pull-right btn-sm">
-                                                          <i style="color:white" class="glyphicon glyphicon-remove-sign"></i>
-                                                          Cerrar
-                                                      </button>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </form>
+                                    <button disabled="" id="button-file" class="btn btn-sm">
+                                    </button>
+                                    <button type="reset" data-dismiss="modal" class="btn btn-danger pull-right btn-sm">
+                                      <i style="color:white" class="glyphicon glyphicon-remove-sign"></i>
+                                      Cerrar
+                                    </button>
                                   </div>
+                                </div>
                               </div>
+                            </form>
                           </div>
+                        </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="showModalNotificacion" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg" style="width: 1100px !important;">
+              <div class="modal-content">
+                <div class="col-xs-12 col-md-12 col-lg-12">
+                  <div class="row">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        Notificaciones
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true" class="fa fa-times-circle"></span>
+                        </button>
+                        <span id="span-title" style="font-size: 14px"></span>
+                      </div>
+                      <div class="panel-body" style="padding: 15px">
+                        <div class="row">
+                          <div class="col-md-4">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          </div>
+                          <div class="col-md-8">
+                            <!-- MAP -->
+                            <div class="thumbnail" id="widget">
+                                <div class="map_canvas" id="mapa" style="height: 500px; "></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

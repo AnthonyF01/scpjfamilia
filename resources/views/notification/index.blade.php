@@ -222,16 +222,23 @@
       // tacna: -18.013164, -70.250465
 
       var ubicacion = $("#ubicacion").val();
-      if (ubicacion == '23') {
+      if (ubicacion == '30') { // tacna
         var map = new google.maps.Map(document.getElementById('mapa'), {
             center: new google.maps.LatLng(-18.013164, -70.250465),
             zoom: 13
         });
       }else{
-        var map = new google.maps.Map(document.getElementById('mapa'), {
-            center: new google.maps.LatLng(-12.043974, -77.043270),
-            zoom: 13
-        });
+        if (ubicacion == '33') { // ventanilla
+          var map = new google.maps.Map(document.getElementById('mapa'), {
+              center: new google.maps.LatLng(-11.877123, -77.125776),
+              zoom: 13
+          });
+        }else { // lima
+          var map = new google.maps.Map(document.getElementById('mapa'), {
+              center: new google.maps.LatLng(-12.043974, -77.043270),
+              zoom: 13
+          });
+        }
       }
 
       var infoWindow = new google.maps.InfoWindow;

@@ -25,7 +25,8 @@ class NotificationController extends Controller
                          // ->where('state','=',0)
                          ->orderBy('created_at','desc') 
                          ->get();
-        $ubicacion = Auth::user()->tbldepartamento_id;
+        // $ubicacion = Auth::user()->tbldepartamento_id;
+        $ubicacion = Auth::user()->tblmodulo_id;
         return view('notification.index',compact('notifications','ubicacion'));
         
     }

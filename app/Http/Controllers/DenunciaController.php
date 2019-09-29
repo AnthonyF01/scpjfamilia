@@ -291,7 +291,6 @@ class DenunciaController extends Controller
             end) medicina"
         ));
 
-
         // $denuncias = $denuncias->paginate(10);
         // dd($denuncias);
 
@@ -380,6 +379,7 @@ class DenunciaController extends Controller
         }
 
         $denuncias = $denuncias->where('tblmodulo_id', Auth::user()->tblmodulo_id);
+        $denuncias = $denuncias->whereNull('deleted_at');
             
         // dd($denuncias->get());
 
@@ -579,11 +579,19 @@ class DenunciaController extends Controller
                       'errors' => $validator->errors()
                     ]);
                 }else{
+                    $count = DB::table('denuncia')->selectRaw('COUNT(*) AS cant')->whereNull('deleted_at')->pluck('cant');
+                    $sql = "select lpad(".($count[0]+1).",10,'0') as suffix";
+                    $codigo = DB::select(DB::raw($sql));
+                    $code = 'DEN'.$codigo[0]->suffix;
+
                     $denuncia = Denuncia::create([
                         'tblmodulo_id' => Auth::user()->tblmodulo_id,
+                        'codigo' => $code,
                     ]);
+                    
                     $input['denuncia_id'] = $denuncia->id;
                     $denuncia_victima = DenunciaVictima::create($input);
+
                     return response()->json([
                         'tab' => 'victima',
                         'type' => 'store',
@@ -625,11 +633,20 @@ class DenunciaController extends Controller
                       'errors' => $validator->errors()
                     ]);
                 }else{
+
+                    $count = DB::table('denuncia')->selectRaw('COUNT(*) AS cant')->whereNull('deleted_at')->pluck('cant');
+                    $sql = "select lpad(".($count[0]+1).",10,'0') as suffix";
+                    $codigo = DB::select(DB::raw($sql));
+                    $code = 'DEN'.$codigo[0]->suffix;
+
                     $denuncia = Denuncia::create([
                         'tblmodulo_id' => Auth::user()->tblmodulo_id,
+                        'codigo' => $code,
                     ]);
+
                     $input['denuncia_id'] = $denuncia->id;
                     $denuncia_agresor = DenunciaAgresor::create($input);
+
                     return response()->json([
                         'tab' => 'agresor',
                         'type' => 'store',
@@ -708,6 +725,37 @@ class DenunciaController extends Controller
       }
 
       echo json_encode($data);
+    }
+
+    public function genLDAP(Request $request)
+    {
+        if ($request['type'] == '1') {
+            $count = DB::table('victima')->selectRaw('COUNT(*) AS cant')->whereNull('deleted_at')->pluck('cant');
+        }else{
+            // $count = DB::select(DB::raw('select count(*) as cant from agresor where deleted_at is null'));
+            $count = DB::table('agresor')->selectRaw('COUNT(*) AS cant')->whereNull('deleted_at')->pluck('cant');
+        }
+
+        $sql = "select lpad(".($count[0]+1).",8,'0') as suffix";
+
+        $codigo = DB::select(DB::raw($sql));
+
+        return response()->json($codigo[0]->suffix);
+    }
+
+    public function getNotificacion(Request $request, $id)
+    {
+        $notifications = DB::table('notification')
+                         ->join('users as u','u.id','=','notification.user_id')
+                         ->leftJoin('users as u1','u1.id','=','notification.worker_id')
+                         ->leftJoin('role_user','role_user.user_id','=','u1.id')
+                         ->leftJoin('roles','roles.id','=','role_user.role_id')
+                         ->select('notification.*','u.nombre','u.fono','u.direccion','roles.name')
+                         ->where('notification.tbldepartamento_id','=',$request->user()->tbldepartamento_id)
+                         // ->where('state','=',0)
+                         ->orderBy('created_at','desc') 
+                         ->get();
+        $ubicacion = Auth::user()->tblmodulo_id;
     }
 
     /**
@@ -3081,6 +3129,26 @@ class DenunciaController extends Controller
                 $denuncia->asistencialegal = $request['asistencialegal'];
                 $denuncia->psicologia = $request['psicologia'];
                 $denuncia->social = $request['social'];
+
+                $cem_file  = Input::file('cem_file');
+                $medicina_file  = Input::file('medicina_file');
+
+                if ($request->file('cem_file') && $request->hasFile('cem_file')) {
+                    if ($denuncia->cem_file) {
+                        File::delete(public_path().$denuncia->cem_file);
+                    }
+                    $cemfile=$this->guardarImagen('file_cem_',$cem_file,$denuncia->expediente,'/img/denuncia/');
+                    $denuncia->cem_file=$cemfile;
+                }
+
+                if ($request->file('medicina_file') && $request->hasFile('medicina_file')) {
+                    if ($denuncia->medicina_file) {
+                        File::delete(public_path().$denuncia->medicina_file);
+                    }
+                    $medicinafile=$this->guardarImagen('file_medicina_',$medicina_file,$denuncia->expediente,'/img/denuncia/');
+                    $denuncia->medicina_file=$medicinafile;
+                }
+
                 $denuncia->save();
 
                 return response()->json([
@@ -3906,13 +3974,39 @@ class DenunciaController extends Controller
             'uploaded' => ':attribute no pudo ser cargado.',
         );
 
-        $rules = [
-            'registro_file'       => 'required|file|mimes:pdf|max:5120',
-        ];
+        switch ($request['file_type']) {
+            case '0':
+                $rules = [
+                    'registro_file' => 'required|file|mimes:pdf|max:5120',
+                ];
 
-        $input = [
-            'registro_file' => $request['registro_file'],
-        ];
+                $input = [
+                    'registro_file' => $request['document_file'],
+                ];
+                break;
+            case '1':
+                $rules = [
+                    'cem_file' => 'required|file|mimes:pdf|max:5120',
+                ];
+
+                $input = [
+                    'cem_file' => $request['document_file'],
+                ];
+                break;
+            case '2':
+                $rules = [
+                    'medicina_file' => 'required|file|mimes:pdf|max:5120',
+                ];
+
+                $input = [
+                    'medicina_file' => $request['document_file'],
+                ];
+                break;
+            
+            default:
+                # code...
+                break;
+        }
 
         $validator = Validator::make($input, $rules, $messages);
 
@@ -3925,19 +4019,51 @@ class DenunciaController extends Controller
 
         $denuncia=Denuncia::find($id);
 
-        $registro_file  = Input::file('registro_file');
-        if ($denuncia->registro_file) {
-            File::delete(public_path().$denuncia->registro_file);
+        $document_file  = Input::file('document_file');
+
+        switch ($request['file_type']) {
+            case '0':
+                if ($denuncia->registro_file) {
+                    File::delete(public_path().$denuncia->registro_file);
+                }
+                $doc=$this->guardarImagen('file_registro_',$document_file,$denuncia->expediente,'/img/denuncia/');
+
+                $denuncia->registro_file=$doc;
+                $denuncia->save();
+
+                return $denuncia->registro_file;
+                break;
+            case '1':
+                if ($denuncia->cem_file) {
+                    File::delete(public_path().$denuncia->cem_file);
+                }
+                $doc=$this->guardarImagen('file_cem_',$document_file,$denuncia->expediente,'/img/denuncia/');
+
+                $denuncia->cem_file=$doc;
+                $denuncia->save();
+
+                return $denuncia->cem_file;
+                break;
+            case '2':
+                if ($denuncia->medicina_file) {
+                    File::delete(public_path().$denuncia->medicina_file);
+                }
+                $doc=$this->guardarImagen('file_medicina_',$document_file,$denuncia->expediente,'/img/denuncia/');
+
+                $denuncia->medicina_file=$doc;
+                $denuncia->save();
+
+                return $denuncia->medicina_file;
+                break;
+            
+            default:
+                # code...
+                break;
         }
-        $doc=$this->guardarImagen($registro_file,$denuncia->expediente,'/img/denuncia/');
 
-        $denuncia->registro_file=$doc;
-        $denuncia->save();
-
-        return $denuncia->registro_file;
     }
 
-    private function guardarImagen(UploadedFile $imagen, string $name, string $rutaRelativa): string
+    private function guardarImagen(string $prefix, UploadedFile $imagen, string $name, string $rutaRelativa): string
     {
         // $nombreImagen = str_replace(' ', '-', $imagen->getClientOriginalName());
         // $longitudTotal = strlen($nombreImagen);
@@ -3945,7 +4071,7 @@ class DenunciaController extends Controller
 
         // $longitudNombre = $longitudTotal - strlen($extension);
         // $nuevoNombre = substr($nombreImagen, 0, $longitudNombre - 1) . '_file_' . time() . '.' . $extension;
-        $nuevoNombre = $name . '_file_' . time() . '.' . $extension;
+        $nuevoNombre = $prefix . $name . '_' . time() . '.' . $extension;
         $rutaAbsoluta = public_path() . $rutaRelativa;
         $imagen->move($rutaAbsoluta, $nuevoNombre);
 

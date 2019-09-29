@@ -15,6 +15,7 @@ class CreateDenunciaTable extends Migration
     {
         Schema::create('denuncia', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('codigo',50)->nullable();
             $table->integer('tblcomisaria_id')->unsigned()->nullable();
             // $table->integer('tblfiscalia_id')->unsigned()->nullable(); // por agregar
             $table->string('oficio',50)->nullable();
@@ -32,15 +33,15 @@ class CreateDenunciaTable extends Migration
             $table->boolean('asistencialegal')->nullable()->default(0);     // cem
             $table->string('informeal',50)->nullable();                     // cem - al   
             $table->date('finformeal')->nullable();                         // cem - al
-            $table->string('informeal_file',100)->nullable();                // cem - al
+            $table->string('informeal_file')->nullable();                // cem - al
             $table->boolean('psicologia')->nullable()->default(0);          // cem
             $table->string('informeps',50)->nullable();                     // cem - ps   
             $table->date('finformeps')->nullable();                         // cem - ps
-            $table->string('informeps_file',100)->nullable();                // cem - ps
+            $table->string('informeps_file')->nullable();                // cem - ps
             $table->boolean('social')->nullable()->default(0);              // cem
             $table->string('informes',50)->nullable();                     // cem - s   
             $table->date('finformes')->nullable();                         // cem - s
-            $table->string('informes_file',100)->nullable();                // cem - s
+            $table->string('informes_file')->nullable();                // cem - s
 
             $table->integer('dependenciad')->unsigned()->nullable();
             $table->string('expediented',50)->nullable();       // fase 3   
@@ -56,10 +57,10 @@ class CreateDenunciaTable extends Migration
 
             $table->string('observacion',500)->nullable();
             $table->integer('tblmodulo_id')->unsigned();
-            $table->string('medida_file',50)->nullable();
-            $table->string('registro_file',50)->nullable();
-            $table->string('cem_file',50)->nullable();
-            $table->string('medicina_file',50)->nullable();
+            $table->string('medida_file')->nullable();
+            $table->string('registro_file')->nullable();
+            $table->string('cem_file')->nullable();
+            $table->string('medicina_file')->nullable();
             $table->integer('device')->nullable()->default(0);
             $table->integer('itinerancia')->nullable()->default(0);
             $table->timestamps();
