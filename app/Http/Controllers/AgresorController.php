@@ -61,6 +61,7 @@ class AgresorController extends Controller
             ->orwhere('nro_doc', 'like', '%' . $request->session()->get('search') . '%')
             ->orwhere('sexo', 'like', '%' . $request->session()->get('search') . '%')
             ->orwhere('tbldepartamento_id', '=', ( gettype( Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first() ) != 'NULL' ) ? Tbldepartamento::where('nombre','=',$request->session()->get('search'))->first()->id : '' )
+            ->whereNull('deleted_at')
             ->orderBy($request->session()->get('field'), $request->session()->get('sort'))
             // ->orderBy('nombre', $request->session()->get('sort'))
             // ->orderBy('email', $request->session()->get('sort'))
@@ -83,10 +84,10 @@ class AgresorController extends Controller
     public function create() /* no usado */
     {
 
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
+        $departamentos = Tbldepartamento::all()->whereNull('deleted_at')->pluck('nombre', 'id');
         // $provincias = Tblprovincia::all()->pluck('nombre', 'id');
         // $distritos = Tbldistrito::all()->pluck('nombre', 'id');
-        $documentos = Tbldocumento::orderBy('nombre','asc')->pluck('nombre', 'id');
+        $documentos = Tbldocumento::whereNull('deleted_at')->orderBy('nombre','asc')->pluck('nombre', 'id');
 
         // return view('denuncia.agresor.partials.form_ajax', compact('departamentos', 'provincias', 'distrito', 'documentos', 'tipos'));
         return view('denuncia.agresor.partials.form_ajax', compact('departamentos', 'documentos'));
@@ -110,7 +111,7 @@ class AgresorController extends Controller
     public function getAgresor(Request $request, $id = null)
     {
         if ($id !== null) {
-            $agresor = Agresor::findOrFail($id);
+            $agresor = Agresor::whereNull('deleted_at')->findOrFail($id);
             return response()->json($agresor);
         }else{
             $data = [];
@@ -120,6 +121,7 @@ class AgresorController extends Controller
                         ->where("nombre","LIKE","%$search%")
                         ->orwhere("apellido","LIKE","%$search%")
                         ->orwhere("nro_doc","LIKE","%$search%")
+                        ->whereNull('deleted_at')
                         ->orderBy('apellido', 'asc')
                         ->take(10)
                         ->get();
@@ -150,8 +152,13 @@ class AgresorController extends Controller
         );
 
         $attributes = array(
-            'nombre' => 'Nombre',
-            'apellido' => 'Apellido',
+            // 'nombre' => 'Nombre',
+            // 'apellido' => 'Apellido',
+            'nombre1' => 'Primer Nombre',
+            'nombre2' => 'Segundo Nombre',
+            'nombre3' => 'Tercer Nombre',
+            'apellido1' => 'Apellido Paterno',
+            'apellido2' => 'Apellido Materno',
             'tbldocumento_id' => 'Tipo de Documento',
             'nro_doc' => 'Numero de Documento',
             'sexo' => 'Sexo',
@@ -163,8 +170,13 @@ class AgresorController extends Controller
         );
 
         $rules = [
-            'nombre' => 'required|string',
-            'apellido' => 'required|string',
+            // 'nombre' => 'required|string',
+            // 'apellido' => 'required|string',
+            'nombre1' => 'required|string',
+            'nombre2' => 'nullable|string',
+            'nombre3' => 'nullable|string',
+            'apellido1' => 'required|string',
+            'apellido2' => 'required|string',
             'tbldocumento_id' => 'required|exists:tbldocumento,id',
             'nro_doc' => 'required|unique:agresor',
             'sexo' => 'required|string',
@@ -176,8 +188,13 @@ class AgresorController extends Controller
         ];
         
         $input = [
-            'nombre' => $request['nombre'],
-            'apellido' => $request['apellido'],
+            // 'nombre' => $request['nombre'],
+            // 'apellido' => $request['apellido'],
+            'nombre1' => $request['nombre1'],
+            'nombre2' => $request['nombre2'],
+            'nombre3' => $request['nombre3'],
+            'apellido1' => $request['apellido1'],
+            'apellido2' => $request['apellido2'],
             'tbldocumento_id' => $request['tbldocumento_id'],
             'nro_doc' => $request['nro_doc'],
             'sexo' => $request['sexo'],
@@ -198,6 +215,9 @@ class AgresorController extends Controller
               'errors' => $validator->errors()
             ]);
         }else{
+
+            $input = parent::array_push_assoc($input, 'nombre', $request['nombre1'].' '.$request['nombre2'].' '.$request['nombre3']);
+            $input = parent::array_push_assoc($input, 'apellido', $request['apellido1'].' '.$request['apellido2']);
 
             $agresor = Agresor::create($input);
 
@@ -236,10 +256,10 @@ class AgresorController extends Controller
 
         $agresor = Agresor::findOrFail($id);
 
-        $departamentos = Tbldepartamento::all()->pluck('nombre', 'id');
+        $departamentos = Tbldepartamento::whereNull('deleted_at')->all()->pluck('nombre', 'id');
         // $provincias = Tblprovincia::all()->pluck('nombre', 'id');
         // $distritos = Tbldistrito::all()->pluck('nombre', 'id');
-        $documentos = Tbldocumento::orderBy('nombre','asc')->pluck('nombre', 'id');
+        $documentos = Tbldocumento::whereNull('deleted_at')->orderBy('nombre','asc')->pluck('nombre', 'id');
 
         return view('denuncia.agresor.partials.form_ajax', compact('agresor', 'departamentos', 'documentos'));
 
@@ -262,7 +282,7 @@ class AgresorController extends Controller
             $request->merge([ 'fchnac' => date('Y-m-d',strtotime(str_replace('/', '-', $request['fchnac']))) ]);
         }
 
-        $agresor = Agresor::findOrFail($id);
+        $agresor = Agresor::whereNull('deleted_at')->findOrFail($id);
 
         $messages = array(
             'required' => ':attribute es obligatorio.',
@@ -273,8 +293,13 @@ class AgresorController extends Controller
         );
 
         $attributes = array(
-            'nombre' => 'Nombre',
-            'apellido' => 'Apellido',
+            // 'nombre' => 'Nombre',
+            // 'apellido' => 'Apellido',
+            'nombre1' => 'Primer Nombre',
+            'nombre2' => 'Segundo Nombre',
+            'nombre3' => 'Tercer Nombre',
+            'apellido1' => 'Apellido Paterno',
+            'apellido2' => 'Apellido Materno',
             'tbldocumento_id' => 'Tipo de Documento',
             'nro_doc' => 'Numero de Documento',
             'sexo' => 'Sexo',
@@ -286,8 +311,13 @@ class AgresorController extends Controller
         );
 
         $rules = [
-            'nombre' => 'required|string',
-            'apellido' => 'required|string',
+            // 'nombre' => 'required|string',
+            // 'apellido' => 'required|string',
+            'nombre1' => 'required|string',
+            'nombre2' => 'nullable|string',
+            'nombre3' => 'nullable|string',
+            'apellido1' => 'required|string',
+            'apellido2' => 'required|string',
             'tbldocumento_id' => 'required|exists:tbldocumento,id',
             'nro_doc' => 'required|unique:agresor,nro_doc,'.$agresor->nro_doc.',nro_doc',
             'sexo' => 'required|string',
@@ -299,8 +329,13 @@ class AgresorController extends Controller
         ];
         
         $input = [
-            'nombre' => $request['nombre'],
-            'apellido' => $request['apellido'],
+            // 'nombre' => $request['nombre'],
+            // 'apellido' => $request['apellido'],
+            'nombre1' => $request['nombre1'],
+            'nombre2' => $request['nombre2'],
+            'nombre3' => $request['nombre3'],
+            'apellido1' => $request['apellido1'],
+            'apellido2' => $request['apellido2'],
             'tbldocumento_id' => $request['tbldocumento_id'],
             'nro_doc' => $request['nro_doc'],
             'sexo' => $request['sexo'],
@@ -324,9 +359,13 @@ class AgresorController extends Controller
             ]);
         }else{
 
-            Agresor::where('id', $id)->update($input);
+            $input = parent::array_push_assoc($input, 'nombre', $request['nombre1'].' '.$request['nombre2'].' '.$request['nombre3']);
+            $input = parent::array_push_assoc($input, 'apellido', $request['apellido1'].' '.$request['apellido2']);
+
+            Agresor::where('id', $id)->whereNull('deleted_at')->update($input);
             
             return response()->json([
+                'tab' => 'agresor_modal',
                 'type' => 'update',
                 'info' => 'Agresor actualizado.',
             ]);

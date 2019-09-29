@@ -155,8 +155,13 @@ class VictimaController extends Controller
         );
 
         $attributes = array(
-            'nombre' => 'Nombre',
-            'apellido' => 'Apellido',
+            // 'nombre' => 'Nombre',
+            // 'apellido' => 'Apellido',
+            'nombre1' => 'Primer Nombre',
+            'nombre2' => 'Segundo Nombre',
+            'nombre3' => 'Tercer Nombre',
+            'apellido1' => 'Apellido Paterno',
+            'apellido2' => 'Apellido Materno',
             'tbldocumento_id' => 'Tipo de Documento',
             'nro_doc' => 'Numero de Documento',
             'tbltipo_id' => 'Tipo',
@@ -170,8 +175,13 @@ class VictimaController extends Controller
         );
 
         $rules = [
-            'nombre' => 'required|string',
-            'apellido' => 'required|string',
+            // 'nombre' => 'nullable|string',
+            // 'apellido' => 'nullable|string',
+            'nombre1' => 'required|string',
+            'nombre2' => 'nullable|string',
+            'nombre3' => 'nullable|string',
+            'apellido1' => 'required|string',
+            'apellido2' => 'required|string',
             'tbldocumento_id' => 'required|exists:tbldocumento,id',
             'nro_doc' => 'required|unique:victima',
             'tbltipo_id' => 'required|exists:tbltipo,id',
@@ -185,8 +195,13 @@ class VictimaController extends Controller
         ];
         
         $input = [
-            'nombre' => $request['nombre'],
-            'apellido' => $request['apellido'],
+            // 'nombre' => $request['nombre'],
+            // 'apellido' => $request['apellido'],
+            'nombre1' => $request['nombre1'],
+            'nombre2' => $request['nombre2'],
+            'nombre3' => $request['nombre3'],
+            'apellido1' => $request['apellido1'],
+            'apellido2' => $request['apellido2'],
             'tbldocumento_id' => $request['tbldocumento_id'],
             'nro_doc' => $request['nro_doc'],
             'tbltipo_id' => $request['tbltipo_id'],
@@ -209,6 +224,9 @@ class VictimaController extends Controller
               'errors' => $validator->errors()
             ]);
         }else{
+
+            $input = parent::array_push_assoc($input, 'nombre', $request['nombre1'].' '.$request['nombre2'].' '.$request['nombre3']);
+            $input = parent::array_push_assoc($input, 'apellido', $request['apellido1'].' '.$request['apellido2']);
 
             $victima = Victima::create($input);
 
@@ -285,8 +303,13 @@ class VictimaController extends Controller
         );
 
         $attributes = array(
-            'nombre' => 'Nombre',
-            'apellido' => 'Apellido',
+            // 'nombre' => 'Nombre',
+            // 'apellido' => 'Apellido',
+            'nombre1' => 'Primer Nombre',
+            'nombre2' => 'Segundo Nombre',
+            'nombre3' => 'Tercer Nombre',
+            'apellido1' => 'Apellido Paterno',
+            'apellido2' => 'Apellido Materno',
             'tbldocumento_id' => 'Tipo de Documento',
             'nro_doc' => 'Numero de Documento',
             'tbltipo_id' => 'Tipo',
@@ -300,8 +323,13 @@ class VictimaController extends Controller
         );
 
         $rules = [
-            'nombre' => 'required|string',
-            'apellido' => 'required|string',
+            // 'nombre' => 'required|string',
+            // 'apellido' => 'required|string',
+            'nombre1' => 'required|string',
+            'nombre2' => 'nullable|string',
+            'nombre3' => 'nullable|string',
+            'apellido1' => 'required|string',
+            'apellido2' => 'required|string',
             'tbldocumento_id' => 'required|exists:tbldocumento,id',
             'nro_doc' => 'required|unique:victima,nro_doc,'.$victima->nro_doc.',nro_doc',
             'tbltipo_id' => 'required|exists:tbltipo,id',
@@ -315,8 +343,13 @@ class VictimaController extends Controller
         ];
         
         $input = [
-            'nombre' => $request['nombre'],
-            'apellido' => $request['apellido'],
+            // 'nombre' => $request['nombre'],
+            // 'apellido' => $request['apellido'],
+            'nombre1' => $request['nombre1'],
+            'nombre2' => $request['nombre2'],
+            'nombre3' => $request['nombre3'],
+            'apellido1' => $request['apellido1'],
+            'apellido2' => $request['apellido2'],
             'tbldocumento_id' => $request['tbldocumento_id'],
             'nro_doc' => $request['nro_doc'],
             'tbltipo_id' => $request['tbltipo_id'],
@@ -342,6 +375,9 @@ class VictimaController extends Controller
                 'errors' => $validator->errors()
             ]);
         }else{
+
+            $input = parent::array_push_assoc($input, 'nombre', $request['nombre1'].' '.$request['nombre2'].' '.$request['nombre3']);
+            $input = parent::array_push_assoc($input, 'apellido', $request['apellido1'].' '.$request['apellido2']);
 
             Victima::where('id', $id)->update($input);
             

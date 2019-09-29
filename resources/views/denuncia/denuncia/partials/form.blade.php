@@ -141,7 +141,7 @@
         <div id="box_plus-title" class="box_plus-heading">
           <i class="fa fa-list-ul"></i>
           @if(isset($denuncia) && !empty($denuncia['id']))
-            Editar Denuncia
+            Editar Denuncia - <i>{{ (isset($denuncia->codigo) && !empty($denuncia->codigo)) ? $denuncia->codigo : 'Sin código único' }}</i>
           @else
             Agregar Denuncia
           @endif
@@ -349,17 +349,17 @@
                   <!-- /.tab-pane -->
                   <div class="tab-pane" id="tab_9">
                     <div class="row">
-                      <div class="col-sm-8 col-sm-offset-1">
+                      <div class="col-sm-12">
                         @if(isset($denuncia) && !empty($denuncia['id']))
                           {!! Form::model($denuncia, [ 'route' => ['denuncia.update', $denuncia->id], 'method' => 'PUT', 'id'=>'form_scaner' ]) !!}
                         @else
                           {!! Form::open([ 'route' => 'denuncia.store', 'id'=>'form_scaner' ]) !!}
                         @endif
                           <div class="row">
-                            <div class="col-md-offset-2 col-sm-8">
+                            <div class="col-sm-7">
                               <input type="hidden" name="action" value="scaner">
                               <div class="form-group">
-                                {{ Form::label('registro_file', 'Archivo de Registro:', ['class' => 'lbldens control-label']) }}
+                                {{ Form::label('registro_file', 'Archivo de Registro Policial:', ['class' => 'lbldens control-label']) }}
                                 <div class="file-loading">
                                   <input id="registro_file" name="registro_file" type="file">
                                 </div>
@@ -368,14 +368,22 @@
                                 @endif
                                 <span id="error-registro_file" class="invalid-feedback"></span>
                               </div>
-                              <div class="form-group">
+                              {{-- <div class="form-group">
                                 {{ Form::label('fdenuncia', 'Fecha de Denuncia:', ['class' => 'lbldens control-label', 'style' => 'line-height:30px']) }}
                                 <div class="input-group date">
                                   <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
                                   {{ Form::text('fdenuncia', null, ['class' => 'form-control input-sm datepicker'.($errors->has('fdenuncia')?" is-invalid":""), 'id' => 'fdenuncia', 'autocomplete' => 'off', 'data-date-end-date'=>"0d"]) }}
                                 </div>
                                 <span id="error-fdenuncia" class="invalid-feedback"></span>
-                              </div>
+                              </div> --}}
+                            </div>
+                            <div class="col-sm-5">
+                              <label><em><i>Informe Policial</i> (Obligatorio)</em></label><br>
+                              <label><em><i>Manifestacion de Partes</i></em></label><br>
+                              <label><em><i>Ficha de Valoracion de Riesgo</i></em></label><br>
+                              <label><em><i>Protocolo de Pericia Psicológica</i> (Opcional)</em></label><br>
+                              <label><em><i>Certificado Medico Legal</i> (Opcional)</em></label><br>
+                              <label><em><i>Croquis de las direcciones de las Partes</i></em></label><br>
                             </div>
                           </div>
                           {{-- <div class="form-group">
@@ -421,8 +429,44 @@
                         <input type="hidden" name="action" value="cem">
                         <div class="form-group has-feedback {{ $errors->has('cem')? 'has-error':'' }}">
                           <div class="row">
-                            {{ Form::label('cem', 'CEM:', ['class' => 'col-sm-4 control-label', 'style' => 'padding-top: 10px;']) }}
+                            {{-- {{ Form::label('cem', 'CEM:', ['class' => 'col-sm-4 control-label', 'style' => 'padding-top: 10px;']) }} --}}
                             <div class="col-sm-8">
+                              <div class="row">
+                                {{-- <div class="col-md-offset-2 col-sm-8"> --}}
+                                <div class="col-sm-12">
+                                  <br>
+                                  {{ Form::label('exp', 'Informe CEM', ['class' => 'lbldenh control-label']) }}
+                                  <div class="form-group">
+                                    {{ Form::label('cem_file', 'Archivo de Informe:', ['class' => 'lbldens control-label']) }}
+                                    <div class="file-loading">
+                                      <input id="cem_file" name="cem_file" type="file" accept=".pdf">
+                                    </div>
+                                    @if (isset($denuncia->cem_file) && !empty($denuncia->cem_file))
+                                      <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> <a href="{{ url($denuncia->cem_file) }}" target="_blank">{{ explode("denuncia/",$denuncia->cem_file)[1] }}</a></span><br>
+                                    @endif
+                                    <span id="error-cem_file" class="invalid-feedback"></span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                {{-- <div class="col-md-offset-2 col-sm-8"> --}}
+                                <div class="col-sm-12">
+                                  <br>
+                                  {{ Form::label('exp', 'Informe de Medicina Legal', ['class' => 'lbldenh control-label']) }}
+                                  <div class="form-group">
+                                    {{ Form::label('medicina_file', 'Archivo de Informe:', ['class' => 'lbldens control-label']) }}
+                                    <div class="file-loading">
+                                      <input id="medicina_file" name="medicina_file" type="file" accept=".pdf">
+                                    </div>
+                                    @if (isset($denuncia->medicina_file) && !empty($denuncia->medicina_file))
+                                      <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> <a href="{{ url($denuncia->medicina_file) }}" target="_blank">{{ explode("denuncia/",$denuncia->medicina_file)[1] }}</a></span><br>
+                                    @endif
+                                    <span id="error-medicina_file" class="invalid-feedback"></span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-4"><br><br>
                               <div class="checkbox icheck">
                                 <label class="">
                                   <div class="icheckbox_square-blue" style="position: relative;">
@@ -554,7 +598,7 @@
                         </div> --}}
                         <div class="col-sm-4 col-sm-offset-4">
                           <button class="btn btn-outline-primary btn-sm" type="submit"><i class="fa fa-save"></i> Actualizar</button>
-                        </div>
+                        </div> 
                       {!! Form::close() !!}
                     </div>
                   </div>
@@ -726,8 +770,8 @@
 
                             <br>
                             {{ Form::label('exp', 'Información Adicional', ['class' => 'lbldenh control-label']) }}
-                            {{-- <div class="form-group">
-                              {{ Form::label('registro_file', 'Archivo de Registro:', ['class' => 'lbldens control-label']) }}
+                            <div class="form-group">
+                              {{ Form::label('registro_file', 'Archivo de Registro Policial:', ['class' => 'lbldens control-label']) }}
                               <div class="file-loading">
                                 <input id="registro_file" name="registro_file" type="file">
                               </div>
@@ -735,7 +779,7 @@
                                 <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> <a href="{{ url($denuncia->registro_file) }}" target="_blank">{{ explode("denuncia/",$denuncia->registro_file)[1] }}</a></span><br>
                               @endif
                               <span id="error-registro_file" class="invalid-feedback"></span>
-                            </div> --}}
+                            </div>
                             <div class="form-group has-feedback {{ $errors->has('observacion')? 'has-error':'' }}">
                               {{ Form::label('observacion', 'Observaciones:', ['class' => 'lbldens control-label']) }}
                               <div class="input-group">
@@ -764,11 +808,11 @@
                 <div class="tab-pane" id="tab_5">
                   <div class="row">
                     <div class="col-sm-10 col-sm-offset-1">
-                      @if(isset($denuncia) && !empty($denuncia['id']))
-                        {!! Form::model($denuncia, [ 'route' => ['denuncia.update', $denuncia->id], 'method' => 'PUT', 'id'=>'form_agresor' ]) !!}
-                      @else
-                        {!! Form::open([ 'route' => 'denuncia.store', 'id'=>'form_familia' ]) !!}
-                      @endif
+                        @if(isset($denuncia) && !empty($denuncia['id']))
+                          {!! Form::model($denuncia, [ 'route' => ['denuncia.update', $denuncia->id], 'method' => 'PUT', 'id'=>'form_agresor' ]) !!}
+                        @else
+                          {!! Form::open([ 'route' => 'denuncia.store', 'id'=>'form_familia' ]) !!}
+                        @endif
                         
                         <div class="row">
                           <div class="col-md-offset-2 col-sm-8">
@@ -1542,7 +1586,7 @@
       </div>
       <div class="modal-body">
         {!! Form::open([ 'route' => 'victima.store', 'id'=>'form_victima_modal' ]) !!}    
-          <div class="row">
+          {{-- <div class="row">
             <div class="col-md-6">
               <div class="form-group has-feedback {{ $errors->has('nombre')? 'has-error':'' }}">
                 {{ Form::label('nombre', 'Nombre') }}
@@ -1557,7 +1601,47 @@
                 <span id="error-apellido" class="invalid-feedback"></span>
               </div>
             </div>
+          </div> --}}
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group has-feedback {{ $errors->has('nombre1')? 'has-error':'' }}">
+                {{ Form::label('nombre1', 'Primer Nombre') }}
+                {{ Form::text('nombre1', null, ['class' => 'form-control input-sm'.($errors->has('nombre1')?" is-invalid":""), "autofocus", 'id' => 'nombre1', 'autocomplete' => 'off']) }}
+                <span id="error-nombre1" class="invalid-feedback"></span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group has-feedback {{ $errors->has('nombre2')? 'has-error':'' }}">
+                {{ Form::label('nombre2', 'Segundo Nombre') }}
+                {{ Form::text('nombre2', null, ['class' => 'form-control input-sm'.($errors->has('nombre2')?" is-invalid":""), "autofocus", 'id' => 'nombre2', 'autocomplete' => 'off']) }}
+                <span id="error-nombre2" class="invalid-feedback"></span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group has-feedback {{ $errors->has('nombre3')? 'has-error':'' }}">
+                {{ Form::label('nombre3', 'Tercer Nombre') }}
+                {{ Form::text('nombre3', null, ['class' => 'form-control input-sm'.($errors->has('nombre3')?" is-invalid":""), "autofocus", 'id' => 'nombre3', 'autocomplete' => 'off']) }}
+                <span id="error-nombre3" class="invalid-feedback"></span>
+              </div>
+            </div>
           </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group has-feedback {{ $errors->has('apellido1')? 'has-error':'' }}">
+                {{ Form::label('apellido1', 'Apellido Paterno') }}
+                {{ Form::text('apellido1', null, ['class' => 'form-control input-sm'.($errors->has('apellido1')?" is-invalid":""), "autofocus", 'id' => 'apellido1', 'autocomplete' => 'off']) }}
+                <span id="error-apellido1" class="invalid-feedback"></span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group has-feedback {{ $errors->has('apellido2')? 'has-error':'' }}">
+                {{ Form::label('apellido2', 'Apellido Materno') }}
+                {{ Form::text('apellido2', null, ['class' => 'form-control input-sm'.($errors->has('apellido2')?" is-invalid":""), "autofocus", 'id' => 'apellido2', 'autocomplete' => 'off']) }}
+                <span id="error-apellido2" class="invalid-feedback"></span>
+              </div>
+            </div>
+          </div>
+
           <div class="row">
             <div class="col-md-4">
               <div class="form-group">
@@ -1570,9 +1654,10 @@
               <div class="form-group has-feedback {{ $errors->has('nro_doc')? 'has-error':'' }}">
                 {{ Form::label('nro_doc', 'Numero de Documento') }}
                 <span title="Usar el generador de código si no existe nro. de documento" class="pull-right"><i class="fa fa-info-circle"></i></span>
+                {{-- {{ Form::text('nro_doc', null, ['class' => 'form-control input-sm'.($errors->has('nro_doc')?" is-invalid":""), "autofocus", 'id' => 'nro_doc', 'autocomplete' => 'off']) }} --}}
                 <div class="input-group">
                   {{ Form::text('nro_doc', null, ['class' => 'form-control input-sm'.($errors->has('nro_doc')?" is-invalid":""), "autofocus", 'id' => 'nro_doc', 'autocomplete' => 'off']) }}
-                  <span onclick="gCodigo(10,$(this))" class="input-group-addon"><i class="fa fa-refresh"></i></span>
+                  <span onclick="gCodigo(10,$(this),1)" class="input-group-addon"><i class="fa fa-refresh"></i></span>
                 </div>
                 <span id="error-nro_doc" class="invalid-feedback"></span>
               </div>
@@ -1664,7 +1749,7 @@
       </div>
       <div class="modal-body">
         {!! Form::open([ 'route' => 'agresor.store', 'id'=>'form_agresor_modal' ]) !!}    
-          <div class="row">
+          {{-- <div class="row">
             <div class="col-md-6">
               <div class="form-group has-feedback {{ $errors->has('nombre')? 'has-error':'' }}">
                 {{ Form::label('nombre', 'Nombre') }}
@@ -1677,6 +1762,45 @@
                 {{ Form::label('apellido', 'Apellido') }}
                 {{ Form::text('apellido', null, ['class' => 'form-control input-sm'.($errors->has('apellido')?" is-invalid":""), "autofocus", 'id' => 'apellido', 'autocomplete' => 'off']) }}
                 <span id="error-apellido" class="invalid-feedback"></span>
+              </div>
+            </div>
+          </div> --}}
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group has-feedback {{ $errors->has('nombre1')? 'has-error':'' }}">
+                {{ Form::label('nombre1', 'Primer Nombre') }}
+                {{ Form::text('nombre1', null, ['class' => 'form-control input-sm'.($errors->has('nombre1')?" is-invalid":""), "autofocus", 'id' => 'nombre1', 'autocomplete' => 'off']) }}
+                <span id="error-nombre1" class="invalid-feedback"></span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group has-feedback {{ $errors->has('nombre2')? 'has-error':'' }}">
+                {{ Form::label('nombre2', 'Segundo Nombre') }}
+                {{ Form::text('nombre2', null, ['class' => 'form-control input-sm'.($errors->has('nombre2')?" is-invalid":""), "autofocus", 'id' => 'nombre2', 'autocomplete' => 'off']) }}
+                <span id="error-nombre2" class="invalid-feedback"></span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group has-feedback {{ $errors->has('nombre3')? 'has-error':'' }}">
+                {{ Form::label('nombre3', 'Tercer Nombre') }}
+                {{ Form::text('nombre3', null, ['class' => 'form-control input-sm'.($errors->has('nombre3')?" is-invalid":""), "autofocus", 'id' => 'nombre3', 'autocomplete' => 'off']) }}
+                <span id="error-nombre3" class="invalid-feedback"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group has-feedback {{ $errors->has('apellido1')? 'has-error':'' }}">
+                {{ Form::label('apellido1', 'Apellido Paterno') }}
+                {{ Form::text('apellido1', null, ['class' => 'form-control input-sm'.($errors->has('apellido1')?" is-invalid":""), "autofocus", 'id' => 'apellido1', 'autocomplete' => 'off']) }}
+                <span id="error-apellido1" class="invalid-feedback"></span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group has-feedback {{ $errors->has('apellido2')? 'has-error':'' }}">
+                {{ Form::label('apellido2', 'Apellido Materno') }}
+                {{ Form::text('apellido2', null, ['class' => 'form-control input-sm'.($errors->has('apellido2')?" is-invalid":""), "autofocus", 'id' => 'apellido2', 'autocomplete' => 'off']) }}
+                <span id="error-apellido2" class="invalid-feedback"></span>
               </div>
             </div>
           </div>
@@ -1694,7 +1818,7 @@
                 <span title="Usar el generador de código si no existe nro. de documento" class="pull-right"><i class="fa fa-info-circle"></i></span>
                 <div class="input-group">
                   {{ Form::text('nro_doc', null, ['class' => 'form-control input-sm'.($errors->has('nro_doc')?" is-invalid":""), "autofocus", 'id' => 'nro_doc', 'autocomplete' => 'off']) }}
-                  <span onclick="gCodigo(10,$(this))" class="input-group-addon"><i class="fa fa-refresh"></i></span>
+                  <span onclick="gCodigo(10,$(this),2)" class="input-group-addon"><i class="fa fa-refresh"></i></span>
                 </div>
                 <span id="error-nro_doc" class="invalid-feedback"></span>
               </div>
@@ -1783,10 +1907,42 @@
       return result;
     }
 
-    function gCodigo(length,elm) {
+    function gCodigo(length,elm,type) {
+      debugger
       var time = new Date().getTime();
       var code = randomString(length)+time;
-      $("form#"+$(elm).closest('form').attr('id')+" input#"+$(elm).prev().attr('id')).val(code);
+
+      var nombre1 = $("form#"+$(elm).closest('form').attr('id')+" input#nombre1").val();
+      var nombre2 = $("form#"+$(elm).closest('form').attr('id')+" input#nombre2").val();
+      var nombre3 = $("form#"+$(elm).closest('form').attr('id')+" input#nombre3").val();
+      var apellido1 = $("form#"+$(elm).closest('form').attr('id')+" input#apellido1").val();
+      var apellido2 = $("form#"+$(elm).closest('form').attr('id')+" input#apellido2").val();
+      
+      // if (!nombre1.trim() && !apellido1.trim() && !apellido2.trim() && nombre1 != '' && apellido1 != '' && apellido2 != '') {
+      if (nombre1 != '' && apellido1 != '' && apellido2 != '') {
+
+        var prefix = nombre1[0]+apellido1[0]+apellido2[0];
+
+        $.ajax({
+          type: "GET",
+          url: '/denuncia/genLDAP/',
+          data : { prefix : prefix, type : type },
+          cache: false, // al navegar atras se muestra todo correctamente
+          contentType: false,
+          success: function (data) {
+            debugger
+            console.log(data);
+            $("form#"+$(elm).closest('form').attr('id')+" input#"+$(elm).prev().attr('id')).val(prefix+data);
+          },
+          error: function (xhr, status, error) {
+              alert(xhr.responseText);
+          }
+        });
+      
+      }else {
+        alert("Debe ingresar al menos un nombre y los apellidos.");
+      }
+
     }
 
     $("#tblprovincia_id,.tblprovincia").attr('disabled', 'disabled');
@@ -1999,6 +2155,30 @@
       allowedFileExtensions: ['pdf','doc','docx']
     });
     $('#registro_file').fileinput({
+      theme: 'fa',
+      language: 'es',
+      showUpload: false,
+      showCaption: true,
+      showClose: true,
+      showBrowse: true,
+      showUploadedThumbs: false,
+      showPreview: false,
+      // uploadUrl: '#',
+      allowedFileExtensions: ['pdf']
+    });
+    $('#cem_file').fileinput({
+      theme: 'fa',
+      language: 'es',
+      showUpload: false,
+      showCaption: true,
+      showClose: true,
+      showBrowse: true,
+      showUploadedThumbs: false,
+      showPreview: false,
+      // uploadUrl: '#',
+      allowedFileExtensions: ['pdf']
+    });
+    $('#medicina_file').fileinput({
       theme: 'fa',
       language: 'es',
       showUpload: false,

@@ -832,11 +832,11 @@ function loadGraph(url,order){
     });
 }
 
-function showDocumentoPolicial(url,s,id,title) {
-    var form=$("#form-registro_file");
-    var frame=$("#pdf-registro_file");
+function showDocumento(url,s,id,title,file_type) {
+    var form=$("#form-file");
+    var frame=$("#pdf-document_file");
     var span=$("#span-title");
-    var button=$("#button-registro_file");
+    var button=$("#button-file");
     var modal_message=$("#modal_message");
 
     form[0].reset();
@@ -866,22 +866,26 @@ function showDocumentoPolicial(url,s,id,title) {
                                 .removeClass('btn-primary')
                                 .addClass('btn-success');
     }
-    $("#form-registro_file").attr('action',s);
-    $("#form-registro_file").data('id',id);
-    $("#form-registro_file").data('s',s);
+    $("#form-file").attr('action',s);
+    $("#form-file").data('id',id);
+    $("#form-file").data('s',s);
+    $("#form-file").data('file_type',file_type);
+    $("#form-file").data('title',title);
     $("#showModalRegistro").modal({backdrop: 'static', keyboard: false});
 }
 
-$(document).on('click', '#button-registro_file', function (event) {
+$(document).on('click', '#button-file', function (event) {
     event.preventDefault();
     var modal_message=$("#modal_message");
     var show_message=$("#show_message");
 
-    var documento=$("#registro_file").val();
-    var form=$("#form-registro_file");
+    var documento=$("#document_file").val();
+    var form=$("#form-file");
     var button=$(this);
     var id=form.data('id');
     var s=form.data('s'); //estado de si es update o insert
+    var title=form.data('title');
+    var file_type=form.data('file_type');
 
     button.html('<i class="fa fa-refresh fa-lg fa-spin"></i> Procesando');
     button.attr('disabled', 'disabled');
@@ -890,6 +894,7 @@ $(document).on('click', '#button-registro_file', function (event) {
         $("#modal_message").addClass('hide');
         $("#show_message").html('');
         var data = new FormData(form[0]);
+        data.append('file_type',file_type);
         $.ajax({
             type: 'POST',
             url: URLs+'/denucia-subir-documento/'+id,
@@ -925,11 +930,11 @@ $(document).on('click', '#button-registro_file', function (event) {
                             .removeClass('btn-primary')
                             .addClass('btn-success');
                     if (s==0) {
-                        var message='Registro Policial <strong>subido</strong> exitosamente';
+                        var message=title+' <strong>subido</strong> exitosamente';
                         form.data('s',1);
                     }
                     else{
-                        var message='Registro Policial <strong>modificado</strong> exitosamente';
+                        var message=title+' <strong>modificado</strong> exitosamente';
                     }
                     show_message.html(message);
                     javascript:ajaxLoad('/denuncia');
@@ -953,7 +958,7 @@ $(document).on('click', '#button-registro_file', function (event) {
 
 function archivoFile(evt) {
     var files = evt.target.files; // FileList object
-    var button=$("#button-registro_file");
+    var button=$("#button-file");
     var modal_message=$("#modal_message");
     var show_message=$("#show_message");
     var frame=$("#pdf-"+evt.target.name);
@@ -992,7 +997,7 @@ function archivoFile2(evt) {
     }
 }
 
-$("#registro_file").change(function(event) {
+$("#document_file").change(function(event) {
     archivoFile(event);
 });
 
@@ -1011,6 +1016,8 @@ $(document).on('click','.fileinput-remove-button',function (event) {
         $("#pdf-registro_file2").html('');
     }
 });
+
+
 
 // Graficos
 
@@ -1185,4 +1192,8 @@ function makeChartMensual(json) {
 
 
 
+// Mostrar Notificaciones
 
+function showNotificacion(id){
+    $("#showModalNotificacion").modal({backdrop: 'static', keyboard: false});
+}
