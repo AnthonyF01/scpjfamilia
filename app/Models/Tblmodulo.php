@@ -21,7 +21,7 @@ class Tblmodulo extends Model
      *
      * @var array
      */
-    protected $fillable = [ 'nombre', 'tbldepartamento_id' ];
+    protected $fillable = [ 'nombre', 'tbldepartamento_id', 'lat', 'lng', 'zoom' ];
 
     /**
     * The attributes that aren't mass assignable.
