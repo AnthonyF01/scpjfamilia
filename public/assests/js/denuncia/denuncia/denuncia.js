@@ -1195,7 +1195,6 @@ function makeChartMensual(json) {
 // Mostrar Notificaciones
 
 function showNotificacion(id){
-    // $("#showModalNotificacion").modal({backdrop: 'static', keyboard: false});
     if (id != 0) {
         $.ajax({
             type: 'GET',
@@ -1205,7 +1204,28 @@ function showNotificacion(id){
             contentType: false,
             success: function (data) {
                 debugger;
-                $("#prueba_").html(data);
+                // $("#showModalNotificacion").modal({backdrop: 'static', keyboard: false});
+                var str = '';
+                for (var i = 0; i < data.notifications.length; i++) {
+                    str += '<div class="thumbnail"><div class="caption"><div class="row"><span style="float: left; margin:-4px 15px 4px 15px;" class="btn btn-outline-primary btn-xs">Mostrar</span><span style="float: right; margin:0px 15px 9px 15px;">' + data.notifications[i].user_id + ' hrs</span></div><div class="row"><div class="col-lg-12 col-md-12 col-ms-12 well-add-card" style="border-top: 1px solid #ccc"><h4 style="font-weight: bold">' + data.notifications[i].title + '</h4></div></div><div class="row"><div class="col-lg-12 col-md-12 col-ms-12"><p style="color: #777">' + data.notifications[i].body + '.</p></div></div><div class="row"><div class="col-lg-6 col-md-6 col-ms-6" style="border-bottom: 1px solid #ccc"><p style="margin-bottom: 5px">Latitud: ' + data.notifications[i].lat + '</p><p style="margin-bottom: 5px">Nombre: ' + data.notifications[i].nombre + '</p></div><div class="col-lg-6 col-md-6 col-ms-6" style="border-bottom: 1px solid #ccc; margin-bottom: 15px"><p style="margin-bottom: 5px">Longitud: ' + data.notifications[i].lng + '</p><p style="margin-bottom: 5px">Telefono: ' + data.notifications[i].fono + '</p></div></div><div class="row"><div class="col-lg-12 col-md-12 col-ms-12">';
+                    if (data.notifications[i].state == 1) {
+                        str += '<span style="border-radius: 5px; padding: 5px 10px;" class="bg-green">Atendido</span>';
+                    }
+                    if (data.notifications[i].state == 0) {
+                        str += '<span style="border-radius: 5px; padding: 5px 10px;" class="bg-red">Pendiente</span>';
+                    }
+                    if (data.notifications[i].state == 2) {
+                        str += '<span style="border-radius: 5px; padding: 5px 10px;" class="bg-blue">En atención</span>';
+                    }
+                    if (typeof data.notifications[i].name !== 'undefined' && data.notifications[i].name != '') {
+                        str += '<span style="border-radius: 5px; padding: 5px 10px;" class="bg-blue">' + data.notifications[i].name + '</span>';
+                    }
+                    str += '</div></div></div></div>';
+                }
+
+                $("#style-1").html(data);
+
+                // $("#prueba_").html(data);
             },
             error: function (xhr, textStatus, errorThrown) {
                 alert(xhr.responseText);

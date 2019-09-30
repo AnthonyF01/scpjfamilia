@@ -773,7 +773,8 @@ class DenunciaController extends Controller
                              // ->where('state','=',0)
                              ->orderBy('created_at','desc') 
                              ->get();
-            $ubicacion = Auth::user()->tblmodulo_id;
+            // se toma la ubicacion del usuario logueado en el sistema
+            $ubicacion = $request->user()->tblmodulo_id;
             return response()->json([
                 'status' => 'success',
                 'info' => 'Datos encontrados',
