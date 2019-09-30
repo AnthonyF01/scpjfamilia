@@ -147,6 +147,16 @@ class TblmedidaTableSeeder extends Seeder
                 'updated_at' => '2019-06-15 21:14:12',
                 'deleted_at' => NULL,
             ),
+            13 => 
+            array (
+                'id' => 14,
+                'nombre' => 'Cese de violencia',
+                'sigla' => NULL,
+                'descripcion' => NULL,
+                'created_at' => '2019-07-06 13:25:58',
+                'updated_at' => '2019-07-06 13:25:58',
+                'deleted_at' => NULL,
+            ),
         ));
         
         
