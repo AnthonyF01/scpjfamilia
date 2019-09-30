@@ -240,7 +240,7 @@ class RegisterController extends Controller
 
             return response()->json([
                 // 'success' => 'Datos actualizados'
-                'success' => $user->acceso
+                'success' => $user[0]->acceso
             ]);
             
         }
