@@ -228,10 +228,10 @@ class RegisterController extends Controller
             ]);
 
             $user = User::where('id','=',$request->user()->id)->first();
-            Log::info('user_find ', ['user' => $user->acceso]);
+            Log::info('user_find ', ['user' => strval($user->acceso)]);
 
             // actualizar victima (user_id)
-            if ($user->acceso == '0') { // victima
+            if (strval($user->acceso) == '0') { // victima
                 $victima = Victima::where('nro_doc','=',$user->dni)->first();
                 if (isset($victima) && !empty($victima)) {
                     $victima->user_id = $user->id;
@@ -241,7 +241,7 @@ class RegisterController extends Controller
 
             return response()->json([
                 // 'success' => 'Datos actualizados'
-                'success' => $user->acceso
+                'success' => strval($user->acceso)
             ]);
             
         }
