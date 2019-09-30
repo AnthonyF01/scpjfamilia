@@ -227,7 +227,7 @@ class RegisterController extends Controller
                 'direccion' => $request->direccion,
             ]);
 
-            $user = User::where('id','=',$request->user()->id)->first();
+            $user = User::find($request->user()->id);
 
             // actualizar victima (user_id)
             if ($request->user()->acceso == 0) { // victima
