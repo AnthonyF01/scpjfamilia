@@ -761,7 +761,7 @@ class DenunciaController extends Controller
             }
         }
 
-        if (count($arrUser) > 0) {
+        if (isset($arrUser) && !empty($arrUser) && count($arrUser) > 0) {
             $notifications = DB::table('notification')
                              ->join('users as u','u.id','=','notification.user_id')
                              ->leftJoin('users as u1','u1.id','=','notification.worker_id')
