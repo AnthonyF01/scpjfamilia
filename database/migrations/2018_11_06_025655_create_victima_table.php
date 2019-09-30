@@ -15,6 +15,7 @@ class CreateVictimaTable extends Migration
     {
         Schema::create('victima', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('user_id')->nullable()->unsigned();
             $table->integer('tbldepartamento_id')->unsigned();
             $table->integer('tblprovincia_id')->unsigned();
             $table->integer('tbldistrito_id')->unsigned();
@@ -42,6 +43,7 @@ class CreateVictimaTable extends Migration
             $table->foreign('tbldistrito_id')->references('id')->on('tbldistrito');
             $table->foreign('tbldocumento_id')->references('id')->on('tbldocumento');
             $table->foreign('tbltipo_id')->references('id')->on('tbltipo');
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 
