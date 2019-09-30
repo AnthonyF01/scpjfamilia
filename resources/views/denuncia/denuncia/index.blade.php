@@ -345,5 +345,7 @@
     var chk = {{ Session::get('checked') }};
     // alert(date1 + ' - ' + date2 + ' - ' + chk);
   </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqWkugYzfAI4tg9Hy0QkM2xhx6HfNxMkQ"></script>
+  <script src="{{ asset('adminlte245/plugins/maps/infobox.js') }}"></script>
   <script src="{{ asset('assests/js/denuncia/denuncia/denuncia.js') }}"></script>
 @endsection
