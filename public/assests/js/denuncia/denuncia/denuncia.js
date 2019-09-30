@@ -1102,7 +1102,7 @@ var meses = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","
 
 function makeChartMensual(json) {
     var objectJSON = json;
-    console.log(objectJSON.json);
+    // console.log(objectJSON.json);
     // alert(Math.max.apply(Math,objectJSON.maxHeight));
     var x = json.json;
     x.sort(function(a, b){
@@ -1196,19 +1196,22 @@ function makeChartMensual(json) {
 
 function showNotificacion(id){
     // $("#showModalNotificacion").modal({backdrop: 'static', keyboard: false});
-    alert(id);
-    $.ajax({
-        type: 'GET',
-        url: '/denuncia/getNotificacion',
-        data: { id: id },
-        cache: false,
-        contentType: false,
-        success: function (data) {
-            debugger;
-            $("#prueba_").html(data);
-        },
-        error: function (xhr, textStatus, errorThrown) {
-            alert(xhr.responseText);
-        }
-    });
+    if (id != 0) {
+        $.ajax({
+            type: 'GET',
+            url: '/denuncia/getNotificacion',
+            data: { id: id },
+            cache: false,
+            contentType: false,
+            success: function (data) {
+                debugger;
+                $("#prueba_").html(data);
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                alert(xhr.responseText);
+            }
+        });
+    }else{
+        alert("La denuncia no registra usuarios con la aplicacion instalada.");
+    }
 }
