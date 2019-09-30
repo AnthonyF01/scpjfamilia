@@ -218,7 +218,7 @@ class RegisterController extends Controller
             $modulo = Tblmodulo::where('tbldepartamento_id','=',$request->tbldepartamento_id)
                                 ->where('nombre','=',$departamento->nombre)->first();
 
-            $user = User::where('id', $request->user()->id)->update([
+            User::where('id', $request->user()->id)->update([
                 'nombre' => $request->nombre,
                 'tbldepartamento_id' => $request->tbldepartamento_id,
                 'tblmodulo_id' => $modulo->id,
@@ -226,6 +226,8 @@ class RegisterController extends Controller
                 'fono' => $request->fono,
                 'direccion' => $request->direccion,
             ]);
+
+            $user = User::find($request->user()->id)->first();
 
             // actualizar victima (user_id)
             if ($request->user()->acceso == 0) { // victima
@@ -238,7 +240,7 @@ class RegisterController extends Controller
 
             return response()->json([
                 // 'success' => 'Datos actualizados'
-                'success' => $request->user()->acceso
+                'success' => $user->acceso
             ]);
             
         }
