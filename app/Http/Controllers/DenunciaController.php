@@ -774,7 +774,7 @@ class DenunciaController extends Controller
                              ->orderBy('created_at','desc') 
                              ->get();
             // se toma la ubicacion del usuario logueado en el sistema
-            $ubicacion = $request->user()->tblmodulo_id;
+            $ubicacion = Tblmodulo::where('id','=',$request->user()->tblmodulo_id)-first();
             return response()->json([
                 'status' => 'success',
                 'info' => 'Datos encontrados',
