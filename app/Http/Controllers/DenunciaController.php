@@ -786,7 +786,7 @@ class DenunciaController extends Controller
                 'info' => 'La denuncia no registra usuarios con la aplicacion instalada.',
             ]);
         }
-
+        
     }
 
     /**
