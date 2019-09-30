@@ -228,7 +228,7 @@ class RegisterController extends Controller
             ]);
 
             $user = User::where('id','=',$request->user()->id)->first();
-            Log::info('user_find ', ['user' => $user]);
+            Log::info('user_find ', ['user' => $user->acceso]);
 
             // actualizar victima (user_id)
             if ($request->user()->acceso == 0) { // victima
