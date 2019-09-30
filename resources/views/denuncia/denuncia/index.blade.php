@@ -30,6 +30,15 @@
       z-index: 2000;
       display: none;
     }
+    #style-1::-webkit-scrollbar {
+      width: 8px;
+      background-color: #F5F5F5;
+    }
+    #style-1::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      background-color: #666;
+    }
   </style>
 @endsection
 
@@ -294,14 +303,7 @@
                       </div>
                       <div class="panel-body" style="padding: 15px">
                         <div class="row">
-                          <div class="col-md-4">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                          </div>
+                          <div id="style-1" class="col-md-4" style="height: 500px; overflow-y: scroll;"></div>
                           <div class="col-md-8">
                             <!-- MAP -->
                             <div class="thumbnail" id="widget">
