@@ -784,6 +784,7 @@ class DenunciaController extends Controller
             return response()->json([
                 'status' => 'error',
                 'info' => 'La denuncia no registra usuarios con la aplicacion instalada.',
+                'arrUser' => $arrUser,
             ]);
         }
         
