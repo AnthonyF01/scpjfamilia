@@ -304,7 +304,7 @@
                       <div class="panel-body" style="padding: 15px">
                         <div class="row">
                           <div id="style-1" class="col-md-4" style="height: 500px; overflow-y: scroll;"></div>
-                          <div class="col-md-8">
+                          <div id="style-2" class="col-md-8">
                             <!-- MAP -->
                             <div class="thumbnail" id="widget">
                                 <div class="map_canvas" id="mapa" style="height: 500px; "></div>
