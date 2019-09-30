@@ -231,7 +231,7 @@ class RegisterController extends Controller
             Log::info('user_find ', ['user' => $user->acceso]);
 
             // actualizar victima (user_id)
-            if ($request->user()->acceso == 0) { // victima
+            if ($user->acceso == '0') { // victima
                 $victima = Victima::where('nro_doc','=',$user->dni)->first();
                 if (isset($victima) && !empty($victima)) {
                     $victima->user_id = $user->id;
@@ -241,7 +241,7 @@ class RegisterController extends Controller
 
             return response()->json([
                 // 'success' => 'Datos actualizados'
-                'success' => $request->user()->acceso
+                'success' => $user->acceso
             ]);
             
         }
