@@ -1194,30 +1194,12 @@ function makeChartMensual(json) {
 
 // Mostrar Notificaciones
 
-function loadMap(jsonMAP) {
+function loadMap(jsonMAP,position) {
 
-    // lima: -12.043974, -77.043270
-    // tacna: -18.013164, -70.250465
-
-    var ubicacion = $("#ubicacion").val();
-    if (ubicacion == '30') { // tacna
     var map = new google.maps.Map(document.getElementById('mapa'), {
-        center: new google.maps.LatLng(-18.013164, -70.250465),
-        zoom: 13
+        center: new google.maps.LatLng(position.lat, position.lng),
+        zoom: position.zoom
     });
-    }else{
-    if (ubicacion == '33') { // ventanilla
-      var map = new google.maps.Map(document.getElementById('mapa'), {
-          center: new google.maps.LatLng(-11.877123, -77.125776),
-          zoom: 13
-      });
-    }else { // lima
-      var map = new google.maps.Map(document.getElementById('mapa'), {
-          center: new google.maps.LatLng(-12.043974, -77.043270),
-          zoom: 13
-      });
-    }
-    }
 
     var infoWindow = new google.maps.InfoWindow;
 
@@ -1234,112 +1216,112 @@ function loadMap(jsonMAP) {
     // console.log(jsonMAP);
 
     $.each(jsonMAP, function(key, data) {
-      console.log(data.lat);
-      var mylatlng = new google.maps.LatLng(parseFloat(data.lat), parseFloat(data.lng));
-      // var mylatlng = new google.maps.LatLng(-18.04661, -70.24653);
+        console.log(data.lat);
+        var mylatlng = new google.maps.LatLng(parseFloat(data.lat), parseFloat(data.lng));
+        // var mylatlng = new google.maps.LatLng(-18.04661, -70.24653);
 
-      // Creating a marker and putting it on the map
-      var marker = new google.maps.Marker({
-          position: mylatlng,
-          clickable:true, 
-          map:map, 
-          animation:google.maps.Animation.DROP,
-          // icon: {
-          //     path: google.maps.SymbolPath.CIRCLE,
-          //     fillOpacity: 0.5,
-          //     fillColor: '#ff0000',
-          //     strokeOpacity: 1.0,
-          //     strokeColor: '#fff000',
-          //     strokeWeight: 3.0, 
-          //     scale: 20 //pixels
-          // }
-      });
+        // Creating a marker and putting it on the map
+        var marker = new google.maps.Marker({
+            position: mylatlng,
+            clickable:true, 
+            map:map, 
+            animation:google.maps.Animation.DROP,
+            // icon: {
+            //     path: google.maps.SymbolPath.CIRCLE,
+            //     fillOpacity: 0.5,
+            //     fillColor: '#ff0000',
+            //     strokeOpacity: 1.0,
+            //     strokeColor: '#fff000',
+            //     strokeWeight: 3.0, 
+            //     scale: 20 //pixels
+            // }
+        });
 
-      if (data.state == 0) {
-        marker.setIcon('/assests/img/icons/red-marker2.png');
-      }
-      if (data.state == 1) {
-        marker.setIcon('/assests/img/icons/green-marker2.png');
-      }
-      if (data.state == 2) {
-        marker.setIcon('/assests/img/icons/blue-marker2.png');
-      }
+        if (data.state == 0) {
+          marker.setIcon('/assests/img/icons/red-marker2.png');
+        }
+        if (data.state == 1) {
+          marker.setIcon('/assests/img/icons/green-marker2.png');
+        }
+        if (data.state == 2) {
+          marker.setIcon('/assests/img/icons/blue-marker2.png');
+        }
 
-      var infowincontent = document.createElement('div');
+        var infowincontent = document.createElement('div');
 
-      var strong = document.createElement('strong');
-      strong.textContent = "Nombre: ";
-      infowincontent.appendChild(strong);
-      var text = document.createElement('text');
-      text.textContent = data.nombre;
-      infowincontent.appendChild(text);
+        var strong = document.createElement('strong');
+        strong.textContent = "Nombre: ";
+        infowincontent.appendChild(strong);
+        var text = document.createElement('text');
+        text.textContent = data.nombre;
+        infowincontent.appendChild(text);
 
-      infowincontent.appendChild(document.createElement('br'));
-      
-      var strong = document.createElement('strong');
-      strong.textContent = "Telefono: ";
-      infowincontent.appendChild(strong);
-      var text = document.createElement('text');
-      text.textContent = data.fono;
-      infowincontent.appendChild(text);
+        infowincontent.appendChild(document.createElement('br'));
+        
+        var strong = document.createElement('strong');
+        strong.textContent = "Telefono: ";
+        infowincontent.appendChild(strong);
+        var text = document.createElement('text');
+        text.textContent = data.fono;
+        infowincontent.appendChild(text);
 
-      marker.setMap(map);
-      // marker.setIcon('http://maps.google.com/mapfiles/ms/icons/green-dot.png');
-      marker.addListener('click', function() {
-          infoWindow.setContent(infowincontent);
-          infoWindow.open(map, marker);
-      });
+        marker.setMap(map);
+        // marker.setIcon('http://maps.google.com/mapfiles/ms/icons/green-dot.png');
+        marker.addListener('click', function() {
+            infoWindow.setContent(infowincontent);
+            infoWindow.open(map, marker);
+        });
 
-      // add circles
-      /*var circle = new google.maps.Circle({
-          strokeColor: colorCircle[counter],
-          strokeOpacity: 0.8,
-          strokeWeight: 2,
-          fillColor: colorCircle[counter],
-          fillOpacity: 0.9,
-          map: map,
-          center: {lat: data.lat, lng: data.lon},
-          radius: 500
-      });
-      // text to circle
-      var infowincontent = document.createElement('div');
-      var strong = document.createElement('strong');
-      strong.textContent = data.nombre;
-      infowincontent.appendChild(strong);
-      infowincontent.appendChild(document.createElement('br'));
-      var text = document.createElement('text');
-      text.textContent = data.total;
-      infowincontent.appendChild(text);
-      circle.addListener('click', function() {
-          infoWindow.setContent(infowincontent);
-          infoWindow.open(map, circle);
-      });*/
+        // add circles
+        /*var circle = new google.maps.Circle({
+            strokeColor: colorCircle[counter],
+            strokeOpacity: 0.8,
+            strokeWeight: 2,
+            fillColor: colorCircle[counter],
+            fillOpacity: 0.9,
+            map: map,
+            center: {lat: data.lat, lng: data.lon},
+            radius: 500
+        });
+        // text to circle
+        var infowincontent = document.createElement('div');
+        var strong = document.createElement('strong');
+        strong.textContent = data.nombre;
+        infowincontent.appendChild(strong);
+        infowincontent.appendChild(document.createElement('br'));
+        var text = document.createElement('text');
+        text.textContent = data.total;
+        infowincontent.appendChild(text);
+        circle.addListener('click', function() {
+            infoWindow.setContent(infowincontent);
+            infoWindow.open(map, circle);
+        });*/
 
-      // text inner circles
-      /*var myOptions = {
-          content: data.total,
-          boxStyle: {
-              // background: transparent,
-              color: '#fff',
-              textAlign: "center",
-              fontSize: "9pt",
-              fontWeight: 'bold',
-              width: "50px"
-          },
-          disableAutoPan: true,
-          pixelOffset: new google.maps.Size(-25, -10), // left upper corner of the label
-          position: new google.maps.LatLng(data.lat,data.lon),
-          closeBoxURL: "",
-          isHidden: false,
-          pane: "floatPane",
-          zIndex: 100,
-          enableEventPropagatiºon: true
-      };
-      var ib = new InfoBox(myOptions);
+        // text inner circles
+        /*var myOptions = {
+            content: data.total,
+            boxStyle: {
+                // background: transparent,
+                color: '#fff',
+                textAlign: "center",
+                fontSize: "9pt",
+                fontWeight: 'bold',
+                width: "50px"
+            },
+            disableAutoPan: true,
+            pixelOffset: new google.maps.Size(-25, -10), // left upper corner of the label
+            position: new google.maps.LatLng(data.lat,data.lon),
+            closeBoxURL: "",
+            isHidden: false,
+            pane: "floatPane",
+            zIndex: 100,
+            enableEventPropagatiºon: true
+        };
+        var ib = new InfoBox(myOptions);
 
-      ib.open(map);*/
+        ib.open(map);*/
 
-      counter++;
+        counter++;
 
     });
   
@@ -1373,7 +1355,12 @@ function showNotificacion(id){
                     str += '</div></div></div></div>';
                 }
 
+                // listado de notificaciones
                 $("#style-1").html(str);
+
+                // generar mapa
+                loadMap(data.notifications,data.ubicacion);
+
                 $("#showModalNotificacion").modal({backdrop: 'static', keyboard: false});
 
                 // $("#prueba_").html(data);

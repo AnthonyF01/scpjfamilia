@@ -217,6 +217,7 @@
   <script type="text/javascript">
 
     function loadMap(jsonMAP) {
+      debugger
 
       // lima: -12.043974, -77.043270
       // tacna: -18.013164, -70.250465
