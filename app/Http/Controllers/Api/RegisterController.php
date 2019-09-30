@@ -228,7 +228,7 @@ class RegisterController extends Controller
             ]);
 
             $user = User::where('id','=',$request->user()->id)->first();
-            Log::info('user_find ', ['user' => strval($user->acceso)]);
+            // Log::info('user_find ', ['user' => strval($user->acceso)]);
 
             // actualizar victima (user_id)
             if (strval($user->acceso) == '0') { // victima
@@ -240,8 +240,8 @@ class RegisterController extends Controller
             }
 
             return response()->json([
-                // 'success' => 'Datos actualizados'
-                'success' => strval($user->acceso)
+                'success' => 'Datos actualizados'
+                // 'success' => strval($user->acceso)
             ]);
             
         }
