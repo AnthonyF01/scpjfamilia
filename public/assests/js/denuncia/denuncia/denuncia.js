@@ -1195,5 +1195,20 @@ function makeChartMensual(json) {
 // Mostrar Notificaciones
 
 function showNotificacion(id){
-    $("#showModalNotificacion").modal({backdrop: 'static', keyboard: false});
+    // $("#showModalNotificacion").modal({backdrop: 'static', keyboard: false});
+    alert(id);
+    $.ajax({
+        type: 'GET',
+        url: '/denuncia/getNotificacion',
+        data: { id: id },
+        cache: false,
+        contentType: false,
+        success: function (data) {
+            debugger;
+            $("#prueba_").html(data);
+        },
+        error: function (xhr, textStatus, errorThrown) {
+            alert(xhr.responseText);
+        }
+    });
 }

@@ -743,19 +743,50 @@ class DenunciaController extends Controller
         return response()->json($codigo[0]->suffix);
     }
 
-    public function getNotificacion(Request $request, $id)
+    public function getNotificacion(Request $request)
     {
-        $notifications = DB::table('notification')
-                         ->join('users as u','u.id','=','notification.user_id')
-                         ->leftJoin('users as u1','u1.id','=','notification.worker_id')
-                         ->leftJoin('role_user','role_user.user_id','=','u1.id')
-                         ->leftJoin('roles','roles.id','=','role_user.role_id')
-                         ->select('notification.*','u.nombre','u.fono','u.direccion','roles.name')
-                         ->where('notification.tbldepartamento_id','=',$request->user()->tbldepartamento_id)
-                         // ->where('state','=',0)
-                         ->orderBy('created_at','desc') 
-                         ->get();
-        $ubicacion = Auth::user()->tblmodulo_id;
+
+        $denuncia = Denuncia::whereNotNull('fdenuncia')->whereNotNull('fformalizacion')->whereNull('deleted_at')->find($request['id']);
+
+        // dd($denuncia->victimas->toArray());
+        
+        // usuarios registrados en la tabla user y que tienen acceso a la app
+        $arrVictimas = $denuncia->victimas->toArray();
+
+        $arrUser = [];
+
+        for ($i=0; $i < count($arrVictimas); $i++) { 
+            if (isset($arrVictimas[$i]['user_id']) && !empty($arrVictimas[$i]['user_id']) && $arrVictimas[$i]['user_id'] != '') {
+                $arrUser[] = $arrVictimas[$i]['user_id'];
+            }
+        }
+
+        if (count($arrUser) > 0) {
+            $notifications = DB::table('notification')
+                             ->join('users as u','u.id','=','notification.user_id')
+                             ->leftJoin('users as u1','u1.id','=','notification.worker_id')
+                             ->leftJoin('role_user','role_user.user_id','=','u1.id')
+                             ->leftJoin('roles','roles.id','=','role_user.role_id')
+                             ->select('notification.*','u.nombre','u.fono','u.direccion','roles.name')
+                             ->where('notification.tbldepartamento_id','=',$request->user()->tbldepartamento_id)
+                             ->whereIn('notification.user_id', $arrUser)
+                             // ->where('state','=',0)
+                             ->orderBy('created_at','desc') 
+                             ->get();
+            $ubicacion = Auth::user()->tblmodulo_id;
+            return response()->json([
+                'status' => 'success',
+                'info' => 'Datos encontrados',
+                'notifications' => $notifications,
+                'ubicacion' => $ubicacion,
+            ]);
+        }else{
+            return response()->json([
+                'status' => 'error',
+                'info' => 'La denuncia no registra usuarios con la aplicacion instalada.',
+            ]);
+        }
+
     }
 
     /**

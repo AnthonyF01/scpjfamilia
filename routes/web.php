@@ -391,13 +391,12 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('denuncia/autocomplete','DenunciaController@autocomplete');
 
-    Route::get('denuncia/{denuncia}/getNotificacion', 'DenunciaController@getNotificacion')->name('denuncia.getNotificacion')
-        ->middleware('permission:denuncia.getNotificacion');
-
     Route::get('denuncia/genLDAP', 'DenunciaController@genLDAP')->name('denuncia.genLDAP');
     
     Route::get('denuncia/getGData', 'DenunciaController@getGData')->name('denuncia.getGData')
         ->middleware('permission:denuncia.getGData');
+
+    Route::get('denuncia/getNotificacion', 'DenunciaController@getNotificacion')->name('denuncia.getNotificacion');
 
     Route::get('denuncia/documento', 'DenunciaController@documento')->name('denuncia.documento')
         ->middleware('permission:denuncia.documento');

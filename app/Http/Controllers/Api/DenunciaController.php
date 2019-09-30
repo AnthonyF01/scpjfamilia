@@ -21,7 +21,11 @@ class DenunciaController extends Controller
         
         if ($expediente != '') {
             $denuncia = Denuncia::where('expediente', 'like', '%'.$expediente.'%')
-                        ->where('tblmodulo_id','=',$request->user()->tblmodulo_id)->take(10)->get();
+                        ->where('tblmodulo_id','=',$request->user()->tblmodulo_id)
+                        ->whereNotNull('fdenuncia')
+                        ->whereNotNull('fformalizacion')
+                        ->whereNull('deleted_at')
+                        ->take(10)->get();
         }else {
             $denuncia = [];
         }
@@ -62,7 +66,7 @@ class DenunciaController extends Controller
                         $join->on('denuncia.id','=','denuncia_victima.denuncia_id');
                         $join->where('denuncia_victima.victima_id','=',$id);
                     });
-                    $denuncia = $denuncia->where('tblmodulo_id','=',$request->user()->tblmodulo_id)->whereNull('deleted_at')->take(10)->get();
+                    $denuncia = $denuncia->where('tblmodulo_id','=',$request->user()->tblmodulo_id)->whereNotNull('fdenuncia')->whereNotNull('fformalizacion')->whereNull('deleted_at')->take(10)->get();
                     // $denuncia = $denuncia->where('tblmodulo_id','=',33)->take(10)->get();
                     $victima = [];
 
@@ -94,7 +98,7 @@ class DenunciaController extends Controller
     {
 
         if ($dni != '') {
-            $sql = " SELECT d.* from denuncia d join denuncia_victima dv on d.id=dv.denuncia_id join victima v on v.id=dv.victima_id where d.deleted_at is null and v.nro_doc = '".$dni."' and ( d.medida_file != '' or d.medida_file is not null) ";
+            $sql = " SELECT d.* from denuncia d join denuncia_victima dv on d.id=dv.denuncia_id join victima v on v.id=dv.victima_id where d.deleted_at is null and d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL and v.nro_doc = '".$dni."' and ( d.medida_file != '' or d.medida_file is not null) ";
             $filtro = DB::select(DB::raw($sql));
 
             if (count($filtro)>0) {
@@ -107,7 +111,7 @@ class DenunciaController extends Controller
                 }else{
                     $victima = [];
                     $status = 'error';
-                    $msg = 'El usuario ya ha sido registrado.';
+                    $msg = 'El usuario con el dni '.$dni.' ya ha sido registrado.';
                 }
             }else{
                 $victima = [];
@@ -132,7 +136,7 @@ class DenunciaController extends Controller
     public function detailsVictimaExp(Request $request)
     {
         Log::info('search victima: ', ['request' => $request->all(),'request_user' => $request->user()]);
-        $sql = " SELECT d.* from denuncia d join denuncia_victima dv on d.id=dv.denuncia_id join victima v on v.id=dv.victima_id where d.deleted_at is null and v.nro_doc = '".$request->user()->dni."' and ( d.medida_file != '' or d.medida_file is not null) ";
+        $sql = " SELECT d.* from denuncia d join denuncia_victima dv on d.id=dv.denuncia_id join victima v on v.id=dv.victima_id where d.deleted_at is null and d.fdenuncia IS NOT NULL and d.fformalizacion IS NOT NULL and v.nro_doc = '".$request->user()->dni."' and ( d.medida_file != '' or d.medida_file is not null) ";
         $filtro = DB::select(DB::raw($sql));
 
         return response()->json([

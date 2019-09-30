@@ -89,16 +89,18 @@ class RegisterController extends Controller
 
             // victima registrada en la denuncia
             // solo una victima tendra acceso a la aplicacion (por exediente)
+            // la victima tendra su usario enlazado en la tabla victima (user_id)
             if (!empty($sVictima) && count($sVictima)>0) {
                 // actualizar denuncias (device activo)
                 foreach ($sVictima->denuncias as $denuncia) { 
-                    Denuncia::where('expediente','=',$denuncia->expediente)->update(['device' => 1]);
+                    Denuncia::where('expediente','=',$denuncia->expediente)->whereNotNull('medida_file')->whereNotNull('fdenuncia')->whereNotNull('fformalizacion')->whereNull('deleted_at')->update(['device' => 1]);
                 }
                 
                 // get modulo
-                $departamento = Tbldepartamento::where('id','=',$request->tbldepartamento_id)->first();
+                $departamento = Tbldepartamento::where('id','=',$request->tbldepartamento_id)
+                                                ->whereNull('deleted_at')->first();
                 $modulo = Tblmodulo::where('tbldepartamento_id','=',$request->tbldepartamento_id)
-                                    ->where('nombre','=',$departamento->nombre)->first();
+                                    ->where('nombre','=',$departamento->nombre)->whereNull('deleted_at')->first();
 
                 $user = User::create([
                     'nombre' => $request->nombre,
@@ -110,6 +112,10 @@ class RegisterController extends Controller
                     'password' => bcrypt($request->password),
                     'acceso' => 0,      // accede solo a la app movil
                 ]);
+
+                // registra en la victima el usuario de la app
+                $sVictima->user_id = $user->id;
+                $sVictima->save();
 
                 $device = Device::create([
                     'user_id' => $user->id,
@@ -221,6 +227,15 @@ class RegisterController extends Controller
                 'direccion' => $request->direccion,
             ]);
 
+            // actualizar victima (user_id)
+            if ($user->acceso == 0) { // victima
+                $victima = Victima::where('nro_doc','=',$user->dni)->first();
+                if (isset($victima) && !empty($victima)) {
+                    $victima->user_id = $user->id;
+                    $victima->save();
+                }
+            }
+
             return response()->json([
                 'success' => 'Datos actualizados'
             ]);
@@ -321,9 +336,9 @@ class RegisterController extends Controller
 
         // si el usuario buscado puede acceder a la aplicacion web, entonces puede ver el menu notificaciones
         $user = User::where('id','=',$request->user()->id)->where('acceso','=','1')->first();
-        if (!empty($user) && count($user)>0) {
+        if (!empty($user) && count($user)>0) { // admin o policia
             return 1;
-        }else{
+        }else{ // victima
             return 0;
         }
     }
