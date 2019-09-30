@@ -1223,7 +1223,7 @@ function showNotificacion(id){
                     str += '</div></div></div></div>';
                 }
 
-                $("#style-1").html(data);
+                $("#style-1").html(str);
 
                 // $("#prueba_").html(data);
             },
