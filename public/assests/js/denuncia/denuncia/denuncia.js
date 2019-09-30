@@ -1198,7 +1198,7 @@ function loadMap(jsonMAP,position) {
 
     var map = new google.maps.Map(document.getElementById('mapa'), {
         center: new google.maps.LatLng(position.lat, position.lng),
-        zoom: position.zoom
+        zoom: parseInt(position.zoom,10)
     });
 
     var infoWindow = new google.maps.InfoWindow;
