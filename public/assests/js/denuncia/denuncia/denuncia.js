@@ -1374,7 +1374,7 @@ function showNotificacion(id){
     
                 }else {
 
-                    alert(info);
+                    alert(info); 
 
                 }
 
