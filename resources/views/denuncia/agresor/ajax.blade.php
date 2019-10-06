@@ -51,12 +51,12 @@
           </th>
 
           <th>
-            <a class="btn-block" href="javascript:ajaxLoad('{{url('agresor?field=email&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Apellido <i style="margin-right: 10px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+            <a class="btn-block" href="javascript:ajaxLoad('{{url('agresor?field=apellido&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Apellido <i style="margin-right: 10px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
             </a>
           </th>
 
           <th>
-            <a class="btn-block" href="javascript:ajaxLoad('{{url('agresor?field=fono&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Documento <i style="margin-right: 10px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+            <a class="btn-block" href="javascript:ajaxLoad('{{url('agresor?field=nro_doc&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Documento <i style="margin-right: 10px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
             </a>
           </th>
 
@@ -66,7 +66,7 @@
           </th>
 
           <th>
-            <a class="btn-block" href="javascript:ajaxLoad('{{url('tblcomisaria?field=tbldepartamento_id&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Departamento
+            <a class="btn-block" href="javascript:ajaxLoad('{{url('agresor?field=tbldepartamento_id&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Departamento
                <i style="margin-right: 10px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
             </a>
           </th>
