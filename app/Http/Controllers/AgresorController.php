@@ -84,7 +84,7 @@ class AgresorController extends Controller
     public function create() /* no usado */
     {
 
-        $departamentos = Tbldepartamento::all()->whereNull('deleted_at')->pluck('nombre', 'id');
+        $departamentos = Tbldepartamento::whereNull('deleted_at')->pluck('nombre', 'id');
         // $provincias = Tblprovincia::all()->pluck('nombre', 'id');
         // $distritos = Tbldistrito::all()->pluck('nombre', 'id');
         $documentos = Tbldocumento::whereNull('deleted_at')->orderBy('nombre','asc')->pluck('nombre', 'id');
@@ -256,7 +256,7 @@ class AgresorController extends Controller
 
         $agresor = Agresor::findOrFail($id);
 
-        $departamentos = Tbldepartamento::whereNull('deleted_at')->all()->pluck('nombre', 'id');
+        $departamentos = Tbldepartamento::whereNull('deleted_at')->pluck('nombre', 'id');
         // $provincias = Tblprovincia::all()->pluck('nombre', 'id');
         // $distritos = Tbldistrito::all()->pluck('nombre', 'id');
         $documentos = Tbldocumento::whereNull('deleted_at')->orderBy('nombre','asc')->pluck('nombre', 'id');
