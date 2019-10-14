@@ -60,7 +60,7 @@
       </th>
 
       <th class="modHeader">
-        <a class="btn-block" href="javascript:ajaxLoad('{{url('tblinstancia?field=tblcomisaria_id&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">JUZ. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+        <a class="btn-block" href="javascript:ajaxLoad('{{url('tblinstancia?field=tblinstancia_id&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">JUZ. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
 
@@ -90,7 +90,7 @@
       </th>
 
       <th class="modHeader" title="Fecha Denuncia">
-        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=fdenuncia&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">F. Den. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=fremisiond&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">F. Den. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
 

@@ -21,7 +21,7 @@ class Agresor extends Model
      *
      * @var array
      */
-    protected $fillable = [ 'nombre', 'apellido', 'nombre1', 'nombre2', 'nombre3', 'apellido', 'apellido1', 'apellido2', 'tbldocumento_id', 'nro_doc', 'sexo', 'tbldepartamento_id', 'tblprovincia_id', 'tbldistrito_id', 'telefono', 'direccion' ];
+    protected $fillable = [ 'nombre', 'apellido', 'nombre1', 'nombre2', 'nombre3', 'apellido', 'apellido1', 'apellido2', 'tbldocumento_id', 'nro_doc', 'sexo', 'tbldepartamento_id', 'tblprovincia_id', 'tbldistrito_id', 'telefono', 'email', 'direccion' ];
 
     /**
     * The attributes that aren't mass assignable.
@@ -61,11 +61,16 @@ class Agresor extends Model
     { 
         // la convencion de nombramiento de tablas debe ser en orden albafetico => la tabla pivot debio llamarse:
         // agresor_denuncia pero se llama denuncia_agresor por lo que se debe indicar el nombre de la tabla pivot
-        return $this->belongsToMany(Denuncia::class, 'denuncia_agresor'); 
+        return $this->belongsToMany(Denuncia::class, 'denuncia_agresor', 'agresor_id', 'denuncia_id'); 
     }
 
     public function denunciaagresores ()
     {
         return $this->hasMany(DenunciaAgresor::class);  // !importante - Para los modelos  =>  Category::class
+    }
+
+    public function tblparentescos () 
+    {
+        return $this->belongsToMany(Tblparentesco::class, 'denuncia_agresor', 'agresor_id', 'tblparentesco_id'); 
     }
 }

@@ -33,6 +33,9 @@ Route::get('/home',function (){
     return redirect()->to('/denuncia');
 })->name('home');
 
+// Route::get('denuncia/jitinerante/', 'DenunciaController@jitinerante')->name('denuncia.jitinerante')
+//         ->middleware('permission:denuncia.jitinerante');
+
 Route::middleware(['auth'])->group(function () {
 
     // Cargar Provincias y Distritos
@@ -393,8 +396,8 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('denuncia/genLDAP', 'DenunciaController@genLDAP')->name('denuncia.genLDAP');
     
-    Route::get('denuncia/getGData', 'DenunciaController@getGData')->name('denuncia.getGData')
-        ->middleware('permission:denuncia.getGData');
+    Route::get('denuncia/getGData', 'DenunciaController@getGData')->name('denuncia.getGData');
+        // ->middleware('permission:denuncia.getGData');
 
     Route::get('denuncia/getNotificacion', 'DenunciaController@getNotificacion')->name('denuncia.getNotificacion');
 
@@ -445,6 +448,27 @@ Route::middleware(['auth'])->group(function () {
 
     Route::put('denuncia/ejecucion/{denuncia}', 'DenunciaController@ejecucionUpdate')->name('denuncia.ejecucionUpdate')
         ->middleware('permission:denuncia.ejecucion');
+
+
+    // Itinerancia en Comisaria
+    Route::get('denuncia/jitinerante/index', 'DenunciaController@jitinerante')->name('denuncia.jitinerante')
+        ->middleware('permission:denuncia.jitinerante');
+
+    Route::get('denuncia/jitinerante/create', 'DenunciaController@jicreate')->name('denuncia.jicreate')
+        ->middleware('permission:denuncia.jicreate');
+
+    Route::post('denuncia/jitinerante/store', 'DenunciaController@jistore')->name('denuncia.jistore')
+        ->middleware('permission:denuncia.jicreate');
+
+    Route::get('denuncia/jitinerante/{denuncia}/edit', 'DenunciaController@jiedit')->name('denuncia.jiedit')
+        ->middleware('permission:denuncia.jiedit');
+
+    Route::put('denuncia/jitinerante/{denuncia}', 'DenunciaController@jiupdate')->name('denuncia.jiupdate')
+        ->middleware('permission:denuncia.jiedit');
+
+    Route::delete('denuncia/jitinerante/{denuncia}', 'DenunciaController@jidestroy')->name('denuncia.jidestroy')
+        ->middleware('permission:denuncia.jidestroy');
+
 
     // Notificaciones
     Route::post('notification/store', 'NotificationController@store')->name('notification.store')

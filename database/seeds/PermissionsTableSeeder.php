@@ -1613,6 +1613,54 @@ class PermissionsTableSeeder extends Seeder
                 'permiso' => 0,
                 'nivel' => 0,
             ),
+            133 => 
+            array (
+                'id' => 134,
+                'name' => 'Navegar registros de Justicia Itinerante',
+                'slug' => 'denuncia.jitinerante',
+                'description' => 'Lista y navega todas las denuncias ingresadas por Justicia Itinerante del sistema',
+                'created_at' => '2019-10-06 19:13:00',
+                'updated_at' => '2019-10-06 19:13:00',
+                'depende_de' => 72,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),
+            134 => 
+            array (
+                'id' => 135,
+                'name' => 'Crear registros de Justicia Itinerante',
+                'slug' => 'denuncia.jicreate',
+                'description' => 'Crea registros de denuncias ingresadas por Justicia Itinerante del sistema',
+                'created_at' => '2019-10-06 19:13:00',
+                'updated_at' => '2019-10-06 19:13:00',
+                'depende_de' => 72,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),
+            135 => 
+            array (
+                'id' => 136,
+                'name' => 'Editar registros de Justicia Itinerante',
+                'slug' => 'denuncia.jiedit',
+                'description' => 'Edita registros de denuncias ingresadas por Justicia Itinerante del sistema',
+                'created_at' => '2019-10-06 19:13:00',
+                'updated_at' => '2019-10-06 19:13:00',
+                'depende_de' => 72,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),
+            136 => 
+            array (
+                'id' => 137,
+                'name' => 'Eliminar registros de Justicia Itinerante',
+                'slug' => 'denuncia.jidestroy',
+                'description' => 'Elimina registros de denuncias ingresadas por Justicia Itinerante del sistema',
+                'created_at' => '2019-10-06 19:13:00',
+                'updated_at' => '2019-10-06 19:13:00',
+                'depende_de' => 72,
+                'permiso' => 0,
+                'nivel' => 0,
+            ),
         ));
         
         

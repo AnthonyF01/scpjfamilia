@@ -36,7 +36,7 @@
 
 <div class="container-fluid spark-screen">
   <div class="row">
-    <div class="col-md-11">
+    <div class="col-md-12">
       <div class="box_plus box_plus-default ">
         <div id="box_plus-title" class="box_plus-heading">
           @if(isset($role))

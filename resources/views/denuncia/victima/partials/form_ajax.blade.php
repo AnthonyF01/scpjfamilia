@@ -17,7 +17,7 @@
               {!! Form::open([ 'route' => 'victima.store', 'id'=>'form_victima' ]) !!}
           @endif
 
-            <div class="form-group has-feedback {{ $errors->has('nombre')? 'has-error':'' }}">
+            {{-- <div class="form-group has-feedback {{ $errors->has('nombre')? 'has-error':'' }}">
               {{ Form::label('nombre', 'Nombre') }}
               {{ Form::text('nombre', null, ['class' => 'form-control input-sm'.($errors->has('nombre')?" is-invalid":""), "autofocus", 'id' => 'nombre', 'autocomplete' => 'off']) }}
               <span id="error-nombre" class="invalid-feedback"></span>
@@ -27,6 +27,47 @@
               {{ Form::label('apellido', 'Apellido') }}
               {{ Form::text('apellido', null, ['class' => 'form-control input-sm'.($errors->has('apellido')?" is-invalid":""), "autofocus", 'id' => 'apellido', 'autocomplete' => 'off']) }}
               <span id="error-apellido" class="invalid-feedback"></span>
+            </div> --}}
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group has-feedback {{ $errors->has('nombre1')? 'has-error':'' }}">
+                  {{ Form::label('nombre1', 'Primer Nombre') }}
+                  {{ Form::text('nombre1', null, ['class' => 'form-control input-sm'.($errors->has('nombre1')?" is-invalid":""), "autofocus", 'id' => 'nombre1', 'autocomplete' => 'off']) }}
+                  <span id="error-nombre1" class="invalid-feedback"></span>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group has-feedback {{ $errors->has('nombre2')? 'has-error':'' }}">
+                  {{ Form::label('nombre2', 'Segundo Nombre') }}
+                  {{ Form::text('nombre2', null, ['class' => 'form-control input-sm'.($errors->has('nombre2')?" is-invalid":""), "autofocus", 'id' => 'nombre2', 'autocomplete' => 'off']) }}
+                  <span id="error-nombre2" class="invalid-feedback"></span>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group has-feedback {{ $errors->has('nombre3')? 'has-error':'' }}">
+                  {{ Form::label('nombre3', 'Tercer Nombre') }}
+                  {{ Form::text('nombre3', null, ['class' => 'form-control input-sm'.($errors->has('nombre3')?" is-invalid":""), "autofocus", 'id' => 'nombre3', 'autocomplete' => 'off']) }}
+                  <span id="error-nombre3" class="invalid-feedback"></span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group has-feedback {{ $errors->has('apellido1')? 'has-error':'' }}">
+                  {{ Form::label('apellido1', 'Apellido Paterno') }}
+                  {{ Form::text('apellido1', null, ['class' => 'form-control input-sm'.($errors->has('apellido1')?" is-invalid":""), "autofocus", 'id' => 'apellido1', 'autocomplete' => 'off']) }}
+                  <span id="error-apellido1" class="invalid-feedback"></span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group has-feedback {{ $errors->has('apellido2')? 'has-error':'' }}">
+                  {{ Form::label('apellido2', 'Apellido Materno') }}
+                  {{ Form::text('apellido2', null, ['class' => 'form-control input-sm'.($errors->has('apellido2')?" is-invalid":""), "autofocus", 'id' => 'apellido2', 'autocomplete' => 'off']) }}
+                  <span id="error-apellido2" class="invalid-feedback"></span>
+                </div>
+              </div>
             </div>
 
             <div class="form-group">
@@ -74,6 +115,12 @@
                   <span id="error-telefono" class="invalid-feedback"></span>
                 </div>
               </div>
+            </div>
+            
+            <div class="form-group has-feedback {{ $errors->has('email')? 'has-error':'' }}">
+              {{ Form::label('email', 'Correo Electrónico') }}
+              {{ Form::text('email', null, ['class' => 'form-control input-sm'.($errors->has('email')?" is-invalid":""), "autofocus", 'id' => 'email', 'autocomplete' => 'off']) }}
+              <span id="error-email" class="invalid-feedback"></span>
             </div>
 
             <div class="form-group has-feedback {{ $errors->has('direccion')? 'has-error':'' }}">

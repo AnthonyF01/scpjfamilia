@@ -747,7 +747,8 @@
                             </div>
 
                             <br>
-                            {{ Form::label('exp', 'Información de los Hechos', ['class' => 'lbldenh control-label']) }}
+                            {{-- {{ Form::label('exp', 'Información de los Hechos', ['class' => 'lbldenh control-label']) }} --}}
+                            {{ Form::label('exp', 'Característica de la Violencia', ['class' => 'lbldenh control-label']) }}
                             <div class="form-group">
                               {{ Form::label('tblviolencia_id', 'Tipo de Violencia:', ['class' => 'lbldens control-label']) }}
                               @if(isset($denuncia) && !empty($denuncia['id']))

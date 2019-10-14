@@ -35,7 +35,7 @@ class LoginController extends Controller
         $sql = "SELECT dp.nombre,COUNT(de.id) AS total, DATEDIFF(de.fformalizacion, de.fdenuncia) AS tramite 
         FROM tbldepartamento AS dp 
         LEFT OUTER JOIN tblcomisaria AS co ON dp.id = co.tbldepartamento_id 
-        LEFT OUTER JOIN denuncia AS de ON de.tblcomisaria_id = co.id 
+        LEFT OUTER JOIN denuncia AS de ON de.tblcomisaria_id = co.id and de.fformalizacion is not null and de.fdenuncia is not null and de.deleted_at is null
         GROUP BY dp.id";
 
         $departamento = DB::select($sql);

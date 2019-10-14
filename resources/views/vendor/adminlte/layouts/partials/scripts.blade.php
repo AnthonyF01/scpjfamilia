@@ -106,6 +106,13 @@
 
     <script src="{{ asset('/assests/plugins/bootstrap-toggle/bootstrap-toggle.min.js') }}"></script>
     
+    {{-- Bootstrap Databales --}}
+    <script src="{{ asset('/assests/plugins/datatables.net/js/jquery.dataTables.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/assests/plugins/datatables.net-bs/js/dataTables.bootstrap.min.js') }}" type="text/javascript"></script>
+
+    {{-- Fullcalendar --}}
+    <script src="{{ asset('/adminlte245/bower_components/fullcalendar/dist/fullcalendar.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/adminlte245/bower_components/fullcalendar/dist/locale/es.js') }}" type="text/javascript"></script>
 
 <!-- Scripts propios -->
 

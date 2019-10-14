@@ -48,7 +48,7 @@
                 Inicio
             </span></a></li> --}}
 
-            <li class="treeview @yield('documento') @yield('denuncia') @yield('victima') @yield('agresor') @yield('report') @yield('import') @yield('estadistica')">
+            <li class="treeview @yield('documento') @yield('denuncia') @yield('jitinerante') @yield('victima') @yield('agresor') @yield('report') @yield('import') @yield('estadistica')">
                 <a href="javascript:;">
                     <i class="fa fa-angle-left pull-right"></i>
                     <i class="fa fa-balance-scale"></i>
@@ -58,7 +58,7 @@
                     @can ('ddocumento.index')
                         <li class="@yield('documento')"><a href="{{ route('ddocumento.index') }}"><i class="fa fa-file-text"></i> Doc. Digitalizados</a></li>
                     @endcan
-                    <li class="treeview @yield('denuncia') @yield('victima') @yield('agresor')">
+                    <li class="treeview @yield('denuncia') @yield('jitinerante') @yield('victima') @yield('agresor')">
                         <a href="javascript:;"><i class="fa fa-indent"></i> Denuncias
                             <span class="pull-right-container">
                               <i class="fa fa-angle-left pull-right"></i>
@@ -67,6 +67,9 @@
                         <ul class="treeview-menu">
                             @can ('denuncia.index')
                                 <li class="@yield('denuncia')"><a href="{{ route('denuncia.index') }}"><i class="fa fa-table"></i> Registros</a></li>
+                            @endcan
+                            @can ('denuncia.jitinerante')
+                                <li class="@yield('jitinerante')"><a href="{{ route('denuncia.jitinerante') }}"><i class="fa fa-table"></i> Justicia Itinerante</a></li>
                             @endcan
                             @can ('victima.index')
                                 <li class="@yield('victima')"><a href="{{ route('victima.index') }}"><i class="fa fa-user"></i> Victimas</a></li>

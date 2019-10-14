@@ -129,9 +129,9 @@ a:focus {
 
 /*INPUTS*/
 .box {
-    border-radius: 10px;
-    border: 0;
-    box-shadow: none;
+    /*border-radius: 10px;*/
+    /*border: 0;*/
+    /*box-shadow: none;*/
 }
 
 .small-box p {
@@ -596,6 +596,10 @@ button:hover {
     border: 0;
 }
 
+.btn.btn-default:hover {
+    color: #000 !important;
+}
+
 .col-xs-3 label,
 .col-xs-4 label {
     font-weight: 400;
@@ -634,8 +638,8 @@ button:hover {
 
 .row {
     padding: 0;
-    margin-left: 0;
-    margin-right: 0;
+    /*margin-left: 0;*/
+    /*margin-right: 0;*/
 }
 
 /*MINE FRAMEWORK*/

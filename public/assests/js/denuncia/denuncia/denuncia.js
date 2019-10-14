@@ -630,7 +630,7 @@ function showRow(elm) {
     javascript:ajaxLoad(str);
 }
 
-/* juzgado seleccionado */
+/* comisaria seleccionado */
 function showRowC(elm) {
     var value = $(elm).val();
     var path = "{{ url('/') }}";
@@ -638,7 +638,7 @@ function showRowC(elm) {
     javascript:ajaxLoad(str);
 }
 
-/* comisaria seleccionada */
+/* juzgado seleccionada */
 function showRowJ(elm) {
     var value = $(elm).val();
     var path = "{{ url('/') }}";

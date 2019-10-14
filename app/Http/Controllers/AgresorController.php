@@ -9,6 +9,7 @@ use App\Models\Tbldepartamento;
 // use App\Models\Tblprovincia;
 // use App\Models\Tbldistrito;
 use App\Models\Tbldocumento;
+use App\Models\Tblparentesco;
 
 class AgresorController extends Controller
 {
@@ -111,8 +112,12 @@ class AgresorController extends Controller
     public function getAgresor(Request $request, $id = null)
     {
         if ($id !== null) {
-            $agresor = Agresor::whereNull('deleted_at')->findOrFail($id);
-            return response()->json($agresor);
+            $agresor = Agresor::whereNull('deleted_at')->with(['tbldepartamento', 'tbldocumento'])->findOrFail($id);
+            $tblparentescos = Tblparentesco::whereNull('deleted_at')->get();
+            return response()->json([
+                'agresor' => $agresor,
+                'tblparentescos' => $tblparentescos,
+            ]);
         }else{
             $data = [];
             if($request->has('q')){
@@ -166,6 +171,7 @@ class AgresorController extends Controller
             'tblprovincia_id' => 'Provincia',
             'tbldistrito_id' => 'Distrito',
             'telefono' => 'Teléfono',
+            'email' => 'Correo Electrónico',
             'direccion' => 'Dirección',
         );
 
@@ -184,6 +190,7 @@ class AgresorController extends Controller
             'tblprovincia_id' => 'required|exists:tblprovincia,id',
             'tbldistrito_id' => 'required|exists:tbldistrito,id',
             'telefono' => 'nullable|string',
+            'email' => 'nullable|email|string',
             'direccion' => 'nullable|string',
         ];
         
@@ -202,6 +209,7 @@ class AgresorController extends Controller
             'tblprovincia_id' => $request['tblprovincia_id'],
             'tbldistrito_id' => $request['tbldistrito_id'],
             'telefono' => $request['telefono'],
+            'email' => $request['email'],
             'direccion' => $request['direccion'],
         ];
 
@@ -307,6 +315,7 @@ class AgresorController extends Controller
             'tblprovincia_id' => 'Provincia',
             'tbldistrito_id' => 'Distrito',
             'telefono' => 'Teléfono',
+            'email' => 'Correo Electrónico',
             'direccion' => 'Dirección',
         );
 
@@ -325,6 +334,7 @@ class AgresorController extends Controller
             'tblprovincia_id' => 'required|exists:tblprovincia,id',
             'tbldistrito_id' => 'required|exists:tbldistrito,id',
             'telefono' => 'nullable|string',
+            'email' => 'nullable|email|string',
             'direccion' => 'nullable|string',
         ];
         
@@ -343,6 +353,7 @@ class AgresorController extends Controller
             'tblprovincia_id' => $request['tblprovincia_id'],
             'tbldistrito_id' => $request['tbldistrito_id'],
             'telefono' => $request['telefono'],
+            'email' => $request['email'],
             'direccion' => $request['direccion'],
         ];
 

@@ -899,6 +899,10 @@ td.width-30{
     line-height: 20px;
 }
 
+.select2-selection {
+    background: #eee !important;
+}
+
 /*   underline   */
 .select2-container-multi .select2-choices li {
     display: block !important;
@@ -983,3 +987,21 @@ label.lbldens {
 }
 
 /* ---- diseño tabs denuncia ---- */
+
+/* ---- fullcalendar ---- */
+
+td.alert-info {
+    background-color: #d9edf7 !important;
+    color: #333 !important;
+}
+
+.fc-view-container .table-bordered {
+    /*border: 1px solid #ddd !important;*/
+    border-radius: 0px !important;
+}
+
+.fc-view-container .table-bordered>tbody>tr>td, .fc-view-container .table-bordered>tbody>tr>th, .fc-view-container .table-bordered>tfoot>tr>td, .fc-view-container .table-bordered>tfoot>tr>th, .fc-view-container .table-bordered>thead>tr>td, .fc-view-container .table-bordered>thead>tr>th {
+    border: 1px solid #ddd !important;
+}
+
+/* ---- fullcalendar ---- */

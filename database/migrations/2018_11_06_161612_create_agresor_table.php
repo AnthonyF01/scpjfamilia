@@ -29,6 +29,7 @@ class CreateAgresorTable extends Migration
             $table->string('nro_doc');
             $table->string('sexo',20);
             $table->string('telefono')->nullable();
+            $table->string('email')->nullable();
             $table->string('direccion')->nullable();
             $table->timestamps();
             $table->softDeletes();

@@ -156,10 +156,17 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
 
     {{-- Nestable --}}
-    <link rel="stylesheet" href="{{ asset('/adminlte245/bower_components/nestable/jquery.nestable.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('/adminlte245/bower_components/nestable/jquery.nestable.css') }}"> --}}
 
     {{-- Bootstrap Toggle --}}
     <link href="{{ asset('/assests/plugins/bootstrap-toggle/bootstrap-toggle.min.css') }}" rel="stylesheet" type="text/css" />
+
+    {{-- Bootstrap Databales --}}
+    <link href="{{ asset('/assests/plugins/datatables.net-bs/css/dataTables.bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+
+    {{-- Fullcalendar --}}
+    <link href="{{ asset('/adminlte245/bower_components/fullcalendar/dist/fullcalendar.min.css') }}" rel="stylesheet" type="text/css" />
+    {{-- <link href="{{ asset('/adminlte245/bower_components/fullcalendar/dist/fullcalendar.print.min.css') }}" rel="stylesheet" type="text/css" /> --}}
 
     <link href="{{ asset('/assests/css/main.css') }}" rel="stylesheet" type="text/css" />
 

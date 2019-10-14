@@ -113,7 +113,7 @@ class VictimaController extends Controller
     {
 
         if ($id !== null) {
-            $victima = Victima::findOrFail($id);
+            $victima = Victima::whereNull('deleted_at')->with(['tbldepartamento', 'tbldepartamento', 'tbldocumento'])->findOrFail($id);
             return response()->json($victima);
         }else{
             $data = [];
@@ -172,6 +172,7 @@ class VictimaController extends Controller
             'tbldistrito_id' => 'Distrito',
             'direccion' => 'Dirección',
             'telefono' => 'Teléfono',
+            'email' => 'Correo Electrónico',
         );
 
         $rules = [
@@ -192,6 +193,7 @@ class VictimaController extends Controller
             'tbldistrito_id' => 'required|exists:tbldistrito,id',
             'direccion' => 'nullable|string',
             'telefono' => 'nullable|string',
+            'email' => 'nullable|email|string',
         ];
         
         $input = [
@@ -212,6 +214,7 @@ class VictimaController extends Controller
             'tbldistrito_id' => $request['tbldistrito_id'],
             'direccion' => $request['direccion'],
             'telefono' => $request['telefono'],
+            'email' => $request['email'],
         ];
 
         $validator = Validator::make($input, $rules, $messages);
@@ -319,6 +322,7 @@ class VictimaController extends Controller
             'tblprovincia_id' => 'Provincia',
             'tbldistrito_id' => 'Distrito',
             'telefono' => 'Teléfono',
+            'email' => 'Correo Electrónico',
             'direccion' => 'Dirección',
         );
 
@@ -339,6 +343,7 @@ class VictimaController extends Controller
             'tblprovincia_id' => 'required|exists:tblprovincia,id',
             'tbldistrito_id' => 'required|exists:tbldistrito,id',
             'telefono' => 'nullable|string',
+            'email' => 'nullable|email|string',
             'direccion' => 'nullable|string',
         ];
         
@@ -359,6 +364,7 @@ class VictimaController extends Controller
             'tblprovincia_id' => $request['tblprovincia_id'],
             'tbldistrito_id' => $request['tbldistrito_id'],
             'telefono' => $request['telefono'],
+            'email' => $request['email'],
             'direccion' => $request['direccion'],
         ];
 

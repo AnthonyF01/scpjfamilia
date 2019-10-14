@@ -21,7 +21,7 @@ class Denuncia extends Model
      *
      * @var array
      */
-    protected $fillable = [ 'codigo','tblcomisaria_id','oficio','fdenuncia','fformalizacion','expediente','calificacion','hora','faudiencia','remitido','oficioremitido','fremision','ministerio','tblinstancia_id','asistencialegal','psicologia','remitidod','oficioremitidod','fremisiond','remitidoj','oficioremitidoj','fremisionj','observacion','tblmodulo_id','medida_file','registro_file','institucion','tbldenuncia_id','oficioejecucion','foficioejecucion','oficioejecucion_file','tblmedida_id','fmedida','dform','daud','total1','drem','dden','total2','fjuzgado','djuz'];
+    protected $fillable = [ 'codigo','tregistro','tblcomisaria_id','oficio','fdenuncia','fformalizacion','expediente','calificacion','hora','faudiencia','remitido','oficioremitido','fremision','ministerio','tblinstancia_id','asistencialegal','psicologia','remitidod','oficioremitidod','fremisiond','remitidoj','oficioremitidoj','fremisionj','observacion','tblmodulo_id','medida_file','registro_file','institucion','tbldenuncia_id','oficioejecucion','foficioejecucion','oficioejecucion_file','tblmedida_id','fmedida','dform','daud','total1','drem','dden','total2','fjuzgado','djuz'];
 
     /**
     * The attributes that aren't mass assignable.
@@ -123,11 +123,23 @@ class Denuncia extends Model
         return $this->belongsToMany(Victima::class, 'denuncia_victima')->whereNull('denuncia_victima.deleted_at'); 
     }
 
+    public function victimasByNDoc($document)
+    {
+        return $this->belongsToMany(Victima::class, 'denuncia_victima')
+                    ->whereNull('denuncia_victima.deleted_at')
+                    ->where('victima.nro_doc',$document)
+                        ->orwhere(function ($query) use ($document) {
+                            $query->orwhere('victima.nombre','like', '%'.$document.'%')
+                              ->orWhere('victima.apellido','like', '%'.$document.'%');
+                    }); 
+    }
+
     public function agresores () 
     { 
         // la convencion de nombramiento de tablas debe ser en orden albafetico => la tabla pivot debio llamarse:
         // "agresor_denuncia" pero se llama denuncia_agresor por lo que se debe indicar el nombre de la tabla pivot
-       return $this->belongsToMany(Agresor::class, 'denuncia_agresor')->whereNull('denuncia_agresor.deleted_at'); 
+       return $this->belongsToMany(Agresor::class, 'denuncia_agresor')->whereNull('denuncia_agresor.deleted_at')->withPivot('tblparentesco_id'); 
+       // withPivot -> agregar la colunma adicional de la tabla pivot en una relacion muchos a muchos.
     }
 
     public function denunciaagresores ()

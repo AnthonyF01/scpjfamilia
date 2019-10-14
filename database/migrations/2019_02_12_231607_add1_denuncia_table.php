@@ -14,6 +14,7 @@ class Add1DenunciaTable extends Migration
     public function up()
     {
         Schema::table('denuncia', function (Blueprint $table) {
+            $table->boolean('tregistro')->nullable()->default(0); // tipo registro (registro por itinerancia - (1) o registro - (0) normal)
             $table->string('medida_file')->change();
             $table->string('registro_file')->change();
             $table->string('oficioejecucion',50)->nullable();

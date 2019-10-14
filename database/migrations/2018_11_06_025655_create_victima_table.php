@@ -32,6 +32,7 @@ class CreateVictimaTable extends Migration
             $table->integer('hijos');
             $table->integer('tbltipo_id')->unsigned();
             $table->string('telefono')->nullable();
+            $table->string('email')->nullable();
             $table->string('direccion')->nullable();
             $table->timestamps();
             $table->softDeletes();

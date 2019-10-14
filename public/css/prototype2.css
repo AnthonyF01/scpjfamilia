@@ -54,11 +54,11 @@ label {
     width: 100%;
     font-size: 14px;
     font-weight: 400;
-    color: #000000;
-    background-color: #e2e2e2;
+    color: #000;
+    background-color: #eee;
     background-image: none;
-    border: none;
-    border-radius: 10px;
+    /*border: none;*/
+    /*border-radius: 10px;*/
     box-shadow: none;
 }
 

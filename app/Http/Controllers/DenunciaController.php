@@ -379,7 +379,7 @@ class DenunciaController extends Controller
         }
 
         $denuncias = $denuncias->where('tblmodulo_id', Auth::user()->tblmodulo_id);
-        $denuncias = $denuncias->whereNull('deleted_at');
+        $denuncias = $denuncias->whereNull('denuncia.deleted_at');
             
         // dd($denuncias->get());
 
@@ -466,6 +466,7 @@ class DenunciaController extends Controller
             ->orderBy($request->session()->get('field'), $request->session()->get('sort'))
             ->paginate($request->session()->get('show'));  
 
+        // dd($denuncias[0]->id,$denuncias[0]->tblviolencias);
 
         // dd($denuncias);
 
@@ -503,6 +504,7 @@ class DenunciaController extends Controller
         $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
         $instituciones = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',1)->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
         $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
+
         $instancias = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->whereNull('deleted_at')
         ->where(function ($query) {
             $query->where('tipo','FA')->orwhere('tipo','JM')->orwhere('estadistica','1');
@@ -512,10 +514,12 @@ class DenunciaController extends Controller
         $instanciasMIN = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','MP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJIP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','IP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasJP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','PU')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
-        $tdenuncias = Tbldenuncia::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
-        $tbldpenales = Tbldpenal::with('hijos')->where('nivel',1)->get();
         $instanciasSS = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','SS')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
         $instanciasSSP = Tblinstancia::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tblmodulo_id',Auth::user()->tblmodulo_id)->where('tipo','SSP')->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+
+        $tbldpenales = Tbldpenal::with('hijos')->where('nivel',1)->get();
+        
+        $tdenuncias = Tbldenuncia::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
         $medidas = Tblmedida::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
         $violencias = Tblviolencia::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
 
@@ -634,7 +638,7 @@ class DenunciaController extends Controller
                     ]);
                 }else{
 
-                    $count = DB::table('denuncia')->selectRaw('COUNT(*) AS cant')->whereNull('deleted_at')->pluck('cant');
+                    $count = DB::table('denuncia')->selectRaw('COUNT(*) AS cant')->whereNotNull('fdenuncia')->whereNotNull('fformalizacion')->whereNull('deleted_at')->pluck('cant');
                     $sql = "select lpad(".($count[0]+1).",10,'0') as suffix";
                     $codigo = DB::select(DB::raw($sql));
                     $code = 'DEN'.$codigo[0]->suffix;
@@ -4123,6 +4127,515 @@ class DenunciaController extends Controller
         $imagen->move($rutaAbsoluta, $nuevoNombre);
 
         return $rutaRelativa . $nuevoNombre;
+    }
+
+    // justicia itinerante
+
+    public function jitinerante(Request $request)
+    {
+
+        $denuncias = new Denuncia();
+
+        $fillable = $denuncias->getFields();
+
+        // linea necesaria para diferenciar las columnas de nombre repetida
+        $denuncias = $denuncias->select('denuncia.*');
+
+        $request->session()->put('search', $request
+            ->has('search') ? $request->get('search') : ($request->session()
+            ->has('search') ? $request->session()->get('search') : ''));
+
+        $request->session()->put('dni', $request
+            ->has('dni') ? $request->get('dni') : ($request->session()
+            ->has('dni') ? $request->session()->get('dni') : ''));
+
+        $request->session()->put('field', $request
+            ->has('field') ? $request->get('field') : ( $request->session()
+            ->has('field') ? ( array_search($request->session()->get('field'), $fillable) ?
+                $request->session()->get('field') : 'expediente' ) : 'expediente') );
+
+        $request->session()->put('sort', $request
+            ->has('sort') ? $request->get('sort') : ($request->session()
+            ->has('sort') ? $request->session()->get('sort') : 'asc'));
+
+        $request->session()->put('show', $request
+            ->has('show') ? $request->get('show') : ($request->session()
+            ->has('show') ? ( is_numeric($request->session()->get('show')) ?
+              $request->session()->get('show') : '10' ) : '10'));
+
+        $request->session()->put('estado', $request
+            ->has('estado') ? $request->get('estado') : ($request->session()
+            ->has('estado') ? ( is_numeric($request->session()->get('estado')) ?
+              $request->session()->get('estado') : '0' ) : '0'));
+
+        $request->session()->put('tblinstancia_id', $request
+            ->has('tblinstancia_id') ? $request->get('tblinstancia_id') : ($request->session()
+            ->has('tblinstancia_id') ? ( is_numeric($request->session()->get('tblinstancia_id')) ?
+              $request->session()->get('tblinstancia_id') : '' ) : ''));
+
+        $request->session()->put('tblcomisaria_id', $request
+            ->has('tblcomisaria_id') ? $request->get('tblcomisaria_id') : ($request->session()
+            ->has('tblcomisaria_id') ? ( is_numeric($request->session()->get('tblcomisaria_id')) ?
+              $request->session()->get('tblcomisaria_id') : '' ) : ''));
+
+        $request->session()->put('checked', $request
+            ->has('checked') ? $request->get('checked') : ($request->session()
+            ->has('checked') ? ( is_numeric($request->session()->get('checked')) ?
+              $request->session()->get('checked') : '0' ) : '0'));
+
+        $request->session()->put('fecha1', $request
+            ->has('fecha1') ? $request->get('fecha1') : ( $request->session()
+            ->has('fecha1') ? $request->session()->get('fecha1') : date('Y-m-d') ));
+
+        $request->session()->put('fecha2', $request
+            ->has('fecha2') ? $request->get('fecha2') : ( $request->session()
+            ->has('fecha2') ? $request->session()->get('fecha2') : date('Y-m-d') ));
+
+        $search=$request->session()->get('search');
+
+
+        // WHERE
+        $denuncias = $denuncias->where('tblmodulo_id', Auth::user()->tblmodulo_id);
+        $denuncias = $denuncias->whereNull('denuncia.deleted_at');
+
+        if ($request->session()->get('tblcomisaria_id') != '') {
+            $denuncias = $denuncias->where('tblcomisaria_id', $request->session()->get('tblcomisaria_id'));
+        }
+
+        if ($request->session()->get('checked') != '0') {
+            $denuncias = $denuncias->whereBetween('fformalizacion', [$request->session()->get('fecha1'),$request->session()->get('fecha2')]);
+        }
+
+        // busqueda si existe el codido de denuncia y si la denuncia fue ingresada desde el modulo de itinerancia 
+        $denuncias =  $denuncias->whereNotNull('codigo');
+        // $denuncias =  $denuncias->where('denuncia.id','=','4786');
+        $denuncias =  $denuncias->where('tregistro','=','1');
+
+        // busqueda de victima
+        if ($request->session()->get('dni') != '') {
+            $dni=$request->session()->get('dni');
+            $denuncias = $denuncias
+                                    /*->join('denuncia_tblviolencia','denuncia.id','=','denuncia_tblviolencia.denuncia_id')
+                                    ->join('tblviolencia','tblviolencia.id','=','denuncia_tblviolencia.tblviolencia_id')*/
+                                    ->join('denuncia_victima','denuncia.id','=','denuncia_victima.denuncia_id')
+                                    ->join('victima','victima.id','=','denuncia_victima.victima_id')
+                                    ->where('victima.nro_doc',$dni)
+                                        ->orwhere(function ($query) use ($dni) {
+                                            $query->orwhere('victima.nombre','like', '%'.$dni.'%')
+                                              ->orWhere('victima.apellido','like', '%'.$dni.'%');
+                                    });
+            // $denuncias->with('tblviolencias');
+            if ($search) {
+                $denuncias = $denuncias->where('codigo', 'like', "%$search%");
+            }
+        }
+        else{
+            $denuncias = $denuncias->where('codigo', 'like', "%$search%");
+        }
+
+        // dd($denuncias->toSql(),$denuncias->getBindings());
+
+        $denuncias->groupBy('denuncia.id');
+        $denuncias = $denuncias
+            ->orderBy($request->session()->get('field'), $request->session()->get('sort'))
+            ->paginate($request->session()->get('show'));  
+
+        // dd($denuncias);
+        // dd($denuncias[0]->id,$denuncias[0]->tblviolencias);
+
+        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->whereNull('deleted_at')->where('tipo_int','=',0)->orderBy('nombre')->pluck('nombre', 'id');
+
+        if ($request->ajax()) {
+          return view('denuncia.itinerante.ajax', compact('comisarias','denuncias'));
+          // return view('denuncia.itinerante.ajax');
+        } else {
+          return view('denuncia.itinerante.index', compact('comisarias','denuncias'));
+          // return view('denuncia.itinerante.index');
+        }
+    }
+
+    public function jicreate()
+    {
+        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
+
+        $tdenuncias = Tbldenuncia::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
+        $medidas = Tblmedida::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
+        $violencias = Tblviolencia::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
+
+        $departamentos = Tbldepartamento::whereNull('deleted_at')->pluck('nombre', 'id');
+        $documentos = Tbldocumento::orderBy('nombre','asc')->whereNull('deleted_at')->pluck('nombre', 'id');
+        $tipos = Tbltipo::whereNull('deleted_at')->pluck('nombre', 'id');
+
+        return view('denuncia.itinerante.partials.form', compact('comisarias','parentescos','medidas','violencias','tdenuncias','departamentos','documentos','tipos'));
+
+    }
+
+    public function jistore(Request $request)
+    {
+        
+        $count = DB::table('denuncia')->selectRaw('COUNT(*) AS cant')->whereNull('deleted_at')->pluck('cant');
+        $sql = "select lpad(".($count[0]+1).",10,'0') as suffix";
+        $codigo = DB::select(DB::raw($sql));
+        $code = 'DEN'.$codigo[0]->suffix;
+
+        // obetener los ids de los servidores judiciales y las partes
+        $vcounters = explode(",", $request['vcounters']);
+        $acounters = explode(",", $request['acounters']);
+
+        // convertir de dd/mm/yyyy -> yyyy-mm-dd (mysql)
+        if ($request['fdenuncia'] != '') {
+            $request->merge([ 'fdenuncia' => date('Y-m-d',strtotime(str_replace('/', '-', $request['fdenuncia']))) ]);
+        }
+        if ($request['faudiencia'] != '') {
+            $request->merge([ 'faudiencia' => date('Y-m-d',strtotime(str_replace('/', '-', $request['faudiencia']))) ]);
+        }
+        if ($request['fmedida'] != '') {
+            $request->merge([ 'fmedida' => date('Y-m-d',strtotime(str_replace('/', '-', $request['fmedida']))) ]);
+        }
+
+        $messages = array(
+            'required' => ':attribute es obligatorio.',
+            'email'    => ':attribute debe ser un e-mail válido.',
+            'min'      => ':attribute debe tener :min caracteres como mínimo.',
+            // 'max'      => ':attribute debe tener :max caracteres como máximo.',
+            'max'      => [
+                'numeric' => 'The :attribute may not be greater than :max.',
+                'file'    => ':attribute no puede superar los :max kilobytes.',
+                'string'  => ':attribute debe tener :max caracteres como máximo.',
+                'array'   => 'The :attribute may not have more than :max items.',
+            ],
+            'numeric'  => ':attribute debe ser numérico.',
+            'image'    => ':attribute debe ser un archivo imagen.',
+            'mimes'    => ':attribute debe ser un archivo de tipo :values.',
+            'uploaded' => ':attribute no pudo ser cargado.',
+        );
+
+        $attributes = array(
+            'tblcomisaria_id' => 'Comisaria',
+            'fdenuncia' => 'Fecha de Denuncia',
+            'itinerancia' => 'Itinerancia en comisaría',
+            'tblviolencia_id' => 'Tipo de Violencia',
+            'tbldenuncia_id' => 'Grado de Violencia',
+            'faudiencia' => 'Fecha de Audiencia',
+            'hora' => 'Hora de Audiencia',
+            'tblmedida_id' => 'Tipo Medida de Proteccion',
+            'fmedida' => 'Fecha de Medida de Protección',
+            'device' => 'Aplicación Móvil',
+            'observacion' => 'Observacion',
+        );
+
+        $rules = [
+            'tblcomisaria_id' => 'required|exists:tblcomisaria,id',
+            'fdenuncia' => 'required|date',
+            'itinerancia' => 'nullable|in:1,0',
+            'tblviolencia_id' => 'required|array|min:1',
+            'tbldenuncia_id' => 'required|exists:tbldenuncia,id',
+            'faudiencia' => 'required|date',
+            'hora' => 'required',
+            'tblmedida_id' => 'required|array|min:1',
+            'fmedida' => 'required|date',
+            'device' => 'nullable|in:1,0',
+            'observacion' => 'nullable|string',
+        ];
+
+        $input = [
+            'tblcomisaria_id' => $request['tblcomisaria_id'],
+            'fdenuncia' => $request['fdenuncia'],
+            'itinerancia' => $request['itinerancia'],
+            'tblviolencia_id' => $request['tblviolencia_id'],
+            'tbldenuncia_id' => $request['tbldenuncia_id'],
+            'faudiencia' => $request['faudiencia'],
+            'hora' => $request['hora'],
+            'tblmedida_id' => $request['tblmedida_id'],
+            'fmedida' => $request['fmedida'],
+            'device' => $request['device'],
+            'observacion' => $request['observacion'],
+        ];
+
+        $validator = Validator::make($input, $rules, $messages);
+
+        $validator->setAttributeNames($attributes);
+
+        if ($validator->fails()){
+            return response()->json([
+              'fail' => true,
+              'errors' => $validator->errors()
+            ]);
+            // return redirect()->route('expediente.create')->withErrors($validator->errors())->withInput();
+        }else{
+
+            $input = parent::array_rm_assoc($input, 'tblmedida_id');
+            $input = parent::array_rm_assoc($input, 'tblviolencia_id');
+
+            // obtiene los id de las victimas
+            $victimas_arr = [];
+            for ($i = 0; $i < $request['rowCountV']; $i++) {  
+                $victimas_arr[] = $request['victima_id'.$vcounters[$i+1]];
+            }
+            // verificar si las victimas en la tabla son distintas entre si
+            $count_vct1 = count($victimas_arr);
+            $count_vct2 = count(array_unique($victimas_arr));
+            if ($count_vct1 != $count_vct2) {
+                return response()->json([
+                  'fail' => true,
+                  'errors' => ['Las Víctimas seleccionadas deben ser distintas entre si.']
+                ]);
+            }
+
+            // obtiene los id de los agresores
+            $agr_arr = [];
+            for ($i = 0; $i < $request['rowCountA']; $i++) {  
+                $agr_arr[] = $request['agresor_id'.$acounters[$i+1]];
+            }
+            // verifica si los agresores en la tabla son distintos entre si
+            $count_agr1 = count($agr_arr);
+            $count_agr2 = count(array_unique($agr_arr));
+            if ($count_agr1 != $count_agr2) {
+                return response()->json([
+                  'fail' => true,
+                  'errors' => ['Los Agresores seleccionados deben ser distintos entre si.']
+                ]);
+            }
+
+            // registra la denuncia
+            $input['codigo'] = $code;
+            $input['tregistro'] = 1; // denuncia registrada desde el modulo itinerancia
+            $input['tblmodulo_id'] = Auth::user()->tblmodulo_id;
+            $denuncia = Denuncia::create($input);
+            // actualiza los tipos de medidas de proteccion de la denuncia
+            if (!empty($request->get('tblmedida_id'))) {
+                // el metodo sync solo sirve para tablas relacionadas muchos a muchos
+                $denuncia->tblmedidas()->sync($request->get('tblmedida_id'));
+            }
+            // actualiza los tipos de violencia de la denuncia
+            if (!empty($request->get('tblviolencia_id'))) {
+                // el metodo sync solo sirve para tablas relacionadas muchos a muchos
+                $denuncia->tblviolencias()->sync($request->get('tblviolencia_id'));
+            }
+
+            // formar el array de agresores que se registraran en la denuncia
+            $agresores_arr = [];
+            for ($i = 0; $i < $request['rowCountA']; $i++) { 
+                $agresores_arr[] = [
+                    'denuncia_id' => $denuncia->id,
+                    'agresor_id' => $request['agresor_id'.$acounters[$i+1]],
+                    'tblparentesco_id' => $request['tblparentesco_id'.$acounters[$i+1]],
+                ];
+            }
+
+            // actualizar la denuncia con los datos de las victimas
+            $denuncia->victimas()->sync($victimas_arr);
+
+            // actualizar la denuncia con los datos de los agresores
+            for ($i=0; $i < count($agresores_arr); $i++) { 
+                DenunciaAgresor::create($agresores_arr[$i]);
+            }
+
+            return response()->json([
+                'type' => 'store',
+                'info' => 'Denuncia correctamente registrada.',
+            ]);
+
+        }
+
+    }
+
+    public function jiedit($id)
+    {
+        $denuncia = Denuncia::findOrFail($id);
+
+        $comisarias = Tblcomisaria::where('tbldepartamento_id',Auth::user()->tbldepartamento_id)->where('tipo_int','=',0)->whereNull('deleted_at')->orderBy('nombre')->pluck('nombre', 'id');
+        $parentescos = Tblparentesco::orderBy('nombre')->pluck('nombre', 'id');
+
+        $tdenuncias = Tbldenuncia::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
+        $medidas = Tblmedida::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
+        $violencias = Tblviolencia::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
+
+        $departamentos = Tbldepartamento::whereNull('deleted_at')->pluck('nombre', 'id');
+        $documentos = Tbldocumento::orderBy('nombre','asc')->whereNull('deleted_at')->pluck('nombre', 'id');
+        $tipos = Tbltipo::whereNull('deleted_at')->pluck('nombre', 'id');
+
+        return view('denuncia.itinerante.partials.form', compact('denuncia','comisarias','parentescos','medidas','violencias','tdenuncias','departamentos','documentos','tipos'));
+    }
+
+    public function jiupdate(Request $request, $id)
+    {
+        $denuncia = Denuncia::find($id);
+
+        if (!isset($denuncia->codigo) && empty($denuncia->codigo)) {
+            $count = DB::table('denuncia')->selectRaw('COUNT(*) AS cant')->whereNull('deleted_at')->pluck('cant');
+            $sql = "select lpad(".($count[0]+1).",10,'0') as suffix";
+            $codigo = DB::select(DB::raw($sql));
+            $code = 'DEN'.$codigo[0]->suffix;
+
+            $denuncia->codigo = $code;
+            $denuncia->save();
+        }
+
+        // obetener los ids de los servidores judiciales y las partes
+        $vcounters = explode(",", $request['vcounters']);
+        $acounters = explode(",", $request['acounters']);
+
+        // convertir de dd/mm/yyyy -> yyyy-mm-dd (mysql)
+        if ($request['fdenuncia'] != '') {
+            $request->merge([ 'fdenuncia' => date('Y-m-d',strtotime(str_replace('/', '-', $request['fdenuncia']))) ]);
+        }
+        if ($request['faudiencia'] != '') {
+            $request->merge([ 'faudiencia' => date('Y-m-d',strtotime(str_replace('/', '-', $request['faudiencia']))) ]);
+        }
+        if ($request['fmedida'] != '') {
+            $request->merge([ 'fmedida' => date('Y-m-d',strtotime(str_replace('/', '-', $request['fmedida']))) ]);
+        }
+
+        $messages = array(
+            'required' => ':attribute es obligatorio.',
+            'email'    => ':attribute debe ser un e-mail válido.',
+            'min'      => ':attribute debe tener :min caracteres como mínimo.',
+            // 'max'      => ':attribute debe tener :max caracteres como máximo.',
+            'max'      => [
+                'numeric' => 'The :attribute may not be greater than :max.',
+                'file'    => ':attribute no puede superar los :max kilobytes.',
+                'string'  => ':attribute debe tener :max caracteres como máximo.',
+                'array'   => 'The :attribute may not have more than :max items.',
+            ],
+            'numeric'  => ':attribute debe ser numérico.',
+            'image'    => ':attribute debe ser un archivo imagen.',
+            'mimes'    => ':attribute debe ser un archivo de tipo :values.',
+            'uploaded' => ':attribute no pudo ser cargado.',
+        );
+
+        $attributes = array(
+            'tblcomisaria_id' => 'Comisaria',
+            'fdenuncia' => 'Fecha de Denuncia',
+            'itinerancia' => 'Itinerancia en comisaría',
+            'tblviolencia_id' => 'Tipo de Violencia',
+            'tbldenuncia_id' => 'Grado de Violencia',
+            'faudiencia' => 'Fecha de Audiencia',
+            'hora' => 'Hora de Audiencia',
+            'tblmedida_id' => 'Tipo Medida de Proteccion',
+            'fmedida' => 'Fecha de Medida de Protección',
+            'device' => 'Aplicación Móvil',
+            'observacion' => 'Observacion',
+        );
+
+        $rules = [
+            'tblcomisaria_id' => 'required|exists:tblcomisaria,id',
+            'fdenuncia' => 'required|date',
+            'itinerancia' => 'nullable|in:1,0',
+            'tblviolencia_id' => 'required|array|min:1',
+            'tbldenuncia_id' => 'required|exists:tbldenuncia,id',
+            'faudiencia' => 'required|date',
+            'hora' => 'required',
+            'tblmedida_id' => 'required|array|min:1',
+            'fmedida' => 'required|date',
+            'device' => 'nullable|in:1,0',
+            'observacion' => 'nullable|string',
+        ];
+
+        $input = [
+            'tblcomisaria_id' => $request['tblcomisaria_id'],
+            'fdenuncia' => $request['fdenuncia'],
+            'itinerancia' => $request['itinerancia'],
+            'tblviolencia_id' => $request['tblviolencia_id'],
+            'tbldenuncia_id' => $request['tbldenuncia_id'],
+            'faudiencia' => $request['faudiencia'],
+            'hora' => $request['hora'],
+            'tblmedida_id' => $request['tblmedida_id'],
+            'fmedida' => $request['fmedida'],
+            'device' => $request['device'],
+            'observacion' => $request['observacion'],
+        ];
+
+        $validator = Validator::make($input, $rules, $messages);
+
+        $validator->setAttributeNames($attributes);
+
+        if ($validator->fails()){
+            return response()->json([
+              'fail' => true,
+              'errors' => $validator->errors()
+            ]);
+            // return redirect()->route('expediente.create')->withErrors($validator->errors())->withInput();
+        }else{
+
+            $input = parent::array_rm_assoc($input, 'tblmedida_id');
+            $input = parent::array_rm_assoc($input, 'tblviolencia_id');
+
+            // obtiene los id de las victimas
+            $victimas_arr = [];
+            for ($i = 0; $i < $request['rowCountV']; $i++) {  
+                $victimas_arr[] = $request['victima_id'.$vcounters[$i+1]];
+            }
+            // verificar si las victimas en la tabla son distintas entre si
+            $count_vct1 = count($victimas_arr);
+            $count_vct2 = count(array_unique($victimas_arr));
+            if ($count_vct1 != $count_vct2) {
+                return response()->json([
+                  'fail' => true,
+                  'errors' => ['Las Víctimas seleccionadas deben ser distintas entre si.']
+                ]);
+            }
+
+            // obtiene los id de los agresores
+            $agr_arr = [];
+            for ($i = 0; $i < $request['rowCountA']; $i++) {  
+                $agr_arr[] = $request['agresor_id'.$acounters[$i+1]];
+            }
+            // verifica si los agresores en la tabla son distintos entre si
+            $count_agr1 = count($agr_arr);
+            $count_agr2 = count(array_unique($agr_arr));
+            if ($count_agr1 != $count_agr2) {
+                return response()->json([
+                  'fail' => true,
+                  'errors' => ['Los Agresores seleccionados deben ser distintos entre si.']
+                ]);
+            }
+
+            // registra la denuncia
+            // $input['codigo'] = $code;
+            $input['tregistro'] = 1; // denuncia registrada desde el modulo itinerancia
+            $input['tblmodulo_id'] = Auth::user()->tblmodulo_id;
+
+            Denuncia::where('id', $id)->update($input);
+
+            // actualiza los tipos de medidas de proteccion de la denuncia
+            if (!empty($request->get('tblmedida_id'))) {
+                // el metodo sync solo sirve para tablas relacionadas muchos a muchos
+                $denuncia->tblmedidas()->sync($request->get('tblmedida_id'));
+            }
+            // actualiza los tipos de violencia de la denuncia
+            if (!empty($request->get('tblviolencia_id'))) {
+                // el metodo sync solo sirve para tablas relacionadas muchos a muchos
+                $denuncia->tblviolencias()->sync($request->get('tblviolencia_id'));
+            }
+
+            // formar el array de agresores que se registraran en la denuncia
+            $agresores_arr = [];
+            for ($i = 0; $i < $request['rowCountA']; $i++) { 
+                $agresores_arr[] = [
+                    'denuncia_id' => $denuncia->id,
+                    'agresor_id' => $request['agresor_id'.$acounters[$i+1]],
+                    'tblparentesco_id' => $request['tblparentesco_id'.$acounters[$i+1]],
+                ];
+            }
+
+            // actualizar la denuncia con los datos de las victimas
+            $denuncia->victimas()->sync($victimas_arr);
+
+            // actualizar la denuncia con los datos de los agresores
+            $denuncia->agresores()->sync($agresores_arr);
+            // for ($i=0; $i < count($agresores_arr); $i++) { 
+            //     DenunciaAgresor::create($agresores_arr[$i]);
+            // }
+
+            return response()->json([
+                'type' => 'store',
+                'info' => 'Denuncia correctamente actualizada.',
+            ]);
+
+        }
+
     }
 
 }
