@@ -88,6 +88,12 @@ function showIntFech(fecha1, fecha2, checked) {
     javascript:ajaxLoad(str);
 }
 
+// intervalo de fechas
+$("input[name='intfech']").iCheck({
+    checkboxClass: 'icheckbox_square-blue',
+    radioClass: 'iradio_square-blue',
+    increaseArea: '20%'
+});
 // daterangepicker
 $('#dateRange').daterangepicker({
     locale: {
