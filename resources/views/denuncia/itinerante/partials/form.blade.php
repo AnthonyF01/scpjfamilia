@@ -166,7 +166,19 @@
         </div>
         <div class="box_plus-body">
           
-          <div class="alert alert-danger" style="display: none"></div>
+          <div class="alert alert-danger" style="{{ ((count($denuncia->victimas) > 0) && (count($denuncia->agresores) > 0)) ? 'display: none' : ( ((count($denuncia->victimas) <= 0) && (count($denuncia->agresores) <= 0)) ? 'display: block' : ((count($denuncia->victimas) <= 0) ? 'display: block' : ( (count($denuncia->agresores) <= 0) ? 'display: block' : 'display: none' ) ) ) }}">
+            @if ((count($denuncia->victimas) <= 0) && (count($denuncia->agresores) <= 0))
+              <ul><li>Las Victimas y los Agresores deben ser registrados en la denuncia</li></ul>
+            @else 
+              @if (count($denuncia->victimas) <= 0)
+                <ul><li>Las Victimas deben ser registradas en la denuncia</li></ul>
+              @else 
+                @if (count($denuncia->agresores) <= 0)
+                  <ul><li>Los Agresores deben ser registrados en la denuncia</li></ul>
+                @endif
+              @endif
+            @endif
+          </div>
 
           @if(isset($denuncia) && !empty($denuncia['id']))
             {!! Form::model($denuncia, [ 'route' => ['denuncia.jiupdate', $denuncia->id], 'method' => 'PUT', 'id'=>'form_denuncia_itinerante' ]) !!}
@@ -277,9 +289,9 @@
                 <span id="error-faudiencia" class="invalid-feedback"></span>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
               <div class="form-group">
-                {{ Form::label('hora', 'Hora de Audiencia:', ['class' => 'lbldens control-label']) }}
+                {{ Form::label('hora', 'Hora Inicio de Audiencia:', ['class' => 'lbldens control-label']) }}
                 <div class="input-group">
                   {{ Form::text('hora', null, ['class' => 'form-control input-sm timepicker'.($errors->has('hora')?" is-invalid":""), "autofocus", 'id' => 'hora', 'autocomplete' => 'off']) }}
                   <div class="input-group-addon">
@@ -287,6 +299,18 @@
                   </div>
                 </div>
                 <span id="error-hora" class="invalid-feedback"></span>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="form-group">
+                {{ Form::label('horaf', 'Hora Fin de Audiencia:', ['class' => 'lbldens control-label']) }}
+                <div class="input-group">
+                  {{ Form::text('horaf', null, ['class' => 'form-control input-sm timepicker'.($errors->has('horaf')?" is-invalid":""), "autofocus", 'id' => 'horaf', 'autocomplete' => 'off']) }}
+                  <div class="input-group-addon">
+                    <i class="fa fa-clock-o"></i>
+                  </div>
+                </div>
+                <span id="error-horaf" class="invalid-feedback"></span>
               </div>
             </div>
           </div>

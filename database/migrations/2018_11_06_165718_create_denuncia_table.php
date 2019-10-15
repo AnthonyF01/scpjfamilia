@@ -24,6 +24,7 @@ class CreateDenunciaTable extends Migration
             $table->string('expediente',50)->nullable();
             $table->string('calificacion',50)->nullable();
             $table->time('hora')->nullable();
+            $table->time('horaf')->nullable();
             $table->date('faudiencia')->nullable();             // fase 2
             $table->string('remitido',150)->nullable();         // fase 2
             $table->string('oficioremitido',50)->nullable();    // fase 2

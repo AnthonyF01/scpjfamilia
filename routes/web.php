@@ -451,6 +451,8 @@ Route::middleware(['auth'])->group(function () {
 
 
     // Itinerancia en Comisaria
+    Route::get('denuncia/jitinerante/getAudiencia', 'DenunciaController@getAudiencia')->name('denuncia.getAudiencia');
+
     Route::get('denuncia/jitinerante/index', 'DenunciaController@jitinerante')->name('denuncia.jitinerante')
         ->middleware('permission:denuncia.jitinerante');
 

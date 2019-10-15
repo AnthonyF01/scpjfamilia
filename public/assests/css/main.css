@@ -1005,3 +1005,18 @@ td.alert-info {
 }
 
 /* ---- fullcalendar ---- */
+
+/* ---- adicional ---- */
+
+header.main-header > a.logo {
+    border-bottom: 1px solid #ccc !important;
+    height: 51px;
+}
+header.main-header > nav.navbar {
+    border-bottom: 1px solid #ccc;
+}
+.breadcrumb {
+    border-radius: 0px;
+}
+
+/* ---- adicional ---- */

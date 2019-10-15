@@ -26,9 +26,89 @@
       z-index: 2000;
       display: none;
     }
+    .loading2 {
+      background: lightgrey;
+      padding: 20px;
+      position: fixed;
+      border-radius: 5px;
+      left: 50%;
+      top: 50%;
+      text-align: center;
+      margin: -40px 0 0 -50px;
+      z-index: 2000;
+      display: none;
+    }
     .box.cld{
       border-radius: 3px !important;
       border-top-width: 3px !important;
+    }
+
+    .panel-warning {
+      border-color: #ffc107 !important;
+    }
+    .panel-warning>.panel-heading {
+      color: #fff !important;
+      background-color: #ffc107 !important;
+      border-color: #ffc107 !important;
+    }
+  </style>
+  <style type="text/css">
+    /* SWITCH STYLES */
+    /* SOURCE: https://proto.io/freebies/onoff/ */
+    .onoffswitch {
+        position: relative; width: 70px;
+        -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+    .onoffswitch-checkbox {
+        display: none;
+    }
+    .onoffswitch-label {
+        display: block; overflow: hidden; cursor: pointer;
+        border: 2px solid #FFFFFF; border-radius: 20px;
+    }
+    .onoffswitch-inner {
+        display: block; width: 200%; margin-left: -100%;
+        transition: margin 0.3s ease-in 0s;
+    }
+    .onoffswitch-inner:before, .onoffswitch-inner:after {
+        display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+        font-size: 12px; color: black; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+        box-sizing: border-box;
+    }
+    .onoffswitch-inner:before {
+        content: "SI";
+        padding-left: 15px;
+        background-color: #167ebb; color: #FFFFFF;
+        text-align: left;
+    }
+    .onoffswitch-inner:after {
+        content: "NO";
+        padding-right: 15px;
+        background-color: #e84655; color: #FFFFFF;
+        text-align: right;
+    }
+    .onoffswitch-switch {
+        display: block; width: 12px; margin: 5px;
+        background: #FFFFFF;
+        position: absolute; top: 0; bottom: 0;
+        right: 40px;
+        border: 2px solid #FFFFFF; border-radius: 20px;
+        transition: all 0.3s ease-in 0s; 
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+        margin-left: 0;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+        right: 8px; 
+    }
+    
+    /* adicional */
+    .onoffswitch-content {
+      float: left;
+    }
+    .onoffswitch-lbln {
+      line-height: 34px;
+      margin-left: 10px;
     }
   </style>
 @endsection
@@ -144,6 +224,9 @@
               </div>
             </div>
 
+            <label for="success" class="col-md-12 control-label" style="line-height:30px"><i style="margin-right: 2px; color: #00a65a; font-size: 15px;" title="" class="fa fa-check-circle"></i> Registro de denuncia correcto y completo</label>
+            <label for="error" class="col-md-12 control-label" style="line-height:30px"><i style="margin-right: 2px; color: #dd4b39; font-size: 15px;" title="" class="fa fa-times-circle"></i> Registro de denuncia incompleto</label>
+
             <div id="content_ajax">
               @include('denuncia.itinerante.ajax')   
             </div>
@@ -155,7 +238,245 @@
   </div>
 </div>
 
+<div class="modal fade" id="modalItinerante" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="col-xs-12 col-md-12 col-lg-12">
+        <div class="row">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <span class="title">Agregar Denuncia - Justicia ItineranTE</span>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="fa fa-times-circle"></span>
+              </button>
+              <span id="span-title" style="font-size: 14px"></span>
+            </div>
+            <div class="panel-body" style="padding: 15px">
+              <form method="POST" action="http://localhost:8000/denuncia/jitinerante/store" accept-charset="UTF-8" id="form_denuncia_itinerante">
+
+                @method('POST')
+                @csrf
+  
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      {{ Form::label('tblcomisaria_id', 'Comisaría:', ['class' => 'lbldens control-label']) }}
+                      {{ Form::select('tblcomisaria_id', $comisarias, null, array('class'=>'form-control input-sm'.($errors->has('tblcomisaria_id')?" is-invalid":""), 'placeholder'=>'Seleccione una Comisaría', 'style'=>'width: 100%')) }}
+                      <span id="error-tblcomisaria_id" class="invalid-feedback"></span>
+                    </div>
+                    {{-- <div class="form-group has-feedback {{ $errors->has('oficio')? 'has-error':'' }}">
+                      {{ Form::label('oficio', 'Oficio:', ['class' => 'lbldens control-label']) }}
+                      {{ Form::text('oficio', null, ['class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), "autofocus", 'id' => 'oficio', 'autocomplete' => 'off']) }}
+                      <span id="error-oficio" class="invalid-feedback"></span>
+                    </div> --}}
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      {{ Form::label('fdenuncia', 'Fecha de Denuncia:', ['class' => 'lbldens control-label']) }}
+                      <div class="input-group date">
+                        <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                        {{ Form::text('fdenuncia', null, ['class' => 'form-control input-sm datepicker'.($errors->has('fdenuncia')?" is-invalid":""), "autofocus", 'id' => 'fdenuncia', 'autocomplete' => 'off', 'data-date-end-date'=>"0d"]) }}
+                      </div>
+                      <span id="error-fdenuncia" class="invalid-feedback"></span>
+                    </div>
+                    {{-- <div class="form-group">
+                      {{ Form::label('registro_file', 'Archivo de Registro Policial:', ['class' => 'lbldens control-label']) }}
+                      <div class="file-loading">
+                        <input id="registro_file" name="registro_file" type="file">
+                      </div>
+                      @if (isset($denuncia->registro_file) && !empty($denuncia->registro_file))
+                        <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> <a href="{{ url($denuncia->registro_file) }}" target="_blank">{{ explode("denuncia/",$denuncia->registro_file)[1] }}</a></span><br>
+                      @endif
+                      <span id="error-registro_file" class="invalid-feedback"></span>
+                    </div> --}}
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  {{ Form::label('tblviolencia_id', 'Tipo de Violencia:', ['class' => 'lbldens control-label']) }}
+                  @if(isset($denuncia) && !empty($denuncia['id']))
+                    {{Form::select('tblviolencia_id',$violencias,$denuncia->tblviolencias()->pluck('tblviolencia.id','tblviolencia.nombre')->toArray(),array('class' => 'form-control input-sm'.($errors->has('tblviolencia_id')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tblviolencia_id[]','id'=>'tblviolencia_id'))}}
+                  @else
+                    {{Form::select('tblviolencia_id',$violencias,null,array('class' => 'form-control input-sm'.($errors->has('tblviolencia_id')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tblviolencia_id[]','id'=>'tblviolencia_id'))}}
+                  @endif
+                  <span id="error-tblviolencia_id" class="invalid-feedback"></span>
+                </div>
+
+                
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      {{ Form::label('tbldenuncia_id', 'Grado de violencia:', ['class' => 'lbldens control-label']) }}
+                      {{Form::select('tbldenuncia_id',$tdenuncias,null,array('class' => 'form-control input-sm'.($errors->has('tbldenuncia_id')?" is-invalid":""),'name'=>'tbldenuncia_id','id'=>'tbldenuncia_id'))}}
+                      <span id="error-tbldenuncia_id" class="invalid-feedback"></span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      {{ Form::label('faudiencia', 'Fecha de Audiencia:', ['class' => 'lbldens control-label']) }}
+                      <div class="input-group date">
+                        <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                        {{ Form::text('faudiencia', null, ['class' => 'form-control input-sm datepicker'.($errors->has('faudiencia')?" is-invalid":""), "autofocus", 'id' => 'faudiencia', 'autocomplete' => 'off']) }}
+                      </div>
+                      <span id="error-faudiencia" class="invalid-feedback"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      {{ Form::label('hora', 'Hora Inicio de Audiencia:', ['class' => 'lbldens control-label']) }}
+                      <div class="input-group">
+                        {{ Form::text('hora', null, ['class' => 'form-control input-sm timepicker'.($errors->has('hora')?" is-invalid":""), "autofocus", 'id' => 'hora', 'autocomplete' => 'off']) }}
+                        <div class="input-group-addon">
+                          <i class="fa fa-clock-o"></i>
+                        </div>
+                      </div>
+                      <span id="error-hora" class="invalid-feedback"></span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      {{ Form::label('horaf', 'Hora Fin de Audiencia:', ['class' => 'lbldens control-label']) }}
+                      <div class="input-group">
+                        {{ Form::text('horaf', null, ['class' => 'form-control input-sm timepicker'.($errors->has('horaf')?" is-invalid":""), "autofocus", 'id' => 'horaf', 'autocomplete' => 'off']) }}
+                        <div class="input-group-addon">
+                          <i class="fa fa-clock-o"></i>
+                        </div>
+                      </div>
+                      <span id="error-horaf" class="invalid-feedback"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  {{ Form::label('tblmedida_id', 'Tipo de Medida de Protección:', ['class' => 'lbldens control-label']) }}
+                  @if(isset($denuncia) && !empty($denuncia['id']))
+                    {{Form::select('tblmedida_id',$medidas,$denuncia->tblmedidas()->pluck('tblmedida.id','tblmedida.nombre')->toArray(),array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tblmedida_id[]','id'=>'tblmedida_id'))}}
+                  @else
+                    {{Form::select('tblmedida_id',$medidas,null,array('class' => 'form-control input-sm'.($errors->has('oficio')?" is-invalid":""), 'multiple'=>'multiple','name'=>'tblmedida_id[]','id'=>'tblmedida_id'))}}
+                  @endif
+                  <span id="error-tblmedida_id" class="invalid-feedback"></span>
+                </div>
+                
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      {{ Form::label('fmedida', 'Fecha de Medida de Protección:', ['class' => 'lbldens control-label']) }}
+                      <div class="input-group date">
+                        <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                        {{ Form::text('fmedida', null, ['class' => 'form-control input-sm datepicker'.($errors->has('fmedida')?" is-invalid":""), "autofocus", 'id' => 'fmedida', 'autocomplete' => 'off']) }}
+                      </div>
+                      <span id="error-fmedida" class="invalid-feedback"></span>
+                    </div>
+                  </div>
+                </div>
+                {{-- <div class="form-group">
+                  {{ Form::label('medida_file', 'Medida de Protección:', ['class' => 'lbldens control-label']) }}
+                  <div class="input-group">
+                    <div class="input-group-btn">
+                      @if (isset($denuncia->medida_file) && !empty($denuncia->medida_file) && isset(explode("denuncia/",$denuncia->medida_file)[1]))
+                        <a style="margin-right: 0px;" title="Descargar Medida de Protección" href="{{ $denuncia->medida_file }}" target="_blank" class="btn btn-outline-primary"><i class="fa fa-download"></i></a>
+                      @else
+                        <a disabled style="margin-right: 0px;" title="Medida de Protección disponible" href="javascript:void(0)" target="_blank" class="btn btn-outline-primary"><i class="fa fa-download"></i></a>
+                      @endif
+                    </div>
+                    <div class="file-loading">
+                      <input id="medida_file" name="medida_file" type="file">
+                    </div>
+                  </div>
+                  @if (isset($denuncia->medida_file) && !empty($denuncia->medida_file) && isset(explode("denuncia/",$denuncia->medida_file)[1]))
+                    <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> {{ explode("denuncia/",$denuncia->medida_file)[1] }}</span>
+                  @else
+                    <span style="font-size: 11px; font-style: italic;"><b>Archivo: </b> No disponible</span>
+                  @endif
+                  <span id="error-medida_file" class="invalid-feedback"></span>
+                </div> --}}
+  
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      {{ Form::label('itinerancia', 'Itinerancia:', ['class' => 'lbldens control-label']) }}
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="onoffswitch-content">
+                            <div class="onoffswitch">
+                              @if(isset($denuncia) && !empty($denuncia['id']))
+                                {!! Form::checkbox('itinerancia', $denuncia->itinerancia, (isset($denuncia) && !empty($denuncia['id']) && $denuncia->itinerancia == '1') ? true : false, ['class' => 'onoffswitch-checkbox', 'id' => 'itinerancia']) !!}
+                              @else
+                                {!! Form::checkbox('itinerancia', null, null, ['class' => 'onoffswitch-checkbox', 'id' => 'itinerancia']) !!}
+                              @endif
+                              <label class="onoffswitch-label" for="itinerancia">
+                                <span class="onoffswitch-inner"></span>
+                                <span class="onoffswitch-switch"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <span class="onoffswitch-lbln">Itinerancia en comisaría</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      {{ Form::label('device', 'Aplicación Móvil:', ['class' => 'lbldens control-label']) }}
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="onoffswitch-content">
+                            <div class="onoffswitch">
+                              @if(isset($denuncia) && !empty($denuncia['id']))
+                                {!! Form::checkbox('device', $denuncia->device, (isset($denuncia) && !empty($denuncia['id']) && $denuncia->device == '1') ? true : false, ['class' => 'onoffswitch-checkbox', 'id' => 'device']) !!}
+                              @else
+                                {!! Form::checkbox('device', null, null, ['class' => 'onoffswitch-checkbox', 'id' => 'device']) !!}
+                              @endif
+                              <label class="onoffswitch-label" for="device">
+                                <span class="onoffswitch-inner"></span>
+                                <span class="onoffswitch-switch"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <span class="onoffswitch-lbln">Instalación de Botón de Pánico</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group has-feedback {{ $errors->has('observacion')? 'has-error':'' }}">
+                  {{ Form::label('observacion', 'Observaciones:', ['class' => 'lbldens control-label']) }}
+                  <div class="input-group">
+                    {{ Form::textarea('observacion', null, ['class' => 'form-control input-sm'.($errors->has('observacion')?" is-invalid":""), "autofocus", 'id' => 'observacion', 'autocomplete' => 'off', 'rows' => 4]) }}
+                    <div class="input-group-addon"><i class="fa fa-edit"></i></div>
+                  </div>
+                  <span id="error-observacion" class="invalid-feedback"></span>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                  <div class="col-md-offset-4 col-md-4">
+                    <div class="btnIt">
+                      <a class="btn btn-outline-primary btn-sm btn-block" onclick="doSubmit()"><i class="fa fa-save"></i> Registrar</a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="loading" style="display: none;">
+  <i class="fa fa-refresh fa-spin fa-2x fa-tw"></i>
+  <br>
+  <span>Loading</span>
+</div>
+
+<div class="loading2" style="display: none;">
   <i class="fa fa-refresh fa-spin fa-2x fa-tw"></i>
   <br>
   <span>Loading</span>
@@ -170,6 +491,14 @@
     var chk = {{ Session::get('checked') }};
   </script>
   <script type="text/javascript">
+    // form action
+    store = "{{ route('denuncia.jistore') }}";
+    update = "{{ url('/denuncia/jitinerante/') }}";
+
+    // modal elemetn (button - title)
+    var btnIt = '';
+    var title = '';
+
     /* initialize the calendar
      -----------------------------------------------------------------*/
     //Date for the calendar events (dummy data)
@@ -197,13 +526,11 @@
       selectable: true,
       allDaySlot: true,
       defaultEventMinutes: 120,
-      slotLabelFormat: 'HH:mm a',
+      slotLabelFormat: 'HH:mm',
       weekNumbers: true,
       weekNumbersWithinDays: true,
       selectHelper:true,
       nowIndicator:true,
-
-
       buttonText: {
         today: 'Hoy',
         month: 'Mes',
@@ -212,7 +539,7 @@
         day  : 'Día'
       },
       //Random default events
-      events    : [
+      /*events    : [
         {
           title          : 'All Day Event',
           start          : new Date(y, m, 1),
@@ -257,11 +584,10 @@
           backgroundColor: '#3c8dbc', //Primary (light-blue)
           borderColor    : '#3c8dbc' //Primary (light-blue)
         }
-      ],
-      editable  : true,
+      ],*/
+      events: "{{ url('denuncia/jitinerante/getAudiencia') }}",
       droppable : true, // this allows things to be dropped onto the calendar !!!
       drop      : function (date, allDay) { // this function is called when something is dropped
-
         // retrieve the dropped element's stored Event Object
         var originalEventObject = $(this).data('eventObject')
 
@@ -283,15 +609,134 @@
           // if so, remove the element from the "Draggable Events" list
           $(this).remove()
         }
+      },
+      eventClick:  function(event, jsEvent, view) { // click sobre un evento creado
+        // $('#modalItinerante').modal();
+        console.log("abrir");
 
+        $("#modalItinerante #form_denuncia_itinerante input[name=faudiencia]").datepicker({
+            autoclose: true,
+            format: 'dd/mm/yyyy',
+        }).removeAttr('readonly');
+
+        btnIt = '<a class="btn btn-outline-warning btn-sm btn-block" type="submit"><i class="fa fa-save"></i>Actualizar</a>';
+        title = 'Agregar Denuncia - Justicia Itinerante';
+        $(".btnIt").html(btnIt);
+        $("#modalItinerante #form_denuncia_itinerante input[name=method]").val('PUT');
+        $("#modalItinerante #form_denuncia_itinerante").attr('action',update);
+        $('#modalItinerante .panel').removeClass('panel-primary');
+        $('#modalItinerante .panel').addClass('panel-warning');
+        $('#modalItinerante').modal('toggle');
+      },
+      select: function(start, end, jsEvent) { // seleccionar un espacio en blanco
+        endtime = $.fullCalendar.moment(end).format('HH:mm');
+        ftime = endtime;
+        starttime = $.fullCalendar.moment(start).format('dddd, DD MMMM YYYY, HH:mm');
+        itime = $.fullCalendar.moment(start).format('HH:mm');
+        adate = $.fullCalendar.moment(start).format('DD/MM/YYYY'); // faudiencia
+        var mywhen = starttime + ' - ' + endtime;
+        start = moment(start).format();
+        end = moment(end).format();
+        // alert(starttime+' | '+endtime+' | '+mywhen+' | '+start+' | '+end);
+
+        $("#modalItinerante #form_denuncia_itinerante input[name=hora]").timepicker('setTime', itime);
+        $("#modalItinerante #form_denuncia_itinerante input[name=horaf]").timepicker('setTime', ftime);
+        $("#modalItinerante #form_denuncia_itinerante input[name=faudiencia]").datepicker('destroy').attr('readonly', 'readonly');
+        $("#modalItinerante #form_denuncia_itinerante input[name=faudiencia]").val(adate);
+        $("#modalItinerante #form_denuncia_itinerante input[name=fmedida]").datepicker("setDate", adate);
+
+        btnIt = '<a class="btn btn-outline-primary btn-sm btn-block" onclick="doSubmit()"><i class="fa fa-save"></i> Registrar</a>';
+        title = 'Agregar Denuncia - Justicia ItineranTE';
+        $(".btnIt").html(btnIt);
+        $("#modalItinerante #form_denuncia_itinerante input[name=method]").val('POST');
+        $("#modalItinerante #form_denuncia_itinerante").attr('action',store);
+        $('#modalItinerante .panel').removeClass('panel-warning');
+        $('#modalItinerante .panel').addClass('panel-primary');
+        $('#modalItinerante').modal('toggle');
+      },
+    });
+  
+    function doSubmit(){
+      $(".loading2").css('display','block');
+      $(".btnIt a").attr("disabled", true);
+
+      var form = $("#modalItinerante #form_denuncia_itinerante");
+      var formData  = new FormData($("#modalItinerante #form_denuncia_itinerante")[0]);
+      var url = form.attr("action");
+
+      // input checkbox
+      if (formData.has('device')) {
+          formData.set('device', $('modalItinerante #form_denuncia_itinerante input[name="device"]:checked').length);
       }
-    })
+      if (formData.has('itinerancia')) {
+          formData.set('itinerancia', $('modalItinerante #form_denuncia_itinerante input[name="itinerancia"]:checked').length);
+      }
+
+      formData.append('rmodal',1);
+
+      $.ajax({
+        url: url,
+        type: form.attr('method'),
+        data: formData,
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function (data) {
+          debugger
+          $(".btnIt a").removeAttr("disabled");
+          $('#modalItinerante #form_denuncia_itinerante .is-invalid').removeClass('is-invalid');
+          $('#modalItinerante #form_denuncia_itinerante .invalid-feedback').html('');
+
+          if (data.fail) {
+            for (control in data.errors) {
+              $('#modalItinerante #form_denuncia_itinerante #' + control).addClass('is-invalid');
+              $('#modalItinerante #form_denuncia_itinerante #error-' + control).html(data.errors[control]);
+            }
+            $(".loading2").css('display','none');
+          } else {
+            window.location = update+'/'+data.id+'/edit';
+          }
+        },
+        error: function (xhr, textStatus, errorThrown) {
+          $(".btnIt a").removeAttr("disabled");
+          $(".loading2").css('display','none');
+          alert("Error: " + errorThrown);
+        }
+      });
+
+    }
+    
   </script>
   <script type="text/javascript">
     // fix button calendar
     $(document).ready(function() {
       $(".fc-listWeek-button").text("Agenda");
     });
+  </script>
+  <script type="text/javascript">
+    // select
+    $('#modalItinerante #tblviolencia_id').select2({
+      placeholder: 'Seleccione un Tipo',
+      width: '100%'
+    });
+    $('#modalItinerante #tblmedida_id').select2({
+      placeholder: 'Seleccione un Tipo',
+      width: '100%'
+    });
+    $('#modalItinerante #tbldenuncia_id').select2({
+      placeholder: 'Seleccione un Tipo',
+      width: '100%'
+    });
+    $('#modalItinerante #tblcomisaria_id').select2();
+
+    // timepicker
+    $('.timepicker').timepicker({
+      minuteStep: 5,
+      showInputs: false,
+      showMeridian: false,
+      showSeconds: false,
+      defaultTime:'00:00',
+    })
   </script>
   <script src="{{ asset('assests/js/denuncia/itinerante/itinerante.js') }}"></script>
 @endsection

@@ -114,6 +114,9 @@
     <script src="{{ asset('/adminlte245/bower_components/fullcalendar/dist/fullcalendar.min.js') }}" type="text/javascript"></script>
     <script src="{{ asset('/adminlte245/bower_components/fullcalendar/dist/locale/es.js') }}" type="text/javascript"></script>
 
+    {{-- Pacejs --}}
+    <script src="{{ asset('/assests/plugins/pacejs/pace.min.js') }}" type="text/javascript"></script>
+
 <!-- Scripts propios -->
 
 <script src="{{ asset('/assests/js/main.js') }}" type="text/javascript"></script>

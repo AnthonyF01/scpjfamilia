@@ -168,6 +168,9 @@
     <link href="{{ asset('/adminlte245/bower_components/fullcalendar/dist/fullcalendar.min.css') }}" rel="stylesheet" type="text/css" />
     {{-- <link href="{{ asset('/adminlte245/bower_components/fullcalendar/dist/fullcalendar.print.min.css') }}" rel="stylesheet" type="text/css" /> --}}
 
+    {{-- Pacejs --}}
+    <link href="{{ asset('/assests/plugins/pacejs/pace.min.css') }}" rel="stylesheet" type="text/css" />
+
     <link href="{{ asset('/assests/css/main.css') }}" rel="stylesheet" type="text/css" />
 
     <link rel="stylesheet" type="text/css" href="{{ asset('css/prototype1.css') }}">

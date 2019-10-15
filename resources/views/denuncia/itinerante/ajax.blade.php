@@ -3,8 +3,9 @@
     <tr>
 
       <th class="modHeader" width="10px"></th>
+      <th class="modHeader" width="10px" title="Estado del Registro" style="padding-left: 5px !important;padding-right: 5px !important;"></th>
 
-      <th class="modHeader" title="Fecha de Formalizacion">
+      <th class="modHeader" title="Fecha de Formalizacion" width="100px">
         <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=fdenuncia&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">F. Denuncia <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
@@ -14,7 +15,7 @@
         </a>
       </th>
 
-      <th class="modHeader">
+      <th class="modHeader" width="225px">
         <a class="btn-block" href="javascript:ajaxLoad('{{url('tblcomisaria?field=tblcomisaria_id&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Comisaria <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
@@ -26,7 +27,7 @@
         </a>
       </th>
 
-      <th class="modHeader" title="Fecha de Audiencia">
+      <th class="modHeader" title="Fecha de Audiencia" width="105px">
         <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=faudiencia&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">F. Audiencia <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
@@ -50,6 +51,19 @@
       @foreach($denuncias as $denuncia)
         <tr>
           <td class="middle details-control" data-toggle="1" onclick="showDetalis(this)" style="padding-left: 15px; padding-right: 15px" data-label="Ver detalles"></td>
+          <td class="middle" style="padding-left: 5px !important;padding-right: 5px !important;">
+            @if ((isset($denuncia->victimas) && !empty($denuncia->victimas) && count($denuncia->victimas) > 0) && (isset($denuncia->agresores) && !empty($denuncia->agresores) && count($denuncia->agresores) > 0))
+              <i style="margin-right: 2px; color: #00a65a; font-size: 15px;" title="" class="fa fa-check-circle"></i>
+            @else 
+              @if (count($denuncia->victimas) <= 0)
+                <i style="margin-right: 2px; color: #dd4b39; font-size: 15px;" title="La denuncia no tiene victimas asignadas" class="fa fa-times-circle"></i>
+              @else
+                @if (count($denuncia->agresores) <= 0)
+                  <i style="margin-right: 2px; color: #dd4b39; font-size: 15px;" title="La denuncia no tiene agresores asignados" class="fa fa-times-circle"></i>
+                @endif
+              @endif
+            @endif
+          </td>
           <td class="middle" data-label="Fecha Denuncia">{{ $denuncia->fdenuncia }}</td>
           <td class="middle" data-label="Codigo">{{ $denuncia->codigo }}</td>
           <td class="middle" data-label="Comisaria">{{ $denuncia->tblcomisaria->nombre }}</td>

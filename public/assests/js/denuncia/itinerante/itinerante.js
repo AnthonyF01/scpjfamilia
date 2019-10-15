@@ -702,6 +702,8 @@ $(document).on('submit', 'form#form_denuncia_itinerante', function (event) {
 
         console.log(atotal);
 
+        formData.append('rmodal',0);
+
         debugger
 
         $.ajax({
@@ -743,7 +745,7 @@ $(document).on('submit', 'form#form_denuncia_itinerante', function (event) {
     } else {
 
         str = '<ul>'
-        str += '<li>Los Servidores Judiciales y las Partes Procesales deben ser registrados</li>';
+        str += '<li>Las Victimas y los Agresores deben ser registrados</li>';
         str += '</ul>';
         $(".alert.alert-danger").show();
         $(".alert.alert-danger").html(str);

@@ -1,6 +1,11 @@
+$.datepicker.setDefaults({ 
+    beforeShow: function (i) { 
+        if ($(i).attr('readonly')) { return false; } 
+    } 
+});
 $(document).find('.datepicker').datepicker({
     autoclose: true,
-    format: 'dd/mm/yyyy'
+    format: 'dd/mm/yyyy',
 }).addClass('hasDatepicker');
 
 // Ejecuta funciones secuencialmente (usa setTimeout)
