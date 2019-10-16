@@ -166,15 +166,17 @@
         </div>
         <div class="box_plus-body">
           
-          <div class="alert alert-danger" style="{{ ((count($denuncia->victimas) > 0) && (count($denuncia->agresores) > 0)) ? 'display: none' : ( ((count($denuncia->victimas) <= 0) && (count($denuncia->agresores) <= 0)) ? 'display: block' : ((count($denuncia->victimas) <= 0) ? 'display: block' : ( (count($denuncia->agresores) <= 0) ? 'display: block' : 'display: none' ) ) ) }}">
-            @if ((count($denuncia->victimas) <= 0) && (count($denuncia->agresores) <= 0))
-              <ul><li>Las Victimas y los Agresores deben ser registrados en la denuncia</li></ul>
-            @else 
-              @if (count($denuncia->victimas) <= 0)
-                <ul><li>Las Victimas deben ser registradas en la denuncia</li></ul>
+          <div class="alert alert-danger" style="{{ ( isset($denuncia->victimas) && !empty($denuncia->victimas) && isset($denuncia->agresores) && !empty($denuncia->agresores) ) ? ( ((count($denuncia->victimas) > 0) && (count($denuncia->agresores) > 0)) ? 'display: none' : ( ((count($denuncia->victimas) <= 0) && (count($denuncia->agresores) <= 0)) ? 'display: block' : ((count($denuncia->victimas) <= 0) ? 'display: block' : ( (count($denuncia->agresores) <= 0) ? 'display: block' : 'display: none' ) ) ) ) : 'display: none' }}">
+            @if ( isset($denuncia->victimas) && !empty($denuncia->victimas) && isset($denuncia->agresores) && !empty($denuncia->agresores) )
+              @if ((count($denuncia->victimas) <= 0) && (count($denuncia->agresores) <= 0))
+                <ul><li>Las Victimas y los Agresores deben ser registrados en la denuncia</li></ul>
               @else 
-                @if (count($denuncia->agresores) <= 0)
-                  <ul><li>Los Agresores deben ser registrados en la denuncia</li></ul>
+                @if (count($denuncia->victimas) <= 0)
+                  <ul><li>Las Victimas deben ser registradas en la denuncia</li></ul>
+                @else 
+                  @if (count($denuncia->agresores) <= 0)
+                    <ul><li>Los Agresores deben ser registrados en la denuncia</li></ul>
+                  @endif
                 @endif
               @endif
             @endif

@@ -100,66 +100,70 @@
                     </span>
                   </div>
                   <div class="panel-body">
-                    @if (count($denuncia->victimas))
-                      @foreach ($denuncia->victimas as $victima)
-                        <div class="panel panel-info">
-                          <div class="panel-body">
-                            <table class="table" style="text-align: left; margin: 0px;">
-                              <tbody>
-                                <tr>
-                                  <td class="width-20 fweight">Nombres:</td>
-                                  <td class="width-30">{{ $victima->nombre }} {{ $victima->apellido }}</td>
-                                  <td class="width-20 fweight">{{ $victima->tbldocumento->sigla }}:</td>
-                                  <td class="width-30">{{ $victima->nro_doc }}</td>
-                                </tr>
-                                <tr>
-                                  <td class="width-20 fweight">Edad:</td>
-                                  <td class="width-30">{{ $victima->edad }}</td>
-                                  <td class="width-20 fweight">N° de Hijos:</td>
-                                  <td class="width-30">{{ $victima->hijos }}</td>
-                                </tr>
-                                <tr>
-                                  <td class="width-20 fweight">Teléfono:</td>
-                                  <td class="width-30">
-                                    @if (isset($victima->telefono) && !empty($victima->telefono))
-                                      {{ $victima->telefono }}
-                                    @else
-                                      <small style="font-size:11px;" class="label bg-red">No Registra</small>
-                                    @endif
-                                  </td>
-                                  <td class="width-20 fweight">Correo Electrónico:</td>
-                                  <td class="width-30">
-                                    @if (isset($victima->email) && !empty($victima->email))
-                                      {{ $victima->email }}
-                                    @else
-                                      <small style="font-size:11px;" class="label bg-red">No Registra</small>
-                                    @endif
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td class="width-20 fweight">Dirección:</td>
-                                  <td class="width-30">
-                                    @if (isset($victima->direccion) && !empty($victima->direccion))
-                                      {{ $victima->direccion }}
-                                    @else
-                                      <small style="font-size:11px;" class="label bg-red">No Registra</small>
-                                    @endif
-                                  </td>
-                                  <td class="width-20 fweight">Distrito:</td>
-                                  <td class="width-30">{{ $victima->tbldistrito->nombre }}</td>
-                                </tr>
-                                <tr>
-                                  <td class="width-20 fweight">Provincia:</td>
-                                  <td class="width-30">{{ $victima->tblprovincia->nombre }}</td>
-                                  <td class="width-20 fweight">Departamento:</td>
-                                  <td class="width-30">{{ $victima->tbldepartamento->nombre }}</td>
-                                </tr>
-                              </tbody>
-                            </table>
+                    @if (count($denuncia->victimas) <= 0)
+                      <div style="padding: 10px;">No se encontraron resultados...</div>
+                    @else
+                      @if (count($denuncia->victimas))
+                        @foreach ($denuncia->victimas as $victima)
+                          <div class="panel panel-info">
+                            <div class="panel-body">
+                              <table class="table" style="text-align: left; margin: 0px;">
+                                <tbody>
+                                  <tr>
+                                    <td class="width-20 fweight">Nombres:</td>
+                                    <td class="width-30">{{ $victima->nombre }} {{ $victima->apellido }}</td>
+                                    <td class="width-20 fweight">{{ $victima->tbldocumento->sigla }}:</td>
+                                    <td class="width-30">{{ $victima->nro_doc }}</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="width-20 fweight">Edad:</td>
+                                    <td class="width-30">{{ $victima->edad }}</td>
+                                    <td class="width-20 fweight">N° de Hijos:</td>
+                                    <td class="width-30">{{ $victima->hijos }}</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="width-20 fweight">Teléfono:</td>
+                                    <td class="width-30">
+                                      @if (isset($victima->telefono) && !empty($victima->telefono))
+                                        {{ $victima->telefono }}
+                                      @else
+                                        <small style="font-size:11px;" class="label bg-red">No Registra</small>
+                                      @endif
+                                    </td>
+                                    <td class="width-20 fweight">Correo Electrónico:</td>
+                                    <td class="width-30">
+                                      @if (isset($victima->email) && !empty($victima->email))
+                                        {{ $victima->email }}
+                                      @else
+                                        <small style="font-size:11px;" class="label bg-red">No Registra</small>
+                                      @endif
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="width-20 fweight">Dirección:</td>
+                                    <td class="width-30">
+                                      @if (isset($victima->direccion) && !empty($victima->direccion))
+                                        {{ $victima->direccion }}
+                                      @else
+                                        <small style="font-size:11px;" class="label bg-red">No Registra</small>
+                                      @endif
+                                    </td>
+                                    <td class="width-20 fweight">Distrito:</td>
+                                    <td class="width-30">{{ $victima->tbldistrito->nombre }}</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="width-20 fweight">Provincia:</td>
+                                    <td class="width-30">{{ $victima->tblprovincia->nombre }}</td>
+                                    <td class="width-20 fweight">Departamento:</td>
+                                    <td class="width-30">{{ $victima->tbldepartamento->nombre }}</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
                           </div>
-                        </div>
-                      @endforeach
-                    @endif
+                        @endforeach
+                      @endif
+                    @endif  
                   </div>
                 </div>
               </div>

@@ -735,7 +735,7 @@
       showInputs: false,
       showMeridian: false,
       showSeconds: false,
-      defaultTime:'00:00',
+      defaultTime:'08:00',
     })
   </script>
   <script src="{{ asset('assests/js/denuncia/itinerante/itinerante.js') }}"></script>
