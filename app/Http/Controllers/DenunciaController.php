@@ -4250,11 +4250,37 @@ class DenunciaController extends Controller
         $medidas = Tblmedida::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
         $violencias = Tblviolencia::orderBy('nombre')->whereNull('deleted_at')->pluck('nombre', 'id');
 
+        $pabogados[] = [
+            'sigla' => 'CEM',
+            'nombre' => 'CEM' 
+        ];
+        $pabogados[] = [
+            'sigla' => 'DFP',
+            'nombre' => 'Defensa Pública' 
+        ];
+
+        $pdenuncias[] = [
+            'sigla' => 'PRT',
+            'nombre' => 'Parte',
+        ];
+        $pdenuncias[] = [
+            'sigla' => 'FAM',
+            'nombre' => 'Familia',
+        ];
+        $pdenuncias[] = [
+            'sigla' => 'CEM',
+            'nombre' => 'CEM',
+        ];
+        $pdenuncias[] = [
+            'sigla' => 'OTR',
+            'nombre' => 'Otros',
+        ];
+
         if ($request->ajax()) {
           return view('denuncia.itinerante.ajax', compact('comisarias','denuncias'));
           // return view('denuncia.itinerante.ajax');
         } else {
-          return view('denuncia.itinerante.index', compact('comisarias','parentescos','medidas','violencias','tdenuncias','denuncias'));
+          return view('denuncia.itinerante.index', compact('comisarias','parentescos','medidas','violencias','tdenuncias','denuncias','pabogados','pdenuncias'));
           // return view('denuncia.itinerante.index');
         }
     }
@@ -4272,7 +4298,35 @@ class DenunciaController extends Controller
         $documentos = Tbldocumento::orderBy('nombre','asc')->whereNull('deleted_at')->pluck('nombre', 'id');
         $tipos = Tbltipo::whereNull('deleted_at')->pluck('nombre', 'id');
 
-        return view('denuncia.itinerante.partials.form', compact('comisarias','parentescos','medidas','violencias','tdenuncias','departamentos','documentos','tipos'));
+        $pabogados[] = [
+            'sigla' => 'CEM',
+            'nombre' => 'CEM' 
+        ];
+        $pabogados[] = [
+            'sigla' => 'DFP',
+            'nombre' => 'Defensa Pública' 
+        ];
+
+        $pdenuncias[] = [
+            'sigla' => 'PRT',
+            'nombre' => 'Parte',
+        ];
+        $pdenuncias[] = [
+            'sigla' => 'FAM',
+            'nombre' => 'Familia',
+        ];
+        $pdenuncias[] = [
+            'sigla' => 'CEM',
+            'nombre' => 'CEM',
+        ];
+        $pdenuncias[] = [
+            'sigla' => 'OTR',
+            'nombre' => 'Otros',
+        ];
+
+        // dd($pabogados,$pdenuncias);
+
+        return view('denuncia.itinerante.partials.form', compact('comisarias','parentescos','medidas','violencias','tdenuncias','departamentos','documentos','tipos','pabogados','pdenuncias'));
 
     }
 
@@ -4325,6 +4379,8 @@ class DenunciaController extends Controller
             'faudiencia' => 'Fecha de Audiencia',
             'hora' => 'Hora Inicio de Audiencia',
             'horaf' => 'Hora Fin de Audiencia',
+            'pabogado' => 'Participacón del Abogado',
+            'pdenuncia' => 'Presentación de la denuncia',
             'tblmedida_id' => 'Tipo Medida de Proteccion',
             'fmedida' => 'Fecha de Medida de Protección',
             'device' => 'Aplicación Móvil',
@@ -4342,6 +4398,8 @@ class DenunciaController extends Controller
             // 'horaf' => 'required|date_format:H:i|after:hora',
             'hora' => 'required',
             'horaf' => 'required|after:hora',
+            'pabogado' => 'required',
+            'pdenuncia' => 'required',
             'tblmedida_id' => 'required|array|min:1',
             'fmedida' => 'required|date',
             'device' => 'nullable|in:1,0',
@@ -4357,6 +4415,8 @@ class DenunciaController extends Controller
             'faudiencia' => $request['faudiencia'],
             'hora' => $request['hora'],
             'horaf' => $request['horaf'],
+            'pabogado' => $request['pabogado'],
+            'pdenuncia' => $request['pdenuncia'],
             'tblmedida_id' => $request['tblmedida_id'],
             'fmedida' => $request['fmedida'],
             'device' => $request['device'],
@@ -4490,7 +4550,33 @@ class DenunciaController extends Controller
         $documentos = Tbldocumento::orderBy('nombre','asc')->whereNull('deleted_at')->pluck('nombre', 'id');
         $tipos = Tbltipo::whereNull('deleted_at')->pluck('nombre', 'id');
 
-        return view('denuncia.itinerante.partials.form', compact('denuncia','comisarias','parentescos','medidas','violencias','tdenuncias','departamentos','documentos','tipos'));
+        $pabogados[] = [
+            'sigla' => 'CEM',
+            'nombre' => 'CEM' 
+        ];
+        $pabogados[] = [
+            'sigla' => 'DFP',
+            'nombre' => 'Defensa Pública' 
+        ];
+
+        $pdenuncias[] = [
+            'sigla' => 'PRT',
+            'nombre' => 'Parte',
+        ];
+        $pdenuncias[] = [
+            'sigla' => 'FAM',
+            'nombre' => 'Familia',
+        ];
+        $pdenuncias[] = [
+            'sigla' => 'CEM',
+            'nombre' => 'CEM',
+        ];
+        $pdenuncias[] = [
+            'sigla' => 'OTR',
+            'nombre' => 'Otros',
+        ];
+
+        return view('denuncia.itinerante.partials.form', compact('denuncia','comisarias','parentescos','medidas','violencias','tdenuncias','departamentos','documentos','tipos','pabogados','pdenuncias'));
     }
 
     public function jiupdate(Request $request, $id)
@@ -4548,6 +4634,8 @@ class DenunciaController extends Controller
             'faudiencia' => 'Fecha de Audiencia',
             'hora' => 'Hora Inicio de Audiencia',
             'horaf' => 'Hora Fin de Audiencia',
+            'pabogado' => 'Participacón del Abogado',
+            'pdenuncia' => 'Presentación de la denuncia',
             'tblmedida_id' => 'Tipo Medida de Proteccion',
             'fmedida' => 'Fecha de Medida de Protección',
             'device' => 'Aplicación Móvil',
@@ -4565,6 +4653,8 @@ class DenunciaController extends Controller
             // 'horaf' => 'required|date_format:H:i|after:hora',
             'hora' => 'required',
             'horaf' => 'required|after:hora',
+            'pabogado' => 'required',
+            'pdenuncia' => 'required',
             'tblmedida_id' => 'required|array|min:1',
             'fmedida' => 'required|date',
             'device' => 'nullable|in:1,0',
@@ -4580,6 +4670,8 @@ class DenunciaController extends Controller
             'faudiencia' => $request['faudiencia'],
             'hora' => $request['hora'],
             'horaf' => $request['horaf'],
+            'pabogado' => $request['pabogado'],
+            'pdenuncia' => $request['pdenuncia'],
             'tblmedida_id' => $request['tblmedida_id'],
             'fmedida' => $request['fmedida'],
             'device' => $request['device'],

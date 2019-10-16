@@ -398,6 +398,55 @@
             </div>
           </div>
 
+          <br>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                {{ Form::label('pabogado', 'Participacón del Abogado:', ['class' => 'lbldens control-label']) }}
+                <ul class="list-unstyled">
+                  @foreach($pabogados as $pabogado)
+                    <li>
+                      @if(isset($denuncia) && !empty($denuncia['id']))
+                        <label>
+                        {{ Form::radio('pabogado', $pabogado['sigla'], ( ($pabogado['sigla'] == $denuncia->pabogado) ? true : false ) ) }}
+                        {{ $pabogado['nombre'] }}
+                        </label>
+                      @else
+                        <label>
+                        {{ Form::radio('pabogado', $pabogado['sigla'], false) }}
+                        {{ $pabogado['nombre'] }}
+                        </label>
+                      @endif
+                    </li>
+                  @endforeach
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                {{ Form::label('pdenuncia', 'Presentación de la denuncia:', ['class' => 'lbldens control-label']) }}
+                <ul class="list-unstyled">
+                  @foreach($pdenuncias as $pdenuncia)
+                    <li>
+                      @if(isset($denuncia) && !empty($denuncia['id']))
+                        <label>
+                        {{ Form::radio('pdenuncia', $pdenuncia['sigla'], ( ($pdenuncia['sigla'] == $denuncia->pdenuncia) ? true : false )) }}
+                        {{ $pdenuncia['nombre'] }}
+                        </label>
+                      @else
+                        <label>
+                        {{ Form::radio('pdenuncia', $pdenuncia['sigla'], false) }}
+                        {{ $pdenuncia['nombre'] }}
+                        </label>
+                      @endif
+                    </li>
+                  @endforeach
+                </ul>
+              </div>
+            </div>
+          </div>
+
           <hr>
 
           <div class="row">

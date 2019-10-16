@@ -21,7 +21,7 @@ class Denuncia extends Model
      *
      * @var array
      */
-    protected $fillable = [ 'codigo','tregistro','tblcomisaria_id','oficio','fdenuncia','fformalizacion','expediente','calificacion','hora','horaf','faudiencia','remitido','oficioremitido','fremision','ministerio','tblinstancia_id','asistencialegal','psicologia','remitidod','oficioremitidod','fremisiond','remitidoj','oficioremitidoj','fremisionj','observacion','tblmodulo_id','medida_file','registro_file','institucion','tbldenuncia_id','oficioejecucion','foficioejecucion','oficioejecucion_file','tblmedida_id','fmedida','dform','daud','total1','drem','dden','total2','fjuzgado','djuz'];
+    protected $fillable = [ 'codigo','tregistro','pabogado','pdenuncia','tblcomisaria_id','oficio','fdenuncia','fformalizacion','expediente','calificacion','hora','horaf','faudiencia','remitido','oficioremitido','fremision','ministerio','tblinstancia_id','asistencialegal','psicologia','remitidod','oficioremitidod','fremisiond','remitidoj','oficioremitidoj','fremisionj','observacion','tblmodulo_id','medida_file','registro_file','institucion','tbldenuncia_id','oficioejecucion','foficioejecucion','oficioejecucion_file','tblmedida_id','fmedida','dform','daud','total1','drem','dden','total2','fjuzgado','djuz'];
 
     /**
     * The attributes that aren't mass assignable.

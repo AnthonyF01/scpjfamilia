@@ -627,6 +627,16 @@ $(document).on('submit', 'form#form_denuncia_itinerante', function (event) {
         formData.set('itinerancia', $('input[name="itinerancia"]:checked').length);
     }
 
+    // input radio
+    var pabogado = $('input[name=pabogado]:checked').val();
+    if (typeof pabogado !== 'undefined' && (pabogado)) {
+        formData.append("pabogado",pabogado);
+    }
+    var pdenuncia = $('input[name=pdenuncia]:checked').val();
+    if (typeof pdenuncia !== 'undefined' && (pdenuncia)) {
+        formData.append("pdenuncia",pdenuncia);
+    }
+
     // de ambas tablas
     var rowCountV = $('#victimas tbody tr.data_victima').length;
     formData.append("rowCountV",rowCountV); // me servira en el controlador para identificar los campos
