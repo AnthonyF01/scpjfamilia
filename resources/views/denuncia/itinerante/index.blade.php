@@ -218,7 +218,14 @@
                 <div class="row">
                   <label for="dni" class="col-sm-4 control-label" style="line-height:30px">DNI:</label>
                   <div class="col-sm-8">
-                    <select id="selectVictima" class="form-control" name="selectVictima"></select>
+                    <div class="input-group">
+                      <div class="input-group-btn">
+                        <button type="submit" class="btn btn-sm btn-primary" onclick="$('#selectVictima').val(null).trigger('change'); ajaxLoad('{{url('denuncia/jitinerante/index')}}?dni='+'');">
+                          <i class="fa fa-refresh" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                      <select id="selectVictima" class="form-control" name="selectVictima"></select>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -704,6 +711,7 @@
     });
   
     function doSubmit(){
+      debugger;
       $(".loading2").css('display','block');
       $(".btnIt a").attr("disabled", true);
 
@@ -713,10 +721,10 @@
 
       // input checkbox
       if (formData.has('device')) {
-          formData.set('device', $('#modalItinerante #form_denuncia_itinerante input[name="device"]:checked').length);
+          formData.set('device', parseInt($('#modalItinerante #form_denuncia_itinerante input[name="device"]:checked').length));
       }
       if (formData.has('itinerancia')) {
-          formData.set('itinerancia', $('#modalItinerante #form_denuncia_itinerante input[name="itinerancia"]:checked').length);
+          formData.set('itinerancia', parseInt($('#modalItinerante #form_denuncia_itinerante input[name="itinerancia"]:checked').length));
       }
 
       // input radio

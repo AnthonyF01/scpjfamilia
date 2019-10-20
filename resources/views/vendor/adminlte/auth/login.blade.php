@@ -46,7 +46,7 @@
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal-login">Loguear</button>
+                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal-login">Iniciar  Sesión</button>
                 </form>
             </div>
             <button class="navbar-toggler btn-sm" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -110,15 +110,15 @@
                     <h5 class="modal-title">Ingrese sus credenciales</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body" style="padding-top: 0px;">
                     <form method="post" action="{{ url('/login') }}">
                         {{ csrf_field() }}
                         <div id="result" class="alert alert-success text-center" style="display: none;"> 
                             Logged in! <i class="fa fa-refresh fa-spin"></i> Entering...
                         </div> 
-                        <div class="form-group">
+                        {{-- <div class="form-group">
                             <label for="exampleInputEmail1">Distrito Judicial</label>
-                        </div>
+                        </div> --}}
                         <div class="form-group has-feedback {{ $errors->has('email')? 'has-error':'' }}">
                             <input type="email" placeholder="Email" name="email" value="{{ old('email') }}" autofocus="autofocus" class="form-control" required autofocus> <span class="glyphicon form-control-feedback glyphicon-envelope"></span> @if ($errors->has('email'))
                                 <span class="help-block">
@@ -135,7 +135,7 @@
                             @endif
                         </div> 
                         <div class="row">
-                            <div class="col-sm-6">
+                            {{-- <div class="col-md-6">
                                 <div class="checkbox icheck">
                                     <label class="">
                                         <div class="icheckbox_square-blue" style="position: relative;">
@@ -143,8 +143,8 @@
                                         </div> Recuérdame
                                     </label>
                                 </div>
-                            </div> 
-                            <div class="col-sm-6">
+                            </div>  --}}
+                            <div class="col-md-12">
                                 <button type="submit" class="btn btn-primary btn-block btn-flat">Iniciar Sesión</button>
                             </div>
                         </div>

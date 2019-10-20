@@ -3475,6 +3475,8 @@ class DenunciaController extends Controller
                     'itinerancia' => $request['itinerancia'],
                 ];
 
+                Log::info('update_denuncia: ', ['input' => $input]);
+
                 if ($request['institucion'] == '1') { // comisaria
                     $rules = parent::array_push_assoc($rules, 'tblcomisaria_id', 'required|exists:tblcomisaria,id');
                     $input = parent::array_push_assoc($input, 'tblcomisaria_id', $request['tblcomisaria_id']);
@@ -4390,6 +4392,7 @@ class DenunciaController extends Controller
         $rules = [
             'tblcomisaria_id' => 'required|exists:tblcomisaria,id',
             'fdenuncia' => 'required|date',
+            'device' => 'nullable|in:1,0',
             'itinerancia' => 'nullable|in:1,0',
             'tblviolencia_id' => 'required|array|min:1',
             'tbldenuncia_id' => 'required|exists:tbldenuncia,id',
@@ -4402,7 +4405,6 @@ class DenunciaController extends Controller
             'pdenuncia' => 'required',
             'tblmedida_id' => 'required|array|min:1',
             'fmedida' => 'required|date',
-            'device' => 'nullable|in:1,0',
             'observacion' => 'nullable|string',
         ];
 
@@ -4443,6 +4445,7 @@ class DenunciaController extends Controller
                 $input['codigo'] = $code;
                 $input['tregistro'] = 1; // denuncia registrada desde el modulo itinerancia
                 $input['tblmodulo_id'] = Auth::user()->tblmodulo_id;
+                Log::info('jistore: ', ['request' => $request->all(), 'input' => $input]);
                 $denuncia = Denuncia::create($input);
                 // actualiza los tipos de medidas de proteccion de la denuncia
                 if (!empty($request->get('tblmedida_id'))) {

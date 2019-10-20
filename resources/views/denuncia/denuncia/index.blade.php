@@ -148,7 +148,7 @@
                 </div>
               </div>
 
-              <div class="form-group has-feedback ">
+              {{-- <div class="form-group has-feedback ">
                 <div class="row">
                   <label for="dni" class="col-sm-4 control-label" style="line-height:30px">DNI:</label>
                   <div class="col-sm-8">
@@ -162,7 +162,24 @@
                     </div>
                   </div>
                 </div>
+              </div> --}}
+
+              <div class="form-group has-feedback ">
+                <div class="row">
+                  <label for="dni" class="col-sm-4 control-label" style="line-height:30px">DNI:</label>
+                  <div class="col-sm-8">
+                    <div class="input-group">
+                      <div class="input-group-btn">
+                        <button type="submit" class="btn btn-sm btn-primary" onclick="$('#selectVictima').val(null).trigger('change'); ajaxLoad('{{url('denuncia')}}?dni='+'');">
+                          <i class="fa fa-refresh" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                      <select id="selectVictima" class="form-control" name="selectVictima"></select>
+                    </div>
+                  </div>
+                </div>
               </div>
+
             </div>
 
             <div class="col-md-6">
@@ -209,15 +226,6 @@
                       </div>
                       <input type="text" class="form-control pull-right" id="dateRange">
                     </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="form-group has-feedback ">
-                <div class="row">
-                  <label for="dni" class="col-sm-4 control-label" style="line-height:30px">DNI:</label>
-                  <div class="col-sm-8">
-                    <select id="selectVictima" class="form-control" name="selectVictima"></select>
                   </div>
                 </div>
               </div>

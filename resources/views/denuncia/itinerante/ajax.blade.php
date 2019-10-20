@@ -6,34 +6,34 @@
       <th class="modHeader" width="10px" title="Estado del Registro" style="padding-left: 5px !important;padding-right: 5px !important;"></th>
 
       <th class="modHeader" title="Fecha de Formalizacion" width="100px">
-        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=fdenuncia&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">F. Denuncia <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia/jitinerante/index?field=fdenuncia&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">F. Denuncia <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
 
       <th class="modHeader">
-        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=codigo&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Codigo <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia/jitinerante/index?field=codigo&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Codigo <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
 
       <th class="modHeader" width="225px">
-        <a class="btn-block" href="javascript:ajaxLoad('{{url('tblcomisaria?field=tblcomisaria_id&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Comisaria <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia/jitinerante/index?field=tblcomisaria_id&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Comisaria <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
 
       <th class="modHeader" title="Violencia">Violencia</th>
 
       <th class="modHeader">
-        <a class="btn-block" href="javascript:ajaxLoad('{{url('tbldenuncia?field=tbldenuncia_id&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Grado <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia/jitinerante/index?field=tbldenuncia_id&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Grado <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
 
       <th class="modHeader" title="Fecha de Audiencia" width="105px">
-        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=faudiencia&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">F. Audiencia <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia/jitinerante/index?field=faudiencia&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">F. Audiencia <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
 
       <th class="modHeader" title="Fecha de Audiencia">
-        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia?field=hora&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Hora A. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
+        <a class="btn-block" href="javascript:ajaxLoad('{{url('denuncia/jitinerante/index?field=hora&sort='.(request()->session()->get('sort')=='asc'?'desc':'asc'))}}')">Hora A. <i style="margin-right: 2px" class="pull-right fa {{ ( request()->session()->get('sort')=='asc' ) ? 'fa-caret-up' : 'fa-caret-down' }}"></i>
         </a>
       </th>
 
