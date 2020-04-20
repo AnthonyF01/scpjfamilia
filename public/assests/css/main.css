@@ -1020,3 +1020,11 @@ header.main-header > nav.navbar {
 }
 
 /* ---- adicional ---- */
+
+/* ----  file-input ---- */
+
+.btn-file > i.glyphicon {
+    display: inline !important;
+}
+
+/* ----  file-input ---- */
