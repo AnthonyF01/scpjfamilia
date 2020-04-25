@@ -20,7 +20,8 @@
 
 <style type="text/css">
     body {
-        background-color: rgb(204,0,102);
+        /*background-color: rgb(204,0,102);*/
+        background-image: url("{{ asset('menu/img/image2.png') }}");
         padding: 0px 15px 15px 15px;
     }
     .line {
@@ -108,7 +109,7 @@
             <div class="col-md-3" style="background-color: #fff;">
                 <img src="{{ asset('menu/img/no_violencia_genero-min.webp') }}" width="100%" style="border: 0px; margin-top: 20px; margin-bottom: 20px;">
                 <button class="btn btn-danger btn-block ts">Denuncia <br><span>Formulario de Denuncia</span></button>
-                <button class="btn btn-success btn-block ts">Denuncia <br><span>Medida de Protección</span></button>
+                <button class="btn btn-success btn-block ts">Seguimiento <br><span>Medida de Protección</span></button>
                 <h5 style="color: rgb(204,0,102); float: left; line-height: 50px; font-weight: bold">COMUNICATE</h5>
                 <img src="{{ asset('menu/img/telefono.png') }}" width="50px" style="float: right; border: 0px;">
                 <img src="{{ asset('menu/img/whatsapp.png') }}" width="45px" style="float: right; border: 0px;">
