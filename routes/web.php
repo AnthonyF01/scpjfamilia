@@ -28,6 +28,10 @@ Route::get('/', function () {
     return redirect()->to('/login');
 });
 
+Route::get('/formulario', function () {
+    return view('vendor/adminlte/auth/formulario');
+});
+
 // Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/home',function (){
     return redirect()->to('/denuncia');

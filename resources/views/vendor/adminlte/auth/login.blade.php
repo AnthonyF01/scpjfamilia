@@ -21,7 +21,8 @@
 <style type="text/css">
     body {
         /*background-color: rgb(204,0,102);*/
-        background-image: url("{{ asset('menu/img/image2.png') }}");
+        {{-- background-image: url("{{ asset('menu/img/image2.png') }}"); --}}
+        background-image: url("{{ asset('menu/img/palacio2.webp') }}");
         padding: 0px 15px 15px 15px;
     }
     .line {

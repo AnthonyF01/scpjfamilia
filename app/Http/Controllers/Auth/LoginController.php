@@ -39,7 +39,10 @@ class LoginController extends Controller
         GROUP BY dp.id";
 
         $departamento = DB::select($sql);
-        return view('adminlte::auth.login', ['deps' => $departamento]);
+
+        // return view('adminlte::auth.formulario', ['deps' => $departamento]);
+        return view('adminlte::auth.index', ['deps' => $departamento]);
+        // return view('adminlte::auth.login', ['deps' => $departamento]);
         //return view('adminlte::auth.login');
     }
 
