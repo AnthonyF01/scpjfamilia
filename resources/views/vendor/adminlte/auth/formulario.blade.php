@@ -7,7 +7,7 @@
     <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>BizCraft - Responsive Html5 Template</title>
+    <title>SITRAD - VF</title>
     <meta name="description" content="">    
     <meta name="author" content="">
 
@@ -17,10 +17,10 @@
 
     <!-- Favicons
     ================================================== -->
-    <link rel="icon" href="img/favicon/favicon-32x32.html" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.html">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.html">
-    <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.html">
+    <link rel="icon" href="{{ asset('menu/img/asociacion_logo_color.png') }}" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('menu/img/asociacion_logo_color.png') }}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('menu/img/asociacion_logo_color.png') }}">
+    <link rel="apple-touch-icon-precomposed" href="{{ asset('menu/img/asociacion_logo_color.png') }}">
     
     <!-- CSS
     ================================================== -->
@@ -54,6 +54,26 @@
     <![endif]-->
 
     <style type="text/css">
+        
+        {{-- Buttons --}}
+        @media screen and (min-width: 1131px) {
+            .button {
+                display: block;
+            }
+            .cd-slider-nav {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 1130px) {
+            .button {
+                display: none;
+            }
+            .cd-slider-nav {
+                display: block;
+            }
+        }
+
         .navbar-brand.navbar-bg {
             position: absolute;
             left: 0;
@@ -66,24 +86,42 @@
         }
         
         @media screen and (min-width: 1171px) {
+            .cd-half-width h2 {
+                font-size: 50px !important;
+            }
+            .cd-hero-slider p {
+                font-size: 20px !important;
+            }
             .cd-hero-slider .cd-full-width, .cd-hero-slider .cd-half-width {
                 padding-top: 220px !important;
             }
         }
 
         @media screen and (max-width: 1170px) and (min-width: 1081px) {
+            .cd-half-width h2 {
+                font-size: 40px;
+            }
+            .cd-hero-slider p {
+                font-size: 18px !important;
+            }
             .cd-hero-slider .cd-full-width, .cd-hero-slider .cd-half-width {
                 padding-top: 200px !important;
             }
         }
 
         @media screen and (max-width: 1080px) and (min-width: 1001px) {
+            .cd-hero-slider p {
+                font-size: 16px !important;
+            }
             .cd-hero-slider .cd-full-width, .cd-hero-slider .cd-half-width {
                 padding-top: 180px !important;
             }
         }
 
         @media screen and (max-width: 1000px) and (min-width: 950px) {
+            .cd-hero-slider p {
+                font-size: 16px !important;
+            }
             .cd-hero-slider .cd-full-width, .cd-hero-slider .cd-half-width {
                 padding-top: 150px !important;
             }
@@ -138,35 +176,107 @@
         .service .items{
             text-align: center;
         }
+        .footer {
+            background: #2e2e2e url('{{ asset("menu/img/image2-min.png") }}') no-repeat center 0;
+        }
     </style>
 
     <style type="text/css">
-        .t1 {
-            font-size: 60px;
-            font-weight: bold;
-            color: #ccc;
+        .icon_title {
+            float: left; 
+            margin-right: 5px;
         }
-        .d1 {
-            font-size: 40px;
-            color: #ccc;
-            margin-bottom: 30px;
+        .icon_phone {
+            float: right; 
+            margin-right: 5px;
         }
-        .btn.a {
-            width: 180px;
+        .btn_slider {
+            float: right; 
             margin-right: 10px;
-            color: rgb(204,0,102);
-            font-weight: bold;
         }
-        .btn.a.b {
-            background-color: white;
+        .txt_title {
+            font-size: 18px; 
+            font-weight: bold; 
+            color: #fff;
         }
-        .btn-danger.ts{
+        .txt_desc {}
+
+        .row.display-flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .row.display-flex > [class*='col-'] {
+            display: flex;
+            flex-direction: column;
             margin-bottom: 20px;
-            background-color: #c30618;
         }
-        .btn-success.ts{
-            margin-bottom: 20px;
-            background-color: #038220;
+
+        @media (max-width : 1200px){
+            .atencion_block {
+                text-align: center;
+            }
+            .atencion {
+                width: 100%;
+            }
+            .icon_phone {
+                float: none;
+                margin-right: 0px;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+        }
+        
+        @media (max-width : 767px){
+            .cd-slider-nav a i {
+                font-size: 38px !important;
+                line-height: 50px;
+            }
+            .cd-slider-nav li {
+                height: 85%;
+            }
+            .cd-slider-nav li a {
+                padding-top: 5px;
+            }
+            .txt_title {
+                font-size: 15px; 
+            }
+            .txt_desc {
+                font-size: 10px; 
+            }
+            .icon_title {
+                float: none;
+                margin-right: 0px;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+            .icon_phone {
+                float: none;
+                margin-right: 0px;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+            .atencion {
+                width: 100%;
+            }
+        }
+
+        @media (max-width : 456px){
+            .cd-slider-nav a i {
+                font-size: 38px !important;
+                line-height: 50px;
+            }
+            .cd-slider-nav li {
+                margin-bottom: 10px;
+            }
+            .cd-slider-nav nav ul {
+                width: 220px;
+            }
+            .cd-hero-slider {
+                height: 430px;
+            }
+            .cd-slider-nav {
+                bottom: 115px;
+            }
         }
     </style>
 
@@ -174,35 +284,36 @@
 
 <body>
     <div class="body-inner">
+    
     <!-- Header start -->
     <header id="header" class="navbar-fixed-top header" role="banner">
         <div class="container">
             <div class="row">
                 <!-- Logo start -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
                     <div class="navbar-brand navbar-bg">
-                        <a href="#">
-                            <img class="img-responsive" src="{{ asset('menu/img/asociacion_blanco.png') }}" alt="logo">
+                        <a href="{{ url('/') }}">
+                            {{-- <img class="img-responsive" src="{{ asset('menu/img/asociacion_blanco.png') }}" alt="logo"> --}}
+                            <img class="img-responsive" src="{{ asset('menu/img/pj_logo_texto.png') }}" alt="logo">
                         </a> 
                     </div>                   
                 </div><!--/ Logo end -->
                 <nav class="collapse navbar-collapse clearfix" role="navigation">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="{{ url('/') }}">INICIO</a></li>
-                        <li><a href="#">MANUAL DE USUARIO</a></li>
+                        <li><a href="{{ url('/') }}">INCIO</a></li>
+                        {{-- <li><a href="#">MANUAL DE USUARIO</a></li> --}}
                         {{-- <li><a href="#">INCIO SESIÓN</a></li> --}}
                     </ul>
                 </nav><!--/ Navigation end -->
             </div><!--/ Row end -->
         </div><!--/ Container end -->
-    </header>
-    <!--/ Header end -->
+    </header><!--/ Header end -->
 
     <div id="banner-area">
         <img src="{{ asset('bizcraft/images/banner/banner2.jpg') }}" alt ="" />
@@ -571,90 +682,19 @@
     <footer id="footer" class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-12 footer-widget">
-                    <h3 class="widget-title">Recent Posts</h3>
-                    <div class="latest-post-items media">
-                            <div class="latest-post-content media-body">
-                                <h4><a href="#">Bulgaria claims to find Europe's 'oldest town'</a></h4>
-                                <p class="post-meta">
-                                    <span class="author">Posted by John Doe</span>
-                                    <span class="post-meta-cat">in<a href="#"> Blog</a></span>
-                                </p>
-                            </div>
-                        </div><!-- 1st Latest Post end -->
-
-                        <div class="latest-post-items media">
-                            <div class="latest-post-content media-body">
-                                <h4><a href="#">Few Answers in Case of Murdered Law Professor</a></h4>
-                                <p class="post-meta">
-                                    <span class="date"><i class="icon icon-calendar"></i> Mar 15, 2015</span>
-                                    <span class="post-meta-comments"><i class="icon icon-bubbles4"></i> <a href="#">03</a></span>
-                                </p>
-                            </div>
-                        </div><!-- 2nd Latest Post end -->
-
-                        <div class="latest-post-items media">
-                            <div class="latest-post-content media-body">
-                                <h4><a href="#">Over the year we have lots of experience in our field</a></h4>
-                                <p class="post-meta">
-                                    <span class="date"><i class="icon icon-calendar"></i> Apr 17, 2015</span>
-                                    <span class="post-meta-comments"><i class="icon icon-bubbles4"></i> <a href="#">14</a></span>
-                                </p>
-                            </div>
-                        </div><!-- 3rd Latest Post end -->
-    
-                </div><!--/ End Recent Posts-->
-                
-
-                <div class="col-md-4 col-sm-12 footer-widget">
-                    <h3 class="widget-title">Flickr Photos</h3>
-
-                    <div class="img-gallery">
-                        <div class="img-container">
-                            <a class="thumb-holder" data-rel="prettyPhoto" href="{{ asset('bizcraft/images/gallery/1.jpg') }}">
-                                <img src="{{ asset('bizcraft/images/gallery/1.jpg') }}" alt="">
-                            </a>
-                            <a class="thumb-holder" data-rel="prettyPhoto" href="{{ asset('bizcraft/images/gallery/2.jpg') }}">
-                                <img src="{{ asset('bizcraft/images/gallery/2.jpg') }}" alt="">
-                            </a>
-                            <a class="thumb-holder" data-rel="prettyPhoto" href="{{ asset('bizcraft/images/gallery/3.jpg') }}">
-                                <img src="{{ asset('bizcraft/images/gallery/3.jpg') }}" alt="">
-                            </a>
-                            <a class="thumb-holder" data-rel="prettyPhoto" href="{{ asset('bizcraft/images/gallery/4.jpg') }}">
-                                <img src="{{ asset('bizcraft/images/gallery/4.jpg') }}" alt="">
-                            </a>
-                            <a class="thumb-holder" data-rel="prettyPhoto" href="{{ asset('bizcraft/images/gallery/5.jpg') }}">
-                                <img src="{{ asset('bizcraft/images/gallery/5.jpg') }}" alt="">
-                            </a>
-                            <a class="thumb-holder" data-rel="prettyPhoto" href="{{ asset('bizcraft/images/gallery/6.jpg') }}">
-                                <img src="{{ asset('bizcraft/images/gallery/6.jpg') }}" alt="">
-                            </a>
-                            <a class="thumb-holder" data-rel="prettyPhoto" href="{{ asset('bizcraft/images/gallery/6.jpg') }}">
-                                <img src="{{ asset('bizcraft/images/gallery/7.jpg') }}" alt="">
-                            </a>
-                            <a class="thumb-holder" data-rel="prettyPhoto" href="{{ asset('bizcraft/images/gallery/6.jpg') }}">
-                                <img src="{{ asset('bizcraft/images/gallery/8.jpg') }}" alt="">
-                            </a>
-                            <a class="thumb-holder" data-rel="prettyPhoto" href="{{ asset('bizcraft/images/gallery/6.jpg') }}">
-                                <img src="{{ asset('bizcraft/images/gallery/9.jpg') }}" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div><!--/ end flickr -->
-
-                <div class="col-md-3 col-sm-12 footer-widget footer-about-us">
-                    <h3 class="widget-title">Acerca de SITRAD-VF</h3>
-                    <p>We are a awward winning multinational company. We believe in quality and standard worldwide.</p>
-                    <h4>Address</h4>
-                    <p>1102 Saint Marys, Junction City, KS</p>
+                <div class="col-md-6 col-sm-12 footer-widget footer-about-us">
+                    <h3 class="widget-title">ACERCA DE SITRAD-VF</h3>
+                    <p>Herramienta Tecnológica que permite el seguimiento y control de tiempos de trámites de las denuncias de violencia contra la mujer e integrantes del grupo familiar con la aplicación de la Ley 30364</p>
+                    {{-- <h4>Dirección</h4>
+                    <p>1102 Saint Marys, Junction City, KS</p> --}}
                     <div class="row">
                         <div class="col-md-6">
                             <h4>Email:</h4>
-                            <p>info@craftbd.com</p>
+                            <p>mhc021072@hotmail.com</p>
                         </div>
                         <div class="col-md-6">
-                            <h4>Phone No.</h4>
-                            <p>+(785) 238-4131</p>
+                            <h4>Teléfono.</h4>
+                            <p>+51999099846</p>
                         </div>
                     </div>
                     <form action="#" role="form">
@@ -665,8 +705,38 @@
                             </span>                        
                         </div>
                     </form>
-                </div><!--/ end about us -->
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="cd-half-width" style="text-align: center; padding: 20px;">
+                                <a href="#0" class="cd-btn btn btn-primary white">MANUAL DE USUARIO</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/ end about us -->
+                <div class="col-md-6 col-sm-12 footer-widget">
+                    <h3 class="widget-title">SISTEMA ARTICULADO DE ATENCIÓN</h3>
+                    <p>En el Distrito Judicial de Tacna, las denuncias de violencia contra la mujer e integrantes del grupo familiar son tramitadas de forma articulada por la PNP y el Poder Judicial respecto a las medidas de Proteccion en la aplicación de la Ley 30364</p>
 
+                    <div class="img-gallery" style="margin-top: 38px;">
+                        <div class="img-container">
+                            <a class="thumb-holder" data-rel="prettyPhoto" href="{{ asset('menu/img/pj_logo_color.png') }}">
+                                <img src="{{ asset('menu/img/pj_logo_color.png') }}" alt="">
+                            </a>
+                            <a class="thumb-holder" data-rel="prettyPhoto" href="{{ asset('menu/img/policia_nacional-min.png') }}">
+                                <img style="width: 70px;" src="{{ asset('menu/img/policia_nacional-min.png') }}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="cd-half-width" style="text-align: center; padding: 20px;">
+                                <a href="#0" class="cd-btn btn btn-primary white">PROTOCOLO - PROCESO</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/ End Recent Posts-->
             </div><!-- Row end -->
         </div><!-- Container end -->
     </footer><!-- Footer end -->
