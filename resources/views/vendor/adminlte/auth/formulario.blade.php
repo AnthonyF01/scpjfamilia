@@ -58,9 +58,11 @@
             position: absolute;
             left: 0;
             padding: 3px 15px 10px;
-            width: 20%;
-            height: 94px;
-            line-height: 94px;
+            width: 15%;
+            min-width: 185px !important;
+            max-width: 205px !important;
+            height: 69px;
+            line-height: 69px;
         }
         
         @media screen and (min-width: 1171px) {
@@ -95,7 +97,10 @@
         
         @media (max-width : 767px){
             .navbar-brand.navbar-bg {
+                min-width: 160px !important;
                 width: 160px !important;
+                height: 50px !important;
+                line-height: 55px;
             }
             .navbar-brand.navbar-bg img{
                 background-size: contain;
@@ -130,7 +135,9 @@
                 bottom: 75px;
             }
         }
-
+        .service .items{
+            text-align: center;
+        }
     </style>
 
     <style type="text/css">
