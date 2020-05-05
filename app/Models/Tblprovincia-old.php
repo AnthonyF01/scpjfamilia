@@ -32,7 +32,7 @@ class Tblprovincia extends Model
 
     // protected $dateFormat = 'Ymd h:i:s';
 
-     public function getFields()
+    public function getFields()
     {
         return $this->fillable;
     }
@@ -45,10 +45,5 @@ class Tblprovincia extends Model
     public function tbldistrito ()
     {
         return $this->hasMany(Tbldistrito::class);  // !importante - Para los modelos  =>  Category::class
-    }
-
-   public function tblprovincias($id)
-    {
-        return Tblprovincia::where('tbldepartamento_id',$id)->get();
     }
 }

@@ -17,6 +17,7 @@ class CreateTblcomisariaTable extends Migration
             $table->increments('id');
             $table->integer('tblmodulo_id')->unsigned()->nullable();
             $table->integer('tbldepartamento_id')->unsigned();
+            $table->integer('tbldistrito_id')->unsigned();
             $table->string('nombre');
             $table->string('latitud')->nullable();
             $table->string('longitud')->nullable();
@@ -26,7 +27,8 @@ class CreateTblcomisariaTable extends Migration
 
         Schema::table('tblcomisaria', function($table) {
             $table->foreign('tblmodulo_id')->references('id')->on('tblmodulo');
-            $table->foreign('tbldepartamento_id')->references('id')->on('tbldepartamento');
+            $table->foreign('tbldepartamento_id')->references('id')->on('tbldepartamento')
+            $table->foreign('tbldistrito_id')->references('id')->on('tbldistrito');
         });
     }
 

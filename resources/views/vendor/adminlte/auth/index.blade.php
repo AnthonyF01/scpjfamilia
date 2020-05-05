@@ -330,10 +330,16 @@
                     <div class="cd-half-width">
                         <div class="button" style="margin-bottom: 20px">
                             <button onclick="window.location = '{{ url('/formulario')}}';" style="height: 70px;width: 220px; color: #b8b8b8; background-color: rgba(0, 0, 0, 0.3); border: 0px;">
+                                <span class="icon_title">
+                                    <img width="50px" src="{{ asset('menu/img/denunciar-frm.png') }}" alt="">
+                                </span>
                                 <span style="font-size: 18px; font-weight: bold; color: #fff;">DENUNCIA</span> <br>
                                 <span style="font-size: 10px;">FORMULARIO DE DENUNCIA</span>
                             </button>
                             <button style="height: 70px;width: 220px; color: #b8b8b8; background-color: rgba(0, 0, 0, 0.3); border: 0px;">
+                                <span class="icon_title">
+                                    <img width="50px" src="{{ asset('menu/img/seguimiento-frm.png') }}" alt="">
+                                </span>
                                 <span style="font-size: 18px; font-weight: bold; color: #fff;">SEGUIMIENTO</span> <br>
                                 <span style="font-size: 10px;">MEDIDA DE PROTECCIÓN</span>
                             </button>
@@ -401,7 +407,7 @@
                     {{-- <span class="title-icon pull-left"><i class="fa fa-cogs"></i></span> --}}
                     <h2 class="title atencion" style="border: 0px;"><span class="title-desc" style="line-height: 50px; color: #ec388b"><b>Atención al Usuario</b></span></h2>
                     <span class="icon_phone">
-                        <a href="https://api.whatsapp.com/send?phone=51976024908">
+                        <a href="https://chat.whatsapp.com/CtAlBYcW5gzJbWIQCXkGBA" target="_blank">
                             <img width="50px" src="{{ asset('menu/img/whatsapp.png') }}" alt="">
                         </a>
                         <img width="50px" src="{{ asset('menu/img/telefono.png') }}" alt="">
@@ -416,7 +422,7 @@
 						<span class="service-icon icon-pentagon">
                             <img width="50px" src="{{ asset('menu/img/pj_blanco.png') }}" alt="">
                         </span>
-						<h3>CORTE SUPERIOR DE JUSTICIA DE TACNA <br>MÓDULO FAMILIA</h3>
+						<h3>CSJ-TACNA <br>MÓDULO FAMILIA</h3>
 						<p>Brindar un eficiente y oportuno servicio de justicia en familia y violencia contra la mujer e integrante del grupo familiar</p>
 					</div>
 				</div><!--/ End first service -->
@@ -450,7 +456,7 @@
                         <span class="service-icon icon-pentagon">
                             <img width="50px" src="{{ asset('menu/img/ppr_familia_blanco.png') }}" alt="">
                         </span>
-						<h3>PpR FAMILIA <br> PROGRAMA PRESUPUESTAL 0067</h3>
+						<h3>PpR FAMILIA <br> PROG. PRESUPUESTAL 0067</h3>
 						<p>Programa Presupuestal por Resultado "Celeridad en los Procesos Judiciales de Familia para el Año Fiscal".</p>
 					</div>
 				</div><!--/ End 4th service -->
@@ -498,7 +504,8 @@
 					<h3 class="widget-title">SISTEMA ARTICULADO DE ATENCIÓN</h3>
                     <p>En el Distrito Judicial de Tacna, las denuncias de violencia contra la mujer e integrantes del grupo familiar son tramitadas de forma articulada por la PNP y el Poder Judicial respecto a las medidas de Proteccion en la aplicación de la Ley 30364</p>
 
-                    <div class="img-gallery" style="margin-top: 38px;">
+                    <div class="img-gallery" style="margin-top: 38px; text-align: center;">
+                        <center>
                         <div class="img-container">
                             <a class="thumb-holder" data-rel="prettyPhoto" href="{{ asset('menu/img/pj_logo_color.png') }}">
                                 <img src="{{ asset('menu/img/pj_logo_color.png') }}" alt="">
@@ -507,6 +514,7 @@
                                 <img style="width: 70px;" src="{{ asset('menu/img/policia_nacional-min.png') }}" alt="">
                             </a>
                         </div>
+                        </center>
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">

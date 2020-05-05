@@ -21,7 +21,9 @@
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.4.0",
         "laraveles/spanish": "^1.1",
-        "orangehill/iseed": "dev-master"
+        "orangehill/iseed": "dev-master",
+        "php-parallel-lint/php-console-color": "^0.2.0",
+        "php-webdriver/webdriver": "^1.8"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

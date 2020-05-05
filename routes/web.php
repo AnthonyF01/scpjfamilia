@@ -23,25 +23,18 @@
     }
 
 /*****************************************/
-
 Route::get('/', function () {
     return redirect()->to('/login');
 });
+Route::get('formulario/', 'FormdenunciasController@index');
+Route::get('getProvincias/{id}', 'FormdenunciasController@getProvincias');
+Route::get('formulario/store', 'FormdenunciasController@store')->name('formularioweb.store');
 
-Route::get('/formulario', function () {
-    return view('vendor/adminlte/auth/formulario');
-});
-
-// Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/home',function (){
-    return redirect()->to('/denuncia');
+Route::get('/home',function (){ 
+    return redirect()->to('/denuncia'); 
 })->name('home');
 
-// Route::get('denuncia/jitinerante/', 'DenunciaController@jitinerante')->name('denuncia.jitinerante')
-//         ->middleware('permission:denuncia.jitinerante');
-
 Route::middleware(['auth'])->group(function () {
-
     // Cargar Provincias y Distritos
     Route::get('getProvincia/{id}', 'TbldepartamentoController@getProvincia');
     Route::get('getDistrito/{id}', 'TblprovinciaController@getDistrito');

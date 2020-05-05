@@ -48,7 +48,7 @@
                 Inicio
             </span></a></li> --}}
 
-            <li class="treeview @yield('documento') @yield('denuncia') @yield('jitinerante') @yield('victima') @yield('agresor') @yield('report') @yield('import') @yield('estadistica')">
+            <li class="treeview @yield('documento') @yield('denuncia') @yield('jitinerante') @yield('victima') @yield('agresor') @yield('report') @yield('import') @yield('estadistica') @yield('denunciasweb')">
                 <a href="javascript:;">
                     <i class="fa fa-angle-left pull-right"></i>
                     <i class="fa fa-balance-scale"></i>
@@ -65,6 +65,9 @@
                             </span>
                         </a>
                         <ul class="treeview-menu">
+                            @can ('victima.index')
+                                <li class="@yield('denunciasweb')"><a href="{{ route('victima.index') }}"><i class="fa fa-trash"></i> Denuncias Web</a></li>
+                            @endcan
                             @can ('denuncia.index')
                                 <li class="@yield('denuncia')"><a href="{{ route('denuncia.index') }}"><i class="fa fa-table"></i> Registros</a></li>
                             @endcan

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <!-- Mirrored from demo.themefisher.com/bizcraft/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Apr 2020 07:41:43 GMT -->
 <head>
@@ -46,240 +46,13 @@
     <link rel="stylesheet" href="{{ asset('bizcraft/css/cd-hero.css') }}">
     <!-- Style Swicther -->
     <link id="style-switch" href="{{ asset('bizcraft/css/presets/preset3.css') }}" media="screen" rel="stylesheet" type="text/css">
-
+    <!-- Style Swicther -->
+    <link id="style-switch" href="{{ asset('bizcraft/css/formularioweb.css') }}" media="screen" rel="stylesheet" type="text/css">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
-
-    <style type="text/css">
-        
-        {{-- Buttons --}}
-        @media screen and (min-width: 1131px) {
-            .button {
-                display: block;
-            }
-            .cd-slider-nav {
-                display: none;
-            }
-        }
-
-        @media screen and (max-width: 1130px) {
-            .button {
-                display: none;
-            }
-            .cd-slider-nav {
-                display: block;
-            }
-        }
-
-        .navbar-brand.navbar-bg {
-            position: absolute;
-            left: 0;
-            padding: 3px 15px 10px;
-            width: 15%;
-            min-width: 185px !important;
-            max-width: 205px !important;
-            height: 69px;
-            line-height: 69px;
-        }
-        
-        @media screen and (min-width: 1171px) {
-            .cd-half-width h2 {
-                font-size: 50px !important;
-            }
-            .cd-hero-slider p {
-                font-size: 20px !important;
-            }
-            .cd-hero-slider .cd-full-width, .cd-hero-slider .cd-half-width {
-                padding-top: 220px !important;
-            }
-        }
-
-        @media screen and (max-width: 1170px) and (min-width: 1081px) {
-            .cd-half-width h2 {
-                font-size: 40px;
-            }
-            .cd-hero-slider p {
-                font-size: 18px !important;
-            }
-            .cd-hero-slider .cd-full-width, .cd-hero-slider .cd-half-width {
-                padding-top: 200px !important;
-            }
-        }
-
-        @media screen and (max-width: 1080px) and (min-width: 1001px) {
-            .cd-hero-slider p {
-                font-size: 16px !important;
-            }
-            .cd-hero-slider .cd-full-width, .cd-hero-slider .cd-half-width {
-                padding-top: 180px !important;
-            }
-        }
-
-        @media screen and (max-width: 1000px) and (min-width: 950px) {
-            .cd-hero-slider p {
-                font-size: 16px !important;
-            }
-            .cd-hero-slider .cd-full-width, .cd-hero-slider .cd-half-width {
-                padding-top: 150px !important;
-            }
-        }
-
-        @media screen and (max-width: 1170px) and (min-width: 768px) {
-            .cd-half-width.cd-img-container.img-right {
-                margin-top: -60px;
-            }
-        }
-        
-        @media (max-width : 767px){
-            .navbar-brand.navbar-bg {
-                min-width: 160px !important;
-                width: 160px !important;
-                height: 50px !important;
-                line-height: 55px;
-            }
-            .navbar-brand.navbar-bg img{
-                background-size: contain;
-                height: 38px !important;
-            }
-            .cd-slider-nav .cd-marker, .cd-slider-nav li {
-                width: 220px;
-            }
-        }
-
-        .cd-slider-nav {
-            position: absolute;
-            width: 100%;
-            bottom: 70px;
-            z-index: 2;
-            text-align: center;
-            height: 70px;
-        }
-        
-        @media (max-width : 1170px){
-            .cd-slider-nav {
-                bottom: 120px;
-            }
-        }
-        @media (max-width: 991px) and (min-width: 768px){
-            .cd-slider-nav {
-                bottom: 95px !important;
-            }
-        }
-        @media (max-width: 767px){
-            .cd-slider-nav {
-                bottom: 75px;
-            }
-        }
-        .service .items{
-            text-align: center;
-        }
-        .footer {
-            background: #2e2e2e url('{{ asset("menu/img/image2-min.png") }}') no-repeat center 0;
-        }
-    </style>
-
-    <style type="text/css">
-        .icon_title {
-            float: left; 
-            margin-right: 5px;
-        }
-        .icon_phone {
-            float: right; 
-            margin-right: 5px;
-        }
-        .btn_slider {
-            float: right; 
-            margin-right: 10px;
-        }
-        .txt_title {
-            font-size: 18px; 
-            font-weight: bold; 
-            color: #fff;
-        }
-        .txt_desc {}
-
-        .row.display-flex {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .row.display-flex > [class*='col-'] {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 20px;
-        }
-
-        @media (max-width : 1200px){
-            .atencion_block {
-                text-align: center;
-            }
-            .atencion {
-                width: 100%;
-            }
-            .icon_phone {
-                float: none;
-                margin-right: 0px;
-                margin-bottom: 20px;
-                display: inline-block;
-            }
-        }
-        
-        @media (max-width : 767px){
-            .cd-slider-nav a i {
-                font-size: 38px !important;
-                line-height: 50px;
-            }
-            .cd-slider-nav li {
-                height: 85%;
-            }
-            .cd-slider-nav li a {
-                padding-top: 5px;
-            }
-            .txt_title {
-                font-size: 15px; 
-            }
-            .txt_desc {
-                font-size: 10px; 
-            }
-            .icon_title {
-                float: none;
-                margin-right: 0px;
-                margin-bottom: 20px;
-                display: inline-block;
-            }
-            .icon_phone {
-                float: none;
-                margin-right: 0px;
-                margin-bottom: 20px;
-                display: inline-block;
-            }
-            .atencion {
-                width: 100%;
-            }
-        }
-
-        @media (max-width : 456px){
-            .cd-slider-nav a i {
-                font-size: 38px !important;
-                line-height: 50px;
-            }
-            .cd-slider-nav li {
-                margin-bottom: 10px;
-            }
-            .cd-slider-nav nav ul {
-                width: 220px;
-            }
-            .cd-hero-slider {
-                height: 430px;
-            }
-            .cd-slider-nav {
-                bottom: 115px;
-            }
-        }
-    </style>
-
 </head>
 
 <body>
@@ -335,58 +108,64 @@
     <!-- Main container start -->
     <section id="main-container">
         <div class="container">
-            
             <div class="row">
-
-                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <p style="font-size: 23px;">Es indispensable el registro de los <strong class="text-danger">números telefónicos</strong> para mayor celeridad y eficiencia en el trámite de la denuncia.</p>
+                    <div class="gap-20"></div>
+                </div>
+                </div>
+                <div class="col-md-6">
                     <h3 class="title-border">Datos de la Víctima</h3>
                     <span><strong class="text-danger">(*) Datos Obligatorios</strong></span><br><br>
-                    <form id="form_victima" action="#" method="post" role="form">
+                    {!! Form::open([ 'route' => 'formularioweb.store', 'id'=>'form_formularioweb' ]) !!}
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Primer Nombre <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="nombre1" id="nombre1" placeholder="" type="text" required>
+                                    <input class="form-control" name="nombre1_vic" id="nombre1_vic" placeholder="" type="text" required>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Segundo Nombre <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="nombre2" id="nombre2" placeholder="" type="text" required>
+                                    <input class="form-control" name="nombre2_vic" id="nombre2_vic" placeholder="" type="text" required>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Apellido Paterno <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="apellido1" id="apellido1" placeholder="" type="text" required>
+                                <input class="form-control" name="apellido1_vic" id="apellido1_vic" placeholder="" type="text" required>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Apellido Materno <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="apellido2" id="apellido2" placeholder="" type="text" required>
+                                    <input class="form-control" name="apellido2_vic" id="apellido2_vic" placeholder="" type="text" required>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="form-group">
-                                    <label>Tipo de Documento <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="tbldocumento_id" id="tbldocumento_id" placeholder="" type="text" required>
+                               <div class="form-group">
+                                  {{ Form::label('Tipo de Documento') }}
+                                  {{ Form::select('tbldocumento_id_vic', ['2'=>'Documento Nacional de Identidad','3'=>'Otros'], null, array('class'=>'form-control input required'.($errors->has('tbldocumento_id_vic')?" is-invalid":""), 'placeholder'=>'Seleccione Tipo')) }}
+                                  <span id="error-tbldocumento_id" class="invalid-feedback"></span>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Número de Documento <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="nro_doc" id="nro_doc" placeholder="" type="text" required>
+                                    <label>Nro. de Documento <strong class="text-danger">*</strong></label>
+                                    <input class="form-control" name="nro_doc_vic" id="nro_doc_vic" placeholder="" type="text" required>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="form-group">
-                                    <label>Tipo de Agraviada(o) <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="tbltipo_id" id="tbltipo_id" placeholder="" type="text" required>
+                               <div class="form-group">
+                                  {{ Form::label('Tipo de Agraviado') }}
+                                  {{ Form::select('tbltipo_id_vic', $tipos, null, array('class'=>'form-control input required'.($errors->has('tbltipo_id_vic')?" is-invalid":""), 'placeholder'=>'Seleccionar tipo Agraviado')) }}
+                                  <span id="error-tbltipo_id" class="invalid-feedback"></span>
                                 </div>
                             </div>
                         </div>
@@ -394,19 +173,19 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label>Edad <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="edad" id="edad" placeholder="" type="text" required>
+                                    <input class="form-control" name="edad_vic" id="edad_vic" placeholder="" type="text" required>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label>Hijos <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="hijos" id="hijos" placeholder="" type="text" required>
+                                <input class="form-control" name="hijos_vic" id="hijos_vic" placeholder="" type="text" required>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label>Teléfono <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="telefono" id="telefono" placeholder="" type="text" required>
+                                    <input class="form-control" name="telefono_vic" id="telefono_vic" placeholder="" type="text" required>
                                 </div>
                             </div>
                         </div>
@@ -414,7 +193,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Correo Electrónico <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="email" id="email" placeholder="" type="email" required>
+                                    <input class="form-control" name="email_vic" id="email_vic" placeholder="" type="email">
                                 </div>
                             </div>
                         </div>
@@ -422,82 +201,53 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Direccion del Domicilio <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="direccion" id="direccion" placeholder="" type="text" required>
+                                    <input class="form-control" name="direccion_vic" id="direccion_vic" placeholder="" type="text" required>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Departamento <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="tbldepartamento_id" id="tbldepartamento_id" placeholder="" type="text" required>
+                                  {{ Form::label('Departamento') }}
+                                  {{ Form::select('tbldepartamento_id_vic', $departamentos, null, array('class'=>'form-control input required'.($errors->has('tbldepartamento_id_vic')?" is-invalid":""), 'placeholder'=>'Selecciona tu Departamento', 'id'=>'tbldepartamento_id_vic')) }}
+                                  <span id="error-tbldepartamento_id_vic" class="invalid-feedback"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Provincia <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="tblprovincia_id" id="tblprovincia_id" placeholder="" type="text" required>
-                                </div>
+                            <div class="form-group">
+                                {{ Form::label('Provincia') }}
+                                {{ Form::select('tblprovincia_id_vic',$provincias, null, array('class'=>'form-control input required'.($errors->has('tblprovincia_id_vic')?" is-invalid":""), 'placeholder'=>'Selecciona tu provincia', 'id'=>'tblprovincia_id_vic')) }}
+                              <span id="error-tblprovincia_id_vic" class="invalid-feedback"></span>
+                            </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Distrito <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="tbldistrito_id" id="tbldistrito_id" placeholder="" type="text" required>
+                                  {{ Form::label('Distrito') }}
+                                  {{ Form::select('tbldistrito_id', $distritos, null, array('class'=>'form-control input'.($errors->has('tbldistrito_id_vic')?" is-invalid":""), 'placeholder'=>'Selecciona tu Distrito', 'id'=>'tbldistrito_id_vic')) }}
+                                  <span id="error-tbldistrito_id" class="invalid-feedback"></span>
                                 </div>
                             </div>
                         </div>
-                    </form>
-                </div>
-                <!--/ Col end -->
+    </div>
+    <div class="col-md-6">
 
-                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-
-                    <h3 class="title-border">Texto de Ejemplo</h3>
-
-                    <p>Lorem ipsum dolor sit amet, <mark>a mark here</mark> adipisicing elit. Atque, iusto, minus sequi natus nesciunt rerum tenetur corrupti autem officiis fugiat expedita laudantium ea aspernatur</p>
-                    <p><strong class="text-success">Consectetur adipisicing elit</strong>. Corrupti, aliquam, voluptates, nulla, blanditiis totam voluptatem <strong class="text-danger">voluptatum quod ipsa debitis non</strong> ab odio natus.</p>
-
-                    <div class="gap-20"></div>
-
-                    <h3 class="title-border">Blockquote</h3>
-
-                    <blockquote>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                    </blockquote>
-            
-                  <blockquote class="pull-right">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                  </blockquote>
-
-                </div>
-                <!--/ Col end -->
-
-            </div>
-            <!-- Content row  end -->
-
-            <div class="row">
-
-                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                     <h3 class="title-border">Datos del Agresor</h3>
                     <span><strong class="text-danger">(*) Datos Obligatorios</strong></span><br><br>
-                    <form id="form_victima" action="#" method="post" role="form">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Primer Nombre <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="nombre1" id="nombre1" placeholder="" type="text" required>
+                                <input class="form-control" name="nombre1_agre" id="nombre1_agre" placeholder="" type="text" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Segundo Nombre <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="nombre2" id="nombre2" placeholder="" type="text" required>
+                                    <input class="form-control" name="nombre2_agre" id="nombre2_agre" placeholder="" type="text" required>
                                 </div>
                             </div>
                         </div>
@@ -505,73 +255,80 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Apellido Paterno <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="apellido1" id="apellido1" placeholder="" type="text" required>
+                                <input class="form-control" name="apellido1_agre" id="apellido1_agre" placeholder="" type="text" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Apellido Materno <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="apellido2" id="apellido2" placeholder="" type="text" required>
+                                    <input class="form-control" name="apellido2_agre" id="apellido2_agre" placeholder="" type="text" required>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label>Tipo de Documento <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="tbldocumento_id" id="tbldocumento_id" placeholder="" type="text" required>
+                                  {{ Form::label('Tipo de Documento') }}
+                                  {{ Form::select('tbldocumento_id_agre', ['2'=>'Documento Nacional de Identidad','3'=>'Otros'], null, array('class'=>'form-control input required'.($errors->has('tbldocumento_id')?" is-invalid":""), 'placeholder'=>'Seleccione Tipo')) }}
+                                  <span id="error-tbldocumento_id_agre" class="invalid-feedback"></span>
                                 </div>
+
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label>Número de Documento <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="nro_doc" id="nro_doc" placeholder="" type="text" required>
+                                    <label>Nro. de Documento <strong class="text-danger">*</strong></label>
+                                    <input class="form-control" name="nro_doc_agre" id="nro_doc_agre" placeholder="" type="text">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Sexo <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="tbltipo_id" id="tbltipo_id" placeholder="" type="text" required>
+                                <div class="form-group has-feedback {{ $errors->has('sexo')? 'has-error':'' }}">
+                                  {{ Form::label('sexo_agre', 'Sexo') }}
+                                  {{ Form::select('sexo_agre', ['Masculino'=>'Masculino','Femenino'=>'Femenino'], null, array('class'=>'form-control input'.($errors->has('sexo_agre')?" is-invalid":""), 'placeholder'=>'Selecciona el Sexo')) }}
+                                  <span id="error-sexo_agre" class="invalid-feedback"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Teléfono <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="telefono" id="telefono" placeholder="" type="text" required>
+                                    <input class="form-control" name="telefono_agre" id="telefono_agre" placeholder="" type="text" required>
                                 </div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Direccion del Domicilio <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="direccion" id="direccion" placeholder="" type="text" required>
+                                    <input class="form-control" name="direccion_agre" id="direccion_agre" placeholder="" type="text" required>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Departamento <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="tbldepartamento_id" id="tbldepartamento_id" placeholder="" type="text" required>
+                                  {{ Form::label('Departamento') }}
+                                  {{ Form::select('tbldepartamento_id_agre', $departamentos, null, array('class'=>'form-control input required'.($errors->has('tbldepartamento_id_agre')?" is-invalid":""), 'placeholder'=>'Seleccione un Departamento', 'id'=>'tbldepartamento_id_agre')) }}
+                                  <span id="error-tbldepartamento_id_agre" class="invalid-feedback"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Provincia <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="tblprovincia_id" id="tblprovincia_id" placeholder="" type="text" required>
-                                </div>
+                            <div class="form-group">
+                                {{ Form::label('Provincia') }}
+                                {{ Form::select('tblprovincia_id_agre',$provincias, null, array('class'=>'form-control input required'.($errors->has('tblprovincia_id_agre')?" is-invalid":""), 'placeholder'=>'Selecciona tu Provincia', 'id'=>'tblprovincia_id_agre')) }}
+                              <span id="error-tblprovincia_id_agre" class="invalid-feedback"></span>
+                            </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Distrito <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="tbldistrito_id" id="tbldistrito_id" placeholder="" type="text" required>
+                                  {{ Form::label('Distrito') }}
+                                  {{ Form::select('tbldistrito_id_agre', $distritos, null, array('class'=>'form-control input required'.($errors->has('tbldistrito_id_agre')?" is-invalid":""), 'placeholder'=>'Selecciona tu Distrito', 'id'=>'tbldistrito_id_agre')) }}
+                                  <span id="error-tbldistrito_id_agre" class="invalid-feedback"></span>
                                 </div>
                             </div>
                         </div>
@@ -579,58 +336,25 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Parentesco con la/el Agraviada(o) <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="tbldistrito_id" id="tbldistrito_id" placeholder="" type="text" required>
+                                {{ Form::select('tblparentesco_id', $parentescos, null, array('class'=>'form-control input'.($errors->has('tblparentesco_id')?" is-invalid":""), 'placeholder'=>'Parentesco')) }}
                                 </div>
                             </div>
                         </div>
-                    </form>
-                </div>
-                <!--/ Col end -->
+                
 
-                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-
-                    <h3 class="title-border">Texto de Ejemplo</h3>
-
-                    <p>Lorem ipsum dolor sit amet, <mark>a mark here</mark> adipisicing elit. Atque, iusto, minus sequi natus nesciunt rerum tenetur corrupti autem officiis fugiat expedita laudantium ea aspernatur</p>
-                    <p><strong class="text-success">Consectetur adipisicing elit</strong>. Corrupti, aliquam, voluptates, nulla, blanditiis totam voluptatem <strong class="text-danger">voluptatum quod ipsa debitis non</strong> ab odio natus.</p>
-
-                    <div class="gap-20"></div>
-
-                    <h3 class="title-border">Blockquote</h3>
-
-                    <blockquote>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                    </blockquote>
-            
-                  <blockquote class="pull-right">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                  </blockquote>
-
-                </div>
-                <!--/ Col end -->
-
-            </div>
-            <!-- Content row  end -->
-
-            <div class="row">
-
-                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                     <h3 class="title-border">Datos de la Denuncia</h3>
                     <span><strong class="text-danger">(*) Datos Obligatorios</strong></span><br><br>
-                    <form id="form_victima" action="#" method="post" role="form">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Tipo de Violencia <strong class="text-danger">*</strong></label>
-                                <input class="form-control" name="nombre1" id="nombre1" placeholder="" type="text" required>
+                                {{ Form::select('tblviolencia_id', $violencias, null, array('class'=>'form-control input'.($errors->has('tblviolencia_id')?" is-invalid":""), 'placeholder'=>' Selecciona Tipo')) }}
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Comisaría <strong class="text-danger">*</strong></label>
-                                    <input class="form-control" name="nombre2" id="nombre2" placeholder="" type="text" required>
+                                    {{ Form::select('comisaria_id', $comisariaform, null, array('class'=>'form-control input'.($errors->has('comisaria_id')?" is-invalid":""), 'placeholder'=>' Selecciona Tipo')) }}
                                 </div>
                             </div>
                         </div>
@@ -641,40 +365,12 @@
                         <div class="text-right"><br>
                             <button class="btn btn-primary solid blank" type="submit">Enviar Formulario</button> 
                         </div>
-                    </form>
+                 {!! Form::close() !!}
                 </div>
-                <!--/ Col end -->
-
-                {{-- <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-
-                    <h3 class="title-border">Texto de Ejemplo</h3>
-
-                    <p>Lorem ipsum dolor sit amet, <mark>a mark here</mark> adipisicing elit. Atque, iusto, minus sequi natus nesciunt rerum tenetur corrupti autem officiis fugiat expedita laudantium ea aspernatur</p>
-                    <p><strong class="text-success">Consectetur adipisicing elit</strong>. Corrupti, aliquam, voluptates, nulla, blanditiis totam voluptatem <strong class="text-danger">voluptatum quod ipsa debitis non</strong> ab odio natus.</p>
-
-                    <div class="gap-20"></div>
-
-                    <h3 class="title-border">Blockquote</h3>
-
-                    <blockquote>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                    </blockquote>
-            
-                  <blockquote class="pull-right">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                  </blockquote>
-
-                </div> --}}
-                <!--/ Col end -->
-
-            </div>
-            <!-- Content row  end -->
-
+        </div>
+   
         </div>
         <!--/ container end -->
-
     </section>
     <!--/ Main container end -->
 
@@ -697,14 +393,6 @@
                             <p>+51999099846</p>
                         </div>
                     </div>
-                    <form action="#" role="form">
-                        <div class="input-group subscribe">
-                            <input type="email" class="form-control" placeholder="Email Address" required="">
-                            <span class="input-group-addon">
-                              <button class="btn" type="submit"><i class="fa fa-envelope-o"> </i></button>
-                            </span>                        
-                        </div>
-                    </form>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="cd-half-width" style="text-align: center; padding: 20px;">
@@ -811,14 +499,17 @@
     <script type="text/javascript" src="{{ asset('bizcraft/js/wow.min.js') }}"></script>
     <!-- SmoothScroll -->
     {{-- <script type="text/javascript" src="{{ asset('bizcraft/js/smoothscroll.js') }}"></script> --}}
-    <!-- Eeasing -->
+    <!-- Eeasing 
     <script type="text/javascript" src="{{ asset('bizcraft/js/jquery.easing.1.3.js') }}"></script>
+    -->
     <!-- Counter -->
     <script type="text/javascript" src="{{ asset('bizcraft/js/jquery.counterup.min.js') }}"></script>
     <!-- Waypoints -->
     <script type="text/javascript" src="{{ asset('bizcraft/js/waypoints.min.js') }}"></script>
     <!-- Template custom -->
     <script type="text/javascript" src="{{ asset('bizcraft/js/custom.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('bizcraft/js/jquery-3.5.0.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('bizcraft/js/droopdown.js') }}"></script>
     </div><!-- Body inner end -->
     
     <script type="text/javascript">
@@ -834,6 +525,10 @@
             // }
         });
     </script>
+
+  <script type="text/javascript">
+
+  </script>
     </div><!-- Body inner end -->
 </body>
 
