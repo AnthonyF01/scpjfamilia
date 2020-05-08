@@ -2208,5 +2208,10 @@
         $('a[href$="#tab_8"]').removeAttr('data-toggle').parent('li').addClass('disabled');
       }
     });
+
+    $(document).ready(function() {
+        var rem = $("#remitido").val();
+        $('#remitido').val(rem).trigger('change');
+    });
   </script>
 @endsection
