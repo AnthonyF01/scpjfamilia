@@ -3741,7 +3741,7 @@ class DenunciaController extends Controller
 
                 }
             }
-            if ($request['action'] == 'fase3') {
+            if ($request['action'] == 'fase3') { // fase 2 
                 // convertir de dd/mm/yyyy -> yyyy-mm-dd (mysql)
                 if ($request['fremisiond'] != '') {
                     $request->merge([ 'fremisiond' => date('Y-m-d',strtotime(str_replace('/', '-', $request['fremisiond']))) ]);
@@ -3768,9 +3768,9 @@ class DenunciaController extends Controller
                 $rules = [
                     'dependenciad' => 'required|exists:tblinstancia,id',
                     'expediented' => 'required|string|unique:denuncia,expediented,'.$denuncia->expediented.',expediented',
-                    'remitidod' => 'required',
-                    'oficioremitidod' => 'required|string|unique:denuncia,oficioremitidod,'.$denuncia->oficioremitidod.',oficioremitidod',
-                    'fremisiond' => 'required|date',
+                    'remitidod' => 'nullable',
+                    'oficioremitidod' => 'nullable|string|unique:denuncia,oficioremitidod,'.$denuncia->oficioremitidod.',oficioremitidod',
+                    'fremisiond' => 'nullable|date',
                 ];
 
                 $input = [
@@ -3804,7 +3804,7 @@ class DenunciaController extends Controller
 
                 }
             }
-            if ($request['action'] == 'fase4') {
+            if ($request['action'] == 'fase4') { // fase 3 
                 // convertir de dd/mm/yyyy -> yyyy-mm-dd (mysql)
                 if ($request['fremisionj'] != '') {
                     $request->merge([ 'fremisionj' => date('Y-m-d',strtotime(str_replace('/', '-', $request['fremisionj']))) ]);
