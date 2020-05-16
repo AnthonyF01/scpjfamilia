@@ -401,7 +401,7 @@
 					<span class="icon_title">
                        <img width="50px" src="{{ asset('menu/img/asociacion_logo_color.png') }}" alt="">
                     </span>
-					<h2 class="title">SERVICIOS A LA CUIDADANIA <span class="title-desc">Nuestro objetivo es proteger a la Mujer y Los Integrantes del Grupo Familiar.</span></h2>
+					<h2 class="title">SERVICIOS A LA CIUDADANÍA <span class="title-desc">Nuestro objetivo es proteger a la Mujer y Los Integrantes del Grupo Familiar.</span></h2>
 				</div>
                 <div class="col-xs-12 col-sm-12 col-md-offset-4 col-md-4 col-lg-offset-0 col-lg-4 heading atencion_block" style="z-index: 3;">
                     {{-- <span class="title-icon pull-left"><i class="fa fa-cogs"></i></span> --}}
@@ -496,7 +496,7 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="cd-half-width" style="text-align: center; padding: 20px;">
-                                <a href="#0" class="cd-btn btn btn-primary white">MANUAL DE USUARIO</a>
+                                <a href="{{ asset('/manual/MANUAL-USUARIO-SITRAD-VF.pdf') }}" target="_blank" class="cd-btn btn btn-primary white">MANUAL DE USUARIO</a>
                             </div>
                         </div>
                     </div>
@@ -521,7 +521,7 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="cd-half-width" style="text-align: center; padding: 20px;">
-                                <a href="#0" class="cd-btn btn btn-primary white">PROTOCOLO - PROCESO</a>
+                                <a href="{{ asset('/manual/Proyecto-Sistema-de-Trabajo-Urbano-DL1470.pdf') }}" target="_blank" class="cd-btn btn btn-primary white">PROTOCOLO - PROCESO</a>
                             </div>
                         </div>
                     </div>
