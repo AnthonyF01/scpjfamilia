@@ -328,7 +328,7 @@
                         <img src="{{ asset('menu/img/no_violencia_genero_3-min.webp') }}" alt="">
                     </div>
                     <div class="cd-half-width">
-                        <div class="button" style="margin-bottom: 20px">
+                        {{-- <div class="button" style="margin-bottom: 20px">
                             <button onclick="window.location = '{{ url('/formulario')}}';" style="height: 70px;width: 220px; color: #b8b8b8; background-color: rgba(0, 0, 0, 0.3); border: 0px;">
                                 <span class="icon_title">
                                     <img width="50px" src="{{ asset('menu/img/denunciar-frm.png') }}" alt="">
@@ -343,7 +343,7 @@
                                 <span style="font-size: 18px; font-weight: bold; color: #fff;">SEGUIMIENTO</span> <br>
                                 <span style="font-size: 10px;">MEDIDA DE PROTECCIÓN</span>
                             </button>
-                        </div>
+                        </div> --}}
                         <h2>SITRAD - VF</h2>
                         <p>Sistema  Interoperable  de Trámite de Denuncias de Violencia Familiar con aplicación de la Ley Nro. 30364</p>
                         {{-- <a href="#0" class="cd-btn btn btn-primary white">PROTOCOLO - PROCESO</a> --}}
@@ -352,7 +352,7 @@
 				</li>
 			</ul> 
             <!--/ cd-hero-slider -->
-    		<div class="cd-slider-nav">
+    		{{-- <div class="cd-slider-nav">
     			<nav>
     				<ul style="padding-left: 0px;">
     					<li>
@@ -375,7 +375,7 @@
                         </li>
     				</ul>
     			</nav> 
-    		</div> 
+    		</div>  --}}
             <!-- .cd-slider-nav -->
 
 		</div><!--/ Main slider end -->    	
@@ -410,7 +410,9 @@
                         <a href="https://chat.whatsapp.com/CtAlBYcW5gzJbWIQCXkGBA" target="_blank">
                             <img width="50px" src="{{ asset('menu/img/whatsapp.png') }}" alt="">
                         </a>
-                        <img width="50px" src="{{ asset('menu/img/telefono.png') }}" alt="">
+                        <a href="tel:+51999099846">
+                            <img width="50px" src="{{ asset('menu/img/telefono.png') }}" alt="">
+                        </a>
                     </span>
                 </div>
 			</div><!-- Title row end -->

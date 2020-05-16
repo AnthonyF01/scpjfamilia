@@ -38,59 +38,59 @@ desired effect
 <div id="app" v-cloak>
     <div class="wrapper">
 
-    @include('adminlte::layouts.partials.mainheader')
+        @include('adminlte::layouts.partials.mainheader')
 
-    @include('adminlte::layouts.partials.sidebar')
+        @include('adminlte::layouts.partials.sidebar')
 
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
 
-        {{-- @include('adminlte::layouts.partials.contentheader') --}}
+            {{-- @include('adminlte::layouts.partials.contentheader') --}}
 
-        <ol class="breadcrumb" style="padding: 15px 20px; margin-botom: 5px;border-bottom: 1px solid #d0d0d0;">
-            <li>
-                <a href="{{ url('/home') }}"><i class="fa fa-home"></i> Inicio</a>
-            </li>
-            <li id="parent" class="active">
-                <i class="fa fa-gears"></i> Informacion
-                {{-- @yield('contentheader_title', 'Page Header here') --}}
-            </li>
-        </ol>
+            <ol class="breadcrumb" style="padding: 15px 20px; margin-botom: 5px;border-bottom: 1px solid #d0d0d0;">
+                <li>
+                    <a href="{{ url('/home') }}"><i class="fa fa-home"></i> Inicio</a>
+                </li>
+                <li id="parent" class="active">
+                    <i class="fa fa-gears"></i> Informacion
+                    {{-- @yield('contentheader_title', 'Page Header here') --}}
+                </li>
+            </ol>
 
-        <div>
+            <div>
 
-            <!-- Main content -->
-            <section class="content">
-                <!-- Your Page Content Here -->
-                {{-- @if (session('info')) --}}
-                <!-- Mensaje de confirmacion de eliminacion de registro -->
-                <div id="box_message" class="container-fluid spark-screen hide"> 
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
-                            <div class="alert alert-success">
-                                {{-- session('info') --}}
-                                <button type="button" class="close" onclick="$('div#box_message').removeClass('show'); $('div#box_message').addClass('hide');">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                                <div id="message"></div>
+                <!-- Main content -->
+                <section class="content">
+                    <!-- Your Page Content Here -->
+                    {{-- @if (session('info')) --}}
+                    <!-- Mensaje de confirmacion de eliminacion de registro -->
+                    <div id="box_message" class="container-fluid spark-screen hide"> 
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+                                <div class="alert alert-success">
+                                    {{-- session('info') --}}
+                                    <button type="button" class="close" onclick="$('div#box_message').removeClass('show'); $('div#box_message').addClass('hide');">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <div id="message"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                {{-- @endif --}}
+                    {{-- @endif --}}
 
-                @yield('main-content')
+                    @yield('main-content')
 
-            </section><!-- /.content -->
+                </section><!-- /.content -->
 
-        </div>
-    </div><!-- /.content-wrapper -->
+            </div>
+        </div><!-- /.content-wrapper -->
 
-    @include('adminlte::layouts.partials.controlsidebar')
+        @include('adminlte::layouts.partials.controlsidebar')
 
-    @include('adminlte::layouts.partials.footer')
+        @include('adminlte::layouts.partials.footer')
 
-</div><!-- ./wrapper -->
+    </div><!-- ./wrapper -->
 </div>
 @section('scripts')
     @include('adminlte::layouts.partials.scripts')
