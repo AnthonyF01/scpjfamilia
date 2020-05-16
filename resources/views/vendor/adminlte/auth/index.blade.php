@@ -472,7 +472,7 @@
 			<div class="row">
                 <div class="col-md-6 col-sm-12 footer-widget footer-about-us">
                     <h3 class="widget-title">ACERCA DE SITRAD-VF</h3>
-                    <p>Herramienta Tecnológica que permite el seguimiento y control de tiempos de trámites de las denuncias de violencia contra la mujer e integrantes del grupo familiar con la aplicación de la Ley 30364</p>
+                    <p style="text-align: justify;">Herramienta Tecnológica que permite el seguimiento y control de tiempos de trámites de las denuncias de violencia contra la mujer e integrantes del grupo familiar con la aplicación de la Ley 30364</p>
                     {{-- <h4>Dirección</h4>
                     <p>1102 Saint Marys, Junction City, KS</p> --}}
                     <div class="row">
@@ -485,14 +485,14 @@
                             <p>+51999099846</p>
                         </div>
                     </div>
-                    <form action="#" role="form">
+                    {{-- <form action="#" role="form">
                         <div class="input-group subscribe">
                             <input type="email" class="form-control" placeholder="Email Address" required="">
                             <span class="input-group-addon">
                               <button class="btn" type="submit"><i class="fa fa-envelope-o"> </i></button>
                             </span>                        
                         </div>
-                    </form>
+                    </form> --}}
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="cd-half-width" style="text-align: center; padding: 20px;">
@@ -504,7 +504,7 @@
                 <!--/ end about us -->
 				<div class="col-md-6 col-sm-12 footer-widget">
 					<h3 class="widget-title">SISTEMA ARTICULADO DE ATENCIÓN</h3>
-                    <p>En el Distrito Judicial de Tacna, las denuncias de violencia contra la mujer e integrantes del grupo familiar son tramitadas de forma articulada por la PNP y el Poder Judicial respecto a las medidas de Proteccion en la aplicación de la Ley 30364</p>
+                    <p style="text-align: justify;">En el Distrito Judicial de Tacna, las denuncias de violencia contra la mujer e integrantes del grupo familiar son tramitadas de forma articulada por la PNP y el Poder Judicial respecto a las medidas de Proteccion en la aplicación de la Ley 30364</p>
 
                     <div class="img-gallery" style="margin-top: 38px; text-align: center;">
                         <center>
