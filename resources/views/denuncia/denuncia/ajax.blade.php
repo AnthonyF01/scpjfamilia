@@ -470,6 +470,16 @@
                           </td>
                         </tr>
                         <tr class="selected">
+                          <td class="width-20 fweight">Carpeta Fiscal (Fase I):</td>
+                          <td class="width-30">
+                            @if (isset($denuncia->expediented) && !empty($denuncia->expediented))
+                              <small style="font-size:11px;" class="label bg-blue">{{ $denuncia->expediented }}</small>
+                            @else
+                              <small style="font-size:11px;" class="label bg-red">No Registra</small>
+                            @endif
+                          </td>
+                        </tr>
+                        <tr class="selected">
                           <td class="width-20 fweight" title="Fase II-MP">Remitido (Fase II):</td>
                           <td class="width-30">
                             @if (isset($denuncia->remitidod) && !empty($denuncia->remitidod))
