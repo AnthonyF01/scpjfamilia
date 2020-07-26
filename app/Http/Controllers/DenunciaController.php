@@ -2191,8 +2191,8 @@ class DenunciaController extends Controller
                                         else 0
                                     end
                                 when d.fdenuncia is NULL then 0 end
-                            ) as dias_pnp_den from denuncia d
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
+                            ) as dias_pnp_den, d.fdenuncia, d.fformalizacion, d.faudiencia from denuncia d
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.faudiencia is not null and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlPNP .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2234,8 +2234,8 @@ class DenunciaController extends Controller
                                         -- else 0
                                     end
                                 when d.fformalizacion is NULL then '0' end
-                            ) as dias_modulo from denuncia d
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
+                            ) as dias_modulo, d.fdenuncia, d.fformalizacion, d.faudiencia from denuncia d
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.faudiencia is not null and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlMVF .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2275,12 +2275,12 @@ class DenunciaController extends Controller
                             select (case
                                 when d.fdenuncia is not NULL then
                                     case
-                                        when d.fdenuncia  is not NULL then DATEDIFF(d.faudiencia,d.fdenuncia)
+                                        when d.faudiencia  is not NULL then DATEDIFF(d.faudiencia,d.fdenuncia)
                                         else 0
                                     end
-                                when d.fdenuncia is NULL then '0' end
-                            ) as duracion from denuncia d
-                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
+                                when d.fdenuncia is NULL then 0 end
+                            ) as duracion, d.fdenuncia, d.fformalizacion, d.faudiencia from denuncia d
+                            where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.faudiencia is not null and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlDR .= " and month(d.fformalizacion)=".$request['mes']." ";
@@ -2588,7 +2588,7 @@ class DenunciaController extends Controller
                 $chartCID->dataset('Total', 'line', $ingresoArr['values']);
 
                 // TTD - Tiempo de celeridad
-                $sqlTTC = "SELECT distinct mes, sum(a.duracion) as suma, avg(case when a.duracion <> 0 then a.duracion else null end) as promedio from (
+                $sqlTTC = "SELECT distinct mes, sum(a.duracion) as suma, avg(a.duracion) as promedio from (
                         select extract(month FROM d.fformalizacion) as mes, (case
                         when d.fdenuncia is not NULL then
                             case
@@ -2596,8 +2596,8 @@ class DenunciaController extends Controller
                                 else 0
                             end
                         when d.fdenuncia is NULL then 0 end
-                        ) as duracion from denuncia d
-                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.deleted_at is null
+                        ) as duracion, d.fdenuncia, d.fformalizacion, d.faudiencia from denuncia d
+                        where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.faudiencia is not null and d.deleted_at is null
                         AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
                 if (isset($request['mes']) && !empty($request['mes'])) {
                     $sqlTTC .= " and month(d.fformalizacion)=".$request['mes']." ";

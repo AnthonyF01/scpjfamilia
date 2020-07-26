@@ -65,9 +65,9 @@
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            @can ('victima.index')
+                            {{-- @can ('victima.index')
                                 <li class="@yield('denunciasweb')"><a href="{{ route('victima.index') }}"><i class="fa fa-trash"></i> Denuncias Web</a></li>
-                            @endcan
+                            @endcan --}}
                             @can ('denuncia.index')
                                 <li class="@yield('denuncia')"><a href="{{ route('denuncia.index') }}"><i class="fa fa-table"></i> Registros</a></li>
                             @endcan

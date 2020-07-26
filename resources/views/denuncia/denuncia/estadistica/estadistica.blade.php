@@ -657,7 +657,7 @@
                                 <h6 class="center">
                                   <strong>PNP</strong>
                                 </h6>
-                                <div class="circle adjust center green color_bl">{{ round($PNPTotal,1) }}</div>
+                                <div class="circle adjust center green color_bl">{{ round($PNPTotal,0) }}</div>
                               @endif
                             </td>
                             <td>
@@ -668,7 +668,7 @@
                                 <h6 class="center">
                                   <strong>Módulo VF</strong>
                                 </h6>
-                                <div class="circle adjust center pink color_bl">{{ round($MVFTotal,1) }}</div>
+                                <div class="circle adjust center pink color_bl">{{ round($MVFTotal,0) }}</div>
                               @endif
                             </td>
                             <td>
@@ -679,7 +679,8 @@
                                 <h6 class="center">
                                   <strong class="strong">Duración</strong>
                                 </h6>
-                                <div class="circle adjust center blue color_bl">{{ round($PNPTotal,1)+round($MVFTotal,1) }}</div>
+                                {{-- <div class="circle adjust center blue color_bl">{{ round($PNPTotal,1)+round($MVFTotal,1) }}</div> --}}
+                                <div class="circle adjust center blue color_bl">{{ round($DRTotal,0) }}</div>
                               @endif
                             </td>
                             <td>
@@ -687,7 +688,7 @@
                                 <h6 class="center">
                                   <strong class="strong">Remisión</strong>
                                 </h6>
-                                <div class="circle adjust center pj color_bl">{{ round($REMTotal,1) }}</div>
+                                <div class="circle adjust center pj color_bl">{{ round($REMTotal,0) }}</div>
                               @endif
                             </td>
                             <td>
@@ -695,7 +696,7 @@
                                 <h6 class="center">
                                   <strong class="strong">M. Público</strong>
                                 </h6>
-                                <div class="circle adjust center orange color_bl">{{ round($FASEIItotal,1) }}</div>
+                                <div class="circle adjust center orange color_bl">{{ round($FASEIItotal,0) }}</div>
                               @endif
                             </td>
                             <td>
@@ -703,7 +704,7 @@
                                 <h6 class="center">
                                   <strong class="strong">JIP</strong>
                                 </h6>
-                                <div class="circle adjust center pj color_bl">{{ round($FASE31total,1) }}</div>
+                                <div class="circle adjust center pj color_bl">{{ round($FASE31total,0) }}</div>
                               @endif
                             </td>
                             <td>
@@ -711,14 +712,14 @@
                                 <h6 class="center">
                                   <strong class="strong">Juzgamiento</strong>
                                 </h6>
-                                <div class="circle adjust center pj color_bl">{{ round($FASE32total,1) }}</div>
+                                <div class="circle adjust center pj color_bl">{{ round($FASE32total,0) }}</div>
                               @endif
                             </td>
                             <td>
                               <h6 class="center">
                                   <strong>Suma</strong>
                               </h6>
-                              <div class="circle adjust center suma color_bl">{{ round($PNPTotal,1)+round($MVFTotal,1)+round($REMTotal,1)+round($FASEIItotal,1)+round($FASE31total,1)+round($FASE32total,1) }}</div>
+                              <div class="circle adjust center suma color_bl">{{ round($PNPTotal,0)+round($MVFTotal,0)+round($REMTotal,0)+round($FASEIItotal,0)+round($FASE31total,0)+round($FASE32total,0) }}</div>
                             </td>
                           </tr>
                         </tbody>
@@ -905,7 +906,8 @@
                                 <h6 class="center">
                                   <strong class="strong">Duración</strong>
                                 </h6>
-                                <div class="circle adjust center blue color_bl">{{ round($PNPTotal,1)+round($MVFTotal,1) }}</div>
+                                {{-- <div class="circle adjust center blue color_bl">{{ round($PNPTotal,1)+round($MVFTotal,1) }}</div> --}}
+                                <div class="circle adjust center blue color_bl">{{ round($DRTotal,1) }}</div>
                               @endif
                             </td>
                             <td>
