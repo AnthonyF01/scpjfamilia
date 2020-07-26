@@ -2632,7 +2632,8 @@ class DenunciaController extends Controller
                         }
                         if ($_aux == 1) {
                             $celeridadArr['keys'][] = $mesesL[$i];
-                            $celeridadArr['values'][] = round((double)$_total, 1);
+                            // $celeridadArr['values'][] = round((double)$_total, 1);
+                            $celeridadArr['values'][] = round((double)$_total, 0);
                             $heightTTCArr[] = round((double)$_total, 2);
                         }else{
                             $celeridadArr['keys'][] = $mesesL[$i];
