@@ -2230,10 +2230,10 @@ class DenunciaController extends Controller
                                 when d.fformalizacion is not NULL then
                                     case
                                         when d.faudiencia is not NULL then DATEDIFF(d.faudiencia,d.fformalizacion)
-                                        else DATEDIFF(now(),d.fformalizacion)
-                                        -- else 0
+                                        -- else DATEDIFF(now(),d.fformalizacion)
+                                        else 0
                                     end
-                                when d.fformalizacion is NULL then '0' end
+                                when d.fformalizacion is NULL then 0 end
                             ) as dias_modulo, d.fdenuncia, d.fformalizacion, d.faudiencia from denuncia d
                             where tblmodulo_id=".Auth::user()->tblmodulo_id." and d.fdenuncia is not null and d.fformalizacion is not null and d.faudiencia is not null and d.deleted_at is null
                             AND extract(year FROM d.fformalizacion) = ".$request['anio']." ";
@@ -2253,6 +2253,7 @@ class DenunciaController extends Controller
                 $sqlMVF .= "  ) as a ";
 
                 $moduloVF = DB::select(DB::raw($sqlMVF));
+                // dd($moduloVF);
 
                 if ((isset($request['mes']) && !empty($request['mes'])) && (isset($request['anio']) && !empty($request['anio']))) {
                     if (!isset($moduloVF[0]->promedio) && empty($moduloVF[0]->promedio)) {

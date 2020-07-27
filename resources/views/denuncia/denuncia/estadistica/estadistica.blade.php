@@ -679,7 +679,7 @@
                                 <h6 class="center">
                                   <strong class="strong">Duración</strong>
                                 </h6>
-                                {{-- <div class="circle adjust center blue color_bl">{{ round($PNPTotal,1)+round($MVFTotal,1) }}</div> --}}
+                                {{-- <div class="circle adjust center blue color_bl">{{ round($PNPTotal,0)+round($MVFTotal,0) }}</div> --}}
                                 <div class="circle adjust center blue color_bl">{{ round($DRTotal,0) }}</div>
                               @endif
                             </td>
@@ -1438,22 +1438,22 @@
       }
     });
 
-    $("#mes").change(function(event) {
-      if ($(this).val()) {
-        $("#fremisiond").val($(this).val());
-        $("#faudiencia").val($(this).val());
-        $("#fremision").val($(this).val());
-        $("#fjip").val($(this).val());
-        $("#fremisionj").val($(this).val());
-      }
-      else{
-        $("#faudiencia").val('');
-        $("#fremisiond").val('');
-        $("#fremision").val('');
-        $("#fjip").val('');
-        $("#fremisionj").val('');
-      }
-    });
+    // $("#mes").change(function(event) {
+    //   if ($(this).val()) {
+    //     $("#fremisiond").val($(this).val());
+    //     $("#faudiencia").val($(this).val());
+    //     $("#fremision").val($(this).val());
+    //     $("#fjip").val($(this).val());
+    //     $("#fremisionj").val($(this).val());
+    //   }
+    //   else{
+    //     $("#faudiencia").val('');
+    //     $("#fremisiond").val('');
+    //     $("#fremision").val('');
+    //     $("#fjip").val('');
+    //     $("#fremisionj").val('');
+    //   }
+    // });
 
     $(document).ready(function() {
       @if (isset($request['remitido']) && !empty($request['remitido']))

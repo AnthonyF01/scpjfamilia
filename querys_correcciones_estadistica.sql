@@ -12,7 +12,7 @@ from (
 		when d.fdenuncia is NULL then 0 end
 	) as duracion, d.fdenuncia, d.fformalizacion, d.faudiencia from denuncia d
 	where tblmodulo_id=30 and d.fdenuncia is not null and d.fformalizacion is not null and d.faudiencia is not null and d.deleted_at is null
-	AND extract(year FROM d.fformalizacion) = 2020 and month(d.fformalizacion)=7
+	AND extract(year FROM d.fformalizacion) = 2020 and month(d.fformalizacion)=6
 ) as a group by mes order by mes;
                         
 -- --------------------------------
@@ -29,7 +29,7 @@ from (
 		when d.fdenuncia is NULL then 0 end
 	) as duracion, d.fdenuncia, d.fformalizacion, d.faudiencia from denuncia d
 	where tblmodulo_id=30 and d.fdenuncia is not null and d.fformalizacion is not null and d.faudiencia is not null and d.deleted_at is null
-	AND extract(year FROM d.fformalizacion) = 2020 and month(d.fformalizacion)=7 
+	AND extract(year FROM d.fformalizacion) = 2020 and month(d.fformalizacion)=6
 ) as a;
                             
 -- ----------------------------------
@@ -44,7 +44,7 @@ SELECT sum(a.dias_pnp_den) as suma, avg(a.dias_pnp_den) as promedio, count(*) as
 		when d.fdenuncia is NULL then 0 end
 	) as dias_pnp_den, d.fdenuncia, d.fformalizacion, d.faudiencia from denuncia d
 	where tblmodulo_id=30 and d.fdenuncia is not null and d.fformalizacion is not null and d.faudiencia is not null and d.deleted_at is null
-	AND extract(year FROM d.fformalizacion) = 2020 and month(d.fformalizacion)=7
+	AND extract(year FROM d.fformalizacion) = 2020 and month(d.fformalizacion)=6
 ) as a;
                             
 -- -----------------------------
@@ -61,7 +61,7 @@ from (
 		when d.fformalizacion is NULL then 0 end
 	) as dias_modulo, d.fdenuncia, d.fformalizacion, d.faudiencia from denuncia d
 	where tblmodulo_id=30 and d.fdenuncia is not null and d.fformalizacion is not null and d.faudiencia is not null and d.deleted_at is null
-	AND extract(year FROM d.fformalizacion) = 2020 and month(d.fformalizacion)=7 
+	AND extract(year FROM d.fformalizacion) = 2020 and month(d.fformalizacion)=6 
 ) as a;
                             
                             
